@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import re
 import sys
 import time
 import urllib.error
@@ -62,6 +63,17 @@ def get_first_line(content):
     return "(empty)"
 
 
+def extract_title(content, fallback):
+    """Extract episode title from '# {Title} — Transcript ({date})'."""
+    match = re.match(r"^#\s*(.+?)\s*—\s*Transcript\s*\(.+\)\s*$", get_first_line(content))
+    return match.group(1).strip() if match else fallback
+
+
+def sanitize_filename(title):
+    """Replace characters unsafe in filenames."""
+    return re.sub(r'[\\/:*?"<>|]', "-", title).strip()
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Fetch AI Daily Brief transcripts"
@@ -106,10 +118,9 @@ def main():
     count = 0
     for date_obj in date_range(since_date, until_date):
         date_str = date_obj.strftime("%Y-%m-%d")
-        file_path = episodes_dir / f"{date_str}.md"
 
-        # Skip if file already exists
-        if file_path.exists():
+        # Skip if already fetched (current "date - title.md" or legacy "date.md")
+        if any(episodes_dir.glob(f"{date_str} - *.md")) or (episodes_dir / f"{date_str}.md").exists():
             continue
 
         # Fetch transcript
@@ -121,9 +132,10 @@ def main():
             continue
         elif status:
             # 200 — save file
+            title = sanitize_filename(extract_title(content, date_str))
+            file_path = episodes_dir / f"{date_str} - {title}.md"
             file_path.write_text(content, encoding="utf-8")
-            first_line = get_first_line(content)
-            print(f"saved {date_str}: {first_line}")
+            print(f"saved {date_str}: {title}")
             count += 1
         else:
             # Other error — warn to stderr

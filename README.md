@@ -15,13 +15,13 @@ Use this archive to search, summarize, or ask questions across episodes — grea
 
 ```
 episodes/
-  2023-01-15.md
-  2023-01-16.md
+  2026-06-01 - The AI Token Shortage Begins.md
+  2026-06-02 - With AI IPOs On the Way, Should the Public Own AI Companies-.md
   ...
-  2026-08-01.md
+  2026-08-02 - Everything You Need to Know About AI Tokens.md
 ```
 
-Each file is named `YYYY-MM-DD.md` and contains the transcript for that date's episode.
+Each file is named `YYYY-MM-DD - Episode Title.md`. Characters unsafe in filenames (`/ \ : * ? " < > |`) are replaced with `-`.
 
 ## How It Works
 
