@@ -1,0 +1,407 @@
+# How to Start AI Coding If You Haven’t Yet — Transcript (2026-08-29)
+
+https://aidailybrief.ai/e/2026-08-29 · Listen: https://pod.link/1680633614
+
+---
+
+[00:00:00] 
+
+Well,
+
+friends, it is officially time. Officially time to stop acting like coding with AI is something that is just for software engineers, because it is not
+
+Now, obviously throughout the course of the last year and a half, as tools like Lovable and Replit and then Claude Code and Codex came online,
+
+
+
+more and more knowledge workers outside of software engineering started to figure out how to use the power of 
+
+writing code and building software to solve their own problems.
+
+And this is not just about all of a sudden those non-software engineers trying to act like software engineers. 
+
+It's about finding new ways to do their jobs with the aid of software that they can build themselves and yet for so many people, this still feels so inaccessible and out of range
+
+But it doesn't have to be
+
+
+
+the AI Daily Brief is a daily podcast and video about the most important news and discussions in 
+
+AI. 
+
+AI. All right, [00:01:00] friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Blitzy, Robots and Pencils, and Hyperagent To get an ad free version of the show, go to patreon.com/aidailybrief, or you can subscribe on Apple Podcasts.
+
+To learn To learn more about sponsoring the show, send us a note at sponsors@aidailybrief.ai
+
+Quick Quick requisite shill for our upcoming super intelligent executive agent leadership program. Nufar Gaspar version of the Agent OS and ClawCamp style programs that we've had in the past, focused on helping you not only learn how to build agents for work, but how to build these systems around them that allow them to intersect with your work in a safe,secure way.
+
+the next cohort starts just after Labor Day and is registering now. conversation. I was I was recently having a conversation
+
+With one of my daughter's friend's parents And this is a person who has been using AI extensively for a couple of years. they have multiple subscriptions to multiple different services at high expensive levels
+
+And has moved a lot of their work into an AI-assisted type of paradigm
+
+[00:02:00] And yet for them, even considering anything surrounding AI coding still seemed totally foreign
+
+They were, in short, living that co-work life, never venturing over into the Claude Code side of the world. and I think losing quite a bit for it
+
+
+
+with absolutely no value judgments placed on where people are, I do think not having AI coding tools in your toolkit as a non-software engineer knowledge worker Does at this point leave you behind that up-- earlier this week we did that episode about OpenAI's recent enterprise research that found that around the end of April, beginning of May, the percentage of tokens that were being consumed via API agentically had flipped the amount of tokens being used non-agentically through ChatGPT, and that number has done nothing but rise.
+
+we saw that the firms who were in the top 10% of enterprise users as opposed to the average firms were using about 8.3 times as much AI
+
+and the use cases that they were deploying were a lot more sophisticated, getting much more into systems and overall disruption.
+
+And putting a fine point on the idea that this is not just a thing for software engineers alone
+
+[00:03:00] While starting from the February baseline, engineering-related users of Codex in the enterprise had grown 5X. Basically every other function had grown significantly more
+
+Finance and accounting was using Codex,twenty times more than it had been in February. sales and accounting was using it forty-one times as much, and legal was using it a hundred and eight times as much as it had been back in February
+
+these people-- So what the heck are all these people doing with AI coding?
+
+One thing that they are not doing, in most cases, is all of a sudden trying to become the software engineers for their organization. This, I think, was a misconception of the early days of vibe coding 
+
+that has still a bit stubbornly persisted with us despite it being for a long time not really where people are
+
+The real argument for deploying AI coding as part of your AI toolkit as a knowledge worker
+
+is not that you're going to become the software engineer, but because we're seeing that the people who are building are compounding their gains and their advantages relative to other AI users
+
+that 8.3X gap that we 
+
+saw between typical firms and frontier [00:04:00] firms was up from a 2.6X gap back in January
+
+But there's a lot more reasons that you should consider coding as well
+
+You're already doing a lot of the activity that would be extremely well-suited to being supported by software
+
+And a lot of the barriers that you would've always assumed have kept you back are pretty much just now gone
+
+And the reason to start now is that until you do, it's extremely hard to see which of your problems in work actually have software-shaped solutions. Although we're gonna try to do a bunch of that today
+
+across, now when I run across folks like this friend that I was talking about before from my town
+
+I hear some pretty common sets of reasons why they haven't fully dived in yet. A lot of them come down to self-perception. The idea that they're, quote-unquote, "not a technical person," whatever that means
+
+But if you're someone who's been using AI for a couple of years now and is splitting your time across multiple subscriptions, You're certainly technical enough to dive into this other field
+
+Some folks have a fear of breaking something
+
+They're worried that they'll make a mistake or they'll authorize AI to do something that leads to some irredeemable error
+
+and it's not that there's no [00:05:00] rationale here
+
+But there are of course ways to address those types of concerns, and certainly fear shouldn't be holding you back
+
+For a lot of folks, it's still perceived barriers to entry
+
+
+
+if they tried to use a terminal interface first, They might have taken one look at it and turned right around. And relatedly, maybe some of the on-ramps were wrong. Ifthey tried to find some tutorial online, it might have been having them try to build something that wasn't relevant for their work
+
+And I think that's the big one
+
+that they're just not sure from where they're sitting what building and using AI coding could actually be for, for them. So let's try to answer that question specifically.
+
+And we're gonna start with three build patterns You can think about a build pattern as the software that you're writing's relationship to work that already exists
+
+m- I think it falls into three categories
+
+Is it reproducing an old output, changing the way an old job gets done, or making a previously impossible job possible? So pattern one, let's call automation. Same job, same output
+
+In this case, the output stays the same, but you stop making it by hand. This could be [00:06:00] renaming files, syncing lists, filling templates, reworking exports, those types of things
+
+in, you know that the work falls into this build pattern if someone who is receiving the output of that work wouldn't notice that anything had changed
+
+If the software that you built to do it broke, you would simply go back to doing it by hand, doing the same steps manually For some people, this is a good place to start because they already know what correct looks like. And a lot of this is the type of rote work that is time and energy-draining relativeto the things that you might actually wanna be doing at work The second pattern we'll call upgrade.
+
+So same job, but new output An example of this would be a report becoming a live dashboard, a deck becoming a web application, a status email becoming a self-serve page
+
+Whereas with automation, the receiver of that work wouldn't be able to tell the difference. the person on the other end of this one gets something that is distinctly different and presumably a lot better Now, if your software broke for doing this, you could fall back to the old PDF spreadsheet or meeting, but it would probably be pretty unsatisfying to do so the [00:07:00] payoff for upgrading work is not just saving time, but that one of these types of recurring tasks becomes an actual asset
+
+and a way to outperform and stand out
+
+Pattern three is the most exciting, But the hardest to wrap our heads around until we're actually in it. And that is invention. In other words, new job, new output
+
+This build pattern involves jobs that didn't exist before because doing it the old manual way was never practical or even possible
+
+Interviewing every person, monitoring hundreds of sources, testing thousands of different combinations of copy
+
+All of these would have been completely outside the realm of the possible in the pre-software world
+
+But now all of a sudden, thanks to building something that wasn't possible before becomes unlocked. to-- Now, in addition to it sometimes being hard to spot from the outside what is going to be a good use of this type of invention, there is also a risk that because there is nothing proven to copy, you might sometimes find yourself building a capability that neither you nor anyone else ultimately uses in-- certainly I have built far [00:08:00] more things than are actually part of my day-to-day routines.
+
+and that's just part of the cost of doing business So, okay, we've got three build patterns now: automate, upgrade, invent
+
+
+
+next up, let's talk about delivery classes
+
+This is about the shape of the software that gets produced and it is about who is using it and for what
+
+Understanding this is going to determine a lot about the type of software that you need to build. How much security, documentation, support, whatever you're building is actually going to need. And it turns out there is a significant range here
+
+So let's talk about a handful of non-exhaustive categories. On one end of the spectrum, you have prototypes. This is a temporary build whose job is to answer a question or test some sort of interaction or idea, or help move a decision to the next step
+
+What you produce can actually be pretty disposable
+
+you might be prototyping something for your own workor team, or using prototypes as a new way to explain features you'd like to see and engaging with other teams that you weren't previously able to
+
+these are builds [00:09:00] that you're gonna optimize for speed, clarity, representative examples Not security, depth, usability, anything like that
+
+Moving up the ladder of durability, we have what a lot of people are calling personal software
+
+This is a tool that you've built for yourself or perhaps a small team around you that handles some particular need in an ongoing and reliable way
+
+whereas a prototype can just show the idea, personal software still needs to be good enough that it actually does the thing that you or your team need it to do. But you can still compromise on things like perfect UX, permissions considerations, visual polish, edge cases
+
+Basically, because it is for you, anywhere a compromise feels worth it to you, you can make that compromise
+
+This blurs a bit into the next category, one more up the ladder of durability, which we might call production grade software. This is software that's going to be used by other people that aren't you or your small team. It's where a failure could cost trust, time, money, access, et cetera. [00:10:00] It needs to be good enough that users who, again, aren't you, can actually use it under realistic load conditions
+
+There have to be pathways to solve problems that inevitably come up It's gotta have enough security, access control, privacy, et cetera, to meet the needs of whoever the users are
+
+But you're still not talking about mass consumption. It is still extremely discrete for some specific purpose, for some specific group of people
+
+Now it's important to note that even though personal software and production software, as I'm defining them here are more durable than prototypes, they still can be disposable. It's okay if your personal or production software is only useful for some specific goal for some specific period of time And then you cease to use it.
+
+This is one of the things that's so different about building software now, is that we wouldn't have taken the time to build disposable software before. We would have solved it in other ways because the cost of building that software wouldn't be justified by the amount of time or the specific use case that we were building it for.
+
+That equation changes and it opens up a [00:11:00] lot of interesting opportunities The last category all the way up the ladder of durability and significance is an actual product that's meant to not just serve some specific group of people, but to serve a market overall. This is where you really are acting like a software engineer of yore and releasing something where people you don't even know are gonna be using it in some way.
+
+And in that, it has all of the same considerations and burdens that building software for general consumption always had. Now, let me use a demonstrative example from AIDB to give you a sense of this
+
+One of the interesting things about the AI Daily Brief is that one of the things that I hear most that people enjoy about it is its information density. people really like the ratio of the amount of value they get per minute.
+
+in-- However, for someone new, that information density can create a really big barrier to entry
+
+So for a while, I had the idea of breaking every edition into smaller chunks
+
+
+
+since the most common growth pattern that I've seen is colleagues sharing the show with each other
+
+I wanted to organize those chunks around these specific key quotes or themes or ideas or [00:12:00] statistics that comprised any show so that a listener would be able to not just share the entire show, but the very specific part of the show that they thought would matter to their colleague
+
+the current, this is what became the current website that we have at aidailybrief.ai But that process started with a prototype. Before I actually built the entire system for this, I did a bunch of testing to see
+
+was the AI that I was using good enough to actually automate the extraction of these themes? and in short, it wasn't until we got Fable and GPT 
+
+
+
+but once I had prototyped to figure out that indeed it was good enough, I could move it to the next category
+
+of personal software where I actually built the extraction pipeline that could take a transcript and turn it into a new edition on the website
+
+things, there were certain things that were non-compromisable here and certain things that I could compromise on
+
+And then once I had that working for me, I needed to make it accessible for a small number of people on my team
+
+which I still consider that personal software category
+
+but the next problem that I had is that I just haven't invested enough in social
+
+And while I don't believe that just automating a content pipeline is a sufficient social strategy, [00:13:00] it is certainly the basis for any social strategy. The fact that there is so much content
+
+that I'm producing that now gets segmented in easily shareable ways but wasn't being sharedwas just dumb
+
+and so the next thing I built
+
+was another pipeline automation that would take the extractions for the website and turn them into social content for Twitter and LinkedIn
+
+And then automatically post them
+
+Now, in a lot of ways, this is still personal software
+
+because I wasn't actually having it serve others
+
+But it starts to get blurry as it interacts with real world systems. maybe a better example of production software from my world is the one that I'm actually not gonna show you an example of, but is a new reporting system that I'm building for sponsors instead of emails or spreadsheets that have lists of statistics, it's going to be a sign-on experience that sponsors can just click around in, get insights about the performance of different episodes that their ads were featured on
+
+And that is one where it is absolutely in that category of production software that is not just for me and my small team, but for serving others, but where it's a very discrete set of others that I actually know
+
+Now, of Now, of course, there could be a next step available for example, if I [00:14:00] wanted to turn that sponsor reporting software into a product that people could just buy, there would be a massive leap between the production software that I was sharing with my sponsors and the product which I was selling to others.
+
+So that's the difference between those two
+
+A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
+
+Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends [00:15:00] days reverse engineering your entire code base
+
+Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
+
+the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
+
+Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
+
+validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
+
+See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
+
+And they're hiring
+
+50 open roles. If you're someone who knows this moment [00:16:00] is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
+
+This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
+
+
+
+This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+[00:17:00] Okay, so now we've talked about the three build patterns and these four different delivery classes, but what about for you? which parts of your work could be software My big asterisk on this part of the episode is that no one from outside is going to be able to tell you exactly
+
+which of your work would be best suited to becoming software. But these are some common patterns that I've seen and that I've experienced that could maybe get the juices flowing
+
+I've organized it into six categories: presentation work, content work, data work, document work, inbox work, and admin work So presentation work. Pretty much all of us in some ways have to show things to people
+
+And this is one of the best areas for that upgrade build pattern where the underlying job stays the same, but there is a totally new type of output
+
+So think about these questions. do you have some sort of presentation that would benefit from interactivity?
+
+a, instead of doing a PDF, build an HTML page. in fact, I have a whole episode in the archive about why you should be using HTML instead of other content [00:18:00] forms. Do you explain the same things to different people? If you've walked through the same set of information 100 different times, that might be a good fit for an interactive explainer or a bot that answers the questions Do you calculate the same things for different people?
+
+Again, that could become a self-managed calculator. Do you help people compare options? Plans, vendors, scenarios, packages. That could become a comparison tool. Do you onboard or train people?
+
+If you give new clients or new hires the same tour every time, that could become a walkthrough, a checklist, or even a quiz
+
+Do you tell people where things stand? Projects, orders, applications, and the, any update emails that come along with them. that is waiting for an automated status page so they can just look at it and stop asking. Do you keep looking up the same reference material? Rates, rules, contacts, specs.
+
+Again, that sounds to me like great fodder for a lookup tool
+
+Next category is content work
+
+Another very common category. One of the things that AI is the best at is turning content into other content. If you turn transcripts into [00:19:00] summaries or long things into short things or one thing into five posts, that is not only well-suited for AI, and probably you are already using it for such. You should be building an automated pipeline for doing it
+
+Think Think about the extraction pipeline that I built for the website. Could I, every day, take the day's transcript, plop it into ChatGPT or Claude, and ask it to extract all the key headlines, and give me a list That I could then go manually type into the webpage Of course I could, and that would still be a lot faster than me manually extracting those parts. but there's no reason that entire process can't be automated end to end. And that's where building software to do so came in for me
+
+Now the next category is data work, and this is one of the most common starting points I see for non-technical knowledge workers who get into building software to help them. And this makes sense given how many data analysts already had some experience writing Python
+
+to help with their work, it's not surprising that this is an entry point for a lot of others as well So if you are doing any sort of recurring data analysis, pulling the numbers, making the same charts, answering how we're [00:20:00] doing, building the application that has both the dashboard that answers it, as well as interactive tools to allow people to ask different questions of it, is an incredibly good use of building software.
+
+That basically describes exactly the sponsor portal that I was just discussing for AIDB Now another part of data work that kind of goes back to that content piece is data translation, where you export from one system, rework it by hand into a format that someone else needs like a CRM export that becomes a sales sheet
+
+If step one was automating parts of that process, Step two is to build the software pipeline that just does it all end to end
+
+And that pattern again Shows up a lot in the next category, document work, where a lot of the starting point for knowledge workers building instead of just using AI, is that if they had already figured out that on a thing they do over and over, AI can speed up doing that thing, there might be a further step to further automate it if you build software to do that automation.
+
+So filling in the same templates over and over, doing the same thing to a lot of different files like renaming, converting, or resizing, reading a lot of documents to find specific [00:21:00] things. AI could help you manually, i.e. you put those things into AI each individual time, or it could be helping you in an automated ongoing way if you build the software to do so
+
+Inbox work. Do you collect things from people like applications, sign-up requests, submissions? Now in a lot of cases, there's probably existing software that solves that for you, but it's not at all inconceivable that there's some specific discrete need that you have that doesn't perfectly fit with one of those vendors now.
+
+And that would be a reason to building some intake system and this, by the way, gets to another great point that I think is important. Just because you can build something doesn't mean that you always need to
+
+one of the things that you will almost definitely find once you start your building an AI coding journey
+
+is that you'll be squinting at something that you pay for and think to yourself, " I could just build that. Why am I paying for it?"
+
+But there will often be good reasons not to. a team whose whole job and mission is to respond to the needs of their customers around a particular product has a lot more raw capacity to do software well than you do as the 68th thing on your to-do list
+
+Almost always I'm [00:22:00] checking to see if there's anything that exists out there that could be doing the thing for me before I'm committing to entirely building it myself
+
+An example An example that came up recently when I was building the social pipeline is we could've done the automated posting directly via the X and LinkedIn APIs
+
+but we found a service, Typefully, that just had that capability natively and could interact really well with the pipeline that we had built
+
+That saved me a huge amount of anguish and agony and tokens
+
+And so even in the context of my personal software, that personal software was able to interact with very much non-personal software that someone else had built to be a complete solution
+
+So let's close by trying to put this all together with six theoretical projects. And once again, these are humbly submitted just as thought starters for you, not as the paragon of the best type of build projects for knowledge workers or anything like that
+
+Two projects each from each of the three different build pattern categories
+
+First up is automation
+
+With the first project being something I'll call the Friday export. This is turning that spreadsheet ritual that you can do with your eyes closed into a small [00:23:00] inspectable transformation pipeline. So you've got a CSV or a spreadsheet from one system that you rename, filter, split, join, calculate, reorder, restyle, analyze.
+
+and what you're going to build is a local page where you drop the raw export, preview the transformation, see anything that needs attention, and download the finished file in the exact old format. It's the same trusted deliverable, but you don't have to give up your Friday afternoon anymore
+
+a similar type of automation is the invoice pile
+
+You've got invoices, receipts, statements arriving as PDFs or photos, plus a tracker where vendor, date, amount, category, and reference number are typed by hand What you're gonna build is a watched folder or drop zone that reads each document, normalizes its fields, flags low confidence values, catches duplicates
+
+And produces that same old key spreadsheet but where you're just doing the review rather than the manual input
+
+you can see here that the build pattern of automation really is about saving you time and agony and leaving you space to do other things. And that building software to do so is just another tool in your toolkit to win back your time. You invest a little [00:24:00] upfront to build the software, and you get back a big time ROI on the other side Now the next projects we'll talk about fit into the build pattern of upgrade
+
+and the first one is an idea that's come across a number of different times in this episode, which we'll call the live report
+
+Anytime you owe someone some set of numbers or analysis at some specific regular interval, you could consider no longer sending them snapshots But instead giving them one place to see a continuously, or regularly updated stream of data with the ability to ask questions of and interrogate that information without you having to be the interlocutor.
+
+so my sponsors are an example of this, but maybe you have a weekly or monthly numbers email, a deck, a PDF for a client, a boss, a board, a funder, a sponsor, followed by requests for different date ranges, breakdowns. What you're gonna build is a focused page that refreshes from the source of the data.
+
+it's gonna show the user when the data was last updated
+
+It's gonna answer the most important questions automatically. it's gonna provide some amount of automated analysis. And if you really wanna push yourself, maybe you even allow them to use AI to interact with it in some [00:25:00] way and try to get answers to their questions without having to go to you first
+
+
+
+this is an example not only of an upgrade where the job is the same butthe output is better. It's also an example of the production software delivery class, where you are building something that is going to be used by someone else, but a very specific and knowable someone else, where you can still figure out based on that audience what the right trade-offs can be
+
+a a second upgrade project we'll call the what if slider
+
+I'm I'm sure some of you have some sort of projection, staffing plan, quote, scenario model in a deck that inevitably comes to a question of, "Well, what if we changed price, volume, timing, headcount?" spread-- Now maybe you can just use a spreadsheet for this. Again, we're not trying to build software just for the sake of building software
+
+And Excel and Google Sheets are really good at allowing you to change the numbers and see what comes out. But Excel has its limits, and there might be a lot of additional variables that don't translate cleanly into numbers
+
+that a personal software style what if slider I.e., a page that exposes the variables and allows people to interact and change them 
+
+to see what outputs would change on the other end could be a [00:26:00] better fit for that sort of what if scenario planning
+
+sig-- finally two theoretical projects on the invention side
+
+The The first we'll call the watcher, and it's basically your personal agentic researcher
+
+Let's imagine that you have some type of information or data that changes over time that knowing the changes about are integral to your work in some way. That could be competitor pricing, job posts, grant pages, mentions, inventory, regulator guidance that changes unpredictably
+
+Trying to keep track of all of that is something that can be done by hand, but especially if it's at all unpredictable when those things are going to change, that can take a lot of time and energy
+
+You could build some checker that watches those data sources
+
+Cleans up for irrelevant noise
+
+keeps track of history and changes, and automatically sends updates when it matters. Now, this is obviously a monitoring job that didn't exist before
+
+but which can now help you do your work in a fundamentally better way
+
+list-- now regular listeners might be thinking to themselves, "Gosh, that sounds kind of a lot like the type of thing you can do with personal agent [00:27:00] software like OpenClaw or more recently GroqBot," and you would be right in that.
+
+
+
+one of the things that I think we will have to watch in the coming months and years is how many of what we might call build projects right now, where you would build custom software
+
+get solved by agents with the right combination of pre-programming and customizability
+
+As fun as building stuff is, we should obviously be cheering when simpler approaches allow us to solve that problem without spending all that effort
+
+Another invention project which honestly might end up the domain of agents we'll call the pattern reader. Imagine that you have some big pile of information that nobody has the time to read. Support tickets, sales transcripts, reviews, applications, survey answers, interview notes, incident reports. You can build a local analysis tool that cleans it all, groups recurring themes, compares segments or time periods, links claims back to representative source passages
+
+And provide some ongoing and updated analysis
+
+Because that pattern reader is a persistent piece of software that is regularly updating itself, you can intersect with it at any given point without having to do a bunch of work to get it ready to answer the questions that [00:28:00] you have
+
+Now Now it's really important to note that while it's fairly easy for me to give you some examples
+
+of automation or upgrade style build patterns. When it comes to invention, there is pretty much no way to know what stuff you're going to invent until you start messing around. And I think this is ultimately the point and the recommendation there there is no reason anymore for you not to dive in and start experimenting with how AI coding could support your work
+
+
+
+with, if you wanna start with the most helpful training wheels, you can do Lovable or Replit
+
+If you wanna stay in the ecosystems that you're already operating in, try Codex or Claude Code In either case Take whatever seemed most vaguely interesting from all of what I just said, and just go see what it would take to build that thing. Maybe it amounts to nothing. Maybe you abandon it right away.
+
+Maybe after time and experimentation, you decide that there's actually nothing that existing software or agents can't do for you
+
+but my strong belief is that building software, not for the sake of releasing software for other people to use, but for the sake of doing your own work better, is now just a [00:29:00] foundational capacity that knowledge workers need to have.
+
+Hopefully, it feels less intimidating to start after this episode, but for now, that is gonna do it for today's AI Daily Brief. Appreciate you listening or watching as always, and until next time, peace. 
+
+​
