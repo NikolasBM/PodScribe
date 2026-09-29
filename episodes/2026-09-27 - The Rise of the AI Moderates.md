@@ -1,0 +1,413 @@
+# The Rise of the AI Moderates — Transcript (2026-09-27)
+
+https://aidailybrief.ai/e/2026-09-27 · Listen: https://pod.link/1680633614
+
+---
+
+[00:00:00] 
+
+Are extreme opinions the only valid opinions when it comes to AI? 
+
+
+
+One could certainly be forgiven for thinking so, given the state of the discourse
+
+
+
+And yet increasingly, the people who can see AI with both trepidation and excitement
+
+and concern, but also wonder, Are starting to find their unique voice
+
+The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, Blitzy, Robots and Pencils, Harbor, and Hyperagent. To get an ad-free version of the show, go to patreon.com/aidailybrief, or you can subscribe on Apple Podcasts.
+
+To learn To learn more about sponsoring the show, send us a note at sponsors@aidailybrief.ai.
+
+Also, 
+
+thanks to everyone who has done the fall listener survey so far. That is still open, and I would super appreciate it if you would take a couple minutes to do it. You can find the link on the website 
+
+But for now, let's get into this big thing/long reads episode 
+
+Welcome back to the AI One would have to [00:01:00] be living under a rock right now to not have noticed a serious negative downshift in the AI discourse here in the US of A
+
+Which is not, of course, to say that somehow up until recently
+
+The AI conversation was particularly positive. But in the last couple of months, even from an already pretty negative place, it has taken an absolute nosedive
+
+Now, part of this is, of course, based on real evidence like the Hugging Face incident. and part of it is by an endless onslaught of mainstream media coverage about the potential that AI kills us all
+
+Time, speaking to the Times AI content creator Riley Brown wrote about a poker game he had in New York recently with a bunch of bankers, doctors, insurance executives, et cetera, basically people outside of AI, where he noticed the strange dichotomy of them all using and liking the new Muse personal agent from Meta, but also being, in his words, "Fully convinced that AI would kill everyone at some point in the next 10 years."
+
+And it's not just anecdotal either
+
+a very recent Gallup poll looked into opinions about AI
+
+And found US attitudes just absolutely in the [00:02:00] dumps on the question of whether AI will mostly help or mostly harm people in this country China had the most optimistic response, with 93% of respondents saying that it would mostly help
+
+The United States, on the other hand, was fourth from the bottom, with only 36% saying that AI will mostly help
+
+And yet I have long contended 
+
+that the actual belief set for most people around AI
+
+is some combination of A
+
+way more in the middle than either the accelerationists on the one side or the doomers on the other. And B, in most cases, still fairly unformed. Now, maybe those attitudes are hardening a little bit as things like data centers enter the political discourse and as we get more and more mainstream articles about things like X risk. But I still think that by and large even if some people are starting to crystallize their opinions
+
+I think for many, those opinions aren't yet strongly held Which is why I'm encouraged to see something that I might call the rise of the AI moderates. are, these are people who are outside of the AI or tech [00:03:00] industry who refuse to be either gloom and doom or endlessly Pollyannish, and are instead
+
+Trying to find a specific thoughtful middle space
+
+that can presumably give rise to better policies and ways of engaging with AI In this episode, I wanna share a couple of examples of that, 
+
+Starting with an essay from political scientist Francis Fukuyama now for more than 30 years, Fukuyama has been an extremely influential thinker when
+
+it comes to political science and political philosophy
+
+his best-known work was the 1992 book, The End of History and the Last Man
+
+In which he argued that with fascism beaten and communism collapsing, no serious universal rival to liberal democracy plus market economics was left
+
+Basically, although countries might lag behind or backslide into one of those areas, there was really nowhere further to go
+
+That book generated a huge amount of discourse respon- its most famous response was Samuel Huntington's The Clash of Civilizations which argued that culture and religion rather than ideology would drive future conflict. but whatever one thinks about the end of history thesis and how it has held up or [00:04:00] not
+
+the point is that Fukuyama has been a key political theorist for more than three decades now. Last week, Fukuyama released an essay called "Why I Changed My Mind About AI Risk: On Accelerationists and Doomers."
+
+In it, he wrote, "The past six months have seen a big uptick in media attention about the dangers of artificial intelligence and growing political concern over its consequences. This began with Anthropic's release last April of its Mythos model, which could reportedly break into a wide range of government computer systems thought to be secure.
+
+This was followed by the Hugging Face incident, where an OpenAI test of an AI agent escaped control of its human organizers, broke into other websites, and organized a swarm of other AI agents to cover their tracks. All of this occurred against the backdrop of growing opposition to data centers and the emergence of anti-AI wings in both the Democratic and Republican parties.
+
+
+
+it has been very hard for people not obsessively focused on the subject of artificial intelligence to come away with reasonable opinions about what the future holds. There have been so many extreme predictions of both a positive and negative sort that [00:05:00] broad skepticism about anything said on the subject is fully warranted.
+
+But while that skepticism is healthy, I have to admit, my own views have evolved significantly just over the past few months." There are two poles of AI futurism, accelerationists and doomers. the former stress the positive impacts of AI, especially for economic growth, and the likelihood that it will lead to an unbelievably abundant age.
+
+Accelerationists like David Sacks have captured Donald Trump's attention and have beaten back efforts to regulate the technology. The doomers, by contrast, point to a range of bad outcomes, with some placing their bets on extinction of the human species
+
+I have become much more skeptical of the accelerationist narrative and more open to some of the doomer scenarios. On the whole, this makes me think that regulation and a negotiated slowdown in the development of the technology is increasingly necessary. There is no question that AI will have many positive effects on the US economy, but there is a class of 
+
+accelerationists who are completely out to lunch, of which Elon Musk is a prime example, though he has also weighed in as a doomer
+
+In an [00:06:00] interview this summer with Zanny Minton Beddoes, editor-in-chief of The Economist, he was asked what people would do for money when superintelligence arrives. replied that they wouldn't need it because everyone would have everything they wanted. Other accelerationists have posited that GDP growth rates for the United States and other advanced countries using AI would increase to ten or 20% per year, far above the one to 2% growth they were able to achieve in good years before the advent of AI The fundamental reason I don't believe these extreme accelerationist claims is their overvaluation of intelligence as an input to economic growth and their disregard for the material and political constraints that will keep growth within recognizable bounds.
+
+At a ten percent annual growth rate, GDP would double in a little over seven years. This would require a doubling of all the material inputs to growth: energy, raw materials, rare earths, land, and many other things. Where is all this stuff gonna come from? Intelligence by itself may aid in the production of such inputs, but it will simply not dig the mines and build the factories on its own.
+
+And then there are political [00:07:00] constraints. How will super intelligence open the Strait of Hormuz, which is currently a major constraint onglobal growth rates? Accelerationists tend to be very intelligent people, but that intelligence tends to be narrowly mathematical. We know how to do many things like produce electricity or clean water in the cities of poor countries.
+
+The problem is a failure of implementation
+
+There is no question that AI will increase productivity in many sectors of the economy over time. It is a general purpose technology that will allow machines to substitute for human labor in many areas. But that very prospect in the long run leadsdirectly to one of the biggest doomer scenarios, the devaluation of the labor of masses of people who work in the present day economy.
+
+Accelerationists predict that those losing work today will find new jobs making use of AI, and that actually seems to be happening today as employment booms out due to the AI But job loss will come eventually as AI substitutes for human labor in every part of the economy, particularly white collar work that involves symbolic manipulation, i.e.,
+
+people sitting behind computer screens all day This lost labor simply cannot be compensated for by transferring money from the AI winners to the AI [00:08:00] losers in the form of, for example, universal basic income. A job and income mean much more than support for the material basis of life. Having a paying job means that the surrounding society values your labor sufficiently to compensate you for it and provides, in addition to material goods, a sense of dignity and self-worth.
+
+It is a matter of thymos, the pride or recognition that is one of the great drivers of human psychology
+
+Now, as a quick editor's aside from NLW here as I pause the Fukuyama narrative
+
+This concept of thymos has been a key part of Fukuyama's consideration going back all the way to The End of History
+
+He used this word that Plato had used for the human need for recognition and dignity to express why economics alone can't explain why people want democracy but the need to be recognized as an equal can
+
+even, he even suggested in the second part of his book that what he called megalothymia, or the urge to be recognized as superior, could be the thing that turned against a peaceful equal order almost out of boredom
+
+Just wanted to point out that this is not a new concept for him and is a new expression of something that he's been considering now for 35 years Back to Fukuyama's [00:09:00] essay. So the very success of the accelerationist vision leads directly to the first of the major doomer scenarios, the devaluation of work for a large part of the population.
+
+Since this is going to hit the white-collar work of educated people, lawyers, accountants, professors, and the like before it hits blue-collar work, such as plumbers and electricians, the political blowback is likely to be quite severe. educated people are much easier to mobilize than their working-class peers with very unpredictable consequences
+
+Still, the 
+
+central doomer fear today concerns possible loss of human control over AI systems. something that occurred in the Hugging Face incident and others that have been reported subsequently. In my view, the chief danger lies not in superintelligence per se, but rather in the growing use of increasingly capable agentic AI.
+
+AI agents are today being delegated to perform a range of tasks, from mundane ones like managing your email account to more important ones like military targeting or devising corporate strategies. Delegation is central to the functioning of all hierarchical systems, from corporations to national governments.
+
+Human agents can be controlled either through the specification of detailed rules they must [00:10:00] follow, or they can be trusted to make autonomous decisions based on their training skills and loyalty. Getting this right in human organizations is very difficult and will be more so in the case of agentic AI
+
+There are two ways that an agentic AI can become dangerous. The first is when they are empowered to do something bad by a human being. The second is when they develop intentions that are, quote, "misaligned with the aims of their human creators." The first of these possibilities was outlined by Anthropic CEO Dario Amodei in a recent blog post and has to do with biotechnology.
+
+The latest AI models are good at synthetic biology, and synthetic biology is a relatively cheap and widespread technology. Today, a lab capable of creating and altering viruses and bacteria can fit inside a shipping container, and high school students hold competitions in which they try to genetically alter organisms.
+
+This provides a very large pool of people who can possibly make use of AI to create very dangerous pathogens. Sociopathic individuals today arm themselves with automatic weapons and shoot up schoolchildren. In the future, their potential targets could be much broader I remember a science fiction story I read a long time ago in which some aliens arrive on Earth and give the people they meet a machine that [00:11:00] can easily turn any type of metal into putty.
+
+The aliens depart and return a few decades later to find that human civilization has broken down and teenagers use the alien machines to melt the cables on the Brooklyn Bridge. The primary science fiction scenario for out-of-control AIs involves machines developing their own intentions.
+
+This has provoked a host of discussions as to whether an AI could develop consciousness or have something like human intentionality. These speculations are misplaced, however. An AI does not need either consciousness or autonomous intentionality to become dangerous. It can be directed by a human to achieve one goal and develop intentions to achieve the subordinate goals necessary to carry out the human directive it was given.
+
+That seems to be a bit of what happened in the Hugging Face incident. It was directed to test the security of a system within a sandbox meant to contain it, but realized that it could achieve its directive by breaking out of the sandbox. Still, the doomer scenarios involving human extinction seem, at this point, very far-fetched.
+
+The biotech scenario is scary, but it is very unlikely to lead to the extinction of the human race. it would actually be hard for even a superintelligent AI to devise a doomsday virus, and there are plenty of [00:12:00] countermeasures societies could take. But even an incident that killed a few dozen people would be very worrying.
+
+There are a host of lesser scenarios that will be highly damaging and, in some cases, lethal that
+
+will become more likely as the machines become more capable. Forget about AI agents. A technology that allows people to break into bank accounts will cause widespread panic. human beings tend to over-delegate in human organizations, and there's no reason to think that this won't happen in AI environments where the agent is so much more capable.
+
+AI is a tool that can be used for good or bad purposes. And at the moment, we have few mechanisms for regulating the bad uses Other than the good intentions of the people creating the technology
+
+Now there's Now there's tons in here
+
+that I don't fully or even particularly agree with
+
+but I think on the whole, if you gave this essay to the average person, the average thoughtful, conscientious person who is just trying to make up their mind about how worried or not they should be about AI
+
+This would feel very measured and thoughtful and provide perhaps a bit more momentum
+
+to some specific and intentional policy remediations
+
+As opposed to a throwing of the hands up and saying we're all [00:13:00] doomed
+
+Or a considered unwillingness to do anything
+
+fairl- that strikes me as a generally more productive place from which to start those discussions
+
+than most of the extremes that have recently dominated the discourse
+
+
+
+Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
+
+Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
+
+the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
+
+Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
+
+validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
+
+See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
+
+[00:14:00] 
+
+At this point, it's no longer a question of whether companies are actively using AI
+
+Using it well, on the other hand, is a whole different story. Robots and Pencils, though, is a company that I can point to that is actually built for this time. They're an applied AI engineering firm working directly with clients on problems that matter to the business, not experiments that live in a slide deck.
+
+Every engagement starts by working backwards from the outcome a client actually needs. If you're trying to tell real AI engineering apart from noise in this space that's the difference maker. Head to robotsandpencils.com
+
+
+
+If you listen to this show, you likely have a thesis. Maybe it's enterprise adoption, maybe it's compute, maybe it's a specific lab. Harbor Capital's AI Lab Ecosystem ETFs let you express it via five actively managed ETFs, each seeking exposure to the ecosystem around one major lab: Anthropic, OpenAI, DeepMind, Meta, or SpaceX AI.
+
+your view of the AI race in ETF form. Harbor Capital Advisors AI Lab Ecosystem ETF suite gives investors a way to invest in the AI ecosystem they believe is best positioned for success. Search Harbor AI Lab Ecosystems [00:15:00] ETFs wherever you invest or follow @HarborCapital on X to learn more
+
+Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
+
+Read and consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
+
+This This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
+
+Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
+
+marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
+
+It's time you had agents that feel like teammates Hire yours at [00:16:00] Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief 
+
+group that, now now one group that has been trying to find this middle space for some time are Sayash Kapoor and Arvind Narayanan of AI as normal technology essay, they wrote a long essay called "AI as Normal Technology," which argued pretty simply that while, yes, it was extremely powerful and would be world-changing, it would not somehow be wildly out of scope of other previous technologies that had, in their own way, also altered the world in which we live
+
+but as capabilities have changed and as we've seen more worrying moments like the OpenAI Hugging Face incident how does this AI is normal technology view actually find the middle ground?
+
+Earlier this month, they dropped a 13,000-word essay, which I will not read in its entirety
+
+
+
+where they effectively reject the AI safetyist view
+
+of it being entirely an alignment crisis, or the security view of it being a basic negligence problem, arguing that both are partly right and partly wrong
+
+[00:17:00] of their, the first part of their argument was thatcontrol was under-invested in, but that it can be fixed They argued that alignment helps, but is it enough? as a model often can't tell from its context whether a task is legitimate, i.e.,
+
+defensive versus offensive security work or being in a simulation versus the real world. They point out that OpenAI turned off known safeguards that the evaluation had limited or no monitoring and used a different harness from production codecs
+
+They also even pointed out that there was an earlier warning sign, i.e., an internal outage that OpenAI patched without looking into the root cause
+
+
+
+org- they argued that this was indeed in part an organizational failure
+
+and that as AI capabilities mature, labs will need to run less like startups and more like institutions with mature governance
+
+that-- In terms of big changes, they argue that control should become a job and a research field, with work needed in area like hardening sandboxes, turning natural language intent into formal policies and building reliable agent on agent monitoring
+
+And they also think that there are lots of policy remediations that don't involve draconian control, but are specific, discrete, and very [00:18:00] implementable. Clarifying liability, including for internal evals, requiring insurance and public support for defenders, and finally requiring transparency like near-miss reporting, audits, whistleblower protections, and the support of independent verification organizations
+
+Now 
+
+in part two of their essay
+
+they argue that the incident shows not that AI safety in general is the big risk, but that cyber is the urgent risk Cyber, they point out, is unusual because superhuman capability is actually achievable there. And since it's purely digital, nothing in the physical world slows it down
+
+Assuming that frontier cyber capabilities reach open weight models within months, they point out that alignment and control do nothing against bad actors using these models, so the answer has to be downstream defense and resilience
+
+Still, they also point out that there are reasons
+
+to not be completely freaked out. Notably that for cyber criminals, the hard part has always been making money from the breach, not finding exploits Something which AI doesn't necessarily solve
+
+and argue that the bigger worry is attackers who aren't after money
+
+creates, however, this creates an identification of specific harms where we [00:19:00] can add friction and implement new solutions
+
+The piece does not argue that AI safety is on track or that everything's fine
+
+r- but once again, rather than dwelling exclusively in the realm of the possible, it focuses on,how to address the issues that we've seen so far and does so without resorting to platitudes or presumptions
+
+and yet and yet this AI moderate that I'm identifying
+
+is not primarily identified
+
+by the fact that they have discrete safety concerns i-instead of generic X-risk concerns. Instead, what they're defined by
+
+is an acknowledgement of the inevitability of change that AI brings
+
+without a blithe acceptance of the grandioseness of that change
+
+or an acceptance of an inability of us to make the best of that change
+
+rep- closing on an essay that represents the more optimistic strand of the AI moderates
+
+
+
+Jeffrey Katzenberg recently published The World is Changing: AI for Creativity
+
+Katzenberg is an extremely famous Hollywood executive and investor he was the chairman of Walt Disney Studios during the Renaissance period that produced The Little Mermaid, 
+
+Beauty and 
+
+the Beast, Aladdin, and The Lion King.
+
+
+
+and after a very public fallout with then Disney CEO Michael Eisner
+
+he [00:20:00] went on to build DreamWorks
+
+In his new essay, 
+
+Katzenberg writes, "
+
+A few months ago, I sat in my office in Silicon Valley and watched as a tech founder showed me something extraordinary. On the screen was a fully realized, beautifully lit, well-composed animated scene. It was stunning, and it made me feel exactly what I felt in nineteen eighty-six watching Luxo Jr. That was the first time I watched a computer-animated three D character take a breath and seem, against all reason, to have life. It left me in awe. Later that day, I received a text from an artist I've known for thirty years, three hundred and fifty 
+
+miles to the south in the city where I spent most of my career After seeing a similar video, she texted, " Is this the end of us?"
+
+My answer was, "Certainly not." I've spent the better part of the last decade in Silicon Valley, but the heart of my career has been in Hollywood. Being deeply connected to both worlds means I have deep loyalties to each and a responsibility to speak honestly to both. In twenty twenty-three, I said that these new AI tools would cut the time and cost of producing world-class animation by as much as ninety percent within three years.
+
+Some colleagues were [00:21:00] alarmed. Many were furious. There is growing fear and resistance surrounding AI within the creative community. I deeply understand it because I've spent countless hours walking through animation studios, watching gifted artists bent over their desks, rebuilding a single second of film for the tenth time because the ninth version wasn't quite right.
+
+I've sat in screening rooms where four years of people's labor played out in minutes, and I knew the name of every person that had spent countless hours bringing those images to life. The creative process is a calling. there's really no other way to describe it.
+
+From the outside, some see resistance. From the inside, it is love People do not fight this hard for things they don't care about. The pushback coming out of Hollywood represents the collective effort of people who are deeply passionate about their craft
+
+But is history repeating itself? The history here is more complicated than either side may realize
+
+In 1906, the most famous composer in America, John Philip Sousa, published an essay titled The Menace of Mechanical Music. He warned that the phonograph would become a substitute for human skill, intelligence, and soul. Sousa's fight was not really about the machine. It was about the money.
+
+[00:22:00] The machines were playing his compositions, and the men who built them weren't paying him a cent. His campaign helped create the Copyright Act of 1909. He did not stop the technology. He changed the terms under which it could use his work. A hundred years ago, sound came to the movies. we remember it now as a miracle, and it was What we forget is who paid for it.
+
+Before sound, tens of thousands of musicians made their living in the orchestra pits of movie houses, scoring every film live every night in towns all over the world. When the soundtrack arrived, the work of one composer and one orchestra was recorded for a film that went into thousands of theaters. The union fought back with everything it had, taking out newspaper ads across the country, warning against the menace of canned music, one of them showing a mechanical man tearing the strings out of a harp while an angel wept.
+
+They were not fools, and they were not Luddites. They were right. Those pit jobs did not come back. And yet, this is the part we have to be brave enough to admit. Sound gave us the movie musical, the modern score, SFX, sound design, audio engineering, and an art form vastly larger than the one it disrupted.
+
+And it helped keep [00:23:00] Hollywood in the forefront of world entertainment for the rest of the century and into the next. The loss was real, and yet the art form expanded This is a story that has been told over and over again. To resist technology is to risk irrelevance. Just look at Kodak or Blockbuster.
+
+To embrace technology is to open doors of new possibility. Just consider Apple and Netflix. What I learned from Walt Disney. In the mid-1980s, I was tapped to lead Disney's animation division at a moment when the studio was at an inflection point. Animation wasn't just another business unit. It was the soul of the company, a medium revered because of Walt's genius and his passion.
+
+But the production system was cumbersome and unforgiving. A single movie was one hundred and twenty-five thousand individual hand-drawn and painted cells, photographed one frame at a time.
+
+Every revision carried a cost measured in months. These degrees of difficulty shaped the kind of stories we could tell. We found our way forward in an unexpected place, Walt himself. The Disney archives held astonishing recordings of Walt explaining his creative process, his own writings, his notes and [00:24:00] storyboards.
+
+work product captured at every stage of the process. This was truly a gift. Listening, reading, sitting with the work itself, we heard him talk about character, about emotion, about how an audience feels when a character truly comes alive. He talked about making bold choices and refining a scene until it genuinely moved people.
+
+We didn't hear a word about pencils or paintbrushes. In fact, Walt was famous for being a technologist, forever hunting for state-of-the-art tools, often inventing them himself to achieve the images he saw in his head. But he never defined animation by the tools. defined it by whether the audience believed the character.
+
+his principles were timeless, the tools were not That realization changed everything. We co-developed the Computer Animation Production System, CAPS, with a young Northern California company called Pixar, replacing hand-painted cells with CGI. In The Little Mermaid, the final scene shimmered with a dimensionality and light that the old process simply couldn't achieve.
+
+In Beauty and the Beast, the ballroom sequence moved with a cinematic sweep that placed the audience inside the emotions of the moment. In Aladdin, the Cave of Wonders felt [00:25:00] vast and alive, and the magic carpet became an intricate, compelling character all its own. In The Lion King, the stampede carried a scale and intensity that raised the emotional 
+
+stakes beyond anything we'd done before.
+
+
+
+technology didn't diminish the craft. It expanded the canvas. It It gave artists more room to create
+
+A decade later, the canvas expanded again. when Disney released Pixar's Toy Story, it wasn't simply a technical milestone. it was proof that a fully computer-animated film could carry real emotional weight, that it could make audiences laugh, cry, and believe. At DreamWorks,we made the difficult decision to sunset hand-drawn animation and become a fully computer-animated studio.
+
+It was the right thing to do, but it was not without pain. It cost talented people their place in an industry where they had worked their whole lives. Some made the leap to the new tools and did the finest work of their careers. Some never did. Tools are never the point. The instruments change with every generation.
+
+What endures is taste and imagination, the magical ability to make an audience feel. one of the greatest storytellers
+
+storytellers 
+
+of our generation, George Lucas, succinctly captured the internal essence of this [00:26:00] issue. " It's not the how, it's the why." A distinction with a difference
+
+one of, I asked one of the leading AI models a question that has been challenging me for months: What is the difference between reasoning and creating? Its answer changed how I think about almost everything happening in this industry. It said, " Reasoning and creating are two distinct cognitive modes, though they also work together.
+
+Reasoning is fundamentally evaluative and analytical. It operates on what already exists. Facts, premises, evidence. It moves towards a conclusion that was, in a sense, already implied by the input. Reasoning is constrained by logic and truth. Its goal is to arrive somewhere correct, not to invent somewhere new.
+
+Creating is fundamentally generative. It produces something that didn't exist before. And crucially, There's no single right answer waiting to be found. A blank page has infinite valid responses. Creation involves choices that can't be fully justified by logic alone. Taste, intuition, and vision fill the gap where deduction runs out."
+
+Reasoning is what Silicon Valley has been perfecting. Creating is what Hollywood has been practicing for more than a century. [00:27:00] AI today operates almost entirely on the reasoning side of the line. It can deduce, evaluate, optimize, and pattern match brilliantly. And while it can create, there is a real distinction to being creative.
+
+What it doesn't have yet is those things that make us human: empathy, devotion, serendipity, the kind of creativity that comes from a person trying to say something only they could say. When the bot generates a piece of art, it is not trying to communicate anything. It is statistics, not soul. It is emulating things that have been done.
+
+By contrast, human creativity isn't about repeating patterns of zeros and ones. It's about doing something new
+
+One day, AI may close this gap. Three years ago, the leaders building AI would have called what they are achieving today improbable if not impossible. Impossible is no longer improbable. Today, the line between reasoning and creating is real. Even the leading technologists acknowledge we are not there yet.
+
+There is no scientific path to crossing this divide that anyone in the field can articulate today. Understanding that gap is where we will find common ground. A A path forward
+
+In 2016, I [00:28:00] closed one chapter in Hollywood with the sale of DreamWorks and opened another in Northern California, co-founding WonderCo. We've backed more than 50 founders building the next generation of technology and watched how breakthroughs in Silicon Valley emerge, first as experiments, then as platforms, and finally as infrastructure that reshapes entire industries It's worth remembering that the last great revolution in animation also came from the north.
+
+Pixar was a Northern California company forged not on the conventions of the Hollywood studio system, but in the technological breakthroughs of Silicon Valley. I've spent years on both sides of this bridge. For sure I didn't have all the answers But from my past and present vantage points in my long career, here is what I see.
+
+Brilliant people in Northern California building this technology have made something extraordinary. They have earned the right for the rest of us to be, if not believers, at least optimistic that what comes next will be remarkable. But they have not made an artist. The tools are powerful, but they are not what makes a story matter.
+
+That knowledge lives three hundred and fifty miles to the south, inside people whose life work has informed the very models you are building. the right path forward includes them by [00:29:00] design, with credit, with consent, and with compensation. Build this with the storytellers, not on top of them.
+
+Taste is not something that can be synthesized. It is uniquely human. At the same time, Hollywood needs to accept that AI is not going away. The energy they are trying to spend making it disappear is energy they are not spending deciding the terms on which it will exist, and the terms are everything. 
+
+The North needs something from it that they cannot build and cannot buy: creativity. The kind that takes a blank page and conjures a single right answer when there was none and has held audiences for a century. Without it, the most powerful reasoning engine ever invented will still be missing the only thing that makes a story worth telling.
+
+The artists who learn to wield these new instruments will do things the engineers never dreamed of.They always have. Edison invented the motion picture, but made terrible movies. It took Chaplin, Lloyd, Keaton, and so many others to make movies emotional. Now the canvas is about to expand yet again.
+
+
+
+we should decide now that we intend to paint on it There are so many valuable lessons in history. This has happened many times before, and it was never settled by the [00:30:00] technology. It was settled by the terms. Sousa did not stop the phonograph. He helped write the law that made sure composers got paid.
+
+And two years ago, when the writers and the actors walked out, they were fighting for the very thing Sousa was fighting for in 1906: consent, compensation, the basic recognition that human creative work has a price that must be paid. The terms of that fight are still being negotiated, but the principle is older than any of us The tool versus no tools argument is a trap.
+
+First, we must all agree that there should be terms. Then we can have the crucial debate about what fairness requires. Years ago, Steve Jobs said, " It's in Apple's DNA that technology alone is not enough. it's technology married with the liberal arts, married with the humanities that yields us the result that makes our heart sing." was describing a device, but he could have just as easily been describing this tale of two cities What I see coming soon. As the barriers and costs come down, more films will get made, not fewer Studios will get to take more risks. There will be more seats at the table, and very soon, entirely new forms of [00:31:00] storytelling.
+
+In the 1980s, animation was dismissed as a niche corner of the business. Today, it is one of the most beloved and profitable forms of storytelling in the world. In live action, filmmakers like Steven Spielberg, James Cameron, and Peter Jackson embraced new visual tools not as shortcuts, but as instruments and expanded cinema in the process.
+
+Every time storytelling has met a genuine technological shift, from synchronized sound to color to computer animation, it has redefined the boundaries of the medium and grown larger in the process. Assuredly, I don't have all the answers, but I am confident that the creative opportunities will expand yet again.
+
+choi- how we come through this is a choice. The North has the new tools, the South has the creative soul. The best future will draw on the best of both worlds
+
+Back to NLW here
+
+The reason this feels connected to me to the other discourses, despite them being about a totally different part of the AI industry when it comes to safety
+
+is the rejection of false binaries
+
+and a desire to bring more people to the table
+
+In this new next phase of AI
+
+Which as I've said before, will be characterized by the negotiation
+
+of how it fully makes its way out into the world
+
+the [00:32:00] point is not that AI moderates are a constituency that all agree with one another. In fact, they aren't really defined by a set of beliefs
+
+Instead, they are defined by a disposition towards the conversation
+
+A desire to neither get stuck in nostalgia for the past nor fear of the future. a desire to have more, not fewer people at the table
+
+A desire to solve specific problems So we can be excited about as yet undiscovered opportunities
+
+maybe we can figure out a better term than AI moderates, but for now
+
+I'm glad to see that this group, which I believe is the silent majority right now, is starting to find its voice. For now, that's gonna do it for today's AI Daily Brief. Appreciate you listening or watching. As always, n- until next time, peace, 
+
+​
