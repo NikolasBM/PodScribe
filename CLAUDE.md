@@ -1,10 +1,11 @@
-# aidb-transcripts
+# PodScribe
 
 Arkiv af "The AI Daily Brief" podcast-transcripts (aidailybrief.ai). Autoopdateret dagligt via GitHub Actions.
 
 ## Repo
-- GitHub: `github.com/NikolasBM/aidb-transcripts`, branch `main`.
+- GitHub: `github.com/NikolasBM/PodScribe`, branch `main`.
 - Lokal git-identitet sat **repo-lokalt** (ikke globalt): `user.name "Nikolas Manscher"`, `user.email "nikolas.manscher@gmail.com"`. Maskinen havde ingen global git-identitet ved oprettelse.
+- Push-auth sat **repo-lokalt** til `gh`-login (NikolasBM): `credential.https://github.com.helper` = `""` + `!gh auth git-credential`. Nødvendigt fordi Git Credential Manager globalt har en anden GitHub-konto (`sam-nima`) gemt, og der ingen SSH-nøgle er. Skal sættes igen ved frisk klon.
 
 ## Struktur
 ```
@@ -32,8 +33,8 @@ python3 fetch_transcripts.py --since A --until B       # specifikt interval
 - Ingen dependencies, kun Python 3 stdlib.
 
 ## GitHub Actions
-- Trigger manuelt: `gh workflow run fetch-transcripts --repo NikolasBM/aidb-transcripts`
-- Tjek status: `gh run list --repo NikolasBM/aidb-transcripts --workflow=fetch.yml --limit 5`
+- Trigger manuelt: `gh workflow run fetch-transcripts --repo NikolasBM/PodScribe`
+- Tjek status: `gh run list --repo NikolasBM/PodScribe --workflow=fetch.yml --limit 5`
 - Workflowet committer kun hvis `episodes/` ændrer sig (git diff --cached --quiet-guard).
 - Kører som `github-actions[bot]`, kræver `permissions: contents: write` (allerede sat).
 
