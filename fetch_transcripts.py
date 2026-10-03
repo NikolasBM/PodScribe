@@ -104,7 +104,7 @@ def fetch_published(podcast, out_dir, since, until, limit):
 
         if content is not None:
             title = sanitize_filename(extract_title(content, date_str))
-            (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8")
+            (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8", newline="\n")
             print(f"saved {date_str}: {title}")
             count += 1
 
@@ -206,23 +206,27 @@ def format_timestamp(ms):
 
 
 def speaker_names(phrases, podcast):
-    """Map diarization speaker ids to labels, naming the host if they introduce themselves."""
+    """Map diarization speaker ids to labels.
+
+    Every speaker id that says one of the host's cues is labelled as the host,
+    since the host recorded in two setups (studio intro vs. screen share) can
+    get two ids.
+    """
     order = list(dict.fromkeys(p["speaker"] for p in phrases if "speaker" in p))
     host = podcast.get("host")
-    host_id = None
+    host_ids = set()
     if host:
-        first_name = host.split()[0].lower()
-        cues = [host.lower(), podcast["name"].lower(),
-                f"i'm {first_name}", f"i am {first_name}", f"this is {first_name}"]
+        first_name = host.split()[0]
+        cues = [host, f"I'm {first_name}", f"I am {first_name}", f"this is {first_name}",
+                *podcast.get("host_cues", [])]
+        cues = [cue.lower() for cue in cues]
         for p in phrases:
             text = p.get("text", "").lower().replace("’", "'")
             if "speaker" in p and any(cue in text for cue in cues):
-                host_id = p["speaker"]
-                break
-    others = (sid for sid in order if sid != host_id)
+                host_ids.add(p["speaker"])
+    others = (sid for sid in order if sid not in host_ids)
     names = {sid: f"Speaker {n}" for n, sid in enumerate(others, start=1)}
-    if host_id is not None:
-        names[host_id] = host
+    names.update((sid, host) for sid in host_ids)
     return names
 
 
@@ -231,21 +235,21 @@ def render_transcript(result, names):
     paragraphs, current = [], []
     speaker, start = object(), 0
     for phrase in result.get("phrases", []):
-        spk = phrase.get("speaker")
+        name = names.get(phrase.get("speaker"))
         words = phrase.get("words") or [phrase]
         for word in words:
             text = word["text"].strip()
             if not text:
                 continue
             offset = word["offsetMilliseconds"]
-            new_speaker = spk != speaker
+            new_speaker = name != speaker
             sentence_done = len(current) > 1 and current[-1].endswith((".", "?", "!"))
             if new_speaker or (sentence_done and offset - start >= PARAGRAPH_MS):
                 if current:
                     paragraphs.append(" ".join(current))
-                label = f"**{names[spk]}** " if new_speaker and spk in names else ""
+                label = f"**{name}** " if new_speaker and name else ""
                 current = [f"{label}{format_timestamp(offset)}"]
-                speaker, start = spk, offset
+                speaker, start = name, offset
             current.append(text)
     if current:
         paragraphs.append(" ".join(current))
@@ -292,7 +296,7 @@ def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
             f"{render_transcript(result, names)}\n"
         )
         title = sanitize_filename(episode["title"]) or date_str
-        (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8")
+        (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8", newline="\n")
         print(f"saved {date_str}: {title}")
         count += 1
 

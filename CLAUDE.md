@@ -31,7 +31,7 @@ README.md                    — offentlig beskrivelse af arkivet
 - Indstillinger: diarization til, `timestamps: "word"`, `transcribeStyle: "clean"` (fjerner fyldord), `phraseList` fra `phrases` i podcasts.toml.
 - Lyden downloades og uploades som multipart (ikke `audioUrl`, fordi anchor.fm-URL'er redirecter). Grænse: < 2 timer og < 250 MB pr. fil.
 - Docs nævner at diarization har kortere maks-længde end uden, men tallet mangler i docs. Scriptet falder tilbage til uden diarization ved `AudioLengthLimitExceeded`.
-- Rendering: nyt afsnit ved talerskift, eller ved sætningsslut når der er gået ≥ 60 s; hvert afsnit starter med `[HH:MM:SS]`. Værten (`host`) genkendes på første replik der indeholder værtens navn, showets navn eller "I'm <fornavn>"; øvrige hedder `Speaker 1`, `Speaker 2`, …
+- Rendering: nyt afsnit ved talerskift, eller ved sætningsslut når der er gået ≥ 60 s; hvert afsnit starter med `[HH:MM:SS]`. Alle talernumre der siger værtens navn, "I'm <fornavn>" eller en af `host_cues` får værtens navn; øvrige hedder `Speaker 1`, `Speaker 2`, … Derfor flere numre: diarization er akustisk, og i den første test fik Claire to numre (studieintro/reklamer vs. skærmdemo). Showets navn alene er ikke et cue, fordi gæster siger "thanks for having me on How I AI".
 - Kræver env/secrets `AZURE_SPEECH_KEY` og `AZURE_SPEECH_ENDPOINT` (`https://<navn>.cognitiveservices.azure.com`). Mangler de, springes rss-podcasts over med en warning; published kører videre.
 - Foundry-ressourcen ligger i **North Europe** (MAI-Transcribe kun i centralindia, eastus, northeurope, southeastasia, westus, westus2).
 - Pris: fast transcription standard er $0,36/time; MAI-Transcribe-2-prisen kunne ikke aflæses i Azures prisliste (oktober 2026) — tjek faktisk forbrug i Azure.
