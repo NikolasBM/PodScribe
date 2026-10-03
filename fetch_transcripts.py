@@ -1,17 +1,44 @@
 #!/usr/bin/env python3
+"""Fetch new transcripts for every podcast in podcasts.toml.
+
+Podcasts with source = "published" publish their own transcripts. Podcasts with
+source = "rss" are transcribed from their RSS audio with Azure MAI-Transcribe.
+"""
 import argparse
+import itertools
+import json
+import os
 import re
 import sys
 import time
+import tomllib
 import urllib.error
 import urllib.request
-from datetime import datetime, timedelta
+import uuid
+import xml.etree.ElementTree as ET
+from datetime import date, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+USER_AGENT = "PodScribe"
+LOOKBACK_DAYS = 30
+
+TRANSCRIBE_MODEL = "MAI-Transcribe-2"
+TRANSCRIBE_API_VERSION = "2025-10-15"
+PARAGRAPH_MS = 60_000
+GUID_RE = re.compile(r"<!-- guid: (.+?) -->")
+
+
+def warn(message):
+    """Print a warning to stderr, as an annotation when running in GitHub Actions."""
+    prefix = "::warning::" if os.environ.get("GITHUB_ACTIONS") else "warn "
+    print(f"{prefix}{message}", file=sys.stderr)
 
 
 def parse_date(date_str):
     """Parse YYYY-MM-DD string to date object."""
-    return datetime.strptime(date_str, "%Y-%m-%d").date()
+    return date.fromisoformat(date_str)
 
 
 def date_range(start_date, end_date):
@@ -22,36 +49,11 @@ def date_range(start_date, end_date):
         current += timedelta(days=1)
 
 
-def fetch_transcript(date_obj, timeout=10):
-    """
-    Fetch transcript for a given date.
-    Returns (success, body_or_error) tuple.
-    - success=True, body is the transcript content
-    - success=False, body is the error message
-    """
-    date_str = date_obj.strftime("%Y-%m-%d")
-    url = f"https://aidailybrief.ai/e/{date_str}/transcript.md"
-
-    try:
-        req = urllib.request.Request(
-            url,
-            headers={"User-Agent": "aidb-transcripts-archiver"}
-        )
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            if response.status == 200:
-                return True, response.read().decode("utf-8")
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            # 404 is expected for missing dates, return None to skip silently
-            return None, None
-        else:
-            return False, f"HTTP {e.code}: {e.reason}"
-    except urllib.error.URLError as e:
-        return False, f"Network error: {e.reason}"
-    except Exception as e:
-        return False, f"Error: {type(e).__name__}: {str(e)}"
-
-    return False, "Unknown error"
+def http_get(url, timeout):
+    """GET a URL and return the response body as bytes."""
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return response.read()
 
 
 def get_first_line(content):
@@ -71,80 +73,284 @@ def extract_title(content, fallback):
 
 def sanitize_filename(title):
     """Replace characters unsafe in filenames."""
-    return re.sub(r'[\\/:*?"<>|]', "-", title).strip()
+    return re.sub(r'[\\/:*?"<>|]', "-", title).strip()[:150]
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Fetch AI Daily Brief transcripts"
-    )
+# --- source = "published" ---------------------------------------------------
 
-    default_until = datetime.now().date()
-    default_since = default_until - timedelta(days=30)
-
-    parser.add_argument(
-        "--since",
-        type=str,
-        default=default_since.strftime("%Y-%m-%d"),
-        help=f"Start date (default: {default_since})"
-    )
-    parser.add_argument(
-        "--until",
-        type=str,
-        default=default_until.strftime("%Y-%m-%d"),
-        help=f"End date (default: {default_until})"
-    )
-    parser.add_argument(
-        "--dir",
-        type=str,
-        default="episodes",
-        help="Directory to save transcripts (default: episodes)"
-    )
-
-    args = parser.parse_args()
-
-    try:
-        since_date = parse_date(args.since)
-        until_date = parse_date(args.until)
-    except ValueError as e:
-        print(f"Error parsing dates: {e}", file=sys.stderr)
-        sys.exit(1)
-
-    # Resolve episodes directory relative to script location
-    script_dir = Path(__file__).resolve().parent
-    episodes_dir = script_dir / args.dir
-    episodes_dir.mkdir(exist_ok=True)
-
+def fetch_published(podcast, out_dir, since, until, limit):
+    """Download transcripts the show publishes itself. Returns number saved."""
     count = 0
-    for date_obj in date_range(since_date, until_date):
-        date_str = date_obj.strftime("%Y-%m-%d")
+    for date_obj in date_range(since, until):
+        if limit is not None and count >= limit:
+            break
+        date_str = date_obj.isoformat()
 
         # Skip if already fetched (current "date - title.md" or legacy "date.md")
-        if any(episodes_dir.glob(f"{date_str} - *.md")) or (episodes_dir / f"{date_str}.md").exists():
+        if any(out_dir.glob(f"{date_str} - *.md")) or (out_dir / f"{date_str}.md").exists():
             continue
 
-        # Fetch transcript
-        result = fetch_transcript(date_obj)
-        status, content = result
+        url = podcast["transcript_url"].format(date=date_str)
+        try:
+            content = http_get(url, timeout=10).decode("utf-8")
+        except urllib.error.HTTPError as e:
+            # 404 = no episode that day, skip silently
+            if e.code != 404:
+                warn(f"{date_str}: HTTP {e.code}: {e.reason}")
+            content = None
+        except Exception as e:
+            warn(f"{date_str}: {type(e).__name__}: {e}")
+            content = None
 
-        if status is None:
-            # 404 — skip silently
-            continue
-        elif status:
-            # 200 — save file
+        if content is not None:
             title = sanitize_filename(extract_title(content, date_str))
-            file_path = episodes_dir / f"{date_str} - {title}.md"
-            file_path.write_text(content, encoding="utf-8")
+            (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8")
             print(f"saved {date_str}: {title}")
             count += 1
-        else:
-            # Other error — warn to stderr
-            print(f"warn {date_str}: {content}", file=sys.stderr)
 
         # Sleep between requests
         time.sleep(0.2)
 
-    print(f"{count} new transcripts")
+    return count
+
+
+# --- source = "rss" ---------------------------------------------------------
+
+def parse_feed(xml_bytes):
+    """Return the feed's episodes (guid, title, date, audio_url, link), oldest first."""
+    episodes = []
+    for item in ET.fromstring(xml_bytes).find("channel").findall("item"):
+        enclosure = item.find("enclosure")
+        pub_date = item.findtext("pubDate")
+        if enclosure is None or not enclosure.get("url") or not pub_date:
+            continue
+        episodes.append({
+            "guid": (item.findtext("guid") or enclosure.get("url")).strip(),
+            "title": " ".join((item.findtext("title") or "").split()),
+            "date": parsedate_to_datetime(pub_date).date(),
+            "audio_url": enclosure.get("url"),
+            "link": (item.findtext("link") or "").strip(),
+        })
+    return sorted(episodes, key=lambda e: e["date"])
+
+
+def existing_guids(out_dir):
+    """Collect the guids recorded in the header of already saved transcripts."""
+    guids = set()
+    for path in out_dir.glob("*.md"):
+        with path.open(encoding="utf-8") as f:
+            match = GUID_RE.search("".join(itertools.islice(f, 10)))
+        if match:
+            guids.add(match.group(1))
+    return guids
+
+
+class TranscribeError(Exception):
+    pass
+
+
+def transcribe(audio, phrases, diarize):
+    """Send audio to the fast transcription API with MAI-Transcribe; return the JSON result."""
+    definition = {
+        "enhancedMode": {
+            "enabled": True,
+            "model": TRANSCRIBE_MODEL,
+            "modelOptions": {"timestamps": "word", "transcribeStyle": "clean"},
+        },
+        "diarization": {"enabled": diarize},
+    }
+    if phrases:
+        definition["phraseList"] = {"phrases": phrases}
+
+    boundary = uuid.uuid4().hex
+    body = b"".join([
+        f'--{boundary}\r\nContent-Disposition: form-data; name="definition"\r\n\r\n'.encode(),
+        json.dumps(definition).encode(),
+        f'\r\n--{boundary}\r\nContent-Disposition: form-data; name="audio"; filename="episode.mp3"\r\n'
+        f"Content-Type: application/octet-stream\r\n\r\n".encode(),
+        audio,
+        f"\r\n--{boundary}--\r\n".encode(),
+    ])
+    endpoint = os.environ["AZURE_SPEECH_ENDPOINT"].rstrip("/")
+    req = urllib.request.Request(
+        f"{endpoint}/speechtotext/transcriptions:transcribe?api-version={TRANSCRIBE_API_VERSION}",
+        data=body,
+        headers={
+            "Ocp-Apim-Subscription-Key": os.environ["AZURE_SPEECH_KEY"],
+            "Content-Type": f"multipart/form-data; boundary={boundary}",
+            "User-Agent": USER_AGENT,
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=900) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as e:
+        raise TranscribeError(f"HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:500]}") from None
+
+
+def transcribe_episode(audio, phrases):
+    """Transcribe with speaker labels, falling back to none if the episode is too long for diarization."""
+    try:
+        return transcribe(audio, phrases, diarize=True)
+    except TranscribeError as e:
+        if "AudioLengthLimitExceeded" not in str(e):
+            raise
+        warn("too long for diarization, transcribing without speaker labels")
+        return transcribe(audio, phrases, diarize=False)
+
+
+def format_timestamp(ms):
+    """Format milliseconds as [HH:MM:SS]."""
+    s = ms // 1000
+    return f"[{s // 3600:02d}:{s % 3600 // 60:02d}:{s % 60:02d}]"
+
+
+def speaker_names(phrases, podcast):
+    """Map diarization speaker ids to labels, naming the host if they introduce themselves."""
+    order = list(dict.fromkeys(p["speaker"] for p in phrases if "speaker" in p))
+    host = podcast.get("host")
+    host_id = None
+    if host:
+        first_name = host.split()[0].lower()
+        cues = [host.lower(), podcast["name"].lower(),
+                f"i'm {first_name}", f"i am {first_name}", f"this is {first_name}"]
+        for p in phrases:
+            text = p.get("text", "").lower().replace("’", "'")
+            if "speaker" in p and any(cue in text for cue in cues):
+                host_id = p["speaker"]
+                break
+    others = (sid for sid in order if sid != host_id)
+    names = {sid: f"Speaker {n}" for n, sid in enumerate(others, start=1)}
+    if host_id is not None:
+        names[host_id] = host
+    return names
+
+
+def render_transcript(result, names):
+    """Render phrases as paragraphs that start with [HH:MM:SS], with speaker labels on speaker changes."""
+    paragraphs, current = [], []
+    speaker, start = object(), 0
+    for phrase in result.get("phrases", []):
+        spk = phrase.get("speaker")
+        words = phrase.get("words") or [phrase]
+        for word in words:
+            text = word["text"].strip()
+            if not text:
+                continue
+            offset = word["offsetMilliseconds"]
+            new_speaker = spk != speaker
+            sentence_done = len(current) > 1 and current[-1].endswith((".", "?", "!"))
+            if new_speaker or (sentence_done and offset - start >= PARAGRAPH_MS):
+                if current:
+                    paragraphs.append(" ".join(current))
+                label = f"**{names[spk]}** " if new_speaker and spk in names else ""
+                current = [f"{label}{format_timestamp(offset)}"]
+                speaker, start = spk, offset
+            current.append(text)
+    if current:
+        paragraphs.append(" ".join(current))
+    return "\n\n".join(paragraphs)
+
+
+def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
+    """Transcribe new episodes from the podcast's RSS feed. Returns number saved."""
+    try:
+        episodes = parse_feed(http_get(podcast["feed"], timeout=30))
+    except Exception as e:
+        warn(f"{podcast['slug']}: feed: {type(e).__name__}: {e}")
+        return 0
+
+    done = existing_guids(out_dir)
+    todo = [e for e in episodes if since <= e["date"] <= until and e["guid"] not in done]
+    if limit is not None:
+        todo = todo[:limit]
+    if dry_run:
+        for episode in todo:
+            print(f"would transcribe {episode['date']}: {episode['title']}")
+        return 0
+    if todo and not (os.environ.get("AZURE_SPEECH_KEY") and os.environ.get("AZURE_SPEECH_ENDPOINT")):
+        warn(f"{podcast['slug']}: {len(todo)} episodes waiting, but AZURE_SPEECH_KEY/AZURE_SPEECH_ENDPOINT is not set")
+        return 0
+
+    count = 0
+    for episode in todo:
+        date_str = episode["date"].isoformat()
+        try:
+            audio = http_get(episode["audio_url"], timeout=300)
+            result = transcribe_episode(audio, podcast.get("phrases"))
+        except Exception as e:
+            warn(f"{date_str} {episode['title']}: {type(e).__name__}: {e}")
+            continue
+
+        names = speaker_names(result.get("phrases", []), podcast)
+        source = " · ".join(filter(None, [episode["link"], podcast["name"], f"Transcribed with {TRANSCRIBE_MODEL}"]))
+        content = (
+            f"# {episode['title']} — Transcript ({date_str})\n\n"
+            f"{source}\n\n"
+            f"<!-- guid: {episode['guid']} -->\n\n"
+            f"---\n\n"
+            f"{render_transcript(result, names)}\n"
+        )
+        title = sanitize_filename(episode["title"]) or date_str
+        (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8")
+        print(f"saved {date_str}: {title}")
+        count += 1
+
+    return count
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Fetch new transcripts for the podcasts in podcasts.toml")
+    parser.add_argument("--podcast", help="Only process the podcast with this slug")
+    parser.add_argument("--since", help="Start date YYYY-MM-DD (default: the podcast's since, "
+                        f"or the last {LOOKBACK_DAYS} days for published transcripts)")
+    parser.add_argument("--until", help="End date YYYY-MM-DD (default: today)")
+    parser.add_argument("--limit", type=int, help="Max new transcripts per podcast")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="List RSS episodes that would be transcribed, without downloading or transcribing")
+    args = parser.parse_args()
+
+    # Episode titles can contain characters a Windows console can't encode
+    for stream in (sys.stdout, sys.stderr):
+        stream.reconfigure(errors="replace")
+
+    try:
+        since_arg = parse_date(args.since) if args.since else None
+        until = parse_date(args.until) if args.until else date.today()
+    except ValueError as e:
+        print(f"Error parsing dates: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    podcasts = tomllib.loads((ROOT / "podcasts.toml").read_text(encoding="utf-8"))["podcast"]
+    if args.podcast:
+        podcasts = [p for p in podcasts if p["slug"] == args.podcast]
+        if not podcasts:
+            print(f"Unknown podcast: {args.podcast}", file=sys.stderr)
+            sys.exit(1)
+
+    total = 0
+    for podcast in podcasts:
+        out_dir = ROOT / "transcripts" / podcast["slug"]
+        out_dir.mkdir(parents=True, exist_ok=True)
+        floor = podcast.get("since", date.min)
+
+        if podcast["source"] == "published":
+            if args.dry_run:
+                continue
+            since = since_arg or max(floor, until - timedelta(days=LOOKBACK_DAYS))
+            count = fetch_published(podcast, out_dir, since, until, args.limit)
+        elif podcast["source"] == "rss":
+            since = since_arg or floor
+            count = fetch_rss(podcast, out_dir, since, until, args.limit, args.dry_run)
+        else:
+            warn(f"{podcast['slug']}: unknown source {podcast['source']!r}")
+            continue
+
+        if not args.dry_run:
+            print(f"{podcast['slug']}: {count} new")
+        total += count
+
+    print(f"{total} new transcripts")
     sys.exit(0)
 
 

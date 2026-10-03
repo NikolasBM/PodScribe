@@ -4,18 +4,30 @@ on:
   schedule:
     - cron: '30 6 * * *'
   workflow_dispatch:
+    inputs:
+      args:
+        description: 'Extra arguments for fetch_transcripts.py, e.g. --podcast how-i-ai --limit 1'
+        required: false
+        default: ''
 
 permissions:
   contents: write
+
+# Never run two jobs at once, so an episode is never transcribed (and billed) twice
+concurrency: fetch-transcripts
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 fetch_transcripts.py
+      - run: python3 fetch_transcripts.py $ARGS
+        env:
+          ARGS: ${{ inputs.args }}
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_ENDPOINT: ${{ secrets.AZURE_SPEECH_ENDPOINT }}
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add episodes/
+          git add transcripts/
           git diff --cached --quiet || (git commit -m "Add new transcripts" && git push)
