@@ -20,7 +20,7 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: python3 fetch_transcripts.py $ARGS
         env:
           ARGS: ${{ inputs.args }}
