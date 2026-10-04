@@ -11,6 +11,7 @@ Arkiv af podcast-transcripts, autoopdateret dagligt via GitHub Actions. Generelt
 ```
 podcasts.toml                — én [[podcast]]-blok per show (slug, name, source, since, ...)
 fetch_transcripts.py         — henter/transskriberer nye episoder, stdlib-only (Python 3.11+, bruger tomllib)
+vocabulary.toml              — kategorier, formater, niveauer og teknologi-aliaser til metadata
 .github/workflows/fetch.yml  — daglig cron (06:30 UTC) + manuel workflow_dispatch med `args`-input
 transcripts/<slug>/YYYY-MM-DD - Titel.md — én fil per episode, titel både i filnavn og linje 1, [HH:MM:SS]-timestamps
 README.md                    — offentlig beskrivelse af arkivet
@@ -40,6 +41,13 @@ README.md                    — offentlig beskrivelse af arkivet
 - Kræver env/secrets `AZURE_SPEECH_KEY` og `AZURE_SPEECH_ENDPOINT` (`https://<navn>.cognitiveservices.azure.com`). Mangler de, springes rss-podcasts over med en warning; published kører videre.
 - Foundry-ressourcen ligger i **North Europe** (MAI-Transcribe kun i centralindia, eastus, northeurope, southeastasia, westus, westus2).
 - Pris: fast transcription standard er $0,36/time; MAI-Transcribe-2-prisen kunne ikke aflæses i Azures prisliste (oktober 2026) — tjek faktisk forbrug i Azure.
+
+## Metadata (øverst i hver transcript)
+- Blok mellem `<!-- metadata -->` og `<!-- /metadata -->` i headeren (over `---`; linje 1 er stadig titlen): `Format · Level · Length`, `Host · Guests`, `Categories` (max 4, stærkest først), `Featured` (hovedemner) og `Also mentioned`. Skrives af `metadata_block` og er idempotent.
+- Koden finder kandidat-teknologier med `vocabulary.toml` (aliaser inkl. talegenkendelsesfejl, længste alias vinder så "Claude Code" ikke også tæller som "Claude"; `exact_case` for ord der også er hverdagsord). Jev vurderer i ét kald pr. episode (hele transcriptet er state): én Noul pr. kategori ("diskuteres emnet udførligt?"), ét Choice for format, én Score for niveau og én Noul pr. kandidat ("er X et hovedemne?"). Kategori ≥ 0,5, teknologi ≥ 0,5 (virksomheder ≥ 0,9, ellers står OpenAI/Anthropic på 2/3 af episoderne). Virksomheder står ikke under "Also mentioned".
+- Kategorilisten og formaterne er designet ud fra en gennemlæsning af alle 102+11 transcripts (se kommentarerne i `vocabulary.toml`). 14 kategorier: agents, coding, models, model-strategy, open-weights, enterprise, work, safety-security, policy, infrastructure, funding-markets, consumer, design, marketing. 7 formater: news-roundup, news-analysis, commentary, review, tutorial, demo, interview. Niveau 0–3.
+- Nye episoder får blokken automatisk når `TYPESAFE_API_KEY` er sat. Efterfyld/gentag: `--add-metadata` (kun filer uden blok) eller `--add-metadata --force`, begge kræver `--podcast`.
+- Kendt svaghed: Jev er rundhåndet med kategorier (92 af 113 episoder ramte loftet på 4), så de første to er mest informative.
 
 ## fetch_transcripts.py
 ```
