@@ -6,6 +6,13 @@ date: 2023-11-29
 url: "https://www.latent.space/p/bryan-bischof"
 guid: "substack:139219943"
 host: "Swyx"
+guests: ["Bryan"]
+format: "interview"
+level: 2
+length: "00:51:29"
+categories: ["coding", "work"]
+featured: []
+mentioned: ["Microsoft Copilot"]
 transcript_source: "publisher"
 ---
 

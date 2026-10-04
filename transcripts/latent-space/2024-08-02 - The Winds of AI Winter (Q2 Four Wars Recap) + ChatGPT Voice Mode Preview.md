@@ -6,6 +6,13 @@ date: 2024-08-02
 url: "https://www.latent.space/p/q2-2024-recap"
 guid: "substack:147252120"
 host: "Swyx"
+guests: ["Charlie", "AI Charlie", "Ethan Sutin", "ChatGPT Voice Mode"]
+format: "interview"
+level: 2
+length: "01:24:24"
+categories: ["models", "open-weights", "consumer", "agents"]
+featured: ["OpenAI", "ChatGPT", "open-weight models", "Claude", "distillation"]
+mentioned: ["Gemini", "Gemma", "Perplexity", "model routing", "Nvidia Nemotron", "Cognition Devin"]
 transcript_source: "publisher"
 ---
 

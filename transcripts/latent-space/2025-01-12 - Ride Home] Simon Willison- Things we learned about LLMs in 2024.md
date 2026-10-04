@@ -6,6 +6,13 @@ date: 2025-01-12
 url: "https://www.latent.space/p/2024-simonw"
 guid: "substack:154656957"
 host: "Swyx"
+guests: ["Brian", "Simon", "Speaker 4"]
+format: "interview"
+level: 2
+length: "01:13:00"
+categories: ["models", "agents", "open-weights", "design"]
+featured: ["Gemini", "Claude", "DeepSeek", "Qwen", "open-weight models", "computer use", "agent loops", "ChatGPT"]
+mentioned: ["NotebookLM"]
 transcript_source: "publisher"
 ---
 

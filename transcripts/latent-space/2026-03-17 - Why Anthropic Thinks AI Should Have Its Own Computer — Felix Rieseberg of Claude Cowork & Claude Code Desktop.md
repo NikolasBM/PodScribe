@@ -6,6 +6,13 @@ date: 2026-03-17
 url: "https://www.latent.space/p/felix-anthropic"
 guid: "substack:191097767"
 host: "Swyx"
+guests: ["swyx", "Felix"]
+format: "interview"
+level: 2
+length: "00:00:00"
+categories: ["agents", "work", "coding", "safety-security"]
+featured: ["Claude Cowork", "Claude Code", "Claude", "computer use", "agent harness", "Anthropic"]
+mentioned: ["Slack", "MCP", "Figma"]
 transcript_source: "publisher"
 ---
 

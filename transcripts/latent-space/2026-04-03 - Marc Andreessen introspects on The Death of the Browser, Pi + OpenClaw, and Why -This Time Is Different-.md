@@ -6,6 +6,13 @@ date: 2026-04-03
 url: "https://www.latent.space/p/pmarca"
 guid: "substack:193082940"
 host: "Swyx"
+guests: ["Marc"]
+format: "interview"
+level: 1
+length: "00:00:00"
+categories: ["agents", "work", "infrastructure", "coding"]
+featured: ["OpenClaw", "agent harness"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

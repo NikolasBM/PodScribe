@@ -6,6 +6,13 @@ date: 2026-04-15
 url: "https://www.latent.space/p/notion"
 guid: "substack:194195821"
 host: "Swyx"
+guests: ["Sarah Sachs", "Simon Last", "Alsesio"]
+format: "interview"
+level: 2
+length: "00:00:00"
+categories: ["agents", "coding", "work", "model-strategy"]
+featured: ["MCP", "agent harness"]
+mentioned: ["Slack"]
 transcript_source: "publisher"
 ---
 

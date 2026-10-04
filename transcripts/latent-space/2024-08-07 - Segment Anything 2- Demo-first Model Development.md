@@ -6,6 +6,13 @@ date: 2024-08-07
 url: "https://www.latent.space/p/sam2"
 guid: "substack:147418165"
 host: "Swyx"
+guests: ["AI Charlie", "Nikhila Ravi", "Joseph Nelson", "Udio AI"]
+format: "interview"
+level: 2
+length: "00:00:00"
+categories: ["models"]
+featured: ["Meta"]
+mentioned: ["ChatGPT"]
 transcript_source: "publisher"
 ---
 

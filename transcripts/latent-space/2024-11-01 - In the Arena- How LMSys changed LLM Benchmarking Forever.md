@@ -6,6 +6,13 @@ date: 2024-11-01
 url: "https://www.latent.space/p/lmarena"
 guid: "substack:151006734"
 host: "Swyx"
+guests: ["Wei Lin", "Anastasios"]
+format: "interview"
+level: 2
+length: "00:40:46"
+categories: ["models", "model-strategy"]
+featured: ["model routing"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

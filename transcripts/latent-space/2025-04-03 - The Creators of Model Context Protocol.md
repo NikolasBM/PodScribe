@@ -6,6 +6,13 @@ date: 2025-04-03
 url: "https://www.latent.space/p/mcp"
 guid: "substack:160464452"
 host: "Swyx"
+guests: ["swyx", "Justin/David", "SPEAKER_03"]
+format: "interview"
+level: 2
+length: "01:19:57"
+categories: ["coding", "agents"]
+featured: ["MCP", "Anthropic"]
+mentioned: ["Claude"]
 transcript_source: "publisher"
 ---
 

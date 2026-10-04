@@ -6,6 +6,13 @@ date: 2024-03-09
 url: "https://www.latent.space/p/jan-feb-2024-recap-audio"
 guid: "substack:142431075"
 host: "Swyx"
+guests: ["AI Charlie", "Flo Crivello", "Eugene Cheah", "Rahul Sonwalkar", "Ryan at Pixee", "Jerry Liu", "Guest 1", "Guest 2", "Guest 3", "Guest 4"]
+format: "interview"
+level: 2
+length: "01:24:23"
+categories: ["models", "infrastructure", "open-weights", "model-strategy"]
+featured: ["OpenAI", "Gemini"]
+mentioned: ["Perplexity"]
 transcript_source: "publisher"
 ---
 

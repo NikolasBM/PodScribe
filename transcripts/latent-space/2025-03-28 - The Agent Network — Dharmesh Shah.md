@@ -6,6 +6,13 @@ date: 2025-03-28
 url: "https://www.latent.space/p/dharmesh"
 guid: "substack:159929627"
 host: "Swyx"
+guests: ["swyx", "Dharmesh"]
+format: "interview"
+level: 1
+length: "01:40:47"
+categories: ["agents", "coding", "work"]
+featured: ["MCP", "vibe coding"]
+mentioned: ["ChatGPT", "Cursor", "Gemini", "computer use", "Slack", "model routing"]
 transcript_source: "publisher"
 ---
 

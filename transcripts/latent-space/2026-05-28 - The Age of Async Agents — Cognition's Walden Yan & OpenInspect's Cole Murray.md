@@ -6,6 +6,13 @@ date: 2026-05-28
 url: "https://www.latent.space/p/cognition"
 guid: "substack:199607874"
 host: "Swyx"
+guests: ["Walden", "Cole"]
+format: "interview"
+level: 2
+length: "01:07:47"
+categories: ["agents", "coding", "enterprise", "models"]
+featured: ["Cognition Devin", "Slack", "MCP", "Claude", "agent harness"]
+mentioned: ["computer use", "Cursor", "OpenAI Codex"]
 transcript_source: "publisher"
 ---
 

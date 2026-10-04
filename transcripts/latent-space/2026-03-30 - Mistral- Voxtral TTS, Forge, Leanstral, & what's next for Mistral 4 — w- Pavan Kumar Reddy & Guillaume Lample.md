@@ -6,6 +6,13 @@ date: 2026-03-30
 url: "https://www.latent.space/p/voxtral"
 guid: "substack:192356063"
 host: "Swyx"
+guests: ["swyx", "Guillaume", "Pavan"]
+format: "interview"
+level: 2
+length: "00:48:00"
+categories: ["models", "open-weights"]
+featured: ["open-weight models"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

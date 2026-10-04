@@ -6,6 +6,13 @@ date: 2024-04-11
 url: "https://www.latent.space/p/elicit"
 guid: "substack:143400989"
 host: "Swyx"
+guests: ["Jungwon", "Andreas"]
+format: "interview"
+level: 2
+length: "00:55:51"
+categories: ["model-strategy", "models"]
+featured: []
+mentioned: ["Claude", "Perplexity"]
 transcript_source: "publisher"
 ---
 

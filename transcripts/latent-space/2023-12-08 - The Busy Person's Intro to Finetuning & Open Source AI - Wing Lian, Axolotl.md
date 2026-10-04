@@ -6,6 +6,13 @@ date: 2023-12-08
 url: "https://www.latent.space/p/axolotl"
 guid: "substack:139607453"
 host: "Swyx"
+guests: ["Wing Lian", "Alex Volkov"]
+format: "interview"
+level: 2
+length: "01:03:51"
+categories: ["models", "open-weights"]
+featured: []
+mentioned: ["Hermes Agent", "Gemini", "Perplexity"]
 transcript_source: "publisher"
 ---
 

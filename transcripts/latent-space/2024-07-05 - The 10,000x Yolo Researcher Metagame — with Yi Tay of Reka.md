@@ -6,6 +6,13 @@ date: 2024-07-05
 url: "https://www.latent.space/p/yitay"
 guid: "substack:145606648"
 host: "Swyx"
+guests: ["AI Charlie", "Yi Tay"]
+format: "interview"
+level: 2
+length: "01:44:39"
+categories: ["infrastructure", "models", "open-weights", "work"]
+featured: ["Google", "open-weight models"]
+mentioned: ["Gemini", "distillation", "ChatGPT"]
 transcript_source: "publisher"
 ---
 

@@ -6,6 +6,13 @@ date: 2025-01-26
 url: "https://www.latent.space/p/chai"
 guid: "substack:155708308"
 host: "Swyx"
+guests: ["swyx", "William"]
+format: "interview"
+level: 2
+length: "01:13:16"
+categories: ["consumer", "models", "model-strategy", "funding-markets"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

@@ -6,6 +6,13 @@ date: 2023-02-23
 url: "https://www.latent.space/p/chatgpt-gpt4-hype-and-building-llm"
 guid: "substack:104680156"
 host: "Swyx"
+guests: ["Alessio Fanelli", "Logan Kilpatrick"]
+format: "interview"
+level: 2
+length: "00:50:52"
+categories: ["models", "work", "coding"]
+featured: ["ChatGPT", "OpenAI", "OpenAI Codex"]
+mentioned: ["Perplexity", "Microsoft Copilot"]
 transcript_source: "publisher"
 ---
 

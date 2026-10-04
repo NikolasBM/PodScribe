@@ -6,6 +6,13 @@ date: 2026-02-23
 url: "https://www.latent.space/p/swe-bench-dead"
 guid: "substack:188928663"
 host: "Swyx"
+guests: ["Olivia", "Mia"]
+format: "interview"
+level: 2
+length: "00:25:50"
+categories: ["coding", "models"]
+featured: ["SWE-bench", "OpenAI"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

@@ -6,6 +6,13 @@ date: 2024-12-24
 url: "https://www.latent.space/p/2024-syndata-smolmodels"
 guid: "substack:153567986"
 host: "Swyx"
+guests: ["Speaker"]
+format: "commentary"
+level: 2
+length: "00:27:00"
+categories: ["models", "open-weights"]
+featured: []
+mentioned: ["distillation"]
 transcript_source: "publisher"
 ---
 

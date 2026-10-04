@@ -3909,13 +3909,31 @@
   "podcast": "latent-space",
   "date": "2026-05-28",
   "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Walden",
+   "Cole"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:07:47",
+  "categories": [
+   "agents",
+   "coding",
+   "enterprise",
+   "models"
+  ],
+  "featured": [
+   "Cognition Devin",
+   "Slack",
+   "MCP",
+   "Claude",
+   "agent harness"
+  ],
+  "mentioned": [
+   "computer use",
+   "Cursor",
+   "OpenAI Codex"
+  ],
   "url": "https://www.latent.space/p/cognition",
   "path": "transcripts/latent-space/2026-05-28 - The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray.md"
  },
@@ -3923,13 +3941,30 @@
   "podcast": "latent-space",
   "date": "2026-05-21",
   "title": "Giving Agents Computers — Ivan Burazin, Daytona",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Ivan"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:13:19",
+  "categories": [
+   "agents",
+   "coding",
+   "infrastructure"
+  ],
+  "featured": [
+   "computer use"
+  ],
+  "mentioned": [
+   "Slack",
+   "OpenClaw",
+   "MCP",
+   "Cognition Devin",
+   "Lovable",
+   "Replit",
+   "Manus",
+   "Claude Code"
+  ],
   "url": "https://www.latent.space/p/daytona",
   "path": "transcripts/latent-space/2026-05-21 - Giving Agents Computers — Ivan Burazin, Daytona.md"
  },
@@ -3937,13 +3972,24 @@
   "podcast": "latent-space",
   "date": "2026-05-20",
   "title": "Railway: The Agent-Native Cloud — Jake Cooper",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jake"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:28:22",
+  "categories": [
+   "agents",
+   "coding",
+   "infrastructure",
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude",
+   "Slack",
+   "OpenClaw"
+  ],
   "url": "https://www.latent.space/p/railway",
   "path": "transcripts/latent-space/2026-05-20 - Railway- The Agent-Native Cloud — Jake Cooper.md"
  },
@@ -3951,13 +3997,17 @@
   "podcast": "latent-space",
   "date": "2026-05-18",
   "title": "The Autonomous Drone Tech Stack & Economics of Drones — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Yaroslav",
+   "Noah",
+   "Brandon"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:59:13",
+  "categories": [],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/the-fourth-law",
   "path": "transcripts/latent-space/2026-05-18 - The Autonomous Drone Tech Stack & Economics of Drones — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion.md"
  },
@@ -3965,13 +4015,24 @@
   "podcast": "latent-space",
   "date": "2026-05-14",
   "title": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abridge",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jacob",
+   "Janie",
+   "Chai"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:05:10",
+  "categories": [
+   "agents",
+   "work",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude Code",
+   "Claude"
+  ],
   "url": "https://www.latent.space/p/abridge",
   "path": "transcripts/latent-space/2026-05-14 - AI-Native Healthcare- 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abridge.md"
  },
@@ -3979,13 +4040,25 @@
   "podcast": "latent-space",
   "date": "2026-04-27",
   "title": "Physical AI that Moves the World — Qasar Younis & Peter Ludwig, Applied Intuition",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Qasar",
+   "Peter"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:12:11",
+  "categories": [
+   "work",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude Code",
+   "Claude",
+   "Cursor",
+   "distillation",
+   "Gemma"
+  ],
   "url": "https://www.latent.space/p/appliedintuition",
   "path": "transcripts/latent-space/2026-04-27 - Physical AI that Moves the World — Qasar Younis & Peter Ludwig, Applied Intuition.md"
  },
@@ -3993,13 +4066,32 @@
   "podcast": "latent-space",
   "date": "2026-04-23",
   "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jacob Effron"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:00:00",
+  "categories": [
+   "coding",
+   "agents",
+   "funding-markets",
+   "open-weights"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "Claude",
+   "OpenClaw",
+   "agent harness",
+   "OpenAI",
+   "Anthropic",
+   "Claude Code",
+   "Claude Mythos"
+  ],
+  "mentioned": [
+   "Gemini",
+   "GLM"
+  ],
   "url": "https://www.latent.space/p/unsupervised-learning-2026",
   "path": "transcripts/latent-space/2026-04-23 - AIE Europe Debrief + Agent Labs Thesis- Unsupervised Learning x Latent Space Crossover Special (2026).md"
  },
@@ -4007,13 +4099,25 @@
   "podcast": "latent-space",
   "date": "2026-04-22",
   "title": "Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Mikhail Parakhin"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:00:00",
+  "categories": [
+   "agents",
+   "coding",
+   "enterprise",
+   "open-weights"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Qwen",
+   "distillation",
+   "Slack",
+   "OpenAI Codex"
+  ],
   "url": "https://www.latent.space/p/shopify",
   "path": "transcripts/latent-space/2026-04-22 - Shopify’s AI Phase Transition- 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO.md"
  },
@@ -4021,13 +4125,27 @@
   "podcast": "latent-space",
   "date": "2026-04-15",
   "title": "Notion’s Token Town: 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future — Simon Last & Sarah Sachs of Notion",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Sarah Sachs",
+   "Simon Last",
+   "Alsesio"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:00:00",
+  "categories": [
+   "agents",
+   "coding",
+   "work",
+   "model-strategy"
+  ],
+  "featured": [
+   "MCP",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Slack"
+  ],
   "url": "https://www.latent.space/p/notion",
   "path": "transcripts/latent-space/2026-04-15 - Notion’s Token Town- 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future — Simon Last & Sarah Sachs of Notion.md"
  },
@@ -4035,13 +4153,28 @@
   "podcast": "latent-space",
   "date": "2026-04-07",
   "title": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Ryan Lopopolo",
+   "swyx"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:12:00",
+  "categories": [
+   "agents",
+   "coding",
+   "work",
+   "models"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "agent harness",
+   "OpenAI"
+  ],
+  "mentioned": [
+   "Slack",
+   "OpenClaw"
+  ],
   "url": "https://www.latent.space/p/harness-eng",
   "path": "transcripts/latent-space/2026-04-07 - Extreme Harness Engineering for Token Billionaires- 1M LOC, 1B toks-day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony.md"
  },
@@ -4049,13 +4182,23 @@
   "podcast": "latent-space",
   "date": "2026-04-03",
   "title": "Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why \"This Time Is Different\"",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Marc"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:00:00",
+  "categories": [
+   "agents",
+   "work",
+   "infrastructure",
+   "coding"
+  ],
+  "featured": [
+   "OpenClaw",
+   "agent harness"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/pmarca",
   "path": "transcripts/latent-space/2026-04-03 - Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why -This Time Is Different-.md"
  },
@@ -4063,13 +4206,20 @@
   "podcast": "latent-space",
   "date": "2026-04-02",
   "title": "Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Chris Manning",
+   "Fan-yun Sun"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:03:03",
+  "categories": [
+   "design",
+   "agents",
+   "models"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/moonlake",
   "path": "transcripts/latent-space/2026-04-02 - Moonlake- Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun.md"
  },
@@ -4077,13 +4227,22 @@
   "podcast": "latent-space",
   "date": "2026-03-30",
   "title": "Mistral: Voxtral TTS, Forge, Leanstral, & what's next for Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "swyx",
+   "Guillaume",
+   "Pavan"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:48:00",
+  "categories": [
+   "models",
+   "open-weights"
+  ],
+  "featured": [
+   "open-weight models"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/voxtral",
   "path": "transcripts/latent-space/2026-03-30 - Mistral- Voxtral TTS, Forge, Leanstral, & what's next for Mistral 4 — w- Pavan Kumar Reddy & Guillaume Lample.md"
  },
@@ -4091,13 +4250,22 @@
   "podcast": "latent-space",
   "date": "2026-03-20",
   "title": "Dreamer: the Personal Agent OS — David Singleton",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "David Singleton"
+  ],
+  "format": "interview",
+  "level": 3,
+  "length": "01:03:17",
+  "categories": [
+   "agents",
+   "coding",
+   "consumer",
+   "work"
+  ],
+  "featured": [
+   "agent harness"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/dreamer",
   "path": "transcripts/latent-space/2026-03-20 - Dreamer- the Personal Agent OS — David Singleton.md"
  },
@@ -4105,13 +4273,32 @@
   "podcast": "latent-space",
   "date": "2026-03-17",
   "title": "Why Anthropic Thinks AI Should Have Its Own Computer — Felix Rieseberg of Claude Cowork & Claude Code Desktop",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "swyx",
+   "Felix"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:00:00",
+  "categories": [
+   "agents",
+   "work",
+   "coding",
+   "safety-security"
+  ],
+  "featured": [
+   "Claude Cowork",
+   "Claude Code",
+   "Claude",
+   "computer use",
+   "agent harness",
+   "Anthropic"
+  ],
+  "mentioned": [
+   "Slack",
+   "MCP",
+   "Figma"
+  ],
   "url": "https://www.latent.space/p/felix-anthropic",
   "path": "transcripts/latent-space/2026-03-17 - Why Anthropic Thinks AI Should Have Its Own Computer — Felix Rieseberg of Claude Cowork & Claude Code Desktop.md"
  },
@@ -4119,13 +4306,20 @@
   "podcast": "latent-space",
   "date": "2026-03-12",
   "title": "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Simon Hørup Eskildsen",
+   "swyx"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:00:00",
+  "categories": [
+   "coding"
+  ],
+  "featured": [
+   "Cursor"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/turbopuffer",
   "path": "transcripts/latent-space/2026-03-12 - Retrieval After RAG- Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer.md"
  },
@@ -4133,13 +4327,34 @@
   "podcast": "latent-space",
   "date": "2026-03-10",
   "title": "NVIDIA's AI Engineers: Agent Inference at Planetary Scale and \"Speed of Light\" — Nader Khalil (Brev), Kyle Kranen (Dynamo)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Nader",
+   "swyx",
+   "Kyle"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:23:00",
+  "categories": [
+   "agents",
+   "coding",
+   "infrastructure",
+   "open-weights"
+  ],
+  "featured": [
+   "Nvidia",
+   "agent harness",
+   "OpenAI Codex"
+  ],
+  "mentioned": [
+   "Slack",
+   "OpenClaw",
+   "Kimi",
+   "Figma",
+   "distillation",
+   "Claude Code",
+   "model routing"
+  ],
   "url": "https://www.latent.space/p/nvidia-brev-dynamo",
   "path": "transcripts/latent-space/2026-03-10 - NVIDIA's AI Engineers- Agent Inference at Planetary Scale and -Speed of Light- — Nader Khalil (Brev), Kyle Kranen (Dynamo).md"
  },
@@ -4147,13 +4362,31 @@
   "podcast": "latent-space",
   "date": "2026-03-06",
   "title": "Cursor's Third Era: Cloud Agents",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Samantha",
+   "Jonas",
+   "swyx"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:06:00",
+  "categories": [
+   "agents",
+   "coding",
+   "work",
+   "model-strategy"
+  ],
+  "featured": [
+   "Cursor",
+   "Slack",
+   "agent harness",
+   "computer use"
+  ],
+  "mentioned": [
+   "MCP",
+   "OpenAI Codex",
+   "vibe coding"
+  ],
   "url": "https://www.latent.space/p/cursor-third-era",
   "path": "transcripts/latent-space/2026-03-06 - Cursor's Third Era- Cloud Agents.md"
  },
@@ -4161,13 +4394,27 @@
   "podcast": "latent-space",
   "date": "2026-03-05",
   "title": "Every Agent Needs a Box — Aaron Levie, Box",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Aaron Levie",
+   "swyx",
+   "Jeff Huber"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:16:00",
+  "categories": [
+   "agents",
+   "work",
+   "coding",
+   "models"
+  ],
+  "featured": [],
+  "mentioned": [
+   "OpenClaw",
+   "Claude Code",
+   "OpenAI Codex",
+   "Claude Cowork"
+  ],
   "url": "https://www.latent.space/p/box",
   "path": "transcripts/latent-space/2026-03-05 - Every Agent Needs a Box — Aaron Levie, Box.md"
  },
@@ -4175,13 +4422,20 @@
   "podcast": "latent-space",
   "date": "2026-02-25",
   "title": "Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Max",
+   "Brandon",
+   "RJ",
+   "Speaker 5"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:00:00",
+  "categories": [
+   "agents"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/cuspai",
   "path": "transcripts/latent-space/2026-02-25 - Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI.md"
  },
@@ -4189,13 +4443,22 @@
   "podcast": "latent-space",
   "date": "2026-02-23",
   "title": "The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Olivia",
+   "Mia"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:25:50",
+  "categories": [
+   "coding",
+   "models"
+  ],
+  "featured": [
+   "SWE-bench",
+   "OpenAI"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/swe-bench-dead",
   "path": "transcripts/latent-space/2026-02-23 - The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data.md"
  },
@@ -4203,13 +4466,24 @@
   "podcast": "latent-space",
   "date": "2026-02-19",
   "title": "Bitter Lessons in Venture vs Growth: Anthropic vs OpenAI, Noam Shazeer, World Labs, Thinking Machines, Cursor, ASIC Economics — Martin Casado & Sarah Wang of a16z",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Martin Casado",
+   "Sarah Wang"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:55:17",
+  "categories": [
+   "funding-markets",
+   "infrastructure",
+   "coding",
+   "design"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude Cowork",
+   "OpenAI Codex"
+  ],
   "url": "https://www.latent.space/p/a16z",
   "path": "transcripts/latent-space/2026-02-19 - Bitter Lessons in Venture vs Growth- Anthropic vs OpenAI, Noam Shazeer, World Labs, Thinking Machines, Cursor, ASIC Economics — Martin Casado & Sarah .md"
  },
@@ -4217,13 +4491,22 @@
   "podcast": "latent-space",
   "date": "2026-02-12",
   "title": "Beyond AlphaFold: How Boltz is Open-Sourcing the Future of Drug Discovery",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "RJ",
+   "Gabriel",
+   "Brandon"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:19:09",
+  "categories": [
+   "models",
+   "agents"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Slack"
+  ],
   "url": "https://www.latent.space/p/boltz",
   "path": "transcripts/latent-space/2026-02-12 - Beyond AlphaFold- How Boltz is Open-Sourcing the Future of Drug Discovery.md"
  },
@@ -4231,13 +4514,29 @@
   "podcast": "latent-space",
   "date": "2026-02-12",
   "title": "Owning the AI Pareto Frontier — Jeff Dean",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Alessio Fanelli",
+   "Shawn Wang",
+   "Jeff Dean"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:23:11",
+  "categories": [
+   "infrastructure",
+   "coding",
+   "models",
+   "agents"
+  ],
+  "featured": [
+   "Google",
+   "Gemini",
+   "distillation"
+  ],
+  "mentioned": [
+   "Grok",
+   "Gemma"
+  ],
   "url": "https://www.latent.space/p/jeffdean",
   "path": "transcripts/latent-space/2026-02-12 - Owning the AI Pareto Frontier — Jeff Dean.md"
  },
@@ -4245,13 +4544,24 @@
   "podcast": "latent-space",
   "date": "2026-02-06",
   "title": "The First Mechanistic Interpretability Frontier Lab — Myra Deng & Mark Bissell of Goodfire AI",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Shawn Wang",
+   "Myra Deng",
+   "Mark Bissell",
+   "Vibhu Sapra"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:06:55",
+  "categories": [],
+  "featured": [
+   "Kimi"
+  ],
+  "mentioned": [
+   "Gemma",
+   "distillation",
+   "Grok"
+  ],
   "url": "https://www.latent.space/p/goodfire",
   "path": "transcripts/latent-space/2026-02-06 - The First Mechanistic Interpretability Frontier Lab — Myra Deng & Mark Bissell of Goodfire AI.md"
  },
@@ -4259,13 +4569,35 @@
   "podcast": "latent-space",
   "date": "2026-01-08",
   "title": "Artificial Analysis: Independent LLM Evals as a Service — with George Cameron and Micah-Hill Smith",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Micah",
+   "swyx",
+   "George"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:17:44",
+  "categories": [
+   "models",
+   "coding",
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "Artificial Analysis",
+   "agent harness",
+   "Gemini",
+   "open-weight models",
+   "Claude",
+   "DeepSeek",
+   "GDPval"
+  ],
+  "mentioned": [
+   "Kimi",
+   "Grok",
+   "Terminal Bench",
+   "OpenAI Codex"
+  ],
   "url": "https://www.latent.space/p/artificialanalysis",
   "path": "transcripts/latent-space/2026-01-08 - Artificial Analysis- Independent LLM Evals as a Service — with George Cameron and Micah-Hill Smith.md"
  },
@@ -4273,13 +4605,21 @@
   "podcast": "latent-space",
   "date": "2025-04-11",
   "title": "SF Compute: Commoditizing Compute to solve the GPU Bubble forever",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Evan"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:09:07",
+  "categories": [
+   "infrastructure",
+   "funding-markets"
+  ],
+  "featured": [],
+  "mentioned": [
+   "OpenRouter",
+   "Slack"
+  ],
   "url": "https://www.latent.space/p/sfcompute",
   "path": "transcripts/latent-space/2025-04-11 - SF Compute- Commoditizing Compute to solve the GPU Bubble forever.md"
  },
@@ -4287,13 +4627,25 @@
   "podcast": "latent-space",
   "date": "2025-04-03",
   "title": "The Creators of Model Context Protocol",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "swyx",
+   "Justin/David",
+   "SPEAKER_03"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:19:57",
+  "categories": [
+   "coding",
+   "agents"
+  ],
+  "featured": [
+   "MCP",
+   "Anthropic"
+  ],
+  "mentioned": [
+   "Claude"
+  ],
   "url": "https://www.latent.space/p/mcp",
   "path": "transcripts/latent-space/2025-04-03 - The Creators of Model Context Protocol.md"
  },
@@ -4301,13 +4653,28 @@
   "podcast": "latent-space",
   "date": "2025-03-29",
   "title": "Unsupervised Learning x Latent Space Crossover Special",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jacob",
+   "Jordan",
+   "Misc"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:57:05",
+  "categories": [
+   "agents",
+   "coding",
+   "open-weights",
+   "work"
+  ],
+  "featured": [
+   "MCP",
+   "Cursor"
+  ],
+  "mentioned": [
+   "Gemini",
+   "Perplexity"
+  ],
   "url": "https://www.latent.space/p/unsupervised-learning",
   "path": "transcripts/latent-space/2025-03-29 - Unsupervised Learning x Latent Space Crossover Special.md"
  },
@@ -4315,13 +4682,30 @@
   "podcast": "latent-space",
   "date": "2025-03-28",
   "title": "The Agent Network — Dharmesh Shah",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "swyx",
+   "Dharmesh"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:40:47",
+  "categories": [
+   "agents",
+   "coding",
+   "work"
+  ],
+  "featured": [
+   "MCP",
+   "vibe coding"
+  ],
+  "mentioned": [
+   "ChatGPT",
+   "Cursor",
+   "Gemini",
+   "computer use",
+   "Slack",
+   "model routing"
+  ],
   "url": "https://www.latent.space/p/dharmesh",
   "path": "transcripts/latent-space/2025-03-28 - The Agent Network — Dharmesh Shah.md"
  },
@@ -4329,13 +4713,25 @@
   "podcast": "latent-space",
   "date": "2025-03-14",
   "title": "Building Snipd: The AI Podcast App for Learning",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "swyx",
+   "Kevin"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:17:26",
+  "categories": [
+   "model-strategy",
+   "consumer"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Perplexity",
+   "Gemini",
+   "ChatGPT",
+   "vibe coding",
+   "Claude"
+  ],
   "url": "https://www.latent.space/p/snipd",
   "path": "transcripts/latent-space/2025-03-14 - Building Snipd- The AI Podcast App for Learning.md"
  },
@@ -4343,13 +4739,23 @@
   "podcast": "latent-space",
   "date": "2025-02-18",
   "title": "The Inventors of Deep Research",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Aarush",
+   "Mukund"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:58:39",
+  "categories": [
+   "agents",
+   "models"
+  ],
+  "featured": [
+   "Gemini"
+  ],
+  "mentioned": [
+   "Cognition Devin"
+  ],
   "url": "https://www.latent.space/p/gdr",
   "path": "transcripts/latent-space/2025-02-18 - The Inventors of Deep Research.md"
  },
@@ -4357,13 +4763,20 @@
   "podcast": "latent-space",
   "date": "2025-02-13",
   "title": "Bee AI: The Wearable Ambient Agent",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "swyx",
+   "Maria",
+   "Ethan"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:06:57",
+  "categories": [
+   "consumer",
+   "agents"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/bee",
   "path": "transcripts/latent-space/2025-02-13 - Bee AI- The Wearable Ambient Agent.md"
  },
@@ -4371,13 +4784,25 @@
   "podcast": "latent-space",
   "date": "2025-02-11",
   "title": "The AI Architect — Bret Taylor",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Bret"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:36:00",
+  "categories": [
+   "agents",
+   "work",
+   "coding",
+   "model-strategy"
+  ],
+  "featured": [
+   "Google",
+   "OpenAI"
+  ],
+  "mentioned": [
+   "distillation"
+  ],
   "url": "https://www.latent.space/p/bret",
   "path": "transcripts/latent-space/2025-02-11 - The AI Architect — Bret Taylor.md"
  },
@@ -4385,13 +4810,32 @@
   "podcast": "latent-space",
   "date": "2025-02-01",
   "title": "The Agent Reasoning Interface: o1/o3, Claude 3, ChatGPT Canvas, Tasks, and Operator — with Karina Nguyen of OpenAI",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "swyx",
+   "Karina"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:06:01",
+  "categories": [
+   "models",
+   "agents",
+   "coding",
+   "consumer"
+  ],
+  "featured": [
+   "OpenAI",
+   "Anthropic",
+   "ChatGPT",
+   "computer use",
+   "Claude"
+  ],
+  "mentioned": [
+   "Slack",
+   "agent harness",
+   "Gemini",
+   "MCP"
+  ],
   "url": "https://www.latent.space/p/karina",
   "path": "transcripts/latent-space/2025-02-01 - The Agent Reasoning Interface- o1-o3, Claude 3, ChatGPT Canvas, Tasks, and Operator — with Karina Nguyen of OpenAI.md"
  },
@@ -4399,13 +4843,21 @@
   "podcast": "latent-space",
   "date": "2025-01-26",
   "title": "Outlasting Noam Shazeer, crowdsourcing Chai AI with >1.4m DAU, and becoming the \"Western DeepSeek\" — with William Beauchamp, Chai Research",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "swyx",
+   "William"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:13:16",
+  "categories": [
+   "consumer",
+   "models",
+   "model-strategy",
+   "funding-markets"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/chai",
   "path": "transcripts/latent-space/2025-01-26 - Outlasting Noam Shazeer, crowdsourcing Chai AI with -1.4m DAU, and becoming the -Western DeepSeek- — with William Beauchamp, Chai Research.md"
  },
@@ -4413,13 +4865,33 @@
   "podcast": "latent-space",
   "date": "2025-01-12",
   "title": "Ride Home] Simon Willison: Things we learned about LLMs in 2024",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Brian",
+   "Simon",
+   "Speaker 4"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:13:00",
+  "categories": [
+   "models",
+   "agents",
+   "open-weights",
+   "design"
+  ],
+  "featured": [
+   "Gemini",
+   "Claude",
+   "DeepSeek",
+   "Qwen",
+   "open-weight models",
+   "computer use",
+   "agent loops",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "NotebookLM"
+  ],
   "url": "https://www.latent.space/p/2024-simonw",
   "path": "transcripts/latent-space/2025-01-12 - Ride Home] Simon Willison- Things we learned about LLMs in 2024.md"
  },
@@ -4427,13 +4899,21 @@
   "podcast": "latent-space",
   "date": "2025-01-10",
   "title": "Beating Google at Search with Neural PageRank and $5M of H200s — with Will Bryk of Exa.ai",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Will"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:55:37",
+  "categories": [
+   "agents",
+   "models"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT",
+   "Perplexity"
+  ],
   "url": "https://www.latent.space/p/exa",
   "path": "transcripts/latent-space/2025-01-10 - Beating Google at Search with Neural PageRank and $5M of H200s — with Will Bryk of Exa.ai.md"
  },
@@ -4441,13 +4921,19 @@
   "podcast": "latent-space",
   "date": "2025-01-04",
   "title": "AI Engineering for Art — with comfyanonymous, of ComfyUI",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "swyx",
+   "Comfy"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:51:43",
+  "categories": [
+   "design",
+   "models"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/comfyui",
   "path": "transcripts/latent-space/2025-01-04 - AI Engineering for Art — with comfyanonymous, of ComfyUI.md"
  },
@@ -4456,12 +4942,28 @@
   "date": "2024-12-31",
   "title": "Latent.Space 2024 Year in Review",
   "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "format": "interview",
+  "level": 2,
+  "length": "01:50:00",
+  "categories": [
+   "models",
+   "agents",
+   "model-strategy",
+   "coding"
+  ],
+  "featured": [
+   "Gemini",
+   "OpenAI",
+   "Cognition Devin"
+  ],
+  "mentioned": [
+   "computer use",
+   "Perplexity",
+   "Grok",
+   "distillation",
+   "OpenRouter",
+   "MCP"
+  ],
   "url": "https://www.latent.space/p/2024-review",
   "path": "transcripts/latent-space/2024-12-31 - Latent.Space 2024 Year in Review.md"
  },
@@ -4469,13 +4971,33 @@
   "podcast": "latent-space",
   "date": "2024-12-25",
   "title": "2024 in Agents [LS Live! @ NeurIPS 2024]",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Speaker 9",
+   "Speaker",
+   "Speaker 2",
+   "Speaker 3",
+   "Speaker 4",
+   "Speaker 5",
+   "Speaker 6",
+   "Speaker 7",
+   "Speaker 8"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:48:00",
+  "categories": [
+   "coding",
+   "agents",
+   "models"
+  ],
+  "featured": [
+   "Claude"
+  ],
+  "mentioned": [
+   "MCP",
+   "Cognition Devin",
+   "Grok"
+  ],
   "url": "https://www.latent.space/p/2024-agents",
   "path": "transcripts/latent-space/2024-12-25 - 2024 in Agents [LS Live! @ NeurIPS 2024].md"
  },
@@ -4483,13 +5005,23 @@
   "podcast": "latent-space",
   "date": "2024-12-24",
   "title": "2024 in Post-Transformers Architectures (State Space Models, RWKV) [LS Live @ NeurIPS]",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "AI Charlie",
+   "Dan Fu",
+   "Eugene Cheah",
+   "Question"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:42:00",
+  "categories": [
+   "models",
+   "infrastructure"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Gemini"
+  ],
   "url": "https://www.latent.space/p/2024-post-transformers",
   "path": "transcripts/latent-space/2024-12-24 - 2024 in Post-Transformers Architectures (State Space Models, RWKV) [LS Live @ NeurIPS].md"
  },
@@ -4497,13 +5029,20 @@
   "podcast": "latent-space",
   "date": "2024-12-24",
   "title": "2024 in Synthetic Data and Smol Models [LS Live @ NeurIPS]",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Speaker"
+  ],
+  "format": "commentary",
+  "level": 2,
+  "length": "00:27:00",
+  "categories": [
+   "models",
+   "open-weights"
+  ],
+  "featured": [],
+  "mentioned": [
+   "distillation"
+  ],
   "url": "https://www.latent.space/p/2024-syndata-smolmodels",
   "path": "transcripts/latent-space/2024-12-24 - 2024 in Synthetic Data and Smol Models [LS Live @ NeurIPS].md"
  },
@@ -4511,13 +5050,24 @@
   "podcast": "latent-space",
   "date": "2024-12-23",
   "title": "2024 in Open Models [LS Live @ NeurIPS]",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "AI Charlie",
+   "Luca Soldaini",
+   "Quesiton",
+   "Question2",
+   "Sophia Yang"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:36:00",
+  "categories": [
+   "models",
+   "open-weights"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Qwen"
+  ],
   "url": "https://www.latent.space/p/2024-open-models",
   "path": "transcripts/latent-space/2024-12-23 - 2024 in Open Models [LS Live @ NeurIPS].md"
  },
@@ -4525,13 +5075,25 @@
   "podcast": "latent-space",
   "date": "2024-12-13",
   "title": "Windsurf: The Enterprise AI IDE - with Varun and Anshul of Codeium AI",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Varun",
+   "Anshul"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:06:08",
+  "categories": [
+   "coding",
+   "agents",
+   "models",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT",
+   "Cognition Devin",
+   "Grok"
+  ],
   "url": "https://www.latent.space/p/windsurf",
   "path": "transcripts/latent-space/2024-12-13 - Windsurf- The Enterprise AI IDE - with Varun and Anshul of Codeium AI.md"
  },
@@ -4539,13 +5101,27 @@
   "podcast": "latent-space",
   "date": "2024-12-02",
   "title": "Bolt.new, Flow Engineering for Code Agents, and >$8m ARR in 2 months as a Claude Wrapper",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Itamar",
+   "Eric",
+   "swyx"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:35:03",
+  "categories": [
+   "coding",
+   "agents",
+   "model-strategy",
+   "models"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Microsoft Copilot",
+   "Cursor",
+   "Figma",
+   "Gemini"
+  ],
   "url": "https://www.latent.space/p/bolt",
   "path": "transcripts/latent-space/2024-12-02 - Bolt.new, Flow Engineering for Code Agents, and -$8m ARR in 2 months as a Claude Wrapper.md"
  },
@@ -4553,13 +5129,22 @@
   "podcast": "latent-space",
   "date": "2024-11-25",
   "title": "Why Compound AI + Open Source will beat Closed AI",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Lin"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:55:18",
+  "categories": [
+   "models",
+   "model-strategy"
+  ],
+  "featured": [
+   "Cursor"
+  ],
+  "mentioned": [
+   "Gemini"
+  ],
   "url": "https://www.latent.space/p/fireworks",
   "path": "transcripts/latent-space/2024-11-25 - Why Compound AI + Open Source will beat Closed AI.md"
  },
@@ -4567,13 +5152,21 @@
   "podcast": "latent-space",
   "date": "2024-11-01",
   "title": "In the Arena: How LMSys changed LLM Benchmarking Forever",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Wei Lin",
+   "Anastasios"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:40:46",
+  "categories": [
+   "models",
+   "model-strategy"
+  ],
+  "featured": [
+   "model routing"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/lmarena",
   "path": "transcripts/latent-space/2024-11-01 - In the Arena- How LMSys changed LLM Benchmarking Forever.md"
  },
@@ -4581,13 +5174,40 @@
   "podcast": "latent-space",
   "date": "2024-10-03",
   "title": "Building AGI in Real Time (OpenAI Dev Day 2024)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Suno AI",
+   "AI Charlie",
+   "NotebookLM",
+   "NotebookLM 2",
+   "Alex Volkov",
+   "Romain Huet",
+   "Ilan",
+   "Olivier Godement",
+   "Simon Willison",
+   "Michelle Pokrass",
+   "Speaker 17",
+   "Sam Altman",
+   "Unkown",
+   "Unknown",
+   "Vibhu Sapra"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:00:00",
+  "categories": [
+   "models",
+   "coding",
+   "consumer",
+   "agents"
+  ],
+  "featured": [
+   "OpenAI",
+   "distillation",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "NotebookLM"
+  ],
   "url": "https://www.latent.space/p/devday-2024",
   "path": "transcripts/latent-space/2024-10-03 - Building AGI in Real Time (OpenAI Dev Day 2024).md"
  },
@@ -4595,13 +5215,24 @@
   "podcast": "latent-space",
   "date": "2024-08-07",
   "title": "Segment Anything 2: Demo-first Model Development",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "AI Charlie",
+   "Nikhila Ravi",
+   "Joseph Nelson",
+   "Udio AI"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:00:00",
+  "categories": [
+   "models"
+  ],
+  "featured": [
+   "Meta"
+  ],
+  "mentioned": [
+   "ChatGPT"
+  ],
   "url": "https://www.latent.space/p/sam2",
   "path": "transcripts/latent-space/2024-08-07 - Segment Anything 2- Demo-first Model Development.md"
  },
@@ -4609,13 +5240,36 @@
   "podcast": "latent-space",
   "date": "2024-08-02",
   "title": "The Winds of AI Winter (Q2 Four Wars Recap) + ChatGPT Voice Mode Preview",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Charlie",
+   "AI Charlie",
+   "Ethan Sutin",
+   "ChatGPT Voice Mode"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:24:24",
+  "categories": [
+   "models",
+   "open-weights",
+   "consumer",
+   "agents"
+  ],
+  "featured": [
+   "OpenAI",
+   "ChatGPT",
+   "open-weight models",
+   "Claude",
+   "distillation"
+  ],
+  "mentioned": [
+   "Gemini",
+   "Gemma",
+   "Perplexity",
+   "model routing",
+   "Nvidia Nemotron",
+   "Cognition Devin"
+  ],
   "url": "https://www.latent.space/p/q2-2024-recap",
   "path": "transcripts/latent-space/2024-08-02 - The Winds of AI Winter (Q2 Four Wars Recap) + ChatGPT Voice Mode Preview.md"
  },
@@ -4623,13 +5277,24 @@
   "podcast": "latent-space",
   "date": "2024-07-23",
   "title": "Llama 2, 3 & 4: Synthetic Data, RLHF, Agents on the path to Open Source AGI",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Thomas"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:04:52",
+  "categories": [
+   "models",
+   "agents",
+   "open-weights"
+  ],
+  "featured": [
+   "Meta"
+  ],
+  "mentioned": [
+   "ChatGPT",
+   "Cognition Devin"
+  ],
   "url": "https://www.latent.space/p/llama-3",
   "path": "transcripts/latent-space/2024-07-23 - Llama 2, 3 & 4- Synthetic Data, RLHF, Agents on the path to Open Source AGI.md"
  },
@@ -4637,13 +5302,28 @@
   "podcast": "latent-space",
   "date": "2024-07-05",
   "title": "The 10,000x Yolo Researcher Metagame — with Yi Tay of Reka",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "AI Charlie",
+   "Yi Tay"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:44:39",
+  "categories": [
+   "infrastructure",
+   "models",
+   "open-weights",
+   "work"
+  ],
+  "featured": [
+   "Google",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "Gemini",
+   "distillation",
+   "ChatGPT"
+  ],
   "url": "https://www.latent.space/p/yitay",
   "path": "transcripts/latent-space/2024-07-05 - The 10,000x Yolo Researcher Metagame — with Yi Tay of Reka.md"
  },
@@ -4651,13 +5331,23 @@
   "podcast": "latent-space",
   "date": "2024-06-25",
   "title": "State of the Art: Training >70B LLMs on 10,000 H100 clusters",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "SWYX",
+   "JOSH",
+   "JONATHAN"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:23:32",
+  "categories": [
+   "models",
+   "coding",
+   "infrastructure"
+  ],
+  "featured": [
+   "Perplexity"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/llm-training-2024",
   "path": "transcripts/latent-space/2024-06-25 - State of the Art- Training -70B LLMs on 10,000 H100 clusters.md"
  },
@@ -4665,13 +5355,22 @@
   "podcast": "latent-space",
   "date": "2024-06-21",
   "title": "How To Hire AI Engineers — with James Brady & Adam Wiggins of Elicit",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "James Brady",
+   "Adam Wiggins"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:02:39",
+  "categories": [
+   "work",
+   "model-strategy"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Slack",
+   "Vercel AI Gateway"
+  ],
   "url": "https://www.latent.space/p/hiring",
   "path": "transcripts/latent-space/2024-06-21 - How To Hire AI Engineers — with James Brady & Adam Wiggins of Elicit.md"
  },
@@ -4679,13 +5378,22 @@
   "podcast": "latent-space",
   "date": "2024-04-11",
   "title": "Supervise the Process of AI Research — with Jungwon Byun and Andreas Stuhlmüller of Elicit",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jungwon",
+   "Andreas"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:55:51",
+  "categories": [
+   "model-strategy",
+   "models"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude",
+   "Perplexity"
+  ],
   "url": "https://www.latent.space/p/elicit",
   "path": "transcripts/latent-space/2024-04-11 - Supervise the Process of AI Research — with Jungwon Byun and Andreas Stuhlmüller of Elicit.md"
  },
@@ -4693,13 +5401,27 @@
   "podcast": "latent-space",
   "date": "2024-04-06",
   "title": "Latent Space Chats: NLW (Four Wars, GPT5), Josh Albrecht/Ali Rohde (TNAI), Dylan Patel/Semianalysis (Groq), Milind Naphade (Nvidia GTC), Personal AI (ft. Harrison Chase — LangFriend/LangMem)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "NLW",
+   "Dylan Patel",
+   "AI Charlie"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "02:01:29",
+  "categories": [
+   "infrastructure",
+   "models",
+   "agents",
+   "work"
+  ],
+  "featured": [
+   "Grok",
+   "Gemini",
+   "OpenAI",
+   "Claude"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/weekend-special-5-chats",
   "path": "transcripts/latent-space/2024-04-06 - Latent Space Chats- NLW (Four Wars, GPT5), Josh Albrecht-Ali Rohde (TNAI), Dylan Patel-Semianalysis (Groq), Milind Naphade (Nvidia GTC), Personal AI (.md"
  },
@@ -4707,13 +5429,21 @@
   "podcast": "latent-space",
   "date": "2024-03-29",
   "title": "Presenting the AI Engineer World's Fair — with Sam Schillace, Deputy CTO of Microsoft",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Ben Dunphy",
+   "Sam Schillace"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:00:00",
+  "categories": [
+   "agents",
+   "coding"
+  ],
+  "featured": [
+   "Microsoft"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/worlds-fair-2024",
   "path": "transcripts/latent-space/2024-03-29 - Presenting the AI Engineer World's Fair — with Sam Schillace, Deputy CTO of Microsoft.md"
  },
@@ -4721,13 +5451,34 @@
   "podcast": "latent-space",
   "date": "2024-03-09",
   "title": "Top 5 Research Trends + OpenAI Sora, Google Gemini, Groq Math (Jan-Feb 2024 Audio Recap) + Latent Space Anniversary with Lindy.ai, RWKV, Pixee, Julius.ai, Listener Q&A!",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "AI Charlie",
+   "Flo Crivello",
+   "Eugene Cheah",
+   "Rahul Sonwalkar",
+   "Ryan at Pixee",
+   "Jerry Liu",
+   "Guest 1",
+   "Guest 2",
+   "Guest 3",
+   "Guest 4"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:24:23",
+  "categories": [
+   "models",
+   "infrastructure",
+   "open-weights",
+   "model-strategy"
+  ],
+  "featured": [
+   "OpenAI",
+   "Gemini"
+  ],
+  "mentioned": [
+   "Perplexity"
+  ],
   "url": "https://www.latent.space/p/jan-feb-2024-recap-audio",
   "path": "transcripts/latent-space/2024-03-09 - Top 5 Research Trends + OpenAI Sora, Google Gemini, Groq Math (Jan-Feb 2024 Audio Recap) + Latent Space Anniversary with Lindy.ai, RWKV, Pixee, Julius.md"
  },
@@ -4735,13 +5486,20 @@
   "podcast": "latent-space",
   "date": "2024-02-16",
   "title": "Truly Serverless Infra for AI Engineers - with Erik Bernhardsson of Modal",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Erik"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:01:50",
+  "categories": [
+   "infrastructure",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Slack"
+  ],
   "url": "https://www.latent.space/p/modal",
   "path": "transcripts/latent-space/2024-02-16 - Truly Serverless Infra for AI Engineers - with Erik Bernhardsson of Modal.md"
  },
@@ -4749,13 +5507,22 @@
   "podcast": "latent-space",
   "date": "2024-01-11",
   "title": "RLHF 201 - with Nathan Lambert of AI2 and Interconnects",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Nathan"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:24:50",
+  "categories": [
+   "models",
+   "safety-security"
+  ],
+  "featured": [
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "Gemini"
+  ],
   "url": "https://www.latent.space/p/rlhf-201",
   "path": "transcripts/latent-space/2024-01-11 - RLHF 201 - with Nathan Lambert of AI2 and Interconnects.md"
  },
@@ -4763,13 +5530,23 @@
   "podcast": "latent-space",
   "date": "2023-12-08",
   "title": "The Busy Person's Intro to Finetuning & Open Source AI - Wing Lian, Axolotl",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Wing Lian",
+   "Alex Volkov"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:03:51",
+  "categories": [
+   "models",
+   "open-weights"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Hermes Agent",
+   "Gemini",
+   "Perplexity"
+  ],
   "url": "https://www.latent.space/p/axolotl",
   "path": "transcripts/latent-space/2023-12-08 - The Busy Person's Intro to Finetuning & Open Source AI - Wing Lian, Axolotl.md"
  },
@@ -4777,13 +5554,20 @@
   "podcast": "latent-space",
   "date": "2023-11-29",
   "title": "Notebooks = Chat++ and RAG = RecSys! — with Bryan Bischof of Hex Magic",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Bryan"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:51:29",
+  "categories": [
+   "coding",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Microsoft Copilot"
+  ],
   "url": "https://www.latent.space/p/bryan-bischof",
   "path": "transcripts/latent-space/2023-11-29 - Notebooks = Chat++ and RAG = RecSys! — with Bryan Bischof of Hex Magic.md"
  },
@@ -4791,13 +5575,22 @@
   "podcast": "latent-space",
   "date": "2023-11-17",
   "title": "The State of Silicon and the GPU Poors - with Dylan Patel of SemiAnalysis",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Dylan"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:52:46",
+  "categories": [
+   "infrastructure",
+   "models"
+  ],
+  "featured": [
+   "Google",
+   "Nvidia",
+   "Gemini"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/semianalysis",
   "path": "transcripts/latent-space/2023-11-17 - The State of Silicon and the GPU Poors - with Dylan Patel of SemiAnalysis.md"
  },
@@ -4805,13 +5598,36 @@
   "podcast": "latent-space",
   "date": "2023-11-08",
   "title": "AGI is Being Achieved Incrementally (OpenAI DevDay w/ Simon Willison, Alex Volkov, Jim Fan, Raza Habib, Shreya Rajpal, Rahul Ligma, et al)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Simon Willison",
+   "Alex Volkov",
+   "Jim Fan",
+   "Raza Habib",
+   "Swyx2",
+   "Rahul Ligma",
+   "Reid Robinson",
+   "Surya Dantuluri",
+   "Div Garg",
+   "Louis Knight-Webb",
+   "Shreya Rajpal"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "02:22:02",
+  "categories": [
+   "models",
+   "coding",
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "Hermes Agent",
+   "Microsoft Copilot"
+  ],
   "url": "https://www.latent.space/p/devday",
   "path": "transcripts/latent-space/2023-11-08 - AGI is Being Achieved Incrementally (OpenAI DevDay w- Simon Willison, Alex Volkov, Jim Fan, Raza Habib, Shreya Rajpal, Rahul Ligma, et al).md"
  },
@@ -4819,13 +5635,23 @@
   "podcast": "latent-space",
   "date": "2023-11-03",
   "title": "Beating GPT-4 with Open Source LLMs — with Michael Royzen of Phind",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Michael"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:06:52",
+  "categories": [
+   "models",
+   "coding",
+   "open-weights"
+  ],
+  "featured": [
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "Replit"
+  ],
   "url": "https://www.latent.space/p/phind",
   "path": "transcripts/latent-space/2023-11-03 - Beating GPT-4 with Open Source LLMs — with Michael Royzen of Phind.md"
  },
@@ -4833,13 +5659,19 @@
   "podcast": "latent-space",
   "date": "2023-10-14",
   "title": "Why AI Agents Don't Work (yet) - with Kanjun Qiu of Imbue",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Kanjun"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:04:48",
+  "categories": [
+   "agents",
+   "coding",
+   "models"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/imbue",
   "path": "transcripts/latent-space/2023-10-14 - Why AI Agents Don't Work (yet) - with Kanjun Qiu of Imbue.md"
  },
@@ -4847,13 +5679,21 @@
   "podcast": "latent-space",
   "date": "2023-09-29",
   "title": "Building the Foundation Model Ops Platform — with Raza Habib of Humanloop",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "AI Anna",
+   "Raza Habib"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:21:19",
+  "categories": [
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Microsoft Copilot",
+   "Claude"
+  ],
   "url": "https://www.latent.space/p/humanloop",
   "path": "transcripts/latent-space/2023-09-29 - Building the Foundation Model Ops Platform — with Raza Habib of Humanloop.md"
  },
@@ -4861,13 +5701,28 @@
   "podcast": "latent-space",
   "date": "2023-09-20",
   "title": "Heralds of the AI Content Flippening — with Youssef Rizk of Wondercraft.ai",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "AI Anna",
+   "Youssef Rizk",
+   "Tiesto",
+   "Andy Puddicombe",
+   "AI Rob",
+   "Sam Altman",
+   "AI Jobs and Rogan",
+   "Google Soundstorm"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:51:19",
+  "categories": [
+   "marketing",
+   "design",
+   "models"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT"
+  ],
   "url": "https://www.latent.space/p/wondercraft",
   "path": "transcripts/latent-space/2023-09-20 - Heralds of the AI Content Flippening — with Youssef Rizk of Wondercraft.ai.md"
  },
@@ -4875,13 +5730,17 @@
   "podcast": "latent-space",
   "date": "2023-09-14",
   "title": "Doing it the Hard Way: Making the AI engine and language 🔥 of the future — with Chris Lattner of Modular",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Chris"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:29:02",
+  "categories": [
+   "infrastructure"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/modular",
   "path": "transcripts/latent-space/2023-09-14 - Doing it the Hard Way- Making the AI engine and language 🔥 of the future — with Chris Lattner of Modular.md"
  },
@@ -4889,13 +5748,18 @@
   "podcast": "latent-space",
   "date": "2023-09-06",
   "title": "The Point of LangChain — with Harrison Chase of LangChain",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Harrison"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:00:53",
+  "categories": [
+   "agents",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/langchain",
   "path": "transcripts/latent-space/2023-09-06 - The Point of LangChain — with Harrison Chase of LangChain.md"
  },
@@ -4903,13 +5767,27 @@
   "podcast": "latent-space",
   "date": "2023-08-22",
   "title": "Cursor.so: The AI-first Code Editor — with Aman Sanger of Anysphere",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Aman"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:59:04",
+  "categories": [
+   "coding",
+   "models",
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "Cursor",
+   "Microsoft Copilot"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "Claude",
+   "Replit"
+  ],
   "url": "https://www.latent.space/p/cursor",
   "path": "transcripts/latent-space/2023-08-22 - Cursor.so- The AI-first Code Editor — with Aman Sanger of Anysphere.md"
  },
@@ -4917,13 +5795,18 @@
   "podcast": "latent-space",
   "date": "2023-08-10",
   "title": "LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Tianqi"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:51:49",
+  "categories": [
+   "models",
+   "open-weights"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/llms-everywhere",
   "path": "transcripts/latent-space/2023-08-10 - LLMs Everywhere- Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU - OctoML.md"
  },
@@ -4931,13 +5814,35 @@
   "podcast": "latent-space",
   "date": "2023-07-19",
   "title": "Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Alessio Fanelli",
+   "Simon Willison",
+   "Nathan Lambert",
+   "Matt Bornstein",
+   "Alex Volkov",
+   "Speaker 1",
+   "Russell Kaplan",
+   "Anton Troynikov",
+   "Whole Mars Catalog",
+   "Speaker 2"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:17:14",
+  "categories": [
+   "models",
+   "open-weights",
+   "coding",
+   "safety-security"
+  ],
+  "featured": [
+   "Meta"
+  ],
+  "mentioned": [
+   "Claude",
+   "distillation",
+   "ChatGPT"
+  ],
   "url": "https://www.latent.space/p/llama2",
   "path": "transcripts/latent-space/2023-07-19 - Llama 2- The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.).md"
  },
@@ -4945,13 +5850,22 @@
   "podcast": "latent-space",
   "date": "2023-06-20",
   "title": "Commoditizing the Petaflop — with George Hotz of the tiny corp",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "George"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:12:21",
+  "categories": [
+   "infrastructure",
+   "work",
+   "models",
+   "open-weights"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT"
+  ],
   "url": "https://www.latent.space/p/geohot",
   "path": "transcripts/latent-space/2023-06-20 - Commoditizing the Petaflop — with George Hotz of the tiny corp.md"
  },
@@ -4959,13 +5873,35 @@
   "podcast": "latent-space",
   "date": "2023-06-14",
   "title": "Emergency Pod: OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w/ Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin et al)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Alex Volkov",
+   "Unknown 1",
+   "Riley Goodside",
+   "Simon Willison",
+   "Eric Elliott",
+   "Stefania Druga",
+   "Roie",
+   "Xenova",
+   "Nisten",
+   "Mayo",
+   "Far El"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:27:55",
+  "categories": [
+   "coding",
+   "models",
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "Claude"
+  ],
   "url": "https://www.latent.space/p/function-agents",
   "path": "transcripts/latent-space/2023-06-14 - Emergency Pod- OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w- Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania.md"
  },
@@ -4973,13 +5909,23 @@
   "podcast": "latent-space",
   "date": "2023-06-08",
   "title": "From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jeffrey",
+   "Joe",
+   "Audience #1",
+   "Audience #2"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:56:09",
+  "categories": [],
+  "featured": [
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "Microsoft Copilot",
+   "Slack"
+  ],
   "url": "https://www.latent.space/p/amplitude",
   "path": "transcripts/latent-space/2023-06-08 - From RLHF to RLHB- The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude.md"
  },
@@ -4987,13 +5933,23 @@
   "podcast": "latent-space",
   "date": "2023-05-25",
   "title": "Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Itamar"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:06:00",
+  "categories": [
+   "coding",
+   "agents",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT",
+   "Microsoft Copilot",
+   "Figma"
+  ],
   "url": "https://www.latent.space/p/codium-agents",
   "path": "transcripts/latent-space/2023-05-25 - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT.md"
  },
@@ -5001,13 +5957,20 @@
   "podcast": "latent-space",
   "date": "2023-05-20",
   "title": "MPT-7B and The Beginning of Context=Infinity — with Jonathan Frankle and Abhinav Venigalla of MosaicML",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jonathan",
+   "Abhinav",
+   "Abhi"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:06:00",
+  "categories": [
+   "models",
+   "infrastructure"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.latent.space/p/mosaic-mpt-7b",
   "path": "transcripts/latent-space/2023-05-20 - MPT-7B and The Beginning of Context=Infinity — with Jonathan Frankle and Abhinav Venigalla of MosaicML.md"
  },
@@ -5015,13 +5978,22 @@
   "podcast": "latent-space",
   "date": "2023-05-16",
   "title": "Guaranteed quality and structure in LLM outputs - with Shreya Rajpal of Guardrails AI",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Shreya"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:02:00",
+  "categories": [
+   "safety-security",
+   "agents",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Slack",
+   "Microsoft Copilot"
+  ],
   "url": "https://www.latent.space/p/guaranteed-quality-and-structure",
   "path": "transcripts/latent-space/2023-05-16 - Guaranteed quality and structure in LLM outputs - with Shreya Rajpal of Guardrails AI.md"
  },
@@ -5029,13 +6001,25 @@
   "podcast": "latent-space",
   "date": "2023-05-08",
   "title": "The AI Founder Gene: Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Sharif",
+   "Host"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:44:30",
+  "categories": [
+   "agents",
+   "models",
+   "coding",
+   "design"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Microsoft Copilot",
+   "ChatGPT",
+   "Cursor"
+  ],
   "url": "https://www.latent.space/p/sharif-shameem",
   "path": "transcripts/latent-space/2023-05-08 - The AI Founder Gene- Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica.md"
  },
@@ -5043,13 +6027,23 @@
   "podcast": "latent-space",
   "date": "2023-05-03",
   "title": "Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Alessio Fanelli",
+   "Reza Shabani"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:09:10",
+  "categories": [
+   "coding",
+   "models",
+   "work",
+   "agents"
+  ],
+  "featured": [
+   "Replit"
+  ],
+  "mentioned": [],
   "url": "https://www.latent.space/p/reza-shabani",
   "path": "transcripts/latent-space/2023-05-03 - Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit.md"
  },
@@ -5057,13 +6051,24 @@
   "podcast": "latent-space",
   "date": "2023-03-02",
   "title": "97% Cheaper, Faster, Better, Correct AI — with Varun Mohan of Codeium",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Alessio Fanelli",
+   "Varun Mohan"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:49:35",
+  "categories": [
+   "coding",
+   "models",
+   "infrastructure"
+  ],
+  "featured": [
+   "Microsoft Copilot"
+  ],
+  "mentioned": [
+   "Perplexity"
+  ],
   "url": "https://www.latent.space/p/varun-mohan",
   "path": "transcripts/latent-space/2023-03-02 - 97% Cheaper, Faster, Better, Correct AI — with Varun Mohan of Codeium.md"
  },
@@ -5071,13 +6076,27 @@
   "podcast": "latent-space",
   "date": "2023-02-23",
   "title": "ChatGPT, GPT4 hype, and Building LLM-native products — with Logan Kilpatrick of OpenAI",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Alessio Fanelli",
+   "Logan Kilpatrick"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:50:52",
+  "categories": [
+   "models",
+   "work",
+   "coding"
+  ],
+  "featured": [
+   "ChatGPT",
+   "OpenAI",
+   "OpenAI Codex"
+  ],
+  "mentioned": [
+   "Perplexity",
+   "Microsoft Copilot"
+  ],
   "url": "https://www.latent.space/p/chatgpt-gpt4-hype-and-building-llm",
   "path": "transcripts/latent-space/2023-02-23 - ChatGPT, GPT4 hype, and Building LLM-native products — with Logan Kilpatrick of OpenAI.md"
  }

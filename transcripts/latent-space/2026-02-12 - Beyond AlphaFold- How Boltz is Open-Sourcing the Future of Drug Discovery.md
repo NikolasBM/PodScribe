@@ -6,6 +6,13 @@ date: 2026-02-12
 url: "https://www.latent.space/p/boltz"
 guid: "substack:187696911"
 host: "Swyx"
+guests: ["RJ", "Gabriel", "Brandon"]
+format: "interview"
+level: 2
+length: "01:19:09"
+categories: ["models", "agents"]
+featured: []
+mentioned: ["Slack"]
 transcript_source: "publisher"
 ---
 

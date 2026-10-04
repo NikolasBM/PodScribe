@@ -6,6 +6,13 @@ date: 2025-02-13
 url: "https://www.latent.space/p/bee"
 guid: "substack:157072991"
 host: "Swyx"
+guests: ["swyx", "Maria", "Ethan"]
+format: "interview"
+level: 2
+length: "01:06:57"
+categories: ["consumer", "agents"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

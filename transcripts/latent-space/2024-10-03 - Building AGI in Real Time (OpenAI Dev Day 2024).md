@@ -6,6 +6,13 @@ date: 2024-10-03
 url: "https://www.latent.space/p/devday-2024"
 guid: "substack:149739218"
 host: "Swyx"
+guests: ["Suno AI", "AI Charlie", "NotebookLM", "NotebookLM 2", "Alex Volkov", "Romain Huet", "Ilan", "Olivier Godement", "Simon Willison", "Michelle Pokrass", "Speaker 17", "Sam Altman", "Unkown", "Unknown", "Vibhu Sapra"]
+format: "interview"
+level: 2
+length: "00:00:00"
+categories: ["models", "coding", "consumer", "agents"]
+featured: ["OpenAI", "distillation", "ChatGPT"]
+mentioned: ["NotebookLM"]
 transcript_source: "publisher"
 ---
 

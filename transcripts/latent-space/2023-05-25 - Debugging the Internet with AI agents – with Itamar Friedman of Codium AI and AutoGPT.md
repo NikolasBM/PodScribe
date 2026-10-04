@@ -6,6 +6,13 @@ date: 2023-05-25
 url: "https://www.latent.space/p/codium-agents"
 guid: "substack:123420423"
 host: "Swyx"
+guests: ["Itamar"]
+format: "interview"
+level: 2
+length: "01:06:00"
+categories: ["coding", "agents", "work"]
+featured: []
+mentioned: ["ChatGPT", "Microsoft Copilot", "Figma"]
 transcript_source: "publisher"
 ---
 

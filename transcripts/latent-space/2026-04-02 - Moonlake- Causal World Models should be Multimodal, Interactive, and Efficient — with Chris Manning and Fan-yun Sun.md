@@ -6,6 +6,13 @@ date: 2026-04-02
 url: "https://www.latent.space/p/moonlake"
 guid: "substack:192967759"
 host: "Swyx"
+guests: ["Chris Manning", "Fan-yun Sun"]
+format: "interview"
+level: 2
+length: "01:03:03"
+categories: ["design", "agents", "models"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

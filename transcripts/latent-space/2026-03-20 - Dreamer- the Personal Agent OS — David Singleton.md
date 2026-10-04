@@ -6,6 +6,13 @@ date: 2026-03-20
 url: "https://www.latent.space/p/dreamer"
 guid: "substack:191603783"
 host: "Swyx"
+guests: ["David Singleton"]
+format: "interview"
+level: 3
+length: "01:03:17"
+categories: ["agents", "coding", "consumer", "work"]
+featured: ["agent harness"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

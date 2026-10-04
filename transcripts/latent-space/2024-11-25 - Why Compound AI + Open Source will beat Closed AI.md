@@ -6,6 +6,13 @@ date: 2024-11-25
 url: "https://www.latent.space/p/fireworks"
 guid: "substack:152075599"
 host: "Swyx"
+guests: ["Lin"]
+format: "interview"
+level: 2
+length: "00:55:18"
+categories: ["models", "model-strategy"]
+featured: ["Cursor"]
+mentioned: ["Gemini"]
 transcript_source: "publisher"
 ---
 

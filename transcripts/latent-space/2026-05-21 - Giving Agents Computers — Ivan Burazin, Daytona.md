@@ -6,6 +6,13 @@ date: 2026-05-21
 url: "https://www.latent.space/p/daytona"
 guid: "substack:198688585"
 host: "Swyx"
+guests: ["Ivan"]
+format: "interview"
+level: 2
+length: "01:13:19"
+categories: ["agents", "coding", "infrastructure"]
+featured: ["computer use"]
+mentioned: ["Slack", "OpenClaw", "MCP", "Cognition Devin", "Lovable", "Replit", "Manus", "Claude Code"]
 transcript_source: "publisher"
 ---
 

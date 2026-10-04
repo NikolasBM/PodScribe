@@ -6,6 +6,13 @@ date: 2026-02-12
 url: "https://www.latent.space/p/jeffdean"
 guid: "substack:187741497"
 host: "Swyx"
+guests: ["Alessio Fanelli", "Shawn Wang", "Jeff Dean"]
+format: "interview"
+level: 2
+length: "01:23:11"
+categories: ["infrastructure", "coding", "models", "agents"]
+featured: ["Google", "Gemini", "distillation"]
+mentioned: ["Grok", "Gemma"]
 transcript_source: "publisher"
 ---
 

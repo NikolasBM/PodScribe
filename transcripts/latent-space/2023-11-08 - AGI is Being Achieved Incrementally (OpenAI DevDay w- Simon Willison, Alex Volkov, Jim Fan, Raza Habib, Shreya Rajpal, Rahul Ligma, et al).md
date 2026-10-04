@@ -6,6 +6,13 @@ date: 2023-11-08
 url: "https://www.latent.space/p/devday"
 guid: "substack:138678364"
 host: "Swyx"
+guests: ["Simon Willison", "Alex Volkov", "Jim Fan", "Raza Habib", "Swyx2", "Rahul Ligma", "Reid Robinson", "Surya Dantuluri", "Div Garg", "Louis Knight-Webb", "Shreya Rajpal"]
+format: "interview"
+level: 2
+length: "02:22:02"
+categories: ["models", "coding", "agents", "model-strategy"]
+featured: ["OpenAI", "ChatGPT"]
+mentioned: ["Hermes Agent", "Microsoft Copilot"]
 transcript_source: "publisher"
 ---
 

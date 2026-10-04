@@ -6,6 +6,13 @@ date: 2025-02-11
 url: "https://www.latent.space/p/bret"
 guid: "substack:156886978"
 host: "Swyx"
+guests: ["Bret"]
+format: "interview"
+level: 1
+length: "01:36:00"
+categories: ["agents", "work", "coding", "model-strategy"]
+featured: ["Google", "OpenAI"]
+mentioned: ["distillation"]
 transcript_source: "publisher"
 ---
 

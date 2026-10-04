@@ -6,6 +6,13 @@ date: 2023-11-17
 url: "https://www.latent.space/p/semianalysis"
 guid: "substack:138846476"
 host: "Swyx"
+guests: ["Dylan"]
+format: "interview"
+level: 2
+length: "00:52:46"
+categories: ["infrastructure", "models"]
+featured: ["Google", "Nvidia", "Gemini"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

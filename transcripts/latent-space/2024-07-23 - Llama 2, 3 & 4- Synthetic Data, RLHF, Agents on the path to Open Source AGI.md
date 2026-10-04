@@ -6,6 +6,13 @@ date: 2024-07-23
 url: "https://www.latent.space/p/llama-3"
 guid: "substack:146879553"
 host: "Swyx"
+guests: ["Thomas"]
+format: "interview"
+level: 2
+length: "01:04:52"
+categories: ["models", "agents", "open-weights"]
+featured: ["Meta"]
+mentioned: ["ChatGPT", "Cognition Devin"]
 transcript_source: "publisher"
 ---
 

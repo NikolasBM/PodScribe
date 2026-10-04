@@ -6,6 +6,13 @@ date: 2024-12-24
 url: "https://www.latent.space/p/2024-post-transformers"
 guid: "substack:153556680"
 host: "Swyx"
+guests: ["AI Charlie", "Dan Fu", "Eugene Cheah", "Question"]
+format: "interview"
+level: 2
+length: "00:42:00"
+categories: ["models", "infrastructure"]
+featured: []
+mentioned: ["Gemini"]
 transcript_source: "publisher"
 ---
 

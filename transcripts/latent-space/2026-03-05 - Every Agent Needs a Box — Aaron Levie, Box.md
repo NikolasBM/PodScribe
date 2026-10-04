@@ -6,6 +6,13 @@ date: 2026-03-05
 url: "https://www.latent.space/p/box"
 guid: "substack:189936942"
 host: "Swyx"
+guests: ["Aaron Levie", "swyx", "Jeff Huber"]
+format: "interview"
+level: 2
+length: "01:16:00"
+categories: ["agents", "work", "coding", "models"]
+featured: []
+mentioned: ["OpenClaw", "Claude Code", "OpenAI Codex", "Claude Cowork"]
 transcript_source: "publisher"
 ---
 

@@ -6,6 +6,13 @@ date: 2023-09-14
 url: "https://www.latent.space/p/modular"
 guid: "substack:136992893"
 host: "Swyx"
+guests: ["Chris"]
+format: "interview"
+level: 2
+length: "01:29:02"
+categories: ["infrastructure"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

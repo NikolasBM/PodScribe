@@ -6,6 +6,13 @@ date: 2023-05-03
 url: "https://www.latent.space/p/reza-shabani"
 guid: "substack:118824331"
 host: "Swyx"
+guests: ["Alessio Fanelli", "Reza Shabani"]
+format: "interview"
+level: 2
+length: "01:09:10"
+categories: ["coding", "models", "work", "agents"]
+featured: ["Replit"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

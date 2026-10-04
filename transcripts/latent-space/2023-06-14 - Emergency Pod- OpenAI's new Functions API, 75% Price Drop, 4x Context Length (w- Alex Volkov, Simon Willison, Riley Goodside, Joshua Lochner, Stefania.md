@@ -6,6 +6,13 @@ date: 2023-06-14
 url: "https://www.latent.space/p/function-agents"
 guid: "substack:128128854"
 host: "Swyx"
+guests: ["Alex Volkov", "Unknown 1", "Riley Goodside", "Simon Willison", "Eric Elliott", "Stefania Druga", "Roie", "Xenova", "Nisten", "Mayo", "Far El"]
+format: "interview"
+level: 2
+length: "01:27:55"
+categories: ["coding", "models", "agents", "model-strategy"]
+featured: ["OpenAI", "ChatGPT"]
+mentioned: ["Claude"]
 transcript_source: "publisher"
 ---
 

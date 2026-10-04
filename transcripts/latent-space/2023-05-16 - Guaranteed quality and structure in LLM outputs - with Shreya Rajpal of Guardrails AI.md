@@ -6,6 +6,13 @@ date: 2023-05-16
 url: "https://www.latent.space/p/guaranteed-quality-and-structure"
 guid: "substack:121662773"
 host: "Swyx"
+guests: ["Shreya"]
+format: "interview"
+level: 2
+length: "01:02:00"
+categories: ["safety-security", "agents", "coding"]
+featured: []
+mentioned: ["Slack", "Microsoft Copilot"]
 transcript_source: "publisher"
 ---
 

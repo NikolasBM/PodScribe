@@ -6,6 +6,13 @@ date: 2026-05-14
 url: "https://www.latent.space/p/abridge"
 guid: "substack:197417280"
 host: "Swyx"
+guests: ["Jacob", "Janie", "Chai"]
+format: "interview"
+level: 2
+length: "01:05:10"
+categories: ["agents", "work", "coding"]
+featured: []
+mentioned: ["Claude Code", "Claude"]
 transcript_source: "publisher"
 ---
 

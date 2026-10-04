@@ -6,6 +6,13 @@ date: 2025-04-11
 url: "https://www.latent.space/p/sfcompute"
 guid: "substack:160956446"
 host: "Swyx"
+guests: ["Evan"]
+format: "interview"
+level: 1
+length: "01:09:07"
+categories: ["infrastructure", "funding-markets"]
+featured: []
+mentioned: ["OpenRouter", "Slack"]
 transcript_source: "publisher"
 ---
 

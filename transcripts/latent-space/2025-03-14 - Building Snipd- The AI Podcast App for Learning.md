@@ -6,6 +6,13 @@ date: 2025-03-14
 url: "https://www.latent.space/p/snipd"
 guid: "substack:158077685"
 host: "Swyx"
+guests: ["swyx", "Kevin"]
+format: "interview"
+level: 2
+length: "01:17:26"
+categories: ["model-strategy", "consumer"]
+featured: []
+mentioned: ["Perplexity", "Gemini", "ChatGPT", "vibe coding", "Claude"]
 transcript_source: "publisher"
 ---
 

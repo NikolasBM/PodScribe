@@ -6,6 +6,13 @@ date: 2026-03-10
 url: "https://www.latent.space/p/nvidia-brev-dynamo"
 guid: "substack:190477229"
 host: "Swyx"
+guests: ["Nader", "swyx", "Kyle"]
+format: "interview"
+level: 2
+length: "01:23:00"
+categories: ["agents", "coding", "infrastructure", "open-weights"]
+featured: ["Nvidia", "agent harness", "OpenAI Codex"]
+mentioned: ["Slack", "OpenClaw", "Kimi", "Figma", "distillation", "Claude Code", "model routing"]
 transcript_source: "publisher"
 ---
 

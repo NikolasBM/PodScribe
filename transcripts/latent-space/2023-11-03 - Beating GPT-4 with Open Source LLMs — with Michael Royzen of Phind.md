@@ -6,6 +6,13 @@ date: 2023-11-03
 url: "https://www.latent.space/p/phind"
 guid: "substack:138498146"
 host: "Swyx"
+guests: ["Michael"]
+format: "interview"
+level: 2
+length: "01:06:52"
+categories: ["models", "coding", "open-weights"]
+featured: ["ChatGPT"]
+mentioned: ["Replit"]
 transcript_source: "publisher"
 ---
 

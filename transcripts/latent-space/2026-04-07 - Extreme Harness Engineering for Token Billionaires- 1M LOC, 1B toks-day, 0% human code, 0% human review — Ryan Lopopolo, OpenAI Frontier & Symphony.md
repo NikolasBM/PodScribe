@@ -6,6 +6,13 @@ date: 2026-04-07
 url: "https://www.latent.space/p/harness-eng"
 guid: "substack:193478192"
 host: "Swyx"
+guests: ["Ryan Lopopolo", "swyx"]
+format: "interview"
+level: 2
+length: "01:12:00"
+categories: ["agents", "coding", "work", "models"]
+featured: ["OpenAI Codex", "agent harness", "OpenAI"]
+mentioned: ["Slack", "OpenClaw"]
 transcript_source: "publisher"
 ---
 

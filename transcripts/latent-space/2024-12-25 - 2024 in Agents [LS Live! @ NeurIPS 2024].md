@@ -6,6 +6,13 @@ date: 2024-12-25
 url: "https://www.latent.space/p/2024-agents"
 guid: "substack:153568377"
 host: "Swyx"
+guests: ["Speaker 9", "Speaker", "Speaker 2", "Speaker 3", "Speaker 4", "Speaker 5", "Speaker 6", "Speaker 7", "Speaker 8"]
+format: "interview"
+level: 2
+length: "00:48:00"
+categories: ["coding", "agents", "models"]
+featured: ["Claude"]
+mentioned: ["MCP", "Cognition Devin", "Grok"]
 transcript_source: "publisher"
 ---
 

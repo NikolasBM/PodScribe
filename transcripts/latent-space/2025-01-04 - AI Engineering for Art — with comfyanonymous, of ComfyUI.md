@@ -6,6 +6,13 @@ date: 2025-01-04
 url: "https://www.latent.space/p/comfyui"
 guid: "substack:154105963"
 host: "Swyx"
+guests: ["swyx", "Comfy"]
+format: "interview"
+level: 2
+length: "00:51:43"
+categories: ["design", "models"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

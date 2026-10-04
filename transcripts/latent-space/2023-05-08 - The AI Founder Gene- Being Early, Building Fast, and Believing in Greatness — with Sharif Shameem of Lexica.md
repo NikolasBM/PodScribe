@@ -6,6 +6,13 @@ date: 2023-05-08
 url: "https://www.latent.space/p/sharif-shameem"
 guid: "substack:120093157"
 host: "Swyx"
+guests: ["Sharif", "Host"]
+format: "interview"
+level: 2
+length: "00:44:30"
+categories: ["agents", "models", "coding", "design"]
+featured: []
+mentioned: ["Microsoft Copilot", "ChatGPT", "Cursor"]
 transcript_source: "publisher"
 ---
 

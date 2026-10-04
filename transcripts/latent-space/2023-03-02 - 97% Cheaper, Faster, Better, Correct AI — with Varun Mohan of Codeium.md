@@ -6,6 +6,13 @@ date: 2023-03-02
 url: "https://www.latent.space/p/varun-mohan"
 guid: "substack:106013498"
 host: "Swyx"
+guests: ["Alessio Fanelli", "Varun Mohan"]
+format: "interview"
+level: 2
+length: "00:49:35"
+categories: ["coding", "models", "infrastructure"]
+featured: ["Microsoft Copilot"]
+mentioned: ["Perplexity"]
 transcript_source: "publisher"
 ---
 

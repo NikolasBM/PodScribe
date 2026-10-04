@@ -6,6 +6,13 @@ date: 2026-05-18
 url: "https://www.latent.space/p/the-fourth-law"
 guid: "substack:198200418"
 host: "Swyx"
+guests: ["Yaroslav", "Noah", "Brandon"]
+format: "interview"
+level: 1
+length: "01:59:13"
+categories: []
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

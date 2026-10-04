@@ -6,6 +6,13 @@ date: 2024-12-13
 url: "https://www.latent.space/p/windsurf"
 guid: "substack:152934915"
 host: "Swyx"
+guests: ["Varun", "Anshul"]
+format: "interview"
+level: 2
+length: "01:06:08"
+categories: ["coding", "agents", "models", "work"]
+featured: []
+mentioned: ["ChatGPT", "Cognition Devin", "Grok"]
 transcript_source: "publisher"
 ---
 

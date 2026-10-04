@@ -6,6 +6,13 @@ date: 2026-04-23
 url: "https://www.latent.space/p/unsupervised-learning-2026"
 guid: "substack:195264855"
 host: "Swyx"
+guests: ["Jacob Effron"]
+format: "interview"
+level: 1
+length: "00:00:00"
+categories: ["coding", "agents", "funding-markets", "open-weights"]
+featured: ["OpenAI Codex", "Claude", "OpenClaw", "agent harness", "OpenAI", "Anthropic", "Claude Code", "Claude Mythos"]
+mentioned: ["Gemini", "GLM"]
 transcript_source: "publisher"
 ---
 

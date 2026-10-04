@@ -6,6 +6,13 @@ date: 2025-03-29
 url: "https://www.latent.space/p/unsupervised-learning"
 guid: "substack:160102198"
 host: "Swyx"
+guests: ["Jacob", "Jordan", "Misc"]
+format: "interview"
+level: 1
+length: "00:57:05"
+categories: ["agents", "coding", "open-weights", "work"]
+featured: ["MCP", "Cursor"]
+mentioned: ["Gemini", "Perplexity"]
 transcript_source: "publisher"
 ---
 

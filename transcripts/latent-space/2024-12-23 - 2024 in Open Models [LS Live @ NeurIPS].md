@@ -6,6 +6,13 @@ date: 2024-12-23
 url: "https://www.latent.space/p/2024-open-models"
 guid: "substack:153509369"
 host: "Swyx"
+guests: ["AI Charlie", "Luca Soldaini", "Quesiton", "Question2", "Sophia Yang"]
+format: "interview"
+level: 2
+length: "00:36:00"
+categories: ["models", "open-weights"]
+featured: []
+mentioned: ["Qwen"]
 transcript_source: "publisher"
 ---
 

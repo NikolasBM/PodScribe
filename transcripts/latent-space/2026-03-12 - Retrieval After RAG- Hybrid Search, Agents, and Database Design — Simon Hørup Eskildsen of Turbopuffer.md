@@ -6,6 +6,13 @@ date: 2026-03-12
 url: "https://www.latent.space/p/turbopuffer"
 guid: "substack:190777516"
 host: "Swyx"
+guests: ["Simon Hørup Eskildsen", "swyx"]
+format: "interview"
+level: 2
+length: "00:00:00"
+categories: ["coding"]
+featured: ["Cursor"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

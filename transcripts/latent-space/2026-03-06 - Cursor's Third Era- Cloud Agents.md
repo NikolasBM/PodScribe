@@ -6,6 +6,13 @@ date: 2026-03-06
 url: "https://www.latent.space/p/cursor-third-era"
 guid: "substack:190063769"
 host: "Swyx"
+guests: ["Samantha", "Jonas", "swyx"]
+format: "interview"
+level: 2
+length: "01:06:00"
+categories: ["agents", "coding", "work", "model-strategy"]
+featured: ["Cursor", "Slack", "agent harness", "computer use"]
+mentioned: ["MCP", "OpenAI Codex", "vibe coding"]
 transcript_source: "publisher"
 ---
 

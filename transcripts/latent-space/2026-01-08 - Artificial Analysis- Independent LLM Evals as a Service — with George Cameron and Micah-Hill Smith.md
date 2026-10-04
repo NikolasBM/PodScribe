@@ -6,6 +6,13 @@ date: 2026-01-08
 url: "https://www.latent.space/p/artificialanalysis"
 guid: "substack:183902568"
 host: "Swyx"
+guests: ["Micah", "swyx", "George"]
+format: "interview"
+level: 2
+length: "01:17:44"
+categories: ["models", "coding", "agents", "model-strategy"]
+featured: ["Artificial Analysis", "agent harness", "Gemini", "open-weight models", "Claude", "DeepSeek", "GDPval"]
+mentioned: ["Kimi", "Grok", "Terminal Bench", "OpenAI Codex"]
 transcript_source: "publisher"
 ---
 

@@ -6,6 +6,13 @@ date: 2025-02-18
 url: "https://www.latent.space/p/gdr"
 guid: "substack:157348543"
 host: "Swyx"
+guests: ["Aarush", "Mukund"]
+format: "interview"
+level: 2
+length: "00:58:39"
+categories: ["agents", "models"]
+featured: ["Gemini"]
+mentioned: ["Cognition Devin"]
 transcript_source: "publisher"
 ---
 

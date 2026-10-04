@@ -6,6 +6,13 @@ date: 2023-06-20
 url: "https://www.latent.space/p/geohot"
 guid: "substack:129414110"
 host: "Swyx"
+guests: ["George"]
+format: "interview"
+level: 2
+length: "01:12:21"
+categories: ["infrastructure", "work", "models", "open-weights"]
+featured: []
+mentioned: ["ChatGPT"]
 transcript_source: "publisher"
 ---
 

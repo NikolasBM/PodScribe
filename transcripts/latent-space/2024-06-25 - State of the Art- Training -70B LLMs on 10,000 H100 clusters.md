@@ -6,6 +6,13 @@ date: 2024-06-25
 url: "https://www.latent.space/p/llm-training-2024"
 guid: "substack:145986807"
 host: "Swyx"
+guests: ["SWYX", "JOSH", "JONATHAN"]
+format: "interview"
+level: 2
+length: "01:23:32"
+categories: ["models", "coding", "infrastructure"]
+featured: ["Perplexity"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

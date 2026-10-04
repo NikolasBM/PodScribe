@@ -6,6 +6,13 @@ date: 2023-09-20
 url: "https://www.latent.space/p/wondercraft"
 guid: "substack:137135173"
 host: "Swyx"
+guests: ["AI Anna", "Youssef Rizk", "Tiesto", "Andy Puddicombe", "AI Rob", "Sam Altman", "AI Jobs and Rogan", "Google Soundstorm"]
+format: "interview"
+level: 2
+length: "00:51:19"
+categories: ["marketing", "design", "models"]
+featured: []
+mentioned: ["ChatGPT"]
 transcript_source: "publisher"
 ---
 

@@ -6,6 +6,13 @@ date: 2025-01-10
 url: "https://www.latent.space/p/exa"
 guid: "substack:154427658"
 host: "Swyx"
+guests: ["Will"]
+format: "interview"
+level: 2
+length: "00:55:37"
+categories: ["agents", "models"]
+featured: []
+mentioned: ["ChatGPT", "Perplexity"]
 transcript_source: "publisher"
 ---
 

@@ -6,6 +6,13 @@ date: 2023-06-08
 url: "https://www.latent.space/p/amplitude"
 guid: "substack:126747491"
 host: "Swyx"
+guests: ["Jeffrey", "Joe", "Audience #1", "Audience #2"]
+format: "interview"
+level: 2
+length: "00:56:09"
+categories: []
+featured: ["ChatGPT"]
+mentioned: ["Microsoft Copilot", "Slack"]
 transcript_source: "publisher"
 ---
 

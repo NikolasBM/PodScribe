@@ -6,6 +6,13 @@ date: 2023-08-10
 url: "https://www.latent.space/p/llms-everywhere"
 guid: "substack:135877261"
 host: "Swyx"
+guests: ["Tianqi"]
+format: "interview"
+level: 2
+length: "00:51:49"
+categories: ["models", "open-weights"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

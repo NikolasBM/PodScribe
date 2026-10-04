@@ -6,6 +6,13 @@ date: 2024-02-16
 url: "https://www.latent.space/p/modal"
 guid: "substack:141683117"
 host: "Swyx"
+guests: ["Erik"]
+format: "interview"
+level: 2
+length: "01:01:50"
+categories: ["infrastructure", "work"]
+featured: []
+mentioned: ["Slack"]
 transcript_source: "publisher"
 ---
 

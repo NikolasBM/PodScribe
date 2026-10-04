@@ -6,6 +6,13 @@ date: 2023-09-06
 url: "https://www.latent.space/p/langchain"
 guid: "substack:136578557"
 host: "Swyx"
+guests: ["Harrison"]
+format: "interview"
+level: 2
+length: "01:00:53"
+categories: ["agents", "coding"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

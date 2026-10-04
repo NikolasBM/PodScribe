@@ -6,6 +6,13 @@ date: 2026-02-25
 url: "https://www.latent.space/p/cuspai"
 guid: "substack:189149291"
 host: "Swyx"
+guests: ["Max", "Brandon", "RJ", "Speaker 5"]
+format: "interview"
+level: 1
+length: "00:00:00"
+categories: ["agents"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

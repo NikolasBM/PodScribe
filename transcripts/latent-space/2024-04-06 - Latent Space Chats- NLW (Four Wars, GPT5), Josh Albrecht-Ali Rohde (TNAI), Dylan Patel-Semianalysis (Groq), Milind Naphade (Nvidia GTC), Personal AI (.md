@@ -6,6 +6,13 @@ date: 2024-04-06
 url: "https://www.latent.space/p/weekend-special-5-chats"
 guid: "substack:143334144"
 host: "Swyx"
+guests: ["NLW", "Dylan Patel", "AI Charlie"]
+format: "interview"
+level: 2
+length: "02:01:29"
+categories: ["infrastructure", "models", "agents", "work"]
+featured: ["Grok", "Gemini", "OpenAI", "Claude"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

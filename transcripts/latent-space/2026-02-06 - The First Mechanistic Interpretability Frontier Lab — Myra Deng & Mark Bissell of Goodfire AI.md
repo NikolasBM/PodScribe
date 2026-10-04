@@ -6,6 +6,13 @@ date: 2026-02-06
 url: "https://www.latent.space/p/goodfire"
 guid: "substack:187000315"
 host: "Swyx"
+guests: ["Shawn Wang", "Myra Deng", "Mark Bissell", "Vibhu Sapra"]
+format: "interview"
+level: 2
+length: "01:06:55"
+categories: []
+featured: ["Kimi"]
+mentioned: ["Gemma", "distillation", "Grok"]
 transcript_source: "publisher"
 ---
 

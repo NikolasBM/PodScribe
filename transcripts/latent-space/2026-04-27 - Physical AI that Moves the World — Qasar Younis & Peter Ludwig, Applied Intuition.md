@@ -6,6 +6,13 @@ date: 2026-04-27
 url: "https://www.latent.space/p/appliedintuition"
 guid: "substack:195677117"
 host: "Swyx"
+guests: ["Qasar", "Peter"]
+format: "interview"
+level: 2
+length: "01:12:11"
+categories: ["work", "coding"]
+featured: []
+mentioned: ["Claude Code", "Claude", "Cursor", "distillation", "Gemma"]
 transcript_source: "publisher"
 ---
 

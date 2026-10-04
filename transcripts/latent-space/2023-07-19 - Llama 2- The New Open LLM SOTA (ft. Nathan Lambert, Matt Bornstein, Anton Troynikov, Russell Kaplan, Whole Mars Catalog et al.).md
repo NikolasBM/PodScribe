@@ -6,6 +6,13 @@ date: 2023-07-19
 url: "https://www.latent.space/p/llama2"
 guid: "substack:135258128"
 host: "Swyx"
+guests: ["Alessio Fanelli", "Simon Willison", "Nathan Lambert", "Matt Bornstein", "Alex Volkov", "Speaker 1", "Russell Kaplan", "Anton Troynikov", "Whole Mars Catalog", "Speaker 2"]
+format: "interview"
+level: 2
+length: "01:17:14"
+categories: ["models", "open-weights", "coding", "safety-security"]
+featured: ["Meta"]
+mentioned: ["Claude", "distillation", "ChatGPT"]
 transcript_source: "publisher"
 ---
 

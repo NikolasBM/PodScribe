@@ -6,6 +6,13 @@ date: 2025-02-01
 url: "https://www.latent.space/p/karina"
 guid: "substack:155459121"
 host: "Swyx"
+guests: ["swyx", "Karina"]
+format: "interview"
+level: 2
+length: "01:06:01"
+categories: ["models", "agents", "coding", "consumer"]
+featured: ["OpenAI", "Anthropic", "ChatGPT", "computer use", "Claude"]
+mentioned: ["Slack", "agent harness", "Gemini", "MCP"]
 transcript_source: "publisher"
 ---
 

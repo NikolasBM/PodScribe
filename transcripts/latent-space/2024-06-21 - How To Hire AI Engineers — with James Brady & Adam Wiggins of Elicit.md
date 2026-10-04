@@ -6,6 +6,13 @@ date: 2024-06-21
 url: "https://www.latent.space/p/hiring"
 guid: "substack:145870526"
 host: "Swyx"
+guests: ["James Brady", "Adam Wiggins"]
+format: "interview"
+level: 2
+length: "01:02:39"
+categories: ["work", "model-strategy"]
+featured: []
+mentioned: ["Slack", "Vercel AI Gateway"]
 transcript_source: "publisher"
 ---
 

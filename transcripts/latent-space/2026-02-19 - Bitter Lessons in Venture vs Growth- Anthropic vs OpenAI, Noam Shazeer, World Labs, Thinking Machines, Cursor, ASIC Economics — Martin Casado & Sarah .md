@@ -6,6 +6,13 @@ date: 2026-02-19
 url: "https://www.latent.space/p/a16z"
 guid: "substack:188504140"
 host: "Swyx"
+guests: ["Martin Casado", "Sarah Wang"]
+format: "interview"
+level: 1
+length: "00:55:17"
+categories: ["funding-markets", "infrastructure", "coding", "design"]
+featured: []
+mentioned: ["Claude Cowork", "OpenAI Codex"]
 transcript_source: "publisher"
 ---
 

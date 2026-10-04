@@ -6,6 +6,13 @@ date: 2023-05-20
 url: "https://www.latent.space/p/mosaic-mpt-7b"
 guid: "substack:122567124"
 host: "Swyx"
+guests: ["Jonathan", "Abhinav", "Abhi"]
+format: "interview"
+level: 2
+length: "01:06:00"
+categories: ["models", "infrastructure"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

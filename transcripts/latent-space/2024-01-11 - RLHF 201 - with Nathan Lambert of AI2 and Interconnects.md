@@ -6,6 +6,13 @@ date: 2024-01-11
 url: "https://www.latent.space/p/rlhf-201"
 guid: "substack:140498023"
 host: "Swyx"
+guests: ["Nathan"]
+format: "interview"
+level: 2
+length: "01:24:50"
+categories: ["models", "safety-security"]
+featured: ["ChatGPT"]
+mentioned: ["Gemini"]
 transcript_source: "publisher"
 ---
 

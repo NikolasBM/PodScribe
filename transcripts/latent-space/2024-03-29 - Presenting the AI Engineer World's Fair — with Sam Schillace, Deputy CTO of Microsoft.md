@@ -6,6 +6,13 @@ date: 2024-03-29
 url: "https://www.latent.space/p/worlds-fair-2024"
 guid: "substack:143067206"
 host: "Swyx"
+guests: ["Ben Dunphy", "Sam Schillace"]
+format: "interview"
+level: 2
+length: "00:00:00"
+categories: ["agents", "coding"]
+featured: ["Microsoft"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

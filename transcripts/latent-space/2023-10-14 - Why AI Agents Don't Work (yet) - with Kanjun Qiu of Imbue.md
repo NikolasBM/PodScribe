@@ -6,6 +6,13 @@ date: 2023-10-14
 url: "https://www.latent.space/p/imbue"
 guid: "substack:137874596"
 host: "Swyx"
+guests: ["Kanjun"]
+format: "interview"
+level: 2
+length: "01:04:48"
+categories: ["agents", "coding", "models"]
+featured: []
+mentioned: []
 transcript_source: "publisher"
 ---
 

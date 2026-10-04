@@ -6,6 +6,13 @@ date: 2026-05-20
 url: "https://www.latent.space/p/railway"
 guid: "substack:198575235"
 host: "Swyx"
+guests: ["Jake"]
+format: "interview"
+level: 2
+length: "01:28:22"
+categories: ["agents", "coding", "infrastructure", "enterprise"]
+featured: []
+mentioned: ["Claude", "Slack", "OpenClaw"]
 transcript_source: "publisher"
 ---
 

@@ -6,6 +6,13 @@ date: 2023-09-29
 url: "https://www.latent.space/p/humanloop"
 guid: "substack:137474557"
 host: "Swyx"
+guests: ["AI Anna", "Raza Habib"]
+format: "interview"
+level: 2
+length: "01:21:19"
+categories: ["enterprise"]
+featured: []
+mentioned: ["Microsoft Copilot", "Claude"]
 transcript_source: "publisher"
 ---
 

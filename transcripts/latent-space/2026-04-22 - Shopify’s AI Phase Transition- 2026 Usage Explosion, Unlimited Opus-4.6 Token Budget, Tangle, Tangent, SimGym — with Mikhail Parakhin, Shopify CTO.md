@@ -6,6 +6,13 @@ date: 2026-04-22
 url: "https://www.latent.space/p/shopify"
 guid: "substack:195067855"
 host: "Swyx"
+guests: ["Mikhail Parakhin"]
+format: "interview"
+level: 2
+length: "00:00:00"
+categories: ["agents", "coding", "enterprise", "open-weights"]
+featured: []
+mentioned: ["Qwen", "distillation", "Slack", "OpenAI Codex"]
 transcript_source: "publisher"
 ---
 
