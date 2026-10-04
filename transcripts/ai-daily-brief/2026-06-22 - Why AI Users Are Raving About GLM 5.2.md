@@ -1,16 +1,21 @@
-# Why AI Users Are Raving About GLM 5.2 — Transcript (2026-06-22)
-
-https://aidailybrief.ai/e/2026-06-22 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: models, open-weights, policy, coding
-Featured: GLM, Claude Fable, Claude Mythos, Anthropic, DeepSeek, Gemini, open-weight models
-Also mentioned: Claude Sonnet, GPT-5.6, OpenAI Codex, OpenClaw, ChatGPT, OpenRouter
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why AI Users Are Raving About GLM 5.2"
+date: 2026-06-22
+url: "https://aidailybrief.ai/e/2026-06-22"
+guid: "https://aidailybrief.ai/e/2026-06-22"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:29:00"
+categories: ["models", "open-weights", "policy", "coding"]
+featured: ["GLM", "Claude Fable", "Claude Mythos", "Anthropic", "DeepSeek", "Gemini", "open-weight models"]
+mentioned: ["Claude Sonnet", "GPT-5.6", "OpenAI Codex", "OpenClaw", "ChatGPT", "OpenRouter"]
+transcript_source: "publisher"
+---
+
+# Why AI Users Are Raving About GLM 5.2
 
 260622 in_EDIT: [00:00:00] Today on Today on the AI Daily Brief, why AI power users are raving about GLM 5.2. Before that, in the headlines, Trump talks anthropic, and Fable five return rumors swirl. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements before we dive in.
 

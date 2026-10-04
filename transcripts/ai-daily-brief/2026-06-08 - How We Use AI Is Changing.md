@@ -1,16 +1,21 @@
-# How We Use AI Is Changing — Transcript (2026-06-08)
-
-https://aidailybrief.ai/e/2026-06-08 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:25:30
-Host: Nathaniel Whittemore
-Categories: agents, coding, infrastructure, policy
-Featured: OpenAI, ChatGPT, OpenAI Codex, agent loops
-Also mentioned: Claude
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How We Use AI Is Changing"
+date: 2026-06-08
+url: "https://aidailybrief.ai/e/2026-06-08"
+guid: "https://aidailybrief.ai/e/2026-06-08"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:25:30"
+categories: ["agents", "coding", "infrastructure", "policy"]
+featured: ["OpenAI", "ChatGPT", "OpenAI Codex", "agent loops"]
+mentioned: ["Claude"]
+transcript_source: "publisher"
+---
+
+# How We Use AI Is Changing
 
 [00:00:00] 
 

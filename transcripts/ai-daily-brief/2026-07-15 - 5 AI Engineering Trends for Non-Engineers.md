@@ -1,16 +1,21 @@
-# 5 AI Engineering Trends for Non-Engineers — Transcript (2026-07-15)
-
-https://aidailybrief.ai/e/2026-07-15 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: agents, coding, consumer, work
-Featured: OpenAI, ChatGPT, Grok Build, agent harness, agent loops, agent skills
-Also mentioned: Claude Tag, OpenAI Codex, Claude Fable, GPT-5.6, Claude
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "5 AI Engineering Trends for Non-Engineers"
+date: 2026-07-15
+url: "https://aidailybrief.ai/e/2026-07-15"
+guid: "https://aidailybrief.ai/e/2026-07-15"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:28:00"
+categories: ["agents", "coding", "consumer", "work"]
+featured: ["OpenAI", "ChatGPT", "Grok Build", "agent harness", "agent loops", "agent skills"]
+mentioned: ["Claude Tag", "OpenAI Codex", "Claude Fable", "GPT-5.6", "Claude"]
+transcript_source: "publisher"
+---
+
+# 5 AI Engineering Trends for Non-Engineers
 
 [00:00:00] Today on the AI Daily Brief, the the five the five trends among AI engineers that non-engineers should be paying attention to. Before that are the headlines, more information about OpenAI's first consumer device. the AI Daily Brief is a daily podcast and video about the most important news and discussions in AI, All right, friends. All right, friends.
 

@@ -1,16 +1,21 @@
-# Why the Data Center Fight Has Little to Do With AI — Transcript (2026-08-05)
-
-https://aidailybrief.ai/e/2026-08-05 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:35:00
-Host: Nathaniel Whittemore
-Categories: policy, infrastructure, funding-markets, safety-security
-Featured: none
-Also mentioned: Claude Mythos, open-weight models, Cursor
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why the Data Center Fight Has Little to Do With AI"
+date: 2026-08-05
+url: "https://aidailybrief.ai/e/2026-08-05"
+guid: "https://aidailybrief.ai/e/2026-08-05"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:35:00"
+categories: ["policy", "infrastructure", "funding-markets", "safety-security"]
+featured: []
+mentioned: ["Claude Mythos", "open-weight models", "Cursor"]
+transcript_source: "publisher"
+---
+
+# Why the Data Center Fight Has Little to Do With AI
 
 [00:00:00] Today on the AI Daily Brief, why the data center debate has less to do with AI than you think
 

@@ -1,18 +1,22 @@
-# Grok Bot vs. OpenClaw: How I replaced my entire agent stack — Transcript (2026-09-02)
-
-https://podcasters.spotify.com/pod/show/pen-name/episodes/Grok-Bot-vs--OpenClaw-How-I-replaced-my-entire-agent-stack-e3o5nqr · How I AI · Transcribed with MAI-Transcribe-2
-
-<!-- guid: af897232-e5ce-436b-83d6-fc9388c21b01 -->
-
-<!-- metadata -->
-Format: demo · Level: 2 · Length: ~00:35:49
-Host: Claire Vo
-Categories: agents, consumer, coding
-Featured: Grok Bot, OpenClaw, Grok, agent harness
-Also mentioned: ChatPRD, Slack, Cursor
-<!-- /metadata -->
-
 ---
+podcast: "how-i-ai"
+podcast_title: "How I AI"
+title: "Grok Bot vs. OpenClaw: How I replaced my entire agent stack"
+date: 2026-09-02
+url: "https://podcasters.spotify.com/pod/show/pen-name/episodes/Grok-Bot-vs--OpenClaw-How-I-replaced-my-entire-agent-stack-e3o5nqr"
+guid: "af897232-e5ce-436b-83d6-fc9388c21b01"
+host: "Claire Vo"
+format: "demo"
+level: 2
+length: "00:35:49"
+categories: ["agents", "consumer", "coding"]
+featured: ["Grok Bot", "OpenClaw", "Grok", "agent harness"]
+mentioned: ["ChatPRD", "Slack", "Cursor"]
+transcript_source: "azure-asr"
+transcribed_by: "MAI-Transcribe-2"
+---
+
+# Grok Bot vs. OpenClaw: How I replaced my entire agent stack
 
 **Claire Vo** [00:00:00] Today I'm going to talk about what everybody else is talking about these days, Grok bot. Yes, I did an episode lovingly entitled Grok, Grok, Grok, where I gave you my high level overview of Grok bot, the new Grok models, and Origin, Cursor's new GitHub replacement. But today I'm going to talk specifically about Grok bot. After several weeks of working with Grok bot, I have to tell you the truth. I have killed all my OpenClaws and moved almost entirely to Grokbot. In this episode, I'm just going to show you a couple very practical use cases of Grokbot, why I think it's better right now than some of the OpenClaws I was running, what is still missing, and what I can't wait for you to try. This is going to be a totally hands-on mini episode with bot ideas you can steal. We will put the bot links and the bot templates in the show notes, and I hope this is a really specific way to get you up and running in your life a little bit better with Grok bot.
 

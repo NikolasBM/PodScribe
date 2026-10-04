@@ -1,16 +1,21 @@
-# The AI Challenges Businesses Are Actually Focused On Right Now — Transcript (2026-09-18)
-
-https://aidailybrief.ai/e/2026-09-18 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:30:00
-Host: Nathaniel Whittemore
-Categories: safety-security, enterprise, open-weights, agents
-Featured: Anthropic, open-weight models, recursive self-improvement, Claude, Pacing the Frontier
-Also mentioned: GLM, Hugging Face incident, Claude Mythos, GPT-6, Gemini
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The AI Challenges Businesses Are Actually Focused On Right Now"
+date: 2026-09-18
+url: "https://aidailybrief.ai/e/2026-09-18"
+guid: "https://aidailybrief.ai/e/2026-09-18"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:30:00"
+categories: ["safety-security", "enterprise", "open-weights", "agents"]
+featured: ["Anthropic", "open-weight models", "recursive self-improvement", "Claude", "Pacing the Frontier"]
+mentioned: ["GLM", "Hugging Face incident", "Claude Mythos", "GPT-6", "Gemini"]
+transcript_source: "publisher"
+---
+
+# The AI Challenges Businesses Are Actually Focused On Right Now
 
 [00:00:00] 
 

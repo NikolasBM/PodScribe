@@ -1,18 +1,22 @@
-# Humanity’s Last Invention — Richard Socher of Recursive — Transcript (2026-09-14)
-
-https://www.latent.space/p/recursive · Latent Space
-
-<!-- guid: substack:215289811 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:31:59
-Host: Swyx · Guests: Richard Socher
-Categories: safety-security, agents, models, coding
-Featured: recursive self-improvement
-Also mentioned: agent harness, Claude, ChatGPT, GPT-5.6, Whisperflow
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Humanity’s Last Invention — Richard Socher of Recursive"
+date: 2026-09-14
+url: "https://www.latent.space/p/recursive"
+guid: "substack:215289811"
+host: "Swyx"
+guests: ["Richard Socher"]
+format: "interview"
+level: 2
+length: "01:31:59"
+categories: ["safety-security", "agents", "models", "coding"]
+featured: ["recursive self-improvement"]
+mentioned: ["agent harness", "Claude", "ChatGPT", "GPT-5.6", "Whisperflow"]
+transcript_source: "publisher"
+---
+
+# Humanity’s Last Invention — Richard Socher of Recursive
 
 ## Introduction: Richard Socher and the Eureka Machine
 

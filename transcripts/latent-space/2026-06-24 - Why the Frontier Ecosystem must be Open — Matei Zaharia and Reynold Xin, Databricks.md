@@ -1,18 +1,22 @@
-# Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks — Transcript (2026-06-24)
-
-https://www.latent.space/p/databricks · Latent Space
-
-<!-- guid: substack:203293676 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:08:41
-Host: Swyx · Guests: Reynold Xin, Matei Zaharia
-Categories: agents, coding, enterprise
-Featured: agent harness
-Also mentioned: OpenAI Codex, Claude, ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks"
+date: 2026-06-24
+url: "https://www.latent.space/p/databricks"
+guid: "substack:203293676"
+host: "Swyx"
+guests: ["Reynold Xin", "Matei Zaharia"]
+format: "interview"
+level: 2
+length: "01:08:41"
+categories: ["agents", "coding", "enterprise"]
+featured: ["agent harness"]
+mentioned: ["OpenAI Codex", "Claude", "ChatGPT"]
+transcript_source: "publisher"
+---
+
+# Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks
 
 ## Introduction: Databricks, Data + AI Summit, and Founder Dynamics
 

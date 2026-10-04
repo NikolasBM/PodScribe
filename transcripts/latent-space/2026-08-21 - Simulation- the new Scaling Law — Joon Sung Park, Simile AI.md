@@ -1,18 +1,22 @@
-# Simulation: the new Scaling Law — Joon Sung Park, Simile AI — Transcript (2026-08-21)
-
-https://www.latent.space/p/simile · Latent Space
-
-<!-- guid: substack:212197985 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:09:31
-Host: Swyx · Guests: Joon
-Categories: agents, enterprise, models
-Featured: none
-Also mentioned: ChatGPT, Claude, OpenClaw, Figma
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Simulation: the new Scaling Law — Joon Sung Park, Simile AI"
+date: 2026-08-21
+url: "https://www.latent.space/p/simile"
+guid: "substack:212197985"
+host: "Swyx"
+guests: ["Joon"]
+format: "interview"
+level: 2
+length: "01:09:31"
+categories: ["agents", "enterprise", "models"]
+featured: []
+mentioned: ["ChatGPT", "Claude", "OpenClaw", "Figma"]
+transcript_source: "publisher"
+---
+
+# Simulation: the new Scaling Law — Joon Sung Park, Simile AI
 
 ## Introduction: Joon Sung Park, Simile, and the Story So Far
 

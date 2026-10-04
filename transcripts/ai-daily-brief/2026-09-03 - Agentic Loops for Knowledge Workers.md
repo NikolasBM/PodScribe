@@ -1,16 +1,21 @@
-# Agentic Loops for Knowledge Workers — Transcript (2026-09-03)
-
-https://aidailybrief.ai/e/2026-09-03 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: tutorial · Level: 3 · Length: ~00:57:00
-Host: Nathaniel Whittemore
-Categories: agents, work
-Featured: Claude, agent harness, agent loops, Claude Code
-Also mentioned: Claude Cowork, ChatGPT, Cursor
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Agentic Loops for Knowledge Workers"
+date: 2026-09-03
+url: "https://aidailybrief.ai/e/2026-09-03"
+guid: "https://aidailybrief.ai/e/2026-09-03"
+host: "Nathaniel Whittemore"
+format: "tutorial"
+level: 3
+length: "00:57:00"
+categories: ["agents", "work"]
+featured: ["Claude", "agent harness", "agent loops", "Claude Code"]
+mentioned: ["Claude Cowork", "ChatGPT", "Cursor"]
+transcript_source: "publisher"
+---
+
+# Agentic Loops for Knowledge Workers
 
 [00:00:00] 
 

@@ -1,16 +1,21 @@
-# 5 Ways Claude Tag Could Change How You Use AI — Transcript (2026-06-24)
-
-https://aidailybrief.ai/e/2026-06-24 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:27:00
-Host: Nathaniel Whittemore
-Categories: agents, policy, coding, work
-Featured: Claude, Anthropic, Claude Tag, Slack, Claude Code, agent harness
-Also mentioned: OpenClaw, Cursor, Grok Build, Perplexity, ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "5 Ways Claude Tag Could Change How You Use AI"
+date: 2026-06-24
+url: "https://aidailybrief.ai/e/2026-06-24"
+guid: "https://aidailybrief.ai/e/2026-06-24"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:27:00"
+categories: ["agents", "policy", "coding", "work"]
+featured: ["Claude", "Anthropic", "Claude Tag", "Slack", "Claude Code", "agent harness"]
+mentioned: ["OpenClaw", "Cursor", "Grok Build", "Perplexity", "ChatGPT"]
+transcript_source: "publisher"
+---
+
+# 5 Ways Claude Tag Could Change How You Use AI
 
 [00:00:00] Today on the AI Daily Brief, why Claude Tag and approaches like it might change how you use AI. Before that in the headlines
 

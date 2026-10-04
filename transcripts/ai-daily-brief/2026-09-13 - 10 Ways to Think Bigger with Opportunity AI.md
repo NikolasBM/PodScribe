@@ -1,16 +1,21 @@
-# 10 Ways to Think Bigger with Opportunity AI — Transcript (2026-09-13)
-
-https://aidailybrief.ai/e/2026-09-13 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: marketing, design, models, work
-Featured: GPT-6
-Also mentioned: Claude Fable, OpenAI Codex, Claude Code
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "10 Ways to Think Bigger with Opportunity AI"
+date: 2026-09-13
+url: "https://aidailybrief.ai/e/2026-09-13"
+guid: "https://aidailybrief.ai/e/2026-09-13"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:28:00"
+categories: ["marketing", "design", "models", "work"]
+featured: ["GPT-6"]
+mentioned: ["Claude Fable", "OpenAI Codex", "Claude Code"]
+transcript_source: "publisher"
+---
+
+# 10 Ways to Think Bigger with Opportunity AI
 
 [00:00:00] 
 

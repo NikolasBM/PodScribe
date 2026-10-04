@@ -1,18 +1,22 @@
-# Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs — Transcript (2026-06-04)
-
-https://www.latent.space/p/andon · Latent Space
-
-<!-- guid: substack:200614482 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:15:29
-Host: Swyx · Guests: Lukas, Axel
-Categories: agents, models, safety-security, work
-Featured: agent harness, Claude, Slack, Claude Mythos, Claude Opus
-Also mentioned: OpenClaw, Claude Code, Grok, Gemini, GLM, Qwen
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs"
+date: 2026-06-04
+url: "https://www.latent.space/p/andon"
+guid: "substack:200614482"
+host: "Swyx"
+guests: ["Lukas", "Axel"]
+format: "interview"
+level: 2
+length: "01:15:29"
+categories: ["agents", "models", "safety-security", "work"]
+featured: ["agent harness", "Claude", "Slack", "Claude Mythos", "Claude Opus"]
+mentioned: ["OpenClaw", "Claude Code", "Grok", "Gemini", "GLM", "Qwen"]
+transcript_source: "publisher"
+---
+
+# Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs
 
 ## Introduction: Andon Labs, Long-Running Agents, and Real-World Evals
 

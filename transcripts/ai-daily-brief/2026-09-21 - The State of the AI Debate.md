@@ -1,16 +1,21 @@
-# The State of the AI Debate — Transcript (2026-09-21)
-
-https://aidailybrief.ai/e/2026-09-21 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:27:00
-Host: Nathaniel Whittemore
-Categories: policy, funding-markets, safety-security, infrastructure
-Featured: Anthropic, Pacing the Frontier
-Also mentioned: distillation, Claude Code
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The State of the AI Debate"
+date: 2026-09-21
+url: "https://aidailybrief.ai/e/2026-09-21"
+guid: "https://aidailybrief.ai/e/2026-09-21"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:27:00"
+categories: ["policy", "funding-markets", "safety-security", "infrastructure"]
+featured: ["Anthropic", "Pacing the Frontier"]
+mentioned: ["distillation", "Claude Code"]
+transcript_source: "publisher"
+---
+
+# The State of the AI Debate
 
 [00:00:00] The next era of the AI debate is officially upon us. 
 

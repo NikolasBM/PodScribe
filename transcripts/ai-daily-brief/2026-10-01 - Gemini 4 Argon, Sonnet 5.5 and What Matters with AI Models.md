@@ -1,16 +1,21 @@
-# Gemini 4 Argon, Sonnet 5.5 and What Matters with AI Models — Transcript (2026-10-01)
-
-https://aidailybrief.ai/e/2026-10-01 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: models, agents, policy, coding
-Featured: Gemini, Google, Claude Sonnet, Meta Muse, Anthropic, Google DeepMind, agent harness
-Also mentioned: Claude Opus, GPT-6, Claude Fable, OpenAI Codex, vibe coding, Artificial Analysis, ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Gemini 4 Argon, Sonnet 5.5 and What Matters with AI Models"
+date: 2026-10-01
+url: "https://aidailybrief.ai/e/2026-10-01"
+guid: "https://aidailybrief.ai/e/2026-10-01"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:29:00"
+categories: ["models", "agents", "policy", "coding"]
+featured: ["Gemini", "Google", "Claude Sonnet", "Meta Muse", "Anthropic", "Google DeepMind", "agent harness"]
+mentioned: ["Claude Opus", "GPT-6", "Claude Fable", "OpenAI Codex", "vibe coding", "Artificial Analysis", "ChatGPT"]
+transcript_source: "publisher"
+---
+
+# Gemini 4 Argon, Sonnet 5.5 and What Matters with AI Models
 
 [00:00:00] Coming into 2026, Google was looking pretty good in the AI race. 2025 had been a good year. A lot of the questions inside DeepMind had been answered. They were putting out competitive Gemini models. They were pushing forward with interesting new products
 

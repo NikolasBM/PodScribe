@@ -1,16 +1,21 @@
-# The Most Important New AI Tools from OpenAI DevDay — Transcript (2026-09-30)
-
-https://aidailybrief.ai/e/2026-09-30 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:23:00
-Host: Nathaniel Whittemore
-Categories: agents, models, coding, model-strategy
-Featured: OpenAI, ChatGPT, GPT-6, Jev, OpenAI Decisions API, computer use
-Also mentioned: OpenAI Codex, Meta Muse, Grok Bot, Slack, Claude Opus, GLM
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Most Important New AI Tools from OpenAI DevDay"
+date: 2026-09-30
+url: "https://aidailybrief.ai/e/2026-09-30"
+guid: "https://aidailybrief.ai/e/2026-09-30"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:23:00"
+categories: ["agents", "models", "coding", "model-strategy"]
+featured: ["OpenAI", "ChatGPT", "GPT-6", "Jev", "OpenAI Decisions API", "computer use"]
+mentioned: ["OpenAI Codex", "Meta Muse", "Grok Bot", "Slack", "Claude Opus", "GLM"]
+transcript_source: "publisher"
+---
+
+# The Most Important New AI Tools from OpenAI DevDay
 
 [00:00:00] 
 

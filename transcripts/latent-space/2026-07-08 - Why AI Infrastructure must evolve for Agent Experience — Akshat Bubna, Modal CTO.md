@@ -1,18 +1,22 @@
-# Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO — Transcript (2026-07-08)
-
-https://www.latent.space/p/modal2026 · Latent Space
-
-<!-- guid: substack:205716015 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~00:57:42
-Host: Swyx · Guests: Akshat
-Categories: agents, coding, infrastructure
-Featured: none
-Also mentioned: agent harness, Claude Code, OpenAI Codex, Claude
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO"
+date: 2026-07-08
+url: "https://www.latent.space/p/modal2026"
+guid: "substack:205716015"
+host: "Swyx"
+guests: ["Akshat"]
+format: "interview"
+level: 2
+length: "00:57:42"
+categories: ["agents", "coding", "infrastructure"]
+featured: []
+mentioned: ["agent harness", "Claude Code", "OpenAI Codex", "Claude"]
+transcript_source: "publisher"
+---
+
+# Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO
 
 ## Introduction: Modal, Series C, and the Art Party
 

@@ -1,16 +1,21 @@
-# The New Problems AI Is Creating (And How People Are Solving Them) — Transcript (2026-08-16)
-
-https://aidailybrief.ai/e/2026-08-16 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: work, enterprise, model-strategy, agents
-Featured: agent harness
-Also mentioned: ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The New Problems AI Is Creating (And How People Are Solving Them)"
+date: 2026-08-16
+url: "https://aidailybrief.ai/e/2026-08-16"
+guid: "https://aidailybrief.ai/e/2026-08-16"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:29:00"
+categories: ["work", "enterprise", "model-strategy", "agents"]
+featured: ["agent harness"]
+mentioned: ["ChatGPT"]
+transcript_source: "publisher"
+---
+
+# The New Problems AI Is Creating (And How People Are Solving Them)
 
 260816 lrs cold_EDIT: [00:00:00] Last year at this time, AI was a very different place. ChatGPT-5 had just launched to not much acclaim at all. People were really upset that GPT-4.0 was being deprecated, and there was so much growing conversation and consternation, frankly, about the potential of an AI bubble And on top of all that, there were some companies out there that were still trying to convince themselves that AI was overhyped and just not going to be a thing.
 

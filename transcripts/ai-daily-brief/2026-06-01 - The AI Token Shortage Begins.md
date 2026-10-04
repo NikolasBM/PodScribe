@@ -1,16 +1,21 @@
-# The AI Token Shortage Begins — Transcript (2026-06-01)
-
-https://aidailybrief.ai/e/2026-06-01 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:28:30
-Host: Nathaniel Whittemore
-Categories: enterprise, funding-markets, agents, infrastructure
-Featured: Anthropic, OpenAI, Claude Code, Claude, agent harness, Claude Opus, SpaceX AI
-Also mentioned: OpenAI Codex, Gemini, DeepSeek, Grok, agent loops, Claude Mythos, vibe coding, Microsoft Copilot, Cursor, GPT-5.5
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The AI Token Shortage Begins"
+date: 2026-06-01
+url: "https://aidailybrief.ai/e/2026-06-01"
+guid: "https://aidailybrief.ai/e/2026-06-01"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:28:30"
+categories: ["enterprise", "funding-markets", "agents", "infrastructure"]
+featured: ["Anthropic", "OpenAI", "Claude Code", "Claude", "agent harness", "Claude Opus", "SpaceX AI"]
+mentioned: ["OpenAI Codex", "Gemini", "DeepSeek", "Grok", "agent loops", "Claude Mythos", "vibe coding", "Microsoft Copilot", "Cursor", "GPT-5.5"]
+transcript_source: "publisher"
+---
+
+# The AI Token Shortage Begins
 
 [00:00:00] Today on the AI Daily Brief, the we're recapping the month of May, one of the single most consequential AI months we've had in a very, very long time 
 

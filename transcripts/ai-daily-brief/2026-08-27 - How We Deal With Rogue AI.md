@@ -1,16 +1,21 @@
-# How We Deal With Rogue AI — Transcript (2026-08-27)
-
-https://aidailybrief.ai/e/2026-08-27 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: safety-security, agents, funding-markets, models
-Featured: OpenAI, Hugging Face, Perplexity, Hugging Face incident, Gemini
-Also mentioned: OpenClaw, Qwen
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How We Deal With Rogue AI"
+date: 2026-08-27
+url: "https://aidailybrief.ai/e/2026-08-27"
+guid: "https://aidailybrief.ai/e/2026-08-27"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:28:00"
+categories: ["safety-security", "agents", "funding-markets", "models"]
+featured: ["OpenAI", "Hugging Face", "Perplexity", "Hugging Face incident", "Gemini"]
+mentioned: ["OpenClaw", "Qwen"]
+transcript_source: "publisher"
+---
+
+# How We Deal With Rogue AI
 
 [00:00:00] 
 

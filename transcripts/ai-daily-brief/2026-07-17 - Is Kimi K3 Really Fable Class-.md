@@ -1,16 +1,21 @@
-# Is Kimi K3 Really Fable Class? — Transcript (2026-07-17)
-
-https://aidailybrief.ai/e/2026-07-17 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: review · Level: 2 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: models, open-weights, coding, design
-Featured: Kimi, Claude Fable, open-weight models, GPT-5.6
-Also mentioned: DeepSeek, GLM, Claude Opus, distillation, Cursor, GPT-5.5, Claude Mythos
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Is Kimi K3 Really Fable Class?"
+date: 2026-07-17
+url: "https://aidailybrief.ai/e/2026-07-17"
+guid: "https://aidailybrief.ai/e/2026-07-17"
+host: "Nathaniel Whittemore"
+format: "review"
+level: 2
+length: "00:28:00"
+categories: ["models", "open-weights", "coding", "design"]
+featured: ["Kimi", "Claude Fable", "open-weight models", "GPT-5.6"]
+mentioned: ["DeepSeek", "GLM", "Claude Opus", "distillation", "Cursor", "GPT-5.5", "Claude Mythos"]
+transcript_source: "publisher"
+---
+
+# Is Kimi K3 Really Fable Class?
 
 260717_EDIT: [00:00:00] Today Today on the AI Daily Brief, did we actually just get a fable level open model?
 

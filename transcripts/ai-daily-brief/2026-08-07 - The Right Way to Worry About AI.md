@@ -1,16 +1,21 @@
-# The Right Way to Worry About AI — Transcript (2026-08-07)
-
-https://aidailybrief.ai/e/2026-08-07 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: safety-security, funding-markets, agents, infrastructure
-Featured: OpenAI, Hugging Face incident, ChatGPT
-Also mentioned: OpenRouter
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Right Way to Worry About AI"
+date: 2026-08-07
+url: "https://aidailybrief.ai/e/2026-08-07"
+guid: "https://aidailybrief.ai/e/2026-08-07"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:28:00"
+categories: ["safety-security", "funding-markets", "agents", "infrastructure"]
+featured: ["OpenAI", "Hugging Face incident", "ChatGPT"]
+mentioned: ["OpenRouter"]
+transcript_source: "publisher"
+---
+
+# The Right Way to Worry About AI
 
 260807 in_EDIT: [00:00:00] Today on the Today on the AI Daily Brief, The right way to worry about AI. Before that in the headlines, markets, models, and more. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
 

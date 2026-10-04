@@ -1,16 +1,21 @@
-# ChatGPT Just Became a Work Agent — Transcript (2026-07-10)
-
-https://aidailybrief.ai/e/2026-07-10 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:25:00
-Host: Nathaniel Whittemore
-Categories: models, agents, coding, infrastructure
-Featured: Meta, OpenAI, ChatGPT, GPT-5.6, agent harness, OpenAI Codex, Muse Spark, Claude Fable, Meta Muse
-Also mentioned: GPT-5.5, Claude Opus, Cursor, Artificial Analysis, Claude Cowork, Grok, open-weight models, MCP
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "ChatGPT Just Became a Work Agent"
+date: 2026-07-10
+url: "https://aidailybrief.ai/e/2026-07-10"
+guid: "https://aidailybrief.ai/e/2026-07-10"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:25:00"
+categories: ["models", "agents", "coding", "infrastructure"]
+featured: ["Meta", "OpenAI", "ChatGPT", "GPT-5.6", "agent harness", "OpenAI Codex", "Muse Spark", "Claude Fable", "Meta Muse"]
+mentioned: ["GPT-5.5", "Claude Opus", "Cursor", "Artificial Analysis", "Claude Cowork", "Grok", "open-weight models", "MCP"]
+transcript_source: "publisher"
+---
+
+# ChatGPT Just Became a Work Agent
 
 260710 in_EDIT: [00:00:00] Today on the Today on the AI Daily Brief, more new models plus a big harness update from OpenAI
 

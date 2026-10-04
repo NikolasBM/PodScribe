@@ -1,18 +1,22 @@
-# Inside the Model Factory — Eiso Kant, Poolside AI — Transcript (2026-07-23)
-
-https://www.latent.space/p/poolside · Latent Space
-
-<!-- guid: substack:208082176 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:54:23
-Host: Swyx · Guests: Eiso Kant
-Categories: agents, coding, open-weights, models
-Featured: agent harness, open-weight models
-Also mentioned: DeepSeek, distillation, MCP, ChatGPT, Hermes Agent, recursive self-improvement, GLM, OpenAI Codex
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Inside the Model Factory — Eiso Kant, Poolside AI"
+date: 2026-07-23
+url: "https://www.latent.space/p/poolside"
+guid: "substack:208082176"
+host: "Swyx"
+guests: ["Eiso Kant"]
+format: "interview"
+level: 2
+length: "01:54:23"
+categories: ["agents", "coding", "open-weights", "models"]
+featured: ["agent harness", "open-weight models"]
+mentioned: ["DeepSeek", "distillation", "MCP", "ChatGPT", "Hermes Agent", "recursive self-improvement", "GLM", "OpenAI Codex"]
+transcript_source: "publisher"
+---
+
+# Inside the Model Factory — Eiso Kant, Poolside AI
 
 ## Introduction: Eiso Kant, Poolside, and Open Models
 

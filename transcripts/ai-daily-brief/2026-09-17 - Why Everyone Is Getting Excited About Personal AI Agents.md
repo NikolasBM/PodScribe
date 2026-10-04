@@ -1,16 +1,21 @@
-# Why Everyone Is Getting Excited About Personal AI Agents — Transcript (2026-09-17)
-
-https://aidailybrief.ai/e/2026-09-17 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: agents, consumer, models, safety-security
-Featured: Meta Muse, Instinct, Grok Bot, computer use, Meta
-Also mentioned: Claude, Claude Cowork, OpenClaw, OpenRouter, GPT-5.6, Claude Code, ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why Everyone Is Getting Excited About Personal AI Agents"
+date: 2026-09-17
+url: "https://aidailybrief.ai/e/2026-09-17"
+guid: "https://aidailybrief.ai/e/2026-09-17"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:29:00"
+categories: ["agents", "consumer", "models", "safety-security"]
+featured: ["Meta Muse", "Instinct", "Grok Bot", "computer use", "Meta"]
+mentioned: ["Claude", "Claude Cowork", "OpenClaw", "OpenRouter", "GPT-5.6", "Claude Code", "ChatGPT"]
+transcript_source: "publisher"
+---
+
+# Why Everyone Is Getting Excited About Personal AI Agents
 
 [00:00:00] 
 

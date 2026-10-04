@@ -1,18 +1,22 @@
-# Jev for beginners: how to use it and what to build — Transcript (2026-09-28)
-
-https://podcasters.spotify.com/pod/show/pen-name/episodes/Jev-for-beginners-how-to-use-it-and-what-to-build-e3pctfc · How I AI · Transcribed with MAI-Transcribe-2
-
-<!-- guid: 9421a59e-f822-4ab8-bd64-517ec9824ea9 -->
-
-<!-- metadata -->
-Format: tutorial · Level: 2 · Length: ~00:25:56
-Host: Claire Vo
-Categories: model-strategy, models, coding
-Featured: Jev, ChatPRD
-Also mentioned: GPT-6, OpenAI Codex, Claude Code, Grok, Meta Muse, Grok Bot, Gemini
-<!-- /metadata -->
-
 ---
+podcast: "how-i-ai"
+podcast_title: "How I AI"
+title: "Jev for beginners: how to use it and what to build"
+date: 2026-09-28
+url: "https://podcasters.spotify.com/pod/show/pen-name/episodes/Jev-for-beginners-how-to-use-it-and-what-to-build-e3pctfc"
+guid: "9421a59e-f822-4ab8-bd64-517ec9824ea9"
+host: "Claire Vo"
+format: "tutorial"
+level: 2
+length: "00:25:56"
+categories: ["model-strategy", "models", "coding"]
+featured: ["Jev", "ChatPRD"]
+mentioned: ["GPT-6", "OpenAI Codex", "Claude Code", "Grok", "Meta Muse", "Grok Bot", "Gemini"]
+transcript_source: "azure-asr"
+transcribed_by: "MAI-Transcribe-2"
+---
+
+# Jev for beginners: how to use it and what to build
 
 **Claire Vo** [00:00:00] Jev, Jev, Jev. Welcome to Jev week on How I AI. We have seen a lot of new models be released in the last 5 days. We saw Opus 5.5, we saw GPT-6 Soul, GPT-6 Luna, Muse is blowing up the timeline, everybody still loves their Grok bots, and yet there is one thing that I want to talk about in AI right now, and that is this fast, cheap, doesn't speak, system one decision model from TypeSafe AI. As soon as I saw this trending on X, as soon as I saw it launched, I immediately started testing it. Now, what I will say is, more than any other model I've experienced lately, Jev has been the one that has exploded use cases, personal productivity use cases, code use cases, product use cases.
 

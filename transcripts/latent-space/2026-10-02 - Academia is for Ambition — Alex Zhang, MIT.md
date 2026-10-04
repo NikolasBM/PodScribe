@@ -1,18 +1,22 @@
-# Academia is for Ambition — Alex Zhang, MIT — Transcript (2026-10-02)
-
-https://www.latent.space/p/rlm · Latent Space
-
-<!-- guid: substack:218414422 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:41:19
-Host: Swyx · Guests: Alex Zhang
-Categories: agents, models, coding, model-strategy
-Featured: agent harness, Jev
-Also mentioned: GPT-6, Kimi, SWE-bench, ARC-AGI, Qwen, OpenAI Codex, Gemini, Claude, Claude Code, Grok Bot, Hugging Face incident, model routing, Google Antigravity
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Academia is for Ambition — Alex Zhang, MIT"
+date: 2026-10-02
+url: "https://www.latent.space/p/rlm"
+guid: "substack:218414422"
+host: "Swyx"
+guests: ["Alex Zhang"]
+format: "interview"
+level: 2
+length: "01:41:19"
+categories: ["agents", "models", "coding", "model-strategy"]
+featured: ["agent harness", "Jev"]
+mentioned: ["GPT-6", "Kimi", "SWE-bench", "ARC-AGI", "Qwen", "OpenAI Codex", "Gemini", "Claude", "Claude Code", "Grok Bot", "Hugging Face incident", "model routing", "Google Antigravity"]
+transcript_source: "publisher"
+---
+
+# Academia is for Ambition — Alex Zhang, MIT
 
 ## Introduction: Alex Zhang, RLMs, and GPU Mode
 

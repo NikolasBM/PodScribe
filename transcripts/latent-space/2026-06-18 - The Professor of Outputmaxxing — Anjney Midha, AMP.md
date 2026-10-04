@@ -1,18 +1,22 @@
-# The Professor of Outputmaxxing — Anjney Midha, AMP — Transcript (2026-06-18)
-
-https://www.latent.space/p/anj · Latent Space
-
-<!-- guid: substack:202359797 -->
-
-<!-- metadata -->
-Format: interview · Level: 1 · Length: ~00:59:15
-Host: Swyx · Guests: Anjney
-Categories: infrastructure, enterprise, safety-security
-Featured: Anthropic
-Also mentioned: Claude
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "The Professor of Outputmaxxing — Anjney Midha, AMP"
+date: 2026-06-18
+url: "https://www.latent.space/p/anj"
+guid: "substack:202359797"
+host: "Swyx"
+guests: ["Anjney"]
+format: "interview"
+level: 1
+length: "00:59:15"
+categories: ["infrastructure", "enterprise", "safety-security"]
+featured: ["Anthropic"]
+mentioned: ["Claude"]
+transcript_source: "publisher"
+---
+
+# The Professor of Outputmaxxing — Anjney Midha, AMP
 
 ## Introduction: Anjney Midha, AMP, and Compute Waste
 

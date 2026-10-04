@@ -1,16 +1,21 @@
-# With AI IPOs On the Way, Should the Public Own AI Companies? — Transcript (2026-06-02)
-
-https://aidailybrief.ai/e/2026-06-02 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:22:45
-Host: Nathaniel Whittemore
-Categories: funding-markets, infrastructure, enterprise, policy
-Featured: OpenAI, Anthropic, Nvidia
-Also mentioned: none
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "With AI IPOs On the Way, Should the Public Own AI Companies?"
+date: 2026-06-02
+url: "https://aidailybrief.ai/e/2026-06-02"
+guid: "https://aidailybrief.ai/e/2026-06-02"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:22:45"
+categories: ["funding-markets", "infrastructure", "enterprise", "policy"]
+featured: ["OpenAI", "Anthropic", "Nvidia"]
+mentioned: []
+transcript_source: "publisher"
+---
+
+# With AI IPOs On the Way, Should the Public Own AI Companies?
 
 [00:00:00] Today on the AI Daily Brief As OpenAI and Anthropic race towards IPO, should AI be a public good? Before that in the headlines
 

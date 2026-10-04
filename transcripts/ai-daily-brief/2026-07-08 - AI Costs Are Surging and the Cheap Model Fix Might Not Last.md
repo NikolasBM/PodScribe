@@ -1,16 +1,21 @@
-# AI Costs Are Surging and the Cheap Model Fix Might Not Last — Transcript (2026-07-08)
-
-https://aidailybrief.ai/e/2026-07-08 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:26:00
-Host: Nathaniel Whittemore
-Categories: models, open-weights, model-strategy, policy
-Featured: open-weight models, Microsoft MAI, Claude Fable, Gemma, GPT-5.6, Grok
-Also mentioned: Gemini, model routing, Cursor, Muse Spark, GPT-5.5, Claude Mythos, MiniMax, GLM, Nvidia Nemotron
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "AI Costs Are Surging and the Cheap Model Fix Might Not Last"
+date: 2026-07-08
+url: "https://aidailybrief.ai/e/2026-07-08"
+guid: "https://aidailybrief.ai/e/2026-07-08"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:26:00"
+categories: ["models", "open-weights", "model-strategy", "policy"]
+featured: ["open-weight models", "Microsoft MAI", "Claude Fable", "Gemma", "GPT-5.6", "Grok"]
+mentioned: ["Gemini", "model routing", "Cursor", "Muse Spark", "GPT-5.5", "Claude Mythos", "MiniMax", "GLM", "Nvidia Nemotron"]
+transcript_source: "publisher"
+---
+
+# AI Costs Are Surging and the Cheap Model Fix Might Not Last
 
 [00:00:00] today on the AI today on the AI Daily Brief, how does AI change If access to open weight models starts to get cut off Before that in the headlines. h-- all the new models you have access to right now and all the ones that are coming. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Blitzy, Airtable, and Retool. To get an ad-free version of the show, go to patreon.com/aidailybrief. And of course, if you wanna learn more about sponsoring the show, send us a note at sponsors@aidailybrief.ai. 
 

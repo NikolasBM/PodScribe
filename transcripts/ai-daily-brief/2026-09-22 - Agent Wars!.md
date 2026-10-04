@@ -1,16 +1,21 @@
-# Agent Wars! — Transcript (2026-09-22)
-
-https://aidailybrief.ai/e/2026-09-22 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:30:00
-Host: Nathaniel Whittemore
-Categories: consumer, agents, models, coding
-Featured: Amazon, Meta Muse, Grok, Meta, SpaceX AI, Grok Bot
-Also mentioned: Claude Fable, ChatGPT, GPT-6, OpenClaw, Instinct, Perplexity
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Agent Wars!"
+date: 2026-09-22
+url: "https://aidailybrief.ai/e/2026-09-22"
+guid: "https://aidailybrief.ai/e/2026-09-22"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:30:00"
+categories: ["consumer", "agents", "models", "coding"]
+featured: ["Amazon", "Meta Muse", "Grok", "Meta", "SpaceX AI", "Grok Bot"]
+mentioned: ["Claude Fable", "ChatGPT", "GPT-6", "OpenClaw", "Instinct", "Perplexity"]
+transcript_source: "publisher"
+---
+
+# Agent Wars!
 
 [00:00:00] And just like that, the AI agent wars have begun. Muse personal agent has been a breakout consumer success
 

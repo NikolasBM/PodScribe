@@ -1,16 +1,21 @@
-# AI Companies Are Hiring More — Transcript (2026-07-02)
-
-https://aidailybrief.ai/e/2026-07-02 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:27:00
-Host: Nathaniel Whittemore
-Categories: work, models, coding, funding-markets
-Featured: Meta, OpenAI, Claude Fable
-Also mentioned: distillation, Claude Code, Claude
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "AI Companies Are Hiring More"
+date: 2026-07-02
+url: "https://aidailybrief.ai/e/2026-07-02"
+guid: "https://aidailybrief.ai/e/2026-07-02"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:27:00"
+categories: ["work", "models", "coding", "funding-markets"]
+featured: ["Meta", "OpenAI", "Claude Fable"]
+mentioned: ["distillation", "Claude Code", "Claude"]
+transcript_source: "publisher"
+---
+
+# AI Companies Are Hiring More
 
 [00:00:00] Today on the AI Daily Today on the AI Daily Brief, the latest numbers on AI and jobs. Before that in the headlines, is OpenAI about to give 5% of the company to the US government? The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Rackspace, Blitzy, and Hyperagent
 

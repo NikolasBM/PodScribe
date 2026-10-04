@@ -1,16 +1,21 @@
-# The Rise of the AI Moderates — Transcript (2026-09-27)
-
-https://aidailybrief.ai/e/2026-09-27 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:32:00
-Host: Nathaniel Whittemore
-Categories: safety-security, work, agents, policy
-Featured: Hugging Face incident
-Also mentioned: none
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Rise of the AI Moderates"
+date: 2026-09-27
+url: "https://aidailybrief.ai/e/2026-09-27"
+guid: "https://aidailybrief.ai/e/2026-09-27"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:32:00"
+categories: ["safety-security", "work", "agents", "policy"]
+featured: ["Hugging Face incident"]
+mentioned: []
+transcript_source: "publisher"
+---
+
+# The Rise of the AI Moderates
 
 [00:00:00] 
 

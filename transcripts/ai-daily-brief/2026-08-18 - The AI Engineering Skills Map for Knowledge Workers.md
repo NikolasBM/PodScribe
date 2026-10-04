@@ -1,16 +1,21 @@
-# The AI Engineering Skills Map for Knowledge Workers — Transcript (2026-08-18)
-
-https://aidailybrief.ai/e/2026-08-18 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:26:00
-Host: Nathaniel Whittemore
-Categories: work, funding-markets, agents, coding
-Featured: Cursor, agent harness, OpenRouter
-Also mentioned: ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The AI Engineering Skills Map for Knowledge Workers"
+date: 2026-08-18
+url: "https://aidailybrief.ai/e/2026-08-18"
+guid: "https://aidailybrief.ai/e/2026-08-18"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:26:00"
+categories: ["work", "funding-markets", "agents", "coding"]
+featured: ["Cursor", "agent harness", "OpenRouter"]
+mentioned: ["ChatGPT"]
+transcript_source: "publisher"
+---
+
+# The AI Engineering Skills Map for Knowledge Workers
 
 Nathaniel Whittemore: ~ Nothing ha- nothing will change, ~[00:00:00] Knowledge work is being totally transformed by agents right now after years of promise, agents are actually here, and they are changing the way that knowledge work gets done broadly speaking, we are increasingly moving from doing our work to managing agents that do our work. But in that transition, what are the key skills that matter?
 

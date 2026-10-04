@@ -1,18 +1,22 @@
-# GPT-6 Astra is a banger - here’s everything I’ve built — Transcript (2026-09-03)
-
-https://podcasters.spotify.com/pod/show/pen-name/episodes/GPT-6-Astra-is-a-banger---heres-everything-Ive-built-e3oa8pk · How I AI · Transcribed with MAI-Transcribe-2
-
-<!-- guid: 6fbf27b6-1a4c-4842-a5d8-3080aa1dabd9 -->
-
-<!-- metadata -->
-Format: review · Level: 3 · Length: ~00:31:51
-Host: Claire Vo
-Categories: coding, models, design, agents
-Featured: GPT-6, computer use, ChatPRD, Blender
-Also mentioned: OpenAI Codex, GPT-5.6, Slack, Grok Bot, OpenClaw, Figma, ChatGPT Images, Granola
-<!-- /metadata -->
-
 ---
+podcast: "how-i-ai"
+podcast_title: "How I AI"
+title: "GPT-6 Astra is a banger - here’s everything I’ve built"
+date: 2026-09-03
+url: "https://podcasters.spotify.com/pod/show/pen-name/episodes/GPT-6-Astra-is-a-banger---heres-everything-Ive-built-e3oa8pk"
+guid: "6fbf27b6-1a4c-4842-a5d8-3080aa1dabd9"
+host: "Claire Vo"
+format: "review"
+level: 3
+length: "00:31:51"
+categories: ["coding", "models", "design", "agents"]
+featured: ["GPT-6", "computer use", "ChatPRD", "Blender"]
+mentioned: ["OpenAI Codex", "GPT-5.6", "Slack", "Grok Bot", "OpenClaw", "Figma", "ChatGPT Images", "Granola"]
+transcript_source: "azure-asr"
+transcribed_by: "MAI-Transcribe-2"
+---
+
+# GPT-6 Astra is a banger - here’s everything I’ve built
 
 **Claire Vo** [00:00:00] We are going to the stars today because, yes, today GPT-6 Astra is live. Well, it's live for Daybreak customers. It will be live for the rest of us very soon. I was lucky enough to get some early access to test the model, and this has been the model in the last 6 months, and, you know, maybe I sound like a broken record, but this is the one that has made me actually feel more ambitious. It has crushed some of my standing tasks that Fable couldn't figure out, even my beloved 5-6 Soul couldn't figure out. This model, GPT-6, one-shot a bunch of them. I'm going to tell you what this model is, what OpenAI says it's great at, and I'm going to show you some pretty incredible things I've built with it, including, yes, hacking this dumb computer again. Let's get to it. Okay, I don't want to spend too much time on the blog post. We can link to it in the show notes. You all can go read it. TLDR, state of the art on basically everything. We got the science, math, coding, knowledge work, not being annoying, being fast, computer use, all the things.
 

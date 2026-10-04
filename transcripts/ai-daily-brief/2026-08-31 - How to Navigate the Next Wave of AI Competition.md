@@ -1,16 +1,21 @@
-# How to Navigate the Next Wave of AI Competition — Transcript (2026-08-31)
-
-https://aidailybrief.ai/e/2026-08-31 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: open-weights, model-strategy, agents, policy
-Featured: OpenAI, Cursor, agent harness, open-weight models
-Also mentioned: OpenRouter, DeepSeek, OpenClaw, Claude, OpenAI Codex, distillation, Hermes Agent
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How to Navigate the Next Wave of AI Competition"
+date: 2026-08-31
+url: "https://aidailybrief.ai/e/2026-08-31"
+guid: "https://aidailybrief.ai/e/2026-08-31"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:28:00"
+categories: ["open-weights", "model-strategy", "agents", "policy"]
+featured: ["OpenAI", "Cursor", "agent harness", "open-weight models"]
+mentioned: ["OpenRouter", "DeepSeek", "OpenClaw", "Claude", "OpenAI Codex", "distillation", "Hermes Agent"]
+transcript_source: "publisher"
+---
+
+# How to Navigate the Next Wave of AI Competition
 
 [00:00:00] Late last week, OpenAI announced that they would be cutting off access to their models in Cursor
 

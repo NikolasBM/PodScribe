@@ -1,16 +1,21 @@
-# How to Get the Most from AI This Summer — Transcript (2026-07-26)
-
-https://aidailybrief.ai/e/2026-07-26 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 2 · Length: ~00:20:00
-Host: Nathaniel Whittemore
-Categories: agents, work, coding
-Featured: OpenAI Codex, ChatGPT, agent harness, Claude, GPT-5.6
-Also mentioned: OpenClaw, Gemini, Blender, NotebookLM, Claude Code
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How to Get the Most from AI This Summer"
+date: 2026-07-26
+url: "https://aidailybrief.ai/e/2026-07-26"
+guid: "https://aidailybrief.ai/e/2026-07-26"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 2
+length: "00:20:00"
+categories: ["agents", "work", "coding"]
+featured: ["OpenAI Codex", "ChatGPT", "agent harness", "Claude", "GPT-5.6"]
+mentioned: ["OpenClaw", "Gemini", "Blender", "NotebookLM", "Claude Code"]
+transcript_source: "publisher"
+---
+
+# How to Get the Most from AI This Summer
 
 [00:00:00] Today on the AI Daily Brief
 

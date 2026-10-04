@@ -1,16 +1,21 @@
-# 41 Stats That Tell the Story of AI Right Now — Transcript (2026-08-08)
-
-https://aidailybrief.ai/e/2026-08-08 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:22:00
-Host: Nathaniel Whittemore
-Categories: work, enterprise, agents
-Featured: none
-Also mentioned: OpenAI Codex, ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "41 Stats That Tell the Story of AI Right Now"
+date: 2026-08-08
+url: "https://aidailybrief.ai/e/2026-08-08"
+guid: "https://aidailybrief.ai/e/2026-08-08"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:22:00"
+categories: ["work", "enterprise", "agents"]
+featured: []
+mentioned: ["OpenAI Codex", "ChatGPT"]
+transcript_source: "publisher"
+---
+
+# 41 Stats That Tell the Story of AI Right Now
 
 [00:00:00] Today on the AI Daily Brief, 
 

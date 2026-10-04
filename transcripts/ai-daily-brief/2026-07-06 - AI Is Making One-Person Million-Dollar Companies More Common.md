@@ -1,16 +1,21 @@
-# AI Is Making One-Person Million-Dollar Companies More Common — Transcript (2026-07-06)
-
-https://aidailybrief.ai/e/2026-07-06 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:24:00
-Host: Nathaniel Whittemore
-Categories: work, open-weights, infrastructure, enterprise
-Featured: open-weight models, Claude
-Also mentioned: Claude Code, Nvidia Nemotron, distillation
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "AI Is Making One-Person Million-Dollar Companies More Common"
+date: 2026-07-06
+url: "https://aidailybrief.ai/e/2026-07-06"
+guid: "https://aidailybrief.ai/e/2026-07-06"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:24:00"
+categories: ["work", "open-weights", "infrastructure", "enterprise"]
+featured: ["open-weight models", "Claude"]
+mentioned: ["Claude Code", "Nvidia Nemotron", "distillation"]
+transcript_source: "publisher"
+---
+
+# AI Is Making One-Person Million-Dollar Companies More Common
 
 [00:00:00] Today on the AI Daily Brief, the data is in and AI seems to be changing the nature of entrepreneurship. Before that, in the headlines
 

@@ -1,16 +1,21 @@
-# Big Tech Unites for Open Source AI—and Against Anthropic — Transcript (2026-07-28)
-
-https://aidailybrief.ai/e/2026-07-28 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:31:00
-Host: Nathaniel Whittemore
-Categories: open-weights, policy, infrastructure, models
-Featured: Anthropic, Nvidia, open-weight models, distillation, Claude Mythos
-Also mentioned: Kimi
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Big Tech Unites for Open Source AI—and Against Anthropic"
+date: 2026-07-28
+url: "https://aidailybrief.ai/e/2026-07-28"
+guid: "https://aidailybrief.ai/e/2026-07-28"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:31:00"
+categories: ["open-weights", "policy", "infrastructure", "models"]
+featured: ["Anthropic", "Nvidia", "open-weight models", "distillation", "Claude Mythos"]
+mentioned: ["Kimi"]
+transcript_source: "publisher"
+---
+
+# Big Tech Unites for Open Source AI—and Against Anthropic
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, a a big tech coalition throws its weight behind open weights models. And before that in the headlines, NVIDIA also throws its weight behind Ilya Sutskever's safe super intelligence. The AI The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI
 

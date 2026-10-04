@@ -1,16 +1,21 @@
-# AI Agents Are Moving Into the Real World — Transcript (2026-09-24)
-
-https://aidailybrief.ai/e/2026-09-24 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: consumer, agents, policy, safety-security
-Featured: Meta Muse, Meta, Grok Bot, Anthropic, Claude
-Also mentioned: Instinct
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "AI Agents Are Moving Into the Real World"
+date: 2026-09-24
+url: "https://aidailybrief.ai/e/2026-09-24"
+guid: "https://aidailybrief.ai/e/2026-09-24"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:28:00"
+categories: ["consumer", "agents", "policy", "safety-security"]
+featured: ["Meta Muse", "Meta", "Grok Bot", "Anthropic", "Claude"]
+mentioned: ["Instinct"]
+transcript_source: "publisher"
+---
+
+# AI Agents Are Moving Into the Real World
 
 [00:00:00] 
 

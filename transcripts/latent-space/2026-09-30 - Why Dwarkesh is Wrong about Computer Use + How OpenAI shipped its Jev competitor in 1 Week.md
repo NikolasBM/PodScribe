@@ -1,18 +1,22 @@
-# Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week — Transcript (2026-09-30)
-
-https://www.latent.space/p/devday-2026 · Latent Space
-
-<!-- guid: substack:218243619 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~00:39:02
-Host: Swyx · Guests: Ari Weinstein, Nikunj Handa
-Categories: agents, models, coding, consumer
-Featured: computer use, OpenAI Codex, agent harness, OpenAI, OpenAI Decisions API, GPT-6, Jev, ChatGPT
-Also mentioned: GPT Live, Gemini
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week"
+date: 2026-09-30
+url: "https://www.latent.space/p/devday-2026"
+guid: "substack:218243619"
+host: "Swyx"
+guests: ["Ari Weinstein", "Nikunj Handa"]
+format: "interview"
+level: 2
+length: "00:39:02"
+categories: ["agents", "models", "coding", "consumer"]
+featured: ["computer use", "OpenAI Codex", "agent harness", "OpenAI", "OpenAI Decisions API", "GPT-6", "Jev", "ChatGPT"]
+mentioned: ["GPT Live", "Gemini"]
+transcript_source: "publisher"
+---
+
+# Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week
 
 ## Introduction: OpenAI DevDay and the New Agent Stack
 

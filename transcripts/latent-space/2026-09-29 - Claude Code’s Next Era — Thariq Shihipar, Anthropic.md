@@ -1,18 +1,22 @@
-# Claude Code’s Next Era — Thariq Shihipar, Anthropic — Transcript (2026-09-29)
-
-https://www.latent.space/p/thariq · Latent Space
-
-<!-- guid: substack:217893105 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:32:22
-Host: Swyx · Guests: Thariq Shihipar
-Categories: agents, coding, safety-security, models
-Featured: Claude, Claude Code, agent harness, Claude Tag, Anthropic, Pacing the Frontier, Claude Fable, computer use, agent loops, Hugging Face incident
-Also mentioned: MCP, model routing, Slack, Project Glasswing, vibe coding, Terminal Bench
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Claude Code’s Next Era — Thariq Shihipar, Anthropic"
+date: 2026-09-29
+url: "https://www.latent.space/p/thariq"
+guid: "substack:217893105"
+host: "Swyx"
+guests: ["Thariq Shihipar"]
+format: "interview"
+level: 2
+length: "01:32:22"
+categories: ["agents", "coding", "safety-security", "models"]
+featured: ["Claude", "Claude Code", "agent harness", "Claude Tag", "Anthropic", "Pacing the Frontier", "Claude Fable", "computer use", "agent loops", "Hugging Face incident"]
+mentioned: ["MCP", "model routing", "Slack", "Project Glasswing", "vibe coding", "Terminal Bench"]
+transcript_source: "publisher"
+---
+
+# Claude Code’s Next Era — Thariq Shihipar, Anthropic
 
 ## Introduction: Life at Anthropic and the Pace of Change
 

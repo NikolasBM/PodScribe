@@ -1,16 +1,21 @@
-# Why Everyone Suddenly Hates AI Data Centers — Transcript (2026-08-21)
-
-https://aidailybrief.ai/e/2026-08-21 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 0 · Length: ~00:36:00
-Host: Nathaniel Whittemore
-Categories: policy, infrastructure, work
-Featured: none
-Also mentioned: none
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why Everyone Suddenly Hates AI Data Centers"
+date: 2026-08-21
+url: "https://aidailybrief.ai/e/2026-08-21"
+guid: "https://aidailybrief.ai/e/2026-08-21"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 0
+length: "00:36:00"
+categories: ["policy", "infrastructure", "work"]
+featured: []
+mentioned: []
+transcript_source: "publisher"
+---
+
+# Why Everyone Suddenly Hates AI Data Centers
 
 Nathaniel Whittemore: [00:00:00] Everyone, 
 

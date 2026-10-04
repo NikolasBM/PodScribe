@@ -1,16 +1,21 @@
-# The Most Useful New AI Features and Tools to Try — Transcript (2026-08-28)
-
-https://aidailybrief.ai/e/2026-08-28 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:34:00
-Host: Nathaniel Whittemore
-Categories: models, funding-markets, agents, infrastructure
-Featured: Nvidia, Claude, Hugging Face, Hermes Agent, ChatGPT, agent harness, Gemini, Claude Cowork
-Also mentioned: Grok Bot, Grok, Perplexity, Slack, Whisperflow, DeepSeek
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Most Useful New AI Features and Tools to Try"
+date: 2026-08-28
+url: "https://aidailybrief.ai/e/2026-08-28"
+guid: "https://aidailybrief.ai/e/2026-08-28"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:34:00"
+categories: ["models", "funding-markets", "agents", "infrastructure"]
+featured: ["Nvidia", "Claude", "Hugging Face", "Hermes Agent", "ChatGPT", "agent harness", "Gemini", "Claude Cowork"]
+mentioned: ["Grok Bot", "Grok", "Perplexity", "Slack", "Whisperflow", "DeepSeek"]
+transcript_source: "publisher"
+---
+
+# The Most Useful New AI Features and Tools to Try
 
 [00:00:00] 
 

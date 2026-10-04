@@ -1,18 +1,22 @@
-# The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten — Transcript (2026-08-03)
-
-https://www.latent.space/p/inference-eng · Latent Space
-
-<!-- guid: substack:209198968 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:41:21
-Host: Swyx · Guests: Ali, Philip
-Categories: models, open-weights, design, infrastructure
-Featured: Kimi, GLM
-Also mentioned: DeepSeek, Gemma, MiniMax, distillation, Grok, Nvidia Nemotron, Qwen
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten"
+date: 2026-08-03
+url: "https://www.latent.space/p/inference-eng"
+guid: "substack:209198968"
+host: "Swyx"
+guests: ["Ali", "Philip"]
+format: "interview"
+level: 2
+length: "01:41:21"
+categories: ["models", "open-weights", "design", "infrastructure"]
+featured: ["Kimi", "GLM"]
+mentioned: ["DeepSeek", "Gemma", "MiniMax", "distillation", "Grok", "Nvidia Nemotron", "Qwen"]
+transcript_source: "publisher"
+---
+
+# The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
 
 ## Introduction: Baseten, Waterloo Intern, and Inference Engineering
 

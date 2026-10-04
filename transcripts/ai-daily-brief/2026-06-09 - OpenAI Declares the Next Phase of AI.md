@@ -1,16 +1,21 @@
-# OpenAI Declares the Next Phase of AI — Transcript (2026-06-09)
-
-https://aidailybrief.ai/e/2026-06-09 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:29:45
-Host: Nathaniel Whittemore
-Categories: funding-markets, infrastructure, agents, policy
-Featured: OpenAI, ChatGPT, OpenAI Codex
-Also mentioned: OpenClaw, recursive self-improvement
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "OpenAI Declares the Next Phase of AI"
+date: 2026-06-09
+url: "https://aidailybrief.ai/e/2026-06-09"
+guid: "https://aidailybrief.ai/e/2026-06-09"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:29:45"
+categories: ["funding-markets", "infrastructure", "agents", "policy"]
+featured: ["OpenAI", "ChatGPT", "OpenAI Codex"]
+mentioned: ["OpenClaw", "recursive self-improvement"]
+transcript_source: "publisher"
+---
+
+# OpenAI Declares the Next Phase of AI
 
 [00:00:00] Today on the AI Today on the AI Daily Brief
 

@@ -1,16 +1,21 @@
-# Where Claude Opus 5 Fits in Your Model Rotation — Transcript (2026-07-27)
-
-https://aidailybrief.ai/e/2026-07-27 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:32:00
-Host: Nathaniel Whittemore
-Categories: models, model-strategy, safety-security, coding
-Featured: Claude Opus, Anthropic, Claude Fable, Artificial Analysis, Claude, ARC-AGI
-Also mentioned: DeepSeek, GPT-5.6, Claude Mythos, GPT-6, GDPval
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Where Claude Opus 5 Fits in Your Model Rotation"
+date: 2026-07-27
+url: "https://aidailybrief.ai/e/2026-07-27"
+guid: "https://aidailybrief.ai/e/2026-07-27"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:32:00"
+categories: ["models", "model-strategy", "safety-security", "coding"]
+featured: ["Claude Opus", "Anthropic", "Claude Fable", "Artificial Analysis", "Claude", "ARC-AGI"]
+mentioned: ["DeepSeek", "GPT-5.6", "Claude Mythos", "GPT-6", "GDPval"]
+transcript_source: "publisher"
+---
+
+# Where Claude Opus 5 Fits in Your Model Rotation
 
 [00:00:00] Today on the AI Daily Brief
 

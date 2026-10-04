@@ -1,16 +1,21 @@
-# 5 Rules for Better AI Writing — Transcript (2026-08-26)
-
-https://aidailybrief.ai/e/2026-08-26 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:23:00
-Host: Nathaniel Whittemore
-Categories: marketing
-Featured: none
-Also mentioned: ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "5 Rules for Better AI Writing"
+date: 2026-08-26
+url: "https://aidailybrief.ai/e/2026-08-26"
+guid: "https://aidailybrief.ai/e/2026-08-26"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:23:00"
+categories: ["marketing"]
+featured: []
+mentioned: ["ChatGPT"]
+transcript_source: "publisher"
+---
+
+# 5 Rules for Better AI Writing
 
 [00:00:00] If you use AI to write an op-ed, does that devalue your thoughts? Believe it or not, that's been maybe the biggest question the AI community has been discussing for the last couple of days
 

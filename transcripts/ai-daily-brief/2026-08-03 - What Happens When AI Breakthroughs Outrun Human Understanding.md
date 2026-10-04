@@ -1,16 +1,21 @@
-# What Happens When AI Breakthroughs Outrun Human Understanding — Transcript (2026-08-03)
-
-https://aidailybrief.ai/e/2026-08-03 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: models, safety-security, work, funding-markets
-Featured: OpenAI, DeepSeek
-Also mentioned: GPT-6, Claude, Claude Fable
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "What Happens When AI Breakthroughs Outrun Human Understanding"
+date: 2026-08-03
+url: "https://aidailybrief.ai/e/2026-08-03"
+guid: "https://aidailybrief.ai/e/2026-08-03"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:28:00"
+categories: ["models", "safety-security", "work", "funding-markets"]
+featured: ["OpenAI", "DeepSeek"]
+mentioned: ["GPT-6", "Claude", "Claude Fable"]
+transcript_source: "publisher"
+---
+
+# What Happens When AI Breakthroughs Outrun Human Understanding
 
 [00:00:00] Today on the AI Daily Brief how we're grappling with AI advancements when many of us can't even judge the new capabilities coming online. Before that in the headlines
 

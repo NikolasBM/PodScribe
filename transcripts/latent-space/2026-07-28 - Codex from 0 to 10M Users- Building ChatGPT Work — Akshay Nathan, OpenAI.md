@@ -1,18 +1,22 @@
-# Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI — Transcript (2026-07-28)
-
-https://www.latent.space/p/chatgpt-work · Latent Space
-
-<!-- guid: substack:208716574 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:09:09
-Host: Swyx · Guests: Akshay Nathan
-Categories: agents, work, coding, models
-Featured: ChatGPT, OpenAI Codex, agent harness, OpenAI, computer use
-Also mentioned: OpenClaw, GPT-5.6, Slack, GPT-5.5
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI"
+date: 2026-07-28
+url: "https://www.latent.space/p/chatgpt-work"
+guid: "substack:208716574"
+host: "Swyx"
+guests: ["Akshay Nathan"]
+format: "interview"
+level: 2
+length: "01:09:09"
+categories: ["agents", "work", "coding", "models"]
+featured: ["ChatGPT", "OpenAI Codex", "agent harness", "OpenAI", "computer use"]
+mentioned: ["OpenClaw", "GPT-5.6", "Slack", "GPT-5.5"]
+transcript_source: "publisher"
+---
+
+# Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI
 
 ## Introduction: Akshay Nathan, ChatGPT Work, and the No-Code Arc
 

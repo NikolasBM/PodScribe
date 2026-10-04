@@ -1,16 +1,21 @@
-# Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans — Transcript (2026-09-10)
-
-https://aidailybrief.ai/e/2026-09-10 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 0 · Length: ~00:35:00
-Host: Nathaniel Whittemore
-Categories: safety-security, policy
-Featured: Anthropic
-Also mentioned: Hugging Face incident, ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans"
+date: 2026-09-10
+url: "https://aidailybrief.ai/e/2026-09-10"
+guid: "https://aidailybrief.ai/e/2026-09-10"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 0
+length: "00:35:00"
+categories: ["safety-security", "policy"]
+featured: ["Anthropic"]
+mentioned: ["Hugging Face incident", "ChatGPT"]
+transcript_source: "publisher"
+---
+
+# Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans
 
 [00:00:00] This week, an AI researcher went mega viral announcing his resignation from Anthropic, arguing that both it and OpenAI were effectively gambling with our lives
 

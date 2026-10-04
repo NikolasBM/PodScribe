@@ -1,16 +1,21 @@
-# The Next Wave of Enterprise AI — Transcript (2026-06-03)
-
-https://aidailybrief.ai/e/2026-06-03 · Listen: https://pod.link/1680633614 · (ad-free transcript; timestamps may run earlier than the with-ads edition)
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:23:00
-Host: Nathaniel Whittemore
-Categories: policy, models, coding, safety-security
-Featured: OpenAI Codex, Microsoft, OpenAI, Anthropic, Claude Mythos, Microsoft MAI, Project Glasswing, ChatGPT Sites
-Also mentioned: Claude Opus, vibe coding, Claude Code, Terminal Bench, GPT-5.5
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Next Wave of Enterprise AI"
+date: 2026-06-03
+url: "https://aidailybrief.ai/e/2026-06-03"
+guid: "https://aidailybrief.ai/e/2026-06-03"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:23:00"
+categories: ["policy", "models", "coding", "safety-security"]
+featured: ["OpenAI Codex", "Microsoft", "OpenAI", "Anthropic", "Claude Mythos", "Microsoft MAI", "Project Glasswing", "ChatGPT Sites"]
+mentioned: ["Claude Opus", "vibe coding", "Claude Code", "Terminal Bench", "GPT-5.5"]
+transcript_source: "publisher"
+---
+
+# The Next Wave of Enterprise AI
 
 [00:00:00] Today on the AI Daily Brief, the next wave of enterprise AI is upon us. Before that in the headlines, the very confusing and weird process around the latest AI executive order. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
 

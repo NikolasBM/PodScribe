@@ -1,16 +1,21 @@
-# How to Help People Thrive with AI — Transcript (2026-07-12)
-
-https://aidailybrief.ai/e/2026-07-12 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:19:00
-Host: Nathaniel Whittemore
-Categories: work, agents, coding
-Featured: agent skills
-Also mentioned: multiplayer agents
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How to Help People Thrive with AI"
+date: 2026-07-12
+url: "https://aidailybrief.ai/e/2026-07-12"
+guid: "https://aidailybrief.ai/e/2026-07-12"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:19:00"
+categories: ["work", "agents", "coding"]
+featured: ["agent skills"]
+mentioned: ["multiplayer agents"]
+transcript_source: "publisher"
+---
+
+# How to Help People Thrive with AI
 
 Nathaniel Whittemore: [00:00:00] Today Today on the AI Daily Brief How to help people thrive with AI The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. The big The big theme of this week has been models. 
 

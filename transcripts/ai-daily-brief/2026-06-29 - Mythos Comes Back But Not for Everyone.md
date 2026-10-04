@@ -1,16 +1,21 @@
-# Mythos Comes Back But Not for Everyone — Transcript (2026-06-29)
-
-https://aidailybrief.ai/e/2026-06-29 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:33:00
-Host: Nathaniel Whittemore
-Categories: models, policy, open-weights, safety-security
-Featured: Claude Mythos, OpenAI, Anthropic, GLM, GPT-5.6, Claude Fable, open-weight models
-Also mentioned: Claude Opus, GPT-5.5, Kimi, OpenRouter
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Mythos Comes Back But Not for Everyone"
+date: 2026-06-29
+url: "https://aidailybrief.ai/e/2026-06-29"
+guid: "https://aidailybrief.ai/e/2026-06-29"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:33:00"
+categories: ["models", "policy", "open-weights", "safety-security"]
+featured: ["Claude Mythos", "OpenAI", "Anthropic", "GLM", "GPT-5.6", "Claude Fable", "open-weight models"]
+mentioned: ["Claude Opus", "GPT-5.5", "Kimi", "OpenRouter"]
+transcript_source: "publisher"
+---
+
+# Mythos Comes Back But Not for Everyone
 
 [00:00:00] Today on the AI Daily Brief
 

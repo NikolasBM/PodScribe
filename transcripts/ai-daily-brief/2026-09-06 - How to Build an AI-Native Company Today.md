@@ -1,16 +1,21 @@
-# How to Build an AI-Native Company Today — Transcript (2026-09-06)
-
-https://aidailybrief.ai/e/2026-09-06 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:27:00
-Host: Nathaniel Whittemore
-Categories: agents, work, coding, enterprise
-Featured: agent harness
-Also mentioned: ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How to Build an AI-Native Company Today"
+date: 2026-09-06
+url: "https://aidailybrief.ai/e/2026-09-06"
+guid: "https://aidailybrief.ai/e/2026-09-06"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:27:00"
+categories: ["agents", "work", "coding", "enterprise"]
+featured: ["agent harness"]
+mentioned: ["ChatGPT"]
+transcript_source: "publisher"
+---
+
+# How to Build an AI-Native Company Today
 
 [00:00:00] A year ago, it was a very different time in enterprise AI. companies were still talking about things like how many use cases they had for AI. Now, a year on, we are no longer talking about use cases. Everything, it turns out, is a use case for AI.
 

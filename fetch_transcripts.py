@@ -6,6 +6,7 @@ source = "rss" are transcribed from their RSS audio with Azure MAI-Transcribe.
 """
 import argparse
 import collections
+import csv
 import html
 import itertools
 import json
@@ -31,7 +32,6 @@ LOOKBACK_DAYS = 30
 TRANSCRIBE_MODEL = "MAI-Transcribe-2"
 TRANSCRIBE_API_VERSION = "2025-10-15"
 PARAGRAPH_MS = 60_000
-GUID_RE = re.compile(r"<!-- guid: (.+?) -->")
 SENTENCE_SPLIT_RE = re.compile(r"(?<=[.?!])\s+")
 DOMAIN_RE = re.compile(r"\b[\w-]+\.(?:com|ai|io|dev|org)\b", re.IGNORECASE)
 SPELLED_DOMAIN_RE = re.compile(r"^That's\b.*(?:\.(?:com|ai|io|dev|org)\b|\b[A-Z](?:-[A-Z])+\b)", re.IGNORECASE)
@@ -51,7 +51,6 @@ JEV_EDGE_THRESHOLD = 0.45
 JEV_MAX_GAP = 6
 JEV_SPONSOR_REACH = 2  # sentences a read may grow outwards over, if they name one of the podcast's ad_sponsors
 JEV_MIN_FLAGGED = 5
-META_START, META_END = "<!-- metadata -->", "<!-- /metadata -->"
 META_MAX_CATEGORIES = 4
 META_COMPANY_THRESHOLD = 0.9
 META_MAX_CANDIDATES = 40
@@ -114,23 +113,71 @@ def sanitize_filename(title):
     return re.sub(r'[\\/:*?"<>|]', "-", title).strip()[:150]
 
 
+# --- the transcript file format ---------------------------------------------
+# ---
+# key: value          (YAML frontmatter; values are JSON, which is valid YAML)
+# ---
+#
+# # Title
+#
+# [HH:MM:SS] ... the transcript ...
+
+FRONTMATTER_KEYS = ["podcast", "podcast_title", "title", "date", "url", "guid", "host", "guests", "format", "level", "length",
+                    "categories", "featured", "mentioned", "transcript_source", "transcribed_by"]
+FRONTMATTER_RE = re.compile(r"\A---\n(.*?)\n---\n\n# [^\n]*\n\n", re.S)
+
+
+def render_doc(meta, body):
+    lines = []
+    for key in FRONTMATTER_KEYS:
+        value = meta.get(key)
+        if value is None or value == "" or (key == "guests" and not value):
+            continue
+        lines.append(f"{key}: {value if key == 'date' else json.dumps(value, ensure_ascii=False)}")
+    return "---\n" + "\n".join(lines) + f"\n---\n\n# {meta['title']}\n\n" + body.strip("\n") + "\n"
+
+
+def parse_doc(text):
+    """(frontmatter dict, body) of a transcript file; (None, text) if it has no frontmatter."""
+    match = FRONTMATTER_RE.match(text)
+    if not match:
+        return None, text
+    meta = {}
+    for line in match[1].split("\n"):
+        key, _, raw = line.partition(": ")
+        try:
+            meta[key] = json.loads(raw)
+        except ValueError:
+            meta[key] = raw
+    return meta, text[match.end():].rstrip("\n")
+
+
+def read_doc(path):
+    meta, body = parse_doc(path.read_text(encoding="utf-8"))
+    if meta is None:
+        raise ValueError(f"{path.name}: no frontmatter")
+    return meta, body
+
+
+def episode_meta(podcast, title, date_str, url, guid, **extra):
+    meta = {"podcast": podcast["slug"], "podcast_title": podcast["name"], "title": title, "date": date_str,
+            "url": url, "guid": guid, "host": podcast.get("host")}
+    meta.update(extra)
+    return meta
+
+
 # --- source = "published" ---------------------------------------------------
 
-def title_text(content, fallback):
-    match = re.match(r"^#\s*(.+?)\s*—\s*Transcript", get_first_line(content))
-    return match[1] if match else fallback
-
-
-def try_metadata(content, title, date_str, body, podcast, guests=None):
-    """Add the metadata block when Jev is available; the transcript is saved without it otherwise."""
+def try_metadata(meta, body, podcast, guests=None):
+    """Add Jev's metadata fields when Jev is available; the transcript is saved without them otherwise."""
     if not os.environ.get("TYPESAFE_API_KEY"):
-        return content
+        return meta
     try:
-        guests = guest_names(title) if guests is None else guests
-        return with_metadata(content, metadata_block(title, date_str, body, podcast, guests))
+        guests = guest_names(meta["title"]) if guests is None else guests
+        return {**meta, "guests": guests, **metadata_fields(meta["title"], meta["date"], body, podcast)}
     except Exception as e:
-        warn(f"{date_str}: no metadata, {type(e).__name__}: {e}")
-        return content
+        warn(f"{meta['date']}: no metadata, {type(e).__name__}: {e}")
+        return meta
 
 
 def fetch_published(podcast, out_dir, since, until, limit):
@@ -158,13 +205,14 @@ def fetch_published(podcast, out_dir, since, until, limit):
             content = None
 
         if content is not None:
-            title = sanitize_filename(extract_title(content, date_str))
+            title = extract_title(content, date_str)
             head, sep, body = content.partition("\n---\n\n")
             if sep:
                 body = strip_ads(body.rstrip("\n"), podcast)
-                content = head + sep + body + "\n"
-                content = try_metadata(content, title_text(content, date_str), date_str, body, podcast)
-            (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8", newline="\n")
+                url = (re.search(r"https?://\S+", head) or [url])[0]
+                meta = try_metadata(episode_meta(podcast, title, date_str, url, url, transcript_source="publisher"), body, podcast)
+                content = render_doc(meta, body)
+            (out_dir / f"{date_str} - {sanitize_filename(title)}.md").write_text(content, encoding="utf-8", newline="\n")
             print(f"saved {date_str}: {title}")
             count += 1
 
@@ -265,16 +313,10 @@ def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
         if body is None:  # a podcast post without a transcript (show notes only)
             continue
         title = clean_title(episode["title"])
-        guests = speaker_guests(body, podcast)
-        content = (
-            f"# {title} — Transcript ({date_str})\n\n"
-            f"{post.get('canonical_url') or podcast['site'] + '/p/' + episode['slug']} · {podcast['name']}\n\n"
-            f"<!-- guid: substack:{episode['id']} -->\n\n"
-            f"---\n\n"
-            f"{body}\n"
-        )
-        content = try_metadata(content, title, date_str, body, podcast, guests)
-        (out_dir / f"{date_str} - {sanitize_filename(title)}.md").write_text(content, encoding="utf-8", newline="\n")
+        url = post.get("canonical_url") or podcast["site"] + "/p/" + episode["slug"]
+        meta = try_metadata(episode_meta(podcast, title, date_str, url, f"substack:{episode['id']}", transcript_source="publisher"),
+                            body, podcast, speaker_guests(body, podcast))
+        (out_dir / f"{date_str} - {sanitize_filename(title)}.md").write_text(render_doc(meta, body), encoding="utf-8", newline="\n")
         print(f"saved {date_str}: {title}")
         count += 1
         time.sleep(0.2)
@@ -302,13 +344,13 @@ def parse_feed(xml_bytes):
 
 
 def existing_guids(out_dir):
-    """Collect the guids recorded in the header of already saved transcripts."""
+    """Collect the guids in the frontmatter of already saved transcripts."""
     guids = set()
     for path in out_dir.glob("*.md"):
         with path.open(encoding="utf-8") as f:
-            match = GUID_RE.search("".join(itertools.islice(f, 10)))
+            match = re.search(r"(?m)^guid: (.+)$", "".join(itertools.islice(f, 30)))
         if match:
-            guids.add(match.group(1))
+            guids.add(json.loads(match.group(1)))
     return guids
 
 
@@ -687,7 +729,7 @@ def strip_ads(body, podcast, strict=False):
 
 def check_ads(path, podcast):
     """Print the sponsor reads that the cues and Jev find in a transcript file. Writes nothing."""
-    body = Path(path).read_text(encoding="utf-8").partition("\n---\n\n")[2].strip()
+    body = read_doc(Path(path))[1]
     flat = Sentences(parse_body(body, podcast["source"])[0])
     cues, jev, scores = detect_ads(flat, podcast)
     for name, removed in {"cues": cues, "jev": jev}.items():
@@ -712,17 +754,14 @@ def clean_ads(out_dir, podcast):
     """Re-run sponsor removal over a podcast's saved transcripts. Needs Jev to succeed: a file where it fails is left alone."""
     changed = 0
     for path in sorted(out_dir.glob("*.md")):
-        text = path.read_text(encoding="utf-8")
-        head, sep, body = text.partition("\n---\n\n")
-        if not sep:
-            continue
+        meta, body = read_doc(path)
         try:
-            new = strip_ads(body.rstrip("\n"), podcast, strict=True) + "\n"
+            new = strip_ads(body, podcast, strict=True)
         except Exception as e:
             warn(f"{path.name}: skipped, {type(e).__name__}: {e}")
             continue
         if new != body:
-            path.write_text(head + sep + new, encoding="utf-8", newline="\n")
+            path.write_text(render_doc(meta, new), encoding="utf-8", newline="\n")
             print(f"cleaned {path.name}: {len(body) - len(new)} characters removed")
             changed += 1
     return changed
@@ -763,8 +802,8 @@ def episode_text(body):
     return re.sub(r"[ \t]+", " ", re.sub(r"\n{2,}", "\n", text)).strip()
 
 
-def metadata_block(title, date_str, body, podcast, guests):
-    """Jev-judged metadata for one episode, as the lines between the metadata markers."""
+def metadata_fields(title, date_str, body, podcast):
+    """Jev-judged metadata for one episode: format, level, length, categories, featured and mentioned technologies."""
     vocabulary = load_vocabulary()
     text = episode_text(body)
     if len(text) > META_MAX_CHARS:
@@ -792,39 +831,25 @@ def metadata_block(title, date_str, body, podcast, guests):
                 if answers[f"tech:{i}"]["noul"] >= (META_COMPANY_THRESHOLD if name in companies else 0.5)]
     mentioned = [name for name, _ in candidates if name not in featured and name not in companies]
     stamps = TS_RE.findall(body)
-    duration = (lambda h, m, s: f"{h}:{m}:{s}")(*stamps[-1]) if stamps else None
-    lines = [f"Format: {answers['format']['choice']} · Level: {round(answers['level']['score'])}"
-             + (f" · Length: ~{duration}" if duration else ""),
-             f"Host: {podcast['host']}" + (f" · Guests: {', '.join(guests)}" if guests else "") if podcast.get("host") else None,
-             f"Categories: {', '.join(categories) or 'none'}",
-             f"Featured: {', '.join(featured) or 'none'}",
-             f"Also mentioned: {', '.join(mentioned) or 'none'}"]
-    return "\n".join(line for line in lines if line)
-
-
-def with_metadata(content, block):
-    """Put the metadata block in the header, above the `---` line, replacing an earlier one."""
-    content = re.sub(rf"\n*{re.escape(META_START)}.*?{re.escape(META_END)}\n*", "\n\n", content, flags=re.DOTALL)
-    head, sep, body = content.partition("\n---\n")
-    return f"{head.rstrip()}\n\n{META_START}\n{block}\n{META_END}\n{sep}{body}"
+    return {"format": answers["format"]["choice"], "level": round(answers["level"]["score"]),
+            "length": ":".join(stamps[-1]) if stamps else None,
+            "categories": categories, "featured": featured, "mentioned": mentioned}
 
 
 def add_metadata(out_dir, podcast, force=False):
-    """Add (or with force, redo) the metadata block of saved transcripts. Returns number of files written."""
+    """Add (or with force, redo) the Jev metadata of saved transcripts. Returns number of files written."""
     count = 0
     for path in sorted(out_dir.glob("*.md")):
-        text = path.read_text(encoding="utf-8")
-        if META_START in text and not force:
+        meta, body = read_doc(path)
+        if "categories" in meta and not force:
             continue
-        head, sep, body = text.partition("\n---\n\n")
-        title = (re.match(r"# (.+?) — Transcript", text) or [None, path.stem])[1]
         try:
-            guests = speaker_guests(body, podcast) if podcast.get("hosts") else guest_names(title)
-            block = metadata_block(title, path.name[:10], body, podcast, guests)
+            guests = speaker_guests(body, podcast) if podcast.get("hosts") else guest_names(meta["title"])
+            meta = {**meta, "guests": guests, **metadata_fields(meta["title"], meta["date"], body, podcast)}
         except Exception as e:
             warn(f"{path.name}: no metadata, {type(e).__name__}: {e}")
             continue
-        path.write_text(with_metadata(text, block), encoding="utf-8", newline="\n")
+        path.write_text(render_doc(meta, body), encoding="utf-8", newline="\n")
         print(f"metadata {path.name}")
         count += 1
     return count
@@ -862,21 +887,39 @@ def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
 
         names = speaker_names(result.get("phrases", []), podcast, guest_names(episode["title"]))
         body = strip_ads(render_transcript(result, names), podcast)
-        source = " · ".join(filter(None, [episode["link"], podcast["name"], f"Transcribed with {TRANSCRIBE_MODEL}"]))
-        content = (
-            f"# {episode['title']} — Transcript ({date_str})\n\n"
-            f"{source}\n\n"
-            f"<!-- guid: {episode['guid']} -->\n\n"
-            f"---\n\n"
-            f"{body}\n"
-        )
-        content = try_metadata(content, episode["title"], date_str, body, podcast)
+        meta = try_metadata(episode_meta(podcast, episode["title"], date_str, episode["link"] or None, episode["guid"],
+                                         transcript_source="azure-asr", transcribed_by=TRANSCRIBE_MODEL), body, podcast)
         title = sanitize_filename(episode["title"]) or date_str
-        (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8", newline="\n")
+        (out_dir / f"{date_str} - {title}.md").write_text(render_doc(meta, body), encoding="utf-8", newline="\n")
         print(f"saved {date_str}: {title}")
         count += 1
 
     return count
+
+
+# --- catalog --------------------------------------------------------------------
+
+CATALOG_FIELDS = ["podcast", "date", "title", "guests", "format", "level", "length", "categories", "featured", "mentioned", "url"]
+
+
+def build_catalog():
+    """catalog.json and catalog.csv: one row per episode with its frontmatter, newest first. Returns the number of rows."""
+    rows = []
+    for path in sorted((ROOT / "transcripts").glob("*/*.md")):
+        try:
+            meta, _ = read_doc(path)
+        except ValueError as e:
+            warn(f"catalog: {e}")
+            continue
+        rows.append({**{key: meta.get(key) for key in CATALOG_FIELDS}, "path": path.relative_to(ROOT).as_posix()})
+    rows.sort(key=lambda r: (r["date"], r["podcast"]), reverse=True)
+    (ROOT / "catalog.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+    with (ROOT / "catalog.csv").open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=[*CATALOG_FIELDS, "path"], lineterminator="\n")
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({k: "; ".join(v) if isinstance(v, list) else ("" if v is None else v) for k, v in row.items()})
+    return len(rows)
 
 
 def main():
@@ -928,6 +971,7 @@ def main():
             print("--clean-ads needs --podcast and TYPESAFE_API_KEY", file=sys.stderr)
             sys.exit(1)
         print(f"{clean_ads(ROOT / 'transcripts' / podcasts[0]['slug'], podcasts[0])} transcripts cleaned")
+        build_catalog()
         sys.exit(0)
 
     if args.add_metadata:
@@ -935,6 +979,7 @@ def main():
             print("--add-metadata needs --podcast and TYPESAFE_API_KEY", file=sys.stderr)
             sys.exit(1)
         print(f"{add_metadata(ROOT / 'transcripts' / podcasts[0]['slug'], podcasts[0], args.force)} transcripts got metadata")
+        build_catalog()
         sys.exit(0)
 
     total = 0
@@ -961,6 +1006,8 @@ def main():
             print(f"{podcast['slug']}: {count} new")
         total += count
 
+    if not args.dry_run:
+        build_catalog()
     print(f"{total} new transcripts")
     sys.exit(0)
 

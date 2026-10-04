@@ -1,16 +1,21 @@
-# A Field Guide to AI Market Freakouts — Transcript (2026-07-23)
-
-https://aidailybrief.ai/e/2026-07-23 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:25:00
-Host: Nathaniel Whittemore
-Categories: open-weights, infrastructure, funding-markets, policy
-Featured: OpenAI, Anthropic, distillation, DeepSeek, Kimi
-Also mentioned: ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "A Field Guide to AI Market Freakouts"
+date: 2026-07-23
+url: "https://aidailybrief.ai/e/2026-07-23"
+guid: "https://aidailybrief.ai/e/2026-07-23"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:25:00"
+categories: ["open-weights", "infrastructure", "funding-markets", "policy"]
+featured: ["OpenAI", "Anthropic", "distillation", "DeepSeek", "Kimi"]
+mentioned: ["ChatGPT"]
+transcript_source: "publisher"
+---
+
+# A Field Guide to AI Market Freakouts
 
 [00:00:00] Today on the AI Daily Brief, a field guide to AI market freakouts. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors
 

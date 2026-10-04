@@ -1,16 +1,21 @@
-# Trump Rails Against AI Slowdown "Hoax" — Transcript (2026-09-15)
-
-https://aidailybrief.ai/e/2026-09-15 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:26:00
-Host: Nathaniel Whittemore
-Categories: safety-security, policy, work
-Featured: Pacing the Frontier
-Also mentioned: recursive self-improvement, ChatGPT, GLM
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Trump Rails Against AI Slowdown \"Hoax\""
+date: 2026-09-15
+url: "https://aidailybrief.ai/e/2026-09-15"
+guid: "https://aidailybrief.ai/e/2026-09-15"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:26:00"
+categories: ["safety-security", "policy", "work"]
+featured: ["Pacing the Frontier"]
+mentioned: ["recursive self-improvement", "ChatGPT", "GLM"]
+transcript_source: "publisher"
+---
+
+# Trump Rails Against AI Slowdown "Hoax"
 
 [00:00:00] 
 

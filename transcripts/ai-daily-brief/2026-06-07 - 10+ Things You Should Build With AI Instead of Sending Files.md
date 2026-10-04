@@ -1,16 +1,21 @@
-# 10+ Things You Should Build With AI Instead of Sending Files — Transcript (2026-06-07)
-
-https://aidailybrief.ai/e/2026-06-07 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:22:15
-Host: Nathaniel Whittemore
-Categories: coding, marketing, work
-Featured: OpenAI Codex
-Also mentioned: OpenClaw, vibe coding
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "10+ Things You Should Build With AI Instead of Sending Files"
+date: 2026-06-07
+url: "https://aidailybrief.ai/e/2026-06-07"
+guid: "https://aidailybrief.ai/e/2026-06-07"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:22:15"
+categories: ["coding", "marketing", "work"]
+featured: ["OpenAI Codex"]
+mentioned: ["OpenClaw", "vibe coding"]
+transcript_source: "publisher"
+---
+
+# 10+ Things You Should Build With AI Instead of Sending Files
 
 [00:00:00] Today on the AI Daily Brief, 
 

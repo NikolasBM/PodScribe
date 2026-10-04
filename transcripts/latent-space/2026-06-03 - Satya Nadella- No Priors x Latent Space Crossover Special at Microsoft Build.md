@@ -1,18 +1,22 @@
-# Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build — Transcript (2026-06-03)
-
-https://www.latent.space/p/satya-2026 · Latent Space
-
-<!-- guid: substack:200432443 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~00:38:00
-Host: Swyx · Guests: Satya Nadella, swyx
-Categories: agents, work, coding, enterprise
-Featured: Microsoft, agent harness, Microsoft MAI, Microsoft Copilot
-Also mentioned: none
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build"
+date: 2026-06-03
+url: "https://www.latent.space/p/satya-2026"
+guid: "substack:200432443"
+host: "Swyx"
+guests: ["Satya Nadella", "swyx"]
+format: "interview"
+level: 2
+length: "00:38:00"
+categories: ["agents", "work", "coding", "enterprise"]
+featured: ["Microsoft", "agent harness", "Microsoft MAI", "Microsoft Copilot"]
+mentioned: []
+transcript_source: "publisher"
+---
+
+# Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build
 
 **Voiceover** [00:00:00] Welcome swyx, Sarah Guo, Elad Gil,, and Chairman and Chief Executive Officer of Microsoft, Satya Nadella
 

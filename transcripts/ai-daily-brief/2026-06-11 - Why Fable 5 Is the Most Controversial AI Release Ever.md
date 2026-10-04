@@ -1,16 +1,21 @@
-# Why Fable 5 Is the Most Controversial AI Release Ever — Transcript (2026-06-11)
-
-https://aidailybrief.ai/e/2026-06-11 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:30:00
-Host: Nathaniel Whittemore
-Categories: safety-security, infrastructure, funding-markets, policy
-Featured: Anthropic, Claude Fable, Claude
-Also mentioned: Claude Mythos
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why Fable 5 Is the Most Controversial AI Release Ever"
+date: 2026-06-11
+url: "https://aidailybrief.ai/e/2026-06-11"
+guid: "https://aidailybrief.ai/e/2026-06-11"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:30:00"
+categories: ["safety-security", "infrastructure", "funding-markets", "policy"]
+featured: ["Anthropic", "Claude Fable", "Claude"]
+mentioned: ["Claude Mythos"]
+transcript_source: "publisher"
+---
+
+# Why Fable 5 Is the Most Controversial AI Release Ever
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, why Fable why Fable 5 is easily the most controversial AI model launch of all time. Before that in the headlines, more chatter about the AI labs donating equity to a sovereign wealth fund. The The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI
 

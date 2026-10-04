@@ -1,18 +1,23 @@
-# How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng — Transcript (2026-09-14)
-
-https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Grok-Bot-designers-use-AI-agents-to-build-personal-sites-and-product-prototypes--John-Bai--Peng-Zheng-e3ok8i6 · How I AI · Transcribed with MAI-Transcribe-2
-
-<!-- guid: eca69c63-43d3-4972-aa6b-8015edf871df -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~00:41:06
-Host: Claire Vo · Guests: John Bai, Peng Zheng
-Categories: agents, design, work, consumer
-Featured: Grok Bot, Figma
-Also mentioned: Slack
-<!-- /metadata -->
-
 ---
+podcast: "how-i-ai"
+podcast_title: "How I AI"
+title: "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng"
+date: 2026-09-14
+url: "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Grok-Bot-designers-use-AI-agents-to-build-personal-sites-and-product-prototypes--John-Bai--Peng-Zheng-e3ok8i6"
+guid: "eca69c63-43d3-4972-aa6b-8015edf871df"
+host: "Claire Vo"
+guests: ["John Bai", "Peng Zheng"]
+format: "interview"
+level: 2
+length: "00:41:06"
+categories: ["agents", "design", "work", "consumer"]
+featured: ["Grok Bot", "Figma"]
+mentioned: ["Slack"]
+transcript_source: "azure-asr"
+transcribed_by: "MAI-Transcribe-2"
+---
+
+# How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng
 
 **Claire Vo** [00:00:00] I use AI to get me off my computer, not on my computer. And so the fact that you were at the gym, got asked to do something, and your disability be like, yep, go for it, get it done, and finish your workout, it's like a much nicer way to work.
 

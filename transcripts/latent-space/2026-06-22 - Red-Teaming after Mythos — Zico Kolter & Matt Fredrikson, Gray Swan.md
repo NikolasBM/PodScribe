@@ -1,18 +1,22 @@
-# Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan — Transcript (2026-06-22)
-
-https://www.latent.space/p/gray-swan · Latent Space
-
-<!-- guid: substack:202758604 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:06:18
-Host: Swyx · Guests: Zico, Matt
-Categories: safety-security, agents, models, coding
-Featured: OpenClaw, OpenAI Codex, computer use, Claude Code, Claude
-Also mentioned: Claude Mythos
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan"
+date: 2026-06-22
+url: "https://www.latent.space/p/gray-swan"
+guid: "substack:202758604"
+host: "Swyx"
+guests: ["Zico", "Matt"]
+format: "interview"
+level: 2
+length: "01:06:18"
+categories: ["safety-security", "agents", "models", "coding"]
+featured: ["OpenClaw", "OpenAI Codex", "computer use", "Claude Code", "Claude"]
+mentioned: ["Claude Mythos"]
+transcript_source: "publisher"
+---
+
+# Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan
 
 ## Introduction: Gray Swan, AI Security, and CMU
 

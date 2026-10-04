@@ -1,16 +1,21 @@
-# How Big Is the AI Economy? — Transcript (2026-06-30)
-
-https://aidailybrief.ai/e/2026-06-30 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:27:00
-Host: Nathaniel Whittemore
-Categories: infrastructure, enterprise, policy, model-strategy
-Featured: Anthropic, Claude, Claude Code, Claude Mythos
-Also mentioned: distillation, OpenAI Codex, Gemini
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How Big Is the AI Economy?"
+date: 2026-06-30
+url: "https://aidailybrief.ai/e/2026-06-30"
+guid: "https://aidailybrief.ai/e/2026-06-30"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:27:00"
+categories: ["infrastructure", "enterprise", "policy", "model-strategy"]
+featured: ["Anthropic", "Claude", "Claude Code", "Claude Mythos"]
+mentioned: ["distillation", "OpenAI Codex", "Gemini"]
+transcript_source: "publisher"
+---
+
+# How Big Is the AI Economy?
 
 [00:00:00] Today on the AI Daily Today on the AI Daily Brief, just how big is the AI economy? Before that in the headlines, are we are we about to have to KYC to use the newest AI models?
 

@@ -1,16 +1,21 @@
-# The AI Chart Everyone Is Getting Wrong — Transcript (2026-06-12)
-
-https://aidailybrief.ai/e/2026-06-12 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:33:00
-Host: Nathaniel Whittemore
-Categories: model-strategy, funding-markets, enterprise, infrastructure
-Featured: Manus, model routing
-Also mentioned: agent harness, OpenClaw
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The AI Chart Everyone Is Getting Wrong"
+date: 2026-06-12
+url: "https://aidailybrief.ai/e/2026-06-12"
+guid: "https://aidailybrief.ai/e/2026-06-12"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:33:00"
+categories: ["model-strategy", "funding-markets", "enterprise", "infrastructure"]
+featured: ["Manus", "model routing"]
+mentioned: ["agent harness", "OpenClaw"]
+transcript_source: "publisher"
+---
+
+# The AI Chart Everyone Is Getting Wrong
 
 [00:00:00] Today on the AI Daily Brief 
 

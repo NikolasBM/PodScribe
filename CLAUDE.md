@@ -13,7 +13,9 @@ podcasts.toml                — én [[podcast]]-blok per show (slug, name, sour
 fetch_transcripts.py         — henter/transskriberer nye episoder, stdlib-only (Python 3.11+, bruger tomllib)
 vocabulary.toml              — kategorier, formater, niveauer og teknologi-aliaser til metadata
 .github/workflows/fetch.yml  — daglig cron (06:30 UTC) + manuel workflow_dispatch med `args`-input
-transcripts/<slug>/YYYY-MM-DD - Titel.md — én fil per episode, titel både i filnavn og linje 1, [HH:MM:SS]-timestamps
+transcripts/<slug>/YYYY-MM-DD - Titel.md — én fil per episode: YAML-frontmatter, `# Titel`, så transcriptet med [HH:MM:SS]-timestamps
+catalog.csv / catalog.json   — ét række pr. episode (frontmatter + sti), bygges af scriptet efter hver kørsel
+examples/search.py           — eksempel: lokal SQLite FTS-søgning med frontmatter som filtre (ikke en del af arkivet)
 README.md                    — offentlig beskrivelse af arkivet
 ```
 
@@ -25,9 +27,9 @@ README.md                    — offentlig beskrivelse af arkivet
 | `how-i-ai` | `rss` | 2026-09-01 | Feed `https://anchor.fm/s/1035b1568/podcast/rss` (fundet via iTunes lookup id 1809663079). Ingen officielle transcripts findes. Bruger valgte bevidst kun fra 2026-09-01. ~2 episoder/uge, 25–50 min. |
 
 ## Kildetyper
-- **`published`**: tjekker sidste 30 dage (eller `--since`), skipper datoer der allerede har en `{dato} - *.md`-fil (også gammel `{dato}.md`). Titel fra første linje `# Titel — Transcript (dato)`, fallback til dato.
+- **`published`**: tjekker sidste 30 dage (eller `--since`), skipper datoer der allerede har en `{dato} - *.md`-fil (også gammel `{dato}.md`). Titel fra den hentede tekst (`# Titel — Transcript (dato)`), fallback til dato; guid = episode-URL.
 - **`substack`**: lister `site/api/v1/archive` (paginerer, 50 ad gangen), tager `type == "podcast"` og `audience == "everyone"` i datointervallet, henter `site/api/v1/posts/<slug>` og læser transcriptet i `body_html` (efter en `Transcript`-overskrift): `<strong>Navn [HH:MM:SS]:</strong> tekst`, varianter uden tidsstempel i labelen bruger inline `[HH:MM:SS]`; `h2/h3` bliver `## Overskrift`. Poster uden transcript (🔬 science-serien: kun show notes) springes over og prøves igen næste dag (~11 småkald). Guid = `substack:<post-id>`. Betalingsmur (`only_paid`) gives ikke transcript. Feedet (`/feed`) rummer kun de seneste 20 poster, arkiv-API'et rækker længere tilbage.
-- **`rss`**: læser feedet, transskriberer episoder med pubDate ≥ `since` hvis guid ikke allerede findes. Guid gemmes som `<!-- guid: ... -->` i filens header — filerne er staten, ingen state-fil. To episoder samme dag er normalt (derfor guid, ikke dato).
+- **`rss`**: læser feedet, transskriberer episoder med pubDate ≥ `since` hvis guid ikke allerede findes. Guid står i frontmatter (`guid:`) — filerne er staten, ingen state-fil. To episoder samme dag er normalt (derfor guid, ikke dato).
 
 ## Transskribering (rss)
 - Azure Speech **fast transcription API** (`/speechtotext/transcriptions:transcribe?api-version=2025-10-15`) med `enhancedMode` → **MAI-Transcribe-2** (preview). Brugeren valgte MAI-Transcribe.
@@ -44,11 +46,12 @@ README.md                    — offentlig beskrivelse af arkivet
 - Foundry-ressourcen ligger i **North Europe** (MAI-Transcribe kun i centralindia, eastus, northeurope, southeastasia, westus, westus2).
 - Pris: fast transcription standard er $0,36/time; MAI-Transcribe-2-prisen kunne ikke aflæses i Azures prisliste (oktober 2026) — tjek faktisk forbrug i Azure.
 
-## Metadata (øverst i hver transcript)
-- Blok mellem `<!-- metadata -->` og `<!-- /metadata -->` i headeren (over `---`; linje 1 er stadig titlen): `Format · Level · Length`, `Host · Guests`, `Categories` (max 4, stærkest først), `Featured` (hovedemner) og `Also mentioned`. Skrives af `metadata_block` og er idempotent.
+## Filformat og metadata
+- Hver fil: `---` YAML-frontmatter `---`, blank, `# Titel`, blank, transcript. Værdierne er JSON (gyldig YAML): `podcast, podcast_title, title, date, url, guid, host, guests, format, level, length, categories, featured, mentioned, transcript_source (publisher|azure-asr), transcribed_by`. `render_doc`/`parse_doc`/`read_doc` i scriptet læser og skriver formatet (ingen YAML-afhængighed; parseren forstår kun vores egne filer). Tomme felter udelades, `guests` kun hvis ikke tom. Rækkefølgen er `FRONTMATTER_KEYS`. `length` er cirka (sidste timestamp).
+- Jev-delen (`format, level, length, categories, featured, mentioned`) skrives af `metadata_fields` og kan genskabes uden at røre resten.
 - Koden finder kandidat-teknologier med `vocabulary.toml` (aliaser inkl. talegenkendelsesfejl, længste alias vinder så "Claude Code" ikke også tæller som "Claude"; `exact_case` for ord der også er hverdagsord). Jev vurderer i ét kald pr. episode (hele transcriptet er state): én Noul pr. kategori ("diskuteres emnet udførligt?"), ét Choice for format, én Score for niveau og én Noul pr. kandidat ("er X et hovedemne?"). Kategori ≥ 0,5, teknologi ≥ 0,5 (virksomheder ≥ 0,9, ellers står OpenAI/Anthropic på 2/3 af episoderne). Virksomheder står ikke under "Also mentioned".
 - Kategorilisten og formaterne er designet ud fra en gennemlæsning af alle 102+11 transcripts (se kommentarerne i `vocabulary.toml`). 14 kategorier: agents, coding, models, model-strategy, open-weights, enterprise, work, safety-security, policy, infrastructure, funding-markets, consumer, design, marketing. 7 formater: news-roundup, news-analysis, commentary, review, tutorial, demo, interview. Niveau 0–3.
-- Nye episoder får blokken automatisk når `TYPESAFE_API_KEY` er sat. Efterfyld/gentag: `--add-metadata` (kun filer uden blok) eller `--add-metadata --force`, begge kræver `--podcast`.
+- Nye episoder får blokken automatisk når `TYPESAFE_API_KEY` er sat. Efterfyld/gentag: `--add-metadata` (kun filer uden `categories`) eller `--add-metadata --force`, begge kræver `--podcast`.
 - Kendt svaghed: Jev er rundhåndet med kategorier (92 af 113 episoder ramte loftet på 4), så de første to er mest informative.
 
 ## fetch_transcripts.py
@@ -58,6 +61,8 @@ python3 fetch_transcripts.py --podcast how-i-ai --limit 1      # én podcast, h�
 python3 fetch_transcripts.py --since A --until B               # specifikt interval (overstyrer podcastens since)
 python3 fetch_transcripts.py --dry-run                         # vis hvad der ville blive transskriberet (gratis)
 ```
+- Efter hver kørsel (også `--clean-ads`/`--add-metadata`) genskabes `catalog.csv`/`catalog.json` af `build_catalog` (lister som `a; b` i CSV). Workflowet committer dem sammen med `transcripts/`.
+- Søgning er bevidst *ikke* en del af arkivet: det deles med venner/kolleger, som selv vælger hvordan de søger. README har opskrifter, `examples/search.py` er et eksempel de kan kopiere.
 - Idempotent — output slutter altid `{n} new transcripts`. Exit 0 selv ved fejl på enkelte episoder (warn til stderr, fanges næste kørsel).
 
 ## GitHub Actions

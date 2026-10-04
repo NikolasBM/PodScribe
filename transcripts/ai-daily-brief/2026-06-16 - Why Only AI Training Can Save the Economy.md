@@ -1,16 +1,21 @@
-# Why Only AI Training Can Save the Economy — Transcript (2026-06-16)
-
-https://aidailybrief.ai/e/2026-06-16 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:22:00
-Host: Nathaniel Whittemore
-Categories: work, model-strategy, agents, enterprise
-Featured: Anthropic, OpenAI, Claude Code, Claude, agent harness
-Also mentioned: DeepSeek, OpenAI Codex, OpenClaw, ChatGPT, model routing, Cursor
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why Only AI Training Can Save the Economy"
+date: 2026-06-16
+url: "https://aidailybrief.ai/e/2026-06-16"
+guid: "https://aidailybrief.ai/e/2026-06-16"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:22:00"
+categories: ["work", "model-strategy", "agents", "enterprise"]
+featured: ["Anthropic", "OpenAI", "Claude Code", "Claude", "agent harness"]
+mentioned: ["DeepSeek", "OpenAI Codex", "OpenClaw", "ChatGPT", "model routing", "Cursor"]
+transcript_source: "publisher"
+---
+
+# Why Only AI Training Can Save the Economy
 
 Speaker: [00:00:00] Hey guys, a quick note before we dive in. The episode you're about to hear was originally recorded as last weekend's Long Read Sunday. ~Now, of course, everything that happened with Fable on... ~ Now, of course, everything that happened between Anthropic and the US government and Fable being shut down on Friday night pushed that out
 

@@ -1,16 +1,21 @@
-# The AI Industry Asks Government to Slow It Down — Transcript (2026-07-29)
-
-https://aidailybrief.ai/e/2026-07-29 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: safety-security, policy, open-weights
-Featured: open-weight models, OpenAI, Anthropic, Pacing the Frontier, distillation
-Also mentioned: GLM, Kimi, recursive self-improvement
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The AI Industry Asks Government to Slow It Down"
+date: 2026-07-29
+url: "https://aidailybrief.ai/e/2026-07-29"
+guid: "https://aidailybrief.ai/e/2026-07-29"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:29:00"
+categories: ["safety-security", "policy", "open-weights"]
+featured: ["open-weight models", "OpenAI", "Anthropic", "Pacing the Frontier", "distillation"]
+mentioned: ["GLM", "Kimi", "recursive self-improvement"]
+transcript_source: "publisher"
+---
+
+# The AI Industry Asks Government to Slow It Down
 
 [00:00:00] Today in Today in the AI Daily Brief we are talking about what some are calling the new AI pause letter pacing the frontier, and what it says about where we are
 

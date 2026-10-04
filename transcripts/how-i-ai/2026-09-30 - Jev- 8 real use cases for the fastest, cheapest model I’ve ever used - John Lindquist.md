@@ -1,18 +1,23 @@
-# Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist — Transcript (2026-09-30)
-
-https://podcasters.spotify.com/pod/show/pen-name/episodes/Jev-8-real-use-cases-for-the-fastest--cheapest-model-Ive-ever-used--John-Lindquist-e3pj45k · How I AI · Transcribed with MAI-Transcribe-2
-
-<!-- guid: 0871a705-f488-49f6-9654-3df1b900a22d -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~00:45:35
-Host: Claire Vo · Guests: John Lindquist
-Categories: agents, model-strategy, coding, models
-Featured: Jev, computer use
-Also mentioned: Grok Bot, OpenAI Codex
-<!-- /metadata -->
-
 ---
+podcast: "how-i-ai"
+podcast_title: "How I AI"
+title: "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist"
+date: 2026-09-30
+url: "https://podcasters.spotify.com/pod/show/pen-name/episodes/Jev-8-real-use-cases-for-the-fastest--cheapest-model-Ive-ever-used--John-Lindquist-e3pj45k"
+guid: "0871a705-f488-49f6-9654-3df1b900a22d"
+host: "Claire Vo"
+guests: ["John Lindquist"]
+format: "interview"
+level: 2
+length: "00:45:35"
+categories: ["agents", "model-strategy", "coding", "models"]
+featured: ["Jev", "computer use"]
+mentioned: ["Grok Bot", "OpenAI Codex"]
+transcript_source: "azure-asr"
+transcribed_by: "MAI-Transcribe-2"
+---
+
+# Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist
 
 **Claire Vo** [00:00:00] In some ways, managers are really at risk. This concept of like org design and role design, you can put those skills to use when crafting your agents, which is why I am currently running, no joke, 40 Grok bots right now.
 

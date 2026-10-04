@@ -1,16 +1,21 @@
-# The Multiplayer AI Sprint: Build Your Team’s First Shared Agent — Transcript (2026-09-07)
-
-https://aidailybrief.ai/e/2026-09-07 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:25:00
-Host: Nathaniel Whittemore
-Categories: agents, work
-Featured: multiplayer agents, Claude, OpenClaw, Claude Tag, Anthropic
-Also mentioned: Slack
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Multiplayer AI Sprint: Build Your Team’s First Shared Agent"
+date: 2026-09-07
+url: "https://aidailybrief.ai/e/2026-09-07"
+guid: "https://aidailybrief.ai/e/2026-09-07"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:25:00"
+categories: ["agents", "work"]
+featured: ["multiplayer agents", "Claude", "OpenClaw", "Claude Tag", "Anthropic"]
+mentioned: ["Slack"]
+transcript_source: "publisher"
+---
+
+# The Multiplayer AI Sprint: Build Your Team’s First Shared Agent
 
 [00:00:00] 2026 is undisputedly the year of agents
 

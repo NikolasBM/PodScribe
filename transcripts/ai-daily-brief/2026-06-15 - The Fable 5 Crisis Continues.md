@@ -1,16 +1,21 @@
-# The Fable 5 Crisis Continues — Transcript (2026-06-15)
-
-https://aidailybrief.ai/e/2026-06-15 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:26:00
-Host: Nathaniel Whittemore
-Categories: policy, safety-security
-Featured: Anthropic, Claude Mythos, Claude Fable
-Also mentioned: none
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Fable 5 Crisis Continues"
+date: 2026-06-15
+url: "https://aidailybrief.ai/e/2026-06-15"
+guid: "https://aidailybrief.ai/e/2026-06-15"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:26:00"
+categories: ["policy", "safety-security"]
+featured: ["Anthropic", "Claude Mythos", "Claude Fable"]
+mentioned: []
+transcript_source: "publisher"
+---
+
+# The Fable 5 Crisis Continues
 
 [00:00:00] 
 

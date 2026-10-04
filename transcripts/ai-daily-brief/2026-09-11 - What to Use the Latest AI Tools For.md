@@ -1,16 +1,21 @@
-# What to Use the Latest AI Tools For — Transcript (2026-09-11)
-
-https://aidailybrief.ai/e/2026-09-11 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:31:00
-Host: Nathaniel Whittemore
-Categories: models, agents, coding, infrastructure
-Featured: OpenAI, ChatGPT, Cognition Devin, Cursor, GPT Live, DeepSeek
-Also mentioned: GPT-6, Kimi, Claude, Meta Muse, distillation, Pacing the Frontier, Artificial Analysis, Grok Bot, Claude Code, OpenAI Codex
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "What to Use the Latest AI Tools For"
+date: 2026-09-11
+url: "https://aidailybrief.ai/e/2026-09-11"
+guid: "https://aidailybrief.ai/e/2026-09-11"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:31:00"
+categories: ["models", "agents", "coding", "infrastructure"]
+featured: ["OpenAI", "ChatGPT", "Cognition Devin", "Cursor", "GPT Live", "DeepSeek"]
+mentioned: ["GPT-6", "Kimi", "Claude", "Meta Muse", "distillation", "Pacing the Frontier", "Artificial Analysis", "Grok Bot", "Claude Code", "OpenAI Codex"]
+transcript_source: "publisher"
+---
+
+# What to Use the Latest AI Tools For
 
 [00:00:00] 
 

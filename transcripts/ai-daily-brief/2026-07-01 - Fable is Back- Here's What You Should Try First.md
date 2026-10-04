@@ -1,16 +1,21 @@
-# Fable is Back: Here's What You Should Try First — Transcript (2026-07-01)
-
-https://aidailybrief.ai/e/2026-07-01 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: models, coding, policy, model-strategy
-Featured: Anthropic, Claude Fable, Claude Sonnet, Claude Tag, Claude
-Also mentioned: Claude Opus, Cursor, Claude Code, GPT-5.5, Claude Mythos, GLM, agent harness, Slack, GDPval, Artificial Analysis
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Fable is Back: Here's What You Should Try First"
+date: 2026-07-01
+url: "https://aidailybrief.ai/e/2026-07-01"
+guid: "https://aidailybrief.ai/e/2026-07-01"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:29:00"
+categories: ["models", "coding", "policy", "model-strategy"]
+featured: ["Anthropic", "Claude Fable", "Claude Sonnet", "Claude Tag", "Claude"]
+mentioned: ["Claude Opus", "Cursor", "Claude Code", "GPT-5.5", "Claude Mythos", "GLM", "agent harness", "Slack", "GDPval", "Artificial Analysis"]
+transcript_source: "publisher"
+---
+
+# Fable is Back: Here's What You Should Try First
 
 [00:00:00] Today Today on the AI Daily Brief Fable 5 is officially coming back. Before that in the headlines
 

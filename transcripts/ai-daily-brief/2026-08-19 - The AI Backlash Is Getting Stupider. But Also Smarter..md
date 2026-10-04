@@ -1,16 +1,21 @@
-# The AI Backlash Is Getting Stupider. But Also Smarter. — Transcript (2026-08-19)
-
-https://aidailybrief.ai/e/2026-08-19 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: policy, safety-security, funding-markets, infrastructure
-Featured: OpenAI, Anthropic
-Also mentioned: OpenRouter, GPT-6, Gemini, Hugging Face incident
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The AI Backlash Is Getting Stupider. But Also Smarter."
+date: 2026-08-19
+url: "https://aidailybrief.ai/e/2026-08-19"
+guid: "https://aidailybrief.ai/e/2026-08-19"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:29:00"
+categories: ["policy", "safety-security", "funding-markets", "infrastructure"]
+featured: ["OpenAI", "Anthropic"]
+mentioned: ["OpenRouter", "GPT-6", "Gemini", "Hugging Face incident"]
+transcript_source: "publisher"
+---
+
+# The AI Backlash Is Getting Stupider. But Also Smarter.
 
 Nathaniel Whittemore: [00:00:00] The anti-AI conversation is somehow getting dumber and more productive at the same time. ~This week, a governor who-- This week, a, this week, a centrist governor who formerly touted the, uh... This week, a centrist governor who... This week, a centrist governor who formerly... ~ This week, a centrist governor who just a year ago was touting AI investment in the state reversed course entirely to sign an extremely strong executive order that makes it much harder for data centers to get built in his state
 

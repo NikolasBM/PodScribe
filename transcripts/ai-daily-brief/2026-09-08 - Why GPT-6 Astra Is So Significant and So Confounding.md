@@ -1,16 +1,21 @@
-# Why GPT-6 Astra Is So Significant and So Confounding — Transcript (2026-09-08)
-
-https://aidailybrief.ai/e/2026-09-08 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: review · Level: 2 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: models, design, agents, coding
-Featured: GPT-6, OpenAI, computer use, Claude Fable, Blender
-Also mentioned: ChatGPT, vibe coding, Claude Mythos, multiplayer agents, Artificial Analysis, Claude, Nano Banana
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why GPT-6 Astra Is So Significant and So Confounding"
+date: 2026-09-08
+url: "https://aidailybrief.ai/e/2026-09-08"
+guid: "https://aidailybrief.ai/e/2026-09-08"
+host: "Nathaniel Whittemore"
+format: "review"
+level: 2
+length: "00:29:00"
+categories: ["models", "design", "agents", "coding"]
+featured: ["GPT-6", "OpenAI", "computer use", "Claude Fable", "Blender"]
+mentioned: ["ChatGPT", "vibe coding", "Claude Mythos", "multiplayer agents", "Artificial Analysis", "Claude", "Nano Banana"]
+transcript_source: "publisher"
+---
+
+# Why GPT-6 Astra Is So Significant and So Confounding
 
 [00:00:00] 
 

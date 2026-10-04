@@ -1,16 +1,21 @@
-# 6 Questions Every Enterprise Has to Answer About AI — Transcript (2026-07-30)
-
-https://aidailybrief.ai/e/2026-07-30 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: agents, work, enterprise, model-strategy
-Featured: OpenAI, agent harness, Microsoft Copilot
-Also mentioned: OpenClaw, Hugging Face incident, open-weight models, Claude Code
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "6 Questions Every Enterprise Has to Answer About AI"
+date: 2026-07-30
+url: "https://aidailybrief.ai/e/2026-07-30"
+guid: "https://aidailybrief.ai/e/2026-07-30"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:28:00"
+categories: ["agents", "work", "enterprise", "model-strategy"]
+featured: ["OpenAI", "agent harness", "Microsoft Copilot"]
+mentioned: ["OpenClaw", "Hugging Face incident", "open-weight models", "Claude Code"]
+transcript_source: "publisher"
+---
+
+# 6 Questions Every Enterprise Has to Answer About AI
 
 [00:00:00] Today Today on the AI Daily Brief, sixsix questions shaping enterprise AI. Before that in the headlines, Sam Altman goes to Washington, and the conversation has gotten a lot more complicated over the last week. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
 

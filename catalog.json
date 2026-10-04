@@ -1,0 +1,3909 @@
+[
+ {
+  "podcast": "latent-space",
+  "date": "2026-10-02",
+  "title": "Academia is for Ambition — Alex Zhang, MIT",
+  "guests": [
+   "Alex Zhang"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:41:19",
+  "categories": [
+   "agents",
+   "models",
+   "coding",
+   "model-strategy"
+  ],
+  "featured": [
+   "agent harness",
+   "Jev"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Kimi",
+   "SWE-bench",
+   "ARC-AGI",
+   "Qwen",
+   "OpenAI Codex",
+   "Gemini",
+   "Claude",
+   "Claude Code",
+   "Grok Bot",
+   "Hugging Face incident",
+   "model routing",
+   "Google Antigravity"
+  ],
+  "url": "https://www.latent.space/p/rlm",
+  "path": "transcripts/latent-space/2026-10-02 - Academia is for Ambition — Alex Zhang, MIT.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-01",
+  "title": "Gemini 4 Argon, Sonnet 5.5 and What Matters with AI Models",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:29:00",
+  "categories": [
+   "models",
+   "agents",
+   "policy",
+   "coding"
+  ],
+  "featured": [
+   "Gemini",
+   "Google",
+   "Claude Sonnet",
+   "Meta Muse",
+   "Anthropic",
+   "Google DeepMind",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Claude Opus",
+   "GPT-6",
+   "Claude Fable",
+   "OpenAI Codex",
+   "vibe coding",
+   "Artificial Analysis",
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-01",
+  "path": "transcripts/ai-daily-brief/2026-10-01 - Gemini 4 Argon, Sonnet 5.5 and What Matters with AI Models.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-09-30",
+  "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+  "guests": [
+   "Ari Weinstein",
+   "Nikunj Handa"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:39:02",
+  "categories": [
+   "agents",
+   "models",
+   "coding",
+   "consumer"
+  ],
+  "featured": [
+   "computer use",
+   "OpenAI Codex",
+   "agent harness",
+   "OpenAI",
+   "OpenAI Decisions API",
+   "GPT-6",
+   "Jev",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "GPT Live",
+   "Gemini"
+  ],
+  "url": "https://www.latent.space/p/devday-2026",
+  "path": "transcripts/latent-space/2026-09-30 - Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-30",
+  "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
+  "guests": [
+   "John Lindquist"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:45:35",
+  "categories": [
+   "agents",
+   "model-strategy",
+   "coding",
+   "models"
+  ],
+  "featured": [
+   "Jev",
+   "computer use"
+  ],
+  "mentioned": [
+   "Grok Bot",
+   "OpenAI Codex"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Jev-8-real-use-cases-for-the-fastest--cheapest-model-Ive-ever-used--John-Lindquist-e3pj45k",
+  "path": "transcripts/how-i-ai/2026-09-30 - Jev- 8 real use cases for the fastest, cheapest model I’ve ever used - John Lindquist.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-30",
+  "title": "OpenAI Dev Day 2026: The releases that actually matter",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:23:53",
+  "categories": [
+   "agents",
+   "coding",
+   "models",
+   "consumer"
+  ],
+  "featured": [
+   "OpenAI",
+   "OpenAI Codex",
+   "ChatGPT",
+   "Jev",
+   "OpenAI Decisions API",
+   "computer use"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Meta Muse",
+   "Slack",
+   "Grok Bot"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/OpenAI-Dev-Day-2026-The-releases-that-actually-matter-e3pkss3",
+  "path": "transcripts/how-i-ai/2026-09-30 - OpenAI Dev Day 2026- The releases that actually matter.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-30",
+  "title": "The Most Important New AI Tools from OpenAI DevDay",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:23:00",
+  "categories": [
+   "agents",
+   "models",
+   "coding",
+   "model-strategy"
+  ],
+  "featured": [
+   "OpenAI",
+   "ChatGPT",
+   "GPT-6",
+   "Jev",
+   "OpenAI Decisions API",
+   "computer use"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "Meta Muse",
+   "Grok Bot",
+   "Slack",
+   "Claude Opus",
+   "GLM"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-30",
+  "path": "transcripts/ai-daily-brief/2026-09-30 - The Most Important New AI Tools from OpenAI DevDay.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-09-29",
+  "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+  "guests": [
+   "Thariq Shihipar"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:32:22",
+  "categories": [
+   "agents",
+   "coding",
+   "safety-security",
+   "models"
+  ],
+  "featured": [
+   "Claude",
+   "Claude Code",
+   "agent harness",
+   "Claude Tag",
+   "Anthropic",
+   "Pacing the Frontier",
+   "Claude Fable",
+   "computer use",
+   "agent loops",
+   "Hugging Face incident"
+  ],
+  "mentioned": [
+   "MCP",
+   "model routing",
+   "Slack",
+   "Project Glasswing",
+   "vibe coding",
+   "Terminal Bench"
+  ],
+  "url": "https://www.latent.space/p/thariq",
+  "path": "transcripts/latent-space/2026-09-29 - Claude Code’s Next Era — Thariq Shihipar, Anthropic.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-29",
+  "title": "How to Build Team Agents",
+  "guests": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:41:00",
+  "categories": [
+   "agents",
+   "work"
+  ],
+  "featured": [
+   "multiplayer agents"
+  ],
+  "mentioned": [
+   "Claude Tag",
+   "Claude",
+   "Slack",
+   "Meta Muse",
+   "Grok Bot",
+   "Instinct",
+   "Microsoft Copilot",
+   "agent harness"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-29",
+  "path": "transcripts/ai-daily-brief/2026-09-29 - How to Build Team Agents.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-28",
+  "title": "Jev for beginners: how to use it and what to build",
+  "guests": null,
+  "format": "tutorial",
+  "level": 2,
+  "length": "00:25:56",
+  "categories": [
+   "model-strategy",
+   "models",
+   "coding"
+  ],
+  "featured": [
+   "Jev",
+   "ChatPRD"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "OpenAI Codex",
+   "Claude Code",
+   "Grok",
+   "Meta Muse",
+   "Grok Bot",
+   "Gemini"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Jev-for-beginners-how-to-use-it-and-what-to-build-e3pctfc",
+  "path": "transcripts/how-i-ai/2026-09-28 - Jev for beginners- how to use it and what to build.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-27",
+  "title": "The Rise of the AI Moderates",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:32:00",
+  "categories": [
+   "safety-security",
+   "work",
+   "agents",
+   "policy"
+  ],
+  "featured": [
+   "Hugging Face incident"
+  ],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-09-27",
+  "path": "transcripts/ai-daily-brief/2026-09-27 - The Rise of the AI Moderates.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-09-25",
+  "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+  "guests": [
+   "Anjney Midha",
+   "Alex Atallah"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:20:35",
+  "categories": [
+   "models",
+   "model-strategy",
+   "agents",
+   "coding"
+  ],
+  "featured": [
+   "OpenRouter",
+   "Stripe",
+   "Claude",
+   "OpenClaw",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "ChatGPT",
+   "Cognition Devin",
+   "Hermes Agent"
+  ],
+  "url": "https://www.latent.space/p/openrouter",
+  "path": "transcripts/latent-space/2026-09-25 - OpenRouter- from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-09-25",
+  "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+  "guests": [
+   "Anastasis"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:36:14",
+  "categories": [
+   "design",
+   "models",
+   "agents",
+   "open-weights"
+  ],
+  "featured": [
+   "distillation",
+   "computer use"
+  ],
+  "mentioned": [
+   "agent harness",
+   "Gemini",
+   "Claude"
+  ],
+  "url": "https://www.latent.space/p/runway",
+  "path": "transcripts/latent-space/2026-09-25 - Runway’s WorldPrompt and the Engineering of Real-Time Worlds.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-25",
+  "title": "How People Are Actually Using Jev",
+  "guests": null,
+  "format": "commentary",
+  "level": 2,
+  "length": "00:25:00",
+  "categories": [
+   "marketing",
+   "model-strategy",
+   "models"
+  ],
+  "featured": [
+   "Jev"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "agent harness",
+   "Claude Opus",
+   "Claude Fable",
+   "OpenAI Codex",
+   "Claude Code"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-25",
+  "path": "transcripts/ai-daily-brief/2026-09-25 - How People Are Actually Using Jev.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-24",
+  "title": "AI Agents Are Moving Into the Real World",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "consumer",
+   "agents",
+   "policy",
+   "safety-security"
+  ],
+  "featured": [
+   "Meta Muse",
+   "Meta",
+   "Grok Bot",
+   "Anthropic",
+   "Claude"
+  ],
+  "mentioned": [
+   "Instinct"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-24",
+  "path": "transcripts/ai-daily-brief/2026-09-24 - AI Agents Are Moving Into the Real World.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-23",
+  "title": "Opus 5.5 vs GPT-6 Sol and Luna",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:27:00",
+  "categories": [
+   "models",
+   "model-strategy",
+   "coding",
+   "design"
+  ],
+  "featured": [
+   "Claude Opus",
+   "GPT-6",
+   "Anthropic",
+   "OpenAI",
+   "Claude",
+   "Pacing the Frontier",
+   "Blender"
+  ],
+  "mentioned": [
+   "Claude Fable",
+   "OpenAI Codex",
+   "agent harness",
+   "Artificial Analysis",
+   "Claude Mythos",
+   "Claude Code"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-23",
+  "path": "transcripts/ai-daily-brief/2026-09-23 - Opus 5.5 vs GPT-6 Sol and Luna.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-22",
+  "title": "I left Claude for months. Opus 5.5 is why I'm back",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:24:20",
+  "categories": [
+   "models",
+   "coding",
+   "design",
+   "agents"
+  ],
+  "featured": [
+   "Claude",
+   "Claude Opus",
+   "Anthropic",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Jev",
+   "computer use",
+   "ChatPRD",
+   "OpenAI Codex",
+   "GPT-6",
+   "Pacing the Frontier"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/I-left-Claude-for-months--Opus-5-5-is-why-Im-back-e3p8doo",
+  "path": "transcripts/how-i-ai/2026-09-22 - I left Claude for months. Opus 5.5 is why I'm back.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-22",
+  "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:38:23",
+  "categories": [
+   "models",
+   "coding",
+   "design",
+   "agents"
+  ],
+  "featured": [
+   "Claude Opus",
+   "GPT-6",
+   "Claude",
+   "Anthropic",
+   "OpenAI",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Grok",
+   "OpenAI Codex",
+   "computer use",
+   "ChatPRD",
+   "OpenClaw"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Opus-5-5-vs--GPT-6-Sol-which-model-won-my-blind-taste-test-e3p8okk",
+  "path": "transcripts/how-i-ai/2026-09-22 - Opus 5.5 vs. GPT-6 Sol- which model won my blind taste test-.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-22",
+  "title": "Agent Wars!",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:30:00",
+  "categories": [
+   "consumer",
+   "agents",
+   "models",
+   "coding"
+  ],
+  "featured": [
+   "Amazon",
+   "Meta Muse",
+   "Grok",
+   "Meta",
+   "SpaceX AI",
+   "Grok Bot"
+  ],
+  "mentioned": [
+   "Claude Fable",
+   "ChatGPT",
+   "GPT-6",
+   "OpenClaw",
+   "Instinct",
+   "Perplexity"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-22",
+  "path": "transcripts/ai-daily-brief/2026-09-22 - Agent Wars!.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-09-21",
+  "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+  "guests": [
+   "Diogo Almeida"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "02:20:51",
+  "categories": [
+   "coding",
+   "agents",
+   "safety-security",
+   "models"
+  ],
+  "featured": [
+   "Jev",
+   "computer use",
+   "Pacing the Frontier"
+  ],
+  "mentioned": [
+   "ChatGPT",
+   "Claude",
+   "Slack",
+   "Claude Code",
+   "OpenAI Codex"
+  ],
+  "url": "https://www.latent.space/p/jev",
+  "path": "transcripts/latent-space/2026-09-21 - Jev- System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-21",
+  "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+  "guests": [
+   "Zach Lloyd"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:46:20",
+  "categories": [
+   "coding",
+   "agents",
+   "work",
+   "model-strategy"
+  ],
+  "featured": [
+   "Warp",
+   "Slack",
+   "computer use",
+   "MCP"
+  ],
+  "mentioned": [
+   "Figma",
+   "Instinct",
+   "Claude Code",
+   "Granola",
+   "OpenAI Codex",
+   "Grok"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Warp-ships-2-000-PRs-a-month-with-AI-factories--Zach-Lloyd-CEO--Warp-e3p0f07",
+  "path": "transcripts/how-i-ai/2026-09-21 - How Warp ships 2,000 PRs a month with AI factories - Zach Lloyd (CEO, Warp).md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-21",
+  "title": "The State of the AI Debate",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:27:00",
+  "categories": [
+   "policy",
+   "funding-markets",
+   "safety-security",
+   "infrastructure"
+  ],
+  "featured": [
+   "Anthropic",
+   "Pacing the Frontier"
+  ],
+  "mentioned": [
+   "distillation",
+   "Claude Code"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-21",
+  "path": "transcripts/ai-daily-brief/2026-09-21 - The State of the AI Debate.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-20",
+  "title": "7 Ways How We Use AI Is Changing",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "agents",
+   "coding",
+   "model-strategy",
+   "consumer"
+  ],
+  "featured": [
+   "Claude",
+   "OpenAI Codex",
+   "multiplayer agents",
+   "Meta Muse",
+   "Claude Code",
+   "agent loops",
+   "Claude Cowork"
+  ],
+  "mentioned": [
+   "agent harness",
+   "Grok Bot",
+   "Slack",
+   "ChatGPT",
+   "Cursor",
+   "Cognition Devin",
+   "Claude Fable"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-20",
+  "path": "transcripts/ai-daily-brief/2026-09-20 - 7 Ways How We Use AI Is Changing.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-18",
+  "title": "The AI Challenges Businesses Are Actually Focused On Right Now",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:30:00",
+  "categories": [
+   "safety-security",
+   "enterprise",
+   "open-weights",
+   "agents"
+  ],
+  "featured": [
+   "Anthropic",
+   "open-weight models",
+   "recursive self-improvement",
+   "Claude",
+   "Pacing the Frontier"
+  ],
+  "mentioned": [
+   "GLM",
+   "Hugging Face incident",
+   "Claude Mythos",
+   "GPT-6",
+   "Gemini"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-18",
+  "path": "transcripts/ai-daily-brief/2026-09-18 - The AI Challenges Businesses Are Actually Focused On Right Now.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-17",
+  "title": "Why Everyone Is Getting Excited About Personal AI Agents",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "agents",
+   "consumer",
+   "models",
+   "safety-security"
+  ],
+  "featured": [
+   "Meta Muse",
+   "Instinct",
+   "Grok Bot",
+   "computer use",
+   "Meta"
+  ],
+  "mentioned": [
+   "Claude",
+   "Claude Cowork",
+   "OpenClaw",
+   "OpenRouter",
+   "GPT-5.6",
+   "Claude Code",
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-17",
+  "path": "transcripts/ai-daily-brief/2026-09-17 - Why Everyone Is Getting Excited About Personal AI Agents.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-09-16",
+  "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+  "guests": [
+   "Rune Kvist"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:26:00",
+  "categories": [
+   "safety-security",
+   "agents",
+   "enterprise",
+   "policy"
+  ],
+  "featured": [
+   "ElevenLabs",
+   "Claude Mythos"
+  ],
+  "mentioned": [
+   "Cursor",
+   "Lovable",
+   "MCP"
+  ],
+  "url": "https://www.latent.space/p/aiuc",
+  "path": "transcripts/latent-space/2026-09-16 - Underwriting Superintelligence- Backing Agents you can Sue — Rune Kvist, AIUC.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-16",
+  "title": "Muse review: The personal AI agent that gets consumer UX right",
+  "guests": null,
+  "format": "review",
+  "level": 1,
+  "length": "00:36:43",
+  "categories": [
+   "consumer",
+   "agents",
+   "design"
+  ],
+  "featured": [
+   "Meta Muse",
+   "Meta",
+   "computer use"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Grok Bot",
+   "OpenAI Codex",
+   "Instinct"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Muse-review-The-personal-AI-agent-that-gets-consumer-UX-right-e3ornsd",
+  "path": "transcripts/how-i-ai/2026-09-16 - Muse review- The personal AI agent that gets consumer UX right.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-16",
+  "title": "Why a New Class of AI “Judgment Models” Could Have Big Business Implications",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:25:00",
+  "categories": [
+   "models",
+   "safety-security",
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "Jev"
+  ],
+  "mentioned": [
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-16",
+  "path": "transcripts/ai-daily-brief/2026-09-16 - Why a New Class of AI “Judgment Models” Could Have Big Business Implications.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-15",
+  "title": "Trump Rails Against AI Slowdown \"Hoax\"",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "safety-security",
+   "policy",
+   "work"
+  ],
+  "featured": [
+   "Pacing the Frontier"
+  ],
+  "mentioned": [
+   "recursive self-improvement",
+   "ChatGPT",
+   "GLM"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-15",
+  "path": "transcripts/ai-daily-brief/2026-09-15 - Trump Rails Against AI Slowdown -Hoax-.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-09-14",
+  "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+  "guests": [
+   "Richard Socher"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:31:59",
+  "categories": [
+   "safety-security",
+   "agents",
+   "models",
+   "coding"
+  ],
+  "featured": [
+   "recursive self-improvement"
+  ],
+  "mentioned": [
+   "agent harness",
+   "Claude",
+   "ChatGPT",
+   "GPT-5.6",
+   "Whisperflow"
+  ],
+  "url": "https://www.latent.space/p/recursive",
+  "path": "transcripts/latent-space/2026-09-14 - Humanity’s Last Invention — Richard Socher of Recursive.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-14",
+  "title": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+  "guests": [
+   "John Bai",
+   "Peng Zheng"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:41:06",
+  "categories": [
+   "agents",
+   "design",
+   "work",
+   "consumer"
+  ],
+  "featured": [
+   "Grok Bot",
+   "Figma"
+  ],
+  "mentioned": [
+   "Slack"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Grok-Bot-designers-use-AI-agents-to-build-personal-sites-and-product-prototypes--John-Bai--Peng-Zheng-e3ok8i6",
+  "path": "transcripts/how-i-ai/2026-09-14 - How Grok Bot designers use AI agents to build personal sites and product prototypes - John Bai & Peng Zheng.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-14",
+  "title": "Even Other AI Labs Are Rallying Around Anthropic’s Slowdown Proposal",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:37:00",
+  "categories": [
+   "safety-security",
+   "policy",
+   "open-weights",
+   "funding-markets"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "Pacing the Frontier",
+   "recursive self-improvement",
+   "Hugging Face incident"
+  ],
+  "mentioned": [
+   "open-weight models",
+   "distillation"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-14",
+  "path": "transcripts/ai-daily-brief/2026-09-14 - Even Other AI Labs Are Rallying Around Anthropic’s Slowdown Proposal.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-13",
+  "title": "10 Ways to Think Bigger with Opportunity AI",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "marketing",
+   "design",
+   "models",
+   "work"
+  ],
+  "featured": [
+   "GPT-6"
+  ],
+  "mentioned": [
+   "Claude Fable",
+   "OpenAI Codex",
+   "Claude Code"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-13",
+  "path": "transcripts/ai-daily-brief/2026-09-13 - 10 Ways to Think Bigger with Opportunity AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-11",
+  "title": "What to Use the Latest AI Tools For",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:31:00",
+  "categories": [
+   "models",
+   "agents",
+   "coding",
+   "infrastructure"
+  ],
+  "featured": [
+   "OpenAI",
+   "ChatGPT",
+   "Cognition Devin",
+   "Cursor",
+   "GPT Live",
+   "DeepSeek"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Kimi",
+   "Claude",
+   "Meta Muse",
+   "distillation",
+   "Pacing the Frontier",
+   "Artificial Analysis",
+   "Grok Bot",
+   "Claude Code",
+   "OpenAI Codex"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-11",
+  "path": "transcripts/ai-daily-brief/2026-09-11 - What to Use the Latest AI Tools For.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-10",
+  "title": "Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 0,
+  "length": "00:35:00",
+  "categories": [
+   "safety-security",
+   "policy"
+  ],
+  "featured": [
+   "Anthropic"
+  ],
+  "mentioned": [
+   "Hugging Face incident",
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-10",
+  "path": "transcripts/ai-daily-brief/2026-09-10 - Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-09",
+  "title": "AI Model Month Is Off to a Blistering Start",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:34:00",
+  "categories": [
+   "models",
+   "agents",
+   "consumer",
+   "model-strategy"
+  ],
+  "featured": [
+   "OpenAI",
+   "Meta",
+   "Meta Muse",
+   "Muse Spark",
+   "Google",
+   "Gemini",
+   "Artificial Analysis",
+   "agent harness",
+   "Terminal Bench",
+   "ChatGPT Images",
+   "ChatGPT",
+   "computer use"
+  ],
+  "mentioned": [
+   "Claude Opus",
+   "GPT-6",
+   "Claude Fable",
+   "OpenAI Codex",
+   "ElevenLabs",
+   "GPT-5.6",
+   "Cursor",
+   "GLM"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-09",
+  "path": "transcripts/ai-daily-brief/2026-09-09 - AI Model Month Is Off to a Blistering Start.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-08",
+  "title": "Why GPT-6 Astra Is So Significant and So Confounding",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:29:00",
+  "categories": [
+   "models",
+   "design",
+   "agents",
+   "coding"
+  ],
+  "featured": [
+   "GPT-6",
+   "OpenAI",
+   "computer use",
+   "Claude Fable",
+   "Blender"
+  ],
+  "mentioned": [
+   "ChatGPT",
+   "vibe coding",
+   "Claude Mythos",
+   "multiplayer agents",
+   "Artificial Analysis",
+   "Claude",
+   "Nano Banana"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-08",
+  "path": "transcripts/ai-daily-brief/2026-09-08 - Why GPT-6 Astra Is So Significant and So Confounding.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-07",
+  "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
+  "guests": [
+   "Sharadh Krishnamurthy"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:49:54",
+  "categories": [
+   "agents",
+   "safety-security",
+   "enterprise"
+  ],
+  "featured": [
+   "Stripe Kai",
+   "Stripe",
+   "agent harness"
+  ],
+  "mentioned": [
+   "multiplayer agents"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Build-your-own-company-brain-the-enterprise-AI-playbook-from-Stripes-engineering-team--Sharadh-Krishnamurthy-e3obios",
+  "path": "transcripts/how-i-ai/2026-09-07 - Build your own company brain- the enterprise AI playbook from Stripe’s engineering team - Sharadh Krishnamurthy.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-07",
+  "title": "The Multiplayer AI Sprint: Build Your Team’s First Shared Agent",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:25:00",
+  "categories": [
+   "agents",
+   "work"
+  ],
+  "featured": [
+   "multiplayer agents",
+   "Claude",
+   "OpenClaw",
+   "Claude Tag",
+   "Anthropic"
+  ],
+  "mentioned": [
+   "Slack"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-07",
+  "path": "transcripts/ai-daily-brief/2026-09-07 - The Multiplayer AI Sprint- Build Your Team’s First Shared Agent.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-06",
+  "title": "How to Build an AI-Native Company Today",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:27:00",
+  "categories": [
+   "agents",
+   "work",
+   "coding",
+   "enterprise"
+  ],
+  "featured": [
+   "agent harness"
+  ],
+  "mentioned": [
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-06",
+  "path": "transcripts/ai-daily-brief/2026-09-06 - How to Build an AI-Native Company Today.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-04",
+  "title": "How AI Changed This Summer",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:24:00",
+  "categories": [
+   "agents",
+   "open-weights",
+   "policy",
+   "funding-markets"
+  ],
+  "featured": [
+   "OpenAI",
+   "agent harness",
+   "Anthropic",
+   "Claude Fable",
+   "Claude Mythos",
+   "open-weight models",
+   "model routing",
+   "Kimi",
+   "GPT-5.6",
+   "OpenAI Codex",
+   "Claude Code",
+   "Cursor",
+   "Hugging Face incident",
+   "OpenRouter",
+   "DeepSeek"
+  ],
+  "mentioned": [
+   "Grok",
+   "Gemini",
+   "OpenClaw"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-04",
+  "path": "transcripts/ai-daily-brief/2026-09-04 - How AI Changed This Summer.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-03",
+  "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
+  "guests": null,
+  "format": "review",
+  "level": 3,
+  "length": "00:31:51",
+  "categories": [
+   "coding",
+   "models",
+   "design",
+   "agents"
+  ],
+  "featured": [
+   "GPT-6",
+   "computer use",
+   "ChatPRD",
+   "Blender"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "GPT-5.6",
+   "Slack",
+   "Grok Bot",
+   "OpenClaw",
+   "Figma",
+   "ChatGPT Images",
+   "Granola"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/GPT-6-Astra-is-a-banger---heres-everything-Ive-built-e3oa8pk",
+  "path": "transcripts/how-i-ai/2026-09-03 - GPT-6 Astra is a banger - here’s everything I’ve built.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-03",
+  "title": "Agentic Loops for Knowledge Workers",
+  "guests": null,
+  "format": "tutorial",
+  "level": 3,
+  "length": "00:57:00",
+  "categories": [
+   "agents",
+   "work"
+  ],
+  "featured": [
+   "Claude",
+   "agent harness",
+   "agent loops",
+   "Claude Code"
+  ],
+  "mentioned": [
+   "Claude Cowork",
+   "ChatGPT",
+   "Cursor"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-03",
+  "path": "transcripts/ai-daily-brief/2026-09-03 - Agentic Loops for Knowledge Workers.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-09-02",
+  "title": "Grok Bot vs. OpenClaw: How I replaced my entire agent stack",
+  "guests": null,
+  "format": "demo",
+  "level": 2,
+  "length": "00:35:49",
+  "categories": [
+   "agents",
+   "consumer",
+   "coding"
+  ],
+  "featured": [
+   "Grok Bot",
+   "OpenClaw",
+   "Grok",
+   "agent harness"
+  ],
+  "mentioned": [
+   "ChatPRD",
+   "Slack",
+   "Cursor"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Grok-Bot-vs--OpenClaw-How-I-replaced-my-entire-agent-stack-e3o5nqr",
+  "path": "transcripts/how-i-ai/2026-09-02 - Grok Bot vs. OpenClaw- How I replaced my entire agent stack.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-02",
+  "title": "Why Fable 5.1 Is Worth the Upgrade",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:31:00",
+  "categories": [
+   "models",
+   "model-strategy",
+   "coding",
+   "safety-security"
+  ],
+  "featured": [
+   "Claude Fable",
+   "Anthropic",
+   "OpenAI",
+   "Claude",
+   "Terminal Bench"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Claude Mythos",
+   "Claude Opus",
+   "Gemini",
+   "Artificial Analysis",
+   "GPT-5.6",
+   "vibe coding",
+   "Claude Code"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-02",
+  "path": "transcripts/ai-daily-brief/2026-09-02 - Why Fable 5.1 Is Worth the Upgrade.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-09-01",
+  "title": "OpenClaw 2.0 Shows Where AI Agents Are Going Next",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:26:00",
+  "categories": [
+   "agents",
+   "safety-security",
+   "coding",
+   "models"
+  ],
+  "featured": [
+   "OpenClaw",
+   "Anthropic",
+   "agent harness",
+   "multiplayer agents"
+  ],
+  "mentioned": [
+   "Hermes Agent",
+   "Grok Bot",
+   "GLM",
+   "Claude Mythos",
+   "ChatGPT",
+   "Instinct"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-09-01",
+  "path": "transcripts/ai-daily-brief/2026-09-01 - OpenClaw 2.0 Shows Where AI Agents Are Going Next.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-31",
+  "title": "How to Navigate the Next Wave of AI Competition",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "open-weights",
+   "model-strategy",
+   "agents",
+   "policy"
+  ],
+  "featured": [
+   "OpenAI",
+   "Cursor",
+   "agent harness",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "OpenRouter",
+   "DeepSeek",
+   "OpenClaw",
+   "Claude",
+   "OpenAI Codex",
+   "distillation",
+   "Hermes Agent"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-31",
+  "path": "transcripts/ai-daily-brief/2026-08-31 - How to Navigate the Next Wave of AI Competition.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-29",
+  "title": "How to Start AI Coding If You Haven’t Yet",
+  "guests": null,
+  "format": "tutorial",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "coding",
+   "work",
+   "marketing"
+  ],
+  "featured": [],
+  "mentioned": [
+   "OpenAI Codex",
+   "Claude Code",
+   "Lovable",
+   "Replit",
+   "OpenClaw",
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-29",
+  "path": "transcripts/ai-daily-brief/2026-08-29 - How to Start AI Coding If You Haven’t Yet.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-28",
+  "title": "The Most Useful New AI Features and Tools to Try",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:34:00",
+  "categories": [
+   "models",
+   "funding-markets",
+   "agents",
+   "infrastructure"
+  ],
+  "featured": [
+   "Nvidia",
+   "Claude",
+   "Hugging Face",
+   "Hermes Agent",
+   "ChatGPT",
+   "agent harness",
+   "Gemini",
+   "Claude Cowork"
+  ],
+  "mentioned": [
+   "Grok Bot",
+   "Grok",
+   "Perplexity",
+   "Slack",
+   "Whisperflow",
+   "DeepSeek"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-28",
+  "path": "transcripts/ai-daily-brief/2026-08-28 - The Most Useful New AI Features and Tools to Try.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-27",
+  "title": "How We Deal With Rogue AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:28:00",
+  "categories": [
+   "safety-security",
+   "agents",
+   "funding-markets",
+   "models"
+  ],
+  "featured": [
+   "OpenAI",
+   "Hugging Face",
+   "Perplexity",
+   "Hugging Face incident",
+   "Gemini"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Qwen"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-27",
+  "path": "transcripts/ai-daily-brief/2026-08-27 - How We Deal With Rogue AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-26",
+  "title": "5 Rules for Better AI Writing",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:23:00",
+  "categories": [
+   "marketing"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-26",
+  "path": "transcripts/ai-daily-brief/2026-08-26 - 5 Rules for Better AI Writing.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-25",
+  "title": "What the Top AI Users Are Doing Differently",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:27:00",
+  "categories": [
+   "agents",
+   "work",
+   "funding-markets",
+   "models"
+  ],
+  "featured": [
+   "OpenAI",
+   "ChatGPT",
+   "OpenAI Codex"
+  ],
+  "mentioned": [
+   "Grok Bot",
+   "Cursor",
+   "Grok"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-25",
+  "path": "transcripts/ai-daily-brief/2026-08-25 - What the Top AI Users Are Doing Differently.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-24",
+  "title": "The AI Model Tier List",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "funding-markets",
+   "model-strategy",
+   "models",
+   "infrastructure"
+  ],
+  "featured": [
+   "Nvidia",
+   "Claude Fable",
+   "open-weight models",
+   "Nvidia Nemotron",
+   "GPT-5.6",
+   "Claude Opus",
+   "Vercel AI Gateway"
+  ],
+  "mentioned": [
+   "DeepSeek",
+   "OpenRouter",
+   "Perplexity",
+   "Kimi",
+   "Grok",
+   "Muse Spark",
+   "Claude Sonnet",
+   "Cursor",
+   "Gemini"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-24",
+  "path": "transcripts/ai-daily-brief/2026-08-24 - The AI Model Tier List.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-23",
+  "title": "The Real Future of AI and Work",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:30:00",
+  "categories": [
+   "work",
+   "agents"
+  ],
+  "featured": [],
+  "mentioned": [
+   "multiplayer agents"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-23",
+  "path": "transcripts/ai-daily-brief/2026-08-23 - The Real Future of AI and Work.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-08-21",
+  "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+  "guests": [
+   "Joon"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:09:31",
+  "categories": [
+   "agents",
+   "enterprise",
+   "models"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT",
+   "Claude",
+   "OpenClaw",
+   "Figma"
+  ],
+  "url": "https://www.latent.space/p/simile",
+  "path": "transcripts/latent-space/2026-08-21 - Simulation- the new Scaling Law — Joon Sung Park, Simile AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-21",
+  "title": "Why Everyone Suddenly Hates AI Data Centers",
+  "guests": null,
+  "format": "commentary",
+  "level": 0,
+  "length": "00:36:00",
+  "categories": [
+   "policy",
+   "infrastructure",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-08-21",
+  "path": "transcripts/ai-daily-brief/2026-08-21 - Why Everyone Suddenly Hates AI Data Centers.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-20",
+  "title": "9 AI Techniques You Probably Haven't Tried",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "agents",
+   "coding",
+   "consumer",
+   "work"
+  ],
+  "featured": [
+   "OpenAI",
+   "Claude",
+   "Grok Bot",
+   "OpenAI Codex",
+   "ChatGPT",
+   "Grok",
+   "multiplayer agents"
+  ],
+  "mentioned": [
+   "Replit",
+   "Claude Tag",
+   "Cursor",
+   "Slack",
+   "Hermes Agent",
+   "Qwen"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-20",
+  "path": "transcripts/ai-daily-brief/2026-08-20 - 9 AI Techniques You Probably Haven't Tried.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-19",
+  "title": "The AI Backlash Is Getting Stupider. But Also Smarter.",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "policy",
+   "safety-security",
+   "funding-markets",
+   "infrastructure"
+  ],
+  "featured": [
+   "OpenAI",
+   "Anthropic"
+  ],
+  "mentioned": [
+   "OpenRouter",
+   "GPT-6",
+   "Gemini",
+   "Hugging Face incident"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-19",
+  "path": "transcripts/ai-daily-brief/2026-08-19 - The AI Backlash Is Getting Stupider. But Also Smarter..md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-18",
+  "title": "The AI Engineering Skills Map for Knowledge Workers",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "work",
+   "funding-markets",
+   "agents",
+   "coding"
+  ],
+  "featured": [
+   "Cursor",
+   "agent harness",
+   "OpenRouter"
+  ],
+  "mentioned": [
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-18",
+  "path": "transcripts/ai-daily-brief/2026-08-18 - The AI Engineering Skills Map for Knowledge Workers.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-17",
+  "title": "AI Companies Still Haven’t Delivered on Their Biggest Promises",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:32:00",
+  "categories": [
+   "models",
+   "safety-security",
+   "funding-markets",
+   "open-weights"
+  ],
+  "featured": [
+   "Anthropic",
+   "GLM",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "Claude Mythos",
+   "Kimi",
+   "Claude Fable",
+   "GPT-5.6",
+   "Grok"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-17",
+  "path": "transcripts/ai-daily-brief/2026-08-17 - AI Companies Still Haven’t Delivered on Their Biggest Promises.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-16",
+  "title": "The New Problems AI Is Creating (And How People Are Solving Them)",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "work",
+   "enterprise",
+   "model-strategy",
+   "agents"
+  ],
+  "featured": [
+   "agent harness"
+  ],
+  "mentioned": [
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-16",
+  "path": "transcripts/ai-daily-brief/2026-08-16 - The New Problems AI Is Creating (And How People Are Solving Them).md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-14",
+  "title": "How to Decide What Work AI Should Do for You: The AI Deputization Audit",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:29:00",
+  "categories": [
+   "models",
+   "agents",
+   "model-strategy",
+   "work"
+  ],
+  "featured": [
+   "Grok Bot",
+   "OpenAI",
+   "Gemini",
+   "Google",
+   "ChatGPT",
+   "GPT-5.6"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "GLM",
+   "Kimi",
+   "Artificial Analysis",
+   "Nvidia Nemotron",
+   "Claude Sonnet",
+   "Gemma",
+   "Claude Opus",
+   "Slack",
+   "Cursor"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-14",
+  "path": "transcripts/ai-daily-brief/2026-08-14 - How to Decide What Work AI Should Do for You- The AI Deputization Audit.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-13",
+  "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:29:00",
+  "categories": [
+   "models",
+   "funding-markets",
+   "coding",
+   "open-weights"
+  ],
+  "featured": [
+   "Grok",
+   "Anthropic",
+   "SpaceX AI",
+   "Claude Fable",
+   "Lovable",
+   "GPT-5.6",
+   "DeepSeek",
+   "Gemini",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "Cursor",
+   "Claude Code",
+   "Kimi",
+   "Artificial Analysis",
+   "Claude Mythos",
+   "Muse Spark",
+   "Terminal Bench"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-13",
+  "path": "transcripts/ai-daily-brief/2026-08-13 - Grok 4.6 Shows How Fast Your AI Options Are Expanding.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-12",
+  "title": "Grok Bot Finally Makes AI Agents Easy",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "agents",
+   "funding-markets",
+   "coding",
+   "infrastructure"
+  ],
+  "featured": [
+   "Grok Bot",
+   "OpenClaw",
+   "Cursor",
+   "computer use",
+   "agent harness",
+   "Grok"
+  ],
+  "mentioned": [
+   "Gemini",
+   "Claude",
+   "Manus",
+   "OpenAI Codex",
+   "Slack"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-12",
+  "path": "transcripts/ai-daily-brief/2026-08-12 - Grok Bot Finally Makes AI Agents Easy.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-11",
+  "title": "AI Optimism Has a Trust Problem",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:23:00",
+  "categories": [
+   "work",
+   "policy",
+   "agents",
+   "infrastructure"
+  ],
+  "featured": [
+   "Meta",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "Muse Spark",
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-11",
+  "path": "transcripts/ai-daily-brief/2026-08-11 - AI Optimism Has a Trust Problem.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-10",
+  "title": "What the Heck is Graph Engineering?",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "agents",
+   "safety-security",
+   "models",
+   "open-weights"
+  ],
+  "featured": [
+   "agent harness",
+   "OpenAI",
+   "Claude Code",
+   "Hugging Face incident",
+   "agent loops"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Qwen",
+   "Kimi",
+   "Claude Mythos",
+   "Claude"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-10",
+  "path": "transcripts/ai-daily-brief/2026-08-10 - What the Heck is Graph Engineering-.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-08",
+  "title": "41 Stats That Tell the Story of AI Right Now",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:22:00",
+  "categories": [
+   "work",
+   "enterprise",
+   "agents"
+  ],
+  "featured": [],
+  "mentioned": [
+   "OpenAI Codex",
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-08",
+  "path": "transcripts/ai-daily-brief/2026-08-08 - 41 Stats That Tell the Story of AI Right Now.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-07",
+  "title": "The Right Way to Worry About AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "safety-security",
+   "funding-markets",
+   "agents",
+   "infrastructure"
+  ],
+  "featured": [
+   "OpenAI",
+   "Hugging Face incident",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "OpenRouter"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-07",
+  "path": "transcripts/ai-daily-brief/2026-08-07 - The Right Way to Worry About AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-06",
+  "title": "Google’s AI Leadership Shakeup: Disaster or Exactly What It Needs?",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:33:00",
+  "categories": [
+   "models",
+   "agents",
+   "coding",
+   "funding-markets"
+  ],
+  "featured": [
+   "Google",
+   "Meta",
+   "Google DeepMind",
+   "Gemini",
+   "Muse Spark",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Kimi",
+   "ChatGPT",
+   "Claude Opus",
+   "distillation",
+   "Figma",
+   "Claude Fable",
+   "Grok",
+   "GLM",
+   "Qwen"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-06",
+  "path": "transcripts/ai-daily-brief/2026-08-06 - Google’s AI Leadership Shakeup- Disaster or Exactly What It Needs-.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-05",
+  "title": "Why the Data Center Fight Has Little to Do With AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:35:00",
+  "categories": [
+   "policy",
+   "infrastructure",
+   "funding-markets",
+   "safety-security"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude Mythos",
+   "open-weight models",
+   "Cursor"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-05",
+  "path": "transcripts/ai-daily-brief/2026-08-05 - Why the Data Center Fight Has Little to Do With AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-04",
+  "title": "Why AI Washing Won’t Work Much Longer",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:24:00",
+  "categories": [
+   "models",
+   "open-weights",
+   "enterprise",
+   "coding"
+  ],
+  "featured": [
+   "Qwen",
+   "open-weight models",
+   "Kimi"
+  ],
+  "mentioned": [
+   "Grok",
+   "recursive self-improvement",
+   "Claude",
+   "Claude Cowork",
+   "Claude Fable",
+   "Artificial Analysis",
+   "GPT-5.6",
+   "Microsoft MAI"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-04",
+  "path": "transcripts/ai-daily-brief/2026-08-04 - Why AI Washing Won’t Work Much Longer.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-08-03",
+  "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+  "guests": [
+   "Ali",
+   "Philip"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:41:21",
+  "categories": [
+   "models",
+   "open-weights",
+   "design",
+   "infrastructure"
+  ],
+  "featured": [
+   "Kimi",
+   "GLM"
+  ],
+  "mentioned": [
+   "DeepSeek",
+   "Gemma",
+   "MiniMax",
+   "distillation",
+   "Grok",
+   "Nvidia Nemotron",
+   "Qwen"
+  ],
+  "url": "https://www.latent.space/p/inference-eng",
+  "path": "transcripts/latent-space/2026-08-03 - The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-03",
+  "title": "What Happens When AI Breakthroughs Outrun Human Understanding",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:28:00",
+  "categories": [
+   "models",
+   "safety-security",
+   "work",
+   "funding-markets"
+  ],
+  "featured": [
+   "OpenAI",
+   "DeepSeek"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Claude",
+   "Claude Fable"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-03",
+  "path": "transcripts/ai-daily-brief/2026-08-03 - What Happens When AI Breakthroughs Outrun Human Understanding.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-08-02",
+  "title": "Everything You Need to Know About AI Tokens",
+  "guests": null,
+  "format": "interview",
+  "level": 2,
+  "length": "00:50:00",
+  "categories": [
+   "model-strategy",
+   "agents",
+   "enterprise",
+   "models"
+  ],
+  "featured": [
+   "agent harness",
+   "Claude"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Slack",
+   "model routing",
+   "Cursor"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-08-02",
+  "path": "transcripts/ai-daily-brief/2026-08-02 - Everything You Need to Know About AI Tokens.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-31",
+  "title": "What a $30B Hedge Fund Implosion Really Means for AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:27:00",
+  "categories": [
+   "funding-markets",
+   "infrastructure",
+   "enterprise",
+   "model-strategy"
+  ],
+  "featured": [
+   "OpenAI",
+   "Anthropic"
+  ],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-07-31",
+  "path": "transcripts/ai-daily-brief/2026-07-31 - What a $30B Hedge Fund Implosion Really Means for AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-30",
+  "title": "6 Questions Every Enterprise Has to Answer About AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "agents",
+   "work",
+   "enterprise",
+   "model-strategy"
+  ],
+  "featured": [
+   "OpenAI",
+   "agent harness",
+   "Microsoft Copilot"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Hugging Face incident",
+   "open-weight models",
+   "Claude Code"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-30",
+  "path": "transcripts/ai-daily-brief/2026-07-30 - 6 Questions Every Enterprise Has to Answer About AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-29",
+  "title": "The AI Industry Asks Government to Slow It Down",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "safety-security",
+   "policy",
+   "open-weights"
+  ],
+  "featured": [
+   "open-weight models",
+   "OpenAI",
+   "Anthropic",
+   "Pacing the Frontier",
+   "distillation"
+  ],
+  "mentioned": [
+   "GLM",
+   "Kimi",
+   "recursive self-improvement"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-29",
+  "path": "transcripts/ai-daily-brief/2026-07-29 - The AI Industry Asks Government to Slow It Down.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-07-28",
+  "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+  "guests": [
+   "Akshay Nathan"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:09:09",
+  "categories": [
+   "agents",
+   "work",
+   "coding",
+   "models"
+  ],
+  "featured": [
+   "ChatGPT",
+   "OpenAI Codex",
+   "agent harness",
+   "OpenAI",
+   "computer use"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "GPT-5.6",
+   "Slack",
+   "GPT-5.5"
+  ],
+  "url": "https://www.latent.space/p/chatgpt-work",
+  "path": "transcripts/latent-space/2026-07-28 - Codex from 0 to 10M Users- Building ChatGPT Work — Akshay Nathan, OpenAI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-28",
+  "title": "Big Tech Unites for Open Source AI—and Against Anthropic",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:31:00",
+  "categories": [
+   "open-weights",
+   "policy",
+   "infrastructure",
+   "models"
+  ],
+  "featured": [
+   "Anthropic",
+   "Nvidia",
+   "open-weight models",
+   "distillation",
+   "Claude Mythos"
+  ],
+  "mentioned": [
+   "Kimi"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-28",
+  "path": "transcripts/ai-daily-brief/2026-07-28 - Big Tech Unites for Open Source AI—and Against Anthropic.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-27",
+  "title": "Where Claude Opus 5 Fits in Your Model Rotation",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:32:00",
+  "categories": [
+   "models",
+   "model-strategy",
+   "safety-security",
+   "coding"
+  ],
+  "featured": [
+   "Claude Opus",
+   "Anthropic",
+   "Claude Fable",
+   "Artificial Analysis",
+   "Claude",
+   "ARC-AGI"
+  ],
+  "mentioned": [
+   "DeepSeek",
+   "GPT-5.6",
+   "Claude Mythos",
+   "GPT-6",
+   "GDPval"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-27",
+  "path": "transcripts/ai-daily-brief/2026-07-27 - Where Claude Opus 5 Fits in Your Model Rotation.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-26",
+  "title": "How to Get the Most from AI This Summer",
+  "guests": null,
+  "format": "commentary",
+  "level": 2,
+  "length": "00:20:00",
+  "categories": [
+   "agents",
+   "work",
+   "coding"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "ChatGPT",
+   "agent harness",
+   "Claude",
+   "GPT-5.6"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Gemini",
+   "Blender",
+   "NotebookLM",
+   "Claude Code"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-26",
+  "path": "transcripts/ai-daily-brief/2026-07-26 - How to Get the Most from AI This Summer.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-24",
+  "title": "Why AI Hasn’t Increased Unemployment, According to Anthropic",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:35:00",
+  "categories": [
+   "work",
+   "models",
+   "funding-markets",
+   "model-strategy"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude",
+   "Microsoft",
+   "OpenRouter",
+   "Microsoft MAI",
+   "model routing"
+  ],
+  "mentioned": [
+   "Cursor",
+   "Kimi",
+   "agent harness",
+   "Claude Mythos",
+   "GPT-5.6",
+   "computer use",
+   "Grok",
+   "Claude Code",
+   "vibe coding",
+   "recursive self-improvement"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-24",
+  "path": "transcripts/ai-daily-brief/2026-07-24 - Why AI Hasn’t Increased Unemployment, According to Anthropic.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-07-23",
+  "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+  "guests": [
+   "Eiso Kant"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:54:23",
+  "categories": [
+   "agents",
+   "coding",
+   "open-weights",
+   "models"
+  ],
+  "featured": [
+   "agent harness",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "DeepSeek",
+   "distillation",
+   "MCP",
+   "ChatGPT",
+   "Hermes Agent",
+   "recursive self-improvement",
+   "GLM",
+   "OpenAI Codex"
+  ],
+  "url": "https://www.latent.space/p/poolside",
+  "path": "transcripts/latent-space/2026-07-23 - Inside the Model Factory — Eiso Kant, Poolside AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-23",
+  "title": "A Field Guide to AI Market Freakouts",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:25:00",
+  "categories": [
+   "open-weights",
+   "infrastructure",
+   "funding-markets",
+   "policy"
+  ],
+  "featured": [
+   "OpenAI",
+   "Anthropic",
+   "distillation",
+   "DeepSeek",
+   "Kimi"
+  ],
+  "mentioned": [
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-23",
+  "path": "transcripts/ai-daily-brief/2026-07-23 - A Field Guide to AI Market Freakouts.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-22",
+  "title": "Wait... Just How Good IS GPT-6?",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:32:00",
+  "categories": [
+   "models",
+   "safety-security",
+   "open-weights",
+   "model-strategy"
+  ],
+  "featured": [
+   "OpenAI",
+   "Google",
+   "distillation",
+   "Gemini",
+   "GPT-6",
+   "Claude Mythos",
+   "model routing",
+   "agent harness"
+  ],
+  "mentioned": [
+   "GLM",
+   "OpenRouter",
+   "Kimi",
+   "Artificial Analysis",
+   "open-weight models",
+   "OpenAI Codex"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-22",
+  "path": "transcripts/ai-daily-brief/2026-07-22 - Wait... Just How Good IS GPT-6-.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-21",
+  "title": "The Fight Over Which AI Models You Can Use",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:30:00",
+  "categories": [
+   "policy",
+   "open-weights",
+   "infrastructure",
+   "models"
+  ],
+  "featured": [
+   "open-weight models",
+   "OpenAI",
+   "Kimi"
+  ],
+  "mentioned": [
+   "Claude Fable",
+   "DeepSeek",
+   "GPT-5.6"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-21",
+  "path": "transcripts/ai-daily-brief/2026-07-21 - The Fight Over Which AI Models You Can Use.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-20",
+  "title": "How to Get the Most Out of Fable 5 and GPT-5.6 Sol",
+  "guests": null,
+  "format": "tutorial",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "agents",
+   "coding",
+   "models"
+  ],
+  "featured": [
+   "Claude",
+   "GPT-5.6",
+   "ChatGPT",
+   "Claude Fable",
+   "agent harness"
+  ],
+  "mentioned": [
+   "OpenAI Codex"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-20",
+  "path": "transcripts/ai-daily-brief/2026-07-20 - How to Get the Most Out of Fable 5 and GPT-5.6 Sol.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-19",
+  "title": "The Self-Driving Company",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:25:00",
+  "categories": [
+   "agents",
+   "work",
+   "coding",
+   "marketing"
+  ],
+  "featured": [
+   "Replit"
+  ],
+  "mentioned": [
+   "Slack"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-19",
+  "path": "transcripts/ai-daily-brief/2026-07-19 - The Self-Driving Company.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-17",
+  "title": "Is Kimi K3 Really Fable Class?",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:28:00",
+  "categories": [
+   "models",
+   "open-weights",
+   "coding",
+   "design"
+  ],
+  "featured": [
+   "Kimi",
+   "Claude Fable",
+   "open-weight models",
+   "GPT-5.6"
+  ],
+  "mentioned": [
+   "DeepSeek",
+   "GLM",
+   "Claude Opus",
+   "distillation",
+   "Cursor",
+   "GPT-5.5",
+   "Claude Mythos"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-17",
+  "path": "transcripts/ai-daily-brief/2026-07-17 - Is Kimi K3 Really Fable Class-.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-16",
+  "title": "The New Enterprise Battle Over Who Owns the Model",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:28:00",
+  "categories": [
+   "models",
+   "open-weights",
+   "funding-markets",
+   "enterprise"
+  ],
+  "featured": [
+   "Thinking Machines",
+   "open-weight models",
+   "Cursor",
+   "Microsoft MAI",
+   "agent harness"
+  ],
+  "mentioned": [
+   "GLM",
+   "DeepSeek",
+   "Kimi",
+   "distillation",
+   "Nvidia Nemotron",
+   "Claude Fable",
+   "Claude",
+   "Microsoft Copilot",
+   "Qwen",
+   "Gemini"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-16",
+  "path": "transcripts/ai-daily-brief/2026-07-16 - The New Enterprise Battle Over Who Owns the Model.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-15",
+  "title": "5 AI Engineering Trends for Non-Engineers",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "agents",
+   "coding",
+   "consumer",
+   "work"
+  ],
+  "featured": [
+   "OpenAI",
+   "ChatGPT",
+   "Grok Build",
+   "agent harness",
+   "agent loops",
+   "agent skills"
+  ],
+  "mentioned": [
+   "Claude Tag",
+   "OpenAI Codex",
+   "Claude Fable",
+   "GPT-5.6",
+   "Claude"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-15",
+  "path": "transcripts/ai-daily-brief/2026-07-15 - 5 AI Engineering Trends for Non-Engineers.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-13",
+  "title": "How the Escalating AI Wars Benefit You",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:31:00",
+  "categories": [
+   "policy",
+   "open-weights",
+   "infrastructure",
+   "models"
+  ],
+  "featured": [
+   "Apple",
+   "OpenAI",
+   "GLM",
+   "GPT-5.6"
+  ],
+  "mentioned": [
+   "Claude Mythos",
+   "distillation"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-13",
+  "path": "transcripts/ai-daily-brief/2026-07-13 - How the Escalating AI Wars Benefit You.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-12",
+  "title": "How to Help People Thrive with AI",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:19:00",
+  "categories": [
+   "work",
+   "agents",
+   "coding"
+  ],
+  "featured": [
+   "agent skills"
+  ],
+  "mentioned": [
+   "multiplayer agents"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-12",
+  "path": "transcripts/ai-daily-brief/2026-07-12 - How to Help People Thrive with AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-10",
+  "title": "ChatGPT Just Became a Work Agent",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:25:00",
+  "categories": [
+   "models",
+   "agents",
+   "coding",
+   "infrastructure"
+  ],
+  "featured": [
+   "Meta",
+   "OpenAI",
+   "ChatGPT",
+   "GPT-5.6",
+   "agent harness",
+   "OpenAI Codex",
+   "Muse Spark",
+   "Claude Fable",
+   "Meta Muse"
+  ],
+  "mentioned": [
+   "GPT-5.5",
+   "Claude Opus",
+   "Cursor",
+   "Artificial Analysis",
+   "Claude Cowork",
+   "Grok",
+   "open-weight models",
+   "MCP"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-10",
+  "path": "transcripts/ai-daily-brief/2026-07-10 - ChatGPT Just Became a Work Agent.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-09",
+  "title": "How the 4 New AI Models Change How You Work",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:34:00",
+  "categories": [
+   "models",
+   "coding",
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "GPT Live",
+   "Grok",
+   "OpenAI",
+   "GPT-5.6",
+   "ChatGPT",
+   "Claude Fable",
+   "computer use"
+  ],
+  "mentioned": [
+   "Cursor",
+   "Kimi",
+   "Claude Opus",
+   "GPT-6",
+   "GPT-5.5",
+   "GLM",
+   "Claude Tag",
+   "Claude",
+   "Slack",
+   "OpenAI Codex",
+   "Artificial Analysis",
+   "Claude Code",
+   "open-weight models",
+   "Cognition Devin",
+   "Claude Mythos"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-09",
+  "path": "transcripts/ai-daily-brief/2026-07-09 - How the 4 New AI Models Change How You Work.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-07-08",
+  "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
+  "guests": [
+   "Akshat"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:57:42",
+  "categories": [
+   "agents",
+   "coding",
+   "infrastructure"
+  ],
+  "featured": [],
+  "mentioned": [
+   "agent harness",
+   "Claude Code",
+   "OpenAI Codex",
+   "Claude"
+  ],
+  "url": "https://www.latent.space/p/modal2026",
+  "path": "transcripts/latent-space/2026-07-08 - Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-08",
+  "title": "AI Costs Are Surging and the Cheap Model Fix Might Not Last",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:26:00",
+  "categories": [
+   "models",
+   "open-weights",
+   "model-strategy",
+   "policy"
+  ],
+  "featured": [
+   "open-weight models",
+   "Microsoft MAI",
+   "Claude Fable",
+   "Gemma",
+   "GPT-5.6",
+   "Grok"
+  ],
+  "mentioned": [
+   "Gemini",
+   "model routing",
+   "Cursor",
+   "Muse Spark",
+   "GPT-5.5",
+   "Claude Mythos",
+   "MiniMax",
+   "GLM",
+   "Nvidia Nemotron"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-08",
+  "path": "transcripts/ai-daily-brief/2026-07-08 - AI Costs Are Surging and the Cheap Model Fix Might Not Last.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-07",
+  "title": "Anthropic Can Now Read Claude’s Mind",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "policy",
+   "safety-security",
+   "infrastructure",
+   "funding-markets"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude"
+  ],
+  "mentioned": [
+   "Nvidia Nemotron"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-07",
+  "path": "transcripts/ai-daily-brief/2026-07-07 - Anthropic Can Now Read Claude’s Mind.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-06",
+  "title": "AI Is Making One-Person Million-Dollar Companies More Common",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:24:00",
+  "categories": [
+   "work",
+   "open-weights",
+   "infrastructure",
+   "enterprise"
+  ],
+  "featured": [
+   "open-weight models",
+   "Claude"
+  ],
+  "mentioned": [
+   "Claude Code",
+   "Nvidia Nemotron",
+   "distillation"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-06",
+  "path": "transcripts/ai-daily-brief/2026-07-06 - AI Is Making One-Person Million-Dollar Companies More Common.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-05",
+  "title": "The Job Positions of the AI Future",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "work",
+   "marketing",
+   "agents"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude Code",
+   "OpenClaw"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-05",
+  "path": "transcripts/ai-daily-brief/2026-07-05 - The Job Positions of the AI Future.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-03",
+  "title": "The Big Ways AI Just Changed",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:21:00",
+  "categories": [
+   "models",
+   "open-weights",
+   "agents",
+   "policy"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude Fable",
+   "GLM",
+   "open-weight models",
+   "Claude Mythos",
+   "model routing",
+   "agent harness",
+   "Claude Tag",
+   "Claude"
+  ],
+  "mentioned": [
+   "Claude Code",
+   "GPT-5.5",
+   "GPT-5.6",
+   "Slack",
+   "Claude Opus",
+   "DeepSeek",
+   "Cursor"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-03",
+  "path": "transcripts/ai-daily-brief/2026-07-03 - The Big Ways AI Just Changed.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-02",
+  "title": "AI Companies Are Hiring More",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:27:00",
+  "categories": [
+   "work",
+   "models",
+   "coding",
+   "funding-markets"
+  ],
+  "featured": [
+   "Meta",
+   "OpenAI",
+   "Claude Fable"
+  ],
+  "mentioned": [
+   "distillation",
+   "Claude Code",
+   "Claude"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-02",
+  "path": "transcripts/ai-daily-brief/2026-07-02 - AI Companies Are Hiring More.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-07-01",
+  "title": "Fable is Back: Here's What You Should Try First",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:29:00",
+  "categories": [
+   "models",
+   "coding",
+   "policy",
+   "model-strategy"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude Fable",
+   "Claude Sonnet",
+   "Claude Tag",
+   "Claude"
+  ],
+  "mentioned": [
+   "Claude Opus",
+   "Cursor",
+   "Claude Code",
+   "GPT-5.5",
+   "Claude Mythos",
+   "GLM",
+   "agent harness",
+   "Slack",
+   "GDPval",
+   "Artificial Analysis"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-07-01",
+  "path": "transcripts/ai-daily-brief/2026-07-01 - Fable is Back- Here's What You Should Try First.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-30",
+  "title": "How Big Is the AI Economy?",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:27:00",
+  "categories": [
+   "infrastructure",
+   "enterprise",
+   "policy",
+   "model-strategy"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude",
+   "Claude Code",
+   "Claude Mythos"
+  ],
+  "mentioned": [
+   "distillation",
+   "OpenAI Codex",
+   "Gemini"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-30",
+  "path": "transcripts/ai-daily-brief/2026-06-30 - How Big Is the AI Economy-.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-29",
+  "title": "Mythos Comes Back But Not for Everyone",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:33:00",
+  "categories": [
+   "models",
+   "policy",
+   "open-weights",
+   "safety-security"
+  ],
+  "featured": [
+   "Claude Mythos",
+   "OpenAI",
+   "Anthropic",
+   "GLM",
+   "GPT-5.6",
+   "Claude Fable",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "Claude Opus",
+   "GPT-5.5",
+   "Kimi",
+   "OpenRouter"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-29",
+  "path": "transcripts/ai-daily-brief/2026-06-29 - Mythos Comes Back But Not for Everyone.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-28",
+  "title": "The Capability Overhang Playbook",
+  "guests": null,
+  "format": "tutorial",
+  "level": 2,
+  "length": "00:26:00",
+  "categories": [
+   "agents",
+   "coding",
+   "work",
+   "models"
+  ],
+  "featured": [
+   "GPT-5.6",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Claude Fable",
+   "Claude Sonnet",
+   "Claude Code",
+   "OpenAI Codex",
+   "MCP",
+   "OpenClaw",
+   "OpenRouter",
+   "agent loops"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-28",
+  "path": "transcripts/ai-daily-brief/2026-06-28 - The Capability Overhang Playbook.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-26",
+  "title": "Botsitting: The Work Draining AI Gains",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:25:00",
+  "categories": [
+   "work",
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude Code",
+   "ChatGPT",
+   "Claude"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-26",
+  "path": "transcripts/ai-daily-brief/2026-06-26 - Botsitting- The Work Draining AI Gains.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-25",
+  "title": "CEO-Led AI Gets 3X the ROI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:30:00",
+  "categories": [
+   "enterprise",
+   "infrastructure",
+   "funding-markets",
+   "policy"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "distillation",
+   "Claude",
+   "Claude Fable",
+   "Claude Tag"
+  ],
+  "mentioned": [
+   "ChatGPT",
+   "Slack",
+   "Gemini"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-25",
+  "path": "transcripts/ai-daily-brief/2026-06-25 - CEO-Led AI Gets 3X the ROI.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-06-24",
+  "title": "Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks",
+  "guests": [
+   "Reynold Xin",
+   "Matei Zaharia"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:08:41",
+  "categories": [
+   "agents",
+   "coding",
+   "enterprise"
+  ],
+  "featured": [
+   "agent harness"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "Claude",
+   "ChatGPT"
+  ],
+  "url": "https://www.latent.space/p/databricks",
+  "path": "transcripts/latent-space/2026-06-24 - Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-24",
+  "title": "5 Ways Claude Tag Could Change How You Use AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:27:00",
+  "categories": [
+   "agents",
+   "policy",
+   "coding",
+   "work"
+  ],
+  "featured": [
+   "Claude",
+   "Anthropic",
+   "Claude Tag",
+   "Slack",
+   "Claude Code",
+   "agent harness"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Cursor",
+   "Grok Build",
+   "Perplexity",
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-24",
+  "path": "transcripts/ai-daily-brief/2026-06-24 - 5 Ways Claude Tag Could Change How You Use AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-23",
+  "title": "The Right Way to Deal With AI Data Centers",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:25:00",
+  "categories": [
+   "infrastructure",
+   "models",
+   "safety-security",
+   "policy"
+  ],
+  "featured": [
+   "Claude Mythos",
+   "GPT-5.5"
+  ],
+  "mentioned": [
+   "Project Glasswing",
+   "Cursor"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-23",
+  "path": "transcripts/ai-daily-brief/2026-06-23 - The Right Way to Deal With AI Data Centers.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-06-22",
+  "title": "Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan",
+  "guests": [
+   "Zico",
+   "Matt"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:06:18",
+  "categories": [
+   "safety-security",
+   "agents",
+   "models",
+   "coding"
+  ],
+  "featured": [
+   "OpenClaw",
+   "OpenAI Codex",
+   "computer use",
+   "Claude Code",
+   "Claude"
+  ],
+  "mentioned": [
+   "Claude Mythos"
+  ],
+  "url": "https://www.latent.space/p/gray-swan",
+  "path": "transcripts/latent-space/2026-06-22 - Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-22",
+  "title": "Why AI Users Are Raving About GLM 5.2",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:29:00",
+  "categories": [
+   "models",
+   "open-weights",
+   "policy",
+   "coding"
+  ],
+  "featured": [
+   "GLM",
+   "Claude Fable",
+   "Claude Mythos",
+   "Anthropic",
+   "DeepSeek",
+   "Gemini",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "Claude Sonnet",
+   "GPT-5.6",
+   "OpenAI Codex",
+   "OpenClaw",
+   "ChatGPT",
+   "OpenRouter"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-22",
+  "path": "transcripts/ai-daily-brief/2026-06-22 - Why AI Users Are Raving About GLM 5.2.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-19",
+  "title": "Your Company Doesn’t Need an AI Strategy",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "agents",
+   "policy",
+   "work",
+   "enterprise"
+  ],
+  "featured": [
+   "Anthropic",
+   "Microsoft",
+   "agent harness",
+   "Claude Fable",
+   "Microsoft MAI"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "OpenClaw",
+   "computer use",
+   "model routing"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-19",
+  "path": "transcripts/ai-daily-brief/2026-06-19 - Your Company Doesn’t Need an AI Strategy.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-06-18",
+  "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
+  "guests": [
+   "Anjney"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:59:15",
+  "categories": [
+   "infrastructure",
+   "enterprise",
+   "safety-security"
+  ],
+  "featured": [
+   "Anthropic"
+  ],
+  "mentioned": [
+   "Claude"
+  ],
+  "url": "https://www.latent.space/p/anj",
+  "path": "transcripts/latent-space/2026-06-18 - The Professor of Outputmaxxing — Anjney Midha, AMP.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-18",
+  "title": "The Models Trying to Fill the Fable Gap",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:29:00",
+  "categories": [
+   "models",
+   "open-weights",
+   "model-strategy",
+   "policy"
+  ],
+  "featured": [
+   "GLM",
+   "Anthropic",
+   "Claude Fable",
+   "Claude Mythos",
+   "Kimi",
+   "Cursor",
+   "DeepSeek",
+   "open-weight models",
+   "OpenRouter"
+  ],
+  "mentioned": [
+   "Gemini",
+   "Claude Opus",
+   "ChatGPT",
+   "GPT-5.5",
+   "distillation"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-18",
+  "path": "transcripts/ai-daily-brief/2026-06-18 - The Models Trying to Fill the Fable Gap.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-17",
+  "title": "A Big Shift in the AI Race",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "policy",
+   "funding-markets",
+   "safety-security",
+   "infrastructure"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude Mythos",
+   "Cursor",
+   "SpaceX AI",
+   "Claude Fable",
+   "Grok"
+  ],
+  "mentioned": [
+   "Project Glasswing",
+   "Claude Opus",
+   "agent harness",
+   "Kimi"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-17",
+  "path": "transcripts/ai-daily-brief/2026-06-17 - A Big Shift in the AI Race.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-16",
+  "title": "Why Only AI Training Can Save the Economy",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:22:00",
+  "categories": [
+   "work",
+   "model-strategy",
+   "agents",
+   "enterprise"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "Claude Code",
+   "Claude",
+   "agent harness"
+  ],
+  "mentioned": [
+   "DeepSeek",
+   "OpenAI Codex",
+   "OpenClaw",
+   "ChatGPT",
+   "model routing",
+   "Cursor"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-16",
+  "path": "transcripts/ai-daily-brief/2026-06-16 - Why Only AI Training Can Save the Economy.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-15",
+  "title": "The Fable 5 Crisis Continues",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "policy",
+   "safety-security"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude Mythos",
+   "Claude Fable"
+  ],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-06-15",
+  "path": "transcripts/ai-daily-brief/2026-06-15 - The Fable 5 Crisis Continues.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-13",
+  "title": "Fable 5 Shut Down by US Government",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:27:00",
+  "categories": [
+   "policy",
+   "safety-security",
+   "funding-markets",
+   "open-weights"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude Fable",
+   "Claude Mythos",
+   "Claude"
+  ],
+  "mentioned": [
+   "Project Glasswing"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-13",
+  "path": "transcripts/ai-daily-brief/2026-06-13 - Fable 5 Shut Down by US Government.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-12",
+  "title": "The AI Chart Everyone Is Getting Wrong",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:33:00",
+  "categories": [
+   "model-strategy",
+   "funding-markets",
+   "enterprise",
+   "infrastructure"
+  ],
+  "featured": [
+   "Manus",
+   "model routing"
+  ],
+  "mentioned": [
+   "agent harness",
+   "OpenClaw"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-12",
+  "path": "transcripts/ai-daily-brief/2026-06-12 - The AI Chart Everyone Is Getting Wrong.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-11",
+  "title": "Why Fable 5 Is the Most Controversial AI Release Ever",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:30:00",
+  "categories": [
+   "safety-security",
+   "infrastructure",
+   "funding-markets",
+   "policy"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude Fable",
+   "Claude"
+  ],
+  "mentioned": [
+   "Claude Mythos"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-11",
+  "path": "transcripts/ai-daily-brief/2026-06-11 - Why Fable 5 Is the Most Controversial AI Release Ever.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-10",
+  "title": "Fable 5 Raises the Bar for AI Ambition",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:39:15",
+  "categories": [
+   "models",
+   "coding",
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "Claude Fable",
+   "Anthropic",
+   "Claude Opus",
+   "Claude"
+  ],
+  "mentioned": [
+   "Claude Mythos",
+   "GPT-5.5",
+   "OpenClaw",
+   "Project Glasswing",
+   "Replit",
+   "Cursor",
+   "Lovable",
+   "Claude Code",
+   "vibe coding",
+   "Artificial Analysis",
+   "distillation",
+   "OpenAI Codex"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-10",
+  "path": "transcripts/ai-daily-brief/2026-06-10 - Fable 5 Raises the Bar for AI Ambition.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-09",
+  "title": "OpenAI Declares the Next Phase of AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:29:45",
+  "categories": [
+   "funding-markets",
+   "infrastructure",
+   "agents",
+   "policy"
+  ],
+  "featured": [
+   "OpenAI",
+   "ChatGPT",
+   "OpenAI Codex"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "recursive self-improvement"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-09",
+  "path": "transcripts/ai-daily-brief/2026-06-09 - OpenAI Declares the Next Phase of AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-08",
+  "title": "How We Use AI Is Changing",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:25:30",
+  "categories": [
+   "agents",
+   "coding",
+   "infrastructure",
+   "policy"
+  ],
+  "featured": [
+   "OpenAI",
+   "ChatGPT",
+   "OpenAI Codex",
+   "agent loops"
+  ],
+  "mentioned": [
+   "Claude"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-08",
+  "path": "transcripts/ai-daily-brief/2026-06-08 - How We Use AI Is Changing.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-07",
+  "title": "10+ Things You Should Build With AI Instead of Sending Files",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:22:15",
+  "categories": [
+   "coding",
+   "marketing",
+   "work"
+  ],
+  "featured": [
+   "OpenAI Codex"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "vibe coding"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-07",
+  "path": "transcripts/ai-daily-brief/2026-06-07 - 10+ Things You Should Build With AI Instead of Sending Files.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-05",
+  "title": "What OpenAI and Anthropic Think Happens Next with AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:31:15",
+  "categories": [
+   "models",
+   "policy",
+   "safety-security",
+   "work"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "Claude Mythos",
+   "Claude",
+   "ChatGPT",
+   "recursive self-improvement",
+   "GPT-5.6"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Claude Opus"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-05",
+  "path": "transcripts/ai-daily-brief/2026-06-05 - What OpenAI and Anthropic Think Happens Next with AI.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-06-04",
+  "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
+  "guests": [
+   "Lukas",
+   "Axel"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:15:29",
+  "categories": [
+   "agents",
+   "models",
+   "safety-security",
+   "work"
+  ],
+  "featured": [
+   "agent harness",
+   "Claude",
+   "Slack",
+   "Claude Mythos",
+   "Claude Opus"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Claude Code",
+   "Grok",
+   "Gemini",
+   "GLM",
+   "Qwen"
+  ],
+  "url": "https://www.latent.space/p/andon",
+  "path": "transcripts/latent-space/2026-06-04 - Reality- The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-06-03",
+  "title": "Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+  "guests": [
+   "Satya Nadella",
+   "swyx"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:38:00",
+  "categories": [
+   "agents",
+   "work",
+   "coding",
+   "enterprise"
+  ],
+  "featured": [
+   "Microsoft",
+   "agent harness",
+   "Microsoft MAI",
+   "Microsoft Copilot"
+  ],
+  "mentioned": [],
+  "url": "https://www.latent.space/p/satya-2026",
+  "path": "transcripts/latent-space/2026-06-03 - Satya Nadella- No Priors x Latent Space Crossover Special at Microsoft Build.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-03",
+  "title": "The Next Wave of Enterprise AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:23:00",
+  "categories": [
+   "policy",
+   "models",
+   "coding",
+   "safety-security"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "Microsoft",
+   "OpenAI",
+   "Anthropic",
+   "Claude Mythos",
+   "Microsoft MAI",
+   "Project Glasswing",
+   "ChatGPT Sites"
+  ],
+  "mentioned": [
+   "Claude Opus",
+   "vibe coding",
+   "Claude Code",
+   "Terminal Bench",
+   "GPT-5.5"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-03",
+  "path": "transcripts/ai-daily-brief/2026-06-03 - The Next Wave of Enterprise AI.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-06-02",
+  "title": "GitHub's plan for Agents — Kyle Daigle, GitHub",
+  "guests": [
+   "Kyle"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:23:16",
+  "categories": [
+   "agents",
+   "coding",
+   "work",
+   "marketing"
+  ],
+  "featured": [
+   "Microsoft Copilot",
+   "OpenClaw",
+   "MCP",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Slack",
+   "Claude Mythos"
+  ],
+  "url": "https://www.latent.space/p/github",
+  "path": "transcripts/latent-space/2026-06-02 - GitHub's plan for Agents — Kyle Daigle, GitHub.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-02",
+  "title": "With AI IPOs On the Way, Should the Public Own AI Companies?",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:22:45",
+  "categories": [
+   "funding-markets",
+   "infrastructure",
+   "enterprise",
+   "policy"
+  ],
+  "featured": [
+   "OpenAI",
+   "Anthropic",
+   "Nvidia"
+  ],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-06-02",
+  "path": "transcripts/ai-daily-brief/2026-06-02 - With AI IPOs On the Way, Should the Public Own AI Companies-.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-06-01",
+  "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
+  "guests": [
+   "Ethan"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:43:16",
+  "categories": [
+   "design",
+   "agents",
+   "models",
+   "infrastructure"
+  ],
+  "featured": [
+   "Grok",
+   "distillation",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Gemini",
+   "Nano Banana",
+   "OpenClaw"
+  ],
+  "url": "https://www.latent.space/p/video-agents",
+  "path": "transcripts/latent-space/2026-06-01 - Why Video Agent models are next — Ethan He, xAI Grok Imagine.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-06-01",
+  "title": "The AI Token Shortage Begins",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:30",
+  "categories": [
+   "enterprise",
+   "funding-markets",
+   "agents",
+   "infrastructure"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "Claude Code",
+   "Claude",
+   "agent harness",
+   "Claude Opus",
+   "SpaceX AI"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "Gemini",
+   "DeepSeek",
+   "Grok",
+   "agent loops",
+   "Claude Mythos",
+   "vibe coding",
+   "Microsoft Copilot",
+   "Cursor",
+   "GPT-5.5"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-06-01",
+  "path": "transcripts/ai-daily-brief/2026-06-01 - The AI Token Shortage Begins.md"
+ }
+]

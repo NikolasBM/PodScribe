@@ -1,16 +1,21 @@
-# How People Are Actually Using Jev — Transcript (2026-09-25)
-
-https://aidailybrief.ai/e/2026-09-25 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 2 · Length: ~00:25:00
-Host: Nathaniel Whittemore
-Categories: marketing, model-strategy, models
-Featured: Jev
-Also mentioned: GPT-6, agent harness, Claude Opus, Claude Fable, OpenAI Codex, Claude Code
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How People Are Actually Using Jev"
+date: 2026-09-25
+url: "https://aidailybrief.ai/e/2026-09-25"
+guid: "https://aidailybrief.ai/e/2026-09-25"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 2
+length: "00:25:00"
+categories: ["marketing", "model-strategy", "models"]
+featured: ["Jev"]
+mentioned: ["GPT-6", "agent harness", "Claude Opus", "Claude Fable", "OpenAI Codex", "Claude Code"]
+transcript_source: "publisher"
+---
+
+# How People Are Actually Using Jev
 
 [00:00:00] Jev is one of the buzziest models we've had in a long time, and that's because it's not just another LLM like a GPT-6 or an Opus or Fable model. It is something fundamentally different 
 

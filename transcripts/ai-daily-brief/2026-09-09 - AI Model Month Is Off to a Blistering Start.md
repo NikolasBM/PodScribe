@@ -1,16 +1,21 @@
-# AI Model Month Is Off to a Blistering Start — Transcript (2026-09-09)
-
-https://aidailybrief.ai/e/2026-09-09 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:34:00
-Host: Nathaniel Whittemore
-Categories: models, agents, consumer, model-strategy
-Featured: OpenAI, Meta, Meta Muse, Muse Spark, Google, Gemini, Artificial Analysis, agent harness, Terminal Bench, ChatGPT Images, ChatGPT, computer use
-Also mentioned: Claude Opus, GPT-6, Claude Fable, OpenAI Codex, ElevenLabs, GPT-5.6, Cursor, GLM
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "AI Model Month Is Off to a Blistering Start"
+date: 2026-09-09
+url: "https://aidailybrief.ai/e/2026-09-09"
+guid: "https://aidailybrief.ai/e/2026-09-09"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:34:00"
+categories: ["models", "agents", "consumer", "model-strategy"]
+featured: ["OpenAI", "Meta", "Meta Muse", "Muse Spark", "Google", "Gemini", "Artificial Analysis", "agent harness", "Terminal Bench", "ChatGPT Images", "ChatGPT", "computer use"]
+mentioned: ["Claude Opus", "GPT-6", "Claude Fable", "OpenAI Codex", "ElevenLabs", "GPT-5.6", "Cursor", "GLM"]
+transcript_source: "publisher"
+---
+
+# AI Model Month Is Off to a Blistering Start
 
 [00:00:00] 
 

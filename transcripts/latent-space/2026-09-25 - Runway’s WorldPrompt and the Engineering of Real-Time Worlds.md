@@ -1,18 +1,22 @@
-# Runway’s WorldPrompt and the Engineering of Real-Time Worlds — Transcript (2026-09-25)
-
-https://www.latent.space/p/runway · Latent Space
-
-<!-- guid: substack:217289983 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:36:14
-Host: Swyx · Guests: Anastasis
-Categories: design, models, agents, open-weights
-Featured: distillation, computer use
-Also mentioned: agent harness, Gemini, Claude
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Runway’s WorldPrompt and the Engineering of Real-Time Worlds"
+date: 2026-09-25
+url: "https://www.latent.space/p/runway"
+guid: "substack:217289983"
+host: "Swyx"
+guests: ["Anastasis"]
+format: "interview"
+level: 2
+length: "01:36:14"
+categories: ["design", "models", "agents", "open-weights"]
+featured: ["distillation", "computer use"]
+mentioned: ["agent harness", "Gemini", "Claude"]
+transcript_source: "publisher"
+---
+
+# Runway’s WorldPrompt and the Engineering of Real-Time Worlds
 
 ## Introduction: Runway, Creative AI, and the Early Thesis
 

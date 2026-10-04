@@ -1,16 +1,21 @@
-# Google’s AI Leadership Shakeup: Disaster or Exactly What It Needs? — Transcript (2026-08-06)
-
-https://aidailybrief.ai/e/2026-08-06 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:33:00
-Host: Nathaniel Whittemore
-Categories: models, agents, coding, funding-markets
-Featured: Google, Meta, Google DeepMind, Gemini, Muse Spark, agent harness
-Also mentioned: Kimi, ChatGPT, Claude Opus, distillation, Figma, Claude Fable, Grok, GLM, Qwen
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Google’s AI Leadership Shakeup: Disaster or Exactly What It Needs?"
+date: 2026-08-06
+url: "https://aidailybrief.ai/e/2026-08-06"
+guid: "https://aidailybrief.ai/e/2026-08-06"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:33:00"
+categories: ["models", "agents", "coding", "funding-markets"]
+featured: ["Google", "Meta", "Google DeepMind", "Gemini", "Muse Spark", "agent harness"]
+mentioned: ["Kimi", "ChatGPT", "Claude Opus", "distillation", "Figma", "Claude Fable", "Grok", "GLM", "Qwen"]
+transcript_source: "publisher"
+---
+
+# Google’s AI Leadership Shakeup: Disaster or Exactly What It Needs?
 
 260806 in_EDIT: [00:00:00] Today on Today on the AI Daily Brief, A massive AI leadership shakeup at Google. And before that in the headlines, Meta drops two new models and a coding harness. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements before we dive in.
 

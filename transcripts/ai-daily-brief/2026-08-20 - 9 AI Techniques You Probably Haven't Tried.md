@@ -1,16 +1,21 @@
-# 9 AI Techniques You Probably Haven't Tried — Transcript (2026-08-20)
-
-https://aidailybrief.ai/e/2026-08-20 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: agents, coding, consumer, work
-Featured: OpenAI, Claude, Grok Bot, OpenAI Codex, ChatGPT, Grok, multiplayer agents
-Also mentioned: Replit, Claude Tag, Cursor, Slack, Hermes Agent, Qwen
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "9 AI Techniques You Probably Haven't Tried"
+date: 2026-08-20
+url: "https://aidailybrief.ai/e/2026-08-20"
+guid: "https://aidailybrief.ai/e/2026-08-20"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:29:00"
+categories: ["agents", "coding", "consumer", "work"]
+featured: ["OpenAI", "Claude", "Grok Bot", "OpenAI Codex", "ChatGPT", "Grok", "multiplayer agents"]
+mentioned: ["Replit", "Claude Tag", "Cursor", "Slack", "Hermes Agent", "Qwen"]
+transcript_source: "publisher"
+---
+
+# 9 AI Techniques You Probably Haven't Tried
 
 260820 COLD_EDIT: [00:00:00] What if I told you you were using AI all wrong?
 

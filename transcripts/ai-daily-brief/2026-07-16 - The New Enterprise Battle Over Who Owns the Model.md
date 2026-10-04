@@ -1,16 +1,21 @@
-# The New Enterprise Battle Over Who Owns the Model — Transcript (2026-07-16)
-
-https://aidailybrief.ai/e/2026-07-16 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:28:00
-Host: Nathaniel Whittemore
-Categories: models, open-weights, funding-markets, enterprise
-Featured: Thinking Machines, open-weight models, Cursor, Microsoft MAI, agent harness
-Also mentioned: GLM, DeepSeek, Kimi, distillation, Nvidia Nemotron, Claude Fable, Claude, Microsoft Copilot, Qwen, Gemini
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The New Enterprise Battle Over Who Owns the Model"
+date: 2026-07-16
+url: "https://aidailybrief.ai/e/2026-07-16"
+guid: "https://aidailybrief.ai/e/2026-07-16"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:28:00"
+categories: ["models", "open-weights", "funding-markets", "enterprise"]
+featured: ["Thinking Machines", "open-weight models", "Cursor", "Microsoft MAI", "agent harness"]
+mentioned: ["GLM", "DeepSeek", "Kimi", "distillation", "Nvidia Nemotron", "Claude Fable", "Claude", "Microsoft Copilot", "Qwen", "Gemini"]
+transcript_source: "publisher"
+---
+
+# The New Enterprise Battle Over Who Owns the Model
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, Brief, the month of model continues and businesses might wanna pay attention to this new open weight model introduced yesterday. Before that in the headlines
 

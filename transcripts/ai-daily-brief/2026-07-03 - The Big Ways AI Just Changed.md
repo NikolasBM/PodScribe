@@ -1,16 +1,21 @@
-# The Big Ways AI Just Changed — Transcript (2026-07-03)
-
-https://aidailybrief.ai/e/2026-07-03 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:21:00
-Host: Nathaniel Whittemore
-Categories: models, open-weights, agents, policy
-Featured: Anthropic, Claude Fable, GLM, open-weight models, Claude Mythos, model routing, agent harness, Claude Tag, Claude
-Also mentioned: Claude Code, GPT-5.5, GPT-5.6, Slack, Claude Opus, DeepSeek, Cursor
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Big Ways AI Just Changed"
+date: 2026-07-03
+url: "https://aidailybrief.ai/e/2026-07-03"
+guid: "https://aidailybrief.ai/e/2026-07-03"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:21:00"
+categories: ["models", "open-weights", "agents", "policy"]
+featured: ["Anthropic", "Claude Fable", "GLM", "open-weight models", "Claude Mythos", "model routing", "agent harness", "Claude Tag", "Claude"]
+mentioned: ["Claude Code", "GPT-5.5", "GPT-5.6", "Slack", "Claude Opus", "DeepSeek", "Cursor"]
+transcript_source: "publisher"
+---
+
+# The Big Ways AI Just Changed
 
 [00:00:00] Today on the AI Daily Brief, why why June was the most significant month in AI in years. The The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI All right, friends, quick announcements before we dive in. First of all, thank you to today's All right, friends, quick announcements before we dive in. First of all, First of all, thank you to today's sponsors, KPMG, Robots and Pencils, Blitzy, and Hyperagent.
 

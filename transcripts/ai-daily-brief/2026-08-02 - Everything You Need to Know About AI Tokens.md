@@ -1,16 +1,21 @@
-# Everything You Need to Know About AI Tokens — Transcript (2026-08-02)
-
-https://aidailybrief.ai/e/2026-08-02 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~00:50:00
-Host: Nathaniel Whittemore
-Categories: model-strategy, agents, enterprise, models
-Featured: agent harness, Claude
-Also mentioned: OpenClaw, Slack, model routing, Cursor
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Everything You Need to Know About AI Tokens"
+date: 2026-08-02
+url: "https://aidailybrief.ai/e/2026-08-02"
+guid: "https://aidailybrief.ai/e/2026-08-02"
+host: "Nathaniel Whittemore"
+format: "interview"
+level: 2
+length: "00:50:00"
+categories: ["model-strategy", "agents", "enterprise", "models"]
+featured: ["agent harness", "Claude"]
+mentioned: ["OpenClaw", "Slack", "model routing", "Cursor"]
+transcript_source: "publisher"
+---
+
+# Everything You Need to Know About AI Tokens
 
 [00:00:00] Today on the AI Daily Brief, an operator's cut episode with Nufar, everything you need to know about AI tokens. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. ​
 

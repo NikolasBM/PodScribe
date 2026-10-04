@@ -1,16 +1,21 @@
-# How the Escalating AI Wars Benefit You — Transcript (2026-07-13)
-
-https://aidailybrief.ai/e/2026-07-13 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:31:00
-Host: Nathaniel Whittemore
-Categories: policy, open-weights, infrastructure, models
-Featured: Apple, OpenAI, GLM, GPT-5.6
-Also mentioned: Claude Mythos, distillation
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How the Escalating AI Wars Benefit You"
+date: 2026-07-13
+url: "https://aidailybrief.ai/e/2026-07-13"
+guid: "https://aidailybrief.ai/e/2026-07-13"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:31:00"
+categories: ["policy", "open-weights", "infrastructure", "models"]
+featured: ["Apple", "OpenAI", "GLM", "GPT-5.6"]
+mentioned: ["Claude Mythos", "distillation"]
+transcript_source: "publisher"
+---
+
+# How the Escalating AI Wars Benefit You
 
 [00:00:00] Today on the AI Daily Brief, Apple sues OpenAI and tensions are ratcheting up as the AI competition shifts. We're gonna discuss what happened and how it potentially benefits you
 

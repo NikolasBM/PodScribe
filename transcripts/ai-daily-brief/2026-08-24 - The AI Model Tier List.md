@@ -1,16 +1,21 @@
-# The AI Model Tier List — Transcript (2026-08-24)
-
-https://aidailybrief.ai/e/2026-08-24 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: funding-markets, model-strategy, models, infrastructure
-Featured: Nvidia, Claude Fable, open-weight models, Nvidia Nemotron, GPT-5.6, Claude Opus, Vercel AI Gateway
-Also mentioned: DeepSeek, OpenRouter, Perplexity, Kimi, Grok, Muse Spark, Claude Sonnet, Cursor, Gemini
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The AI Model Tier List"
+date: 2026-08-24
+url: "https://aidailybrief.ai/e/2026-08-24"
+guid: "https://aidailybrief.ai/e/2026-08-24"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:29:00"
+categories: ["funding-markets", "model-strategy", "models", "infrastructure"]
+featured: ["Nvidia", "Claude Fable", "open-weight models", "Nvidia Nemotron", "GPT-5.6", "Claude Opus", "Vercel AI Gateway"]
+mentioned: ["DeepSeek", "OpenRouter", "Perplexity", "Kimi", "Grok", "Muse Spark", "Claude Sonnet", "Cursor", "Gemini"]
+transcript_source: "publisher"
+---
+
+# The AI Model Tier List
 
 [00:00:00] It used to be that when it came to advanced AI models, all that anyone cared about was who was in the lead. Was the model from Anthropic or OpenAI or Google the best one out there? and was it better enough that it meant that I needed to switch right away?
 

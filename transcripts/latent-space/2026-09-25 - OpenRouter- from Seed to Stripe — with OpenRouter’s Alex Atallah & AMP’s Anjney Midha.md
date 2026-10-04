@@ -1,18 +1,22 @@
-# OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha — Transcript (2026-09-25)
-
-https://www.latent.space/p/openrouter · Latent Space
-
-<!-- guid: substack:217456046 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:20:35
-Host: Swyx · Guests: Anjney Midha, Alex Atallah
-Categories: models, model-strategy, agents, coding
-Featured: OpenRouter, Stripe, Claude, OpenClaw, open-weight models
-Also mentioned: ChatGPT, Cognition Devin, Hermes Agent
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha"
+date: 2026-09-25
+url: "https://www.latent.space/p/openrouter"
+guid: "substack:217456046"
+host: "Swyx"
+guests: ["Anjney Midha", "Alex Atallah"]
+format: "interview"
+level: 2
+length: "01:20:35"
+categories: ["models", "model-strategy", "agents", "coding"]
+featured: ["OpenRouter", "Stripe", "Claude", "OpenClaw", "open-weight models"]
+mentioned: ["ChatGPT", "Cognition Devin", "Hermes Agent"]
+transcript_source: "publisher"
+---
+
+# OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha
 
 ## Introduction: OpenRouter, Marketplaces, and Pub-Sub as a Product Principle
 

@@ -1,16 +1,21 @@
-# A Big Shift in the AI Race — Transcript (2026-06-17)
-
-https://aidailybrief.ai/e/2026-06-17 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:26:00
-Host: Nathaniel Whittemore
-Categories: policy, funding-markets, safety-security, infrastructure
-Featured: Anthropic, Claude Mythos, Cursor, SpaceX AI, Claude Fable, Grok
-Also mentioned: Project Glasswing, Claude Opus, agent harness, Kimi
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "A Big Shift in the AI Race"
+date: 2026-06-17
+url: "https://aidailybrief.ai/e/2026-06-17"
+guid: "https://aidailybrief.ai/e/2026-06-17"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:26:00"
+categories: ["policy", "funding-markets", "safety-security", "infrastructure"]
+featured: ["Anthropic", "Claude Mythos", "Cursor", "SpaceX AI", "Claude Fable", "Grok"]
+mentioned: ["Project Glasswing", "Claude Opus", "agent harness", "Kimi"]
+transcript_source: "publisher"
+---
+
+# A Big Shift in the AI Race
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, some some big shifts in the AI race. Before that, in the headlines, the latest on Anthropic's fight with Washington. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Robots and Pencils, Mission Cloud, and Outsystems.
 

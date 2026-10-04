@@ -1,16 +1,21 @@
-# Botsitting: The Work Draining AI Gains — Transcript (2026-06-26)
-
-https://aidailybrief.ai/e/2026-06-26 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:25:00
-Host: Nathaniel Whittemore
-Categories: work, enterprise
-Featured: none
-Also mentioned: Claude Code, ChatGPT, Claude
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Botsitting: The Work Draining AI Gains"
+date: 2026-06-26
+url: "https://aidailybrief.ai/e/2026-06-26"
+guid: "https://aidailybrief.ai/e/2026-06-26"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:25:00"
+categories: ["work", "enterprise"]
+featured: []
+mentioned: ["Claude Code", "ChatGPT", "Claude"]
+transcript_source: "publisher"
+---
+
+# Botsitting: The Work Draining AI Gains
 
 [00:00:00] 
 

@@ -1,18 +1,22 @@
-# Muse review: The personal AI agent that gets consumer UX right — Transcript (2026-09-16)
-
-https://podcasters.spotify.com/pod/show/pen-name/episodes/Muse-review-The-personal-AI-agent-that-gets-consumer-UX-right-e3ornsd · How I AI · Transcribed with MAI-Transcribe-2
-
-<!-- guid: 0f25ae70-26ec-4915-a938-6a862e246e78 -->
-
-<!-- metadata -->
-Format: review · Level: 1 · Length: ~00:36:43
-Host: Claire Vo
-Categories: consumer, agents, design
-Featured: Meta Muse, Meta, computer use
-Also mentioned: OpenClaw, Grok Bot, OpenAI Codex, Instinct
-<!-- /metadata -->
-
 ---
+podcast: "how-i-ai"
+podcast_title: "How I AI"
+title: "Muse review: The personal AI agent that gets consumer UX right"
+date: 2026-09-16
+url: "https://podcasters.spotify.com/pod/show/pen-name/episodes/Muse-review-The-personal-AI-agent-that-gets-consumer-UX-right-e3ornsd"
+guid: "0f25ae70-26ec-4915-a938-6a862e246e78"
+host: "Claire Vo"
+format: "review"
+level: 1
+length: "00:36:43"
+categories: ["consumer", "agents", "design"]
+featured: ["Meta Muse", "Meta", "computer use"]
+mentioned: ["OpenClaw", "Grok Bot", "OpenAI Codex", "Instinct"]
+transcript_source: "azure-asr"
+transcribed_by: "MAI-Transcribe-2"
+---
+
+# Muse review: The personal AI agent that gets consumer UX right
 
 **Claire Vo** [00:00:00] It's the weekend, the kids are out of the house, and that means one thing, it's time to test a new AI agent. Today I'm going to give you my first pass opinion about Muse, Meta's new personal agent. We're going to talk about what Muse is, what I had it do for me, and what it didn't do quite well, and why I think it might be my favorite designed agent I played with in a long time. Let's get to it.
 

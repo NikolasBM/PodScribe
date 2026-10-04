@@ -1,18 +1,22 @@
-# Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC — Transcript (2026-09-16)
-
-https://www.latent.space/p/aiuc · Latent Space
-
-<!-- guid: substack:215893904 -->
-
-<!-- metadata -->
-Format: interview · Level: 1 · Length: ~01:26:00
-Host: Swyx · Guests: Rune Kvist
-Categories: safety-security, agents, enterprise, policy
-Featured: ElevenLabs, Claude Mythos
-Also mentioned: Cursor, Lovable, MCP
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC"
+date: 2026-09-16
+url: "https://www.latent.space/p/aiuc"
+guid: "substack:215893904"
+host: "Swyx"
+guests: ["Rune Kvist"]
+format: "interview"
+level: 1
+length: "01:26:00"
+categories: ["safety-security", "agents", "enterprise", "policy"]
+featured: ["ElevenLabs", "Claude Mythos"]
+mentioned: ["Cursor", "Lovable", "MCP"]
+transcript_source: "publisher"
+---
+
+# Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC
 
 ## Introduction: AIUC, the $40M Series A, and Risk as the Adoption Bottleneck
 

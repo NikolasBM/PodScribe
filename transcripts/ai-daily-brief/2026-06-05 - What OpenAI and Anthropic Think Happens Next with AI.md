@@ -1,16 +1,21 @@
-# What OpenAI and Anthropic Think Happens Next with AI — Transcript (2026-06-05)
-
-https://aidailybrief.ai/e/2026-06-05 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:31:15
-Host: Nathaniel Whittemore
-Categories: models, policy, safety-security, work
-Featured: Anthropic, OpenAI, Claude Mythos, Claude, ChatGPT, recursive self-improvement, GPT-5.6
-Also mentioned: OpenClaw, Claude Opus
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "What OpenAI and Anthropic Think Happens Next with AI"
+date: 2026-06-05
+url: "https://aidailybrief.ai/e/2026-06-05"
+guid: "https://aidailybrief.ai/e/2026-06-05"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:31:15"
+categories: ["models", "policy", "safety-security", "work"]
+featured: ["Anthropic", "OpenAI", "Claude Mythos", "Claude", "ChatGPT", "recursive self-improvement", "GPT-5.6"]
+mentioned: ["OpenClaw", "Claude Opus"]
+transcript_source: "publisher"
+---
+
+# What OpenAI and Anthropic Think Happens Next with AI
 
 [00:00:00] Today Today on the AI Daily Brief, what OpenAI and Anthropic Think about what happens next in AI. Before that in the headlines, is the US government gonna take a stake in the big AI labs? The AI Daily Brief is a daily podcast and video about the most important news and discussions in [00:00:15] AI.
 

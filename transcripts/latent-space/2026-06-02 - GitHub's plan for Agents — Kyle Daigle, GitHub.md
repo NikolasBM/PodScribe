@@ -1,18 +1,22 @@
-# GitHub's plan for Agents — Kyle Daigle, GitHub — Transcript (2026-06-02)
-
-https://www.latent.space/p/github · Latent Space
-
-<!-- guid: substack:200249307 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:23:16
-Host: Swyx · Guests: Kyle
-Categories: agents, coding, work, marketing
-Featured: Microsoft Copilot, OpenClaw, MCP, agent harness
-Also mentioned: Slack, Claude Mythos
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "GitHub's plan for Agents — Kyle Daigle, GitHub"
+date: 2026-06-02
+url: "https://www.latent.space/p/github"
+guid: "substack:200249307"
+host: "Swyx"
+guests: ["Kyle"]
+format: "interview"
+level: 2
+length: "01:23:16"
+categories: ["agents", "coding", "work", "marketing"]
+featured: ["Microsoft Copilot", "OpenClaw", "MCP", "agent harness"]
+mentioned: ["Slack", "Claude Mythos"]
+transcript_source: "publisher"
+---
+
+# GitHub's plan for Agents — Kyle Daigle, GitHub
 
 ## Introduction: Kyle Daigle’s Expanded Role at GitHub and Microsoft
 

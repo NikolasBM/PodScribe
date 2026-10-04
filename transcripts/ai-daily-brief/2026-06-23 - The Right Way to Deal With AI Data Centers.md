@@ -1,16 +1,21 @@
-# The Right Way to Deal With AI Data Centers — Transcript (2026-06-23)
-
-https://aidailybrief.ai/e/2026-06-23 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:25:00
-Host: Nathaniel Whittemore
-Categories: infrastructure, models, safety-security, policy
-Featured: Claude Mythos, GPT-5.5
-Also mentioned: Project Glasswing, Cursor
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Right Way to Deal With AI Data Centers"
+date: 2026-06-23
+url: "https://aidailybrief.ai/e/2026-06-23"
+guid: "https://aidailybrief.ai/e/2026-06-23"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:25:00"
+categories: ["infrastructure", "models", "safety-security", "policy"]
+featured: ["Claude Mythos", "GPT-5.5"]
+mentioned: ["Project Glasswing", "Cursor"]
+transcript_source: "publisher"
+---
+
+# The Right Way to Deal With AI Data Centers
 
 [00:00:00] Today on the Today on the AI Daily Brief, the right way to deal with AI data centers. Before that in the headlines
 

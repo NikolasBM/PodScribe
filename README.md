@@ -29,7 +29,59 @@ transcripts/
 
 Each file is named `YYYY-MM-DD - Episode Title.md`. Characters unsafe in filenames (`/ \ : * ? " < > |`) are replaced with `-`.
 
-Each file starts with the episode title, followed by the full transcript with `[HH:MM:SS]` timestamp markers. Transcribed episodes also label who is speaking: the host by name, other voices as `Speaker 1`, `Speaker 2`, … Speaker labels are machine-generated and can occasionally be wrong.
+Each file starts with YAML frontmatter, then the title, then the full transcript with `[HH:MM:SS]` timestamps:
+
+```markdown
+---
+podcast: "ai-daily-brief"
+title: "Grok 4.6 Shows How Fast Your AI Options Are Expanding"
+date: 2026-08-13
+url: "https://aidailybrief.ai/e/2026-08-13"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+categories: ["models", "funding-markets", "coding", "open-weights"]
+featured: ["Grok", "SpaceX AI", "Claude Fable", "GPT-5.6", "DeepSeek"]
+mentioned: ["Cursor", "Claude Code", "Kimi"]
+...
+---
+
+# Grok 4.6 Shows How Fast Your AI Options Are Expanding
+
+[00:00:00] A year ago, if you were talking about frontier models, ...
+```
+
+| Field | Meaning |
+|---|---|
+| `podcast`, `podcast_title`, `title`, `date`, `url`, `guid` | Where the episode comes from |
+| `host`, `guests` | Host from the config; guests from the title or the speaker labels |
+| `format` | `news-roundup`, `news-analysis`, `commentary`, `review`, `tutorial`, `demo` or `interview` |
+| `level` | 0 general audience, 1 informed business/tech audience, 2 semi-technical, 3 hands-on |
+| `length` | Approximate: the last timestamp in the transcript |
+| `categories` | Up to 4 topics, strongest first (see [`vocabulary.toml`](vocabulary.toml) for the list) |
+| `featured`, `mentioned` | Technologies the episode is about / only mentions |
+| `transcript_source`, `transcribed_by` | `publisher` (the show's own transcript) or `azure-asr` (transcribed here) |
+
+`format`, `level`, `categories`, `featured` and `mentioned` are judged by a small classification model ([Jev](https://typesafe.ai)) against the vocabulary, so treat them as good filters, not as facts. Sponsor reads have been removed from the text.
+
+Speaker labels: in the episodes transcribed here (How I AI) the host is named and other voices are `Speaker 1`, `Speaker 2`, … or the guest's name. Labels are machine-generated and can occasionally be wrong.
+
+## Using the Archive
+
+The archive is plain text on purpose, so you can point whatever tool you like at it.
+
+**[`catalog.csv`](catalog.csv) / [`catalog.json`](catalog.json)** list every episode with its metadata and file path, newest first. Open the CSV in a spreadsheet, or give the JSON to an LLM, to see what's here and pick episodes before reading anything.
+
+Some ways to use it:
+
+- **Claude Code, Cursor or another coding agent:** open the folder and ask questions ("what did the podcasts say about model routing in September?"). The catalog tells the agent which files matter.
+- **Obsidian or any Markdown editor:** open the folder as a vault. The frontmatter works as properties.
+- **Command line:** `grep -ril "judgment model" transcripts/` or `rg -n "token budget" transcripts/ -g '*.md'`. Timestamps are on every paragraph.
+- **Spreadsheet or pandas:** `pd.read_json("catalog.json")`, then filter on `categories`, `featured`, `level` or `guests`.
+- **NotebookLM or ChatGPT projects:** upload a handful of episodes picked from the catalog.
+- **Your own search:** [`examples/search.py`](examples/search.py) builds a local full-text index (SQLite) with the frontmatter as filters, e.g. `python3 examples/search.py "token budget" --category enterprise --since 2026-08-01`. It is an example to copy and change, not part of the archive.
+
+Search is deliberately left out of this repo, so everyone can decide how they want to search and what is relevant to them.
 
 ## How It Works
 
@@ -39,7 +91,7 @@ A GitHub Actions workflow (`.github/workflows/fetch.yml`) runs `fetch_transcript
 - **`substack`** — the show's posts on a Substack publication include the transcript. The script lists the publication's podcast posts, and saves those that have a transcript and aren't in the archive yet (some posts only have show notes).
 - **`rss`** — the script reads the podcast's RSS feed, downloads the audio of new episodes and transcribes it with [MAI-Transcribe](https://learn.microsoft.com/azure/ai-services/speech-service/mai-transcribe) through Azure Speech's fast transcription API, with speaker diarization.
 
-New transcripts are committed and pushed to this repo.
+New transcripts are committed and pushed to this repo, and `catalog.csv`/`catalog.json` are rebuilt.
 
 ## Adding a Podcast
 

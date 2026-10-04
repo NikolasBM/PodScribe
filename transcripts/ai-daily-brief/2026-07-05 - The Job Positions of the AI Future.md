@@ -1,16 +1,21 @@
-# The Job Positions of the AI Future — Transcript (2026-07-05)
-
-https://aidailybrief.ai/e/2026-07-05 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:26:00
-Host: Nathaniel Whittemore
-Categories: work, marketing, agents
-Featured: none
-Also mentioned: Claude Code, OpenClaw
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Job Positions of the AI Future"
+date: 2026-07-05
+url: "https://aidailybrief.ai/e/2026-07-05"
+guid: "https://aidailybrief.ai/e/2026-07-05"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:26:00"
+categories: ["work", "marketing", "agents"]
+featured: []
+mentioned: ["Claude Code", "OpenClaw"]
+transcript_source: "publisher"
+---
+
+# The Job Positions of the AI Future
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, the job the job positions of this new agentic future. The The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, Robots and Pencils, All right, friends, quick announcements before we dive in. First First of all, thank you to today's sponsors, Robots and Pencils, Retool, Blitzy, and Airtable
 

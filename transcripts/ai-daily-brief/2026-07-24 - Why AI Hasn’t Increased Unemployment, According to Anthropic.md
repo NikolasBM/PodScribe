@@ -1,16 +1,21 @@
-# Why AI Hasn’t Increased Unemployment, According to Anthropic — Transcript (2026-07-24)
-
-https://aidailybrief.ai/e/2026-07-24 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:35:00
-Host: Nathaniel Whittemore
-Categories: work, models, funding-markets, model-strategy
-Featured: Anthropic, Claude, Microsoft, OpenRouter, Microsoft MAI, model routing
-Also mentioned: Cursor, Kimi, agent harness, Claude Mythos, GPT-5.6, computer use, Grok, Claude Code, vibe coding, recursive self-improvement
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why AI Hasn’t Increased Unemployment, According to Anthropic"
+date: 2026-07-24
+url: "https://aidailybrief.ai/e/2026-07-24"
+guid: "https://aidailybrief.ai/e/2026-07-24"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:35:00"
+categories: ["work", "models", "funding-markets", "model-strategy"]
+featured: ["Anthropic", "Claude", "Microsoft", "OpenRouter", "Microsoft MAI", "model routing"]
+mentioned: ["Cursor", "Kimi", "agent harness", "Claude Mythos", "GPT-5.6", "computer use", "Grok", "Claude Code", "vibe coding", "recursive self-improvement"]
+transcript_source: "publisher"
+---
+
+# Why AI Hasn’t Increased Unemployment, According to Anthropic
 
 [00:00:00] Today on the AI Daily Brief, why AI hasn't increased unemployment according to Anthropic. Before that in the headlines, the router business is hot as Stripe is in talks to buy OpenRouter for $10 billion.
 

@@ -1,16 +1,21 @@
-# How to Build Team Agents — Transcript (2026-09-29)
-
-https://aidailybrief.ai/e/2026-09-29 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: interview · Level: 1 · Length: ~00:41:00
-Host: Nathaniel Whittemore
-Categories: agents, work
-Featured: multiplayer agents
-Also mentioned: Claude Tag, Claude, Slack, Meta Muse, Grok Bot, Instinct, Microsoft Copilot, agent harness
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How to Build Team Agents"
+date: 2026-09-29
+url: "https://aidailybrief.ai/e/2026-09-29"
+guid: "https://aidailybrief.ai/e/2026-09-29"
+host: "Nathaniel Whittemore"
+format: "interview"
+level: 1
+length: "00:41:00"
+categories: ["agents", "work"]
+featured: ["multiplayer agents"]
+mentioned: ["Claude Tag", "Claude", "Slack", "Meta Muse", "Grok Bot", "Instinct", "Microsoft Copilot", "agent harness"]
+transcript_source: "publisher"
+---
+
+# How to Build Team Agents
 
 [00:00:00] 
 

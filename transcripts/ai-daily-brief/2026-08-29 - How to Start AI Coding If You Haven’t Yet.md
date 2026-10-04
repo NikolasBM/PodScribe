@@ -1,16 +1,21 @@
-# How to Start AI Coding If You Haven’t Yet — Transcript (2026-08-29)
-
-https://aidailybrief.ai/e/2026-08-29 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: tutorial · Level: 1 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: coding, work, marketing
-Featured: none
-Also mentioned: OpenAI Codex, Claude Code, Lovable, Replit, OpenClaw, ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "How to Start AI Coding If You Haven’t Yet"
+date: 2026-08-29
+url: "https://aidailybrief.ai/e/2026-08-29"
+guid: "https://aidailybrief.ai/e/2026-08-29"
+host: "Nathaniel Whittemore"
+format: "tutorial"
+level: 1
+length: "00:29:00"
+categories: ["coding", "work", "marketing"]
+featured: []
+mentioned: ["OpenAI Codex", "Claude Code", "Lovable", "Replit", "OpenClaw", "ChatGPT"]
+transcript_source: "publisher"
+---
+
+# How to Start AI Coding If You Haven’t Yet
 
 [00:00:00] 
 

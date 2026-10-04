@@ -1,18 +1,22 @@
-# Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI — Transcript (2026-09-21)
-
-https://www.latent.space/p/jev · Latent Space
-
-<!-- guid: substack:216783460 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~02:20:51
-Host: Swyx · Guests: Diogo Almeida
-Categories: coding, agents, safety-security, models
-Featured: Jev, computer use, Pacing the Frontier
-Also mentioned: ChatGPT, Claude, Slack, Claude Code, OpenAI Codex
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI"
+date: 2026-09-21
+url: "https://www.latent.space/p/jev"
+guid: "substack:216783460"
+host: "Swyx"
+guests: ["Diogo Almeida"]
+format: "interview"
+level: 2
+length: "02:20:51"
+categories: ["coding", "agents", "safety-security", "models"]
+featured: ["Jev", "computer use", "Pacing the Frontier"]
+mentioned: ["ChatGPT", "Claude", "Slack", "Claude Code", "OpenAI Codex"]
+transcript_source: "publisher"
+---
+
+# Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI
 
 ## Introduction: Jev Launch Week and Developer Momentum
 

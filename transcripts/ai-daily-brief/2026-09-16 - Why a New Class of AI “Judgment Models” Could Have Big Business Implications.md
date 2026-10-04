@@ -1,16 +1,21 @@
-# Why a New Class of AI “Judgment Models” Could Have Big Business Implications — Transcript (2026-09-16)
-
-https://aidailybrief.ai/e/2026-09-16 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:25:00
-Host: Nathaniel Whittemore
-Categories: models, safety-security, agents, model-strategy
-Featured: Jev
-Also mentioned: ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why a New Class of AI “Judgment Models” Could Have Big Business Implications"
+date: 2026-09-16
+url: "https://aidailybrief.ai/e/2026-09-16"
+guid: "https://aidailybrief.ai/e/2026-09-16"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:25:00"
+categories: ["models", "safety-security", "agents", "model-strategy"]
+featured: ["Jev"]
+mentioned: ["ChatGPT"]
+transcript_source: "publisher"
+---
+
+# Why a New Class of AI “Judgment Models” Could Have Big Business Implications
 
 [00:00:00] 
 

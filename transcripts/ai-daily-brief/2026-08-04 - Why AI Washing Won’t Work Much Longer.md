@@ -1,16 +1,21 @@
-# Why AI Washing Won’t Work Much Longer — Transcript (2026-08-04)
-
-https://aidailybrief.ai/e/2026-08-04 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:24:00
-Host: Nathaniel Whittemore
-Categories: models, open-weights, enterprise, coding
-Featured: Qwen, open-weight models, Kimi
-Also mentioned: Grok, recursive self-improvement, Claude, Claude Cowork, Claude Fable, Artificial Analysis, GPT-5.6, Microsoft MAI
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Why AI Washing Won’t Work Much Longer"
+date: 2026-08-04
+url: "https://aidailybrief.ai/e/2026-08-04"
+guid: "https://aidailybrief.ai/e/2026-08-04"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 2
+length: "00:24:00"
+categories: ["models", "open-weights", "enterprise", "coding"]
+featured: ["Qwen", "open-weight models", "Kimi"]
+mentioned: ["Grok", "recursive self-improvement", "Claude", "Claude Cowork", "Claude Fable", "Artificial Analysis", "GPT-5.6", "Microsoft MAI"]
+transcript_source: "publisher"
+---
+
+# Why AI Washing Won’t Work Much Longer
 
 [00:00:00] Today on the AI Daily Brief what a new Chinese open weight model release has to do with big shifts in enterprise AI thinking. And before that in the headlines, Palantir and the march to AI sovereignty.
 

@@ -1,16 +1,21 @@
-# The Capability Overhang Playbook — Transcript (2026-06-28)
-
-https://aidailybrief.ai/e/2026-06-28 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: tutorial · Level: 2 · Length: ~00:26:00
-Host: Nathaniel Whittemore
-Categories: agents, coding, work, models
-Featured: GPT-5.6, agent harness
-Also mentioned: Claude Fable, Claude Sonnet, Claude Code, OpenAI Codex, MCP, OpenClaw, OpenRouter, agent loops
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Capability Overhang Playbook"
+date: 2026-06-28
+url: "https://aidailybrief.ai/e/2026-06-28"
+guid: "https://aidailybrief.ai/e/2026-06-28"
+host: "Nathaniel Whittemore"
+format: "tutorial"
+level: 2
+length: "00:26:00"
+categories: ["agents", "coding", "work", "models"]
+featured: ["GPT-5.6", "agent harness"]
+mentioned: ["Claude Fable", "Claude Sonnet", "Claude Code", "OpenAI Codex", "MCP", "OpenClaw", "OpenRouter", "agent loops"]
+transcript_source: "publisher"
+---
+
+# The Capability Overhang Playbook
 
 260628 in_EDIT: [00:00:00] Today on the AI Daily Brief, the capability overhang playbook
 

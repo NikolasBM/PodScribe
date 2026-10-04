@@ -1,18 +1,22 @@
-# Why Video Agent models are next — Ethan He, xAI Grok Imagine — Transcript (2026-06-01)
-
-https://www.latent.space/p/video-agents · Latent Space
-
-<!-- guid: substack:200078058 -->
-
-<!-- metadata -->
-Format: interview · Level: 2 · Length: ~01:43:16
-Host: Swyx · Guests: Ethan
-Categories: design, agents, models, infrastructure
-Featured: Grok, distillation, agent harness
-Also mentioned: Gemini, Nano Banana, OpenClaw
-<!-- /metadata -->
-
 ---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Why Video Agent models are next — Ethan He, xAI Grok Imagine"
+date: 2026-06-01
+url: "https://www.latent.space/p/video-agents"
+guid: "substack:200078058"
+host: "Swyx"
+guests: ["Ethan"]
+format: "interview"
+level: 2
+length: "01:43:16"
+categories: ["design", "agents", "models", "infrastructure"]
+featured: ["Grok", "distillation", "agent harness"]
+mentioned: ["Gemini", "Nano Banana", "OpenClaw"]
+transcript_source: "publisher"
+---
+
+# Why Video Agent models are next — Ethan He, xAI Grok Imagine
 
 ## Introduction: Ethan He, Latent Space, and the Path to xAI
 

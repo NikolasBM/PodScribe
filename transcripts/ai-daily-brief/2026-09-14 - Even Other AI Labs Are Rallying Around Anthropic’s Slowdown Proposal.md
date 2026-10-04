@@ -1,16 +1,21 @@
-# Even Other AI Labs Are Rallying Around Anthropic’s Slowdown Proposal — Transcript (2026-09-14)
-
-https://aidailybrief.ai/e/2026-09-14 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:37:00
-Host: Nathaniel Whittemore
-Categories: safety-security, policy, open-weights, funding-markets
-Featured: Anthropic, OpenAI, Pacing the Frontier, recursive self-improvement, Hugging Face incident
-Also mentioned: open-weight models, distillation
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Even Other AI Labs Are Rallying Around Anthropic’s Slowdown Proposal"
+date: 2026-09-14
+url: "https://aidailybrief.ai/e/2026-09-14"
+guid: "https://aidailybrief.ai/e/2026-09-14"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:37:00"
+categories: ["safety-security", "policy", "open-weights", "funding-markets"]
+featured: ["Anthropic", "OpenAI", "Pacing the Frontier", "recursive self-improvement", "Hugging Face incident"]
+mentioned: ["open-weight models", "distillation"]
+transcript_source: "publisher"
+---
+
+# Even Other AI Labs Are Rallying Around Anthropic’s Slowdown Proposal
 
 [00:00:00] 
 

@@ -1,16 +1,21 @@
-# Your Company Doesn’t Need an AI Strategy — Transcript (2026-06-19)
-
-https://aidailybrief.ai/e/2026-06-19 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:29:00
-Host: Nathaniel Whittemore
-Categories: agents, policy, work, enterprise
-Featured: Anthropic, Microsoft, agent harness, Claude Fable, Microsoft MAI
-Also mentioned: OpenAI Codex, OpenClaw, computer use, model routing
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Your Company Doesn’t Need an AI Strategy"
+date: 2026-06-19
+url: "https://aidailybrief.ai/e/2026-06-19"
+guid: "https://aidailybrief.ai/e/2026-06-19"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:29:00"
+categories: ["agents", "policy", "work", "enterprise"]
+featured: ["Anthropic", "Microsoft", "agent harness", "Claude Fable", "Microsoft MAI"]
+mentioned: ["OpenAI Codex", "OpenClaw", "computer use", "model routing"]
+transcript_source: "publisher"
+---
+
+# Your Company Doesn’t Need an AI Strategy
 
 [00:00:00] Today on the AI Daily Brief, you don't need an AI strategy, you need an AI learning system
 

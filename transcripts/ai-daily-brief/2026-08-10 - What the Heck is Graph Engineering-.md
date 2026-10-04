@@ -1,16 +1,21 @@
-# What the Heck is Graph Engineering? — Transcript (2026-08-10)
-
-https://aidailybrief.ai/e/2026-08-10 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:26:00
-Host: Nathaniel Whittemore
-Categories: agents, safety-security, models, open-weights
-Featured: agent harness, OpenAI, Claude Code, Hugging Face incident, agent loops
-Also mentioned: GPT-6, Qwen, Kimi, Claude Mythos, Claude
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "What the Heck is Graph Engineering?"
+date: 2026-08-10
+url: "https://aidailybrief.ai/e/2026-08-10"
+guid: "https://aidailybrief.ai/e/2026-08-10"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:26:00"
+categories: ["agents", "safety-security", "models", "open-weights"]
+featured: ["agent harness", "OpenAI", "Claude Code", "Hugging Face incident", "agent loops"]
+mentioned: ["GPT-6", "Qwen", "Kimi", "Claude Mythos", "Claude"]
+transcript_source: "publisher"
+---
+
+# What the Heck is Graph Engineering?
 
 260810 in_EDIT: [00:00:00] Today on the AI Daily Brief, what the heck is graph engineering and why should you care? Before that in the headlines, OpenAI's Atlas model getsa cyber delay. The AI The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements before we dive in.
 

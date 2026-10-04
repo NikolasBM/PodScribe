@@ -1,16 +1,21 @@
-# AI Optimism Has a Trust Problem — Transcript (2026-08-11)
-
-https://aidailybrief.ai/e/2026-08-11 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:23:00
-Host: Nathaniel Whittemore
-Categories: work, policy, agents, infrastructure
-Featured: Meta, open-weight models
-Also mentioned: Muse Spark, ChatGPT
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "AI Optimism Has a Trust Problem"
+date: 2026-08-11
+url: "https://aidailybrief.ai/e/2026-08-11"
+guid: "https://aidailybrief.ai/e/2026-08-11"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:23:00"
+categories: ["work", "policy", "agents", "infrastructure"]
+featured: ["Meta", "open-weight models"]
+mentioned: ["Muse Spark", "ChatGPT"]
+transcript_source: "publisher"
+---
+
+# AI Optimism Has a Trust Problem
 
 260811 in_EDIT: [00:00:00] Today Today on the AI Daily Brief, as the political stakes increase 
 

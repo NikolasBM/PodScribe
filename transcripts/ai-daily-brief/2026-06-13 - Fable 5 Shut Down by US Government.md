@@ -1,16 +1,21 @@
-# Fable 5 Shut Down by US Government — Transcript (2026-06-13)
-
-https://aidailybrief.ai/e/2026-06-13 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:27:00
-Host: Nathaniel Whittemore
-Categories: policy, safety-security, funding-markets, open-weights
-Featured: Anthropic, Claude Fable, Claude Mythos, Claude
-Also mentioned: Project Glasswing
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "Fable 5 Shut Down by US Government"
+date: 2026-06-13
+url: "https://aidailybrief.ai/e/2026-06-13"
+guid: "https://aidailybrief.ai/e/2026-06-13"
+host: "Nathaniel Whittemore"
+format: "news-analysis"
+level: 1
+length: "00:27:00"
+categories: ["policy", "safety-security", "funding-markets", "open-weights"]
+featured: ["Anthropic", "Claude Fable", "Claude Mythos", "Claude"]
+mentioned: ["Project Glasswing"]
+transcript_source: "publisher"
+---
+
+# Fable 5 Shut Down by US Government
 
 [00:00:00] In
 

@@ -1,16 +1,21 @@
-# The Real Future of AI and Work — Transcript (2026-08-23)
-
-https://aidailybrief.ai/e/2026-08-23 · Listen: https://pod.link/1680633614
-
-<!-- metadata -->
-Format: commentary · Level: 1 · Length: ~00:30:00
-Host: Nathaniel Whittemore
-Categories: work, agents
-Featured: none
-Also mentioned: multiplayer agents
-<!-- /metadata -->
-
 ---
+podcast: "ai-daily-brief"
+podcast_title: "The AI Daily Brief"
+title: "The Real Future of AI and Work"
+date: 2026-08-23
+url: "https://aidailybrief.ai/e/2026-08-23"
+guid: "https://aidailybrief.ai/e/2026-08-23"
+host: "Nathaniel Whittemore"
+format: "commentary"
+level: 1
+length: "00:30:00"
+categories: ["work", "agents"]
+featured: []
+mentioned: ["multiplayer agents"]
+transcript_source: "publisher"
+---
+
+# The Real Future of AI and Work
 
 [00:00:00] 
 
