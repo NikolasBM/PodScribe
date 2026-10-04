@@ -4,6 +4,14 @@ https://www.latent.space/p/jev · Latent Space
 
 <!-- guid: substack:216783460 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~02:20:51
+Host: Swyx
+Categories: coding, agents, safety-security, models
+Featured: Jev, Pacing the Frontier
+Also mentioned: ChatGPT, Claude, computer use, Slack, Claude Code, OpenAI Codex
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Jev Launch Week and Developer Momentum
