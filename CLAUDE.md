@@ -54,11 +54,11 @@ README.md                    — offentlig beskrivelse af arkivet
 - Pris: fast transcription standard er $0,36/time; MAI-Transcribe-2-prisen kunne ikke aflæses i Azures prisliste (oktober 2026) — tjek faktisk forbrug i Azure.
 
 ## Filformat og metadata
-- Hver fil: `---` YAML-frontmatter `---`, blank, `# Titel`, blank, transcript. Værdierne er JSON (gyldig YAML): `podcast, podcast_title, title, date, url, guid, host, guests, format, level, length, categories, featured, mentioned, transcript_source (publisher|azure-asr|shared-folder), transcribed_by, credit` (credit kun hvor ophavsmanden skal nævnes, nu Lenny). `render_doc`/`parse_doc`/`read_doc` i scriptet læser og skriver formatet (ingen YAML-afhængighed; parseren forstår kun vores egne filer). Tomme felter udelades, `guests` kun hvis ikke tom. Rækkefølgen er `FRONTMATTER_KEYS`. `length` er cirka (sidste timestamp).
+- Hver fil: `---` YAML-frontmatter `---`, blank, `# Titel`, blank, transcript. Værdierne er JSON (gyldig YAML): `podcast, podcast_title, title, date, url, guid, host, guests, format, level, length, categories, featured, mentioned, transcript_source (publisher|azure-asr|shared-folder), transcribed_by, credit` (credit kun hvor ophavsmanden skal nævnes, nu Lenny). `render_doc`/`parse_doc`/`read_doc` i scriptet læser og skriver formatet (ingen YAML-afhængighed; parseren forstår kun vores egne filer). Felter der er `null`/tomme strenge udelades, `guests` også når listen er tom (de øvrige lister skrives som `[]`). Rækkefølgen er `FRONTMATTER_KEYS`. `length` er cirka (sidste timestamp).
 - Jev-delen (`format, level, length, categories, featured, mentioned`) skrives af `metadata_fields` og kan genskabes uden at røre resten.
 - Koden finder kandidat-teknologier med `vocabulary.toml` (aliaser inkl. talegenkendelsesfejl, længste alias vinder så "Claude Code" ikke også tæller som "Claude"; `exact_case` for ord der også er hverdagsord). Jev vurderer i ét kald pr. episode (hele transcriptet er state): én Noul pr. kategori ("diskuteres emnet udførligt?"), ét Choice for format, én Score for niveau og én Noul pr. kandidat ("er X et hovedemne?"). Kategori ≥ 0,5, teknologi ≥ 0,5 (virksomheder ≥ 0,9, ellers står OpenAI/Anthropic på 2/3 af episoderne). Virksomheder står ikke under "Also mentioned".
 - Kategorilisten og formaterne er designet ud fra en gennemlæsning af alle 102+11 transcripts (se kommentarerne i `vocabulary.toml`). 14 kategorier: agents, coding, models, model-strategy, open-weights, enterprise, work, safety-security, policy, infrastructure, funding-markets, consumer, design, marketing. 7 formater: news-roundup, news-analysis, commentary, review, tutorial, demo, interview. Niveau 0–3.
-- Nye episoder får blokken automatisk når `TYPESAFE_API_KEY` er sat. Efterfyld/gentag: `--add-metadata` (kun filer uden `categories`) eller `--add-metadata --force`, begge kræver `--podcast`.
+- Nye episoder får blokken automatisk når `TYPESAFE_API_KEY` er sat. Fejler Jev, gemmes episoden uden blokken (men med `guests`), og hver kørsel prøver igen på alle filer uden `categories`. Manuelt: `--add-metadata` (kun filer uden `categories`) eller `--add-metadata --force`, begge kræver `--podcast`. Eksisterende `guests` bevares altid (nogle er sat i hånden).
 - Kendt svaghed: Jev er rundhåndet med kategorier (92 af 113 episoder ramte loftet på 4), så de første to er mest informative.
 
 ## fetch_transcripts.py
@@ -75,7 +75,7 @@ python3 fetch_transcripts.py --dry-run                         # vis hvad der vi
 ## GitHub Actions
 - Trigger manuelt: `gh workflow run fetch-transcripts --repo NikolasBM/PodScribe` (evt. `-f args="--podcast how-i-ai --limit 1"`)
 - Tjek status: `gh run list --repo NikolasBM/PodScribe --workflow=fetch.yml --limit 5`
-- Committer kun hvis `transcripts/` ændrer sig. `concurrency: fetch-transcripts` forhindrer at to kørsler transskriberer (og betaler for) samme episode.
+- Committer kun hvis `transcripts/` ændrer sig. Commit-steppet kører også hvis scriptet crasher (`!cancelled()`), så betalte transskriberinger ikke går tabt. `concurrency: fetch-transcripts` forhindrer at to kørsler transskriberer (og betaler for) samme episode.
 - Kører som `github-actions[bot]`, kræver `permissions: contents: write` (allerede sat).
 
 ## Kendte forbehold

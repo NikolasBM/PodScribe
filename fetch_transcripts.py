@@ -181,7 +181,7 @@ def try_metadata(meta, body, podcast, guests=None):
         return {**meta, "guests": guests, **metadata_fields(meta["title"], meta["date"], body, podcast)}
     except Exception as e:
         warn(f"{meta['date']}: no metadata, {type(e).__name__}: {e}")
-        return meta
+        return {**meta, "guests": guests}
 
 
 def fetch_published(podcast, out_dir, since, until, limit):
@@ -262,9 +262,9 @@ def clean_title(title):
 
 
 def stamp(text):
-    """'[HH:MM:SS]' or the older '[MM:SS]' as HH:MM:SS."""
-    parts = text.split(":")
-    return ":".join(["00"] * (3 - len(parts)) + parts)
+    """'H:MM:SS', 'HH:MM:SS' or the older 'M:SS'/'MM:SS' as HH:MM:SS."""
+    parts = [int(p) for p in text.split(":")]
+    return ":".join(f"{p:02d}" for p in [0] * (3 - len(parts)) + parts)
 
 
 def substack_body(body_html):
@@ -336,14 +336,15 @@ def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
         return 0
     done = existing_guids(out_dir)
     todo = [e for e in episodes if f"substack:{e['id']}" not in done]
-    if limit is not None:
-        todo = todo[:limit]
+    if dry_run:
+        for episode in todo[:limit]:
+            print(f"would fetch {episode['date']}: {episode['title']}")
+        return 0
     count = 0
     for episode in todo:
+        if limit is not None and count >= limit:  # counts saved transcripts, not posts without one
+            break
         date_str = episode["date"].isoformat()
-        if dry_run:
-            print(f"would fetch {date_str}: {episode['title']}")
-            continue
         try:
             post = http_json(f"{podcast['site']}/api/v1/posts/{episode['slug']}")
             body = substack_body(post.get("body_html") or "")
@@ -374,7 +375,7 @@ def segments_to_body(segments, names=None, merge_seconds=60):
 
     def flush():
         if text:
-            label = f"**{label_name}** " if new_speaker else ""
+            label = f"**{label_name}** " if new_speaker and label_name else ""
             out.append(f"{label}{format_timestamp(int(start * 1000))} {' '.join(text)}")
 
     label_name, new_speaker = "", False
@@ -416,14 +417,15 @@ def fetch_feed_transcripts(podcast, out_dir, since, until, limit, dry_run):
         return 0
     done = existing_guids(out_dir)
     todo = [e for e in episodes if since <= e["date"] <= until and e["guid"] not in done]
-    if limit is not None:
-        todo = todo[:limit]
+    if dry_run:
+        for episode in todo[:limit]:
+            print(f"would fetch {episode['date']}: {episode['title']}")
+        return 0
     count = 0
     for episode in todo:
+        if limit is not None and count >= limit:  # counts saved transcripts, not episodes without one yet
+            break
         date_str = episode["date"].isoformat()
-        if dry_run:
-            print(f"would fetch {date_str}: {episode['title']}")
-            continue
         links = episode["transcripts"]
         kind = next((k for k in links if "json" in k), None) or next((k for k in links if "vtt" in k), None)
         if kind is None:
@@ -903,7 +905,8 @@ def jev_call(state, questions):
         except urllib.error.HTTPError as e:
             if e.code not in (429, 500, 502, 503, 529) or attempt == 5:
                 raise
-            delay = max(delay, int(e.headers.get("retry-after", 0) or 0))
+            retry_after = e.headers.get("retry-after", "")
+            delay = max(delay, int(retry_after) if retry_after.isdigit() else 0)  # it can also be an HTTP date
         except (urllib.error.URLError, TimeoutError):
             if attempt == 5:
                 raise
@@ -919,8 +922,11 @@ def jev_scores(sentences, text, skip=()):
         return answers["ad"]["noul"]
 
     todo = [k for k in range(len(sentences)) if k not in skip]
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    pool = ThreadPoolExecutor(max_workers=8)
+    try:
         return dict(zip(todo, pool.map(judge, todo)))
+    finally:
+        pool.shutdown(cancel_futures=True)  # after a failure, don't pay for the requests still queued
 
 
 def jev_ads(sentences, secs, scores, near=(), sponsor=lambda k: False, anchored=lambda k: True):
@@ -1061,7 +1067,11 @@ def strip_ads(body, podcast, strict=False):
 def check_ads(path, podcast):
     """Print the sponsor reads that the cues and Jev find in a transcript file. Writes nothing."""
     body = read_doc(Path(path))[1]
-    flat = Sentences(parse_body(body, podcast["source"])[0])
+    parsed = parse_body(body, podcast["source"])
+    if parsed is None:
+        print(f"{Path(path).name}: not in a format sponsor removal can read")
+        return
+    flat = Sentences(parsed[0])
     cues, jev, scores = detect_ads(flat, podcast)
     for name, removed in {"cues": cues, "jev": jev}.items():
         if name == "jev" and not scores:
@@ -1171,11 +1181,17 @@ def add_metadata(out_dir, podcast, force=False):
     """Add (or with force, redo) the Jev metadata of saved transcripts. Returns number of files written."""
     count = 0
     for path in sorted(out_dir.glob("*.md")):
-        meta, body = read_doc(path)
+        try:
+            meta, body = read_doc(path)
+        except ValueError as e:
+            warn(f"metadata: {e}")
+            continue
         if "categories" in meta and not force:
             continue
         try:
-            guests = speaker_guests(body, podcast) if podcast.get("hosts") else guest_names(meta["title"], podcast)
+            # Guests already in the file are kept: some were named by hand (from the episode description, say)
+            guests = meta.get("guests") or (speaker_guests(body, podcast) if podcast.get("hosts")
+                                            else guest_names(meta["title"], podcast))
             meta = {**meta, "guests": guests, **metadata_fields(meta["title"], meta["date"], body, podcast)}
         except Exception as e:
             warn(f"{path.name}: no metadata, {type(e).__name__}: {e}")
@@ -1358,6 +1374,11 @@ def main():
         if not args.dry_run:
             print(f"{podcast['slug']}: {count} new")
         total += count
+
+    if not args.dry_run and os.environ.get("TYPESAFE_API_KEY"):
+        # Metadata that failed when an episode was saved (a Jev error, say) is retried on the next run
+        for podcast in podcasts:
+            add_metadata(ROOT / "transcripts" / podcast["slug"], podcast)
 
     if not args.dry_run:
         build_catalog()
