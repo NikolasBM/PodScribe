@@ -79,5 +79,6 @@ feed = "https://feeds.fame.so/the-lean-ai-podcast-presented-by-eric-ries"
 since = 2024-08-06
 # Titles end "... with Jane Doe"; the one guest is named after that
 guest_title_pattern = "\\bwith (?P<guest>(?:Dr\\. )?[A-Z][\\w.'’-]+(?: [A-Z][\\w.'’-]+){1,2})\\s*$"
+max_speakers = 2
 phrases = ["Lean Startup", "Eric Ries", "Lean AI", "generative AI", "LLM", "use case"]
 

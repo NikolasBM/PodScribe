@@ -593,7 +593,7 @@ class TranscribeError(Exception):
     pass
 
 
-def transcribe(audio, phrases, diarize):
+def transcribe(audio, phrases, diarize, max_speakers=None):
     """Send audio to the fast transcription API with MAI-Transcribe; return the JSON result."""
     definition = {
         "enhancedMode": {
@@ -601,7 +601,7 @@ def transcribe(audio, phrases, diarize):
             "model": TRANSCRIBE_MODEL,
             "modelOptions": {"timestamps": "word", "transcribeStyle": "clean"},
         },
-        "diarization": {"enabled": diarize},
+        "diarization": {"enabled": diarize, **({"maxSpeakers": max_speakers} if diarize and max_speakers else {})},
     }
     if phrases:
         definition["phraseList"] = {"phrases": phrases}
@@ -632,15 +632,18 @@ def transcribe(audio, phrases, diarize):
         raise TranscribeError(f"HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:500]}") from None
 
 
-def transcribe_episode(audio, phrases):
+def transcribe_episode(audio, phrases, max_speakers=None):
     """Transcribe with speaker labels, falling back to none if the episode is too long for diarization."""
     try:
-        return transcribe(audio, phrases, diarize=True)
+        result = transcribe(audio, phrases, diarize=True, max_speakers=max_speakers)
     except TranscribeError as e:
         if "AudioLengthLimitExceeded" not in str(e):
             raise
         warn("too long for diarization, transcribing without speaker labels")
         return transcribe(audio, phrases, diarize=False)
+    voices = {p["speaker"] for p in result.get("phrases", []) if "speaker" in p}
+    print(f"  speakers found: {len(voices)}")
+    return result
 
 
 def format_timestamp(ms):
@@ -1119,7 +1122,7 @@ def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
         date_str = episode["date"].isoformat()
         try:
             audio = http_get(episode["audio_url"], timeout=300)
-            result = transcribe_episode(audio, podcast.get("phrases"))
+            result = transcribe_episode(audio, podcast.get("phrases"), podcast.get("max_speakers"))
         except Exception as e:
             warn(f"{date_str} {episode['title']}: {type(e).__name__}: {e}")
             continue
