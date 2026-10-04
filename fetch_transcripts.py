@@ -199,6 +199,11 @@ def substack_episodes(podcast, since, until):
     return episodes
 
 
+def speaker_guests(body, podcast):
+    """Everyone with a speaker label who is not one of the podcast's hosts."""
+    return [n for n in dict.fromkeys(re.findall(r"(?m)^\*\*([^*]+)\*\*", body)) if n not in podcast.get("hosts", [])]
+
+
 def clean_title(title):
     """Leading emoji and symbols (the science podcast's microscope, say) are noise in a title."""
     return re.sub(r"^[^\w]+", "", title).strip()
@@ -260,7 +265,7 @@ def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
         if body is None:  # a podcast post without a transcript (show notes only)
             continue
         title = clean_title(episode["title"])
-        guests = [n for n in dict.fromkeys(re.findall(r"(?m)^\*\*([^*]+)\*\*", body)) if n not in podcast.get("hosts", [])]
+        guests = speaker_guests(body, podcast)
         content = (
             f"# {title} — Transcript ({date_str})\n\n"
             f"{post.get('canonical_url') or podcast['site'] + '/p/' + episode['slug']} · {podcast['name']}\n\n"
@@ -814,7 +819,8 @@ def add_metadata(out_dir, podcast, force=False):
         head, sep, body = text.partition("\n---\n\n")
         title = (re.match(r"# (.+?) — Transcript", text) or [None, path.stem])[1]
         try:
-            block = metadata_block(title, path.name[:10], body, podcast, guest_names(title))
+            guests = speaker_guests(body, podcast) if podcast.get("hosts") else guest_names(title)
+            block = metadata_block(title, path.name[:10], body, podcast, guests)
         except Exception as e:
             warn(f"{path.name}: no metadata, {type(e).__name__}: {e}")
             continue
