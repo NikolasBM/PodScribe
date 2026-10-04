@@ -1143,6 +1143,8 @@ def main():
     parser.add_argument("--add-metadata", action="store_true",
                         help="Add the metadata block to saved transcripts of --podcast that lack one (needs TYPESAFE_API_KEY), then exit")
     parser.add_argument("--force", action="store_true", help="With --add-metadata: redo transcripts that already have one")
+    parser.add_argument("--probe", nargs="+", metavar="URL",
+                        help="Print the HTTP status and size of these URLs as this machine sees them (for debugging blocked feeds), then exit")
     args = parser.parse_args()
 
     # Episode titles can contain characters a Windows console can't encode
@@ -1155,6 +1157,19 @@ def main():
     except ValueError as e:
         print(f"Error parsing dates: {e}", file=sys.stderr)
         sys.exit(1)
+
+    if args.probe:
+        agents = {"PodScribe": USER_AGENT, "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+                  "apple": "Podcasts/1.0 CFNetwork/1494 Darwin/23.4.0"}
+        for url in args.probe:
+            for label, agent in agents.items():
+                try:
+                    request = urllib.request.Request(url, headers={"User-Agent": agent, "Accept": "application/rss+xml, application/xml, */*"})
+                    with urllib.request.urlopen(request, timeout=30) as response:
+                        print(f"{response.status} {len(response.read())} bytes  [{label}] {url}")
+                except Exception as e:
+                    print(f"{getattr(e, 'code', type(e).__name__)}  [{label}] {url}")
+        sys.exit(0)
 
     podcasts = tomllib.loads((ROOT / "podcasts.toml").read_text(encoding="utf-8"))["podcast"]
     if args.podcast:
