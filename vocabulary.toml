@@ -1,0 +1,580 @@
+# Shared vocabulary for episode metadata (categories, formats, levels, technologies).
+#
+# Compiled from a read-through of all 102 transcripts (2026-06-01 to 2026-10-01). Transcripts are machine
+# transcribed, so aliases list the spellings and mis-hearings that actually occur ("Soul" for Sol,
+# "Groq" for Grok, "Open Claw" ...). Matching is case-insensitive on word boundaries; an alias is plain text.
+#
+# [[term]]
+#   name     canonical name written to the metadata
+#   kind     model | product | company | concept | benchmark | event
+#   aliases  other spellings. Keep ambiguous words out ("Sol", "Dots", "Muse", "Kai" alone are common words):
+#            list them with their context instead ("GPT-6 Sol", "OpenAI Dots", "Meta Muse").
+#   exact_case  true if the name is also an everyday word ("Meta", "Cursor", "Warp"): match it capitalised only
+#   note     reminder for whoever maintains the list
+#
+# Product, model and company are separate terms on purpose: "Claude Code" (product) is not "Claude Opus 5.5"
+# (model) and neither is "Anthropic" (company).
+
+# --- Categories -------------------------------------------------------------
+# An episode gets at most four, and only for topics it discusses at length (not a passing mention).
+# `question` is what Jev is asked per category, so write it as a yes/no question about the episode.
+
+[categories.agents]
+question = "Does the episode discuss autonomous or persistent AI agents (personal agents, team agents, agent platforms, loops, harnesses) at length?"
+[categories.coding]
+question = "Does the episode discuss AI tools or practices for building software (coding agents, vibe coding, AI coding benchmarks) at length?"
+[categories.models]
+question = "Does the episode discuss specific AI model releases, benchmarks or capability comparisons at length?"
+[categories.model-strategy]
+question = "Does the episode discuss token pricing, cost per task, usage caps, model routing or choosing between models at length?"
+[categories.open-weights]
+question = "Does the episode discuss open-weight or Chinese models, local AI, distillation or model sovereignty at length?"
+[categories.enterprise]
+question = "Does the episode discuss how companies adopt, buy, govern or measure AI (budgets, ROI, procurement, deployments) at length?"
+[categories.work]
+question = "Does the episode discuss AI's effect on jobs, skills, training, productivity or how organisations and roles change at length?"
+[categories.safety-security]
+question = "Does the episode discuss AI safety, alignment, guardrails, rogue-agent incidents, cyber capabilities or catastrophic risk at length?"
+[categories.policy]
+question = "Does the episode discuss government action on AI (regulation, executive orders, export controls, geopolitics, lawsuits, public opinion) at length?"
+[categories.infrastructure]
+question = "Does the episode discuss chips, compute, data centers, energy, memory supply or capex at length?"
+[categories.funding-markets]
+question = "Does the episode discuss funding rounds, valuations, IPOs, earnings, acquisitions or market moves at length?"
+[categories.consumer]
+question = "Does the episode discuss consumer AI products (personal assistants, devices, voice, shopping agents) at length?"
+[categories.design]
+question = "Does the episode discuss AI for design and creative media (UI design, image, video, 3D, audio) at length?"
+[categories.marketing]
+question = "Does the episode discuss AI for marketing, content or sales work at length?"
+
+# --- Formats (exactly one per episode) ---------------------------------------
+
+[formats]
+news-roundup = "Headlines only, no main topic."
+news-analysis = "Headlines followed by one main topic analysed in depth. The default shape of The AI Daily Brief."
+commentary = "The host alone reads and comments on essays, reports or posts by others, or explains a topic (essay, primer, retrospective, long-read)."
+review = "Evaluation of a model or product, including aggregated reactions to a launch."
+tutorial = "How-to: techniques, frameworks or a webinar teaching a method."
+demo = "The host or a guest walks through using a tool or workflow on screen."
+interview = "A conversation with a named guest or co-host as the main content."
+
+# --- Levels (one per episode) -------------------------------------------------
+
+[levels]
+0 = "General audience, no technical background needed."
+1 = "Informed business or tech audience; technical words but no hands-on steps."
+2 = "Semi-technical: benchmarks, architectures, API or product detail."
+3 = "Hands-on: step-by-step building, code, evals or configuration."
+
+# --- Technologies -------------------------------------------------------------
+
+# Anthropic
+[[term]]
+name = "Anthropic"
+kind = "company"
+aliases = ["Entropy"]
+note = "ASR sometimes writes Anthropic as Entropy"
+
+[[term]]
+name = "Claude"
+kind = "product"
+aliases = ["Claude app", "Claude AI", "Claude Desktop", "Claude Projects"]
+note = "The chat app and brand. Specific models and products have their own terms."
+
+[[term]]
+name = "Claude Code"
+kind = "product"
+aliases = ["Claude Code", "Quad Code", "Claude Goat"]
+
+[[term]]
+name = "Claude Cowork"
+kind = "product"
+aliases = ["Cowork", "CoWork", "Co-work", "co work"]
+
+[[term]]
+name = "Claude Tag"
+kind = "product"
+aliases = ["Tag Claude", "Claude Tag"]
+note = "Claude Code in Slack / team agents"
+
+[[term]]
+name = "Claude Design"
+kind = "product"
+aliases = ["Claude /design"]
+
+[[term]]
+name = "Claude Fable"
+kind = "model"
+aliases = ["Fable 5.1", "Fable 5", "Fable-5", "Fable V", "Fable five", "Fabel", "Fable Extra High", "Claude Fable"]
+note = "Anthropic model family. Versions 5 and 5.1 are in the corpus. Bare 'Fable' is not an alias because it also appears as a common word."
+
+[[term]]
+name = "Claude Mythos"
+kind = "model"
+aliases = ["Mythos 5.1", "Mythos 5", "Mythos-5", "Mythos Preview", "Mythos"]
+
+[[term]]
+name = "Claude Opus"
+kind = "model"
+aliases = ["Opus 5.5", "Opus 55", "Opus 5", "Opus 4.8", "Opus 4-8", "Opus 48", "Opus 4.7", "Opus 4A", "Claude Opus"]
+
+[[term]]
+name = "Claude Sonnet"
+kind = "model"
+aliases = ["Sonnet 5.5", "Sonnet 55", "Sonnet 5", "Sonnet 4.6", "Sonnet 46", "Claude Sonnet"]
+
+[[term]]
+name = "Claude Haiku"
+kind = "model"
+aliases = ["Haiku 4.5", "Claude Haiku"]
+
+[[term]]
+name = "Project Glasswing"
+kind = "event"
+aliases = ["Glasswing"]
+note = "Anthropic's cyber access program around Mythos"
+
+# OpenAI
+[[term]]
+name = "OpenAI"
+kind = "company"
+aliases = []
+
+[[term]]
+name = "ChatGPT"
+kind = "product"
+aliases = ["ChatGPT Work", "GPT Work", "ChatGPT@work", "ChatGPT workspace agent", "ChatGPT Workspace Agent", "ChatGPT Spaces"]
+
+[[term]]
+name = "OpenAI Codex"
+kind = "product"
+aliases = ["Codex", "Codex CLI", "Codex app", "GoDex"]
+
+[[term]]
+name = "ChatGPT Sites"
+kind = "product"
+aliases = ["Codex Sites", "ChatGPT Sites"]
+
+[[term]]
+name = "GPT-5.5"
+kind = "model"
+aliases = ["GPT 5.5", "GPT-55", "GPT-5.5 Instant", "GPT 55"]
+
+[[term]]
+name = "GPT-5.6"
+kind = "model"
+aliases = ["GPT 5.6", "GPT-5.6 Sol", "5.6 Sol", "5.6 Soul", "5-6 Soul", "5 6 Soul", "56 Soul", "GPT-5.6 Luna", "5.6 Luna", "GPT-5.6 Terra", "5.6 Terra"]
+note = "Tiers Sol, Terra, Luna. 'Soul'/'Sole'/'Seoul' are mis-hearings of Sol."
+
+[[term]]
+name = "GPT-6"
+kind = "model"
+aliases = ["GPT 6", "GPT-6 Astra", "GPT-6 Sol", "GPT-6 Luna", "GPT-6.1 Sol", "GPT-6.1", "Astra", "Astro"]
+note = "Tiers Astra, Sol, Luna. 'Astra' appears as 'Astro' in some transcripts."
+
+[[term]]
+name = "GPT Live"
+kind = "product"
+aliases = ["GPT Live 1", "ChatGPT Live", "GPT Realtime 2", "GPT Realtime"]
+
+[[term]]
+name = "ChatGPT Images"
+kind = "product"
+aliases = ["ChatGPT Images 2.5", "GPT Image 2"]
+
+[[term]]
+name = "OpenAI Dots"
+kind = "product"
+aliases = ["Dots agent", "OpenAI Dots"]
+note = "Personal always-on agent announced at DevDay 2026"
+
+[[term]]
+name = "OpenAI Decisions API"
+kind = "product"
+aliases = ["Decisions API"]
+
+# SpaceX AI / xAI
+[[term]]
+name = "SpaceX AI"
+kind = "company"
+aliases = ["xAI", "X AI", "SpaceXAI", "SpaceX/xAI"]
+note = "xAI was merged into SpaceX; same corporate group. Also owns Cursor."
+
+[[term]]
+name = "Grok"
+kind = "model"
+aliases = ["Grok 4.7", "Grok 4.6", "Grok 4.5", "Groq 4.5", "Groq 4.6", "Groq 4.7", "Groq Heavy", "SuperGrok"]
+note = "Groq (with a q) is a chip company; in transcripts it is also a frequent mis-hearing of Grok."
+
+[[term]]
+name = "Grok Build"
+kind = "product"
+aliases = ["Groq Build"]
+
+[[term]]
+name = "Grok Bot"
+kind = "product"
+aliases = ["GrokBot", "Grokbot", "Grok bot", "Grok bots", "Groq Bot", "GroqBot"]
+note = "Agent platform from SpaceX AI. Bots made on it are instances, not products."
+
+[[term]]
+name = "Cursor"
+kind = "product"
+aliases = ["Cursor Composer", "Composer 2.5", "Composer 3", "Cursor Projects", "Cursor Router"]
+exact_case = true
+
+# Meta
+[[term]]
+name = "Meta"
+kind = "company"
+aliases = ["Meta Superintelligence"]
+exact_case = true
+
+[[term]]
+name = "Meta Muse"
+kind = "product"
+aliases = ["Muse app", "Muse Charm", "Muse for Mac", "Meta's Muse"]
+note = "The personal agent. 'Muse' alone is ambiguous (also the Muse Spark model line)."
+
+[[term]]
+name = "Muse Spark"
+kind = "model"
+aliases = ["MuSpark", "Mu Spark", "Muse Spark 1.1", "Muse Spark 1.2", "Muse Spark 1.3", "Muse Glimmer", "Muse Image", "Muse Code"]
+
+# Google
+[[term]]
+name = "Gemini"
+kind = "model"
+aliases = ["Gemini 3.5 Pro", "Gemini 3.5 Flash", "Gemini 3.6 Flash", "Gemini 3.7 Flash", "Gemini 3.8 Flash", "Gemini 3.8 Live", "Gemini 4", "Gemini 4 Argon", "Gemini Omni", "Gemini Enterprise", "Gemini Flash Lite", "Gemini Flashlite"]
+
+[[term]]
+name = "Google DeepMind"
+kind = "company"
+aliases = ["DeepMind"]
+
+[[term]]
+name = "Gemma"
+kind = "model"
+aliases = ["Gemma 4"]
+
+[[term]]
+name = "Google Antigravity"
+kind = "product"
+aliases = ["Antigravity", "Anti-gravity", "Anti Gravity"]
+
+[[term]]
+name = "Nano Banana"
+kind = "model"
+aliases = ["NanoBanana"]
+
+[[term]]
+name = "NotebookLM"
+kind = "product"
+aliases = ["Notebook LM", "Gemini Notebook"]
+
+# Open-weight and Chinese models
+[[term]]
+name = "GLM"
+kind = "model"
+aliases = ["GLM 5.1", "GLM 5.2", "GLM 5.3", "GLM 52", "GLM 5.3 Flash", "Z.ai", "ZAI", "Zhipu"]
+note = "Z.ai (Zhipu) is the maker."
+
+[[term]]
+name = "Kimi"
+kind = "model"
+aliases = ["Kimi K3", "Kimi K2.7", "Kimi K2.6", "Kimi K2.5", "Kimi K-3", "Kimmy", "Qimi"]
+note = "Moonshot is the maker (the word is too common to use as an alias)."
+
+[[term]]
+name = "DeepSeek"
+kind = "model"
+aliases = ["DeepSeek V4", "DeepSeek V4 Pro", "DeepSeek V4 Flash", "DeepSeek Harness"]
+
+[[term]]
+name = "Qwen"
+kind = "model"
+aliases = ["Qwen 3.8", "Qwen 3.8 Max", "Quen", "Alibaba Qwen"]
+
+[[term]]
+name = "MiniMax"
+kind = "model"
+aliases = ["MiniMax M3"]
+
+[[term]]
+name = "ByteDance Seed"
+kind = "model"
+aliases = ["Seed 2.1", "Seedance 2.5", "CDance"]
+
+[[term]]
+name = "Nvidia Nemotron"
+kind = "model"
+aliases = ["Nemotron", "Nemo Tron", "Nemotron 3 Ultra", "Nemotron 3.5"]
+
+[[term]]
+name = "Nvidia"
+kind = "company"
+aliases = ["NVIDIA", "Vera Rubin", "Blackwell"]
+
+# Other labs and platforms
+[[term]]
+name = "Microsoft MAI"
+kind = "model"
+aliases = ["MAI Thinking 1", "MAI models", "Frontier Tuning", "Microsoft Frontier Tuning"]
+
+[[term]]
+name = "Microsoft Copilot"
+kind = "product"
+aliases = ["Copilot", "GitHub Copilot", "Copilot Cowork"]
+
+[[term]]
+name = "Thinking Machines"
+kind = "company"
+aliases = ["Thinking Machines Lab", "Tinker", "Inkling"]
+exact_case = true
+
+[[term]]
+name = "Hugging Face"
+kind = "company"
+aliases = ["Hugging Faces"]
+
+[[term]]
+name = "Hugging Face incident"
+kind = "event"
+aliases = ["Hugging Face hack", "Hugging Face breach", "OpenAI Hugging Face incident", "rogue agent incident"]
+note = "An OpenAI pre-release agent escaped its sandbox and attacked Hugging Face; recurring reference in the corpus."
+
+[[term]]
+name = "OpenRouter"
+kind = "product"
+aliases = ["Open Router", "OpenRouter Fusion"]
+
+[[term]]
+name = "Vercel AI Gateway"
+kind = "product"
+aliases = ["Vercel Gateway", "AI Gateway"]
+
+[[term]]
+name = "Cognition Devin"
+kind = "product"
+aliases = ["Devin", "Devon", "Devin Voice", "SWE-1.7", "SWE-2", "Cognition SWE-1.7", "Cognition SWE-2"]
+
+[[term]]
+name = "Replit"
+kind = "product"
+aliases = ["Replit Agent"]
+
+[[term]]
+name = "Lovable"
+kind = "product"
+aliases = []
+exact_case = true
+
+[[term]]
+name = "Warp"
+kind = "product"
+aliases = ["Warp Factories", "Warp.dev"]
+exact_case = true
+
+[[term]]
+name = "Stripe Kai"
+kind = "product"
+aliases = ["Stripe's Kai", "Kai company brain", "Kai"]
+exact_case = true
+note = "Stripe's internal company agent"
+
+[[term]]
+name = "Figma"
+kind = "product"
+aliases = ["Figma MCP", "Figma Slides"]
+
+[[term]]
+name = "Perplexity"
+kind = "product"
+aliases = ["Perplexity Computer", "Perplexity Comet"]
+
+[[term]]
+name = "Manus"
+kind = "product"
+aliases = []
+exact_case = true
+
+[[term]]
+name = "ElevenLabs"
+kind = "product"
+aliases = ["Eleven Labs", "ElevenLabs MCP"]
+
+[[term]]
+name = "ChatPRD"
+kind = "product"
+aliases = ["Chat PRD"]
+note = "Claire Vo's company; mentioned in nearly every How I AI episode, so only a featured term when central."
+
+[[term]]
+name = "Granola"
+kind = "product"
+aliases = ["Granola MCP"]
+exact_case = true
+note = "Also an AIDB sponsor; sponsor reads are stripped before tagging."
+
+[[term]]
+name = "Whisperflow"
+kind = "product"
+aliases = ["Wispr Flow", "Whisper Flow", "Whispr Flow"]
+
+[[term]]
+name = "Blender"
+kind = "product"
+aliases = []
+exact_case = true
+
+# Agent products and open-source agents
+[[term]]
+name = "OpenClaw"
+kind = "product"
+aliases = ["Open Claw", "OpenClau", "OpenCloud", "Open Cloud", "OpenClot", "Moltbot", "Clawdbot", "Enterprise Claw", "Claw Code", "Claw Camp", "ClawCamp"]
+note = "One project, many spellings. Its founder is Peter Steinberger."
+
+[[term]]
+name = "Hermes Agent"
+kind = "product"
+aliases = ["Hermes", "Hermes Desktop"]
+
+[[term]]
+name = "Instinct"
+kind = "product"
+aliases = ["Instinct agent"]
+exact_case = true
+
+[[term]]
+name = "Jev"
+kind = "model"
+aliases = ["TypeSafe", "Typesafe", "TypeSafe AI", "System One model", "judgment model", "Jev model", "JLM"]
+note = "TypeSafe AI's decision model. 'JLM' is a mis-hearing."
+
+# Protocols, benchmarks and concepts
+[[term]]
+name = "MCP"
+kind = "concept"
+aliases = ["Model Context Protocol", "MCP server", "MCP servers"]
+
+[[term]]
+name = "agent harness"
+kind = "concept"
+aliases = ["harness", "harnesses", "harness engineering", "model harness", "coding harness"]
+note = "Generic concept, not a product. Muse Code and Claude Code are products."
+
+[[term]]
+name = "agent loops"
+kind = "concept"
+aliases = ["loop engineering", "/goal", "Ralph Wiggum loop", "agentic loop", "agent loop"]
+
+[[term]]
+name = "agent skills"
+kind = "concept"
+aliases = ["skills library", "Claude skills", "agent skill"]
+
+[[term]]
+name = "multiplayer agents"
+kind = "concept"
+aliases = ["multiplayer AI", "team agents", "shared agents", "agentic pods", "company brain"]
+
+[[term]]
+name = "computer use"
+kind = "concept"
+aliases = ["browser use", "computer-use agents", "computer use agent"]
+
+[[term]]
+name = "vibe coding"
+kind = "concept"
+aliases = ["agentic coding", "agentic engineering"]
+
+[[term]]
+name = "recursive self-improvement"
+kind = "concept"
+aliases = ["RSI", "AI builds itself"]
+
+[[term]]
+name = "distillation"
+kind = "concept"
+aliases = ["distilling", "distilled"]
+
+[[term]]
+name = "open-weight models"
+kind = "concept"
+aliases = ["open weights", "open-weights", "open weight"]
+note = "'Open source' is used loosely for the same thing; the tag is open-weight."
+
+[[term]]
+name = "model routing"
+kind = "concept"
+aliases = ["model router", "model routers", "routers", "token routers"]
+
+[[term]]
+name = "Pacing the Frontier"
+kind = "event"
+aliases = ["We Must Pace the Frontier", "pacing the frontier letter"]
+note = "Dario Amodei's essay and the open letter around it (autumn 2026)."
+
+[[term]]
+name = "Artificial Analysis"
+kind = "benchmark"
+aliases = ["Artificial Analysis Intelligence Index"]
+
+[[term]]
+name = "SWE-bench"
+kind = "benchmark"
+aliases = ["SWE-bench Pro", "SWE bench Pro", "Swebench Pro"]
+
+[[term]]
+name = "Terminal Bench"
+kind = "benchmark"
+aliases = ["Terminal-Bench", "Terminal Bench 2.0", "Terminal Bench 2.1", "Terminal Bench 4.0"]
+
+[[term]]
+name = "GDPval"
+kind = "benchmark"
+aliases = ["GDP Val", "GDPVal"]
+
+[[term]]
+name = "ARC-AGI"
+kind = "benchmark"
+aliases = ["ARC-AGI-3", "ARC AGI"]
+
+[[term]]
+name = "METR"
+kind = "company"
+aliases = ["Meter time horizon"]
+note = "Evaluation org; spelled 'Meter' in transcripts, which is too common a word to alias on its own."
+
+# Big platforms that are discussed as companies (kept short on purpose; people are not tagged)
+[[term]]
+name = "Google"
+kind = "company"
+aliases = ["Google Gemini team"]
+
+[[term]]
+name = "Microsoft"
+kind = "company"
+aliases = []
+
+[[term]]
+name = "Amazon"
+kind = "company"
+aliases = ["AWS", "Amazon Web Services", "Bedrock", "Trainium"]
+
+[[term]]
+name = "Apple"
+kind = "company"
+aliases = []
+exact_case = true
+
+[[term]]
+name = "Slack"
+kind = "product"
+aliases = []
+
+[[term]]
+name = "Stripe"
+kind = "company"
+aliases = ["Stripe Link"]
