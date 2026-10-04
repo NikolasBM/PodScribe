@@ -45,7 +45,7 @@ JEV_MIN_INTERVAL = 0.06  # seconds between requests, to stay under the 1,200 req
 JEV_URL = "https://api.typesafe.ai/v1/systemone"
 JEV_MODEL = "jev-1.13.0"
 JEV_AD_THRESHOLD = 0.5
-JEV_EDGE_THRESHOLD = 0.3
+JEV_EDGE_THRESHOLD = 0.45
 JEV_MAX_GAP = 6
 JEV_SPONSOR_REACH = 2  # sentences a read may grow outwards over, if they name one of the podcast's ad_sponsors
 JEV_MIN_FLAGGED = 5
@@ -417,12 +417,14 @@ def jev_scores(sentences, text, skip=()):
         return dict(zip(todo, pool.map(judge, todo)))
 
 
-def jev_ads(sentences, secs, scores, near=(), sponsor=lambda k: False):
+def jev_ads(sentences, secs, scores, near=(), sponsor=lambda k: False, anchored=lambda k: True):
     """Sentence indexes of sponsor reads according to Jev's scores.
 
     Code, not Jev, decides what gets cut: sentences scoring >= JEV_AD_THRESHOLD seed a read, runs
     separated by at most JEV_MAX_GAP sentences are joined, a read needs >= JEV_MIN_FLAGGED flagged
-    sentences (or to touch a cue-detected ad in `near`) and must fit in MAX_AD_SECONDS. A read then
+    sentences (or to touch a cue-detected ad in `near`), must fit in MAX_AD_SECONDS and must contain an
+    anchor (`anchored`: a web address or a sponsor's name), since ad-like copy elsewhere (a quoted
+    product announcement, say) has neither. A read then
     grows outwards over sentences scoring >= JEV_EDGE_THRESHOLD, since Jev is least sure at the edges,
     and over up to JEV_SPONSOR_REACH sentences that name a sponsor.
     """
@@ -438,6 +440,8 @@ def jev_ads(sentences, secs, scores, near=(), sponsor=lambda k: False):
     for group in groups:
         touches_cue = any(abs(k - c) <= 2 for k in (group[0], group[-1]) for c in near)
         if len(group) < JEV_MIN_FLAGGED and not touches_cue:
+            continue
+        if not any(anchored(k) for k in range(group[0], group[-1] + 1)):
             continue
         start, end = group[0], group[-1]
         reach = JEV_SPONSOR_REACH
@@ -489,8 +493,9 @@ def detect_ads(flat, podcast, use_jev=True):
     if use_jev and os.environ.get("TYPESAFE_API_KEY"):
         scores = jev_scores(flat.index, flat.text, skip=cues)
         sponsors = [re.compile(rf"\b{re.escape(name)}\b") for name in podcast.get("ad_sponsors", [])]
-        jev = jev_ads(flat.index, flat.secs, scores, near=cues,
-                      sponsor=lambda k: any(r.search(flat.text(k)) for r in sponsors))
+        named = lambda k: any(r.search(flat.text(k)) for r in sponsors)
+        jev = jev_ads(flat.index, flat.secs, scores, near=cues, sponsor=named,
+                      anchored=lambda k: named(k) or bool(DOMAIN_RE.search(flat.text(k))))
     return cues, jev, scores
 
 
