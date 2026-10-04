@@ -7,7 +7,9 @@ source = "rss" are transcribed from their RSS audio with Azure MAI-Transcribe.
 import argparse
 import collections
 import csv
+import difflib
 import html
+import io
 import itertools
 import json
 import os
@@ -17,9 +19,11 @@ import threading
 import time
 import tomllib
 import urllib.error
+import unicodedata
 import urllib.request
 import uuid
 import xml.etree.ElementTree as ET
+import zipfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 from email.utils import parsedate_to_datetime
@@ -359,6 +363,166 @@ def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
     return count
 
 
+# --- source = "folder" ------------------------------------------------------
+# Transcripts shared as a Dropbox folder of plain-text files named after the guest. The RSS feed gives each file
+# its episode: title, date and link. Needs the folder's link in the environment variable `folder_url_env`.
+
+FOLDER_SECONDS_TOLERANCE = 90
+
+
+def folder_files(url):
+    """{file stem: text} for the .txt files of a shared Dropbox folder (downloaded as one zip)."""
+    url = re.sub(r"([?&])dl=0", r"\1dl=1", url)
+    if "dl=1" not in url:
+        url += ("&" if "?" in url else "?") + "dl=1"
+    files = {}
+    with zipfile.ZipFile(io.BytesIO(http_get(url, timeout=300))) as archive:
+        for info in archive.infolist():
+            if info.filename.endswith(".txt") and not info.is_dir():
+                stem = re.sub(r"#U([0-9a-f]{4})", lambda m: chr(int(m[1], 16)), Path(info.filename).stem)
+                files[stem] = archive.read(info).decode("utf-8", errors="replace")
+    return files
+
+
+def plain_last_seconds(text):
+    stamps = re.findall(r"\((\d+):(\d\d)(?::(\d\d))?\):", text)
+    if not stamps:
+        return None
+    a, b, c = stamps[-1]
+    return int(a) * 3600 + int(b) * 60 + int(c) if c else int(a) * 60 + int(b)
+
+
+def _words(text):
+    return re.sub(r"[^a-z0-9 ]", " ", unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()).split()
+
+
+def _name_in(name, words):
+    def near(token):  # tolerate a typo in longer names ("Schoenig" for "Schoening")
+        return token in words or (len(token) > 4 and any(
+            abs(len(w) - len(token)) <= 2 and difflib.SequenceMatcher(None, token, w).ratio() >= 0.85 for w in words))
+    tokens = [t for t in _words(name) if len(t) > 1]
+    if not tokens:
+        return False
+    if len(tokens) == 1:
+        return tokens[0] in words
+    return " ".join(tokens) in " ".join(words) or (near(tokens[0]) and near(tokens[-1]))
+
+
+def folder_stem_names(stem):
+    """The guest name(s) in a file name: "Elena Verna 2.0" -> ["Elena Verna"], "A + B" -> ["A", "B"]."""
+    base = re.match(r"^(.*?)(?:[\s_]+V?\d+(?:\.0)?)?$", stem.replace("_", " ").strip())[1]
+    base = re.sub(r"(?i)\b(live|part \d)\b", "", base)
+    return [p.strip() for p in re.split(r"\s*[&+,]\s*|\s+and\s+", base) if p.strip()]
+
+
+def match_folder_files(files, episodes):
+    """{episode guid: file stem}. A file belongs to the episode whose title names its guest and whose length matches
+    the file's last timestamp (guests come back, so the name alone is not enough); then by description, then by
+    length alone."""
+    seconds = {stem: plain_last_seconds(text) for stem, text in files.items()}
+
+    def close(episode, stem, tolerance=FOLDER_SECONDS_TOLERANCE):
+        return None not in (episode["seconds"], seconds[stem]) and abs(episode["seconds"] - seconds[stem]) <= tolerance
+
+    assigned, used = {}, set()
+
+    def free(episode):
+        return episode["guid"] not in used
+
+    def pick(stem, candidates):
+        candidates = [e for e in candidates if free(e)]
+        near = [e for e in candidates if close(e, stem)]
+        chosen = min(near, key=lambda e: abs(e["seconds"] - seconds[stem])) if near else (
+            candidates[0] if len(candidates) == 1 and seconds[stem] is None else None)
+        if chosen:
+            assigned[chosen["guid"]] = stem
+            used.add(chosen["guid"])
+        return chosen
+
+    for stem in files:
+        names = folder_stem_names(stem)
+        if names:
+            pick(stem, [e for e in episodes if all(_name_in(n, _words(e["title"])) for n in names)])
+    taken = set(assigned.values())
+    for stem in files:
+        names = folder_stem_names(stem)
+        if stem not in taken and names:
+            pick(stem, [e for e in episodes if all(_name_in(n, _words(e["description"])) for n in names)])
+    taken = set(assigned.values())
+    for stem in files:
+        if stem not in taken:
+            near = [e for e in episodes if free(e) and close(e, stem, tolerance=45)]
+            if len(near) == 1:
+                assigned[near[0]["guid"]] = stem
+                used.add(near[0]["guid"])
+    return assigned
+
+
+def plain_transcript_body(text, host=None):
+    """`Name (H:MM:SS):` followed by lines of speech, in blocks -> `**Name** [HH:MM:SS] speech`, `(H:MM:SS):` -> `[HH:MM:SS] speech`."""
+    header_re = re.compile(r"^(?:(?P<name>.+?)\s+)?\((?P<ts>\d+:\d\d(?::\d\d)?)\):\s*(?P<rest>.*)$")
+    paragraphs, current = [], None
+    for line in text.replace("\r\n", "\n").split("\n"):
+        header = header_re.match(line.strip())
+        if header:
+            current = {"name": (header["name"] or "").strip(), "ts": stamp(header["ts"]), "text": [header["rest"]] if header["rest"] else []}
+            paragraphs.append(current)
+        elif line.strip() and current is not None:
+            current["text"].append(line.strip())
+    out = []
+    for p in paragraphs:
+        name = p["name"]
+        if host and name and name == host.split()[0]:
+            name = host
+        speech = " ".join(" ".join(p["text"]).split())
+        if speech:
+            out.append(f"{'**' + name + '** ' if name else ''}[{p['ts']}] {speech}")
+    return "\n\n".join(out)
+
+
+def fetch_folder(podcast, out_dir, since, until, limit, dry_run):
+    """Import transcripts from the shared folder for the feed's episodes. Returns number saved."""
+    try:
+        episodes = parse_feed(http_get(podcast["feed"], timeout=30))
+    except Exception as e:
+        warn(f"{podcast['slug']}: feed: {type(e).__name__}: {e}")
+        return 0
+    done = existing_guids(out_dir)
+    todo = [e for e in episodes if since <= e["date"] <= until and e["guid"] not in done]
+    if not todo:
+        return 0
+    if dry_run:
+        for episode in todo:
+            print(f"would look for {episode['date']}: {episode['title']}")
+        return 0
+    url = os.environ.get(podcast.get("folder_url_env", ""))
+    if not url:
+        warn(f"{podcast['slug']}: {len(todo)} episodes waiting, but {podcast.get('folder_url_env')} is not set")
+        return 0
+    try:
+        files = folder_files(url)
+    except Exception as e:
+        warn(f"{podcast['slug']}: folder: {type(e).__name__}: {e}")
+        return 0
+    matched = match_folder_files(files, episodes)  # all episodes, so a returning guest is matched by length
+    count = 0
+    for episode in todo:
+        stem = matched.get(episode["guid"])
+        if stem is None:
+            print(f"not in the folder yet: {episode['date']} {episode['title']}")
+            continue
+        if limit is not None and count >= limit:
+            break
+        date_str = episode["date"].isoformat()
+        body = strip_ads(plain_transcript_body(files[stem], podcast.get("host")), podcast)
+        meta = try_metadata(episode_meta(podcast, episode["title"], date_str, episode["link"] or None, episode["guid"],
+                                         transcript_source="shared-folder"), body, podcast, speaker_guests(body, podcast))
+        (out_dir / f"{date_str} - {sanitize_filename(episode['title'])}.md").write_text(render_doc(meta, body), encoding="utf-8", newline="\n")
+        print(f"saved {date_str}: {episode['title']}  <- {stem}.txt")
+        count += 1
+    return count
+
+
 # --- source = "rss" ---------------------------------------------------------
 
 def parse_feed(xml_bytes):
@@ -369,12 +533,16 @@ def parse_feed(xml_bytes):
         pub_date = item.findtext("pubDate")
         if enclosure is None or not enclosure.get("url") or not pub_date:
             continue
+        duration = (item.findtext("{http://www.itunes.com/dtds/podcast-1.0.dtd}duration") or "").strip()
+        parts = [int(x) for x in duration.split(":")] if re.fullmatch(r"\d+(:\d+){0,2}", duration) else []
         episodes.append({
             "guid": (item.findtext("guid") or enclosure.get("url")).strip(),
             "title": " ".join((item.findtext("title") or "").split()),
             "date": parsedate_to_datetime(pub_date).date(),
             "audio_url": enclosure.get("url"),
             "link": (item.findtext("link") or "").strip(),
+            "seconds": sum(x * 60 ** i for i, x in enumerate(reversed(parts))) if parts else None,
+            "description": re.sub(r"<[^>]+>", " ", item.findtext("description") or "")[:1500],
         })
     return sorted(episodes, key=lambda e: e["date"])
 
@@ -1031,6 +1199,8 @@ def main():
             count = fetch_published(podcast, out_dir, since, until, args.limit)
         elif podcast["source"] == "substack":
             count = fetch_substack(podcast, out_dir, since_arg or floor, until, args.limit, args.dry_run)
+        elif podcast["source"] == "folder":
+            count = fetch_folder(podcast, out_dir, since_arg or floor, until, args.limit, args.dry_run)
         elif podcast["source"] == "rss":
             since = since_arg or floor
             count = fetch_rss(podcast, out_dir, since, until, args.limit, args.dry_run)

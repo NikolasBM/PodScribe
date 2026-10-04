@@ -52,3 +52,17 @@ host = "Swyx"
 hosts = ["Swyx", "Alessio", "Vibhu", "Voiceover", "Sarah Guo", "Elad Gil"]
 # The transcripts have no sponsor reads in the text, so skip sponsor removal
 strip_ads = false
+
+[[podcast]]
+slug = "lennys-podcast"
+name = "Lenny's Podcast"
+# Transcripts come from a shared Dropbox folder (the link is in the secret LENNY_FOLDER_URL, not in this file);
+# the feed supplies each episode's title, date and link
+source = "folder"
+feed = "https://api.substack.com/feed/podcast/10845.rss"
+folder_url_env = "LENNY_FOLDER_URL"
+since = 2026-01-01
+host = "Lenny Rachitsky"
+hosts = ["Lenny Rachitsky"]
+ad_start_cues = ["brought to you by"]
+
