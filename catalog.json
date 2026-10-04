@@ -273,8 +273,8 @@
   "length": "00:25:56",
   "categories": [
    "model-strategy",
-   "models",
-   "coding"
+   "coding",
+   "models"
   ],
   "featured": [
    "Jev",
@@ -511,14 +511,14 @@
    "GPT-6",
    "Claude",
    "Anthropic",
-   "OpenAI",
-   "agent harness"
+   "OpenAI"
   ],
   "mentioned": [
    "Grok",
    "OpenAI Codex",
    "computer use",
    "ChatPRD",
+   "agent harness",
    "OpenClaw"
   ],
   "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Opus-5-5-vs--GPT-6-Sol-which-model-won-my-blind-taste-test-e3p8okk",

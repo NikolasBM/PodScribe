@@ -9,7 +9,7 @@ host: "Claire Vo"
 format: "tutorial"
 level: 2
 length: "00:25:56"
-categories: ["model-strategy", "models", "coding"]
+categories: ["model-strategy", "coding", "models"]
 featured: ["Jev", "ChatPRD"]
 mentioned: ["GPT-6", "OpenAI Codex", "Claude Code", "Grok", "Meta Muse", "Grok Bot", "Gemini"]
 transcript_source: "azure-asr"
