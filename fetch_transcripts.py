@@ -177,7 +177,7 @@ def try_metadata(meta, body, podcast, guests=None):
     if not os.environ.get("TYPESAFE_API_KEY"):
         return meta
     try:
-        guests = guest_names(meta["title"]) if guests is None else guests
+        guests = guest_names(meta["title"], podcast) if guests is None else guests
         return {**meta, "guests": guests, **metadata_fields(meta["title"], meta["date"], body, podcast)}
     except Exception as e:
         warn(f"{meta['date']}: no metadata, {type(e).__name__}: {e}")
@@ -649,8 +649,12 @@ def format_timestamp(ms):
     return f"[{s // 3600:02d}:{s % 3600 // 60:02d}:{s % 60:02d}]"
 
 
-def guest_names(title):
-    """Guests named after a " | " in the title, e.g. "Topic | Jane Doe & John Roe (CEO, Acme)"."""
+def guest_names(title, podcast=None):
+    """Guests named after a " | " in the title, e.g. "Topic | Jane Doe & John Roe (CEO, Acme)". A podcast whose titles
+    end "... with Jane Doe" sets `guest_title_pattern` (a regex with a named group `guest`)."""
+    if podcast and podcast.get("guest_title_pattern"):
+        match = re.search(podcast["guest_title_pattern"], title)
+        return [match["guest"]] if match else []
     if " | " not in title:
         return []
     tail = re.sub(r"\s*\(.*?\)", "", title.rsplit(" | ", 1)[1])
@@ -1079,7 +1083,7 @@ def add_metadata(out_dir, podcast, force=False):
         if "categories" in meta and not force:
             continue
         try:
-            guests = speaker_guests(body, podcast) if podcast.get("hosts") else guest_names(meta["title"])
+            guests = speaker_guests(body, podcast) if podcast.get("hosts") else guest_names(meta["title"], podcast)
             meta = {**meta, "guests": guests, **metadata_fields(meta["title"], meta["date"], body, podcast)}
         except Exception as e:
             warn(f"{path.name}: no metadata, {type(e).__name__}: {e}")
@@ -1120,7 +1124,7 @@ def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
             warn(f"{date_str} {episode['title']}: {type(e).__name__}: {e}")
             continue
 
-        names = speaker_names(result.get("phrases", []), podcast, guest_names(episode["title"]))
+        names = speaker_names(result.get("phrases", []), podcast, guest_names(episode["title"], podcast))
         body = strip_ads(render_transcript(result, names), podcast)
         meta = try_metadata(episode_meta(podcast, episode["title"], date_str, episode["link"] or None, episode["guid"],
                                          transcript_source="azure-asr", transcribed_by=TRANSCRIBE_MODEL), body, podcast)
