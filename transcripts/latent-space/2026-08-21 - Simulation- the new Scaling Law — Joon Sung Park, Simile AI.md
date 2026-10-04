@@ -6,8 +6,8 @@ https://www.latent.space/p/simile · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:09:31
-Host: Swyx
-Categories: agents, models, enterprise
+Host: Swyx · Guests: Joon
+Categories: agents, enterprise, models
 Featured: none
 Also mentioned: ChatGPT, Claude, OpenClaw, Figma
 <!-- /metadata -->

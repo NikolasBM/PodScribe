@@ -6,7 +6,7 @@ https://www.latent.space/p/anj · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 1 · Length: ~00:59:15
-Host: Swyx
+Host: Swyx · Guests: Anjney
 Categories: infrastructure, enterprise, safety-security
 Featured: Anthropic
 Also mentioned: Claude

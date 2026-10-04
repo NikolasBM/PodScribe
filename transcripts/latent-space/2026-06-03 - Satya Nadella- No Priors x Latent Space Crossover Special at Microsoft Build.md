@@ -5,8 +5,8 @@ https://www.latent.space/p/satya-2026 · Latent Space
 <!-- guid: substack:200432443 -->
 
 <!-- metadata -->
-Format: interview · Level: 1 · Length: ~00:38:00
-Host: Swyx
+Format: interview · Level: 2 · Length: ~00:38:00
+Host: Swyx · Guests: Satya Nadella, swyx
 Categories: agents, work, coding, enterprise
 Featured: Microsoft, agent harness, Microsoft MAI, Microsoft Copilot
 Also mentioned: none

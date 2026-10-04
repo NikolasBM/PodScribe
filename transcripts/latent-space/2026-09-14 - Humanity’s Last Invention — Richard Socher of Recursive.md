@@ -6,7 +6,7 @@ https://www.latent.space/p/recursive · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:31:59
-Host: Swyx
+Host: Swyx · Guests: Richard Socher
 Categories: safety-security, agents, models, coding
 Featured: recursive self-improvement
 Also mentioned: agent harness, Claude, ChatGPT, GPT-5.6, Whisperflow

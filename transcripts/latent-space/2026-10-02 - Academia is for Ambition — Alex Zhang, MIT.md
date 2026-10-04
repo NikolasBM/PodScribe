@@ -6,10 +6,10 @@ https://www.latent.space/p/rlm · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:41:19
-Host: Swyx
-Categories: agents, coding, models, model-strategy
+Host: Swyx · Guests: Alex Zhang
+Categories: agents, models, coding, model-strategy
 Featured: agent harness, Jev
-Also mentioned: GPT-6, Kimi, SWE-bench, ARC-AGI, Qwen, Claude Code, OpenAI Codex, Gemini, Grok Bot, Claude, Hugging Face incident, model routing, Google Antigravity
+Also mentioned: GPT-6, Kimi, SWE-bench, ARC-AGI, Qwen, OpenAI Codex, Gemini, Claude, Claude Code, Grok Bot, Hugging Face incident, model routing, Google Antigravity
 <!-- /metadata -->
 
 ---

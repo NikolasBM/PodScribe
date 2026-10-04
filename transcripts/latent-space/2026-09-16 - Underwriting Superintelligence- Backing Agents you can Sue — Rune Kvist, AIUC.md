@@ -6,7 +6,7 @@ https://www.latent.space/p/aiuc · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 1 · Length: ~01:26:00
-Host: Swyx
+Host: Swyx · Guests: Rune Kvist
 Categories: safety-security, agents, enterprise, policy
 Featured: ElevenLabs, Claude Mythos
 Also mentioned: Cursor, Lovable, MCP

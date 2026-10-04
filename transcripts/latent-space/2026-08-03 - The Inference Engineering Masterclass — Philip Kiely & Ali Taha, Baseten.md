@@ -6,8 +6,8 @@ https://www.latent.space/p/inference-eng · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:41:21
-Host: Swyx
-Categories: models, open-weights, infrastructure, design
+Host: Swyx · Guests: Ali, Philip
+Categories: models, open-weights, design, infrastructure
 Featured: Kimi, GLM
 Also mentioned: DeepSeek, Gemma, MiniMax, distillation, Grok, Nvidia Nemotron, Qwen
 <!-- /metadata -->

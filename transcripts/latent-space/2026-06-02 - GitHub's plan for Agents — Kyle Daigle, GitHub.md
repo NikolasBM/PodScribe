@@ -6,7 +6,7 @@ https://www.latent.space/p/github · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:23:16
-Host: Swyx
+Host: Swyx · Guests: Kyle
 Categories: agents, coding, work, marketing
 Featured: Microsoft Copilot, OpenClaw, MCP, agent harness
 Also mentioned: Slack, Claude Mythos

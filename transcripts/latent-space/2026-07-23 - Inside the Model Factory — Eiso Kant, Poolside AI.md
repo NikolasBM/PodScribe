@@ -6,10 +6,10 @@ https://www.latent.space/p/poolside · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:54:23
-Host: Swyx
-Categories: models, agents, coding, open-weights
+Host: Swyx · Guests: Eiso Kant
+Categories: agents, coding, open-weights, models
 Featured: agent harness, open-weight models
-Also mentioned: DeepSeek, distillation, MCP, ChatGPT, Hermes Agent, OpenAI Codex, recursive self-improvement, GLM, Artificial Analysis
+Also mentioned: DeepSeek, distillation, MCP, ChatGPT, Hermes Agent, recursive self-improvement, GLM, OpenAI Codex
 <!-- /metadata -->
 
 ---

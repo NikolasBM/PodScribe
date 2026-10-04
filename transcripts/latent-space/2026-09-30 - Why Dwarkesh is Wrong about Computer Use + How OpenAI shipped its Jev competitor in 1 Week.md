@@ -6,7 +6,7 @@ https://www.latent.space/p/devday-2026 · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~00:39:02
-Host: Swyx
+Host: Swyx · Guests: Ari Weinstein, Nikunj Handa
 Categories: agents, models, coding, consumer
 Featured: computer use, OpenAI Codex, agent harness, OpenAI, OpenAI Decisions API, GPT-6, Jev, ChatGPT
 Also mentioned: GPT Live, Gemini

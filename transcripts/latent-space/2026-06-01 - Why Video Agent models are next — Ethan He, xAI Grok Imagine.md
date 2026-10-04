@@ -6,7 +6,7 @@ https://www.latent.space/p/video-agents · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:43:16
-Host: Swyx
+Host: Swyx · Guests: Ethan
 Categories: design, agents, models, infrastructure
 Featured: Grok, distillation, agent harness
 Also mentioned: Gemini, Nano Banana, OpenClaw

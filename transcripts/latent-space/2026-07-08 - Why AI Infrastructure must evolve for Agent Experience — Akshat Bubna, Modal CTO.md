@@ -6,7 +6,7 @@ https://www.latent.space/p/modal2026 · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~00:57:42
-Host: Swyx
+Host: Swyx · Guests: Akshat
 Categories: agents, coding, infrastructure
 Featured: none
 Also mentioned: agent harness, Claude Code, OpenAI Codex, Claude

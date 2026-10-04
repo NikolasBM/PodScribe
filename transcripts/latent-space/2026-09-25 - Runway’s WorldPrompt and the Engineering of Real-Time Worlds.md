@@ -6,10 +6,10 @@ https://www.latent.space/p/runway · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:36:14
-Host: Swyx
+Host: Swyx · Guests: Anastasis
 Categories: design, models, agents, open-weights
-Featured: distillation, agent harness, computer use
-Also mentioned: Gemini, Claude
+Featured: distillation, computer use
+Also mentioned: agent harness, Gemini, Claude
 <!-- /metadata -->
 
 ---

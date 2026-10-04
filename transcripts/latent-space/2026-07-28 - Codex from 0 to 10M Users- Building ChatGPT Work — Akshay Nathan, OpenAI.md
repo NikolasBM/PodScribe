@@ -6,7 +6,7 @@ https://www.latent.space/p/chatgpt-work · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:09:09
-Host: Swyx
+Host: Swyx · Guests: Akshay Nathan
 Categories: agents, work, coding, models
 Featured: ChatGPT, OpenAI Codex, agent harness, OpenAI, computer use
 Also mentioned: OpenClaw, GPT-5.6, Slack, GPT-5.5

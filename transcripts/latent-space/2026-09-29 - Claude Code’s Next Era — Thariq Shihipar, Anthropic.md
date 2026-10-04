@@ -6,7 +6,7 @@ https://www.latent.space/p/thariq · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:32:22
-Host: Swyx
+Host: Swyx · Guests: Thariq Shihipar
 Categories: agents, coding, safety-security, models
 Featured: Claude, Claude Code, agent harness, Claude Tag, Anthropic, Pacing the Frontier, Claude Fable, computer use, agent loops, Hugging Face incident
 Also mentioned: MCP, model routing, Slack, Project Glasswing, vibe coding, Terminal Bench

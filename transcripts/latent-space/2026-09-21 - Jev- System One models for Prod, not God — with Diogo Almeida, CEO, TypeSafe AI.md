@@ -6,10 +6,10 @@ https://www.latent.space/p/jev · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~02:20:51
-Host: Swyx
+Host: Swyx · Guests: Diogo Almeida
 Categories: coding, agents, safety-security, models
-Featured: Jev, Pacing the Frontier
-Also mentioned: ChatGPT, Claude, computer use, Slack, Claude Code, OpenAI Codex
+Featured: Jev, computer use, Pacing the Frontier
+Also mentioned: ChatGPT, Claude, Slack, Claude Code, OpenAI Codex
 <!-- /metadata -->
 
 ---

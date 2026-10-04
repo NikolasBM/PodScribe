@@ -6,7 +6,7 @@ https://www.latent.space/p/databricks · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:08:41
-Host: Swyx
+Host: Swyx · Guests: Reynold Xin, Matei Zaharia
 Categories: agents, coding, enterprise
 Featured: agent harness
 Also mentioned: OpenAI Codex, Claude, ChatGPT

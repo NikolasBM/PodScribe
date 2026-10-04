@@ -6,7 +6,7 @@ https://www.latent.space/p/gray-swan · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:06:18
-Host: Swyx
+Host: Swyx · Guests: Zico, Matt
 Categories: safety-security, agents, models, coding
 Featured: OpenClaw, OpenAI Codex, computer use, Claude Code, Claude
 Also mentioned: Claude Mythos

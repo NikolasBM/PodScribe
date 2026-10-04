@@ -6,7 +6,7 @@ https://www.latent.space/p/andon · Latent Space
 
 <!-- metadata -->
 Format: interview · Level: 2 · Length: ~01:15:29
-Host: Swyx
+Host: Swyx · Guests: Lukas, Axel
 Categories: agents, models, safety-security, work
 Featured: agent harness, Claude, Slack, Claude Mythos, Claude Opus
 Also mentioned: OpenClaw, Claude Code, Grok, Gemini, GLM, Qwen
