@@ -8,7 +8,7 @@ An archive of transcripts from AI podcasts. New episodes are fetched or transcri
 |---|---|---|---|
 | [The AI Daily Brief](https://aidailybrief.ai/) (NLW) | `transcripts/ai-daily-brief/` | Transcripts published by the show | 2026-06-01 |
 | [How I AI](https://podcasts.apple.com/us/podcast/how-i-ai/id1809663079) (Claire Vo) | `transcripts/how-i-ai/` | Transcribed from the audio with Azure MAI-Transcribe | 2026-09-01 |
-| [Latent Space](https://www.latent.space/) (Swyx & Alessio) | `transcripts/latent-space/` | Transcripts published in the show's Substack posts | 2026-06-01 |
+| [Latent Space](https://www.latent.space/) (Swyx & Alessio) | `transcripts/latent-space/` | Transcripts published in the show's Substack posts | 2023-01-01 |
 
 Use this archive to search, summarize, or ask questions across episodes — great for feeding into Claude, NotebookLM, or any search/RAG setup.
 

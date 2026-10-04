@@ -1,0 +1,450 @@
+---
+podcast: "latent-space"
+podcast_title: "Latent Space"
+title: "Presenting the AI Engineer World's Fair — with Sam Schillace, Deputy CTO of Microsoft"
+date: 2024-03-29
+url: "https://www.latent.space/p/worlds-fair-2024"
+guid: "substack:143067206"
+host: "Swyx"
+transcript_source: "publisher"
+---
+
+# Presenting the AI Engineer World's Fair — with Sam Schillace, Deputy CTO of Microsoft
+
+**Alessio** [00:00:00] Hey everyone, welcome to the Latent Space Podcast. This is Alessio, partner and CTO in residence at Decibel Partners, and I'm joined by my co host Swyx, founder of Small
+
+## [00:00:16] Intro
+
+**Swyx** [00:00:00] AI. Hey, hey, we're back again with a very special episode, this time with two guests and talking about the very in person events rather than online stuff.
+
+**Swyx** [00:00:00] So first I want to welcome Ben Dunphy, who is my co organizer on AI engineer conferences. Hey, hey, how's it going? We have a very special guest. Anyone who's looking at the show notes and the title will preview this later. But I guess we want to set the context. We are effectively doing promo for the upcoming AI Engineer World's Fair that's happening in June.
+
+**Swyx** [00:00:00] But maybe something that we haven't actually recapped much on the pod is just the origin of the AI Engineer Summit and why, what happens and what went down. Ben, I don't know if you'd like to start with the raw numbers that people should have in mind.
+
+## [00:01:04] 2023 AI Engineer Summit
+
+**Ben Dunphy** [00:00:00] Yeah, perhaps your listeners would like just a quick background on the summit.
+
+**Ben Dunphy** [00:00:00] I mean, I'm sure many folks have heard of our events. You know, you launched, we launched the AI Engineer Summit last June with your, your article kind of coining the term that was on the tip of everyone's tongue, but curiously had not been actually coined, which is the term AI Engineer, which is now many people's, Job titles, you know, we're seeing a lot more people come to this event, with the job description of AI engineer, with the job title of AI engineer so, is an event that you and I really talked about since February of 2023, when we met at a hackathon you organized we were both excited by this movement and it hasn't really had a name yet.
+
+**Ben Dunphy** [00:00:00] We decided that an event was warranted and that's why we move forward with the AI Engineer Summit, which Ended up being a great success. You know, we had over 5, 000 people apply to attend in person. We had over 9, 000 folks attend, online with over 20, 000 on the live stream.
+
+**Ben Dunphy** [00:00:00] In person, we accepted about 400 attendees and had speakers, workshop instructors and sponsors, all congregating in San Francisco over, two days, um, two and a half days with a, with a welcome reception. So it was quite the event to kick off kind of this movement that's turning into quite an exciting
+
+**Swyx** [00:00:00] industry.
+
+**Swyx** [00:00:00] The overall idea of this is that I kind of view AI engineering, at least in all my work in Latent Space and the other stuff, as starting an industry.
+
+**Swyx** [00:00:00] And I think every industry, every new community, needs a place to congregate. And I definitely think that AI engineer, at least at the conference, is that it's meant to be like the biggest gathering of technical engineering people working with AI. Right. I think we kind of got that spot last year. There was a very competitive conference season, especially in San Francisco.
+
+**Swyx** [00:00:00] But I think as far as I understand, in terms of cultural impact, online impact, and the speakers that people want to see, we, we got them all and it was very important for us to be a vendor neutral type of event. Right. , The reason I partnered with Ben is that Ben has a lot of experience, a lot more experience doing vendor neutral stuff.
+
+## [00:03:11] Vendor Neutral
+
+**Swyx** [00:00:00] I first met you when I was speaking at one of your events, and now we're sort of business partners on that. And yeah, I mean, I don't know if you have any sort of Thoughts on make, making things vendor neutral, making things more of a community industry conference rather than like something that's owned by one company.
+
+**Swyx** [00:00:00] Yeah.
+
+**Ben Dunphy** [00:00:00] I mean events that are owned by a company are great, but this is typically where you have product pitches and this smaller internet community. But if you want the truly internet community, if you want a more varied audience and you know, frankly, better content for, especially for a technical audience, you want a vendor neutral event. And this is because when you have folks that are running the event that are focused on one thing and one thing alone, which is quality, quality of content, quality of speakers, quality of the in person experience, and just of general relevance it really elevates everything to the next level.
+
+**Ben Dunphy** [00:00:00] And when you have someone like yourself who's coming To this content curation the role that you take at this event, and bringing that neutrality with, along with your experience, that really helps to take it to the next level, and then when you have someone like myself, focusing on just the program curation, and the in person experience, then both of our forces combined, we can like, really create this epic event, and so, these vendor neutral events if you've been to a small community event, Typically, these are vendor neutral, but also if you've been to a really, really popular industry event, many of the top industry events are actually vendor neutral.
+
+**Ben Dunphy** [00:00:00] And that's because of the fact that they're vendor neutral, not in spite of
+
+**Swyx** [00:00:00] it. Yeah, I've been pretty open about the fact that my dream is to build the KubeCon of AI. So if anyone has been in the Kubernetes world, they'll understand what that means. And then, or, or instead of the NeurIPS, NeurIPS for engineers, where engineers are the stars and engineers are sharing their knowledge.
+
+**Swyx** [00:00:00] Perspectives, because I think AI is definitely moving over from research to engineering and production. I think one of my favorite parts was just honestly having GitHub and Microsoft support, which we'll cover in a bit, but you know, announcing finally that GitHub's copilot was such a commercial success I think was the first time that was actually confirmed by anyone in public.
+
+**Swyx** [00:00:00] For me, it's also interesting as sort of the conference curator to put Microsoft next to competitors some of which might be much smaller AI startups and to see what, where different companies are innovating in different areas.
+
+**Swyx** [00:00:00] Well, they're next to
+
+**Ben Dunphy** [00:00:00] each other in the arena. So they can be next to each other on stage too.
+
+## [00:05:33] Why AIE World's Fair
+
+**Swyx** [00:00:00] Okay, so this year World's Fair we are going a lot bigger what details are we disclosing right now? Yeah,
+
+**Ben Dunphy** [00:00:00] I guess we should start with the name why are we calling it the World's Fair? And I think we need to go back to what inspired this, what actually the original World's Fair was, which was it started in the late 1700s and went to the early 1900s.
+
+**Ben Dunphy** [00:00:00] And it was intended to showcase the incredible achievements. Of nation states, corporations, individuals in these grand expos. So you have these miniature cities actually being built for these grand expos. In San Francisco, for example, you had the entire Marina District built up in absolutely new construction to showcase the achievements of industry, architecture, art, and culture.
+
+**Ben Dunphy** [00:00:00] And many of your listeners will know that in 1893, the Nikola Tesla famously provided power to the Chicago World's Fair with his 8 seat power generator. There's lots of great movies and documentaries about this. That was the first electric World's Fair, which thereafter it was referred to as the White City.
+
+**Ben Dunphy** [00:00:00] So in today's world we have technological change that's similar to what was experienced during the industrial revolution in how it's, how it's just upending our entire life, how we live, work, and play. And so we have artificial intelligence, which has long been the dream of humanity.
+
+**Ben Dunphy** [00:00:00] It's, it's finally here. And the pace of technological change is just accelerating. So with this event, as you mentioned, we, we're aiming to create a singular event where the world's foremost experts, builders, and practitioners can come together to exchange and reflect. And we think this is not only good for business, but it's also good for our mental health.
+
+**Ben Dunphy** [00:00:00] It slows things down a bit from the Twitter news cycle to an in person festival of smiles, handshakes, connections, and in depth conversations that online media and online events can only ever dream of replicating. So this is an expo led event where the world's top companies will mingle with the world's top founders and AI engineers who are building and enhanced by AI.
+
+## [00:07:34] AIE World's Fair: 9 Tracks
+
+**Ben Dunphy** [00:00:00] And not to mention, we're featuring over a hundred talks and workshops across
+
+**Swyx** [00:00:00] nine tracks. Yeah, I mean, those nine tracks will be fun. Actually, do we have a little preview of the tracks in the, the speakers?
+
+**Ben Dunphy** [00:00:00] We do. Folks can actually see them today at our website. We've updated that at ai.
+
+**Ben Dunphy** [00:00:00] engineer. So we'd encourage them to go there to see that. But for those just listening, we have nine tracks. So we have multimodality. We have retrieval augmented generation. Featuring LLM frameworks and vector databases, evals and LLM ops, open source models, code gen and dev tools, GPUs and inference, AI agent applications, AI in the fortune 500, and then we have a special track for AI leadership which you can access by purchasing the VP pass which is different from the, the other passes we have.
+
+**Ben Dunphy** [00:00:00] And I won't go into the Each of these tracks in depth, unless you want to, Swyx but there's more details on the website at ai. engineer.
+
+**Swyx** [00:00:00] I mean, I, I, very much looking forward to talking to our special guests for the last track, I think, which is the what a lot of yeah, leaders are thinking about, which is how to, Inspire innovation in their companies, especially the sort of larger organizations that might not have the in house talents for that kind of stuff.
+
+**Swyx** [00:00:00] So yeah, we can talk about the expo, but I'm very keen to talk about the presenting sponsor if you want to go slightly out of order from our original plan.
+
+## [00:08:58] AIE World's Fair Keynotes
+
+**Ben Dunphy** [00:00:00] Yeah, absolutely. So you know, for the stage of keynotes, we have talks confirmed from Microsoft, OpenAI, AWS, and Google.
+
+**Ben Dunphy** [00:00:00] And our presenting sponsor is joining the stage with those folks. And so that presenting sponsor this year is a dream sponsor. It's Microsoft. It's the company really helping to lead the charge. And into this wonderful new era that we're all taking part in. So, yeah,
+
+**Swyx** [00:00:00] you know, a bit of context, like when we first started planning this thing, I was kind of brainstorming, like, who would we like to get as the ideal presenting sponsors, as ideal partners long term, just in terms of encouraging the AI engineering industry, and it was Microsoft.
+
+## [00:09:33] Introducing Sam
+
+**Swyx** [00:00:00] So Sam, I'm very excited to welcome you onto the podcast. You are CVP and Deputy CTO of Microsoft. Welcome.
+
+**Sam Schillace** [00:00:00] Nice to be here. I'm looking forward to, I was looking for, to Lessio saying my last name correctly this time. Oh
+
+**Swyx** [00:00:00] yeah. So I, I studiously avoided saying, saying your last name, but apparently it's an Italian last name.
+
+**Swyx** [00:00:00] Ski Lache. Ski
+
+**Alessio** [00:00:00] Lache. Yeah. No, that, that's great, Sean. That's great as a musical person.
+
+**Swyx** [00:00:00] And it, it's also, yeah, I pay attention to like the, the, the lilt. So it's ski lache and the, the slow slowing of the law is, is what I focused
+
+**Sam Schillace** [00:00:00] on. You say both Ls. There's no silent letters, you say
+
+**Alessio** [00:00:00] both of those. And it's great to have you, Sam.
+
+**Alessio** [00:00:00] You know, we've known each other now for a year and a half, two years, and our first conversation, well, it was at Lobby Conference, and then we had a really good one in the kind of parking lot of a Safeway, because we didn't want to go into Starbucks to meet, so we sat outside for about an hour, an hour and a half, and then you had to go to a Bluegrass concert, so it was great.
+
+**Alessio** [00:00:00] Great meeting, and now, finally, we have you on Lanespace.
+
+**Sam Schillace** [00:00:00] Cool, cool. Yeah, I'm happy to be here. It's funny, I was just saying to Swyx before you joined that, like, it's kind of an intimidating podcast. Like, when I listen to this podcast, it seems to be, like, one of the more intelligent ones, like, more, more, like, deep technical folks on it.
+
+**Sam Schillace** [00:00:00] So, it's, like, it's kind of nice to be here. It's fun. Bring your A game. Hopefully I'll, I'll bring mine. I
+
+**Swyx** [00:00:00] mean, you've been programming for longer than some of our listeners have been alive, so I don't think your technical chops are in any doubt. So you were responsible for Rightly as one of your early wins in your career, which then became Google Docs, and obviously you were then responsible for a lot more G Suite.
+
+**Swyx** [00:00:00] But did you know that you covered in Acquired. fm episode 9, which is one of the podcasts that we model after.
+
+**Sam Schillace** [00:00:00] Oh, cool. I didn't, I didn't realize that the most fun way to say this is that I still have to this day in my personal GDocs account, the very first Google doc, like I actually have it.
+
+**Sam Schillace** [00:00:00] And I looked it up, like it occurred to me like six months ago that it was probably around and I went and looked and it's still there. So it's like, and it's kind of a funny thing. Cause it's like the backend has been rewritten at least twice that I know of the front end has been re rewritten at least twice that I know of.
+
+**Sam Schillace** [00:00:00] So. I'm not sure what sense it's still the original one it's sort of more the idea of the original one, like the NFT of it would probably be more authentic. I
+
+**Swyx** [00:00:00] still have it. It's a ship athesia thing. Does it, does it say hello world or something more mundane?
+
+**Sam Schillace** [00:00:00] It's, it's, it's me and Steve Newman trying to figure out if some collaboration stuff is working, and also a picture of Edna from the Incredibles that I probably pasted in later, because that's That's too early for that, I think.
+
+**Swyx** [00:00:00] People can look up your LinkedIn, and we're going to link it on the show notes, but you're also SVP of engineering for Box, and then you went back to Google to do Google, to lead Google Maps, and now you're deputy CTO.
+
+## [00:12:17] AI in 2020s vs the Cloud in 2000s
+
+**Swyx** [00:00:00] I mean, there's so many places to start, but maybe one place I like to start off with is do you have a personal GPT 4 experience.
+
+**Swyx** [00:00:00] Obviously being at Microsoft, you have, you had early access and everyone talks about Bill Gates's
+
+**Sam Schillace** [00:00:00] demo. Yeah, it's kind of, yeah, that's, it's kind of interesting. Like, yeah, we got access, I got access to it like in September of 2022, I guess, like before it was really released. And I it like almost instantly was just like mind blowing to me how good it was.
+
+**Sam Schillace** [00:00:00] I would try experiments like very early on, like I play music. There's this thing called ABC notation. That's like an ASCII way to represent music. And like, I was like, I wonder if it can like compose a fiddle tune. And like it composed a fiddle tune. I'm like, I wonder if it can change key, change the key.
+
+**Sam Schillace** [00:00:00] Like it's like really, it was like very astonishing. And I sort of, I'm very like abstract. My background is actually more math than CS. I'm a very abstract thinker and sort of categorical thinker. And the, the thing that occurred to me with, with GPT 4 the first time I saw it was. This is really like the beginning, it's the beginning of V2 of the computer industry completely.
+
+**Sam Schillace** [00:00:00] I had the same feeling I had when, of like a category shifting that I had when the cloud stuff happened with the GDocs stuff, right? Where it's just like, all of a sudden this like huge vista opens up of capabilities. And I think the way I characterized it, which is a little bit nerdy, but I'm a nerd so lean into it is like everything until now has been about syntax.
+
+## [00:13:46] Syntax vs Semantics
+
+**Sam Schillace** [00:00:00] Like, we have to do mediation. We have to describe the real world in forms that the digital world can manage. And so we're the mediation, and we, like, do that via things like syntax and schema and programming languages. And all of a sudden, like, this opens the door to semantics, where, like, you can express intention and meaning and nuance and fuzziness.
+
+**Sam Schillace** [00:00:00] And the machine itself is doing, the model itself is doing a bunch of the mediation for you. And like, that's obviously like complicated. We can talk about the limits and stuff, and it's getting better in some ways. And we're learning things and all kinds of stuff is going on around it, obviously.
+
+**Sam Schillace** [00:00:00] But like, that was my immediate reaction to it was just like, Oh my God.
+
+## [00:14:22] Bill Gates vs GPT-4
+
+**Sam Schillace** [00:00:00] Like, and then I heard about the build demo where like Bill had been telling Kevin Scott this, This investment is a waste. It's never going to work. AI is blah, blah, blah. And come back when it can pass like an AP bio exam.
+
+**Sam Schillace** [00:00:00] And they actually literally did that at one point, they brought in like the world champion of the, like the AP bio test or whatever the AP competition and like it and chat GPT or GPT 4 both did the AP bio and GPT 4 beat her. So that was the moment that convinced Bill that this was actually real.
+
+**Sam Schillace** [00:00:00] Yeah, it's fun. I had a moment with him actually about three weeks after that when we had been, so I started like diving in on developer tools almost immediately and I built this thing with a small team that's called the Semantic Kernel which is one of the very early orchestrators just because I wanted to be able to put code and And inference together.
+
+**Sam Schillace** [00:00:00] And that's probably something we should dig into more deeply. Cause I think there's some good insights in there, but I I had a bunch of stuff that we were building and then I was asked to go meet with Bill Gates about it and he's kind of famously skeptical and, and so I was a little bit nervous to meet him the first time.
+
+**Sam Schillace** [00:00:00] And I started the conversation with, Hey, Bill, like three weeks ago, you would have called BS on everything I'm about to show you. And I would probably have agreed with you, but we've both seen this thing. And so we both know it's real. So let's skip that part and like, talk about what's possible.
+
+**Sam Schillace** [00:00:00] And then we just had this kind of fun, open ended conversation and I showed him a bunch of stuff. So that was like a really nice, fun, fun moment as well. Well,
+
+**Swyx** [00:00:00] that's a nice way to meet Bill Gates and impress
+
+**Sam Schillace** [00:00:00] him. A little funny. I mean, it's like, I wasn't sure what he would think of me, given what I've done and his.
+
+**Sam Schillace** [00:00:00] Crown Jewel. But he was nice. I think he likes
+
+**Swyx** [00:00:00] GDocs. Crown Jewel as in Google Docs versus Microsoft Word? Office.
+
+**Sam Schillace** [00:00:00] Yeah. Yeah, versus Office. Yeah, like, I think, I mean, I can imagine him not liking, I met Steven Snofsky once and he sort of respectfully, but sort of grimaced at me. You know, like, because of how much trauma I had caused him.
+
+**Sam Schillace** [00:00:00] So Bill was very nice to
+
+**Swyx** [00:00:00] me. In general it's like friendly competition, right? They keep you, they keep you sharp, you keep each
+
+**Sam Schillace** [00:00:00] other sharp. Yeah, no, I think that's, it's definitely respect, it's just kind of funny.
+
+## [00:16:28] Semantic Kernel and Schillace's Laws of AI Engineering
+
+**Sam Schillace** [00:00:00] Yeah,
+
+**Swyx** [00:00:00] So, speaking of semantic kernel, I had no idea that you were that deeply involved, that you actually had laws named after you.
+
+**Swyx** [00:00:00] This only came up after looking into you for a little bit. Skelatches laws, how did those, what's the, what's the origin
+
+**Sam Schillace** [00:00:00] story? Hey! Yeah, that's kind of funny. I'm actually kind of a modest person and so I'm sure I feel about having my name attached to them. Although I do agree with all, I believe all of them because I wrote all of them.
+
+**Sam Schillace** [00:00:00] This is like a designer, John Might, who works with me, decided to stick my name on them and put them out there. Seriously, but like, well, but like, so this was just I, I'm not, I don't build models. Like I'm not an AI engineer in the sense of, of like AI researcher that's like doing inference. Like I'm somebody who's like consuming the models.
+
+**Sam Schillace** [00:00:00] Exactly. So it's kind of funny when you're talking about AI engineering, like it's a good way of putting it. Cause that's how like I think about myself. I'm like, I'm an app builder. I just want to build with this tool. Yep. And so we spent all of the fall and into the winter in that first year, like Just trying to build stuff and learn how this tool worked.
+
+## [00:17:29] Orchestration: Break it into pieces
+
+**Sam Schillace** [00:00:00] And I guess those are a little bit in the spirit of like Robert Bentley's programming pearls or something. I was just like, let's kind of distill some of these ideas down of like. How does this thing work? I saw something I still see today with people doing like inference is still kind of expensive.
+
+**Sam Schillace** [00:00:00] GPUs are still kind of scarce. And so people try to get everything done in like one shot. And so there's all this like prompt tuning to get things working. And one of the first laws was like, break it into pieces. Like if it's hard for you, it's going to be hard for the model. But if it's you know, there's this kind of weird thing where like, it's.
+
+**Sam Schillace** [00:00:00] It's absolutely not a human being, but starting to think about, like, how would I solve the problem is often a good way to figure out how to architect the program so that the model can solve the problem. So, like, that was one of the first laws. That came from me just trying to, like, replicate a test of a, like, a more complicated, There's like a reasoning process that you have to go through that, that Google was, was the react, the react thing, and I was trying to get GPT 4 to do it on its own.
+
+**Sam Schillace** [00:00:00] And, and so I'd ask it the question that was in this paper, and the answer to the question is like the year 2000. It's like, what year did this particular author who wrote this book live in this country? And you've kind of got to carefully reason through it. And like, I could not get GPT 4 to Just to answer the question with the year 2000.
+
+**Sam Schillace** [00:00:00] And if you're thinking about this as like the kernel is like a pipelined orchestrator, right? It's like very Unix y, where like you have a, some kind of command and you pipe stuff to the next parameters and output to the next thing. So I'm thinking about this as like one module in like a pipeline, and I just want it to give me the answer.
+
+**Sam Schillace** [00:00:00] I don't want anything else. And I could not prompt engineer my way out of that. I just like, it was giving me a paragraph or reasoning. And so I sort of like anthropomorphized a little bit and I was like, well, the only way you can think about stuff is it can think out loud because there's nothing else that the model does.
+
+**Sam Schillace** [00:00:00] It's just doing token generation. And so it's not going to be able to do this reasoning if it can't think out loud. And that's why it's always producing this. But if you take that paragraph of output, which did get to the right answer and you pipe it into a second prompt. That just says read this conversation and just extract the answer and report it back.
+
+**Sam Schillace** [00:00:00] That's an easier task. That would be an easier task for you to do or me to do. It's easier reasoning. And so it's an easier thing for the model to do and it's much more accurate. And that's like 100 percent accurate. It always does that. So like that was one of those, those insights on the that led to the, the choice loss.
+
+## [00:19:52] Prompt Engineering: Ask Smart to Get Smart
+
+**Sam Schillace** [00:00:00] I think one of the other ones that's kind of interesting that I think people still don't fully appreciate is that GPT 4 is the rough equivalent of like a human being sitting down for centuries or millennia and reading all the books that they can find. It's this vast mind, right, and the embedding space, the latent space, is 100, 000 K, 100, 000 dimensional space, right?
+
+**Sam Schillace** [00:00:00] Like it's this huge, high dimensional space, and we don't have good, um, Intuition about high dimensional spaces, like the topology works in really weird ways, connectivity works in weird ways. So a lot of what we're doing is like aiming the attention of a model into some part of this very weirdly connected space.
+
+**Sam Schillace** [00:00:00] That's kind of what prompt engineering is. But that kind of, like, what we observed to begin with that led to one of those laws was You know, ask smart to get smart. And I think we've all, we all understand this now, right? Like this is the whole field of prompt engineering. But like, if you ask like a simple, a simplistic question of the model, you'll get kind of a simplistic answer.
+
+**Sam Schillace** [00:00:00] Cause you're pointing it at a simplistic part of that high dimensional space. And if you ask it a more intelligent question, you get more intelligent stuff back out. And so I think that's part of like how you think about programming as well. It's like, how are you directing the attention of the model?
+
+**Sam Schillace** [00:00:00] And I think we still don't have a good intuitive feel for that. To me,
+
+**Alessio** [00:00:00] the most interesting thing is how do you tie the ask smart, get smart with the syntax and semantics piece. I gave a talk at GDC last week about the rise of full stack employees and how these models are like semantic representation of tasks that people do.
+
+**Alessio** [00:00:00] But at the same time, we have code. Also become semantic representation of code. You know, I give you the example of like Python that sort it's like really a semantic function. It's not code, but it's actually code underneath. How do you think about tying the two together where you have code?
+
+**Alessio** [00:00:00] To then extract the smart parts so that you don't have to like ask smart every time and like kind of wrap them in like higher level functions.
+
+**Sam Schillace** [00:00:00] Yeah, this is, this is actually, we're skipping ahead to kind of later in the conversation, but I like to, I usually like to still stuff down in these little aphorisms that kind of help me remember them.
+
+## [00:21:57] Think with the model, Plan with Code
+
+**Sam Schillace** [00:00:00] You know, so we can dig into a bunch of them. One of them is pixels are free, one of them is bots are docs. But the one that's interesting here is Think with the model, plan with code. And so one of the things, so one of the things we've realized, we've been trying to do lots of these like longer running tasks.
+
+**Sam Schillace** [00:00:00] Like we did this thing called the infinite chatbot, which was the successor to the semantic kernel, which is an internal project. It's a lot like GPTs. The open AI GPT is, but it's like a little bit more advanced in some ways, kind of deep exploration of a rag based bot system. And then we did multi agents from that, trying to do some autonomy stuff and we're, and we're kind of banging our head against this thing.
+
+**Sam Schillace** [00:00:00] And you know, one of the things I started to realize, this is going to get nerdy for a second. I apologize, but let me dig in on it for just a second. No apology needed. Um, we realized is like, again, this is a little bit of an anthropomorphism and an illusion that we're having. So like when we look at these models, we think there's something continuous there.
+
+**Sam Schillace** [00:00:00] We're having a conversation with chat GPT or whatever with Azure open air or like, like what's really happened. It's a little bit like watching claymation, right? Like when you watch claymation, you don't think that the model is actually the clay model is actually really alive. You know, that there's like a bunch of still disconnected slot screens that your mind is connecting into a continuous experience.
+
+## [00:23:12] Metacognition vs Stochasticity
+
+**Sam Schillace** [00:00:00] And that's kind of the same thing that's going on with these models. Like they're all the prompts are disconnected no matter what. Which means you're putting a lot of weight on memory, right? This is the thing we talked about. You're like, you're putting a lot of weight on precision and recall of your memory system.
+
+**Sam Schillace** [00:00:00] And so like, and it turns out like, because the models are stochastic, they're kind of random. They'll make stuff up if things are missing. If you're naive about your, your memory system, you'll get lots of like accumulated similar memories that will kind of clog the system, things like that. So there's lots of ways in which like, Memory is hard to manage well, and, and, and that's okay.
+
+**Sam Schillace** [00:00:00] But what happens is when you're doing plans and you're doing these longer running things that you're talking about, that second level, the metacognition is very vulnerable to that stochastic noise, which is like, I totally want to put this on a bumper sticker that like metacognition is susceptible to stochasticity would be like the great bumper sticker.
+
+**Sam Schillace** [00:00:00] So what, these things are very vulnerable to feedback loops when they're trying to do autonomy, and they're very vulnerable to getting lost. So we've had these, like, multi agent Autonomous agent things get kind of stuck on like complimenting each other, or they'll get stuck on being quote unquote frustrated and they'll go on strike.
+
+**Sam Schillace** [00:00:00] Like there's all kinds of weird like feedback loops you get into. So what we've learned to answer your question of how you put all this stuff together is You have to, the model's good at thinking, but it's not good at planning. So you do planning in code. So you have to describe the larger process of what you're doing in code somehow.
+
+**Sam Schillace** [00:00:00] So semantic intent or whatever. And then you let the model kind of fill in the pieces.
+
+## [00:24:43] Generating Synthetic Textbooks
+
+**Sam Schillace** [00:00:00] I'll give a less abstract like example. It's a little bit of an old example. I did this like last year, but at one point I wanted to see if I could generate textbooks. And so I wrote this thing called the textbook factory.
+
+**Sam Schillace** [00:00:00] And it's, it's tiny. It's like a Jupyter notebook with like. You know, 200 lines of Python and like six very short prompts, but what you basically give it a sentence. And it like pulls out the topic and the level of, of, from that sentence, so you, like, I would like fifth grade reading. I would like eighth grade English.
+
+**Sam Schillace** [00:00:00] His English ninth grade, US history, whatever. That by the way, all, all by itself, like would've been an almost impossible job like three years ago. Isn't, it's like totally amazing like that by itself. Just parsing an arbitrary natural language sentence to get these two pieces of information out is like almost trivial now.
+
+**Sam Schillace** [00:00:00] Which is amazing. So it takes that and it just like makes like a thousand calls to the API and it goes and builds a full year textbook, like decides what the curriculum is with one of the prompts. It breaks it into chapters. It writes all the lessons and lesson plans and like builds a teacher's guide with all the answers to all the questions.
+
+**Sam Schillace** [00:00:00] It builds a table of contents, like all that stuff. It's super reliable. You always get a textbook. It's super brittle. You never get a cookbook or a novel like but like you could kind of define that domain pretty care, like I can describe. The metacognition, the high level plan for how do you write a textbook, right?
+
+**Sam Schillace** [00:00:00] You like decide the curriculum and then you write all the chapters and you write the teacher's guide and you write the table content, like you can, you can describe that out pretty well. And so having that like code exoskeleton wrapped around the model is really helpful, like it keeps the model from drifting off and then you don't have as many of these vulnerabilities around memory that you would normally have.
+
+**Sam Schillace** [00:00:00] So like, that's kind of, I think where the syntax and semantics comes together right now.
+
+## [00:26:24] Trade leverage for precision; use interaction to mitigate
+
+**Sam Schillace** [00:00:00] And then I think the question for all of us is. How do you get more leverage out of that? Right? So one of the things that I don't love about virtually everything anyone's built for the last year and a half is people are holding the hands of the model on everything.
+
+**Sam Schillace** [00:00:00] Like the leverage is very low, right? You can't turn. These things loose to do anything really interesting for very long. You can kind of, and the places where people are getting more work out per unit of work in are usually where somebody has done exactly what I just described. They've kind of figured out what the pattern of the problem is in enough of a way that they can write some code for it.
+
+**Sam Schillace** [00:00:00] And then that that like, so I've seen like sales support stuff. I've seen like code base tuning stuff of like, there's lots of things that people are doing where like, you can get a lot of value in some relatively well defined domain using a little bit of the model's ability to think for you and a little, and a little bit of code.
+
+## [00:27:18] Code is for syntax and process; models are for semantics and intent.
+
+**Sam Schillace** [00:00:00] And then I think the next wave is like, okay, do we do stuff like domain specific languages to like make the planning capabilities better? Do we like start to build? More sophisticated primitives. We're starting to think about and talk about like power automate and a bunch of stuff inside of Microsoft that we're going to wrap in these like building blocks.
+
+**Sam Schillace** [00:00:00] So the models have these chunks of reliable functionality that they can invoke as part of these plans, right? Because you don't want like, if you're going to ask the model to go do something and the output's going to be a hundred thousand lines of code, if it's got to generate that code every time, the randomness, the stochasticity is like going to make that basically not reliable.
+
+**Sam Schillace** [00:00:00] You want it to generate it like a 10 or 20 line high level semantic plan for this thing that gets handed to some markup executor that runs it and that invokes that API, that 100, 000 lines of code behind it, API call. And like, that's a really nice robust system for now. And then as the models get smarter as new models emerge, then we get better plans, we get more sophistication.
+
+**Sam Schillace** [00:00:00] In terms of what they can choose, things like that. Right. So I think like that feels like that's probably the path forward for a little while, at least, like there was, there was a lot there. I, sorry, like I've been thinking, you can tell I've been thinking about it a lot. Like this is kind of all I think about is like, how do you build.
+
+**Sam Schillace** [00:00:00] Really high value stuff out of this. And where do we go? Yeah. The, the role where
+
+**Swyx** [00:00:00] we are. Yeah. The intermixing of code and, and LMS is, is a lot of the role of the AI engineer. And I, I, I think in a very real way, you were one of the first to, because obviously you had early access. Honestly, I'm surprised.
+
+## [00:28:46] Hands on AI Leadership
+
+**Swyx** [00:00:00] How are you so hands on? How do you choose to, to dedicate your time? How do you advise other tech leaders? Right. You know, you, you are. You have people working for you, you could not be hands on, but you seem to be hands on. What's the allocation that people should have, especially if they're senior tech
+
+**Sam Schillace** [00:00:00] leaders?
+
+**Sam Schillace** [00:00:00] It's mostly just fun. Like, I'm a maker, and I like to build stuff. I'm a little bit idiosyncratic. I I've got ADHD, and so I won't build anything. I won't work on anything I'm bored with. So I have no discipline. If I'm not actually interested in the thing, I can't just, like, do it, force myself to do it.
+
+**Sam Schillace** [00:00:00] But, I mean, if you're not interested in what's going on right now in the industry, like, go find a different industry, honestly. Like, I seriously, like, this is, I, well, it's funny, like, I don't mean to be snarky, but, like, I was at a dinner, like, a, I don't know, six months ago or something, And I was sitting next to a CTO of a large, I won't name the corporation because it would name the person, but I was sitting next to the CTO of a very large Japanese technical company, and he was like, like, nothing has been interesting since the internet, and this is interesting now, like, this is fun again.
+
+**Sam Schillace** [00:00:00] And I'm like, yeah, totally, like this is like, the most interesting thing that's happened in 35 years of my career, like, we can play with semantics and natural language, and we can have these things that are like sort of active, can kind of be independent in certain ways and can do stuff for us and can like, reach all of these interesting problems.
+
+**Sam Schillace** [00:00:00] So like that's part of it of it's just kind of fun to, to do stuff and to build stuff. I, I just can't, can't resist. I'm not crazy hands-on, like, I have an eng like my engineering team's listening right now. They're like probably laughing 'cause they, I never, I, I don't really touch code directly 'cause I'm so obsessive.
+
+**Sam Schillace** [00:00:00] I told them like, if I start writing code, that's all I'm gonna do. And it's probably better if I stay a little bit high level and like, think about. I've got a really great couple of engineers, a bunch of engineers underneath me, a bunch of designers underneath me that are really good folks that we just bounce ideas off of back and forth and it's just really fun.
+
+**Sam Schillace** [00:00:00] That's the role I came to Microsoft to do, really, was to just kind of bring some energy around innovation, some energy around consumer, We didn't know that this was coming when I joined. I joined like eight months before it hit us, but I think Kevin might've had an idea it was coming. And and then when it hit, I just kind of dove in with both feet cause it's just so much fun to do.
+
+**Sam Schillace** [00:00:00] Just to tie it back a little bit to the, the Google Docs stuff. When we did rightly originally the world it's not like I built rightly in jQuery or anything. Like I built that thing on bare metal back before there were decent JavaScript VMs.
+
+**Sam Schillace** [00:00:00] I was just telling somebody today, like you were rate limited. So like just computing the diff when you type something like doing the string diff, I had to write like a binary search on each end of the string diff because like you didn't have enough iterations of a for loop to search character by character.
+
+**Sam Schillace** [00:00:00] I mean, like that's how rough it was none of the browsers implemented stuff directly, whatever. It's like, just really messy. And like, that's. Like, as somebody who's been doing this for a long time, like, that's the place where you want to engage, right? If things are easy, and it's easy to go do something, it's too late.
+
+**Sam Schillace** [00:00:00] Even if it's not too late, it's going to be crowded, but like the right time to do something new and disruptive and technical is, first of all, still when it's controversial, but second of all, when you have this, like, you can see the future, you ask this, like, what if question, and you can see where it's going, But you have this, like, pit in your stomach as an engineer as to, like, how crappy this is going to be to do.
+
+**Sam Schillace** [00:00:00] Like, that's really the right moment to engage with stuff. We're just like, this is going to suck, it's going to be messy, I don't know what the path is, I'm going to get sticks and thorns in my hair, like I, I, it's going to have false starts, and I don't really, I'm going to This is why those skeletchae laws are kind of funny, because, like, I, I, like You know, I wrote them down at one point because they were like my best guess, but I'm like half of these are probably wrong, and I think they've all held up pretty well, but I'm just like guessing along with everybody else, we're just trying to figure this thing out still, right, and like, and I think the only way to do that is to just engage with it.
+
+**Sam Schillace** [00:00:00] You just have to like, build stuff. If you're, I can't tell you the number of execs I've talked to who have opinions about AI and have not sat down with anything for more than 10 minutes to like actually try to get anything done. You know, it's just like, it's incomprehensible to me that you can watch this stuff through the lens of like the press and forgive me, podcasts and feel like you actually know what you're talking about.
+
+**Sam Schillace** [00:00:00] Like, you have to like build stuff. Like, break your nose on stuff and like figure out what doesn't work.
+
+**Swyx** [00:00:00] Yeah, I mean, I view us as a starting point, as a way for people to get exposure on what we're doing. They should be looking at, and they still have to do the work as do we. Yeah, I'll basically endorse, like, I think most of the laws.
+
+## [00:33:18] Multimodality vs "Text is the universal wire protocol"
+
+**Swyx** [00:00:00] I think the one I question the most now is text is the universal wire protocol. There was a very popular article, a text that used a universal interface by Rune who now works at OpenAI. And I, actually, we just, we just dropped a podcast with David Luan, who's CEO of Adept now, but he was VP of Eng, and he pitched Kevin Scott for the original Microsoft investment in OpenAI.
+
+**Swyx** [00:00:00] Where he's basically pivoting to or just betting very hard on multimodality. I think that's something that we don't really position very well. I think this year, we're trying to all figure it out. I don't know if you have an updated perspective on multi modal models how that affects agents
+
+**Sam Schillace** [00:00:00] or not.
+
+**Sam Schillace** [00:00:00] Yeah, I mean, I think the multi I think multi modality is really important. And I, I think it's only going to get better from here. For sure. Yeah, the text is the universal wire protocol. You're probably right. Like, I don't know that I would defend that one entirely. Note that it doesn't say English, right?
+
+**Sam Schillace** [00:00:00] Like it's, it's not, that's even natural language. Like there's stuff like Steve Luko, who's the guy who created TypeScript, created TypeChat, right? Which is this like way to get LLMs to be very precise and return syntax and correct JavaScript. So like, I, yeah, I think like multimodality, like, I think part of the challenge with it is like, it's a little harder to access.
+
+**Sam Schillace** [00:00:00] Programatically still like I think you know and I do think like, You know like when when like dahly and stuff started to come Out I was like, oh photoshop's in trouble cuz like, you know I'm just gonna like describe images And you don't need photos of Photoshop anymore Which hasn't played out that way like they're actually like adding a bunch of tools who look like you want to be able to you know for multimodality be really like super super charged you need to be able to do stuff like Descriptively, like, okay, find the dog in this picture and mask around it.
+
+**Sam Schillace** [00:00:00] Okay, now make it larger and whatever. You need to be able to interact with stuff textually, which we're starting to be able to do. Like, you can do some of that stuff. But there's probably a whole bunch of new capabilities that are going to come out that are going to make it more interesting.
+
+**Sam Schillace** [00:00:00] So, I don't know, like, I suspect we're going to wind up looking kind of like Unix at the end of the day, where, like, there's pipes and, like, Stuff goes over pipes, and some of the pipes are byte character pipes, and some of them are byte digital or whatever like binary pipes, and that's going to be compatible with a lot of the systems we have out there, so like, that's probably still And I think there's a lot to be gotten from, from text as a language, but I suspect you're right.
+
+**Sam Schillace** [00:00:00] Like that particular law is not going to hold up super well. But we didn't have multimodal going when I wrote it. I'll take one out as well.
+
+## [00:35:46] Azure OpenAI vs Microsoft Research vs Microsoft AI Division
+
+**Swyx** [00:00:00] I know. Yeah, I mean, the innovations that keep coming out of Microsoft. You mentioned multi agent. I think you're talking about autogen.
+
+**Swyx** [00:00:00] But there's always research coming out of MSR. Yeah. PHY1, PHY2. Yeah, there's a bunch of
+
+**Sam Schillace** [00:00:00] stuff. Yeah.
+
+**Swyx** [00:00:00] What should, how should the outsider or the AI engineer just as a sort of final word, like, How should they view the Microsoft portfolio things? I know you're not here to be a salesman, but What, how do you explain You know, Microsoft's AI
+
+**Sam Schillace** [00:00:00] work to people.
+
+**Sam Schillace** [00:00:00] There's a lot of stuff going on. Like, first of all, like, I should, I'll be a little tiny bit of a salesman for, like, two seconds and just point out that, like, one of the things we have is the Microsoft for Startups Founders Hub. So, like, you can get, like, Azure credits and stuff from us. Like, up to, like, 150 grand, I think, over four years.
+
+**Sam Schillace** [00:00:00] So, like, it's actually pretty easy to get. Credit you can start, I 500 bucks to start or something with very little other than just an idea. So like there's, that's pretty cool. Like, I like Microsoft is very much all in on AI at, at many levels. And so like that, you mentioned, you mentioned Autogen, like, So I sit in the office of the CTO, Microsoft Research sits under him, under the office of the CTO as well.
+
+**Sam Schillace** [00:00:00] So the Autogen group came out of somebody in MSR, like in that group. So like there's sort of. The spectrum of very researchy things going on in research, where we're doing things like Phi, which is the small language model efficiency exploration that's really, really interesting. Lots of very technical folks there that are building different kinds of models.
+
+**Sam Schillace** [00:00:00] And then there's like, groups like my group that are kind of a little bit in the middle that straddle product and, and, and research and kind of have a foot in both worlds and are trying to kind of be a bridge into the product world. And then there's like a whole bunch of stuff on the product side of things.
+
+**Sam Schillace** [00:00:00] So there's. All the Azure OpenAI stuff, and then there's all the stuff that's in Office and Windows. And I, so I think, like, the way, I don't know, the way to think about Microsoft is we're just powering AI at every level we can, and making it as accessible as we can to both end users and developers.
+
+**Sam Schillace** [00:00:00] There's this really nice research arm at one end of that spectrum that's really driving the cutting edge. The fee stuff is really amazing. It broke the chinchella curves. Right, like we didn't, that's the textbooks are all you need paper, and it's still kind of controversial, but like that was really a surprising result that came out of MSR.
+
+**Sam Schillace** [00:00:00] And so like I think Microsoft is both being a thought leader on one end, on the other end with all the Azure OpenAI, all the Azure tooling that we have, like very much a developer centric, kind of the tinkerer's paradise that Microsoft always was. It's like a great place to come and consume all these things.
+
+**Sam Schillace** [00:00:00] There's really amazing stuff ideas that we've had, like these very rich, long running, rag based chatbots that we didn't talk about that are like now possible to just go build with Azure AI Studio for yourself. You can build and deploy like a chatbot that's trained on your data specifically, like very easily and things like that.
+
+**Sam Schillace** [00:00:00] So like there's that end of things. And then there's all this stuff that's in Office, where like, you could just like use the copilots both in Bing, but also just like daily your daily work. So like, it's just kind of everywhere at this point, like everyone in the company thinks about it all the time.
+
+**Sam Schillace** [00:00:00] There's like no single answer to that question. That was way more salesy than I thought I was capable of, but like, that is actually the genuine truth. Like, it is all the time, it is all levels, it is all the way from really pragmatic, approachable stuff for somebody starting out who doesn't know things, all the way to like Absolutely cutting edge research, silicon, models, AI for science, like, we didn't talk about any of the AI for science stuff, I've seen magical stuff coming out of the research group on that topic, like just crazy cool stuff that's coming, so.
+
+**Sam Schillace** [00:00:00] You've
+
+**Swyx** [00:00:00] called this since you joined Microsoft. I point listeners to the podcast that you did in 2022, pre ChatGBT with Kevin Scott. And yeah, you've been saying this from the beginning. So this is not a new line of Talk track for you, like you've, you, you've been a genuine believer for a long time.
+
+**Swyx** [00:00:00] And,
+
+**Sam Schillace** [00:00:00] and just to be clear, like I haven't been at Microsoft that long. I've only been here for like two, a little over two years and you know, it's a little bit weird for me 'cause for a lot of my career they were the competitor and the enemy and you know, it's kind of funny to be here, but like it's really remarkable.
+
+## [00:39:40] On Satya
+
+**Sam Schillace** [00:00:00] It's going on. I really, really like Satya. I've met a, met and worked with a bunch of big tech CEOs and I think he's a genuinely awesome person and he's fun to work with and has a really great. vision. So like, and I obviously really like Kevin, we've been friends for a long time. So it's a cool place.
+
+**Sam Schillace** [00:00:00] I think there's a lot of interesting stuff. We
+
+**Swyx** [00:00:00] have some awareness Satya is a listener. So obviously he's super welcome on the pod anytime. You can just drop in a good word for us.
+
+**Sam Schillace** [00:00:00] He's fun to talk to. It's interesting because like CEOs can be lots of different personalities, but he is you were asking me about how I'm like, so hands on and engaged.
+
+**Sam Schillace** [00:00:00] I'm amazed at how hands on and engaged he can be given the scale of his job. Like, he's super, super engaged with stuff, super in the details, understands a lot of the stuff that's going on. And the science side of things, as well as the product and the business side, I mean, it's really remarkable. I don't say that, like, because he's listening or because I'm trying to pump the company, like, I'm, like, genuinely really, really impressed with, like, how, what he's, like, I look at him, I'm like, I love this stuff, and I spend all my time thinking about it, and I could not do what he's doing.
+
+**Sam Schillace** [00:00:00] Like, it's just incredible how much you can get
+
+**Ben Dunphy** [00:00:00] into his head.
+
+## [00:40:44] Sam at AI Leadership Track
+
+**Ben Dunphy** [00:00:00] Sam, it's been an absolute pleasure to hear from you here, hear the war stories. So thank you so much for coming on. Quick question though you're here on the podcast as the presenting sponsor for the AI Engineer World's Fair, will you be taking the stage there, or are we going to defer that to Satya?
+
+**Ben Dunphy** [00:00:00] And I'm happy
+
+**Sam Schillace** [00:00:00] to talk to folks. I'm happy to be there. It's always fun to like I, I like talking to people more than talking at people. So I don't love giving keynotes. I love giving Q and A's and like engaging with engineers and like. I really am at heart just a builder and an engineer, and like, that's what I'm happiest doing, like being creative and like building things and figuring stuff out.
+
+**Sam Schillace** [00:00:00] That would be really fun to do, and I'll probably go just to like, hang out with people and hear what they're working on and working about.
+
+**Swyx** [00:00:00] The AI leadership track is just AI leaders, and then it's closed doors, so you know, more sort of an unconference style where people just talk
+
+**Sam Schillace** [00:00:00] about their issues.
+
+**Sam Schillace** [00:00:00] Yeah, that would be, that's much more fun. That's really, because we are really all wrestling with this, trying to figure out what it means. Right. So I don't think anyone I, the reason I have the Scalache laws kind of give me the willies a little bit is like, I, I was joking that we should just call them the Scalache best guesses, because like, I don't want people to think that that's like some iron law.
+
+**Sam Schillace** [00:00:00] We're all trying to figure this stuff out. Right. Like some of it's right. Some it's not right. It's going to be messy. We'll have false starts, but yeah, we're all working it out. So that's the fun conversation. All
+
+**Ben Dunphy** [00:00:00] right. Thanks for having me. Yeah, thanks so much for coming on.
+
+## [00:42:05] Final Plug for Tickets & CFP
+
+**Ben Dunphy** [00:00:00] For those of you listening, interested in attending AI Engineer World's Fair, you can purchase your tickets today.
+
+**Ben Dunphy** [00:00:00] Learn more about the event at ai. engineer. You can purchase even group discounts. If you purchase four more tickets, use the code GROUP, and one of those four tickets will be free. If you want to speak at the event CFP closes April 8th, so check out the link at ai. engineer, send us your proposals for talks, workshops, or discussion groups.
+
+**Ben Dunphy** [00:00:00] So if you want to come to THE event of the year for AI engineers, the technical event of the year for AI engineers this is at June 25, 26, and 27 in San Francisco. That's it!
+
+[00:00:00] More budgeting and logistical stress for organizers… did we mention tickets are on sale now? Tell a friend!

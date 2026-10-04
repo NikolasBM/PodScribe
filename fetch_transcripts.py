@@ -257,33 +257,69 @@ def clean_title(title):
     return re.sub(r"^[^\w]+", "", title).strip()
 
 
+def stamp(text):
+    """'[HH:MM:SS]' or the older '[MM:SS]' as HH:MM:SS."""
+    parts = text.split(":")
+    return ":".join(["00"] * (3 - len(parts)) + parts)
+
+
 def substack_body(body_html):
     """Render the transcript of a post body as paragraphs with speaker labels. None if the post has no transcript.
 
-    Handles `<strong>Name [HH:MM:SS]:</strong> text`, `Name [HH:MM:SS]</strong>:` and `Name:</strong>` with
-    inline [HH:MM:SS] markers; section headings (h2/h3) are kept as `## Heading` lines.
+    Handles `<strong>Name [HH:MM:SS]:</strong> text`, `Name [HH:MM:SS]</strong>:`, `Name</strong>: text` and plain
+    `Name: text` (for names already seen as labels), with inline [HH:MM:SS] or [MM:SS] markers. Headings (h2/h3) and
+    `<strong>[MM:SS] Title</strong>` chapter lines are kept as `## Heading`; a `<br>` starts a new paragraph.
     """
     marker = re.search(r"<h[12][^>]*>(?:<[^>]+>)*\s*Transcript\s*(?:</[^>]+>)*</h[12]>", body_html)
     if not marker:
         return None
-    label_re = re.compile(r"^<strong>(?P<name>[^<\[:]+?)\s*(?:\[(?P<ts>\d\d:\d\d:\d\d)\])?\s*:?\s*</strong>\s*:?\s*(?P<rest>.*)$", re.S)
+    stamp_re = re.compile(r"\[(\d{1,2}:\d\d(?::\d\d)?)\]")
+    label_re = re.compile(r"^<strong>(?P<name>[^<\[:]+?)\s*(?:\[(?P<ts>\d{1,2}:\d\d(?::\d\d)?)\])?\s*:?\s*</strong>\s*:?\s*(?P<rest>.*)$", re.S)
+    chapter_re = re.compile(r"^<strong>\s*\[(?P<ts>\d{1,2}:\d\d(?::\d\d)?)\]\s*(?P<title>[^<]+)</strong>$")
     now, out, turns = "00:00:00", [], 0
+
+    def clean(fragment):
+        return html.unescape(re.sub(r"<[^>]+>", "", fragment))
+
+    plain_re = re.compile(r"^(?:\[[\d:]+\]\s*)?(?P<name>[A-Za-z][\w .'’-]{0,30}):\s+(?P<rest>.*)$", re.S)
+
+    def speaker(name):  # "swyx" and "Swyx" are the same voice
+        name = name.strip()
+        return name[0].upper() + name[1:]
+    seen = collections.Counter()  # names that open lines as "Name: text": speakers, if they do it often enough
+    for line in clean(re.sub(r"<br\s*/?>|</p>", "\n", body_html[marker.end():])).split("\n"):
+        if m := plain_re.match(line.strip()):
+            seen[speaker(m["name"])] += 1
+    speakers = {name for name, n in seen.items() if n >= 3} | set(re.findall(r"<strong>([^<\[:]+?)\s*(?:\[[\d:]+\])?\s*:?\s*</strong>", body_html[marker.end():]))
+
     for kind, inner in re.findall(r"<(h[23]|p)[^>]*>(.*?)</\1>", body_html[marker.end():], flags=re.S):
-        if kind != "p":
-            out.append(f"## {html.unescape(re.sub(r'<[^>]+>', '', inner)).strip()}")
+        inner = inner.strip()
+        chapter = chapter_re.match(inner)
+        label = label_re.match(inner)
+        if chapter:
+            out.append(f"## {chapter['title'].strip()}")
+            now = stamp(chapter["ts"])
             continue
-        label = label_re.match(inner.strip())
-        start, prefix = now, ""
-        if label:
-            inner, prefix = label["rest"], f"**{label['name'].strip()}** "
-            start = label["ts"] or now
-            turns += 1
-        text = html.unescape(re.sub(r"<[^>]+>", "", inner))
-        stamps = TS_RE.findall(text)
-        text = " ".join(TS_RE.sub("", text).split())
-        if text:
-            out.append(f"{prefix}[{start}] {text}")
-        now = ":".join(stamps[-1]) if stamps else start
+        if kind != "p" and not label:
+            out.append(f"## {clean(inner).strip()}")
+            continue
+        name, ts = (label["name"].strip(), label["ts"]) if label else (None, None)
+        inner = label["rest"] if label else inner
+        for n, segment in enumerate(re.split(r"<br\s*/?>", inner)):
+            text = clean(segment).strip()
+            turn = name if n == 0 else None
+            if (n > 0 or not label) and (m := plain_re.match(text)) and speaker(m["name"]) in speakers:
+                turn, text = speaker(m["name"]), m["rest"]
+                ts = None
+            stamps = stamp_re.findall(text)
+            start = stamp(ts) if (ts and turn) else now
+            text = " ".join(stamp_re.sub("", text).split())
+            if turn:
+                turns += 1
+                name = turn
+            if text:
+                out.append(f"{'**' + turn + '** ' if turn else ''}[{start}] {text}")
+            now = stamp(stamps[-1]) if stamps else start
     return "\n\n".join(out) if turns else None
 
 

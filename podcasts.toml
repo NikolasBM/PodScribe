@@ -47,7 +47,7 @@ slug = "latent-space"
 name = "Latent Space"
 source = "substack"
 site = "https://www.latent.space"
-since = 2026-06-01
+since = 2023-01-01
 host = "Swyx"
 hosts = ["Swyx", "Alessio", "Vibhu", "Voiceover", "Sarah Guo", "Elad Gil"]
 # The transcripts have no sponsor reads in the text, so skip sponsor removal
