@@ -174,10 +174,10 @@ def episode_meta(podcast, title, date_str, url, guid, **extra):
 
 def try_metadata(meta, body, podcast, guests=None):
     """Add Jev's metadata fields when Jev is available; the transcript is saved without them otherwise."""
+    guests = guest_names(meta["title"], podcast) if guests is None else guests
     if not os.environ.get("TYPESAFE_API_KEY"):
-        return meta
+        return {**meta, "guests": guests}
     try:
-        guests = guest_names(meta["title"], podcast) if guests is None else guests
         return {**meta, "guests": guests, **metadata_fields(meta["title"], meta["date"], body, podcast)}
     except Exception as e:
         warn(f"{meta['date']}: no metadata, {type(e).__name__}: {e}")
@@ -363,6 +363,92 @@ def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
     return count
 
 
+# --- source = "feed_transcript" -----------------------------------------------
+# Shows whose RSS feed links a transcript per episode (<podcast:transcript>, Podcasting 2.0).
+
+def segments_to_body(segments, names=None, merge_seconds=60):
+    """[(speaker, start seconds, text)] -> our paragraphs: a speaker change starts a paragraph with a label; the same
+    speaker's next segments are joined until a paragraph is `merge_seconds` long."""
+    names = names or {}
+    out, speaker, start, text = [], object(), 0.0, []
+
+    def flush():
+        if text:
+            label = f"**{label_name}** " if new_speaker else ""
+            out.append(f"{label}{format_timestamp(int(start * 1000))} {' '.join(text)}")
+
+    label_name, new_speaker = "", False
+    for who, begin, body in segments:
+        body = " ".join(body.split())
+        if not body:
+            continue
+        who = names.get(who, who)
+        if who != speaker or begin - start >= merge_seconds:
+            flush()
+            new_speaker, label_name = who != speaker, who
+            speaker, start, text = who, begin, []
+        text.append(body)
+    flush()
+    return "\n\n".join(out)
+
+
+def parse_transcript_file(content, kind):
+    """[(speaker, start seconds, text)] from a transcript file: Podcasting 2.0 JSON, or WebVTT with <v Speaker> tags."""
+    if "json" in kind:
+        data = json.loads(content)
+        return [(seg.get("speaker") or "", float(seg["startTime"]), seg["body"]) for seg in data["segments"]]
+    segments = []
+    for block in re.split(r"\n\n+", content.replace("\r\n", "\n")):
+        m = re.search(r"(?:(\d+):)?(\d\d):(\d\d)[.,]\d+\s*-->", block)
+        if m:
+            speech = re.sub(r"<[^>]+>", "", block[block.index("\n", m.end()) + 1:] if "\n" in block[m.end():] else "")
+            who = re.search(r"<v ([^>]+)>", block)
+            segments.append((who[1] if who else "", int(m[1] or 0) * 3600 + int(m[2]) * 60 + int(m[3]), speech))
+    return segments
+
+
+def fetch_feed_transcripts(podcast, out_dir, since, until, limit, dry_run):
+    """Save the transcripts that the feed links. Returns number saved."""
+    try:
+        episodes = parse_feed(http_get(podcast["feed"], timeout=60))
+    except Exception as e:
+        warn(f"{podcast['slug']}: feed: {type(e).__name__}: {e}")
+        return 0
+    done = existing_guids(out_dir)
+    todo = [e for e in episodes if since <= e["date"] <= until and e["guid"] not in done]
+    if limit is not None:
+        todo = todo[:limit]
+    count = 0
+    for episode in todo:
+        date_str = episode["date"].isoformat()
+        if dry_run:
+            print(f"would fetch {date_str}: {episode['title']}")
+            continue
+        links = episode["transcripts"]
+        kind = next((k for k in links if "json" in k), None) or next((k for k in links if "vtt" in k), None)
+        if kind is None:
+            print(f"no transcript linked yet: {date_str} {episode['title']}")
+            continue
+        try:
+            segments = parse_transcript_file(http_get(links[kind], timeout=60).decode("utf-8"), kind)
+        except Exception as e:
+            warn(f"{date_str} {episode['title']}: {type(e).__name__}: {e}")
+            continue
+        names = dict(podcast.get("speaker_names", {}))
+        featuring = re.split(r"Show Notes:|Links:|Sponsors:", episode["description"].split("Featuring:", 1)[-1])[0]
+        for full in re.findall(r"([A-Z][\w.'’-]+(?: [A-Z][\w.'’-]+){1,3}) –", featuring):  # "Ming-Yu Liu – LinkedIn ..."
+            if full not in podcast.get("hosts", []):
+                names.setdefault(full.split()[0], full)  # the transcript labels guests by first name
+        segments = [seg for seg in segments if seg[0] not in podcast.get("skip_speakers", [])]
+        body = strip_ads(segments_to_body(segments, names), podcast)
+        meta = try_metadata(episode_meta(podcast, episode["title"], date_str, episode["link"] or None, episode["guid"],
+                                         transcript_source="publisher"), body, podcast, speaker_guests(body, podcast))
+        (out_dir / f"{date_str} - {sanitize_filename(episode['title'])}.md").write_text(render_doc(meta, body), encoding="utf-8", newline="\n")
+        print(f"saved {date_str}: {episode['title']}")
+        count += 1
+    return count
+
+
 # --- source = "folder" ------------------------------------------------------
 # Transcripts shared as a Dropbox folder of plain-text files named after the guest. The RSS feed gives each file
 # its episode: title, date and link. The folder's link is `folder_url` (or, if it must stay private, the
@@ -539,6 +625,7 @@ def parse_feed(xml_bytes):
             "audio_url": enclosure.get("url"),
             "link": (item.findtext("link") or "").strip(),
             "seconds": sum(x * 60 ** i for i, x in enumerate(reversed(parts))) if parts else None,
+            "transcripts": {t.get("type", ""): t.get("url") for t in item.findall("{https://podcastindex.org/namespace/1.0}transcript") if t.get("url")},
             "description": re.sub(r"<[^>]+>", " ", item.findtext("description") or "")[:1500],
         })
     return sorted(episodes, key=lambda e: e["date"])
@@ -1257,6 +1344,8 @@ def main():
             count = fetch_published(podcast, out_dir, since, until, args.limit)
         elif podcast["source"] == "substack":
             count = fetch_substack(podcast, out_dir, since_arg or floor, until, args.limit, args.dry_run)
+        elif podcast["source"] == "feed_transcript":
+            count = fetch_feed_transcripts(podcast, out_dir, since_arg or floor, until, args.limit, args.dry_run)
         elif podcast["source"] == "folder":
             count = fetch_folder(podcast, out_dir, since_arg or floor, until, args.limit, args.dry_run)
         elif podcast["source"] == "rss":

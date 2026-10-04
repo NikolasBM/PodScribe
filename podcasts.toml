@@ -83,3 +83,16 @@ host = "Ben Hafele"
 host_cues = ["welcome to the Lean AI podcast"]
 phrases = ["Ben Hafele", "Lean Startup", "Eric Ries", "Lean AI", "generative AI", "LLM", "use case"]
 
+[[podcast]]
+slug = "practical-ai"
+name = "Practical AI"
+# The feed links a transcript (JSON with speaker names) for every episode
+source = "feed_transcript"
+feed = "https://feeds.transistor.fm/practical-ai-machine-learning-data-science-llm"
+since = 2026-08-01
+host = "Daniel Whitenack"
+hosts = ["Daniel Whitenack", "Chris Benson", "Narrator"]
+speaker_names = { Daniel = "Daniel Whitenack", Chris = "Chris Benson" }
+# The transcript marks the sponsor reads with their own speaker
+skip_speakers = ["Sponsor"]
+

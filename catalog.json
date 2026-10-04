@@ -71,6 +71,22 @@
   "path": "transcripts/latent-space/2026-10-02 - Academia is for Ambition — Alex Zhang, MIT.md"
  },
  {
+  "podcast": "practical-ai",
+  "date": "2026-10-01",
+  "title": "Open models and the future of Physical AI with NVIDIA",
+  "guests": [
+   "Ming-Yu Liu"
+  ],
+  "format": null,
+  "level": null,
+  "length": null,
+  "categories": null,
+  "featured": null,
+  "mentioned": null,
+  "url": "https://share.transistor.fm/s/217445d3",
+  "path": "transcripts/practical-ai/2026-10-01 - Open models and the future of Physical AI with NVIDIA.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-10-01",
   "title": "Gemini 4 Argon, Sonnet 5.5 and What Matters with AI Models",
@@ -458,6 +474,22 @@
   "path": "transcripts/ai-daily-brief/2026-09-25 - How People Are Actually Using Jev.md"
  },
  {
+  "podcast": "practical-ai",
+  "date": "2026-09-24",
+  "title": "From AGENTS.md to Enterprise Deployment",
+  "guests": [
+   "Nick Kuhn"
+  ],
+  "format": null,
+  "level": null,
+  "length": null,
+  "categories": null,
+  "featured": null,
+  "mentioned": null,
+  "url": "https://share.transistor.fm/s/74934e48",
+  "path": "transcripts/practical-ai/2026-09-24 - From AGENTS.md to Enterprise Deployment.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-09-24",
   "title": "AI Agents Are Moving Into the Real World",
@@ -790,6 +822,23 @@
   "path": "transcripts/ai-daily-brief/2026-09-18 - The AI Challenges Businesses Are Actually Focused On Right Now.md"
  },
  {
+  "podcast": "practical-ai",
+  "date": "2026-09-17",
+  "title": "How to get discovered in AI search",
+  "guests": [
+   "Liam Dunne",
+   "Ben Moore"
+  ],
+  "format": null,
+  "level": null,
+  "length": null,
+  "categories": null,
+  "featured": null,
+  "mentioned": null,
+  "url": "https://share.transistor.fm/s/66185604",
+  "path": "transcripts/practical-ai/2026-09-17 - How to get discovered in AI search.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-09-17",
   "title": "Why Everyone Is Getting Excited About Personal AI Agents",
@@ -1071,6 +1120,22 @@
   "path": "transcripts/ai-daily-brief/2026-09-11 - What to Use the Latest AI Tools For.md"
  },
  {
+  "podcast": "practical-ai",
+  "date": "2026-09-10",
+  "title": "Computer-Use Agents and the Future of the Agentic Internet",
+  "guests": [
+   "Demetrios Brinkmann"
+  ],
+  "format": null,
+  "level": null,
+  "length": null,
+  "categories": null,
+  "featured": null,
+  "mentioned": null,
+  "url": "https://share.transistor.fm/s/72586f97",
+  "path": "transcripts/practical-ai/2026-09-10 - Computer-Use Agents and the Future of the Agentic Internet.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-09-10",
   "title": "Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans",
@@ -1350,6 +1415,22 @@
   "path": "transcripts/ai-daily-brief/2026-09-04 - How AI Changed This Summer.md"
  },
  {
+  "podcast": "practical-ai",
+  "date": "2026-09-03",
+  "title": "Less about Models; More about Architecture",
+  "guests": [
+   "Chetan Gupta"
+  ],
+  "format": null,
+  "level": null,
+  "length": null,
+  "categories": null,
+  "featured": null,
+  "mentioned": null,
+  "url": "https://share.transistor.fm/s/ec79b4ac",
+  "path": "transcripts/practical-ai/2026-09-03 - Less about Models; More about Architecture.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-09-03",
   "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
@@ -1587,6 +1668,22 @@
   "path": "transcripts/ai-daily-brief/2026-08-29 - How to Start AI Coding If You Haven’t Yet.md"
  },
  {
+  "podcast": "practical-ai",
+  "date": "2026-08-28",
+  "title": "Building the Foundation for the Agentic AI Era",
+  "guests": [
+   "Angie Jones"
+  ],
+  "format": null,
+  "level": null,
+  "length": null,
+  "categories": null,
+  "featured": null,
+  "mentioned": null,
+  "url": "https://share.transistor.fm/s/123da941",
+  "path": "transcripts/practical-ai/2026-08-28 - Building the Foundation for the Agentic AI Era.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-08-28",
   "title": "The Most Useful New AI Features and Tools to Try",
@@ -1666,6 +1763,22 @@
   ],
   "url": "https://aidailybrief.ai/e/2026-08-26",
   "path": "transcripts/ai-daily-brief/2026-08-26 - 5 Rules for Better AI Writing.md"
+ },
+ {
+  "podcast": "practical-ai",
+  "date": "2026-08-25",
+  "title": "AI Proficiency: From Users to Builders",
+  "guests": [
+   "Mike Lewis"
+  ],
+  "format": null,
+  "level": null,
+  "length": null,
+  "categories": null,
+  "featured": null,
+  "mentioned": null,
+  "url": "https://share.transistor.fm/s/0f57c0bc",
+  "path": "transcripts/practical-ai/2026-08-25 - AI Proficiency- From Users to Builders.md"
  },
  {
   "podcast": "ai-daily-brief",
@@ -2205,6 +2318,20 @@
   ],
   "url": "https://aidailybrief.ai/e/2026-08-07",
   "path": "transcripts/ai-daily-brief/2026-08-07 - The Right Way to Worry About AI.md"
+ },
+ {
+  "podcast": "practical-ai",
+  "date": "2026-08-06",
+  "title": "Models, Harnesses, and Multi-Agent Systems",
+  "guests": null,
+  "format": null,
+  "level": null,
+  "length": null,
+  "categories": null,
+  "featured": null,
+  "mentioned": null,
+  "url": "https://share.transistor.fm/s/063cfaad",
+  "path": "transcripts/practical-ai/2026-08-06 - Models, Harnesses, and Multi-Agent Systems.md"
  },
  {
   "podcast": "ai-daily-brief",
