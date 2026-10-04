@@ -418,8 +418,9 @@ def folder_stem_names(stem):
 
 def match_folder_files(files, episodes):
     """{episode guid: file stem}. A file belongs to the episode whose title names its guest and whose length matches
-    the file's last timestamp (guests come back, so the name alone is not enough); then by description, then by
-    length alone."""
+    the file's last timestamp (guests come back, so the name alone is not enough); then by the name in the episode's
+    description. Length alone is not enough: a file whose episode is not in the list can land within seconds of
+    another episode's length."""
     seconds = {stem: plain_last_seconds(text) for stem, text in files.items()}
 
     def close(episode, stem, tolerance=FOLDER_SECONDS_TOLERANCE):
@@ -440,22 +441,17 @@ def match_folder_files(files, episodes):
             used.add(chosen["guid"])
         return chosen
 
-    for stem in files:
-        names = folder_stem_names(stem)
-        if names:
-            pick(stem, [e for e in episodes if all(_name_in(n, _words(e["title"])) for n in names)])
-    taken = set(assigned.values())
-    for stem in files:
-        names = folder_stem_names(stem)
-        if stem not in taken and names:
-            pick(stem, [e for e in episodes if all(_name_in(n, _words(e["description"])) for n in names)])
-    taken = set(assigned.values())
-    for stem in files:
-        if stem not in taken:
-            near = [e for e in episodes if free(e) and close(e, stem, tolerance=45)]
-            if len(near) == 1:
-                assigned[near[0]["guid"]] = stem
-                used.add(near[0]["guid"])
+    def name_variants(stem):  # "TiboSottiaux" is also "Tibo Sottiaux"
+        spaced = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", stem) if " " not in stem.strip() else stem
+        return [n for n in dict.fromkeys([tuple(folder_stem_names(stem)), tuple(folder_stem_names(spaced))]) if n]
+
+    for field in ("title", "description"):
+        for stem in files:
+            if stem in assigned.values():
+                continue
+            for names in name_variants(stem):
+                if pick(stem, [e for e in episodes if all(_name_in(n, _words(e[field])) for n in names)]):
+                    break
     return assigned
 
 

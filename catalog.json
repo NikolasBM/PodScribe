@@ -4759,25 +4759,6 @@
  },
  {
   "podcast": "lennys-podcast",
-  "date": "2026-03-12",
-  "title": "How I built a 1M+ subscriber newsletter and top 10 tech podcast | Lenny Rachitsky",
-  "guests": [
-   "Georgiana Laudi",
-   "John Cutler"
-  ],
-  "format": "interview",
-  "level": 1,
-  "length": "01:06:24",
-  "categories": [],
-  "featured": [],
-  "mentioned": [
-   "Slack"
-  ],
-  "url": "https://podcasts.apple.com/us/podcast/how-i-built-a-1m-subscriber-newsletter-and-top-10/id1627920305?i=1000754846504&uo=4",
-  "path": "transcripts/lennys-podcast/2026-03-12 - How I built a 1M+ subscriber newsletter and top 10 tech podcast - Lenny Rachitsky.md"
- },
- {
-  "podcast": "lennys-podcast",
   "date": "2026-03-08",
   "title": "The most successful AI company you’ve never heard of | Qasar Younis",
   "guests": [
@@ -5146,23 +5127,5 @@
   "mentioned": [],
   "url": "https://www.lennysnewsletter.com/p/the-high-growth-handbook-molly-graham",
   "path": "transcripts/lennys-podcast/2026-01-04 - The high-growth handbook- Molly Graham’s frameworks for leading through chaos, change, and scale.md"
- },
- {
-  "podcast": "lennys-podcast",
-  "date": "2026-01-01",
-  "title": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
-  "guests": [
-   "Andrew ‘Boz’ Bosworth"
-  ],
-  "format": "interview",
-  "level": 1,
-  "length": "01:41:53",
-  "categories": [],
-  "featured": [
-   "Meta"
-  ],
-  "mentioned": [],
-  "url": "https://podcasts.apple.com/us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305?i=1000743418847&uo=4",
-  "path": "transcripts/lennys-podcast/2026-01-01 - We replaced our sales team with 20 AI agents—here’s what happened - Jason Lemkin (SaaStr).md"
  }
 ]
