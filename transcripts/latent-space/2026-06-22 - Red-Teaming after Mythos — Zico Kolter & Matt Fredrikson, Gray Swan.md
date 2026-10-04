@@ -4,6 +4,14 @@ https://www.latent.space/p/gray-swan · Latent Space
 
 <!-- guid: substack:202758604 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:06:18
+Host: Swyx
+Categories: safety-security, agents, models, coding
+Featured: OpenClaw, OpenAI Codex, computer use, Claude Code, Claude
+Also mentioned: Claude Mythos
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Gray Swan, AI Security, and CMU

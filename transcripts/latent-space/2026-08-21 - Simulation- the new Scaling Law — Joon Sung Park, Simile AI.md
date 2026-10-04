@@ -4,6 +4,14 @@ https://www.latent.space/p/simile · Latent Space
 
 <!-- guid: substack:212197985 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:09:31
+Host: Swyx
+Categories: agents, models, enterprise
+Featured: none
+Also mentioned: ChatGPT, Claude, OpenClaw, Figma
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Joon Sung Park, Simile, and the Story So Far

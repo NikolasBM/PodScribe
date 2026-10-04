@@ -4,6 +4,14 @@ https://www.latent.space/p/runway · Latent Space
 
 <!-- guid: substack:217289983 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:36:14
+Host: Swyx
+Categories: design, models, agents, open-weights
+Featured: distillation, agent harness, computer use
+Also mentioned: Gemini, Claude
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Runway, Creative AI, and the Early Thesis

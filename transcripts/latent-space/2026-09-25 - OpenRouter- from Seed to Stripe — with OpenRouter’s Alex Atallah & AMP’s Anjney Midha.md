@@ -4,6 +4,14 @@ https://www.latent.space/p/openrouter · Latent Space
 
 <!-- guid: substack:217456046 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:20:35
+Host: Swyx
+Categories: models, model-strategy, agents, funding-markets
+Featured: OpenRouter, Stripe, Claude, OpenClaw, open-weight models
+Also mentioned: ChatGPT, Cognition Devin, Hermes Agent
+<!-- /metadata -->
+
 ---
 
 ## Introduction: OpenRouter, Marketplaces, and Pub-Sub as a Product Principle

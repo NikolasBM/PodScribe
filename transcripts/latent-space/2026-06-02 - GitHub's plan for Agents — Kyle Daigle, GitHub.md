@@ -4,6 +4,14 @@ https://www.latent.space/p/github · Latent Space
 
 <!-- guid: substack:200249307 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:23:16
+Host: Swyx
+Categories: agents, coding, work, marketing
+Featured: Microsoft Copilot, OpenClaw, MCP, agent harness
+Also mentioned: Slack, Claude Mythos
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Kyle Daigle’s Expanded Role at GitHub and Microsoft

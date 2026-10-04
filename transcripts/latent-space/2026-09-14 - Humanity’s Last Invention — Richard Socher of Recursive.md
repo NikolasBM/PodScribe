@@ -4,6 +4,14 @@ https://www.latent.space/p/recursive · Latent Space
 
 <!-- guid: substack:215289811 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:31:59
+Host: Swyx
+Categories: safety-security, agents, models, coding
+Featured: recursive self-improvement
+Also mentioned: agent harness, Claude, ChatGPT, GPT-5.6, Whisperflow
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Richard Socher and the Eureka Machine

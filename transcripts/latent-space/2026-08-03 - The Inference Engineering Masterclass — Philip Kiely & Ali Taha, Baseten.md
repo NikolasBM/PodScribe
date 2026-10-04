@@ -4,6 +4,14 @@ https://www.latent.space/p/inference-eng · Latent Space
 
 <!-- guid: substack:209198968 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:41:21
+Host: Swyx
+Categories: models, open-weights, infrastructure, design
+Featured: Kimi, GLM
+Also mentioned: DeepSeek, Gemma, MiniMax, distillation, Grok, Nvidia Nemotron, Qwen
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Baseten, Waterloo Intern, and Inference Engineering

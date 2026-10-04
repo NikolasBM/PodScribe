@@ -4,6 +4,14 @@ https://www.latent.space/p/satya-2026 · Latent Space
 
 <!-- guid: substack:200432443 -->
 
+<!-- metadata -->
+Format: interview · Level: 1 · Length: ~00:38:00
+Host: Swyx
+Categories: agents, work, coding, enterprise
+Featured: Microsoft, agent harness, Microsoft MAI, Microsoft Copilot
+Also mentioned: none
+<!-- /metadata -->
+
 ---
 
 **Voiceover** [00:00:00] Welcome swyx, Sarah Guo, Elad Gil,, and Chairman and Chief Executive Officer of Microsoft, Satya Nadella

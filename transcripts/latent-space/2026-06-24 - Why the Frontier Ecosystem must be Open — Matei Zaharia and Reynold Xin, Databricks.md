@@ -4,6 +4,14 @@ https://www.latent.space/p/databricks · Latent Space
 
 <!-- guid: substack:203293676 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:08:41
+Host: Swyx
+Categories: agents, coding, enterprise
+Featured: agent harness
+Also mentioned: OpenAI Codex, Claude, ChatGPT
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Databricks, Data + AI Summit, and Founder Dynamics

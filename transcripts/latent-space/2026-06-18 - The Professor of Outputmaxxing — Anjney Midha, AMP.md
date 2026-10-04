@@ -4,6 +4,14 @@ https://www.latent.space/p/anj · Latent Space
 
 <!-- guid: substack:202359797 -->
 
+<!-- metadata -->
+Format: interview · Level: 1 · Length: ~00:59:15
+Host: Swyx
+Categories: infrastructure, enterprise, safety-security
+Featured: Anthropic
+Also mentioned: Claude
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Anjney Midha, AMP, and Compute Waste

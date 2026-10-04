@@ -4,6 +4,14 @@ https://www.latent.space/p/modal2026 · Latent Space
 
 <!-- guid: substack:205716015 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~00:57:42
+Host: Swyx
+Categories: agents, coding, infrastructure
+Featured: none
+Also mentioned: agent harness, Claude Code, OpenAI Codex, Claude
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Modal, Series C, and the Art Party

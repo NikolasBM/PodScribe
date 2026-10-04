@@ -4,6 +4,14 @@ https://www.latent.space/p/devday-2026 · Latent Space
 
 <!-- guid: substack:218243619 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~00:39:02
+Host: Swyx
+Categories: agents, models, coding, consumer
+Featured: computer use, OpenAI Codex, agent harness, OpenAI, OpenAI Decisions API, GPT-6, Jev, ChatGPT
+Also mentioned: GPT Live, Gemini
+<!-- /metadata -->
+
 ---
 
 ## Introduction: OpenAI DevDay and the New Agent Stack

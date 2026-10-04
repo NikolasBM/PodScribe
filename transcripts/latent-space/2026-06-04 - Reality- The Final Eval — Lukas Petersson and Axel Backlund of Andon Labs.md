@@ -4,6 +4,14 @@ https://www.latent.space/p/andon · Latent Space
 
 <!-- guid: substack:200614482 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:15:29
+Host: Swyx
+Categories: agents, models, safety-security, work
+Featured: agent harness, Claude, Slack, Claude Mythos, Claude Opus
+Also mentioned: OpenClaw, Claude Code, Grok, Gemini, GLM, Qwen
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Andon Labs, Long-Running Agents, and Real-World Evals

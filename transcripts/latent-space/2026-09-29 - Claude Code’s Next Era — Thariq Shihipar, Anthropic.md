@@ -4,6 +4,14 @@ https://www.latent.space/p/thariq · Latent Space
 
 <!-- guid: substack:217893105 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:32:22
+Host: Swyx
+Categories: agents, coding, safety-security, models
+Featured: Claude, Claude Code, agent harness, Claude Tag, Anthropic, Pacing the Frontier, Claude Fable, computer use, agent loops, Hugging Face incident
+Also mentioned: MCP, model routing, Slack, Project Glasswing, vibe coding, Terminal Bench
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Life at Anthropic and the Pace of Change

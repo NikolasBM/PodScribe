@@ -4,6 +4,14 @@ https://www.latent.space/p/chatgpt-work · Latent Space
 
 <!-- guid: substack:208716574 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~01:09:09
+Host: Swyx
+Categories: agents, work, coding, models
+Featured: ChatGPT, OpenAI Codex, agent harness, OpenAI, computer use
+Also mentioned: OpenClaw, GPT-5.6, Slack, GPT-5.5
+<!-- /metadata -->
+
 ---
 
 ## Introduction: Akshay Nathan, ChatGPT Work, and the No-Code Arc
