@@ -14,6 +14,7 @@ categories: ["work", "safety-security", "infrastructure"]
 featured: []
 mentioned: ["OpenClaw", "Claude", "OpenAI Codex"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Why we’re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex–OpenAI, Meta, Apple)

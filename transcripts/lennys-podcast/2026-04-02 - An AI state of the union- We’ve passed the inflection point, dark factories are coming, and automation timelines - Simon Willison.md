@@ -14,6 +14,7 @@ categories: ["coding", "agents", "work", "safety-security"]
 featured: ["OpenClaw", "vibe coding", "ChatGPT", "Claude Code", "Claude", "Claude Opus"]
 mentioned: ["Slack", "Gemini", "OpenAI Codex"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison

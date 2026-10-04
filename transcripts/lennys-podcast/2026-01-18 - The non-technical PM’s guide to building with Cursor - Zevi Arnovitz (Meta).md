@@ -14,6 +14,7 @@ categories: ["coding", "work", "agents"]
 featured: ["Claude", "Cursor", "Claude Code", "ChatGPT", "vibe coding"]
 mentioned: ["Lovable", "Gemini", "OpenAI Codex", "Replit", "Perplexity", "Whisperflow", "Microsoft Copilot"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # The non-technical PM’s guide to building with Cursor | Zevi Arnovitz (Meta)

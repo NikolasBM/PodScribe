@@ -14,6 +14,7 @@ categories: ["work", "agents", "coding", "models"]
 featured: ["Claude", "Anthropic", "Claude Code"]
 mentioned: ["computer use", "MCP", "Claude Design", "Slack", "Claude Mythos", "agent harness", "OpenAI Codex"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Anthropic’s first technical PM on token maxing, the jagged edge, and living in the future | Dianne Penn

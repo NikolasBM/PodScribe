@@ -14,6 +14,7 @@ categories: ["work", "enterprise", "infrastructure", "coding"]
 featured: ["ChatGPT", "Claude"]
 mentioned: ["Gemini", "Claude Code"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # A rational conversation on where AI is actually going | Benedict Evans

@@ -14,6 +14,7 @@ categories: ["work", "design", "coding", "marketing"]
 featured: ["distillation"]
 mentioned: []
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO)

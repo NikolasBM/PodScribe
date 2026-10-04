@@ -14,6 +14,7 @@ categories: ["agents", "work"]
 featured: ["Grok Bot", "Cursor", "computer use"]
 mentioned: ["OpenClaw", "Slack", "OpenAI Codex", "Claude Cowork", "ChatGPT"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)

@@ -14,6 +14,7 @@ categories: ["work"]
 featured: ["Cursor"]
 mentioned: ["Granola", "Slack", "Whisperflow"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # The playbook for building high-talent-density teams | Adam Ward, Head of Talent at Cursor

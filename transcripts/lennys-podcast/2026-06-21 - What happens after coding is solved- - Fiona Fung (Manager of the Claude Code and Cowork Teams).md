@@ -14,6 +14,7 @@ categories: ["work", "coding", "agents"]
 featured: ["Claude", "Claude Code", "Claude Cowork", "Anthropic"]
 mentioned: ["Slack"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)

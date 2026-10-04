@@ -14,6 +14,7 @@ categories: ["work", "infrastructure"]
 featured: []
 mentioned: ["ChatGPT", "Claude", "Grok"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel

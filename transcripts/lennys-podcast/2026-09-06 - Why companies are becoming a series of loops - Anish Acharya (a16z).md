@@ -14,6 +14,7 @@ categories: ["agents", "work", "consumer", "coding"]
 featured: ["Grok Bot", "Grok", "open-weight models", "ChatGPT"]
 mentioned: ["OpenAI Codex", "Cursor", "recursive self-improvement", "Granola", "Claude Code", "Claude", "distillation", "Qwen", "Instinct", "OpenClaw", "Claude Mythos", "GPT-6", "Claude Cowork", "Gemini"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Why companies are becoming a series of loops | Anish Acharya (a16z)

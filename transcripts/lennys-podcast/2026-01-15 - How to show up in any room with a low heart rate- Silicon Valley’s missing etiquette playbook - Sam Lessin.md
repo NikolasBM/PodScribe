@@ -14,6 +14,7 @@ categories: []
 featured: []
 mentioned: ["ChatGPT", "vibe coding", "Perplexity"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook | Sam Lessin

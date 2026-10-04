@@ -14,6 +14,7 @@ categories: ["coding", "work", "agents", "enterprise"]
 featured: ["agent loops", "vibe coding", "agent harness"]
 mentioned: ["Figma", "Slack", "OpenAI Codex", "Claude Code", "Cursor", "Claude", "ChatGPT"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)

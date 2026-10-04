@@ -14,6 +14,7 @@ categories: ["work"]
 featured: []
 mentioned: ["OpenClaw", "Figma", "ChatGPT", "vibe coding"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # The most successful AI company you’ve never heard of | Qasar Younis

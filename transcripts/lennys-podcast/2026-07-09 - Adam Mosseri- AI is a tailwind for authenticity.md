@@ -14,6 +14,7 @@ categories: ["work", "coding", "design", "model-strategy"]
 featured: []
 mentioned: ["Claude Code", "Claude", "vibe coding", "OpenAI Codex", "Claude Mythos"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Adam Mosseri: AI is a tailwind for authenticity

@@ -14,6 +14,7 @@ categories: ["work", "design", "coding", "consumer"]
 featured: ["ChatGPT", "OpenAI", "OpenAI Codex"]
 mentioned: ["Slack"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber

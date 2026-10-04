@@ -14,6 +14,7 @@ categories: ["coding", "work", "agents", "enterprise"]
 featured: ["OpenAI Codex", "OpenAI", "ChatGPT", "vibe coding"]
 mentioned: ["OpenClaw", "Slack", "Cursor", "model routing"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # “Engineers are becoming sorcerers” | The future of software development with OpenAI’s Sherwin Wu

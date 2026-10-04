@@ -14,6 +14,7 @@ categories: ["coding", "work", "design", "agents"]
 featured: ["Lovable", "vibe coding"]
 mentioned: ["OpenAI Codex", "Cursor", "ChatGPT", "Claude Code", "Claude", "Whisperflow", "Perplexity"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)

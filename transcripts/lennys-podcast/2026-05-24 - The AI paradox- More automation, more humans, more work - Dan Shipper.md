@@ -14,6 +14,7 @@ categories: ["work", "agents", "coding", "models"]
 featured: ["ChatGPT", "Claude Code", "Claude", "Claude Opus"]
 mentioned: ["Granola", "Cursor", "Gemini", "Microsoft Copilot"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # The AI paradox: More automation, more humans, more work | Dan Shipper

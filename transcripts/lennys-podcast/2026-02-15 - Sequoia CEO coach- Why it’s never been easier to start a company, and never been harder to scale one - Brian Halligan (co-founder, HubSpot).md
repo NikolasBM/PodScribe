@@ -14,6 +14,7 @@ categories: ["work", "agents", "marketing", "consumer"]
 featured: []
 mentioned: ["ChatGPT", "Slack", "Gemini", "Granola", "OpenClaw"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)

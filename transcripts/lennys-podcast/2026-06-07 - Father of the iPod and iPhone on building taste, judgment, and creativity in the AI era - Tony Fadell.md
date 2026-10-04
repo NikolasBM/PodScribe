@@ -14,6 +14,7 @@ categories: ["coding", "consumer", "work"]
 featured: ["Apple"]
 mentioned: ["Claude", "Claude Code", "Grok"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell

@@ -14,6 +14,7 @@ categories: ["work", "marketing", "design"]
 featured: []
 mentioned: []
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)

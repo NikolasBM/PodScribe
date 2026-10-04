@@ -14,6 +14,7 @@ categories: ["work", "coding", "agents", "models"]
 featured: ["ChatGPT"]
 mentioned: ["Claude Cowork", "Replit", "agent harness", "Claude Code", "Claude", "vibe coding", "Nano Banana", "DeepSeek", "Grok", "Whisperflow"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Marc Andreessen: The real AI boom hasn’t even started yet

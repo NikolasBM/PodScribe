@@ -14,6 +14,7 @@ categories: ["work", "coding", "agents"]
 featured: ["Claude Code", "Claude", "Claude Cowork", "Anthropic", "agent harness"]
 mentioned: ["Slack", "Claude Mythos", "OpenClaw"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)

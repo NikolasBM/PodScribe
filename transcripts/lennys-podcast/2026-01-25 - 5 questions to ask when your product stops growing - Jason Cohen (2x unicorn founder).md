@@ -14,6 +14,7 @@ categories: []
 featured: []
 mentioned: ["Whisperflow", "Gemini"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # 5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)

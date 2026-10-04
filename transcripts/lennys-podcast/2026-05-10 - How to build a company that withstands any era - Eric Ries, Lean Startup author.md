@@ -14,6 +14,7 @@ categories: ["funding-markets", "safety-security"]
 featured: ["Anthropic"]
 mentioned: ["ChatGPT", "Claude Code"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # How to build a company that withstands any era | Eric Ries, Lean Startup author

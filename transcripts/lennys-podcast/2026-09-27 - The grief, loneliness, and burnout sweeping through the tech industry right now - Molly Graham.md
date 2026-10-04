@@ -14,6 +14,7 @@ categories: ["work", "agents", "coding"]
 featured: []
 mentioned: ["Claude Code", "Grok Bot", "OpenAI Codex"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # The grief, loneliness, and burnout sweeping through the tech industry right now | Molly Graham

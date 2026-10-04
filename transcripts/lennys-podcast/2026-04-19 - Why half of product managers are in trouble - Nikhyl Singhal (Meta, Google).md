@@ -14,6 +14,7 @@ categories: ["work", "coding", "agents"]
 featured: ["Claude", "Claude Code", "vibe coding"]
 mentioned: ["OpenAI Codex"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)

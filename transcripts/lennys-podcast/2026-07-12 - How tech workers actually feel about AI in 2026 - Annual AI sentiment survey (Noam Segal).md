@@ -14,6 +14,7 @@ categories: ["work"]
 featured: []
 mentioned: ["Slack", "Cognition Devin", "Claude"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)

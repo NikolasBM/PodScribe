@@ -14,6 +14,7 @@ categories: ["agents", "work", "coding", "enterprise"]
 featured: ["OpenAI Codex"]
 mentioned: ["Whisperflow", "ChatGPT"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google, and Amazon

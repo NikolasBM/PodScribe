@@ -14,6 +14,7 @@ categories: []
 featured: []
 mentioned: ["Figma", "Replit", "Lovable", "Perplexity", "ElevenLabs", "ChatGPT"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy

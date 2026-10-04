@@ -14,6 +14,7 @@ categories: ["work", "agents", "coding"]
 featured: []
 mentioned: ["Claude"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel

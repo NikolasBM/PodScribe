@@ -14,6 +14,7 @@ categories: ["work", "agents", "coding", "safety-security"]
 featured: ["Anthropic", "Claude", "Claude Cowork", "Claude Code"]
 mentioned: ["Slack", "ChatGPT", "MCP", "vibe coding"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare

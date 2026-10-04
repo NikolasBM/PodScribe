@@ -14,6 +14,7 @@ categories: ["work", "agents", "coding", "design"]
 featured: ["Claude", "Claude Cowork", "Anthropic", "Claude Code"]
 mentioned: ["Figma", "Slack", "OpenClaw", "agent harness"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)

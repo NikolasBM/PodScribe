@@ -14,6 +14,7 @@ categories: ["agents", "work", "coding"]
 featured: ["OpenAI Codex", "OpenAI", "ChatGPT", "agent harness"]
 mentioned: ["Slack", "Claude Code", "computer use"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # AI’s third era: the rise of persistent AI coworkers | Tara Seshan (Product Lead ChatGPT Work)

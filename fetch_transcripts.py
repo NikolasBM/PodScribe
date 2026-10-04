@@ -127,7 +127,7 @@ def sanitize_filename(title):
 # [HH:MM:SS] ... the transcript ...
 
 FRONTMATTER_KEYS = ["podcast", "podcast_title", "title", "date", "url", "guid", "host", "guests", "format", "level", "length",
-                    "categories", "featured", "mentioned", "transcript_source", "transcribed_by"]
+                    "categories", "featured", "mentioned", "transcript_source", "transcribed_by", "credit"]
 FRONTMATTER_RE = re.compile(r"\A---\n(.*?)\n---\n\n# [^\n]*\n\n", re.S)
 
 
@@ -165,7 +165,7 @@ def read_doc(path):
 
 def episode_meta(podcast, title, date_str, url, guid, **extra):
     meta = {"podcast": podcast["slug"], "podcast_title": podcast["name"], "title": title, "date": date_str,
-            "url": url, "guid": guid, "host": podcast.get("host")}
+            "url": url, "guid": guid, "host": podcast.get("host"), "credit": podcast.get("credit")}
     meta.update(extra)
     return meta
 
@@ -365,7 +365,8 @@ def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
 
 # --- source = "folder" ------------------------------------------------------
 # Transcripts shared as a Dropbox folder of plain-text files named after the guest. The RSS feed gives each file
-# its episode: title, date and link. Needs the folder's link in the environment variable `folder_url_env`.
+# its episode: title, date and link. The folder's link is `folder_url` (or, if it must stay private, the
+# environment variable named in `folder_url_env`).
 
 FOLDER_SECONDS_TOLERANCE = 90
 
@@ -495,9 +496,9 @@ def fetch_folder(podcast, out_dir, since, until, limit, dry_run):
         for episode in todo:
             print(f"would look for {episode['date']}: {episode['title']}")
         return 0
-    url = os.environ.get(podcast.get("folder_url_env", ""))
+    url = podcast.get("folder_url") or os.environ.get(podcast.get("folder_url_env", ""))
     if not url:
-        warn(f"{podcast['slug']}: {len(todo)} episodes waiting, but {podcast.get('folder_url_env')} is not set")
+        warn(f"{podcast['slug']}: {len(todo)} episodes waiting, but the folder link (folder_url) is not set")
         return 0
     try:
         files = folder_files(url)

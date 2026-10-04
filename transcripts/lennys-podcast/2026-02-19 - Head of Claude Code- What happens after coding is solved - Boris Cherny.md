@@ -14,6 +14,7 @@ categories: ["coding", "work", "agents", "safety-security"]
 featured: ["Claude Code", "Anthropic", "Claude", "Claude Cowork", "computer use"]
 mentioned: ["Slack", "Cursor"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # Head of Claude Code: What happens after coding is solved | Boris Cherny

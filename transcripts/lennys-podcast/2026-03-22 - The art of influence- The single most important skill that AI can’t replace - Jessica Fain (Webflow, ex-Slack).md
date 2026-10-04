@@ -14,6 +14,7 @@ categories: ["work", "agents"]
 featured: ["Slack"]
 mentioned: ["Claude"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)

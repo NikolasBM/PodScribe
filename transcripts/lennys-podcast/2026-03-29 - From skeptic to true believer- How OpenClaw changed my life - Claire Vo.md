@@ -14,6 +14,7 @@ categories: ["agents", "consumer", "coding", "work"]
 featured: ["OpenClaw", "computer use", "agent harness"]
 mentioned: ["Claude", "ChatGPT", "ChatPRD", "Slack", "Perplexity", "Claude Code", "vibe coding", "OpenAI Codex"]
 transcript_source: "shared-folder"
+credit: "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 ---
 
 # From skeptic to true believer: How OpenClaw changed my life | Claire Vo
