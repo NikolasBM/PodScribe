@@ -234,8 +234,9 @@ exact_case = true
 [[term]]
 name = "Meta Muse"
 kind = "product"
-aliases = ["Muse app", "Muse Charm", "Muse for Mac", "Meta's Muse"]
-note = "The personal agent. 'Muse' alone is ambiguous (also the Muse Spark model line)."
+aliases = ["Muse", "Muse app", "Muse Charm", "Muse for Mac", "Meta's Muse"]
+exact_case = true
+note = "The personal agent; 'Muse Spark' and the other Muse model names are longer aliases of Muse Spark and win over this one."
 
 [[term]]
 name = "Muse Spark"

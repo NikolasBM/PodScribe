@@ -675,7 +675,8 @@ def metadata_block(title, date_str, body, podcast, guests):
     categories = sorted((n for n in vocabulary["categories"] if answers[f"cat:{n}"]["noul"] >= 0.5),
                         key=lambda n: -answers[f"cat:{n}"]["noul"])[:META_MAX_CATEGORIES]
     featured = [name for i, (name, _) in enumerate(candidates) if answers[f"tech:{i}"]["noul"] >= 0.5]
-    mentioned = [name for name, _ in candidates if name not in featured]
+    companies = {t["name"] for t in vocabulary["term"] if t["kind"] == "company"}
+    mentioned = [name for name, _ in candidates if name not in featured and name not in companies]
     stamps = TS_RE.findall(body)
     duration = (lambda h, m, s: f"{h}:{m}:{s}")(*stamps[-1]) if stamps else None
     lines = [f"Format: {answers['format']['choice']} · Level: {round(answers['level']['score'])}"
