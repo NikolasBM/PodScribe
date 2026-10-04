@@ -55,7 +55,7 @@ META_START, META_END = "<!-- metadata -->", "<!-- /metadata -->"
 META_MAX_CATEGORIES = 4
 META_COMPANY_THRESHOLD = 0.9
 META_MAX_CANDIDATES = 40
-META_MAX_CHARS = 160_000  # transcript characters sent to Jev (limit is 64k tokens for state and questions together)
+META_MAX_CHARS = 100_000  # transcript characters sent to Jev (limit is 64k tokens for state and questions together; 160k chars was rejected)
 JEV_AD_QUESTION = (
     "Is `sentence` part of a paid sponsor message, where the host reads out an advertisement for a company, "
     "product or service? `before` and `after` are the neighbouring sentences, for context only."
