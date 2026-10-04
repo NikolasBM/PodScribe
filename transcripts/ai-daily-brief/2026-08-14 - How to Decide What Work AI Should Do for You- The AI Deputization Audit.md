@@ -142,29 +142,11 @@ Nathaniel Whittemore: Whatever the case, executive
 
 how, for now we will leave that there. And that's gonna do it for today's headlines. 
 
-next up, the main episode If you're leading AI inside an enterprise, you already know that the gap right now isn't capability, but execution. That's why KPMG's You Can with AI is back with a new season featuring conversations with leaders like Serojia Chatterjee of Emma, May Habib of Writer, Ellery Fisher, and others focused on practical execution.
+Every episode, we cover the competition between OpenAI, Anthropic, SpaceX AI, Google, and Meta. Chances are you've already formed an opinion about [00:12:00] who's leading.
 
-KPMG Aug_EDIT: What's working, what's not, and what it actually takes to move from pilots to real scaled impact across strategy, data readiness, governance, workforce, and value. And of course, it's co-hosted by me, Nathaniel Whittemore. Go listen and subscribe at [00:11:00] www.kpmg.us/aipodcasts. That's www.kpmg.us/aipodcasts. 
+Investing involves risk, including possible loss of principal.
 
-Blitzy's understanding of massive code bases unlocks autonomous security fixes, modernization, and new features. So what happens when there's no legacy code at all? Greenfield is supposed to be the easy part. Clean slate, no technical debt.
-
-blitzy July_EDIT: But even Greenfield moves at human speed one sprint at a time. Blitzy changes the unit of work from the developer to the project, autonomously planning, building, testing, and validating entire applications from scratch. Hundreds of thousands of lines of production-ready code
-
-One Blitzy customer stood up a brand new application, five hundred and thirty-four thousand lines of code, compressing a sixty-five-week roadmap into two weeks. Another shipped an entire application with no front-end engineer Legacy or greenfield, the answer is the same: software at the speed of compute.
-
-Build what's next at blitzy.com. That's B-L-I-T-Z-Y.com 
-
-Every episode, we cover the competition between OpenAI, Anthropic, SpaceX AI, Google, and Meta. Chances are you've already formed an opinion about [00:12:00] who's leading. But every AI lab is taking a different approach, building different technologies, forging different partnerships, and developing a unique ecosystem.
-
-Harbor_EDIT: Harbor Capital Advisors AI Lab Ecosystem ETF Suite gives investors a way to gain exposure to the AI ecosystem they believe is best positioned for success. Search Harbor AI Lab Ecosystem ETFs wherever you invest, or follow @HarborCapital on X to learn more
-
-Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
-
-Read and consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
-
-Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud [00:13:00] doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-Welcome back to the Welcome back to the AI Daily Brief. be-- Today we're doing a type of episode that I'm going to be trying out a lot more, which is effectively combining a news story with a small activity that hopefully makes this practical for you.
+Nathaniel Whittemore: Welcome back to the Welcome back to the AI Daily Brief. be-- Today we're doing a type of episode that I'm going to be trying out a lot more, which is effectively combining a news story with a small activity that hopefully makes this practical for you.
 
 260814 main_EDIT: The activity today iscalled the AI deputization audit. and it's a short process for helping you figure out what you can and what you should hand over to AI
 

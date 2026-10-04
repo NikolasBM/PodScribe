@@ -88,32 +88,6 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 KPMG and the University of Texas at Austin. Just to analyzed [00:07:00] 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent [00:08:00] has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-All right, This episode is brought to you by Retool. Generating a working app now takes about five minutes thanks to AI. Getting it safely into production with auth, permissions, audit logs, security reviews, that part still takes time. That's the gap Retool closes.
-
-Build apps however you want, natively in Retool with Claude Code, Codex, or any coding agent, or by importing React you've already built. It all deploys into Retool and picks up governance automatically. Security lives in the platform, not in whatever the AI wrote.
-
-So your team ships at AI speed without the shadow IT and the endless reviews that stall out most vibe coded projects. It's why teams at Amazon, Stripe, and Brex build on Retool. And new enterprise customers who sign by September 30th get up to $10,000 in AI credits per year. Start building at retool.com/aidaily 
-
-Wanna accelerate enterprise software development [00:09:00] velocity by five x? You need blitzie, the only autonomous software development platform built for enterprise code bases.
-
-Your engineers define the project, a new feature, refactor or greenfield build
-
-blitzie agents first ingest and map your entire code base. Then the platform generates a bespoke agent action Plan for your team to review and approve.
-
-once approved, Blitzie gets to work autonomously. Generating hundreds of thousands of lines of validated end-to-end tested code.
-
-More than 80% of the work completed in a single run. Blitzie is not generating code. It's developing software at the speed of compute. Your engineers review, refine, and ship. This is how Fortune 500 companies are compressing multi-month projects into a single sprint accelerating engineering velocity by five x experience.
-
-Blitzie firsthand@blitz.com. That's B-L-I-T-Z y.com.
-
-
-
 Since, since since the end of 2022 when ChatGPT was released
 
 

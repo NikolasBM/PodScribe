@@ -170,35 +170,9 @@ Cognition sees the value of staying independent even more acutely. For now, thou
 
 What's working, what's not, and what it actually takes to move from pilots to real scaled impact across strategy, data readiness, governance, workforce, and value. And of course, it's co-hosted by me, Nathaniel Whittemore. Go listen and subscribe at www.kpmg.us/aipodcasts. That's www.kpmg.us/aipodcasts. 
 
-Here's why most legacy modernization projects fail. The [00:14:00] AI doing the work can't understand code bases at scale. it sees a small slice of context, examines syntax, and misses years of decisions distributed across the global application ecosystem
+Here's why most legacy modernization projects fail.
 
-Blitzy solves this the way it solves everything. Grounded in your code before any migration begins, Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph. Every dependency, every constraint, every piece of tribal knowledge that used to live in one engineer's head.
-
-From that understanding, Blitzy autonomously executes language migrations, framework upgrades, and monolith-to-microservices transformations, all validated end to end One Blitzy customer modernized a $10 million monolithic insurance stack in 16 weeks against a 137-week baseline with coding agents. That's 9X compression.
-
-Retire technical debt while accelerating your roadmap. See how at blitzy.com. That's B-L-I-T-Z-Y.com
-
-
-
-Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business [00:15:00] value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
-
-Section is a platform that helps you manage AI transformation across your entire organization.
-
-It coaches, employees on real use cases
-
-tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
-
-The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
-
-That's S-E-C-T-I-O-N ai com. 
-
-AI... This This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
-
-Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
-
-marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. [00:16:00] Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
-
-It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief Welcome back to the AI Daily Brief. I gotta say, friends, it is so nice to be fully back in the back to school, back to work, out of summer mode
+I gotta say, friends, it is so nice to be fully back in the back to school, back to work, out of summer mode
 
 Relative to other industries, AI certainly has less of a summer slowdown But you can still feel the difference, man, when September hits
 

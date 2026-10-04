@@ -166,44 +166,6 @@ than most of the extremes that have recently dominated the discourse
 
 
 
-Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
-
-Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
-
-the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
-
-Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
-
-validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
-
-See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
-
-[00:14:00] 
-
-At this point, it's no longer a question of whether companies are actively using AI
-
-Using it well, on the other hand, is a whole different story. Robots and Pencils, though, is a company that I can point to that is actually built for this time. They're an applied AI engineering firm working directly with clients on problems that matter to the business, not experiments that live in a slide deck.
-
-Every engagement starts by working backwards from the outcome a client actually needs. If you're trying to tell real AI engineering apart from noise in this space that's the difference maker. Head to robotsandpencils.com
-
-
-
-If you listen to this show, you likely have a thesis. Maybe it's enterprise adoption, maybe it's compute, maybe it's a specific lab. Harbor Capital's AI Lab Ecosystem ETFs let you express it via five actively managed ETFs, each seeking exposure to the ecosystem around one major lab: Anthropic, OpenAI, DeepMind, Meta, or SpaceX AI.
-
-your view of the AI race in ETF form. Harbor Capital Advisors AI Lab Ecosystem ETF suite gives investors a way to invest in the AI ecosystem they believe is best positioned for success. Search Harbor AI Lab Ecosystems [00:15:00] ETFs wherever you invest or follow @HarborCapital on X to learn more
-
-Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
-
-Read and consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
-
-This This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
-
-Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
-
-marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
-
-It's time you had agents that feel like teammates Hire yours at [00:16:00] Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief 
-
 group that, now now one group that has been trying to find this middle space for some time are Sayash Kapoor and Arvind Narayanan of AI as normal technology essay, they wrote a long essay called "AI as Normal Technology," which argued pretty simply that while, yes, it was extremely powerful and would be world-changing, it would not somehow be wildly out of scope of other previous technologies that had, in their own way, also altered the world in which we live
 
 but as capabilities have changed and as we've seen more worrying moments like the OpenAI Hugging Face incident how does this AI is normal technology view actually find the middle ground?

@@ -124,38 +124,6 @@ Now, if a lot of the headlines today wereabout the infrastructure side of AI, th
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-[00:10:15] They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at [00:10:30] kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-Quick question, when was the last time you actually visited a website to research something? If you are like me, AI, pretty much does that [00:10:45] work for you? Now that of course raises a new question for brands. If AI is doing the discovering, researching, and deciding who or what is your website really for?
-
-That shift in user behavior, the rise of AI bots becoming your most important new visitors is what my sponsor's Scrunch is taking head on. [00:11:00] Scrunch is the AI customer experience platform that helps marketing teams understand how AI agents experience their site, where they show up in AI answers, where they don't, what's preventing them from beingretrieved, trusted or recommended.
-
-It's not just visibility. Scrunch shows you the [00:11:15] content gaps, citation gaps, and technical blockers that matter helps you fix them. So your brand is found and chosen in AI answers.
-
-Now Now for our listeners, scrunch is providing a free website audit that uncovers how AI sees your site, where there's gaps, and how you're showing up in AI versusthe competition.
-
-Run your site through [00:11:30] it at scrunch.com/ai daily. I. Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. [00:11:45] Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
-
-Section is a platform that helps you manage AI transformation across your entire organization.
-
-It coaches, employees on real use cases
-
-tracks who's using AI for business [00:12:00] impact and shows you exactly where AI is and isn't creating value.
-
-The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI [00:12:15] investment is working. Check out section@sectionai.com.
-
-That's S-E-C-T-I-O-N ai com. 
-
-This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. [00:12:30] Organizations all over the world are building, orchestrating, and governing agentic systems on the OutSystems platform and with good reason.
-
-OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. Teams of any size and [00:12:45] technical depth can use OutSystems to build, deploy, and manage AI apps and agents quickly and cost effectively without compromising reliability and security.
-
-Without systems, you can rapidly launch ideas from concept to completion. It's the leading agentic systems platform that is unified, agile, and [00:13:00] enterprise-proven, allowing you to accelerate growth, reduce operational friction, and deliver real enterprise impact with AI OutSystems.
-
-Build your agentic future 
-
 Welcome 
 
 back to the AI Daily 

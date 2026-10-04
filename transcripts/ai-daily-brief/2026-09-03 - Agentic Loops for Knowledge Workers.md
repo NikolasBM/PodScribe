@@ -318,32 +318,6 @@ if that's the case the, the turn cap is your best
 
 bet. 
 
-[00:27:00] A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
-
-These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
-
-Blitzy's deep code base understanding unlocks the thing every roadmap owner cares about: shipping new features. Here's the truth about building inside a massive enterprise code base. Writing code was never the bottleneck. Context is Which system does this touch? Which contracts can't break? Which standards apply? Blitzy already knows because it reverse-engineered your entire code base into a dynamic knowledge graph before feature work began. With that complete picture, [00:28:00] Blitzy builds features end to end.
-
-Architecture, APIs, UI, and tests all validated against your existing systems
-
-One Blitzy customer built an AI native application from scratch with 100% autonomous completion, saving over 2,700 engineering hours. Features that respect your code base instead of fighting it Stop letting your backlog grow faster than your team.
-
-Accelerate your roadmap at blitzy.com. That's B-L-I-T-Z-Y.com 
-
-Every episode, I talk about the competition between OpenAI, Anthropic, SpaceX AI, Google, and Meta. And if you've been listening for a while, you might have a favorite. Maybe you think OpenAI and Anthropic can stay ahead, or perhaps Meta's open source strategy can win out. Whatever your view, every AI lab creates a different investment opportunity. Harbor Capital Advisors AI Lab Ecosystem ETF suite lets you invest in the ecosystem behind the AI lab you believe in.
-
-Search Harbor AI Lab Ecosystem ETFs wherever you invest or follow @HarborCapital on X to learn more. Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
-
-Read and [00:29:00] consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
-
-the AI... This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
-
-Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
-
-marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
-
-It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief [00:30:00] 
-
 Okay.
 
 so we're done with the loop part of the webinar. Just to summarize we talked about the fact that loops are already a cycle that is being executed by any agentic harness that you're using.

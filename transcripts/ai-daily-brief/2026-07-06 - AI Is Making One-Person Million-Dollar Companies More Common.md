@@ -122,29 +122,9 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-This This episode is brought to you by Retool. Generating a [00:10:00] working app now takes about five minutes thanks to AI. Getting it safely into production with auth, permissions, audit logs, security reviews, that part still takes time. That's the gap Retool closes.
-
-Build apps however you want, natively in Retool with Claude Code, Codex, or any coding agent, or by importing React you've already built. It all deploys into Retool and picks up governance automatically. Security lives in the platform, not in whatever the AI wrote.
-
-So your team ships at AI speed without the shadow IT and the endless reviews that stall out most vibe coded projects. It's why teams at Amazon, Stripe, and Brex build on Retool. And new enterprise customers who sign by September 30th get up to $10,000 in AI credits per year. Start building at retool.com/aidaily 
-
 With the emergence of AI code generation in 2022, Nvidia, master inventor and Harvard engineer Sid Peri took a contrarian stance, inference, time compute, and agent orchestration. Not pre-training would be the key to unlocking high quality AI driven software development in the enterprise.
 
-He believed the real breakthrough wasn't in how fast AI could generate code, but in how deeply it could [00:11:00] reason to build enterprisegrade applications. while the rest of the world focused on co-pilots, architected something fundamentally different.
-
-Blitzie the first autonomous software development platform leveraging thousands of agents. that is purpose built for enterprise scale code bases. Fortune 500 leaders are unlocking five x engineering velocity and delivering months of engineering work in a matter of days with blitz.
-
-Transform the way you develop software. Discover how@glitzy.com. That's B-L-I-T-Z y.com.
-
-
-
-This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours [00:12:00] at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-
+He believed the real breakthrough wasn't in how fast AI could generate code, but in how deeply it could [00:11:00] reason to build enterprisegrade applications.
 
 Welcome back to the AI Daily Brief.
 

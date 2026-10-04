@@ -168,32 +168,6 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt [00:11:00] engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-One of the more interesting shifts in enterprise AI right now is how quickly the conversation is moving towards infrastructure and operations. As AI moves into core workflows, regulated data environments, and agentic systems, enterprises need governed infrastructure and inference that can operate reliably day to day with clear operational accountability built in from the start.
-
-As those systems scale, the operating model increasingly becomes part of the AI strategy itself
-
-Rack-Rackspace Technology is the operator of the full enterprise AI stack, from agents to infrastructure across private cloud, hybrid cloud, and edge environments. Rackspace builds and [00:12:00] operates governed AI infrastructure, inference, and production AI systems for organizations where sovereignty, compliance, and uptime are non-negotiable.
-
-Their forward-deployed engineers stay embedded beyond deployment to help operationalize and run AI in live environments. to learn more about where enterprise AI runs and outcomes scale, go to rackspace.com Wanna accelerate enterprise software development velocity by five x? You need blitzie, the only autonomous software development platform built for enterprise code bases.
-
-Your engineers define the project, a new feature, refactor or greenfield build
-
-blitzie agents first ingest and map your entire code base. Then the platform generates a bespoke agent action Plan for your team to review and approve.
-
-once approved, Blitzie gets to work autonomously. Generating hundreds of thousands of lines of validated end-to-end tested code.
-
-More than 80% of the work completed in a single run. Blitzie is not generating code. It's developing software at the speed of compute. Your engineers review, refine, and ship. This is how Fortune 500 companies are compressing multi-month projects into a single sprint accelerating engineering velocity by five x experience.
-
-Blitzie firsthand@blitz.com. [00:13:00] That's B-L-I-T-Z y.com.
-
-
-
-This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
 Welcome back to the AI Daily Welcome back to the AI Daily Brief. Today, we are checking in on the AI and jobs narrative. We actually haven't had all that much of this for a while, but there are a couple of new interesting studies that are providing some more [00:14:00] information in the unending question of what AI is and will do when it comes to jobs and employment 
 
 Daddy's recording The first is a new report from the Center for AI Safety suggesting that Fable is a step change in AI's ability to do real work. The report was an update to the center's remote labor index

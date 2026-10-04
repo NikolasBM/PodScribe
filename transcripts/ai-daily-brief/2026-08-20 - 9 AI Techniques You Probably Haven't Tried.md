@@ -166,27 +166,13 @@ out Last week, Juan Ladano of the Libertarian Cato Institute criticized the secr
 
 260820 hed_EDIT: a framework that raises more questions than the one it answers is worse than no framework at all."
 
-Especially in light of all of our discussions around data centers and trust this week, I fully agree. For now, though, that is gonna do it for the AI Daily Brief headlines edition. Next up, the main episode A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+Especially in light of all of our discussions around data centers and trust this week, I fully agree. For now, though, that is gonna do it for the AI Daily Brief headlines edition.
 
-KPMG Aug_EDIT: These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with [00:12:00] AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. Blitzy's deep code base understanding unlocks the thing every roadmap owner cares about: shipping new features. Here's the truth about building inside a massive enterprise code base. Writing code was never the bottleneck. Context is Which system does this touch? Which contracts can't break? Which standards apply? Blitzy already knows because it reverse-engineered your entire code base into a dynamic knowledge graph before feature work began. With that complete picture, Blitzy builds features end to end.
+Blitzy's deep code base understanding unlocks the thing every roadmap owner cares about: shipping new features. Here's the truth about building inside a massive enterprise code base. Writing code was never the bottleneck. Context is Which system does this touch? Which contracts can't break?
 
-blitzy July_EDIT: Architecture, APIs, UI, and tests all validated against your existing systems
+Investing involves risk, including possible loss of principal.
 
-One Blitzy customer built an AI native application from scratch with 100% autonomous completion, saving over 2,700 engineering hours. Features that respect your code base instead of fighting it Stop letting your backlog grow faster than your team.
-
-Accelerate your roadmap at blitzy.com. That's B-L-I-T-Z-Y.com 
-
-If you listen to this show, you likely have a thesis. Maybe it's enterprise adoption, [00:13:00] maybe it's compute, maybe it's a specific lab. Harbor Capital's AI Lab Ecosystem ETFs let you express it via five actively managed ETFs, each seeking exposure to the ecosystem around one major lab: Anthropic, OpenAI, DeepMind, Meta, or SpaceX AI.
-
-Harbor_EDIT: your view of the AI race in ETF form. Harbor Capital Advisors AI Lab Ecosystem ETF suite gives investors a way to invest in the AI ecosystem they believe is best positioned for success. Search Harbor AI Lab Ecosystems ETFs wherever you invest or follow @HarborCapital on X to learn more
-
-Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
-
-Read and consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
-
-Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users [00:14:00] get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-Welcome back to the AI Daily Welcome back to the AI Daily Brief
+Nathaniel Whittemore: Welcome back to the AI Daily Welcome back to the AI Daily Brief
 
 
 

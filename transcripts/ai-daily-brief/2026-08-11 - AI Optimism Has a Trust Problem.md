@@ -234,35 +234,11 @@ Hello everyone
 
 Nathaniel Whittemore: One big change around AI is we've shifted our [00:11:00] thinking from how we rank our pages to how do we become the source that AI trusts enough to answer with?
 
-KPMG Aug_EDIT: At KPMG, they're seeing this firsthand. AI-generated results now surface answers directly, often without a single click. that's why they are increasingly focused on generative engine optimization or GEO, structuring content so AI systems can retrieve it, understand it, and cite it as trusted authority this is not just an SEO evolution, but a visibility mandate. And indeed, the GEO mandate from KPMG is simple: If AI is shaping decisions, your expertise needs to show up inside the answer.
+Nathaniel Whittemore: One of the more interesting shifts in enterprise AI right now is how quickly the conversation is moving towards infrastructure and operations.
 
-Read all about it at slash us/geo. Again, that is kpmg.com/us/geo
+Here's the first place that pays off: security in the age of AI
 
-
-
-Nathaniel Whittemore: One of the more interesting shifts in enterprise AI right now is how quickly the conversation is moving towards infrastructure and operations. As AI moves into core workflows, regulated data environments, and agentic systems, enterprises need governed infrastructure and inference that can operate reliably day to day with clear operational [00:12:00] accountability built in from the start.
-
-As those systems scale, the operating model increasingly becomes part of the AI strategy itself
-
-Rack-Rackspace Technology is the operator of the full enterprise AI stack, from agents to infrastructure across private cloud, hybrid cloud, and edge environments. Rackspace builds and operates governed AI infrastructure, inference, and production AI systems for organizations where sovereignty, compliance, and uptime are non-negotiable.
-
-Their forward-deployed engineers stay embedded beyond deployment to help operationalize and run AI in live environments. to learn more about where enterprise AI runs and outcomes scale, go to rackspace.com 
-
-Blitzy deeply understands your code base before it writes code. Here's the first place that pays off: security in the age of AI
-
-blitzy July_EDIT: Vulnerabilities don't live in isolation. They live buried inside millions of lines of interconnected code, where patching one thing quietly breaks three others. That's why surface-level scans fail Blitzy starts from its knowledge graph of your entire application, identifies and surfaces CVEs across the full estate, proactively recommends patches, and can execute the PR Each fix is grounded in how [00:13:00] your systems connect and validate so nothing new breaks.
-
-And the knowledge graph dynamically updates, keeping you ahead of an ever-accelerating threat landscape
-
-One Blitzy customer resolved 21 active CVEs across six core microservices in four days. Zero compile errors, every validation scan clean, months of planned work fixed in less than a week
-
-Security remediation grounded in real architectural context at the speed of compute. Harden your code base at blitzy.com. That's B-L-I-T-Z-Y.com
-
-
-
-Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates [00:14:00] Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-now when now when it comes to jobs We start to see whereone type of skepticism creeps in. 
+Nathaniel Whittemore: now when now when it comes to jobs We start to see whereone type of skepticism creeps in.
 
 Nathaniel Whittemore: 
 

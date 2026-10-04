@@ -218,55 +218,7 @@ until I get what the build partner is actually doing
 
 
 
-260628 ep_EDIT: This one is ultimately just about the commitment to go bigger, but I can't recommend it highly enough. 
-
-you will feel like a wizard, I promise you
-
-I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. 
-
-Speaker 11: AWS Advanced Tier pattern partner more than doubled in a year
-
-And they're hiring
-
-50 open [00:14:00] roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. 
-
-robotJune_EDIT: At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
-
-Speaker 11: This is the kind of place you look back on 
-
-as the best decision you ever made. Take a look at robotsandpencils.com/careers 
-
-Nathaniel Whittemore: today's episode is brought to you by the new Executive Agent Leadership Program Produced by super intelligent and by frequent AIDB operators guest, Nufar Gaspar
-
-to tell you a little bit more about the Executive Agent Leadership Program, here is Nufar
-
-Speaker: The best predictor of agent adoption in an organization is how hands-on their leaders are. Talking about agents is completely different than building them. Our participants, ICs all the way to C-suite, have built working agent fleets, governance frameworks, and the playbooks to scale it. Executive agent leadership is the evolution of enterprise claw.
-
-Everything we've learned across three cohorts rebuilt for right now. The token economy, [00:15:00] security, vendor resilience, and architecture to lead agent adoption at scale 
-
-Nathaniel Whittemore: the next cohort of the Executive Agent Leadership Program is signing up now and will launch, on June 29th You can find out more at training.besuper.ai 
-
-The average enterprise is spending eleven and a half million dollars on AI this year, and most of them can't prove a single dollar came back. What does AI actually look like when it produces ROI? Ask the healthcare company that just made their payment processing three hundred and twenty times faster, or the law firm whose document research went from three months to ten minutes, or the contact center who reduced wait times by ninety-nine percent.
-
-These are real Mission Cloud customers with real results. Mission Cloud is a CDW company and an AWS Premier Tier partner. They're the AI-first, outcomes-obsessed AWS experts who build AI solutions that drive your business forward. Whether you're flooded with AI ambitions but no idea where to start or six months into a deployment that's going sideways, they've seen it and they've fixed it.
-
-Stop burning your budgets on AI that doesn't produce results. Start at [00:16:00] missioncloud.com. 
-
-outsystems_dxRevive_EDIT: This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. Organizations all over the world are building, orchestrating, and governing agentic systems 
-
-Speaker 10: on the OutSystems platform and with good reason.
-
-OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. 
-
-Teams of any size and technical depth can use OutSystems to build, deploy, and manage AI apps and agents 
-
-quickly and cost effectively without compromising reliability and security.
-
-Without systems, you can rapidly launch ideas 
-
-from concept to completion. It's the leading agentic systems platform that is unified, agile, and enterprise-proven, allowing you to accelerate growth, reduce operational friction, and deliver real enterprise impact with AI OutSystems.
-
-Build your agentic future 
+Nathaniel Whittemore: The average enterprise is spending eleven and a half million dollars on AI this year, and most of them can't prove a single dollar came back.
 
 260628 ep_EDIT: up, and next up, section four is about exploring model independence. And if you've been listening to this show throughout the Fable 5 situation, and [00:17:00] frankly even before as we started to explore new token efficiency solutions, there are a lot of reasons why people are 
 

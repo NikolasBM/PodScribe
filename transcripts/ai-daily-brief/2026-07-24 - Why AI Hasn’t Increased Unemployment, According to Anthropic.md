@@ -220,18 +220,6 @@ Indeed, Jensen went on to argue that having access to a myriad of, different ope
 
 And finally, withthat slightly optimistic transition note We end today's extended headlines 
 
-with a new meta ad campaign focused on AI optimism
-
-Starting on slightly dystopian imagery, although not burning buildings, 
-
-before switching over to happy, positive humans, the voiceover reads, " Some people will have you believe AI is going to make us feel less connected, that it's going to leave us behind.
-
-We couldn't disagree more. Call us optimists, call us dreamers, call us whatever the hell you want, but we're betting on people, and we like those odds. The future is for everyone."
-
-Alongside the video release, Mark Zuckerberg posted
-
-Meta has always believed in giving people the power to share, connect, and shape your world in the ways you want. As we enter this next wave with AI, we continue to believe the future is for everyone. We're focused on giving every person the tools to reach your full potential and making sure the benefits of [00:18:00] technology are distributed to everyone.
-
 Now, Meta plans to run the ad in paid media spots in an attempt to spread the word on AI optimism
 
 So how was this received? Certainly the ad received a lot of criticism, but largely it's from people who have already decided that AI or Meta themselves are terrible for the world
@@ -248,33 +236,7 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 Speaker: KPMG and the University of Texas at Austin. Just to [00:19:00] analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
-
-Speaker 11: And they're hiring
-
-50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At [00:20:00] Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
-
-This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
-
-is driving over five x engineering velocity for large scale enterprises.
-
-Nathaniel Whittemore: A publicly traded insurance provider leveraged Blitzie to build a bespoke payments processing application, an estimated 13 month project. And with blitzie, the application was completed in live in production in six weeks.
-
-A publicly traded vertical SaaS provider used blitzie to extract services from a 500,000 line monolith without disrupting production, 21 times faster than theirpre glitzy estimates.
-
-These aren't experiments. This is how the world's most innovative enterprises are shipping software in 2026.
-
-You can hear directly about glitzy from other Fortune 500 CTOs on the modern CTO or CIO classified podcasts. To learn more about how glitzy can impact your SDLC, book a meeting with an AI solutions consultant@blitzie.com. That's B-L-I-T-Z y.com.
-
-
-
-Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where [00:21:00] you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-Welcome back to the AI Daily Brief
+Nathaniel Whittemore: Welcome back to the AI Daily Brief
 
 260724 main_EDIT: One of the big questions surrounding AI
 

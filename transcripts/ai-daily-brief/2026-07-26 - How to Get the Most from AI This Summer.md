@@ -168,35 +168,9 @@ the more street cred you get. one stamp and we call you a day tripper. Three sta
 
 Is that the height of millennial cringe? Yes. Do I care? Not even a little
 
-One thing I keep seeing in enterprise AI, [00:10:00] companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast. That's one of the reasons I like today's sponsor robots and pencils. They've gone all in on AWS. They're an advanced tier and AWS pattern partner and they ship production AI coworkers in 45 days.
+One thing I keep seeing in enterprise AI, [00:10:00] companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast.
 
-Speaker 9: That's led to them doing some of the more interesting work I've seen on AI coworkers. And by that I'm not talking about chatbots, I'm talking about actual Agentic systems that sit inside a business architecture and do real work.
-
-That kind of focus matters if you're an enterprise leader trying to get something real into production or an AWS rep trying to move a customer from interested to deployed. Request an AI briefing@robotsandpencils.com. One conversation with robots and pencils and you'll know. 
-
-Nathaniel Whittemore: One of the more interesting shifts in enterprise AI right now is how quickly the conversation is moving towards infrastructure and operations. As AI moves into core workflows, regulated data environments, and agentic systems, enterprises need governed infrastructure and inference that can operate [00:11:00] reliably day to day with clear operational accountability built in from the start.
-
-As those systems scale, the operating model increasingly becomes part of the AI strategy itself
-
-Rack-Rackspace Technology is the operator of the full enterprise AI stack, from agents to infrastructure across private cloud, hybrid cloud, and edge environments. Rackspace builds and operates governed AI infrastructure, inference, and production AI systems for organizations where sovereignty, compliance, and uptime are non-negotiable.
-
-Their forward-deployed engineers stay embedded beyond deployment to help operationalize and run AI in live environments. to learn more about where enterprise AI runs and outcomes scale, go to rackspace.com 
-
-Weekends are for vibe coding. It has never been easier to bring a passion project to life. So go ahead and fire up your favorite vibe coding tool. But Monday is coming and before you know it, you'll be staring down a maze of microservices, a legacy COBOL system from the 1970s, and an engineering roadmap that will exist well past your retirement party.
-
-Nathaniel Whittemore: That's why you need Blitzie, the first autonomous software development platform designed for enterprise scale code bases.
-
-Deploy at the beginning of every sprint and [00:12:00] tackle your roadmap 500% faster. blitzes, agents, est your entire code base. Plan the work
-
-and deliver over 80% autonomously.
-
-Validated end-to-end tested premium quality code at the speed of compute. Months of engineering compressed into days
-
-vibe. Code your passion projects on the weekend. Bring glitzy to work on Monday. See why Fortune five hundred's. Trust blitzie for the code that matters@blitz.com. That's BITZ y.com. 
-
-This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team [00:13:00] at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-but part of what I'm excited about for the AI Adventure is that as you saw with both ClawCamp and Agent OS, a lot of the stuff that we were doing there was very advanced. Whereas when it came to AIDB New Year, a lot of it was really accessible. It was meant to be for people who were still just getting their feet under them when it came to AI.
+Nathaniel Whittemore: but part of what I'm excited about for the AI Adventure is that as you saw with both ClawCamp and Agent OS, a lot of the stuff that we were doing there was very advanced. Whereas when it came to AIDB New Year, a lot of it was really accessible. It was meant to be for people who were still just getting their feet under them when it came to AI.
 
 260726 lrs_EDIT: We've brought more of that back with AI Adventure, and so if you have friends or colleagues or even yourself have just areas where you feel really behind
 

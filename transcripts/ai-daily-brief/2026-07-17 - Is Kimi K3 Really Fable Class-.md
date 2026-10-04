@@ -248,29 +248,7 @@ One of the most important AI questions right now [00:13:00] isn't who's using ai
 
 Speaker: KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. One thing I keep seeing in enterprise AI, companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast. That's one of the reasons I like today's sponsor robots and pencils. They've gone all in on AWS. They're an advanced tier and AWS [00:14:00] pattern partner and they ship production AI coworkers in 45 days.
-
-Speaker 9: That's led to them doing some of the more interesting work I've seen on AI coworkers. And by that I'm not talking about chatbots, I'm talking about actual Agentic systems that sit inside a business architecture and do real work.
-
-That kind of focus matters if you're an enterprise leader trying to get something real into production or an AWS rep trying to move a customer from interested to deployed. Request an AI briefing@robotsandpencils.com. One conversation with robots and pencils and you'll know. 
-
-is driving over five x engineering velocity for large scale enterprises.
-
-Nathaniel Whittemore: A publicly traded insurance provider leveraged Blitzie to build a bespoke payments processing application, an estimated 13 month project. And with blitzie, the application was completed in live in production in six weeks.
-
-A publicly traded vertical SaaS provider used blitzie to extract services from a 500,000 line monolith without disrupting production, 21 times faster than theirpre glitzy estimates.
-
-These aren't experiments. This is how the world's most innovative enterprises are shipping software in 2026.
-
-You can hear directly about glitzy from other Fortune 500 [00:15:00] CTOs on the modern CTO or CIO classified podcasts. To learn more about how glitzy can impact your SDLC, book a meeting with an AI solutions consultant@blitzie.com. That's B-L-I-T-Z y.com.
-
-
-
-Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-But at this point, of course, 
+Nathaniel Whittemore: But at this point, of course,
 
 260717_EDIT: it's [00:16:00] worth taking a big old breather. As I was reading all of this yesterday, there was no tweet I related to more strenuously than Dan Shipper from Every, who wrote, " We will vibe check Kimi K3, but I am extraordinarily skeptical of claims it's as good as Fable
 
