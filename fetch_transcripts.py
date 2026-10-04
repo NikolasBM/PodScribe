@@ -593,16 +593,17 @@ class TranscribeError(Exception):
     pass
 
 
-def transcribe(audio, phrases, diarize, max_speakers=None):
-    """Send audio to the fast transcription API with MAI-Transcribe; return the JSON result."""
-    definition = {
-        "enhancedMode": {
+def transcribe(audio, phrases, diarize, max_speakers=None, enhanced=True):
+    """Send audio to the fast transcription API, with MAI-Transcribe unless enhanced is False; return the JSON result.
+
+    max_speakers is a hint the standard model understands and MAI does not ("not supported for MAI transcription yet")."""
+    definition = {"diarization": {"enabled": diarize, **({"maxSpeakers": max_speakers} if diarize and max_speakers and not enhanced else {})}}
+    if enhanced:
+        definition["enhancedMode"] = {
             "enabled": True,
             "model": TRANSCRIBE_MODEL,
             "modelOptions": {"timestamps": "word", "transcribeStyle": "clean"},
-        },
-        "diarization": {"enabled": diarize, **({"maxSpeakers": max_speakers} if diarize and max_speakers else {})},
-    }
+        }
     if phrases:
         definition["phraseList"] = {"phrases": phrases}
 
@@ -633,9 +634,12 @@ def transcribe(audio, phrases, diarize, max_speakers=None):
 
 
 def transcribe_episode(audio, phrases, max_speakers=None):
-    """Transcribe with speaker labels, falling back to none if the episode is too long for diarization."""
+    """Transcribe with speaker labels, falling back to none if the episode is too long for diarization.
+
+    When MAI hears a single voice in a long episode (it does with some audio), the episode is transcribed again with
+    the standard model and `max_speakers` (default 2), which separates voices better."""
     try:
-        result = transcribe(audio, phrases, diarize=True, max_speakers=max_speakers)
+        result = transcribe(audio, phrases, diarize=True)
     except TranscribeError as e:
         if "AudioLengthLimitExceeded" not in str(e):
             raise
@@ -643,6 +647,11 @@ def transcribe_episode(audio, phrases, max_speakers=None):
         return transcribe(audio, phrases, diarize=False)
     voices = {p["speaker"] for p in result.get("phrases", []) if "speaker" in p}
     print(f"  speakers found: {len(voices)}")
+    minutes = max((p.get("offsetMilliseconds", 0) for p in result.get("phrases", [])), default=0) / 60000
+    if len(voices) == 1 and minutes >= 10:
+        warn("only one voice found, transcribing again with the standard model")
+        result = transcribe(audio, phrases, diarize=True, max_speakers=max_speakers or 2, enhanced=False)
+        print(f"  speakers found (standard model): {len({p['speaker'] for p in result.get('phrases', []) if 'speaker' in p})}")
     return result
 
 
