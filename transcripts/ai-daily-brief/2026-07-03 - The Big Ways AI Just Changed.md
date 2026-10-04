@@ -152,6 +152,32 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
+They frame problems, guide thinking, iterate, and push for better answers. and the good [00:10:00] news, these behaviors are teachable at scale.
+
+If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
+
+And they're hiring
+
+50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
+
+This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
+
+
+
+is driving over five x engineering velocity [00:11:00] for large scale enterprises.
+
+A publicly traded insurance provider leveraged Blitzie to build a bespoke payments processing application, an estimated 13 month project. And with blitzie, the application was completed in live in production in six weeks.
+
+A publicly traded vertical SaaS provider used blitzie to extract services from a 500,000 line monolith without disrupting production, 21 times faster than theirpre glitzy estimates.
+
+These aren't experiments. This is how the world's most innovative enterprises are shipping software in 2026.
+
+You can hear directly about glitzy from other Fortune 500 CTOs on the modern CTO or CIO classified podcasts. To learn more about how glitzy can impact your SDLC, book a meeting with an AI solutions consultant@blitzie.com. That's B-L-I-T-Z y.com.
+
+
+
+This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already [00:12:00] uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
 Throughout the month, we saw a ton of experimentation with routers, with Throughout the month, we saw a ton of experimentation with routing companies that would help create more complex AI architectures that were better adept at routing different types of tasks to the right level of model.
 
 

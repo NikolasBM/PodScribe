@@ -154,7 +154,25 @@ What's working, what's not, and what it actually takes to move from pilots to re
 
 
 
-The best teams don't have a single star carrying everyone else.
+The best teams don't have a single star carrying everyone else. They [00:11:00] know their own strengths and each other's weaknesses and play to both. That's the team Robots and Pencils has built on purpose. Nobody there is grinding through busy work to pad a headcount number.
+
+People come for the hard problems, and they stay because everyone around them is leveling up at the same time. In a market full of companies that are just trying to hire fast, that's worth a look. check out robotsandpencils.com/careers 
+
+If you listen to this show, you likely have a thesis. Maybe it's enterprise adoption, maybe it's compute, maybe it's a specific lab. Harbor Capital's AI Lab Ecosystem ETFs let you express it via five actively managed ETFs, each seeking exposure to the ecosystem around one major lab: Anthropic, OpenAI, DeepMind, Meta, or SpaceX AI.
+
+your view of the AI race in ETF form. Harbor Capital Advisors AI Lab Ecosystem ETF suite gives investors a way to invest in the AI ecosystem they believe is best positioned for success. Search Harbor AI Lab Ecosystems ETFs wherever you invest or follow @HarborCapital on X to learn more
+
+Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
+
+Read and [00:12:00] consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
+
+When I'm in a meeting, I'm fully in it. I'm thinking about the iteration and creative back and forth it takes to actually push a goal forward. What I'm not thinking about is capturing takeaways, tracking to-dos, or any of that, and that's where Granola comes in
+
+Granola is an AI-powered notepad that captures what happens in your meetings and turns it into clean, structured notes with the decisions and action items pulled out and easy to find. There's no setup and no configuration. It just fits into how you already work
+
+For me, it means I get to stay in idea mode and Granola makes sure those ideas actually become action
+
+Once you try Granola on a first meeting, it is hard to go without. You can try it totally free at granola.ai/brief. That's granola.ai/brief to [00:13:00] get your time back Welcome back to the AI, welcome back to the AI Daily Brief
 
 And friends, it appears that pigs are flying. Hell has frozen over. choose your metaphor for incredulity Because after months of waiting, Google has announced Gemini 4
 

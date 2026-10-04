@@ -164,9 +164,45 @@ And given the fact that 8,377 people have liked or applauded or hearted the thin
 
 Now, does this all on its own turn back the tide of AI slop? Of course not. But social and professional norms can adapt quickly. More quickly, I think, than we sometimes even expect
 
-Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value.
+Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
 
-Nathaniel Whittemore: And part of what makes AI so exciting is that because it is this new experience that we are all going through together at the same time, so many people are sharing their best practices and learnings on the way so that everyone doesn't have to make the same mistakes over and over
+blitzy July_EDIT: Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
+
+the result is a dynamic knowledge [00:14:00] graph that understands your software the way a principal engineer would after 30 years in the building
+
+Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
+
+validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
+
+See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
+
+Nathaniel Whittemore: Section is a platform that helps you manage AI transformation across your entire organization.
+
+It coaches, employees on real use cases
+
+tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
+
+The result, You go from rolling out tools to driving [00:15:00] measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
+
+That's S-E-C-T-I-O-N ai com. 
+
+I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
+
+Speaker 11: And they're hiring
+
+50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
+
+This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
+
+
+
+Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage [00:16:00] together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+And part of what makes AI so exciting is that because it is this new experience that we are all going through together at the same time, so many people are sharing their best practices and learnings on the way so that everyone doesn't have to make the same mistakes over and over 
 
 Nathaniel Whittemore: On 
 

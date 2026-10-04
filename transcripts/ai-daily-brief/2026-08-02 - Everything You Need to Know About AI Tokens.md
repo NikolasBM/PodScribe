@@ -182,6 +182,40 @@ One of the more interesting shifts in enterprise AI right now is how quickly the
 
 As those systems scale, the operating model increasingly becomes part of the AI strategy itself
 
+Rack-Rackspace Technology is the operator of the full enterprise AI stack, from agents to infrastructure across private [00:21:00] cloud, hybrid cloud, and edge environments. Rackspace builds and operates governed AI infrastructure, inference, and production AI systems for organizations where sovereignty, compliance, and uptime are non-negotiable.
+
+Their forward-deployed engineers stay embedded beyond deployment to help operationalize and run AI in live environments. to learn more about where enterprise AI runs and outcomes scale, go to rackspace.com Every 
+
+AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
+
+Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
+
+the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
+
+Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
+
+validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams [00:22:00] trust Blitzy with the code bases that matter most
+
+See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
+
+Section is a platform that helps you manage AI transformation across your entire organization.
+
+It coaches, employees on real use cases
+
+tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
+
+The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
+
+That's S-E-C-T-I-O-N ai com. 
+
+This episode of the AI Daily Brief is brought to you by Hyperagent where [00:23:00] you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+in inference at hyperagent.com/aidailybrief. 
+
 All right. and I think that the gap between input and output pricing keeps widening at the frontier. if you look at the Fable 5, it's about, ten-- not about, it's ten dollar per million input tokens and fifty dollars per million with the, GPT 5.6 solids, 6X ratio. So we're seeing the gap even, [00:24:00] widening, and those effort levels, that's also something that highly, adds the complexity because these, frontier models increasingly letting you, dial the reasoning effort.
 
 with higher efforts, the reasoning tokens are significantly higher, and that's probably the dial that you should even be more mindful of even beyond the models, 'cause those can easily, cost you ten to 12X, token increase between, high or extra high effort to the low or medium effort effort All All right.

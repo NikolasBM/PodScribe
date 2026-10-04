@@ -162,6 +162,28 @@ Writes Perplexity As models get stronger and chips get faster, more people will 
 
 An An interesting contention and one that we will certainly be watching for evidence of over the coming months. But for now, that's gonna do it for the headlines. Next up, the main episode 
 
+A new study from [00:10:00] KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. Blitzy's deep code base understanding unlocks the thing every roadmap owner cares about: shipping new features. Here's the truth about building inside a massive enterprise code base. Writing code was never the bottleneck. Context is Which system does this touch? Which contracts can't break? Which standards apply? Blitzy already knows because it reverse-engineered your entire code base into a dynamic knowledge graph before feature work began. With that complete picture, Blitzy builds features end to end.
+
+Architecture, APIs, UI, and tests all [00:11:00] validated against your existing systems
+
+One Blitzy customer built an AI native application from scratch with 100% autonomous completion, saving over 2,700 engineering hours. Features that respect your code base instead of fighting it Stop letting your backlog grow faster than your team.
+
+Accelerate your roadmap at blitzy.com. That's B-L-I-T-Z-Y.com 
+
+I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
+
+And they're hiring
+
+50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
+
+This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
+
+
+
+This episode of the AI Daily [00:12:00] Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
 Welcome Welcome back to the AI Daily Brief.
 
 Today we are talking about, on the one hand, the technical postmortem of the Hugging Face hacking incident, which happened earlier this summer And has generated a ton of attention around how we deal with rogue AI

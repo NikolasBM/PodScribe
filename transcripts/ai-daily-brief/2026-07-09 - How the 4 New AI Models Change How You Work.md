@@ -266,6 +266,32 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
+They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+
+If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
+
+One thing I keep seeing in enterprise AI, companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams [00:16:00] actually shipping, they've picked a lane and they move fast. That's one of the reasons I like today's sponsor robots and pencils. They've gone all in on AWS. They're an advanced tier and AWS pattern partner and they ship production AI coworkers in 45 days.
+
+That's led to them doing some of the more interesting work I've seen on AI coworkers. And by that I'm not talking about chatbots, I'm talking about actual Agentic systems that sit inside a business architecture and do real work.
+
+That kind of focus matters if you're an enterprise leader trying to get something real into production or an AWS rep trying to move a customer from interested to deployed. Request an AI briefing@robotsandpencils.com. One conversation with robots and pencils and you'll know. 
+
+Wanna accelerate enterprise software development velocity by five x? You need blitzie, the only autonomous software development platform built for enterprise code bases.
+
+Your engineers define the project, a new feature, refactor or greenfield build
+
+blitzie agents first ingest and map your entire code base. Then the platform generates a bespoke agent action Plan for your team to review and approve.
+
+once approved, Blitzie gets to work autonomously. Generating hundreds of thousands of [00:17:00] lines of validated end-to-end tested code.
+
+More than 80% of the work completed in a single run. Blitzie is not generating code. It's developing software at the speed of compute. Your engineers review, refine, and ship. This is how Fortune 500 companies are compressing multi-month projects into a single sprint accelerating engineering velocity by five x experience.
+
+Blitzie firsthand@blitz.com. That's B-L-I-T-Z y.com.
+
+This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable [00:18:00] Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+
+
 the the the next new model I wanna discuss is Groq 4.5. And candidly, up until very recently, specifically the announcement of the Cursor acquisition There have been a fair number of people who have thought that we might be seeing Elon moving away from owning the model layer to owning the compute layer.
 
 

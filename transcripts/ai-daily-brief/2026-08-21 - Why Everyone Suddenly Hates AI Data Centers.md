@@ -434,11 +434,27 @@ Nathaniel Whittemore-1:
 
 260821 p3_EDIT: heat maps. Matthew Zeitlin perfectly sums it up. Every statewide election now is two people who supported data centers five minutes ago saying that their opponent supports data centers
 
+A new study from KPMG and the University of Texas at Austin found that when [00:19:00] people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+KPMG Aug_EDIT: These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
+
 Blitzy's understanding of massive code bases unlocks autonomous security fixes, modernization, and new features. So what happens when there's no legacy code at all? Greenfield is supposed to be the easy part. Clean slate, no technical debt.
 
-Every episode, I talk about the competition between OpenAI, Anthropic, SpaceX AI, Google, and Meta. And if you've been listening for a while, you might have a favorite.
+blitzy July_EDIT: But even Greenfield moves at human speed one sprint at a time. Blitzy changes the unit of work from the developer to the project, autonomously planning, building, testing, and validating entire applications from scratch. Hundreds of thousands of lines of production-ready code
 
-Nathaniel Whittemore: So where do we go from here?
+One Blitzy customer stood up a brand new application, five hundred and thirty-four [00:20:00] thousand lines of code, compressing a sixty-five-week roadmap into two weeks. Another shipped an entire application with no front-end engineer Legacy or greenfield, the answer is the same: software at the speed of compute.
+
+Build what's next at blitzy.com. That's B-L-I-T-Z-Y.com 
+
+Every episode, I talk about the competition between OpenAI, Anthropic, SpaceX AI, Google, and Meta. And if you've been listening for a while, you might have a favorite. Maybe you think OpenAI and Anthropic can stay ahead, or perhaps Meta's open source strategy can win out. Whatever your view, every AI lab creates a different investment opportunity. Harbor Capital Advisors AI Lab Ecosystem ETF suite lets you invest in the ecosystem behind the AI lab you believe in.
+
+Harbor_EDIT: Search Harbor AI Lab Ecosystem ETFs wherever you invest or follow @HarborCapital on X to learn more. Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
+
+Read and consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not [00:21:00] affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
+
+Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+So where do we go from here?
 
 260821 p3_EDIT: Firstly, there is work to be [00:22:00] done and good work being done 
 

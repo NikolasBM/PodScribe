@@ -194,6 +194,40 @@ The agent will be the default interface to your personal and professional life."
 
 it is certainly the case that the chatbots that you interact with are doing something different than they used to 
 
+Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
+
+Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
+
+the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
+
+Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
+
+validated end-to-end tested production grade pull [00:13:00] requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
+
+See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+
+
+The best The best teams don't have a single star carrying everyone else. They know their own strengths and each other's weaknesses and play to both. That's the team Robots and Pencils has built on purpose. Nobody there is grinding through busy work to pad a headcount number.
+
+People come for the hard problems, and they stay because everyone around them is leveling up at the same time. In a market full of companies that are just trying to hire fast, that's worth a look. check out robotsandpencils.com/careers 
+
+Every episode, I talk about the competition between OpenAI, Anthropic, SpaceX AI, Google, and Meta. And if you've been listening for a while, you might have a favorite. Maybe you think OpenAI and Anthropic can stay ahead, or perhaps Meta's open source strategy can win out. Whatever your view, every AI lab creates a different investment opportunity. Harbor Capital Advisors AI Lab Ecosystem ETF suite lets you invest in the ecosystem behind the AI lab you believe in.
+
+Search Harbor [00:14:00] AI Lab Ecosystem ETFs wherever you invest or follow @HarborCapital on X to learn more. Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
+
+Read and consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
+
+This This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
+
+Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
+
+marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
+
+It's time you had agents that feel like teammates [00:15:00] Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief 
+
 And by the way One simple but profound change, which we've talked about a lot on this show, is that the way that you're interacting with that chatbot is increasingly going to be through your voice
 
 done, every free learning program I've released this year 

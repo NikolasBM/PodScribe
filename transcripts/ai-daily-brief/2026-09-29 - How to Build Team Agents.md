@@ -78,7 +78,35 @@ M-most companies have an amazing, skill library or working on a skill library, a
 
 those of course can also tap into, skills marketplaces and so on. so a skill library perhaps is one of the ingredients, but they are not one and the same. and I want you to today, think about, how and when to start building your next, team agent. And one more note on scope because there's a lot of excitement right now about all of the personal agents.
 
-I'm talking about Muse and, Instinct and some of the other in this category. those are for, like, a h-home or private, life. today, the focus is gonna be on work. so that's one thing to ma-make sure that it's clear about the scope. We're talking about agents that you build for your job.
+I'm talking about Muse and, Instinct and some of the other in this category. those are for, like, a h-home or private, life. today, the focus is gonna be on work. so that's one thing to ma-make sure that it's clear about the scope. We're talking about agents that you build for your job. A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, [00:10:00] evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
+
+Blitzy deeply understands your code base before it writes code. Here's the first place that pays off: security in the age of AI
+
+Vulnerabilities don't live in isolation. They live buried inside millions of lines of interconnected code, where patching one thing quietly breaks three others. That's why surface-level scans fail Blitzy starts from its knowledge graph of your entire application, identifies and surfaces CVEs across the full estate, proactively recommends patches, and can execute the PR Each fix is grounded in how your systems connect and validate so nothing new breaks.
+
+And the knowledge graph dynamically updates, keeping you ahead of an ever-accelerating threat landscape
+
+One Blitzy customer resolved 21 active CVEs across six core microservices in four days. Zero compile errors, every validation scan clean, months of planned [00:11:00] work fixed in less than a week
+
+Security remediation grounded in real architectural context at the speed of compute. Harden your code base at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Every episode, I talk about the competition between OpenAI, Anthropic, SpaceX AI, Google, and Meta. And if you've been listening for a while, you might have a favorite. Maybe you think OpenAI and Anthropic can stay ahead, or perhaps Meta's open source strategy can win out. Whatever your view, every AI lab creates a different investment opportunity. Harbor Capital Advisors AI Lab Ecosystem ETF suite lets you invest in the ecosystem behind the AI lab you believe in.
+
+Search Harbor AI Lab Ecosystem ETFs wherever you invest or follow @HarborCapital on X to learn more. Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
+
+Read and consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid [00:12:00] advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
+
+This This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
+
+Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
+
+marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
+
+It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief 
 
 All right.
 

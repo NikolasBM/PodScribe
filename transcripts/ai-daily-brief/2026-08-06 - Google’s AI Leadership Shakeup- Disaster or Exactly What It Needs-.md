@@ -128,7 +128,31 @@ I'm I'm very glad to see the company doing well, and I hope it will continue to 
 
 Speaker: KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-Nathaniel Whittemore: Welcome
+They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+
+If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
+
+One of the more interesting shifts in enterprise AI right now is how quickly the conversation is moving towards infrastructure and operations. As AI moves into core workflows, regulated data environments, and agentic systems, enterprises need governed infrastructure and inference that can [00:12:00] operate reliably day to day with clear operational accountability built in from the start.
+
+Nathaniel Whittemore: As those systems scale, the operating model increasingly becomes part of the AI strategy itself
+
+Rack-Rackspace Technology is the operator of the full enterprise AI stack, from agents to infrastructure across private cloud, hybrid cloud, and edge environments. Rackspace builds and operates governed AI infrastructure, inference, and production AI systems for organizations where sovereignty, compliance, and uptime are non-negotiable.
+
+Their forward-deployed engineers stay embedded beyond deployment to help operationalize and run AI in live environments. to learn more about where enterprise AI runs and outcomes scale, go to rackspace.com 
+
+Here's why most legacy modernization projects fail. The AI doing the work can't understand code bases at scale. it sees a small slice of context, examines syntax, and misses years of decisions distributed across the global application ecosystem
+
+blitzy July_EDIT: Blitzy solves this the way it solves everything. Grounded in your code before any migration begins, Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph. Every dependency, every [00:13:00] constraint, every piece of tribal knowledge that used to live in one engineer's head.
+
+From that understanding, Blitzy autonomously executes language migrations, framework upgrades, and monolith-to-microservices transformations, all validated end to end One Blitzy customer modernized a $10 million monolithic insurance stack in 16 weeks against a 137-week baseline with coding agents. That's 9X compression.
+
+Retire technical debt while accelerating your roadmap. See how at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you [00:14:00] add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+Welcome 
 
 260806 main_EDIT: back to the 
 

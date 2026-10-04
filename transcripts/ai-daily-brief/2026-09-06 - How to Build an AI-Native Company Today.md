@@ -174,6 +174,48 @@ As well as cost per completeness
 
 in order to be able to better compare model harness combos in a more apples to apples kind of way
 
+Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
+
+Thousands of agents ingest millions of lines, mapping every dependency, every [00:12:00] undocumented constraint, every architectural decision made over the last decade. 
+
+the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
+
+Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
+
+validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
+
+See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
+
+Section is a platform that helps you manage AI transformation across your entire organization.
+
+It coaches, employees on real use cases
+
+tracks who's using AI for business impact and shows you exactly where [00:13:00] AI is and isn't creating value.
+
+The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
+
+That's S-E-C-T-I-O-N ai com. 
+
+At this point, it's no longer a question of whether companies are actively using AI
+
+Using it well, on the other hand, is a whole different story. Robots and Pencils, though, is a company that I can point to that is actually built for this time. They're an applied AI engineering firm working directly with clients on problems that matter to the business, not experiments that live in a slide deck.
+
+Every engagement starts by working backwards from the outcome a client actually needs. If you're trying to tell real AI engineering apart from noise in this space that's the difference maker. Head to robotsandpencils.com
+
+
+
+the AI... This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
+
+Forget local agents and chat workflows waiting on your laptop to be [00:14:00] prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
+
+marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
+
+It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief feature 10 is perhaps one of the features that many organizations are thefarthest along with, which is to build agent native development systems, letting fleets of coding agents plan, write, test, review, and ship code while humans define intent and acceptance This is a lot less controversial than it would have been a year ago, but obviously there are still many organizations that are using a traditional process
+
 Despite there likely being an inevitable shift that will happen in the coming years
 
 Feature 11 once again gets at the subtheme of token efficiency

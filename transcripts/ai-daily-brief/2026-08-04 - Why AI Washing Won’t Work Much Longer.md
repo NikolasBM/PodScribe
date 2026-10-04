@@ -136,7 +136,37 @@ I am very interested to see what comes out of that. But let's wait until we have
 
 Speaker: KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-Nathaniel Whittemore: Welcome back to the AI Daily Brief. today we are talking about the latest model release, which is Qwen 3.8 Max But the context we're putting it in is a little bit different than normal
+They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+
+If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
+
+Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the [00:09:00] tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
+
+Nathaniel Whittemore: Section is a platform that helps you manage AI transformation across your entire organization.
+
+It coaches, employees on real use cases
+
+tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
+
+The result, You go from rolling out tools to driving measurable AI value. [00:10:00] Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
+
+That's S-E-C-T-I-O-N ai com. 
+
+Blitzy deeply understands your code base before it writes code. Here's the first place that pays off: security in the age of AI
+
+blitzy July_EDIT: Vulnerabilities don't live in isolation. They live buried inside millions of lines of interconnected code, where patching one thing quietly breaks three others. That's why surface-level scans fail Blitzy starts from its knowledge graph of your entire application, identifies and surfaces CVEs across the full estate, proactively recommends patches, and can execute the PR Each fix is grounded in how your systems connect and validate so nothing new breaks.
+
+And the knowledge graph dynamically updates, keeping you ahead of an ever-accelerating threat landscape
+
+One Blitzy customer resolved 21 active CVEs across six core microservices in four days. Zero compile errors, every validation scan clean, months of planned work fixed in less than a week
+
+Security remediation grounded in real [00:11:00] architectural context at the speed of compute. Harden your code base at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Welcome back to the AI Daily Brief. today we are talking about the latest model release, which is Qwen 3.8 Max But the context we're putting it in is a little bit different than normal
 
 260804 main_EDIT: As you know, I am just back from KPMG's Tech and Innovation Symposium last week
 

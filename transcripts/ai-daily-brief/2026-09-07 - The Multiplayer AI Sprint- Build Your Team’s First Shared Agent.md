@@ -164,6 +164,40 @@ There was no need to copy the conversation into Discord, explain what happened, 
 
 It becomes a shared piece of work another trusted developer can inspect, steer, or take over."
 
+A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. [00:12:00] 
+
+Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
+
+Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
+
+the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
+
+Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
+
+validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
+
+See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Every episode, we cover the competition between OpenAI, Anthropic, SpaceX AI, Google, and Meta. Chances are you've already formed an opinion about who's leading. But every AI lab is taking a different approach, building different technologies, forging different [00:13:00] partnerships, and developing a unique ecosystem.
+
+Harbor Capital Advisors AI Lab Ecosystem ETF Suite gives investors a way to gain exposure to the AI ecosystem they believe is best positioned for success. Search Harbor AI Lab Ecosystem ETFs wherever you invest, or follow @HarborCapital on X to learn more
+
+Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
+
+Read and consider it carefully before investing. Risks include principal loss and artificial intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
+
+the AI... this episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
+
+Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
+
+marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft [00:14:00] emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
+
+It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief 
+
 So now you have the very advanced users of the Every team, the Open Claw team, and the Anthropic team all shifting from this individual agentic behavior to this shared team multiplayer agentic behavior
 
 And I don't believe that this is just going to be constrained to coding. What it is to me is clearly agents evolving along a natural pattern to speak to the other half of work that we do that they don't touch yet, which is the work that is shared with other people

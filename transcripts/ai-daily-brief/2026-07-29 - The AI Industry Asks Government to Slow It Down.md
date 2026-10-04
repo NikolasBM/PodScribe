@@ -214,6 +214,28 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 KPMG and the University of Texas at Austin. Just to analyzed [00:13:00] 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
+They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+
+If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. Here's 
+
+why most legacy modernization projects fail. The AI doing the work can't understand code bases at scale. it sees a small slice of context, examines syntax, and misses years of decisions distributed across the global application ecosystem
+
+Blitzy solves this the way it solves everything. Grounded in your code before any migration begins, Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph. Every dependency, every constraint, every piece of tribal knowledge that used to live in one engineer's head.
+
+From that [00:14:00] understanding, Blitzy autonomously executes language migrations, framework upgrades, and monolith-to-microservices transformations, all validated end to end One Blitzy customer modernized a $10 million monolithic insurance stack in 16 weeks against a 137-week baseline with coding agents. That's 9X compression.
+
+Retire technical debt while accelerating your roadmap. See how at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+This episode is brought to you by Retool. Generating a working app now takes about five minutes thanks to AI. Getting it safely into production with auth, permissions, audit logs, security reviews, that part still takes time. That's the gap Retool closes.
+
+Build apps however you want, natively in Retool with Claude Code, Codex, or any coding agent, or by importing React you've already built. It all deploys into Retool and picks up governance automatically. Security lives in the platform, not in whatever the AI wrote.
+
+So your team ships at AI speed without the shadow IT and the endless reviews that stall out most vibe coded projects. It's why teams at Amazon, Stripe, and Brex build on [00:15:00] Retool. And new enterprise customers who sign by September 30th get up to $10,000 in AI credits per year. Start building at retool.com/aidaily 
+
+This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
 MIT, MIT's Christian Catalini writes, "If the US labs pace MIT, MIT's Christian Catalini writes, " "If the If the US labs pace themselves, why would China wait?"
 
 Tycoon Shaoyin Chu [00:16:00] writes, " It's silly to try to control the pace. China will not follow, and Kimi K4 won't slow down."

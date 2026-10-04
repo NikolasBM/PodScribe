@@ -120,6 +120,32 @@ Good progress for what is an important new product category, but for now, that i
 
 
 
+A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its [00:12:00] outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
+
+Blitzy's understanding of massive code bases unlocks autonomous security fixes, modernization, and new features. So what happens when there's no legacy code at all? Greenfield is supposed to be the easy part. Clean slate, no technical debt.
+
+But even Greenfield moves at human speed one sprint at a time. Blitzy changes the unit of work from the developer to the project, autonomously planning, building, testing, and validating entire applications from scratch. Hundreds of thousands of lines of production-ready code
+
+One Blitzy customer stood up a brand new application, five hundred and thirty-four thousand lines of code, compressing a sixty-five-week roadmap into two weeks. Another shipped an entire application with no front-end engineer Legacy or greenfield, the answer is the same: software at the speed of compute.
+
+Build what's next at blitzy.com. That's [00:13:00] B-L-I-T-Z-Y.com 
+
+using it. At this point, it's no longer a question of whether companies are actively using AI
+
+Using it well, on the other hand, is a whole different story. Robots and Pencils, though, is a company that I can point to that is actually built for this time. They're an applied AI engineering firm working directly with clients on problems that matter to the business, not experiments that live in a slide deck.
+
+Every engagement starts by working backwards from the outcome a client actually needs. If you're trying to tell real AI engineering apart from noise in this space that's the difference maker. Head to robotsandpencils.com
+
+the AI... This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
+
+Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
+
+marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and [00:14:00] approvals
+
+It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief 
+
 Welcome back to the AI Daily Brief. Today we are back to the practical because even as the latest round of the AI risk conversation has exploded into the mainstream
 
 New products that are useful for you right now And which basically no one is arguing are actively dangerous

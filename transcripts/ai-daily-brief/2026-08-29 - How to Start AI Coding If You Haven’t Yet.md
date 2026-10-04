@@ -226,6 +226,36 @@ Now, of Now, of course, there could be a next step available for example, if I [
 
 So that's the difference between those two
 
+A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
+
+Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends [00:15:00] days reverse engineering your entire code base
+
+Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
+
+the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
+
+Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
+
+validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
+
+See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
+
+And they're hiring
+
+50 open roles. If you're someone who knows this moment [00:16:00] is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
+
+This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
+
+
+
+This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
 [00:17:00] Okay, so now we've talked about the three build patterns and these four different delivery classes, but what about for you? which parts of your work could be software My big asterisk on this part of the episode is that no one from outside is going to be able to tell you exactly
 
 which of your work would be best suited to becoming software. But these are some common patterns that I've seen and that I've experienced that could maybe get the juices flowing

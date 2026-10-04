@@ -130,7 +130,35 @@ The paper outlines a theoretical roadmap for RSI concludes the method is not qui
 
 
 
-Welcome back to the AI Daily Brief. Yesterday I argued
+and that I think is probably the perfect place to jump from the headlines into our main episode A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers [00:10:00] consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
+
+Blitzy deeply understands your code base before it writes code. Here's the first place that pays off: security in the age of AI
+
+Vulnerabilities don't live in isolation. They live buried inside millions of lines of interconnected code, where patching one thing quietly breaks three others. That's why surface-level scans fail Blitzy starts from its knowledge graph of your entire application, identifies and surfaces CVEs across the full estate, proactively recommends patches, and can execute the PR Each fix is grounded in how your systems connect and validate so nothing new breaks.
+
+And the knowledge graph dynamically updates, keeping you ahead of an ever-accelerating threat landscape
+
+One Blitzy customer resolved 21 active CVEs across six core microservices in four days. Zero [00:11:00] compile errors, every validation scan clean, months of planned work fixed in less than a week
+
+Security remediation grounded in real architectural context at the speed of compute. Harden your code base at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+
+
+The best teams don't have a single star carrying everyone else. They know their own strengths and each other's weaknesses and play to both. That's the team Robots and Pencils has built on purpose. Nobody there is grinding through busy work to pad a headcount number.
+
+People come for the hard problems, and they stay because everyone around them is leveling up at the same time. In a market full of companies that are just trying to hire fast, that's worth a look. check out robotsandpencils.com/careers 
+
+This episode of This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
+
+Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
+
+marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops [00:12:00] agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
+
+It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief Welcome back to the AI Daily Brief. Welcome back to the AI Daily Brief. Yesterday I argued 
 
 that the combination of Dario Amodei's Pacing the Frontier proposal
 

@@ -242,7 +242,49 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 Speaker: KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-Nathaniel Whittemore: And And yet, if there was this emergent strand of sympathy, there remains a ton of concern about the precedent being set
+They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+
+If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
+
+I cover the capability gap between AI potential and AI reality every day on this show most companies are [00:16:00] still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
+
+Speaker 11: And they're hiring
+
+50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
+
+This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
+
+Nathaniel Whittemore: The average enterprise is spending eleven and a half million dollars on AI this year, and most of them can't prove a single dollar came back. What does AI actually look like when it produces ROI? Ask the healthcare company that just made their payment processing three hundred and twenty times faster, or the law firm whose document research went from three months to ten minutes, or the contact center who reduced wait times by ninety-nine percent.
+
+These are real Mission Cloud customers with real results. Mission Cloud is a CDW company and an AWS Premier Tier [00:17:00] partner. They're the AI-first, outcomes-obsessed AWS experts who build AI solutions that drive your business forward. Whether you're flooded with AI ambitions but no idea where to start or six months into a deployment that's going sideways, they've seen it and they've fixed it.
+
+Stop burning your budgets on AI that doesn't produce results. Start at missioncloud.com. 
+
+This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. 
+
+Nathaniel Whittemore: Organizations all 
+
+Speaker 10: all over the world are building, orchestrating, and governing agentic systems 
+
+outsystems_dxRevive_EDIT: on the 
+
+Speaker 10: OutSystems
+
+platform and with good reason.
+
+OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. 
+
+outsystems_dxRevive_EDIT: 
+
+Speaker 10: Teams of any size and technical depth can use OutSystems to build, deploy, and manage AI apps and agents 
+
+quickly and cost effectively without compromising reliability and security.
+
+Without systems, you can rapidly launch ideas 
+
+from concept to completion. It's the leading agentic systems platform that is unified, agile, and enterprise-proven, allowing you to accelerate growth, reduce operational friction, and [00:18:00] deliver real enterprise impact with AI OutSystems, Build your agentic future 
+
+And And yet, if there was this emergent strand of sympathy, there remains a ton of concern about the precedent being set
 
 260629 p1_EDIT: and the seeming arbitrariness of the policy 
 

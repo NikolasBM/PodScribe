@@ -228,6 +228,34 @@ being more broadly, expressing of a lack of effort in the construction of the ar
 
 
 
+A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. [00:11:00] 
+
+Here's why most legacy modernization projects fail. The AI doing the work can't understand code bases at scale. it sees a small slice of context, examines syntax, and misses years of decisions distributed across the global application ecosystem
+
+Blitzy solves this the way it solves everything. Grounded in your code before any migration begins, Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph. Every dependency, every constraint, every piece of tribal knowledge that used to live in one engineer's head.
+
+From that understanding, Blitzy autonomously executes language migrations, framework upgrades, and monolith-to-microservices transformations, all validated end to end One Blitzy customer modernized a $10 million monolithic insurance stack in 16 weeks against a 137-week baseline with coding agents. That's 9X compression.
+
+Retire technical debt while accelerating your roadmap. See how at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that [00:12:00] are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
+
+Section is a platform that helps you manage AI transformation across your entire organization.
+
+It coaches, employees on real use cases
+
+tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
+
+The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
+
+That's S-E-C-T-I-O-N ai com. 
+
+This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work [00:13:00] across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
 Maxim four, and Ithink this one will be most acutely felt among enterprise listeners. When it comes to AI writing, longer is not better, and in fact, usually the opposite is true
 
 The reason we have phrases like work slop now

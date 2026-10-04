@@ -158,11 +158,29 @@ There's There's a surprising amount of interest in this deal, ~in particular for
 
 For now, however, that is gonna do it for today's headlines. Next up, the main episode ~ ~
 
-Nathaniel Whittemore: One of the more interesting shifts in enterprise AI right now is how quickly the conversation is moving towards infrastructure and operations. As AI moves into core workflows, regulated data environments, and agentic systems, ~enterprises need g- ~ enterprises need governed infrastructure and inference that can operate reliably day to day with clear operational accountability built in from the start.
+KPMG Aug_EDIT: ~We've moved from ranking pages~
+
+Nathaniel Whittemore: A new study from KPMG and the University A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar [00:11:00] outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. One of the more interesting shifts in enterprise AI right now is how quickly the conversation is moving towards infrastructure and operations. As AI moves into core workflows, regulated data environments, and agentic systems, ~enterprises need g- ~ enterprises need governed infrastructure and inference that can operate reliably day to day with clear operational accountability built in from the start.
 
 As those systems scale, the operating model increasingly becomes part of the AI strategy itself
 
-Nathaniel Whittemore: Welcome back to the AI Daily Brief. Welcome back to the AI Daily Brief.
+Rack-Rackspace Technology is the operator of the full enterprise AI stack, from agents to infrastructure across private cloud, hybrid cloud, and edge [00:12:00] environments. Rackspace builds and operates governed AI infrastructure, inference, and production AI systems for organizations where sovereignty, compliance, and uptime are non-negotiable.
+
+Their forward-deployed engineers stay embedded beyond deployment to help operationalize and run AI in live environments. ~To learn more about where enterprise-- ~to learn more about where enterprise AI runs and outcomes scale, go to rackspace.com Here's why most legacy modernization projects fail. The AI doing the work can't understand code bases at scale. it sees a small slice of context, examines syntax, and misses years of decisions distributed across the global application ecosystem
+
+blitzy July_EDIT: Blitzy solves this the way it solves everything. Grounded in your code before any migration begins, Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph. Every dependency, every constraint, every piece of tribal knowledge that used to live in one engineer's head.
+
+From that understanding, Blitzy autonomously executes language migrations, framework upgrades, and monolith-to-microservices transformations, all validated end to end One Blitzy customer modernized a $10 million monolithic insurance stack in 16 weeks against a 137-week [00:13:00] baseline with coding agents. That's 9X compression.
+
+Retire technical debt while accelerating your roadmap. See how at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages ~Sales agent enriches ~sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals ~It's time you add agents that felt ~ It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+Welcome back to the AI Daily Brief. Welcome back to the AI Daily Brief.
 
 Today we are talking about an [00:14:00] interesting paradox In short, the anti-AI backlash as embodied specifically in the anti-data center backlash is fairly undeniably getting dumber. ~Or at least, ~ or or at least more meme-driven and more performative But at the same time
 

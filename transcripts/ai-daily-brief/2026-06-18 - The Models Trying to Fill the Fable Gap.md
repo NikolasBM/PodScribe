@@ -184,6 +184,44 @@ One of the most important AI questions right now isn't who's using [00:11:00] ai
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
+They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+
+If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
+
+Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
+
+Section is a platform that helps you manage AI transformation [00:12:00] across your entire organization.
+
+It coaches, employees on real use cases
+
+tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
+
+The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
+
+That's S-E-C-T-I-O-N ai com. 
+
+You know Assembly AI for having the most accurate streaming speech-to-text out there.
+
+But they just went a step further and launched a full voice agent API. The idea is simple: one connection and they handle everything, the listening, the thinking, the speaking. You just stream audio in and get your agent's voice response back. We're talking about things like, outbound sales calls that actually qualify leads, customer support that handles complex requests without a script, scheduling agents that sound like a human assistant, and you can build one in five minutes with one API.
+
+And importantly, their streaming model is the best at catching all the stuff that [00:13:00] breaks on other voice agents, things like phone numbers, emails, names, and medical terms.
+
+And for those of you who are still in experimentation mode, there are no contracts and unlimited concurrency, so you can actually test it out without any friction. head to assemblyai.com/brief and try the live voice agent demo right there on the site. No sign-up needed 
+
+This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. Organizations all over the world are building, orchestrating, and governing agentic systems 
+
+on the OutSystems platform and with good reason.
+
+OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. 
+
+Teams of any size and technical depth can use OutSystems to build, deploy, and manage AI apps and agents 
+
+quickly and cost effectively without compromising reliability and security.
+
+Without systems, you can rapidly launch ideas 
+
+from concept to completion. It's the leading agentic systems platform that is unified, agile, and enterprise-proven, allowing you to accelerate growth, reduce operational friction, and deliver real enterprise [00:14:00] impact with AI OutSystems.
+
 Build your agentic future As the discussions between Anthropic and the US government continue, we are firmly in the fallout phase of the Fable Five loss
 
 

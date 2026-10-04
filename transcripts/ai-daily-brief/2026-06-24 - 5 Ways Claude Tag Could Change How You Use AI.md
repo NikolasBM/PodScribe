@@ -132,7 +132,41 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 [00:10:00] KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-The average enterprise is spending eleven and a half million dollars on AI this year, and most of them can't prove a single dollar came back.
+They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+
+If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
+
+today's episode is brought to you by the new Executive Agent Leadership Program Produced by super intelligent and by frequent AIDB operators guest, Nufar Gaspar
+
+to tell you a little bit more about the Executive Agent Leadership Program, here is Nufar
+
+The best predictor of agent adoption in an organization is how hands-on their leaders are. Talking about agents is completely different than building them. Our participants, ICs [00:11:00] all the way to C-suite, have built working agent fleets, governance frameworks, and the playbooks to scale it. Executive agent leadership is the evolution of enterprise claw.
+
+Everything we've learned across three cohorts rebuilt for right now. The token economy, security, vendor resilience, and architecture to lead agent adoption at scale 
+
+the next cohort of the Executive Agent Leadership Program is signing up now and will launch, on June 29th You can find out more at training.besuper.ai 
+
+The average enterprise is spending eleven and a half million dollars on AI this year, and most of them can't prove a single dollar came back. What does AI actually look like when it produces ROI? Ask the healthcare company that just made their payment processing three hundred and twenty times faster, or the law firm whose document research went from three months to ten minutes, or the contact center who reduced wait times by ninety-nine percent.
+
+These are real Mission Cloud customers with real results. Mission Cloud is a CDW company and an AWS Premier Tier [00:12:00] partner. They're the AI-first, outcomes-obsessed AWS experts who build AI solutions that drive your business forward. Whether you're flooded with AI ambitions but no idea where to start or six months into a deployment that's going sideways, they've seen it and they've fixed it.
+
+Stop burning your budgets on AI that doesn't produce results. Start at missioncloud.com. 
+
+This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. Organizations all over the world are building, orchestrating, and governing agentic systems 
+
+on the OutSystems platform and with good reason.
+
+OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. 
+
+Teams of any size and technical depth can use OutSystems to build, deploy, and manage AI apps and agents 
+
+quickly and cost effectively without compromising reliability and security.
+
+Without systems, you can rapidly launch ideas 
+
+from concept to completion. It's the leading agentic systems platform that is unified, agile, and enterprise-proven, allowing you to accelerate growth, reduce operational friction, [00:13:00] and deliver real enterprise impact with AI OutSystems.
+
+Build your agentic future 
 
 Welcome back to the AI Daily Brief
 

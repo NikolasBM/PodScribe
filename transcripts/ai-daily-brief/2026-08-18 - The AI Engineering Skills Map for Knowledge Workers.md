@@ -26,7 +26,9 @@ In the world of AI, ~nothing, ~ nothing is safe as everything gets rebuilt
 
 ~The latest reminder of this, the latest reminder of this comes fr- the latest reminder of this comes from Cursor~
 
-That makes it easier to run natural language queries across the code base ~or u- ~or use agents to handle comments and commits without context switching or using connectors ~Still, maybe their biggest, still maybe their big, ~ still still maybe their biggest pitch is around platform stability
+~The latest reminder of this is-- ~ the latest reminder of this comes from Cursor, who are taking on GitHub with their new repo hosting platform, Origin. The pitch is pretty straightforward. ~Take Git hosting~
+
+Take Git hosting and add better integrations for the coding agents you're already using. Origin allows developers and their agents to access the code base from the same surface they're already working in. That makes it easier to run natural language queries across the code base ~or u- ~or use agents to handle comments and commits without context switching or using connectors ~Still, maybe their biggest, still maybe their big, ~ still still maybe their biggest pitch is around platform stability
 
 GitHub's service has been widely perceived to be degrading over the past year, with ~frequent, uh, with frequent issue-- with~ frequent outages and issues As if on cue, ~right around the time that Or- ~right around the time that Origin was announced, GitHub experienced a six-hour service degradation
 
@@ -160,7 +162,39 @@ Basically, you just pay the price that it takes to get the deal done, and it tur
 
 A great outcome for the [00:09:00] OpenRouter team, of course, but my guess is that this pays off for Stripe in big ways as well. For now, though, that's gonna do it for the AI Daily Brief headlines edition. Next up, the main episode ~ ~
 
-Nathaniel Whittemore: Welcome back to the AI Daily Brief. Welcome back to the AI Daily Brief. Today I've got a fun one for you It's very clear that the skills of knowledge work are changing and changing fast. Not that everything's upended. ~There-- Not that everything's upended, as you'll s- not that everything's upended. But all of a sudden, ~but all of a sudden, knowledge workers have ~this totally, have these totally new ~these totally new capabilities ~brought on by new, ~brought on by new tools and new ways of working And of course, alongside that comes with the challenge of figuring out how to harness all that power
+KPMG Aug_EDIT: ~We've moved from ranking pages~
+
+Nathaniel Whittemore: A new study from KPMG and the University of Texas A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
+
+Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, ~but only 12% of them use, ~but only 12% use them for business value. Most [00:10:00] employees are~ are still using ai, ~still using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
+
+Nathaniel Whittemore: Section is a platform that helps you manage AI transformation across your entire organization.
+
+It coaches, employees on real use cases
+
+tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
+
+The result, ~you go from rolling out tools to driving measurable. ~You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
+
+That's S-E-C-T-I-O-N ai com. 
+
+Blitzy deeply understands your code base before it writes code. Here's the first place that pays off: security in the age of AI
+
+blitzy July_EDIT: Vulnerabilities don't live in isolation. They live buried inside millions of lines of interconnected code, where patching one thing quietly breaks three others. That's why surface-level scans fail Blitzy starts from its knowledge graph of your entire application, identifies and surfaces CVEs across the full estate, proactively [00:11:00] recommends patches, and can execute the PR Each fix is grounded in how your systems connect and validate so nothing new breaks.
+
+And the knowledge graph dynamically updates, keeping you ahead of an ever-accelerating threat landscape
+
+One Blitzy customer resolved 21 active CVEs across six core microservices in four days. Zero compile errors, every validation scan clean, months of planned work fixed in less than a week
+
+Security remediation grounded in real architectural context at the speed of compute. Harden your code base at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages ~Sales agent enriches ~sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your [00:12:00] rules about scope and approvals ~It's time you add agents that felt ~ It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+Welcome back to the AI Daily Brief. Welcome back to the AI Daily Brief. Today I've got a fun one for you It's very clear that the skills of knowledge work are changing and changing fast. Not that everything's upended. ~There-- Not that everything's upended, as you'll s- not that everything's upended. But all of a sudden, ~but all of a sudden, knowledge workers have ~this totally, have these totally new ~these totally new capabilities ~brought on by new, ~brought on by new tools and new ways of working And of course, alongside that comes with the challenge of figuring out how to harness all that power
 
 ~Today we're going to go through-- Today, ~ today we're going to go through my AI engineering skills map for knowledge workers
 

@@ -104,7 +104,25 @@ towards an even better version which could mean product market fit
 
 or product market domination. Now, this is a role that almost definitionally cannot exist entirely in that internal-facing way. the [00:08:00] grower is doing things where the product as it exists is interacting with its intended audience, and the learnings from that are what goes back into the grower's work preview of what I'm going to argue in a minute, I think that the biggest thing missing from Boris's analysis is those externally facing roles, and this is kind of a hint towards that 
 
-One thing I keep seeing in enterprise AI, companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast.
+One thing I keep seeing in enterprise AI, companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast. That's one of the reasons I like today's sponsor robots and pencils. They've gone all in on AWS. They're an advanced tier and AWS pattern partner and they ship production AI coworkers in 45 days.
+
+That's led to them doing some of the more interesting work I've seen on AI coworkers. And by that I'm not talking about chatbots, I'm talking about actual Agentic systems that sit inside a business architecture and do real work.
+
+That kind of focus matters if you're an enterprise leader trying to get something real into production or an AWS rep trying to move a customer [00:09:00] from interested to deployed. Request an AI briefing@robotsandpencils.com. One conversation with robots and pencils and you'll know. 
+
+Weekends are for vibe coding. It has never been easier to bring a passion project to life. So go ahead and fire up your favorite vibe coding tool. But Monday is coming and before you know it, you'll be staring down a maze of microservices, a legacy COBOL system from the 1970s, and an engineering roadmap that will exist well past your retirement party.
+
+That's why you need Blitzie, the first autonomous software development platform designed for enterprise scale code bases.
+
+Deploy at the beginning of every sprint and tackle your roadmap 500% faster. blitzes, agents, est your entire code base. Plan the work
+
+and deliver over 80% autonomously.
+
+Validated end-to-end tested premium quality code at the speed of compute. Months of engineering compressed into days
+
+vibe. Code your passion projects on the weekend. Bring glitzy to work on Monday. See why Fortune five hundred's. Trust blitzie for the code that matters@blitz.com. That's BITZ y.com. 
+
+This episode of the AI Daily Brief is brought to you by Hyperagent where [00:10:00] you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
 
 Lastly, the maintainer.
 

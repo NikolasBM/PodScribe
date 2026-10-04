@@ -188,6 +188,36 @@ Where we get into why he as well views AI simply as a tool in the next generatio
 
 [00:11:00] For now though, that's gonna do it for today's headlines. Next up, the main episode 
 
+A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+
+These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
+
+
+
+One of the more interesting shifts in enterprise AI right now is how quickly the conversation is moving towards infrastructure and operations. As AI moves into core workflows, regulated data environments, and agentic systems, enterprises need governed infrastructure and inference that can operate reliably day to day [00:12:00] with clear operational accountability built in from the start.
+
+As those systems scale, the operating model increasingly becomes part of the AI strategy itself
+
+Rack-Rackspace Technology is the operator of the full enterprise AI stack, from agents to infrastructure across private cloud, hybrid cloud, and edge environments. Rackspace builds and operates governed AI infrastructure, inference, and production AI systems for organizations where sovereignty, compliance, and uptime are non-negotiable.
+
+Their forward-deployed engineers stay embedded beyond deployment to help operationalize and run AI in live environments. to learn more about where enterprise AI runs and outcomes scale, go to rackspace.com 
+
+Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
+
+Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
+
+the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
+
+Other tools guess at context [00:13:00] with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
+
+validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
+
+See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+this episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at [00:14:00] hyperagent.com/aidailybrief. 
+
 Welcome back to the AI Daily Brief. One very common kind of content that you see on social media these days is the tier list
 
 list 

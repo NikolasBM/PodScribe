@@ -120,7 +120,19 @@ Hello everyone
 
 Nathaniel Whittemore: One big change around AI is we've shifted our thinking from how we rank our pages to how do we become the source that AI trusts enough to answer with?
 
-So what happens when there's no legacy code at all? Greenfield is supposed to be the easy part. Clean slate, no technical debt.
+KPMG Aug_EDIT: At KPMG, they're seeing this firsthand. AI-generated results now surface answers directly, often without a single click. that's why they are increasingly focused on generative engine optimization or GEO, structuring content so AI [00:09:00] systems can retrieve it, understand it, and cite it as trusted authority this is not just an SEO evolution, but a visibility mandate. And indeed, the GEO mandate from KPMG is simple: If AI is shaping decisions, your expertise needs to show up inside the answer.
+
+Read all about it at slash us/geo. Again, that is kpmg.com/us/geo
+
+
+
+Blitzy's understanding of massive code bases unlocks autonomous security fixes, modernization, and new features. So what happens when there's no legacy code at all? Greenfield is supposed to be the easy part. Clean slate, no technical debt.
+
+blitzy July_EDIT: But even Greenfield moves at human speed one sprint at a time. Blitzy changes the unit of work from the developer to the project, autonomously planning, building, testing, and validating entire applications from scratch. Hundreds of thousands of lines of production-ready code
+
+One Blitzy customer stood up a brand new application, five hundred and thirty-four thousand lines of code, compressing a sixty-five-week roadmap into two weeks. Another shipped an entire application with no front-end [00:10:00] engineer Legacy or greenfield, the answer is the same: software at the speed of compute.
+
+Build what's next at blitzy.com. That's B-L-I-T-Z-Y.com 
 
 One thing I keep seeing in enterprise AI, companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast. That's one of the reasons I like today's sponsor robots and pencils. They've gone all in on AWS. They're an advanced tier and AWS pattern partner and they ship production AI coworkers in 45 days.
 
@@ -128,7 +140,9 @@ Speaker 9: That's led to them doing some of the more interesting work I've seen 
 
 That kind of focus matters if you're an enterprise leader trying to get something real into production or an AWS rep trying to move a customer from interested to deployed. Request an AI briefing@robotsandpencils.com. One conversation with robots and pencils and you'll know. 
 
-Nathaniel Whittemore: Welcome back to the AI Daily Brief.
+Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by [00:11:00] Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
+
+Welcome back to the AI Daily Brief. 
 
 260807 main_EDIT: well, friends, today we have a contender 
 

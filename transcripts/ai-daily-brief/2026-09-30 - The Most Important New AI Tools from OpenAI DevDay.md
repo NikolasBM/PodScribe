@@ -188,7 +188,33 @@ Hello everyone
 
 One big change around AI is we've shifted our thinking from how we rank our pages to how do we become the source that AI trusts enough to answer with?
 
-At KPMG, they're seeing this firsthand. AI-generated results now surface answers directly, often without a single click.
+At KPMG, they're seeing this firsthand. AI-generated results now surface answers directly, often without a single click. that's why they are increasingly focused on generative engine optimization or GEO, structuring content so AI systems can retrieve it, understand it, and cite it as trusted authority this is not just an SEO evolution, but a visibility [00:13:00] mandate. And indeed, the GEO mandate from KPMG is simple: If AI is shaping decisions, your expertise needs to show up inside the answer.
+
+Read all about it at slash us/geo. Again, that is kpmg.com/us/geo
+
+Here's why most legacy modernization projects fail. The AI doing the work can't understand code bases at scale. it sees a small slice of context, examines syntax, and misses years of decisions distributed across the global application ecosystem
+
+Blitzy solves this the way it solves everything. Grounded in your code before any migration begins, Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph. Every dependency, every constraint, every piece of tribal knowledge that used to live in one engineer's head.
+
+From that understanding, Blitzy autonomously executes language migrations, framework upgrades, and monolith-to-microservices transformations, all validated end to end One Blitzy customer modernized a $10 million monolithic insurance stack in 16 weeks against a 137-week baseline with coding agents. [00:14:00] That's 9X compression.
+
+Retire technical debt while accelerating your roadmap. See how at blitzy.com. That's B-L-I-T-Z-Y.com
+
+
+
+
+
+The best teams don't have a single star carrying everyone else. They know their own strengths and each other's weaknesses and play to both. That's the team Robots and Pencils has built on purpose. Nobody there is grinding through busy work to pad a headcount number.
+
+People come for the hard problems, and they stay because everyone around them is leveling up at the same time. In a market full of companies that are just trying to hire fast, that's worth a look. check out robotsandpencils.com/careers 
+
+the AI... This episode This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
+
+Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
+
+marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared [00:15:00] context and follows your rules about scope and approvals
+
+It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief 
 
 Now, hopefully these sole class models are good enough though, because we may never see GPT-61 Astra. The Wall Street Journal reports that OpenAI have scrapped plans to release the next version of their flagship model over safety concerns. Saachi Jain, Saachi Jain, OpenAI's head of safety systems, said in a statement, " For anything regarding safety and alignment, there's a trade-off.
 
