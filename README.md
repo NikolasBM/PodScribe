@@ -8,6 +8,7 @@ An archive of transcripts from AI podcasts. New episodes are fetched or transcri
 |---|---|---|---|
 | [The AI Daily Brief](https://aidailybrief.ai/) (NLW) | `transcripts/ai-daily-brief/` | Transcripts published by the show | 2026-06-01 |
 | [Lenny's Podcast](https://www.lennysnewsletter.com/podcast) (Lenny Rachitsky) | `transcripts/lennys-podcast/` | Transcripts from a shared folder, matched to episodes via the podcast feed | 2026-01-01 |
+| [The Lean AI Podcast](https://podcasts.apple.com/dk/podcast/the-lean-ai-podcast-presented-by-eric-ries/id1761344341) (Lean Startup Co) | `transcripts/lean-ai-podcast/` | Transcribed from the audio with Azure MAI-Transcribe | 2024-08-06 |
 | [How I AI](https://podcasts.apple.com/us/podcast/how-i-ai/id1809663079) (Claire Vo) | `transcripts/how-i-ai/` | Transcribed from the audio with Azure MAI-Transcribe | 2026-09-01 |
 | [Latent Space](https://www.latent.space/) (Swyx & Alessio) | `transcripts/latent-space/` | Transcripts published in the show's Substack posts | 2026-06-01 |
 
@@ -18,7 +19,7 @@ The transcripts belong to the people who made the podcasts.
 - **Lenny's Podcast:** © Lenny Rachitsky. He [shares the full transcripts publicly](https://x.com/lennysan/status/2011243567340298651) and invites people to use them with AI, and keeps that folder updated. The files here come from it, with title, date and link from the podcast feed.
 - **The AI Daily Brief:** the show publishes its transcripts itself (for people and agents, see [`llms.txt`](https://aidailybrief.ai/llms.txt)). Sponsor reads have been removed.
 - **Latent Space:** the transcripts are published in the show's own posts.
-- **How I AI:** © Claire Vo. There are no published transcripts, so these are machine-made from the audio.
+- **How I AI** (© Claire Vo) and **The Lean AI Podcast** (© Lean Startup Co): there are no published transcripts, so these are machine-made from the audio.
 
 Each file names its source in the frontmatter (`url`, and `credit` where one is needed). If you made one of these podcasts and want something changed or removed, open an issue.
 
