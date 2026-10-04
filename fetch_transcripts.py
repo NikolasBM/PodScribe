@@ -5,6 +5,7 @@ Podcasts with source = "published" publish their own transcripts. Podcasts with
 source = "rss" are transcribed from their RSS audio with Azure MAI-Transcribe.
 """
 import argparse
+import collections
 import itertools
 import json
 import os
@@ -49,6 +50,10 @@ JEV_EDGE_THRESHOLD = 0.45
 JEV_MAX_GAP = 6
 JEV_SPONSOR_REACH = 2  # sentences a read may grow outwards over, if they name one of the podcast's ad_sponsors
 JEV_MIN_FLAGGED = 5
+META_START, META_END = "<!-- metadata -->", "<!-- /metadata -->"
+META_MAX_CATEGORIES = 4
+META_MAX_CANDIDATES = 40
+META_MAX_CHARS = 160_000  # transcript characters sent to Jev (limit is 64k tokens for state and questions together)
 JEV_AD_QUESTION = (
     "Is `sentence` part of a paid sponsor message, where the host reads out an advertisement for a company, "
     "product or service? `before` and `after` are the neighbouring sentences, for context only."
@@ -109,6 +114,22 @@ def sanitize_filename(title):
 
 # --- source = "published" ---------------------------------------------------
 
+def title_text(content, fallback):
+    match = re.match(r"^#\s*(.+?)\s*—\s*Transcript", get_first_line(content))
+    return match[1] if match else fallback
+
+
+def try_metadata(content, title, date_str, body, podcast):
+    """Add the metadata block when Jev is available; the transcript is saved without it otherwise."""
+    if not os.environ.get("TYPESAFE_API_KEY"):
+        return content
+    try:
+        return with_metadata(content, metadata_block(title, date_str, body, podcast, guest_names(title)))
+    except Exception as e:
+        warn(f"{date_str}: no metadata, {type(e).__name__}: {e}")
+        return content
+
+
 def fetch_published(podcast, out_dir, since, until, limit):
     """Download transcripts the show publishes itself. Returns number saved."""
     count = 0
@@ -137,7 +158,9 @@ def fetch_published(podcast, out_dir, since, until, limit):
             title = sanitize_filename(extract_title(content, date_str))
             head, sep, body = content.partition("\n---\n\n")
             if sep:
-                content = head + sep + strip_ads(body.rstrip("\n"), podcast) + "\n"
+                body = strip_ads(body.rstrip("\n"), podcast)
+                content = head + sep + body + "\n"
+                content = try_metadata(content, title_text(content, date_str), date_str, body, podcast)
             (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8", newline="\n")
             print(f"saved {date_str}: {title}")
             count += 1
@@ -593,6 +616,104 @@ def clean_ads(out_dir, podcast):
     return changed
 
 
+# --- episode metadata ----------------------------------------------------------
+
+def load_vocabulary():
+    return tomllib.loads((ROOT / "vocabulary.toml").read_text(encoding="utf-8"))
+
+
+def find_terms(text, vocabulary):
+    """Count mentions per canonical technology term. Longest alias wins, so "Claude Code" is not also "Claude"."""
+    spans = []
+    for exact in (False, True):
+        names = {}
+        for term in vocabulary["term"]:
+            if bool(term.get("exact_case")) == exact:
+                for alias in [term["name"], *term.get("aliases", [])]:
+                    names[alias if exact else alias.lower()] = term["name"]
+        if names:
+            pattern = re.compile(r"(?<![\w-])(?:" + "|".join(re.escape(a) for a in sorted(names, key=len, reverse=True))
+                                 + r")(?![\w-])", 0 if exact else re.IGNORECASE)
+            spans += [(m.start(), m.end(), names[m.group(0) if exact else m.group(0).lower()]) for m in pattern.finditer(text)]
+    counts, taken_until = collections.Counter(), -1
+    for start, end, name in sorted(spans, key=lambda x: (x[0], -(x[1] - x[0]))):
+        if start >= taken_until:
+            counts[name] += 1
+            taken_until = end
+    return counts
+
+
+def episode_text(body):
+    """Transcript text for Jev and term matching: no timestamps, edit markers or speaker labels."""
+    text = TS_RE.sub("", body)
+    text = re.sub(r"(?m)^(?:[\w .]{1,40}_EDIT:\s*)?(?:\*\*[^*]+\*\*|Nathaniel Whittemore(?:'s audio recording)?:|Speaker \d*:)\s*", "", text)
+    text = re.sub(r"(?m)^[\w .]{1,40}_EDIT:\s*", "", text)
+    return re.sub(r"[ \t]+", " ", re.sub(r"\n{2,}", "\n", text)).strip()
+
+
+def metadata_block(title, date_str, body, podcast, guests):
+    """Jev-judged metadata for one episode, as the lines between the metadata markers."""
+    vocabulary = load_vocabulary()
+    text = episode_text(body)
+    if len(text) > META_MAX_CHARS:
+        text = text[:META_MAX_CHARS // 2] + "\n[...]\n" + text[-META_MAX_CHARS // 2:]
+    counts = find_terms(text, vocabulary)
+    candidates = [(name, n) for name, n in counts.most_common(META_MAX_CANDIDATES) if n >= 2]
+
+    questions = {}
+    for name, category in vocabulary["categories"].items():
+        questions[f"cat:{name}"] = {"type": "noul", "instructions": category["question"].replace("the episode", "`transcript`")}
+    questions["format"] = {"type": "choice", "instructions": "Which format is the episode in `transcript`?",
+                           "criteria": dict(vocabulary["formats"])}
+    levels = list(vocabulary["levels"].values())
+    questions["level"] = {"type": "score", "instructions": "How technical is the episode in `transcript`?", "criteria": levels}
+    for i, (name, _) in enumerate(candidates):
+        questions[f"tech:{i}"] = {"type": "noul", "instructions":
+                                  f"Is {name} one of the main subjects of `transcript`, discussed at length rather than only mentioned in passing?"}
+    answers = jev_call({"title": title, "date": date_str, "transcript": text}, questions)
+
+    categories = sorted((n for n in vocabulary["categories"] if answers[f"cat:{n}"]["noul"] >= 0.5),
+                        key=lambda n: -answers[f"cat:{n}"]["noul"])[:META_MAX_CATEGORIES]
+    featured = [name for i, (name, _) in enumerate(candidates) if answers[f"tech:{i}"]["noul"] >= 0.5]
+    mentioned = [name for name, _ in candidates if name not in featured]
+    stamps = TS_RE.findall(body)
+    duration = (lambda h, m, s: f"{h}:{m}:{s}")(*stamps[-1]) if stamps else None
+    lines = [f"Format: {answers['format']['choice']} · Level: {round(answers['level']['score'])}"
+             + (f" · Length: ~{duration}" if duration else ""),
+             f"Host: {podcast['host']}" + (f" · Guests: {', '.join(guests)}" if guests else "") if podcast.get("host") else None,
+             f"Categories: {', '.join(categories) or 'none'}",
+             f"Featured: {', '.join(featured) or 'none'}",
+             f"Also mentioned: {', '.join(mentioned) or 'none'}"]
+    return "\n".join(line for line in lines if line)
+
+
+def with_metadata(content, block):
+    """Put the metadata block in the header, above the `---` line, replacing an earlier one."""
+    content = re.sub(rf"\n*{re.escape(META_START)}.*?{re.escape(META_END)}\n*", "\n\n", content, flags=re.DOTALL)
+    head, sep, body = content.partition("\n---\n")
+    return f"{head.rstrip()}\n\n{META_START}\n{block}\n{META_END}\n{sep}{body}"
+
+
+def add_metadata(out_dir, podcast, force=False):
+    """Add (or with force, redo) the metadata block of saved transcripts. Returns number of files written."""
+    count = 0
+    for path in sorted(out_dir.glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        if META_START in text and not force:
+            continue
+        head, sep, body = text.partition("\n---\n\n")
+        title = (re.match(r"# (.+?) — Transcript", text) or [None, path.stem])[1]
+        try:
+            block = metadata_block(title, path.name[:10], body, podcast, guest_names(title))
+        except Exception as e:
+            warn(f"{path.name}: no metadata, {type(e).__name__}: {e}")
+            continue
+        path.write_text(with_metadata(text, block), encoding="utf-8", newline="\n")
+        print(f"metadata {path.name}")
+        count += 1
+    return count
+
+
 def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
     """Transcribe new episodes from the podcast's RSS feed. Returns number saved."""
     try:
@@ -624,14 +745,16 @@ def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
             continue
 
         names = speaker_names(result.get("phrases", []), podcast, guest_names(episode["title"]))
+        body = strip_ads(render_transcript(result, names), podcast)
         source = " · ".join(filter(None, [episode["link"], podcast["name"], f"Transcribed with {TRANSCRIBE_MODEL}"]))
         content = (
             f"# {episode['title']} — Transcript ({date_str})\n\n"
             f"{source}\n\n"
             f"<!-- guid: {episode['guid']} -->\n\n"
             f"---\n\n"
-            f"{strip_ads(render_transcript(result, names), podcast)}\n"
+            f"{body}\n"
         )
+        content = try_metadata(content, episode["title"], date_str, body, podcast)
         title = sanitize_filename(episode["title"]) or date_str
         (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8", newline="\n")
         print(f"saved {date_str}: {title}")
@@ -653,6 +776,9 @@ def main():
                         help="Print the sponsor reads found in these transcript files (needs --podcast), then exit")
     parser.add_argument("--clean-ads", action="store_true",
                         help="Re-run sponsor removal over the saved transcripts of --podcast (needs TYPESAFE_API_KEY), then exit")
+    parser.add_argument("--add-metadata", action="store_true",
+                        help="Add the metadata block to saved transcripts of --podcast that lack one (needs TYPESAFE_API_KEY), then exit")
+    parser.add_argument("--force", action="store_true", help="With --add-metadata: redo transcripts that already have one")
     args = parser.parse_args()
 
     # Episode titles can contain characters a Windows console can't encode
@@ -686,6 +812,13 @@ def main():
             print("--clean-ads needs --podcast and TYPESAFE_API_KEY", file=sys.stderr)
             sys.exit(1)
         print(f"{clean_ads(ROOT / 'transcripts' / podcasts[0]['slug'], podcasts[0])} transcripts cleaned")
+        sys.exit(0)
+
+    if args.add_metadata:
+        if len(podcasts) != 1 or not os.environ.get("TYPESAFE_API_KEY"):
+            print("--add-metadata needs --podcast and TYPESAFE_API_KEY", file=sys.stderr)
+            sys.exit(1)
+        print(f"{add_metadata(ROOT / 'transcripts' / podcasts[0]['slug'], podcasts[0], args.force)} transcripts got metadata")
         sys.exit(0)
 
     total = 0

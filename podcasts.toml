@@ -16,6 +16,7 @@ slug = "ai-daily-brief"
 name = "The AI Daily Brief"
 source = "published"
 transcript_url = "https://aidailybrief.ai/e/{date}/transcript.md"
+host = "Nathaniel Whittemore"
 ad_start_cues = ["brought to you by"]
 ad_sponsors = ["KPMG", "Blitzy", "Hyperagent", "Harbor", "OutSystems", "Retool", "Zencoder", "Robots and Pencils",
                "Mission Cloud", "Rackspace", "Granola"]
