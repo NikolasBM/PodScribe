@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-16 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:22:00
+Host: Nathaniel Whittemore
+Categories: work, model-strategy, agents, enterprise
+Featured: Anthropic, OpenAI, Claude Code, Claude, agent harness
+Also mentioned: DeepSeek, OpenAI Codex, OpenClaw, ChatGPT, model routing, Cursor
+<!-- /metadata -->
+
 ---
 
 Speaker: [00:00:00] Hey guys, a quick note before we dive in. The episode you're about to hear was originally recorded as last weekend's Long Read Sunday. ~Now, of course, everything that happened with Fable on... ~ Now, of course, everything that happened between Anthropic and the US government and Fable being shut down on Friday night pushed that out

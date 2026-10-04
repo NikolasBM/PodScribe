@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-27 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:32:00
+Host: Nathaniel Whittemore
+Categories: models, safety-security, coding, model-strategy
+Featured: Claude Opus, OpenAI, Anthropic, Claude Fable, Hugging Face, Nvidia, Artificial Analysis, Claude, GDPval, ARC-AGI
+Also mentioned: DeepSeek, GPT-5.6, Claude Mythos, GPT-6
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief

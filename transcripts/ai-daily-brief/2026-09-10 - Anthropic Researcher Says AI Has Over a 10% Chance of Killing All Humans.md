@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-10 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 0 · Length: ~00:35:00
+Host: Nathaniel Whittemore
+Categories: safety-security, policy
+Featured: Anthropic, OpenAI
+Also mentioned: Hugging Face incident, ChatGPT
+<!-- /metadata -->
+
 ---
 
 [00:00:00] This week, an AI researcher went mega viral announcing his resignation from Anthropic, arguing that both it and OpenAI were effectively gambling with our lives

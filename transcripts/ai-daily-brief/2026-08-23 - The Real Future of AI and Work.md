@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-23 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:30:00
+Host: Nathaniel Whittemore
+Categories: work, agents
+Featured: none
+Also mentioned: multiplayer agents
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

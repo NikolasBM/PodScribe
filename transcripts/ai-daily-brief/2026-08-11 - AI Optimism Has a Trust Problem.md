@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-11 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:23:00
+Host: Nathaniel Whittemore
+Categories: work, policy, agents, safety-security
+Featured: Meta, open-weight models
+Also mentioned: Muse Spark, ChatGPT
+<!-- /metadata -->
+
 ---
 
 260811 in_EDIT: [00:00:00] Today Today on the AI Daily Brief, as the political stakes increase 

@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-26 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 2 · Length: ~00:20:00
+Host: Nathaniel Whittemore
+Categories: agents, work, coding, models
+Featured: OpenAI Codex, ChatGPT, agent harness, Claude, GPT-5.6
+Also mentioned: OpenClaw, Gemini, Blender, NotebookLM, Claude Code
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief

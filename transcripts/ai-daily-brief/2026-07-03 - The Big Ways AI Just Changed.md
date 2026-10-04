@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-03 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:21:00
+Host: Nathaniel Whittemore
+Categories: models, open-weights, agents, policy
+Featured: Anthropic, Claude Fable, GLM, OpenAI, open-weight models, Claude Mythos, model routing, agent harness, Claude
+Also mentioned: Claude Code, GPT-5.5, GPT-5.6, Slack, Claude Opus, DeepSeek, Cursor, Claude Tag
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief, why why June was the most significant month in AI in years. The The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI All right, friends, quick announcements before we dive in. First of all, thank you to today's All right, friends, quick announcements before we dive in. First of all, First of all, thank you to today's sponsors, KPMG, Robots and Pencils, Blitzy, and Hyperagent.

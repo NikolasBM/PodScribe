@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-19 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:29:00
+Host: Nathaniel Whittemore
+Categories: agents, policy, work, enterprise
+Featured: Anthropic, Microsoft, agent harness, Claude Fable, Microsoft MAI
+Also mentioned: OpenAI Codex, OpenClaw, computer use, model routing
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief, you don't need an AI strategy, you need an AI learning system

@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-19 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:25:00
+Host: Nathaniel Whittemore
+Categories: agents, work, coding, marketing
+Featured: Replit
+Also mentioned: Slack
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief

@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-16 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: models, open-weights, funding-markets, enterprise
+Featured: Thinking Machines, Microsoft, Apple, open-weight models, Anthropic, OpenAI, Cursor, Nvidia, Microsoft MAI, distillation, agent harness, SpaceX AI
+Also mentioned: GLM, DeepSeek, Kimi, Nvidia Nemotron, Claude Fable, Claude, Microsoft Copilot, Qwen, Gemini
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, Brief, the month of model continues and businesses might wanna pay attention to this new open weight model introduced yesterday. Before that in the headlines

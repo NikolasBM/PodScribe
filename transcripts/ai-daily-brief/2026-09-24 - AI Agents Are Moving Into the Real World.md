@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-24 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: consumer, agents, policy, safety-security
+Featured: Meta Muse, Meta, Grok Bot, Anthropic, Claude
+Also mentioned: Instinct
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

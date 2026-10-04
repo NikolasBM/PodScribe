@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-07 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:25:00
+Host: Nathaniel Whittemore
+Categories: agents, work
+Featured: multiplayer agents, Claude, OpenClaw, Claude Tag, Anthropic, Slack
+Also mentioned: none
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 2026 is undisputedly the year of agents

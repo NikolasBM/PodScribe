@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-24 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:27:00
+Host: Nathaniel Whittemore
+Categories: agents, policy, coding, work
+Featured: Claude, Anthropic, Claude Tag, Slack, Claude Code, agent harness
+Also mentioned: OpenClaw, Cursor, Grok Build, Perplexity, ChatGPT
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief, why Claude Tag and approaches like it might change how you use AI. Before that in the headlines

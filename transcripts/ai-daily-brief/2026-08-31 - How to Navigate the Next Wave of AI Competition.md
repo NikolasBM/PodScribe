@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-31 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: open-weights, model-strategy, agents, policy
+Featured: OpenAI, Anthropic, Cursor, agent harness, SpaceX AI, open-weight models
+Also mentioned: OpenRouter, DeepSeek, OpenClaw, Claude, OpenAI Codex, distillation, Hermes Agent
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Late last week, OpenAI announced that they would be cutting off access to their models in Cursor

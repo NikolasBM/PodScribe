@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-02 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:27:00
+Host: Nathaniel Whittemore
+Categories: work, models, coding, funding-markets
+Featured: Meta, Anthropic, OpenAI, Claude Fable
+Also mentioned: distillation, Claude Code, Claude
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Today on the AI Daily Brief, the latest numbers on AI and jobs. Before that in the headlines, is OpenAI about to give 5% of the company to the US government? The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Rackspace, Blitzy, and Hyperagent

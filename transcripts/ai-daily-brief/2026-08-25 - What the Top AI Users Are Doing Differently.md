@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-25 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:27:00
+Host: Nathaniel Whittemore
+Categories: agents, work, funding-markets, models
+Featured: OpenAI, Nvidia, ChatGPT, Meta, Hugging Face, OpenAI Codex
+Also mentioned: Grok Bot, Cursor, Grok
+<!-- /metadata -->
+
 ---
 
 [00:00:00] There's always been a gap between an average AI user and the most advanced AI users, but my goodness has that gap grown In recently released research, OpenAI showed that the gap between the most advanced users and the average AI user had grown from 2.6X back in January by the end of June In other words, the most advanced users of AI were using eight times as much AI as were their average counterparts. The reason, of course, is agents At the beginning of the year, agentic use cases became viable and significantly upgraded the difficulty, complexity, and importance of the work that AI could take on The top users have jumped in headfirst, figuring out how to significantly increase the value they get from their AI usage

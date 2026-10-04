@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-30 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:23:00
+Host: Nathaniel Whittemore
+Categories: agents, models, coding, consumer
+Featured: OpenAI, ChatGPT, GPT-6, Jev, OpenAI Decisions API, computer use
+Also mentioned: OpenAI Codex, Meta Muse, Grok Bot, Slack, Claude Opus, GLM
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

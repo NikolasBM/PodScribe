@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-11 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:30:00
+Host: Nathaniel Whittemore
+Categories: infrastructure, safety-security, policy, funding-markets
+Featured: Anthropic, Claude Fable, OpenAI, Claude
+Also mentioned: Claude Mythos
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, why Fable why Fable 5 is easily the most controversial AI model launch of all time. Before that in the headlines, more chatter about the AI labs donating equity to a sovereign wealth fund. The The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI

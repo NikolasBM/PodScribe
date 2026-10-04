@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-05 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:31:15
+Host: Nathaniel Whittemore
+Categories: models, policy, safety-security, work
+Featured: Anthropic, OpenAI, Claude Mythos, Claude, ChatGPT, recursive self-improvement
+Also mentioned: OpenClaw, GPT-5.6, Claude Opus
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today Today on the AI Daily Brief, what OpenAI and Anthropic Think about what happens next in AI. Before that in the headlines, is the US government gonna take a stake in the big AI labs? The AI Daily Brief is a daily podcast and video about the most important news and discussions in [00:00:15] AI.

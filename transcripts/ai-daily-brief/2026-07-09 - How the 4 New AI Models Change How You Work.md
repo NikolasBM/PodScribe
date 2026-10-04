@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-09 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:34:00
+Host: Nathaniel Whittemore
+Categories: models, coding, agents, model-strategy
+Featured: GPT Live, Grok, OpenAI, GPT-5.6, ChatGPT, Claude Fable, Anthropic, SpaceX AI, computer use
+Also mentioned: Cursor, Kimi, Claude Opus, GPT-6, GPT-5.5, GLM, Claude Tag, Claude, Slack, OpenAI Codex, Artificial Analysis, Claude Code, open-weight models, Cognition Devin, Claude Mythos
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today Today on the AI Daily Brief, how the how the count 'em four new models we got access to this week will change how you work. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, AI. All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Robots and Pencils, Blitzy, and Airtable.

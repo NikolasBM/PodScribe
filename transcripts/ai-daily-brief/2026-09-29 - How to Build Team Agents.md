@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-29 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: interview · Level: 1 · Length: ~00:41:00
+Host: Nathaniel Whittemore
+Categories: agents, work
+Featured: multiplayer agents
+Also mentioned: Claude Tag, Claude, Slack, Meta Muse, Grok Bot, Instinct, Microsoft Copilot, agent harness
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

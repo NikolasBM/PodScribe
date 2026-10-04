@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-02 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~00:50:00
+Host: Nathaniel Whittemore
+Categories: model-strategy, agents, enterprise, models
+Featured: OpenAI, agent harness, Anthropic, Claude
+Also mentioned: OpenClaw, Slack, model routing, Cursor
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief, an operator's cut episode with Nufar, everything you need to know about AI tokens. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. ​

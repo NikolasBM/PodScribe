@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-01 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:28:30
+Host: Nathaniel Whittemore
+Categories: enterprise, funding-markets, agents, infrastructure
+Featured: Anthropic, OpenAI, Claude Code, Claude, agent harness, Claude Opus, SpaceX AI
+Also mentioned: OpenAI Codex, Gemini, DeepSeek, Grok, agent loops, Claude Mythos, vibe coding, Microsoft Copilot, Cursor, GPT-5.5
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief, the we're recapping the month of May, one of the single most consequential AI months we've had in a very, very long time 

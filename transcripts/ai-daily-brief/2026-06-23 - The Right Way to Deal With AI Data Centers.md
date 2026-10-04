@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-23 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:25:00
+Host: Nathaniel Whittemore
+Categories: infrastructure, models, safety-security, policy
+Featured: Google, Claude Mythos, OpenAI, Amazon, GPT-5.5
+Also mentioned: Project Glasswing, Cursor
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the Today on the AI Daily Brief, the right way to deal with AI data centers. Before that in the headlines

@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-15 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:26:00
+Host: Nathaniel Whittemore
+Categories: policy, safety-security
+Featured: Anthropic, Claude Mythos, Amazon, Claude Fable
+Also mentioned: none
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-20 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:29:00
+Host: Nathaniel Whittemore
+Categories: agents, coding, consumer, work
+Featured: OpenAI, Claude, Grok Bot, OpenAI Codex, ChatGPT, Grok, multiplayer agents
+Also mentioned: Replit, Claude Tag, Cursor, Slack, Hermes Agent, Qwen
+<!-- /metadata -->
+
 ---
 
 260820 COLD_EDIT: [00:00:00] What if I told you you were using AI all wrong?

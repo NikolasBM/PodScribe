@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-08 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:26:00
+Host: Nathaniel Whittemore
+Categories: models, open-weights, model-strategy, policy
+Featured: Microsoft, open-weight models, Meta, Microsoft MAI, Claude Fable, Gemma, SpaceX AI, GPT-5.6, Grok, Google, OpenAI, Anthropic
+Also mentioned: Gemini, model routing, Cursor, Muse Spark, GPT-5.5, Claude Mythos, MiniMax, GLM, Nvidia Nemotron
+<!-- /metadata -->
+
 ---
 
 [00:00:00] today on the AI today on the AI Daily Brief, how does AI change If access to open weight models starts to get cut off Before that in the headlines. h-- all the new models you have access to right now and all the ones that are coming. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Blitzy, Airtable, and Retool. To get an ad-free version of the show, go to patreon.com/aidailybrief. And of course, if you wanna learn more about sponsoring the show, send us a note at sponsors@aidailybrief.ai. 

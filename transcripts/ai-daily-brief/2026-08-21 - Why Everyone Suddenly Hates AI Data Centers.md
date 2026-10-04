@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-21 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 0 · Length: ~00:36:00
+Host: Nathaniel Whittemore
+Categories: policy, infrastructure, work
+Featured: none
+Also mentioned: none
+<!-- /metadata -->
+
 ---
 
 Nathaniel Whittemore: [00:00:00] Everyone, 

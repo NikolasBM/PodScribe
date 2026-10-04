@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-10 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: review · Level: 2 · Length: ~00:39:15
+Host: Nathaniel Whittemore
+Categories: models, coding, agents, model-strategy
+Featured: Claude Fable, Anthropic, Claude Opus, Claude
+Also mentioned: Claude Mythos, GPT-5.5, OpenClaw, Project Glasswing, Replit, Cursor, Lovable, Claude Code, vibe coding, Artificial Analysis, distillation, OpenAI Codex
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief, Anthropic has Anthropic has officially launched Fable 5, the first of their Mythos class models I I think fairly undisputedly, the best AI model we have ever been able to use

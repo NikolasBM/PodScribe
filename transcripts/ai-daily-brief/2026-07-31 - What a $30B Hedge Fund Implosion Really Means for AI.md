@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-31 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:27:00
+Host: Nathaniel Whittemore
+Categories: funding-markets, infrastructure, enterprise
+Featured: OpenAI, Anthropic, Microsoft, Meta
+Also mentioned: none
+<!-- /metadata -->
+
 ---
 
 260731 in_EDIT: [00:00:00] Today on the AI Daily Brief, insane revenue growth, but also a hedge fund blow up? What is going on with AI in markets?

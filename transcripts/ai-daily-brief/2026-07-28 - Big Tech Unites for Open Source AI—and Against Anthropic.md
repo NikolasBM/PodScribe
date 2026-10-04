@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-28 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:31:00
+Host: Nathaniel Whittemore
+Categories: open-weights, policy, infrastructure, models
+Featured: Anthropic, Nvidia, open-weight models, OpenAI, distillation, Claude Mythos
+Also mentioned: Kimi
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, a a big tech coalition throws its weight behind open weights models. And before that in the headlines, NVIDIA also throws its weight behind Ilya Sutskever's safe super intelligence. The AI The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI

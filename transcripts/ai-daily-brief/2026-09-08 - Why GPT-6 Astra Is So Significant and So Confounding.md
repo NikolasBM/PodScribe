@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-08 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: review · Level: 2 · Length: ~00:29:00
+Host: Nathaniel Whittemore
+Categories: models, design, agents, coding
+Featured: GPT-6, OpenAI, computer use, Claude Fable, Blender
+Also mentioned: ChatGPT, vibe coding, Claude Mythos, multiplayer agents, Artificial Analysis, Claude, Nano Banana
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

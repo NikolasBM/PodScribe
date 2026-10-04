@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-26 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:25:00
+Host: Nathaniel Whittemore
+Categories: work, enterprise
+Featured: none
+Also mentioned: Claude Code, ChatGPT, Claude
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

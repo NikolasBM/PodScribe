@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-02 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:22:45
+Host: Nathaniel Whittemore
+Categories: funding-markets, infrastructure, enterprise, policy
+Featured: Meta, OpenAI, Anthropic, Nvidia, Google
+Also mentioned: none
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief As OpenAI and Anthropic race towards IPO, should AI be a public good? Before that in the headlines

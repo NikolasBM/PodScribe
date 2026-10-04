@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-12 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:19:00
+Host: Nathaniel Whittemore
+Categories: work, agents, coding
+Featured: agent skills
+Also mentioned: multiplayer agents
+<!-- /metadata -->
+
 ---
 
 Nathaniel Whittemore: [00:00:00] Today Today on the AI Daily Brief How to help people thrive with AI The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. The big The big theme of this week has been models. 

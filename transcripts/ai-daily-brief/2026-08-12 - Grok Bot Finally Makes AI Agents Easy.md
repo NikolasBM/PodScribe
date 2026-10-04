@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-12 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: agents, funding-markets, coding, infrastructure
+Featured: Grok Bot, Anthropic, OpenClaw, Cursor, Nvidia, SpaceX AI, computer use, agent harness, Grok
+Also mentioned: Gemini, Claude, Manus, OpenAI Codex, Slack
+<!-- /metadata -->
+
 ---
 
 260812 cold_EDIT: [00:00:00] The promise of AI agents might finally be becoming a reality. At the beginning of this year, it was clear that 2026 was going to be the year of agents. The combination of the advancement of models plus harnesses meant that around the turn of this year, It was clear that some critical inflection point had been reached, and people came into January racing to uncover all of the new capabilities that tools like Claude Code and OpenAI's Codex made available to them when the agent excitement really popped off, however, was with the introduction of OpenClaw

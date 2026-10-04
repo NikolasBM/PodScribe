@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-29 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: tutorial · Level: 1 · Length: ~00:29:00
+Host: Nathaniel Whittemore
+Categories: coding, work, marketing
+Featured: none
+Also mentioned: OpenAI Codex, Claude Code, Lovable, Replit, OpenClaw, ChatGPT
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

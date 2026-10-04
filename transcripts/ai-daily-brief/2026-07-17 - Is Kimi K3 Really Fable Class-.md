@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-17 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: models, open-weights, coding, design
+Featured: Kimi, Claude Fable, open-weight models, GPT-5.6, OpenAI
+Also mentioned: DeepSeek, GLM, Claude Opus, distillation, Cursor, GPT-5.5, Claude Mythos
+<!-- /metadata -->
+
 ---
 
 260717_EDIT: [00:00:00] Today Today on the AI Daily Brief, did we actually just get a fable level open model?

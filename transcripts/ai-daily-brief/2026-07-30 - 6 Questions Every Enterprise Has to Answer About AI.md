@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-30 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: agents, work, enterprise, model-strategy
+Featured: OpenAI, Anthropic, agent harness, Microsoft, Microsoft Copilot, Meta
+Also mentioned: OpenClaw, Hugging Face incident, open-weight models, Claude Code
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today Today on the AI Daily Brief, sixsix questions shaping enterprise AI. Before that in the headlines, Sam Altman goes to Washington, and the conversation has gotten a lot more complicated over the last week. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.

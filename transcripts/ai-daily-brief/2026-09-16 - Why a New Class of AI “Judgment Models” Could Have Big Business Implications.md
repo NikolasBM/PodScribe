@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-16 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:25:00
+Host: Nathaniel Whittemore
+Categories: models, safety-security, agents, marketing
+Featured: Jev, Meta
+Also mentioned: ChatGPT
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

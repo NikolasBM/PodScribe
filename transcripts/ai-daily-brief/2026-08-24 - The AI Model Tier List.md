@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-24 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:29:00
+Host: Nathaniel Whittemore
+Categories: funding-markets, model-strategy, models, infrastructure
+Featured: Nvidia, Claude Fable, Anthropic, OpenAI, Hugging Face, open-weight models, Nvidia Nemotron, GPT-5.6, Claude Opus, Vercel AI Gateway
+Also mentioned: DeepSeek, OpenRouter, Perplexity, Kimi, Grok, Muse Spark, Claude Sonnet, Cursor, Gemini
+<!-- /metadata -->
+
 ---
 
 [00:00:00] It used to be that when it came to advanced AI models, all that anyone cared about was who was in the lead. Was the model from Anthropic or OpenAI or Google the best one out there? and was it better enough that it meant that I needed to switch right away?

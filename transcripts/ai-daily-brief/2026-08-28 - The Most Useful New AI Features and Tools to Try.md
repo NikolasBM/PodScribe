@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-28 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:34:00
+Host: Nathaniel Whittemore
+Categories: models, funding-markets, agents, infrastructure
+Featured: Nvidia, Claude, Hugging Face, Hermes Agent, ChatGPT, Google, Anthropic, agent harness, OpenAI, Gemini, Claude Cowork
+Also mentioned: Grok Bot, Grok, Perplexity, Slack, Whisperflow, DeepSeek
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

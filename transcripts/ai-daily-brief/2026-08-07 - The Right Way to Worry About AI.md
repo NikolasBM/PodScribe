@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-07 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: safety-security, funding-markets, agents, infrastructure
+Featured: OpenAI, Nvidia, Hugging Face incident, ChatGPT
+Also mentioned: OpenRouter
+<!-- /metadata -->
+
 ---
 
 260807 in_EDIT: [00:00:00] Today on the Today on the AI Daily Brief, The right way to worry about AI. Before that in the headlines, markets, models, and more. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.

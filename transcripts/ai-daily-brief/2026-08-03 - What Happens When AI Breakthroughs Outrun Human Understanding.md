@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-03 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: models, safety-security, work, funding-markets
+Featured: OpenAI, Amazon, Anthropic, DeepSeek
+Also mentioned: GPT-6, Claude, Claude Fable
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief how we're grappling with AI advancements when many of us can't even judge the new capabilities coming online. Before that in the headlines

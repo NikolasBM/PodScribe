@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-08 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:25:30
+Host: Nathaniel Whittemore
+Categories: agents, coding, infrastructure, policy
+Featured: OpenAI, ChatGPT, Anthropic, Nvidia, Google, OpenAI Codex, SpaceX AI, agent loops
+Also mentioned: Claude
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-29 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:29:00
+Host: Nathaniel Whittemore
+Categories: safety-security, policy, open-weights
+Featured: open-weight models, OpenAI, Anthropic, Pacing the Frontier, distillation
+Also mentioned: GLM, Kimi, recursive self-improvement
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today in Today in the AI Daily Brief we are talking about what some are calling the new AI pause letter pacing the frontier, and what it says about where we are

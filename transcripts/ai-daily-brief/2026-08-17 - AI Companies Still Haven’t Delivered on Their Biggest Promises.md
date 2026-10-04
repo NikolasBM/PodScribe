@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-17 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:32:00
+Host: Nathaniel Whittemore
+Categories: models, funding-markets, safety-security, open-weights
+Featured: Anthropic, GLM, open-weight models
+Also mentioned: Claude Mythos, Kimi, Claude Fable, GPT-5.6, Grok
+<!-- /metadata -->
+
 ---
 
 260817 cold_EDIT: [00:00:00] In a recent podcast appearance, a prominent investor said that he had heard from multiple sources inside Anthropic that Dario Amodei and other leaders in that company felt that at some point in the future, they might be the only company left.

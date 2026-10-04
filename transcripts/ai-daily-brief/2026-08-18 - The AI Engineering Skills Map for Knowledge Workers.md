@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-18 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:26:00
+Host: Nathaniel Whittemore
+Categories: work, funding-markets, agents, coding
+Featured: Cursor, agent harness, Stripe, OpenRouter, Anthropic
+Also mentioned: ChatGPT
+<!-- /metadata -->
+
 ---
 
 Nathaniel Whittemore: ~ Nothing ha- nothing will change, ~[00:00:00] Knowledge work is being totally transformed by agents right now after years of promise, agents are actually here, and they are changing the way that knowledge work gets done broadly speaking, we are increasingly moving from doing our work to managing agents that do our work. But in that transition, what are the key skills that matter?

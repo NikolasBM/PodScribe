@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-13 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:27:00
+Host: Nathaniel Whittemore
+Categories: policy, safety-security, funding-markets, open-weights
+Featured: Anthropic, Claude Fable, Claude Mythos, Claude
+Also mentioned: Project Glasswing
+<!-- /metadata -->
+
 ---
 
 [00:00:00] In

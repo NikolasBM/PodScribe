@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-20 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: tutorial · Level: 1 · Length: ~00:26:00
+Host: Nathaniel Whittemore
+Categories: agents, coding, models, work
+Featured: Claude, GPT-5.6, ChatGPT, Claude Fable, OpenAI, agent harness
+Also mentioned: OpenAI Codex
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief, how to get the most out of frontier models. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Blitzy, Retool, and Airtable.

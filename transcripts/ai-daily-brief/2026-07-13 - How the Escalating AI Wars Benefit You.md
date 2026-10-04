@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-13 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:31:00
+Host: Nathaniel Whittemore
+Categories: policy, open-weights, infrastructure, models
+Featured: Apple, OpenAI, GLM, Anthropic, GPT-5.6
+Also mentioned: Claude Mythos, distillation
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Daily Brief, Apple sues OpenAI and tensions are ratcheting up as the AI competition shifts. We're gonna discuss what happened and how it potentially benefits you

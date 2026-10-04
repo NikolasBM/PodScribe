@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-11 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:31:00
+Host: Nathaniel Whittemore
+Categories: models, agents, coding, consumer
+Featured: OpenAI, ChatGPT, Anthropic, Cognition Devin, Cursor, Microsoft, Nvidia, GPT Live, DeepSeek
+Also mentioned: GPT-6, Kimi, Claude, Meta Muse, distillation, Pacing the Frontier, Artificial Analysis, Grok Bot, Claude Code, OpenAI Codex
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

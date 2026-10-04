@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-10-01 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:29:00
+Host: Nathaniel Whittemore
+Categories: models, agents, coding, policy
+Featured: Gemini, Google, Claude Sonnet, Meta Muse, Anthropic, OpenAI, Google DeepMind, agent harness
+Also mentioned: Claude Opus, GPT-6, Claude Fable, OpenAI Codex, vibe coding, Artificial Analysis, ChatGPT
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Coming into 2026, Google was looking pretty good in the AI race. 2025 had been a good year. A lot of the questions inside DeepMind had been answered. They were putting out competitive Gemini models. They were pushing forward with interesting new products

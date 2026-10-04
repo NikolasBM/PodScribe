@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-04 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:24:00
+Host: Nathaniel Whittemore
+Categories: agents, open-weights, policy, funding-markets
+Featured: OpenAI, agent harness, Anthropic, Claude Fable, Claude Mythos, Google, open-weight models, model routing, Kimi, GPT-5.6, OpenAI Codex, Claude Code, Cursor, Hugging Face incident, OpenRouter, DeepSeek
+Also mentioned: Grok, Gemini, OpenClaw
+<!-- /metadata -->
+
 ---
 
 [00:00:00] This summer was an extremely weird time in AI. On the one hand, there was the standard feeling of summer slowdown. So much of AI usage is driven by people at work And people at work slow down in the summer, getting some much needed rest and R&R and vacation At the same time, when it comes to the big issues surrounding AI, this summer was an absolute bonanza.

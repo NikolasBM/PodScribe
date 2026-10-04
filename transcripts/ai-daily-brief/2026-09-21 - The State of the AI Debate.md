@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-21 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:27:00
+Host: Nathaniel Whittemore
+Categories: policy, funding-markets, safety-security, infrastructure
+Featured: Anthropic, Pacing the Frontier
+Also mentioned: distillation, Claude Code
+<!-- /metadata -->
+
 ---
 
 [00:00:00] The next era of the AI debate is officially upon us. 

@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-27 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: safety-security, agents, funding-markets, models
+Featured: Google, OpenAI, Hugging Face, Anthropic, Apple, Perplexity, Hugging Face incident, Gemini
+Also mentioned: OpenClaw, Qwen
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

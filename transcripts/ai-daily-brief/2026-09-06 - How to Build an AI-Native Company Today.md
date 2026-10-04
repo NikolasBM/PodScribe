@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-06 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:27:00
+Host: Nathaniel Whittemore
+Categories: agents, work, coding, enterprise
+Featured: agent harness
+Also mentioned: ChatGPT
+<!-- /metadata -->
+
 ---
 
 [00:00:00] A year ago, it was a very different time in enterprise AI. companies were still talking about things like how many use cases they had for AI. Now, a year on, we are no longer talking about use cases. Everything, it turns out, is a use case for AI.

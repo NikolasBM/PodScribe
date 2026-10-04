@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-18 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:29:00
+Host: Nathaniel Whittemore
+Categories: models, open-weights, policy, model-strategy
+Featured: GLM, Anthropic, OpenAI, Claude Fable, Claude Mythos, Kimi, Cursor, DeepSeek, open-weight models, OpenRouter
+Also mentioned: Gemini, Claude Opus, ChatGPT, GPT-5.5, distillation
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, the models trying to replace Fable. Before that in the headlines, what we learned about AI and global politics at the G7. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Section, Assembly, and Outsystems. All right, friends, quick announcements before we dive in. First of all, thank you to today's sponsors, KPMG, Section, Assembly, and Outsystems. To get an ad-free version of the show, go to patreon.com/aidailybrief, or you can subscribe on Apple Podcasts. To learn more about sponsoring the show, send us a note at sponsors@aidailybrief.ai.

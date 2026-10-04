@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-03 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: tutorial · Level: 3 · Length: ~00:57:00
+Host: Nathaniel Whittemore
+Categories: agents, work
+Featured: Claude, agent harness, agent loops, Claude Code
+Also mentioned: Claude Cowork, ChatGPT, Cursor
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

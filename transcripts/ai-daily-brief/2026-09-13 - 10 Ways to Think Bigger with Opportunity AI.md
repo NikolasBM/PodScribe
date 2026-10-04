@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-13 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: marketing, design, models, work
+Featured: GPT-6
+Also mentioned: Claude Fable, OpenAI Codex, Claude Code
+<!-- /metadata -->
+
 ---
 
 [00:00:00] 

@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-06 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:33:00
+Host: Nathaniel Whittemore
+Categories: models, agents, coding, funding-markets
+Featured: Google, Meta, Google DeepMind, Gemini, Muse Spark, agent harness
+Also mentioned: Kimi, ChatGPT, Claude Opus, distillation, Figma, Claude Fable, Grok, GLM, Qwen
+<!-- /metadata -->
+
 ---
 
 260806 in_EDIT: [00:00:00] Today on Today on the AI Daily Brief, A massive AI leadership shakeup at Google. And before that in the headlines, Meta drops two new models and a coding harness. The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI. All right, friends, quick announcements before we dive in.

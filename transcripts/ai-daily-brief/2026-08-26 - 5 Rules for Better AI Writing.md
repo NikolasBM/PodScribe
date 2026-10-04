@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-26 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:23:00
+Host: Nathaniel Whittemore
+Categories: marketing
+Featured: none
+Also mentioned: ChatGPT
+<!-- /metadata -->
+
 ---
 
 [00:00:00] If you use AI to write an op-ed, does that devalue your thoughts? Believe it or not, that's been maybe the biggest question the AI community has been discussing for the last couple of days

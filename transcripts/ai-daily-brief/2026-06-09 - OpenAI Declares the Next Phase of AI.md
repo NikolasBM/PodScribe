@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-06-09 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:29:45
+Host: Nathaniel Whittemore
+Categories: funding-markets, infrastructure, agents, policy
+Featured: OpenAI, Apple, ChatGPT, OpenAI Codex
+Also mentioned: OpenClaw, recursive self-improvement
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Today on the AI Daily Brief

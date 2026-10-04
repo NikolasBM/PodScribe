@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-09-20 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: commentary · Level: 1 · Length: ~00:26:00
+Host: Nathaniel Whittemore
+Categories: agents, coding, model-strategy, consumer
+Featured: Claude, OpenAI Codex, multiplayer agents, Meta Muse, Claude Code, Meta, Anthropic, agent loops, OpenAI, Claude Cowork
+Also mentioned: agent harness, Grok Bot, Slack, ChatGPT, Cursor, Cognition Devin, Claude Fable
+<!-- /metadata -->
+
 ---
 
 [00:00:00] The way we use AI is changing

@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-07-07 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 1 · Length: ~00:28:00
+Host: Nathaniel Whittemore
+Categories: policy, safety-security, infrastructure, funding-markets
+Featured: Anthropic, Nvidia, Claude
+Also mentioned: Nvidia Nemotron
+<!-- /metadata -->
+
 ---
 
 [00:00:00] Today on the AI Today on the AI Daily Brief, new new research showing that Anthropic can now read Claude's mind

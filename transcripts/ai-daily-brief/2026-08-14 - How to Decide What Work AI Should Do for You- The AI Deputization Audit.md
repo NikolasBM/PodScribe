@@ -2,6 +2,14 @@
 
 https://aidailybrief.ai/e/2026-08-14 · Listen: https://pod.link/1680633614
 
+<!-- metadata -->
+Format: news-analysis · Level: 2 · Length: ~00:29:00
+Host: Nathaniel Whittemore
+Categories: models, agents, model-strategy, work
+Featured: Grok Bot, OpenAI, Gemini, Google, ChatGPT, GPT-5.6, SpaceX AI
+Also mentioned: OpenClaw, GLM, Kimi, Artificial Analysis, Nvidia Nemotron, Claude Sonnet, Gemma, Claude Opus, Slack, Cursor
+<!-- /metadata -->
+
 ---
 
 260814 cold_EDIT: [00:00:00] What if I told you that figuring out what parts of your work you should be getting AI to automate was a simple math equation? This week, two new products came online that make getting AI to do work for you much simpler
