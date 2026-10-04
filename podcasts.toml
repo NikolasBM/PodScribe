@@ -61,6 +61,9 @@ name = "Lenny's Podcast"
 # title, date and link.
 source = "folder"
 feed = "https://api.substack.com/feed/podcast/10845.rss"
+# Substack refuses that feed from GitHub's runners, so Apple's episode list (same guids) is the fallback
+itunes_id = 1627920305
+site_feed = "https://www.lennysnewsletter.com/feed"
 folder_url = "https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=rzq59bhi&e=1&dl=0"
 credit = "Transcript © Lenny Rachitsky, shared by him: https://x.com/lennysan/status/2011243567340298651"
 since = 2026-01-01

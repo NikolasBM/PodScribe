@@ -484,7 +484,7 @@ def plain_transcript_body(text, host=None):
 def fetch_folder(podcast, out_dir, since, until, limit, dry_run):
     """Import transcripts from the shared folder for the feed's episodes. Returns number saved."""
     try:
-        episodes = parse_feed(http_get(podcast["feed"], timeout=30))
+        episodes = podcast_episodes(podcast)
     except Exception as e:
         warn(f"{podcast['slug']}: feed: {type(e).__name__}: {e}")
         return 0
@@ -546,6 +546,40 @@ def parse_feed(xml_bytes):
             "description": re.sub(r"<[^>]+>", " ", item.findtext("description") or "")[:1500],
         })
     return sorted(episodes, key=lambda e: e["date"])
+
+
+def itunes_episodes(itunes_id):
+    """The latest 200 episodes from Apple's lookup API, as parse_feed returns them (guid, title, date, seconds ...)."""
+    data = http_json(f"https://itunes.apple.com/lookup?id={itunes_id}&entity=podcastEpisode&limit=200")
+    episodes = []
+    for r in data.get("results", []):
+        if r.get("wrapperType") != "podcastEpisode" or not r.get("episodeGuid"):
+            continue
+        episodes.append({"guid": r["episodeGuid"], "title": " ".join(r["trackName"].split()),
+                         "date": date.fromisoformat(r["releaseDate"][:10]), "audio_url": r.get("episodeUrl"),
+                         "link": r.get("trackViewUrl", ""), "seconds": (r.get("trackTimeMillis") or 0) // 1000 or None,
+                         "description": r.get("description", "")[:1500]})
+    return sorted(episodes, key=lambda e: e["date"])
+
+
+def podcast_episodes(podcast):
+    """The podcast's episodes from its feed. Some hosts refuse the feed from GitHub's runners (Substack's api.substack.com
+    answers 403); then `itunes_id` gives the same episodes via Apple, with page links from the site's own `site_feed`."""
+    try:
+        return parse_feed(http_get(podcast["feed"], timeout=30))
+    except Exception as e:
+        if not podcast.get("itunes_id"):
+            raise
+        warn(f"{podcast['slug']}: feed: {type(e).__name__}: {e}; using Apple's episode list instead")
+    episodes = itunes_episodes(podcast["itunes_id"])
+    if podcast.get("site_feed"):
+        try:
+            links = {e["title"]: e["link"] for e in parse_feed(http_get(podcast["site_feed"], timeout=30)) if e["link"]}
+            for episode in episodes:
+                episode["link"] = links.get(episode["title"], episode["link"])
+        except Exception as e:
+            warn(f"{podcast['slug']}: site feed: {type(e).__name__}: {e}")
+    return episodes
 
 
 def existing_guids(out_dir):
