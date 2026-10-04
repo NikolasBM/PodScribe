@@ -144,43 +144,7 @@ still, for those who are trying to keep an eye on where there are signs that the
 
 this rather than stock prices is the corner of the market to keep an eye on
 
-For now, however, that's gonna do it for the headlines. Next up, the main episode A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
-
-These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
-
-Every AI [00:11:00] coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
-
-Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
-
-the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
-
-Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
-
-validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
-
-See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
-
-
-
-Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one [00:12:00] responsible for AI adoption at your company, you need section.
-
-Section is a platform that helps you manage AI transformation across your entire organization.
-
-It coaches, employees on real use cases
-
-tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
-
-The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
-
-That's S-E-C-T-I-O-N ai com. 
-
-the AI... this episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
-
-Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
-
-marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared [00:13:00] context and follows your rules about scope and approvals
-
-It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief 
+For now, however, that's gonna do it for the headlines.
 
 Welcome back to the AI Daily Brief
 

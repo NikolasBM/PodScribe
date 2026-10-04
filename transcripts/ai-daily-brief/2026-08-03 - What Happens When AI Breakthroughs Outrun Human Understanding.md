@@ -130,37 +130,15 @@ So that is where we're gonna close the headlines, and yet ifthe theme we end on 
 
 Speaker: KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide [00:12:00] thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+They frame problems, guide [00:12:00] thinking, iterate, and push for better answers.
 
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
-
-blitzy July_EDIT: Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
-
-the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
-
-Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
-
-validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust [00:13:00] Blitzy with the code bases that matter most
-
-See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
-
-
-
-I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
-
-Speaker 11: And they're hiring
-
-50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
+I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start.
 
 This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
 
 
 
-Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the [00:14:00] cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-260803 main_EDIT: Welcome back to the AI Welcome back to the AI Daily Brief. Today we are talking about the latest 
+260803 main_EDIT: Nathaniel Whittemore: Welcome back to the AI Welcome back to the AI Daily Brief. Today we are talking about the latest
 
 mathematical breakthroughs for an AI model which comes from an as 
 

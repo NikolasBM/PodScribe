@@ -140,31 +140,11 @@ Really excited to get this out to everyone."
 
 The ascendancy of auto mode isanother example of how our default patterns of interacting with AI are changing, which provides the perfect [00:11:00] segue to our main episode A primer on the latest buzzy buzzword, graph engineering If you're leading AI inside an enterprise, you already know that the gap right now isn't capability, but execution. That's why KPMG's You Can with AI is back with a new season featuring conversations with leaders like Serojia Chatterjee of Emma, May Habib of Writer, Ellery Fisher, and others focused on practical execution.
 
-KPMG Aug_EDIT: What's working, what's not, and what it actually takes to move from pilots to real scaled impact across strategy, data readiness, governance, workforce, and value. And of course, it's co-hosted by me, Nathaniel Whittemore. Go listen and subscribe at www.kpmg.us/aipodcasts. That's www.kpmg.us/aipodcasts. 
+One thing I keep seeing in enterprise AI, companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast.
 
-Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
+One conversation with robots and pencils and you'll know.
 
-blitzy July_EDIT: Thousands of [00:12:00] agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
-
-the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
-
-Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
-
-validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
-
-See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
-
-
-
-One thing I keep seeing in enterprise AI, companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast. That's one of the reasons I like today's sponsor robots and pencils. They've gone all in on AWS. They're an advanced tier and AWS pattern partner and they ship production AI coworkers in 45 days.
-
-Speaker 9: That's led to them doing some of the more [00:13:00] interesting work I've seen on AI coworkers. And by that I'm not talking about chatbots, I'm talking about actual Agentic systems that sit inside a business architecture and do real work.
-
-That kind of focus matters if you're an enterprise leader trying to get something real into production or an AWS rep trying to move a customer from interested to deployed. Request an AI briefing@robotsandpencils.com. One conversation with robots and pencils and you'll know. 
-
-Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your [00:14:00] 1000 in inference at hyperagent.com/aidailybrief. 
-
-We'll go back to the AI Daily Brief Today we are discussing the latest buzzy term on AI Twitter, which is graph engineering
+Nathaniel Whittemore: We'll go back to the AI Daily Brief Today we are discussing the latest buzzy term on AI Twitter, which is graph engineering
 
 260810 main_EDIT: Now this one admittedly is a little confusing because A
 

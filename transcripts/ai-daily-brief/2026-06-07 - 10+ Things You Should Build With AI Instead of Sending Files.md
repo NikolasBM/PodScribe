@@ -196,19 +196,9 @@ big deal, that might not be a big deal now But in a paradigm where knowledge wor
 
 especially compared to the comparatively designed for agent 
 
-HTML and other weblanguages One thing I keep seeing in enterprise AI, companies hedging [00:09:00] across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast. That's one of the reasons I like today's sponsor robots and pencils. They've gone all in on AWS. They're an [00:09:15] advanced tier and AWS pattern partner and they ship production AI coworkers in 45 days.
+HTML and other weblanguages One thing I keep seeing in enterprise AI, companies hedging [00:09:00] across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast.
 
-That's led to them doing some of the more interesting work I've seen on AI coworkers. And by that I'm not talking about chatbots, I'm talking about actual Agentic systems that sit inside a business architecture and do real work.
-
-That kind of focus [00:09:30] matters if you're an enterprise leader trying to get something real into production or an AWS rep trying to move a customer from interested to deployed. Request an AI briefing@robotsandpencils.com. One conversation with robots and pencils and you'll know. 
-
-You know Assembly [00:09:45] AI for having the most accurate streaming speech-to-text out there.
-
-But they just went a step further and launched a full voice agent API. The idea is simple: one connection and they handle everything, the listening, the thinking, the speaking. You just stream audio in and get your agent's voice response back. We're [00:10:00] talking about things like, outbound sales calls that actually qualify leads, customer support that handles complex requests without a script, scheduling agents that sound like a human assistant, and you can build one in five minutes with one API.
-
-And importantly, their streaming model is the best at catching all the stuff that [00:10:15] breaks on other voice agents, things like phone numbers, emails, names, and medical terms.
-
-And for those of you who are still in experimentation mode, there are no contracts and unlimited concurrency, so you can actually test it out without any friction. head to assemblyai.com/brief and try the live voice agent demo right there on the [00:10:30] site. No sign-up needed Coding agents are basically solved at this point. They're incredible at writing code. But here's the thing nobody talks about. Coding is maybe a quarter of an engineer's actual day. The rest is standups. Stakeholder updates, meeting [00:10:45] prep, chasing context across six different tools, and it's not just engineers.
+No sign-up needed Coding agents are basically solved at this point. They're incredible at writing code. But here's the thing nobody talks about. Coding is maybe a quarter of an engineer's actual day. The rest is standups. Stakeholder updates, meeting [00:10:45] prep, chasing context across six different tools, and it's not just engineers.
 
 Sales spends more time assembling proposals than selling finances, manually chasing subscription requests. Marketing finds out what shipped two weeks after it merged. Zen Coder just launched Zen Flow work. It takes their [00:11:00] orchestration engine, the same one already powering coding agents connects it to your daily tools.
 
@@ -218,19 +208,9 @@ your standup brief is written before you sit down, review cycle. Coming up, it p
 
 Now you might be thinking, didn't open Claw try to do this?
 
-It did, but it has come with a whole host of security and functional issues. which can take a huge amount of time to resolve. Zen Coder took a different approach. SOC two. Type two certified. Curated integrations titer. Security perimeter. [00:11:30] Enterprise grade from day one.
+It did, but it has come with a whole host of security and functional issues. which can take a huge amount of time to resolve. Zen Coder took a different approach. SOC two. Type two certified.
 
 
-
-Model agnostic and works from Slack or Telegram. Try it at Zen. Flow free. 
-
-This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. Organizations all [00:11:45] over the world are building, orchestrating, and governing agentic systems on the OutSystems platform and with good reason.
-
-OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. Teams of any size and technical depth can [00:12:00] use OutSystems to build, deploy, and manage AI apps and agents quickly and cost effectively without compromising reliability and security.
-
-Without systems, you can rapidly launch ideas from concept to completion. It's the leading agentic systems platform that is unified, agile, and enterprise-proven, [00:12:15] allowing you to accelerate growth, reduce operational friction, and deliver real enterprise impact with AI OutSystems.
-
-Build your agentic future 
 
 Okay so we've talked through about adozen or [00:12:30] more problems with traditional knowledge work artifacts that websites can solve.
 

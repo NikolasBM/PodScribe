@@ -196,48 +196,6 @@ I would also suggest that if you are interested in experimenting with this sort 
 
 go partner with an AI to write a little 90-second movie and try to build a production pipeline and strategy from there
 
-Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
-
-Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the [00:13:00] last decade. 
-
-the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
-
-Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
-
-validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
-
-See for yourself at blitzy.com. That's B-L-I-T-Z-Y.com
-
-
-
-Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
-
-Section is a platform that helps you manage AI transformation across your entire organization.
-
-It coaches, employees on real use cases
-
-tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
-
-[00:14:00] The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
-
-That's S-E-C-T-I-O-N ai com. 
-
-
-
-
-
-The best teams don't have a single star carrying everyone else. They know their own strengths and each other's weaknesses and play to both. That's the team Robots and Pencils has built on purpose. Nobody there is grinding through busy work to pad a headcount number.
-
-People come for the hard problems, and they stay because everyone around them is leveling up at the same time. In a market full of companies that are just trying to hire fast, that's worth a look. check out robotsandpencils.com/careers 
-
-the AI... This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
-
-Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
-
-marketing agents turn competitor moves into [00:15:00] landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
-
-It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief 
-
 third
 
 third thought starter idea, product demos that people can explore po, a central new possibility

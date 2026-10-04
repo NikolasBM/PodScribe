@@ -150,15 +150,7 @@ One of the most [00:12:15] important AI questions right now isn't who's using ai
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't [00:12:30] better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on [00:12:45] sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-One thing I keep seeing in enterprise AI, companies [00:13:00] hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast. That's one of the reasons I like today's sponsor robots and pencils. They've gone all in on AWS. [00:13:15] They're an advanced tier and AWS pattern partner and they ship production AI coworkers in 45 days.
-
-That's led to them doing some of the more interesting work I've seen on AI coworkers. And by that I'm not talking about chatbots, I'm talking about actual Agentic systems that sit inside a business architecture and do real work.
-
-That kind of [00:13:30] focus matters if you're an enterprise leader trying to get something real into production or an AWS rep trying to move a customer from interested to deployed. Request an AI briefing@robotsandpencils.com. One conversation with robots and pencils and you'll know. 
+They frame problems, guide thinking, iterate, and push for better answers.
 
 [00:13:45] Coding agents are basically solved at this point. They're incredible at writing code. But here's the thing nobody talks about. Coding is maybe a quarter of an engineer's actual day. The rest is standups. Stakeholder updates, meeting prep, chasing context across six different tools, and it's not just [00:14:00] engineers.
 
@@ -170,19 +162,9 @@ your standup brief is written before you sit down, review cycle. Coming up, it p
 
 Now you might be thinking, didn't open Claw try to do [00:14:30] this?
 
-It did, but it has come with a whole host of security and functional issues. which can take a huge amount of time to resolve. Zen Coder took a different approach. SOC two. Type two certified. Curated integrations titer. Security perimeter. Enterprise grade from day one.
+It did, but it has come with a whole host of security and functional issues. which can take a huge amount of time to resolve. Zen Coder took a different approach. SOC two. Type two certified.
 
 
-
-Model agnostic and works from Slack [00:14:45] or Telegram. Try it at Zen. Flow free. 
-
-This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. Organizations all over the world are building, orchestrating, and governing agentic systems on the [00:15:00] OutSystems platform and with good reason.
-
-OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. Teams of any size and technical depth can use OutSystems to build, deploy, and manage AI apps and agents [00:15:15] quickly and cost effectively without compromising reliability and security.
-
-Without systems, you can rapidly launch ideas from concept to completion. It's the leading agentic systems platform that is unified, agile, and enterprise-proven, allowing you to accelerate growth, reduce operational friction, and deliver [00:15:30] real enterprise impact with AI OutSystems.
-
-Build your agentic future 
 
 Welcome back to the Welcome back to the AI Daily Brief
 

@@ -128,35 +128,9 @@ But at some point, the deal was abandoned for unknown reasons Still, the Musk pr
 
 Microsoft's Souleiman Vassal wrote, OpenAI and Anthropic stress testing each other's models is the smartest safety idea in months. No more grading your own homework. Now make it mandatory and add xAI and Google to the deal." we-- Like I Like I said, friends, we are in the negotiation phase of this next era And all the proposals should be on the table.
 
-For now, however, that is gonna do it for today's headlines. Next up, the main episode A new study from KPMG and the University of Texas at Austin found that when people work with AI, similar skills don't [00:10:00] guarantee similar outcomes. Researchers studied more than five hundred early career professionals and found that the best performers consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+For now, however, that is gonna do it for today's headlines.
 
-These top performers, called AI amplifiers, weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else at kpmg.com/us/aiamplifiers. 
-
-Blitzy deeply understands your code base before it writes code. Here's the first place that pays off: security in the age of AI
-
-Vulnerabilities don't live in isolation. They live buried inside millions of lines of interconnected code, where patching one thing quietly breaks three others. That's why surface-level scans fail Blitzy starts from its knowledge graph of your entire application, identifies and surfaces CVEs across the full estate, proactively recommends patches, and can execute the PR Each fix is grounded in how your systems connect and validate so nothing new breaks.
-
-And the knowledge graph dynamically updates, keeping you ahead of an ever-accelerating threat [00:11:00] landscape
-
-One Blitzy customer resolved 21 active CVEs across six core microservices in four days. Zero compile errors, every validation scan clean, months of planned work fixed in less than a week
-
-Security remediation grounded in real architectural context at the speed of compute. Harden your code base at blitzy.com. That's B-L-I-T-Z-Y.com
-
-
-
-Every episode, I talk about the competition between OpenAI, Anthropic, SpaceX AI, Google, and Meta. And if you've been listening for a while, you might have a favorite. Maybe you think OpenAI and Anthropic can stay ahead, or perhaps Meta's open source strategy can win out. Whatever your view, every AI lab creates a different investment opportunity. Harbor Capital Advisors AI Lab Ecosystem ETF suite lets you invest in the ecosystem behind the AI lab you believe in.
-
-Search Harbor AI Lab Ecosystem ETFs wherever you invest or follow @HarborCapital on X to learn more. Visit harborcapital.com for a prospectus containing investment objectives, risks, fees, expenses, and other important information.
-
-Read and consider it carefully before investing. Risks include principal loss and artificial [00:12:00] intelligence related risks. Harbor ETFs are distributed by Foresight Fund Services LLC. Harbor is not affiliated with AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab This is a paid advertisement and not personalized investment advice. Investing involves risk, including possible loss of principal. 
-
-AI... This This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
-
-Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
-
-marketing agents turn competitor moves into landing pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
-
-It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief Welcome back to the AI Daily Brief. Last week, we talked about how [00:13:00] through a combination of Grok Bot
+Last week, we talked about how [00:13:00] through a combination of Grok Bot
 
 as a personal agent interface optimized for work. And Muse, a personal agent focused on the consumer or personal experience people were revisiting their priors when it came to personal agents and wondering if this was now
 

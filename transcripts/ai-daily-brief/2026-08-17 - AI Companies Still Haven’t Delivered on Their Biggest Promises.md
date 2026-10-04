@@ -146,39 +146,9 @@ So for now, let's end the headlines and move on over into main. Hello everyone
 
 Nathaniel Whittemore: One big change around AI is we've shifted our thinking from how we rank our pages to how do we become the source that AI trusts enough to answer with?
 
-KPMG Aug_EDIT: At KPMG, they're seeing this firsthand. AI-generated results now surface answers directly, often without a single click. that's why they are increasingly focused on generative engine optimization or GEO, structuring content so AI systems can retrieve it, understand it, and cite it as trusted authority this is not just an SEO evolution, but a visibility [00:11:00] mandate. And indeed, the GEO mandate from KPMG is simple: If AI is shaping decisions, your expertise needs to show up inside the answer.
+Every AI coding tool on the market does the same thing first. It starts writing code.
 
-Read all about it at slash us/geo. Again, that is kpmg.com/us/geo
-
-
-
-Every AI coding tool on the market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse engineering your entire code base
-
-blitzy July_EDIT: Thousands of agents ingest millions of lines, mapping every dependency, every undocumented constraint, every architectural decision made over the last decade. 
-
-the result is a dynamic knowledge graph that understands your software the way a principal engineer would after 30 years in the building
-
-Other tools guess at context with grep searches and markdown files. Blitzy never guesses. it builds true understanding first, then delivers over 80% of entire software epics autonomously
-
-validated end-to-end tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most
-
-See for yourself at blitzy.com. That's [00:12:00] B-L-I-T-Z-Y.com
-
-
-
-I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
-
-Speaker 11: And they're hiring
-
-50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
-
-This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
-
-
-
-Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent [00:13:00] turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
-
-Welcome back to the AI Daily Brief
+Nathaniel Whittemore: Welcome back to the AI Daily Brief
 
 260817 main_EDIT: one of the things that I try to do on this show is bring you a wide-ranging and representative set of commentary around whatever the big events happening are.
 

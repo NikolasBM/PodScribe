@@ -144,31 +144,7 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame [00:13:00] problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in [00:14:00] inference at hyperagent.com/aidailybrief. 
-
-I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
-
-And they're hiring
-
-50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
-
-This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
-
-you've tried in IDE co-pilots. They're fast, but they only see local silos of your code. Leverage these tools across a large enterprise code base and they quickly become less effective.
-
-The fundamental constraint context, Blitzie solves this with infinite code context, understanding your code base downto the line level dependency across millions of lines [00:15:00] of code.
-
-While copilots help developers write code faster, blitzie orchestrates thousands of agents. That reason across your full code base
-
-allow Blitzie to do the heavy lifting, delivering over 80% of every sprint autonomously with rigorously validated code.
-
-Blitzie provides a granular list of the remaining work for humans to complete with their copilots
-
-tackle feature additions, large scale refactor, legacy modernization, greenfield initiatives, all five x faster. See the blitzie difference@blitzie.com. That's B-L-I-T-Z y.com. 
+They frame [00:13:00] problems, guide thinking, iterate, and push for better answers.
 
 Welcome back to the AI Daily Brief. If you were anywhere near AI Twitter yesterday
 

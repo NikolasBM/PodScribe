@@ -146,35 +146,7 @@ Next up, the main episode Hello everyone
 
 One big change around AI is we've shifted our thinking from how we rank our pages to how do we become the source that AI trusts enough to answer with?
 
-At KPMG, they're seeing this firsthand. AI-generated results now surface answers directly, often without a single [00:11:00] click. that's why they are increasingly focused on generative engine optimization or GEO, structuring content so AI systems can retrieve it, understand it, and cite it as trusted authority this is not just an SEO evolution, but a visibility mandate. And indeed, the GEO mandate from KPMG is simple: If AI is shaping decisions, your expertise needs to show up inside the answer.
-
-Read all about it at slash us/geo. Again, that is kpmg.com/us/geo
-
-
-
-Blitzy's deep code base understanding unlocks the thing every roadmap owner cares about: shipping new features. Here's the truth about building inside a massive enterprise code base. Writing code was never the bottleneck. Context is Which system does this touch? Which contracts can't break? Which standards apply? Blitzy already knows because it reverse-engineered your entire code base into a dynamic knowledge graph before feature work began. With that complete picture, Blitzy builds features end to end.
-
-Architecture, APIs, UI, and tests all validated against your existing systems
-
-One [00:12:00] Blitzy customer built an AI native application from scratch with 100% autonomous completion, saving over 2,700 engineering hours. Features that respect your code base instead of fighting it Stop letting your backlog grow faster than your team.
-
-Accelerate your roadmap at blitzy.com. That's B-L-I-T-Z-Y.com 
-
-
-
-The The best teams don't have a single star carrying everyone else. They know their own strengths and each other's weaknesses and play to both. That's the team Robots and Pencils has built on purpose. Nobody there is grinding through busy work to pad a headcount number.
-
-People come for the hard problems, and they stay because everyone around them is leveling up at the same time. In a market full of companies that are just trying to hire fast, that's worth a look. check out robotsandpencils.com/careers 
-
-AI... This episode of This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of agents your team can manage together.
-
-Forget local agents and chat workflows waiting on your laptop to be prompted. deploys always-on agents in the cloud doing real work across the tools your team already uses
-
-marketing agents turn competitor moves into landing [00:13:00] pages. Sales agents enrich leads, draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget. Every agent has access to shared context and follows your rules about scope and approvals
-
-It's time you had agents that feel like teammates Hire yours at Hyperagent. Get $100 in credits at hyperagent.com/aidailybrief Welcome back to the AI Daily Brief
-
-
+At KPMG, they're seeing this firsthand. AI-generated results now surface answers directly, often without a single [00:11:00] click.
 
 Today we've got everything from building websites while driving a car to cute little mascots wearing smart glasses. Because the theme of the show is AI moving into the real world
 

@@ -130,33 +130,9 @@ Next up, the main episode One of the most important AI questions right now isn't
 
 Speaker: KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+They frame problems, guide thinking, iterate, and push for better answers.
 
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-Here's why most legacy modernization projects fail. The AI doing the work can't understand code bases at scale. it sees a small slice of context, examines syntax, and misses years of [00:11:00] decisions distributed across the global application ecosystem
-
-blitzy July_EDIT: Blitzy solves this the way it solves everything. Grounded in your code before any migration begins, Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph. Every dependency, every constraint, every piece of tribal knowledge that used to live in one engineer's head.
-
-From that understanding, Blitzy autonomously executes language migrations, framework upgrades, and monolith-to-microservices transformations, all validated end to end One Blitzy customer modernized a $10 million monolithic insurance stack in 16 weeks against a 137-week baseline with coding agents. That's 9X compression.
-
-Retire technical debt while accelerating your roadmap. See how at blitzy.com. That's B-L-I-T-Z-Y.com
-
-
-
-I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
-
-Speaker 11: And [00:12:00] they're hiring
-
-50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
-
-This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
-
-
-
-Nathaniel Whittemore: This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at [00:13:00] hyperagent.com/aidailybrief. 
-
-Welcome back to the AI Daily Brief. Today, we are talking about the latest in the AI data center debate, and I'm gonna make a contention As presumably you've already seen in the title of this show
+Nathaniel Whittemore: Welcome back to the AI Daily Brief. Today, we are talking about the latest in the AI data center debate, and I'm gonna make a contention As presumably you've already seen in the title of this show
 
 
 

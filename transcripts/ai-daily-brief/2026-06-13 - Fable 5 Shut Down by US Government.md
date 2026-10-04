@@ -224,39 +224,7 @@ Or as Banteg simply put it, " They named it Fable
 
 and then acted surprised when it came with a moral."
 
-One thing I keep seeing in enterprise AI, companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast. That's one of the reasons I like today's sponsor robots and pencils. They've gone all in on AWS. They're an advanced tier and AWS pattern partner and they ship production AI [00:15:00] coworkers in 45 days.
-
-That's led to them doing some of the more interesting work I've seen on AI coworkers. And by that I'm not talking about chatbots, I'm talking about actual Agentic systems that sit inside a business architecture and do real work.
-
-That kind of focus matters if you're an enterprise leader trying to get something real into production or an AWS rep trying to move a customer from interested to deployed. Request an AI briefing@robotsandpencils.com. One conversation with robots and pencils and you'll know. 
-
-Quick question, when was the last time you actually visited a website to research something? If you are like me, AI, pretty much does that work for you? Now that of course raises a new question for brands. If AI is doing the discovering, researching, and deciding who or what is your website really for?
-
-That shift in user behavior, the rise of AI bots becoming your most important new visitors is what my sponsor's Scrunch is taking head on. Scrunch is the AI customer experience platform that helps marketing teams understand how AI agents experience their site, where they show up in AI answers, where they don't, what's preventing them from beingretrieved, trusted or recommended.
-
-[00:16:00] It's not just visibility. Scrunch shows you the content gaps, citation gaps, and technical blockers that matter helps you fix them. So your brand is found and chosen in AI answers.
-
-Now Now for our listeners, scrunch is providing a free website audit that uncovers how AI sees your site, where there's gaps, and how you're showing up in AI versusthe competition.
-
-Run your site through it at scrunch.com/ai daily. I. Weekends are for vibe coding. It has never been easier to bring a passion project to life. So go ahead and fire up your favorite vibe coding tool. But Monday is coming and before you know it, you'll be staring down a maze of microservices, a legacy COBOL system from the 1970s, and an engineering roadmap that will exist well past your retirement party.
-
-That's why you need Blitzie, the first autonomous software development platform designed for enterprise scale code bases.
-
-Deploy at the beginning of every sprint and tackle your roadmap 500% faster. blitzes, agents, est your entire code base. Plan the work
-
-and deliver over 80% autonomously.
-
-Validated end-to-end tested premium quality code at the speed of compute. Months of engineering compressed into days
-
-vibe. Code your passion projects on the [00:17:00] weekend. Bring glitzy to work on Monday. See why Fortune five hundred's. Trust blitzie for the code that matters@blitz.com. That's BITZ y.com. 
-
-This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. Organizations all over the world are building, orchestrating, and governing agentic systems on the OutSystems platform and with good reason.
-
-OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. Teams of any size and technical depth can use OutSystems to build, deploy, and manage AI apps and agents quickly and cost effectively without compromising reliability and security.
-
-Without systems, you can rapidly launch ideas from concept to completion. It's the leading agentic systems platform that is unified, agile, and enterprise-proven, allowing you to accelerate growth, reduce operational friction, and deliver real enterprise impact with AI OutSystems.
-
-Build your agentic future 
+One thing I keep seeing in enterprise AI, companies hedging across every cloud, every model, every framework, or paying a GSI for a pilot that never ends. The teams actually shipping, they've picked a lane and they move fast.
 
 Now, [00:18:00] one Now, one thing that I will note
 

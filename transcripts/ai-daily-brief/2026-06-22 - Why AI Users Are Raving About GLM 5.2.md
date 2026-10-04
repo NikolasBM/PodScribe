@@ -188,43 +188,9 @@ For now, though, that's going to do it for this extended headlines. next up, the
 
 Speaker: KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
+They frame problems, guide thinking, iterate, and push for better answers.
 
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-Quick question, when was the last time you actually visited a website to research something? If you are like me, AI, pretty much does that work for you? Now that of course raises a new question for brands. If AI is doing the discovering, researching, and deciding who or what is your website really for?
-
-Nathaniel Whittemore's audio recording: That shift in user behavior, the [00:16:00] rise of AI bots becoming your most important new visitors is what my sponsor's Scrunch is taking head on. Scrunch is the AI customer experience platform that helps marketing teams understand how AI agents experience their site, where they show up in AI answers, where they don't, what's preventing them from beingretrieved, trusted or recommended.
-
-It's not just visibility. Scrunch shows you the content gaps, citation gaps, and technical blockers that matter helps you fix them. So your brand is found and chosen in AI answers.
-
-Now Now for our listeners, scrunch is providing a free website audit that uncovers how AI sees your site, where there's gaps, and how you're showing up in AI versusthe competition.
-
-mission_EDIT: Run your site through it at scrunch.com/ai daily. I. The average enterprise is spending eleven and a half million dollars on AI this year, and most of them can't prove a single dollar came back. What does AI actually look like when it produces ROI? Ask the healthcare company that just made their payment processing three hundred and twenty times faster, or the law firm whose document research went from three months to ten minutes, or the contact center who reduced wait times by ninety-nine percent.
-
-[00:17:00] These are real Mission Cloud customers with real results. Mission Cloud is a CDW company and an AWS Premier Tier partner. They're the AI-first, outcomes-obsessed AWS experts who build AI solutions that drive your business forward. Whether you're flooded with AI ambitions but no idea where to start or six months into a deployment that's going sideways, they've seen it and they've fixed it.
-
-Stop burning your budgets on AI that doesn't produce results. Start at missioncloud.com. 
-
-outsystems_dxRevive_EDIT: This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. 
-
-Nathaniel Whittemore: Organizations all 
-
-outsystems_dxRevive_EDIT: all over the world are building, orchestrating, and governing agentic systems 
-
-on the OutSystems platform and with good reason.
-
-OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. 
-
-Teams of any size and technical depth can use OutSystems to build, deploy, and manage AI apps and agents 
-
-quickly and cost effectively without compromising reliability and security.
-
-Without systems, you can rapidly launch ideas 
-
-from concept to completion. It's the leading agentic [00:18:00] systems platform that is unified, agile, and enterprise-proven, allowing you to accelerate growth, reduce operational friction, and deliver real enterprise impact with AI OutSystems, Build your agentic future 
-
-260622 min_EDIT: Welcome back to the AI Welcome back to the AI Daily Brief
+260622 min_EDIT: Nathaniel Whittemore: Welcome back to the AI Welcome back to the AI Daily Brief
 
 Last week, in the wake of Fable five going offline, one of the major topics of conversation on this show was the new models and new model approaches that were rushing in to fill the gap
 

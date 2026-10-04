@@ -168,33 +168,9 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 KPMG and the [00:11:00] University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. you've tried in IDE co-pilots. They're fast, but they only see local silos of your code. Leverage these tools across a large enterprise code base and they quickly become less effective.
-
-The fundamental constraint context, Blitzie solves this with infinite code context, understanding your code base downto the line level dependency across millions of lines of code.
-
-While copilots help developers write code faster, blitzie orchestrates thousands of agents. That reason across your full code base
-
-allow [00:12:00] Blitzie to do the heavy lifting, delivering over 80% of every sprint autonomously with rigorously validated code.
-
-Blitzie provides a granular list of the remaining work for humans to complete with their copilots
-
-tackle feature additions, large scale refactor, legacy modernization, greenfield initiatives, all five x faster. See the blitzie difference@blitzie.com. That's B-L-I-T-Z y.com. 
-
-Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
-
-Section is a platform that helps you manage AI transformation across your entire organization.
-
-It coaches, employees on real use cases
-
-tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
-
-The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the [00:13:00] ROI. Stop guessing if your AI investment is working. Check out section@sectionai.com.
+They frame problems, guide thinking, iterate, and push for better answers.
 
 That's S-E-C-T-I-O-N ai com. 
-
-This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your 1000 in inference at hyperagent.com/aidailybrief. 
 
 all of which gets us to the tweet which triggered the latest round of conversations, round of all of which gets us to the tweet which triggered the latest round of conversations not just on Twitter, [00:14:00] but all across the actual AI policy world
 

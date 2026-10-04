@@ -146,21 +146,7 @@ that I would very much like to take on now One of the most important AI question
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are [00:14:00] teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash sophisticated. That's kpmg.com/us/sophisticated. 
-
-Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized. Half of companies have AI tools, but only 12% use them for business value. Most employees arestill using ai. To summarize meeting notes, if you're the one responsible for AI adoption at your company, you need section.
-
-Section is a platform that helps you manage AI transformation across your entire organization.
-
-It coaches, employees on real use cases
-
-tracks who's using AI for business impact and shows you exactly where AI is and isn't creating value.
-
-The result, You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment is working. [00:15:00] Check out section@sectionai.com.
-
-That's S-E-C-T-I-O-N ai com. 
+They frame problems, guide thinking, iterate, and push for better answers.
 
 Coding agents are basically solved at this point. They're incredible at writing code. But here's the thing nobody talks about. Coding is maybe a quarter of an engineer's actual day. The rest is standups. Stakeholder updates, meeting prep, chasing context across six different tools, and it's not just engineers.
 
@@ -172,19 +158,9 @@ your standup brief is written before you sit down, review cycle. Coming up, it p
 
 Now you might be thinking, didn't open Claw try to do this?
 
-It did, but it has come with a whole host of security and functional issues. which can take a huge amount of time to resolve. Zen Coder took a different approach. [00:16:00] SOC two. Type two certified. Curated integrations titer. Security perimeter. Enterprise grade from day one.
+It did, but it has come with a whole host of security and functional issues. which can take a huge amount of time to resolve. Zen Coder took a different approach. [00:16:00] SOC two. Type two certified.
 
 
-
-Model agnostic and works from Slack or Telegram. Try it at Zen. Flow free. 
-
-This episode of the AI Daily Brief is brought to you by OutSystems, a leading agentic systems platform built for the enterprise. Organizations all over the world are building, orchestrating, and governing agentic systems on the OutSystems platform and with good reason.
-
-OutSystems' open and unified platform allows teams to architect, deliver, and scale governed agentic systems with agility. Teams of any size and technical depth can use OutSystems to build, deploy, and manage AI apps and agents quickly and cost effectively without compromising reliability and security.
-
-Without systems, you can rapidly launch ideas from concept to completion. It's the leading agentic systems platform that is unified, agile, and enterprise-proven, allowing you to accelerate growth, reduce operational friction, and deliver real enterprise impact with AI OutSystems.
-
-Build your agentic future 
 
 [00:17:00] Welcome back to the AI Daily Brief. Oh, friends, it's my favorite time of year It's that time when some new set of numbers, or in this case chart
 

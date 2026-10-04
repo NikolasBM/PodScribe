@@ -158,29 +158,7 @@ One of the most important AI questions right now isn't who's using ai, it's who'
 
 KPMG and the University of Texas at Austin. Just to analyzed 1.4 million real workplace AI interactions and found something surprising. The highest impact users aren't better prompt engineers. They treat AI like a reasoning partner.
 
-They frame problems, guide thinking, iterate, and push for better answers. and the good news, these behaviors are teachable at scale.
-
-If you're trying to move from AI access to real capability, KPMG's research on sophisticated AI collaboration is worth your time. Learn more at kpmg.com/us/slash [00:11:00] sophisticated. That's kpmg.com/us/sophisticated. I cover the capability gap between AI potential and AI reality every day on this show most companies are still figuring out how to start. Robots and Pencils is already launching and scaling. Agentic generative AI in production at large enterprises in weeks. AWS Advanced Tier pattern partner more than doubled in a year
-
-And they're hiring
-
-50 open roles. If you're someone who knows this moment is different, who wants to be inside it, not watching it, this is worth a look. At Robots and Pencils, the best ideas win, and the team is purposefully kept super high quality
-
-This is the kind of place you look back on as the best decision you ever made. Take a look at robotsandpencils.com/careers 
-
-
-
-if you're looking to adopt an age agentic, SDLC, blitzie is the key to unlocking unmatched engineering velocity.
-
-Blitzes differentiation starts with infinite code context. Thousands of specialized agents ingest millions of lines of your code in a singlepass. Mapping every dependency
-
-with a complete [00:12:00] contextual understanding of your code base. Enterprises leverage blitz at the beginning of every sprint to deliver over 80% of the work autonomously,
-
-enterprise grade, end-to-end tested code that leverages your existing services, components and standards. This isn't AI auto complete. This is spec and test driven development at the speed of compute. Schedule a technical deep dive with our AI experts@blitz.com. That's BLI tz y.com.
-
-
-
-This episode This episode of the AI Daily Brief is brought to you by Hyperagent where you run fleets of agents your team can manage together New users get 1000 in inference Forget local agents and chat workflows waiting on your laptop to be prompted Hyperagent deploys alwayson agents in the cloud doing real work across the tools your team already uses Marketing's agent turns competitor moves into landing pages sales agent enriches leads drafts emails and updates the CRM ops agent chases the paperwork and tracks the budget Every agent has access to shared context and follows your rules about scope and approvals It's time you add agents that feel like teammates Hire yours at Hyperagent built by the team at Airtable Claim your [00:13:00] 1000 in inference at hyperagent.com/aidailybrief.
+They frame problems, guide thinking, iterate, and push for better answers.
 
 Welcome back to the AI Daily Brief
 
