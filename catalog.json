@@ -5130,6 +5130,307 @@
  },
  {
   "podcast": "lean-ai-podcast",
+  "date": "2025-06-12",
+  "title": "From Data to Dollars: Building Practical AI in Large Organizations",
+  "guests": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:36:08",
+  "categories": [],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/286qy2wn-from-data-to-dollars-building-practical-ai-in-large-organizations",
+  "path": "transcripts/lean-ai-podcast/2025-06-12 - From Data to Dollars- Building Practical AI in Large Organizations.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2025-05-29",
+  "title": "How to Lead in the Wild West of AI with Philip Chew",
+  "guests": [
+   "Philip Chew"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:39:47",
+  "categories": [
+   "enterprise",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/p8m74v38-how-to-lead-in-the-wild-west-of-ai-with-philip-chew",
+  "path": "transcripts/lean-ai-podcast/2025-05-29 - How to Lead in the Wild West of AI with Philip Chew.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2025-05-15",
+  "title": "Best practices for Corporate AI transformation with Adam Newton",
+  "guests": [
+   "Adam Newton"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:45:31",
+  "categories": [
+   "enterprise",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/rnkljqk8-best-practices-for-corporate-ai-transformation-with-adam-newton",
+  "path": "transcripts/lean-ai-podcast/2025-05-15 - Best practices for Corporate AI transformation with Adam Newton.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2025-04-24",
+  "title": "Avoid \"Burning Star Syndrome\" using Smart AI Investment Strategies with Kunal Sawarkar",
+  "guests": [
+   "Kunal Sawarkar"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:38:31",
+  "categories": [
+   "enterprise",
+   "infrastructure",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT"
+  ],
+  "url": "https://podcasts.fame.so/e/v855qmz8-avoid-burning-star-syndrome-using-smart-ai-investment-strategies-with-kunal-sawarkar",
+  "path": "transcripts/lean-ai-podcast/2025-04-24 - Avoid -Burning Star Syndrome- using Smart AI Investment Strategies with Kunal Sawarkar.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2025-04-10",
+  "title": "How to Get Senior Leadership Buy-In and Alignment with Supreet Kaur",
+  "guests": [
+   "Supreet Kaur"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:38:32",
+  "categories": [
+   "enterprise",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Microsoft Copilot"
+  ],
+  "url": "https://podcasts.fame.so/e/1n20v79n-how-to-get-senior-leadership-buy-in-and-alignment-with-supreet-kaur",
+  "path": "transcripts/lean-ai-podcast/2025-04-10 - How to Get Senior Leadership Buy-In and Alignment with Supreet Kaur.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2025-03-27",
+  "title": "Cultivating AI Use Cases to Move Beyond 'Magical Thinking' with Chris Reitz",
+  "guests": [
+   "Chris Reitz"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:33:36",
+  "categories": [
+   "work",
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT"
+  ],
+  "url": "https://podcasts.fame.so/e/l8q27qjn-cultivating-ai-use-cases-to-move-beyond-magical-thinking-with-chris-reitz",
+  "path": "transcripts/lean-ai-podcast/2025-03-27 - Cultivating AI Use Cases to Move Beyond 'Magical Thinking' with Chris Reitz.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-12-19",
+  "title": "The Future of Innovation: AI & Lean Startup with Eric Ries",
+  "guests": [
+   "Eric Ries"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:52:33",
+  "categories": [
+   "enterprise",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude",
+   "Qwen"
+  ],
+  "url": "https://podcasts.fame.so/e/58zxrx78-the-future-of-innovation-ai-lean-startup-with-eric-ries",
+  "path": "transcripts/lean-ai-podcast/2024-12-19 - The Future of Innovation- AI & Lean Startup with Eric Ries.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-12-03",
+  "title": "Data Is The New Oil with Mike Hollinger",
+  "guests": [
+   "Mike Hollinger"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:38:32",
+  "categories": [],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/6nrrqvwn-data-is-the-new-oil-with-mike-hollinger",
+  "path": "transcripts/lean-ai-podcast/2024-12-03 - Data Is The New Oil with Mike Hollinger.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-11-28",
+  "title": "Top Episode of 2024: Leveraging AI for Transformative Results with Chris Withers",
+  "guests": [
+   "Chris Withers"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:34:15",
+  "categories": [
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/p8m52w78-greatest-hit-episode-leveraging-ai-for-transformative-results-with-chris-withers",
+  "path": "transcripts/lean-ai-podcast/2024-11-28 - Top Episode of 2024- Leveraging AI for Transformative Results with Chris Withers.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-11-14",
+  "title": "Implementing Lean AI Practices for Successful Innovation with Christina Mongan",
+  "guests": [
+   "Christina Mongan"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:28:45",
+  "categories": [],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/m84x0wr8-implementing-lean-ai-practices-for-successful-innovation-with-christina-mongan",
+  "path": "transcripts/lean-ai-podcast/2024-11-14 - Implementing Lean AI Practices for Successful Innovation with Christina Mongan.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-10-31",
+  "title": "Navigating AI Governance Frameworks with Dr. Meeta Vouk",
+  "guests": [
+   "Dr. Meeta Vouk"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:30:51",
+  "categories": [
+   "enterprise",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT"
+  ],
+  "url": "https://podcasts.fame.so/e/4892my3n-navigating-ai-governance-frameworks-with-dr-meeta-vouk",
+  "path": "transcripts/lean-ai-podcast/2024-10-31 - Navigating AI Governance Frameworks with Dr. Meeta Vouk.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-10-17",
+  "title": "A 4-Step Approach for Developing AI Use Cases with Mike Schubert",
+  "guests": [
+   "Mike Schubert"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:36:14",
+  "categories": [
+   "enterprise",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/vn55j9mn-a-4-step-approach-for-developing-ai-use-cases-with-mike-schubert",
+  "path": "transcripts/lean-ai-podcast/2024-10-17 - A 4-Step Approach for Developing AI Use Cases with Mike Schubert.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-10-03",
+  "title": "Navigating Change Management Challenges in AI Implementation with Vivek Mahapatra",
+  "guests": [
+   "Vivek Mahapatra"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:30:37",
+  "categories": [
+   "enterprise",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/183m3z28-navigating-change-management-challenges-in-ai-implementation-with-vivek-mahapatra",
+  "path": "transcripts/lean-ai-podcast/2024-10-03 - Navigating Change Management Challenges in AI Implementation with Vivek Mahapatra.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-09-19",
+  "title": "Essential Lean AI Practices with Jonathan Bertfield",
+  "guests": [
+   "Jonathan Bertfield"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:38:03",
+  "categories": [
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/l8q2224n-essential-lean-ai-practices-with-jonathan-bertfield",
+  "path": "transcripts/lean-ai-podcast/2024-09-19 - Essential Lean AI Practices with Jonathan Bertfield.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-09-05",
+  "title": "Integrating AI for Meaningful Change with Nabeel Siddiqui",
+  "guests": [
+   "Nabeel Siddiqui"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:25:09",
+  "categories": [
+   "enterprise",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/p8m55908-integrating-ai-for-meaningful-change-with-nabeel-siddiqui",
+  "path": "transcripts/lean-ai-podcast/2024-09-05 - Integrating AI for Meaningful Change with Nabeel Siddiqui.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-08-22",
+  "title": "Driving AI Adoption Through Business Transformation",
+  "guests": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:34:10",
+  "categories": [
+   "work",
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/0nj040ln-driving-ai-adoption-through-business-transformation",
+  "path": "transcripts/lean-ai-podcast/2024-08-22 - Driving AI Adoption Through Business Transformation.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
   "date": "2024-08-08",
   "title": "Leveraging AI for Transformative Results with Chris Withers",
   "guests": [
@@ -5145,5 +5446,19 @@
   "mentioned": [],
   "url": "https://podcasts.fame.so/e/m84xjp68-leveraging-ai-for-transformative-results-with-chris-withers",
   "path": "transcripts/lean-ai-podcast/2024-08-08 - Leveraging AI for Transformative Results with Chris Withers.md"
+ },
+ {
+  "podcast": "lean-ai-podcast",
+  "date": "2024-08-06",
+  "title": "The Lean AI Podcast Trailer",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:02:11",
+  "categories": [],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://podcasts.fame.so/e/4n92v4v8-the-lean-ai-podcast-trailer",
+  "path": "transcripts/lean-ai-podcast/2024-08-06 - The Lean AI Podcast Trailer.md"
  }
 ]
