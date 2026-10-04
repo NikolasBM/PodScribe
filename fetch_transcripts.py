@@ -47,6 +47,7 @@ JEV_MODEL = "jev-1.13.0"
 JEV_AD_THRESHOLD = 0.5
 JEV_EDGE_THRESHOLD = 0.3
 JEV_MAX_GAP = 6
+JEV_SPONSOR_REACH = 2  # sentences a read may grow outwards over, if they name one of the podcast's ad_sponsors
 JEV_MIN_FLAGGED = 5
 JEV_AD_QUESTION = (
     "Is `sentence` part of a paid sponsor message, where the host reads out an advertisement for a company, "
@@ -416,13 +417,14 @@ def jev_scores(sentences, text, skip=()):
         return dict(zip(todo, pool.map(judge, todo)))
 
 
-def jev_ads(sentences, secs, scores, near=()):
+def jev_ads(sentences, secs, scores, near=(), sponsor=lambda k: False):
     """Sentence indexes of sponsor reads according to Jev's scores.
 
     Code, not Jev, decides what gets cut: sentences scoring >= JEV_AD_THRESHOLD seed a read, runs
     separated by at most JEV_MAX_GAP sentences are joined, a read needs >= JEV_MIN_FLAGGED flagged
     sentences (or to touch a cue-detected ad in `near`) and must fit in MAX_AD_SECONDS. A read then
-    grows outwards over sentences scoring >= JEV_EDGE_THRESHOLD, since Jev is least sure at the edges.
+    grows outwards over sentences scoring >= JEV_EDGE_THRESHOLD, since Jev is least sure at the edges,
+    and over up to JEV_SPONSOR_REACH sentences that name a sponsor.
     """
     n = len(sentences)
     flagged = [k for k in range(n) if scores.get(k, 0) >= JEV_AD_THRESHOLD]
@@ -438,10 +440,22 @@ def jev_ads(sentences, secs, scores, near=()):
         if len(group) < JEV_MIN_FLAGGED and not touches_cue:
             continue
         start, end = group[0], group[-1]
-        while start > 0 and scores.get(start - 1, 0) >= JEV_EDGE_THRESHOLD and secs(end) - secs(start - 1) <= MAX_AD_SECONDS:
-            start -= 1
-        while end + 1 < n and scores.get(end + 1, 0) >= JEV_EDGE_THRESHOLD and secs(end + 1) - secs(start) <= MAX_AD_SECONDS:
-            end += 1
+        reach = JEV_SPONSOR_REACH
+        while start > 0 and secs(end) - secs(start - 1) <= MAX_AD_SECONDS:
+            if scores.get(start - 1, 0) >= JEV_EDGE_THRESHOLD:
+                start -= 1
+            elif reach and sponsor(start - 1):
+                start, reach = start - 1, reach - 1
+            else:
+                break
+        reach = JEV_SPONSOR_REACH
+        while end + 1 < n and secs(end + 1) - secs(start) <= MAX_AD_SECONDS:
+            if scores.get(end + 1, 0) >= JEV_EDGE_THRESHOLD:
+                end += 1
+            elif reach and sponsor(end + 1):
+                end, reach = end + 1, reach - 1
+            else:
+                break
         removed.update(range(start, end + 1))
     return removed
 
@@ -474,7 +488,9 @@ def detect_ads(flat, podcast, use_jev=True):
     jev, scores = set(), {}
     if use_jev and os.environ.get("TYPESAFE_API_KEY"):
         scores = jev_scores(flat.index, flat.text, skip=cues)
-        jev = jev_ads(flat.index, flat.secs, scores, near=cues)
+        sponsors = [re.compile(rf"\b{re.escape(name)}\b") for name in podcast.get("ad_sponsors", [])]
+        jev = jev_ads(flat.index, flat.secs, scores, near=cues,
+                      sponsor=lambda k: any(r.search(flat.text(k)) for r in sponsors))
     return cues, jev, scores
 
 
