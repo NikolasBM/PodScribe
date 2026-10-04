@@ -52,6 +52,7 @@ JEV_SPONSOR_REACH = 2  # sentences a read may grow outwards over, if they name o
 JEV_MIN_FLAGGED = 5
 META_START, META_END = "<!-- metadata -->", "<!-- /metadata -->"
 META_MAX_CATEGORIES = 4
+META_COMPANY_THRESHOLD = 0.9
 META_MAX_CANDIDATES = 40
 META_MAX_CHARS = 160_000  # transcript characters sent to Jev (limit is 64k tokens for state and questions together)
 JEV_AD_QUESTION = (
@@ -674,8 +675,10 @@ def metadata_block(title, date_str, body, podcast, guests):
 
     categories = sorted((n for n in vocabulary["categories"] if answers[f"cat:{n}"]["noul"] >= 0.5),
                         key=lambda n: -answers[f"cat:{n}"]["noul"])[:META_MAX_CATEGORIES]
-    featured = [name for i, (name, _) in enumerate(candidates) if answers[f"tech:{i}"]["noul"] >= 0.5]
     companies = {t["name"] for t in vocabulary["term"] if t["kind"] == "company"}
+    # Companies are discussed in nearly every episode, so they only count as featured when Jev is quite sure
+    featured = [name for i, (name, _) in enumerate(candidates)
+                if answers[f"tech:{i}"]["noul"] >= (META_COMPANY_THRESHOLD if name in companies else 0.5)]
     mentioned = [name for name, _ in candidates if name not in featured and name not in companies]
     stamps = TS_RE.findall(body)
     duration = (lambda h, m, s: f"{h}:{m}:{s}")(*stamps[-1]) if stamps else None
