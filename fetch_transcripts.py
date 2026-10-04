@@ -593,16 +593,19 @@ class TranscribeError(Exception):
     pass
 
 
-def transcribe(audio, phrases, diarize):
-    """Send audio to the fast transcription API with MAI-Transcribe; return the JSON result."""
-    definition = {
-        "enhancedMode": {
+def transcribe(audio, phrases, diarize, standard=False, max_speakers=2):
+    """Send audio to the fast transcription API; return the JSON result.
+
+    By default with MAI-Transcribe. MAI sometimes merges the voices of a conversation into one after the intro, and does
+    not take a `maxSpeakers` hint ("not supported for MAI transcription yet"); standard=True uses the standard model,
+    which does."""
+    definition = {"diarization": {"enabled": diarize, **({"maxSpeakers": max_speakers} if standard and diarize else {})}}
+    if not standard:
+        definition["enhancedMode"] = {
             "enabled": True,
             "model": TRANSCRIBE_MODEL,
             "modelOptions": {"timestamps": "word", "transcribeStyle": "clean"},
-        },
-        "diarization": {"enabled": diarize},
-    }
+        }
     if phrases:
         definition["phraseList"] = {"phrases": phrases}
 
@@ -632,15 +635,15 @@ def transcribe(audio, phrases, diarize):
         raise TranscribeError(f"HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:500]}") from None
 
 
-def transcribe_episode(audio, phrases):
+def transcribe_episode(audio, phrases, standard=False):
     """Transcribe with speaker labels, falling back to none if the episode is too long for diarization."""
     try:
-        result = transcribe(audio, phrases, diarize=True)
+        result = transcribe(audio, phrases, diarize=True, standard=standard)
     except TranscribeError as e:
         if "AudioLengthLimitExceeded" not in str(e):
             raise
         warn("too long for diarization, transcribing without speaker labels")
-        return transcribe(audio, phrases, diarize=False)
+        return transcribe(audio, phrases, diarize=False, standard=standard)
     print(f"  speakers found: {len({p['speaker'] for p in result.get('phrases', []) if 'speaker' in p})}")
     return result
 
@@ -1096,7 +1099,7 @@ def add_metadata(out_dir, podcast, force=False):
     return count
 
 
-def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
+def fetch_rss(podcast, out_dir, since, until, limit, dry_run, standard=False):
     """Transcribe new episodes from the podcast's RSS feed. Returns number saved."""
     try:
         episodes = parse_feed(http_get(podcast["feed"], timeout=30))
@@ -1121,7 +1124,7 @@ def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
         date_str = episode["date"].isoformat()
         try:
             audio = http_get(episode["audio_url"], timeout=300)
-            result = transcribe_episode(audio, podcast.get("phrases"))
+            result = transcribe_episode(audio, podcast.get("phrases"), standard)
         except Exception as e:
             warn(f"{date_str} {episode['title']}: {type(e).__name__}: {e}")
             continue
@@ -1129,7 +1132,7 @@ def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
         names = speaker_names(result.get("phrases", []), podcast, guest_names(episode["title"], podcast))
         body = strip_ads(render_transcript(result, names), podcast)
         meta = try_metadata(episode_meta(podcast, episode["title"], date_str, episode["link"] or None, episode["guid"],
-                                         transcript_source="azure-asr", transcribed_by=TRANSCRIBE_MODEL), body, podcast)
+                                         transcript_source="azure-asr", transcribed_by="Azure fast transcription (standard)" if standard else TRANSCRIBE_MODEL), body, podcast)
         title = sanitize_filename(episode["title"]) or date_str
         (out_dir / f"{date_str} - {title}.md").write_text(render_doc(meta, body), encoding="utf-8", newline="\n")
         print(f"saved {date_str}: {title}")
@@ -1179,6 +1182,9 @@ def main():
     parser.add_argument("--add-metadata", action="store_true",
                         help="Add the metadata block to saved transcripts of --podcast that lack one (needs TYPESAFE_API_KEY), then exit")
     parser.add_argument("--force", action="store_true", help="With --add-metadata: redo transcripts that already have one")
+    parser.add_argument("--standard", action="store_true",
+                        help="Transcribe rss episodes with Azure's standard model (2 speakers) instead of MAI-Transcribe, "
+                             "for conversations where MAI merges the voices; delete the episode's file first to redo it")
     parser.add_argument("--probe", nargs="+", metavar="URL",
                         help="Print the HTTP status and size of these URLs as this machine sees them (for debugging blocked feeds), then exit")
     args = parser.parse_args()
@@ -1255,7 +1261,7 @@ def main():
             count = fetch_folder(podcast, out_dir, since_arg or floor, until, args.limit, args.dry_run)
         elif podcast["source"] == "rss":
             since = since_arg or floor
-            count = fetch_rss(podcast, out_dir, since, until, args.limit, args.dry_run)
+            count = fetch_rss(podcast, out_dir, since, until, args.limit, args.dry_run, args.standard)
         else:
             warn(f"{podcast['slug']}: unknown source {podcast['source']!r}")
             continue
