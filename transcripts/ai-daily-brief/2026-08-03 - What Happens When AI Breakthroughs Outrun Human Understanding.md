@@ -3,10 +3,10 @@
 https://aidailybrief.ai/e/2026-08-03 · Listen: https://pod.link/1680633614
 
 <!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:28:00
+Format: news-analysis · Level: 2 · Length: ~00:28:00
 Host: Nathaniel Whittemore
 Categories: models, safety-security, work, funding-markets
-Featured: OpenAI, Amazon, Anthropic, DeepSeek
+Featured: OpenAI, DeepSeek
 Also mentioned: GPT-6, Claude, Claude Fable
 <!-- /metadata -->
 

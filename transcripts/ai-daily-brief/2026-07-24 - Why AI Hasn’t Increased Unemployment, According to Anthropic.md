@@ -6,8 +6,8 @@ https://aidailybrief.ai/e/2026-07-24 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:35:00
 Host: Nathaniel Whittemore
 Categories: work, models, funding-markets, model-strategy
-Featured: Anthropic, Claude, Microsoft, OpenAI, Amazon, Stripe, OpenRouter, Cursor, SpaceX AI, Kimi, Microsoft MAI, model routing
-Also mentioned: agent harness, Claude Mythos, GPT-5.6, computer use, Grok, Claude Code, vibe coding, recursive self-improvement
+Featured: Anthropic, Claude, Microsoft, OpenRouter, Microsoft MAI, model routing
+Also mentioned: Cursor, Kimi, agent harness, Claude Mythos, GPT-5.6, computer use, Grok, Claude Code, vibe coding, recursive self-improvement
 <!-- /metadata -->
 
 ---

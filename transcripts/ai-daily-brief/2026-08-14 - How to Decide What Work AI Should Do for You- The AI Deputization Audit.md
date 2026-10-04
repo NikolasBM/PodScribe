@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-08-14 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 2 · Length: ~00:29:00
 Host: Nathaniel Whittemore
 Categories: models, agents, model-strategy, work
-Featured: Grok Bot, OpenAI, Gemini, Google, ChatGPT, GPT-5.6, SpaceX AI
+Featured: Grok Bot, OpenAI, Gemini, Google, ChatGPT, GPT-5.6
 Also mentioned: OpenClaw, GLM, Kimi, Artificial Analysis, Nvidia Nemotron, Claude Sonnet, Gemma, Claude Opus, Slack, Cursor
 <!-- /metadata -->
 

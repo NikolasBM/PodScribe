@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-09-10 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 0 · Length: ~00:35:00
 Host: Nathaniel Whittemore
 Categories: safety-security, policy
-Featured: Anthropic, OpenAI
+Featured: Anthropic
 Also mentioned: Hugging Face incident, ChatGPT
 <!-- /metadata -->
 

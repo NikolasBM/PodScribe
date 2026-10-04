@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-07-01 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 2 · Length: ~00:29:00
 Host: Nathaniel Whittemore
 Categories: models, coding, policy, model-strategy
-Featured: Anthropic, Claude Fable, Claude Sonnet, OpenAI, Claude Tag, Claude
+Featured: Anthropic, Claude Fable, Claude Sonnet, Claude Tag, Claude
 Also mentioned: Claude Opus, Cursor, Claude Code, GPT-5.5, Claude Mythos, GLM, agent harness, Slack, GDPval, Artificial Analysis
 <!-- /metadata -->
 

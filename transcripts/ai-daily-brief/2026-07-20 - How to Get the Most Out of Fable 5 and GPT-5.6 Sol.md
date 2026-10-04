@@ -5,8 +5,8 @@ https://aidailybrief.ai/e/2026-07-20 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: tutorial · Level: 1 · Length: ~00:26:00
 Host: Nathaniel Whittemore
-Categories: agents, coding, models, work
-Featured: Claude, GPT-5.6, ChatGPT, Claude Fable, OpenAI, agent harness
+Categories: agents, coding, models
+Featured: Claude, GPT-5.6, ChatGPT, Claude Fable, agent harness
 Also mentioned: OpenAI Codex
 <!-- /metadata -->
 

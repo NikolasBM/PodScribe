@@ -5,8 +5,8 @@ https://aidailybrief.ai/e/2026-06-11 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: news-analysis · Level: 1 · Length: ~00:30:00
 Host: Nathaniel Whittemore
-Categories: infrastructure, safety-security, policy, funding-markets
-Featured: Anthropic, Claude Fable, OpenAI, Claude
+Categories: safety-security, infrastructure, funding-markets, policy
+Featured: Anthropic, Claude Fable, Claude
 Also mentioned: Claude Mythos
 <!-- /metadata -->
 

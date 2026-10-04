@@ -6,8 +6,8 @@ https://aidailybrief.ai/e/2026-08-10 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:26:00
 Host: Nathaniel Whittemore
 Categories: agents, safety-security, models, open-weights
-Featured: agent harness, OpenAI, Anthropic, Hugging Face incident, agent loops
-Also mentioned: GPT-6, Qwen, Kimi, Claude Code, Claude Mythos, Claude
+Featured: agent harness, OpenAI, Claude Code, Hugging Face incident, agent loops
+Also mentioned: GPT-6, Qwen, Kimi, Claude Mythos, Claude
 <!-- /metadata -->
 
 ---

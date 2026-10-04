@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-06-28 · Listen: https://pod.link/1680633614
 Format: tutorial · Level: 2 · Length: ~00:26:00
 Host: Nathaniel Whittemore
 Categories: agents, coding, work, models
-Featured: GPT-5.6, agent harness, OpenAI
+Featured: GPT-5.6, agent harness
 Also mentioned: Claude Fable, Claude Sonnet, Claude Code, OpenAI Codex, MCP, OpenClaw, OpenRouter, agent loops
 <!-- /metadata -->
 

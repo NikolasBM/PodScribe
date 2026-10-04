@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-06-17 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:26:00
 Host: Nathaniel Whittemore
 Categories: policy, funding-markets, safety-security, infrastructure
-Featured: Anthropic, OpenAI, Claude Mythos, Cursor, SpaceX AI, Claude Fable, Grok
+Featured: Anthropic, Claude Mythos, Cursor, SpaceX AI, Claude Fable, Grok
 Also mentioned: Project Glasswing, Claude Opus, agent harness, Kimi
 <!-- /metadata -->
 

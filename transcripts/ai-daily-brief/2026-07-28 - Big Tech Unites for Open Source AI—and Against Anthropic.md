@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-07-28 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:31:00
 Host: Nathaniel Whittemore
 Categories: open-weights, policy, infrastructure, models
-Featured: Anthropic, Nvidia, open-weight models, OpenAI, distillation, Claude Mythos
+Featured: Anthropic, Nvidia, open-weight models, distillation, Claude Mythos
 Also mentioned: Kimi
 <!-- /metadata -->
 

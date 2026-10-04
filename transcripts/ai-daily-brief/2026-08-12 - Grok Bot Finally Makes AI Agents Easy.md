@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-08-12 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:28:00
 Host: Nathaniel Whittemore
 Categories: agents, funding-markets, coding, infrastructure
-Featured: Grok Bot, Anthropic, OpenClaw, Cursor, Nvidia, SpaceX AI, computer use, agent harness, Grok
+Featured: Grok Bot, OpenClaw, Cursor, computer use, agent harness, Grok
 Also mentioned: Gemini, Claude, Manus, OpenAI Codex, Slack
 <!-- /metadata -->
 

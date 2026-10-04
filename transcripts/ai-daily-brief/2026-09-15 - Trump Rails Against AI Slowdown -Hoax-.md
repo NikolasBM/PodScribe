@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-09-15 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:26:00
 Host: Nathaniel Whittemore
 Categories: safety-security, policy, work
-Featured: OpenAI, Anthropic, Pacing the Frontier
+Featured: Pacing the Frontier
 Also mentioned: recursive self-improvement, ChatGPT, GLM
 <!-- /metadata -->
 

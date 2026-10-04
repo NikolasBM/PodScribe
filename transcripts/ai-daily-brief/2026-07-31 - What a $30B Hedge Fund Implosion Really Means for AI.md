@@ -5,8 +5,8 @@ https://aidailybrief.ai/e/2026-07-31 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: news-analysis · Level: 1 · Length: ~00:27:00
 Host: Nathaniel Whittemore
-Categories: funding-markets, infrastructure, enterprise
-Featured: OpenAI, Anthropic, Microsoft, Meta
+Categories: funding-markets, infrastructure, enterprise, model-strategy
+Featured: OpenAI, Anthropic
 Also mentioned: none
 <!-- /metadata -->
 

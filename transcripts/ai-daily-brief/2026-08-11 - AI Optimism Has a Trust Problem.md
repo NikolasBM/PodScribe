@@ -5,7 +5,7 @@ https://aidailybrief.ai/e/2026-08-11 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: commentary · Level: 1 · Length: ~00:23:00
 Host: Nathaniel Whittemore
-Categories: work, policy, agents, safety-security
+Categories: work, policy, agents, infrastructure
 Featured: Meta, open-weight models
 Also mentioned: Muse Spark, ChatGPT
 <!-- /metadata -->

@@ -3,7 +3,7 @@
 https://aidailybrief.ai/e/2026-08-26 · Listen: https://pod.link/1680633614
 
 <!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:23:00
+Format: commentary · Level: 1 · Length: ~00:23:00
 Host: Nathaniel Whittemore
 Categories: marketing
 Featured: none

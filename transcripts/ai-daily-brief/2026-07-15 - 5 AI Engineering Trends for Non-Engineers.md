@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-07-15 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:28:00
 Host: Nathaniel Whittemore
 Categories: agents, coding, consumer, work
-Featured: OpenAI, ChatGPT, Grok Build, SpaceX AI, agent harness, agent loops, agent skills
+Featured: OpenAI, ChatGPT, Grok Build, agent harness, agent loops, agent skills
 Also mentioned: Claude Tag, OpenAI Codex, Claude Fable, GPT-5.6, Claude
 <!-- /metadata -->
 

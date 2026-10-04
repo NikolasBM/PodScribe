@@ -5,7 +5,7 @@ https://aidailybrief.ai/e/2026-09-25 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: commentary · Level: 2 · Length: ~00:25:00
 Host: Nathaniel Whittemore
-Categories: marketing, model-strategy, models, agents
+Categories: marketing, model-strategy, models
 Featured: Jev
 Also mentioned: GPT-6, agent harness, Claude Opus, Claude Fable, OpenAI Codex, Claude Code
 <!-- /metadata -->

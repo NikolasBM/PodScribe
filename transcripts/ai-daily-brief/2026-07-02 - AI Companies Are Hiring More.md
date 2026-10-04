@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-07-02 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:27:00
 Host: Nathaniel Whittemore
 Categories: work, models, coding, funding-markets
-Featured: Meta, Anthropic, OpenAI, Claude Fable
+Featured: Meta, OpenAI, Claude Fable
 Also mentioned: distillation, Claude Code, Claude
 <!-- /metadata -->
 

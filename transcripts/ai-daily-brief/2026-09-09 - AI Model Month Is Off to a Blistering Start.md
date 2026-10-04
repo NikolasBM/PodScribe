@@ -5,8 +5,8 @@ https://aidailybrief.ai/e/2026-09-09 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: news-analysis · Level: 2 · Length: ~00:34:00
 Host: Nathaniel Whittemore
-Categories: models, agents, consumer, coding
-Featured: OpenAI, Meta, Meta Muse, Muse Spark, Google, Anthropic, Gemini, Artificial Analysis, agent harness, Terminal Bench, ChatGPT Images, ChatGPT, computer use
+Categories: models, agents, consumer, model-strategy
+Featured: OpenAI, Meta, Meta Muse, Muse Spark, Google, Gemini, Artificial Analysis, agent harness, Terminal Bench, ChatGPT Images, ChatGPT, computer use
 Also mentioned: Claude Opus, GPT-6, Claude Fable, OpenAI Codex, ElevenLabs, GPT-5.6, Cursor, GLM
 <!-- /metadata -->
 

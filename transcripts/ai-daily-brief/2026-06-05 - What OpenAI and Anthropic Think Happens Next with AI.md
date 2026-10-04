@@ -6,8 +6,8 @@ https://aidailybrief.ai/e/2026-06-05 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 2 · Length: ~00:31:15
 Host: Nathaniel Whittemore
 Categories: models, policy, safety-security, work
-Featured: Anthropic, OpenAI, Claude Mythos, Claude, ChatGPT, recursive self-improvement
-Also mentioned: OpenClaw, GPT-5.6, Claude Opus
+Featured: Anthropic, OpenAI, Claude Mythos, Claude, ChatGPT, recursive self-improvement, GPT-5.6
+Also mentioned: OpenClaw, Claude Opus
 <!-- /metadata -->
 
 ---

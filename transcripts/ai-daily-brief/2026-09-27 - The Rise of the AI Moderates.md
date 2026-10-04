@@ -5,7 +5,7 @@ https://aidailybrief.ai/e/2026-09-27 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: commentary · Level: 1 · Length: ~00:32:00
 Host: Nathaniel Whittemore
-Categories: safety-security, work, agents, design
+Categories: safety-security, work, agents, policy
 Featured: Hugging Face incident
 Also mentioned: none
 <!-- /metadata -->

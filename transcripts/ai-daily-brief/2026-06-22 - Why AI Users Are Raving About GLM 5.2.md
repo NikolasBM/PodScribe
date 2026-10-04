@@ -6,8 +6,8 @@ https://aidailybrief.ai/e/2026-06-22 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 2 · Length: ~00:29:00
 Host: Nathaniel Whittemore
 Categories: models, open-weights, policy, coding
-Featured: GLM, Claude Fable, Claude Mythos, Anthropic, Google DeepMind, DeepSeek, OpenAI, Google, open-weight models
-Also mentioned: Gemini, Claude Sonnet, GPT-5.6, OpenAI Codex, OpenClaw, ChatGPT, OpenRouter
+Featured: GLM, Claude Fable, Claude Mythos, Anthropic, DeepSeek, Gemini, open-weight models
+Also mentioned: Claude Sonnet, GPT-5.6, OpenAI Codex, OpenClaw, ChatGPT, OpenRouter
 <!-- /metadata -->
 
 ---

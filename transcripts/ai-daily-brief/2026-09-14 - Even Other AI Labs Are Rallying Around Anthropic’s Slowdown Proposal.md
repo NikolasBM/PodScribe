@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-09-14 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:37:00
 Host: Nathaniel Whittemore
 Categories: safety-security, policy, open-weights, funding-markets
-Featured: Anthropic, OpenAI, Pacing the Frontier, recursive self-improvement, Hugging Face, Hugging Face incident, METR
+Featured: Anthropic, OpenAI, Pacing the Frontier, recursive self-improvement, Hugging Face incident
 Also mentioned: open-weight models, distillation
 <!-- /metadata -->
 

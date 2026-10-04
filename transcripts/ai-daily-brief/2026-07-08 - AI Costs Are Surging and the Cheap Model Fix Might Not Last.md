@@ -3,10 +3,10 @@
 https://aidailybrief.ai/e/2026-07-08 · Listen: https://pod.link/1680633614
 
 <!-- metadata -->
-Format: news-analysis · Level: 1 · Length: ~00:26:00
+Format: news-analysis · Level: 2 · Length: ~00:26:00
 Host: Nathaniel Whittemore
 Categories: models, open-weights, model-strategy, policy
-Featured: Microsoft, open-weight models, Meta, Microsoft MAI, Claude Fable, Gemma, SpaceX AI, GPT-5.6, Grok, Google, OpenAI, Anthropic
+Featured: open-weight models, Microsoft MAI, Claude Fable, Gemma, GPT-5.6, Grok
 Also mentioned: Gemini, model routing, Cursor, Muse Spark, GPT-5.5, Claude Mythos, MiniMax, GLM, Nvidia Nemotron
 <!-- /metadata -->
 

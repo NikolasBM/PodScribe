@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-09-04 · Listen: https://pod.link/1680633614
 Format: commentary · Level: 1 · Length: ~00:24:00
 Host: Nathaniel Whittemore
 Categories: agents, open-weights, policy, funding-markets
-Featured: OpenAI, agent harness, Anthropic, Claude Fable, Claude Mythos, Google, open-weight models, model routing, Kimi, GPT-5.6, OpenAI Codex, Claude Code, Cursor, Hugging Face incident, OpenRouter, DeepSeek
+Featured: OpenAI, agent harness, Anthropic, Claude Fable, Claude Mythos, open-weight models, model routing, Kimi, GPT-5.6, OpenAI Codex, Claude Code, Cursor, Hugging Face incident, OpenRouter, DeepSeek
 Also mentioned: Grok, Gemini, OpenClaw
 <!-- /metadata -->
 

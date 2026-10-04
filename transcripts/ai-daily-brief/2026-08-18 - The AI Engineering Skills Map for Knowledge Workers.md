@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-08-18 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:26:00
 Host: Nathaniel Whittemore
 Categories: work, funding-markets, agents, coding
-Featured: Cursor, agent harness, Stripe, OpenRouter, Anthropic
+Featured: Cursor, agent harness, OpenRouter
 Also mentioned: ChatGPT
 <!-- /metadata -->
 

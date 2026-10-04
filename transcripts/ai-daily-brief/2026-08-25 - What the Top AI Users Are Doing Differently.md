@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-08-25 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:27:00
 Host: Nathaniel Whittemore
 Categories: agents, work, funding-markets, models
-Featured: OpenAI, Nvidia, ChatGPT, Meta, Hugging Face, OpenAI Codex
+Featured: OpenAI, ChatGPT, OpenAI Codex
 Also mentioned: Grok Bot, Cursor, Grok
 <!-- /metadata -->
 

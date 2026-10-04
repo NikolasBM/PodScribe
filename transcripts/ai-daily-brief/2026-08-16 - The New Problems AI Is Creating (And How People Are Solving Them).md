@@ -5,7 +5,7 @@ https://aidailybrief.ai/e/2026-08-16 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: commentary · Level: 1 · Length: ~00:29:00
 Host: Nathaniel Whittemore
-Categories: enterprise, work, model-strategy, agents
+Categories: work, enterprise, model-strategy, agents
 Featured: agent harness
 Also mentioned: ChatGPT
 <!-- /metadata -->

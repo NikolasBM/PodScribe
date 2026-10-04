@@ -5,7 +5,7 @@ https://aidailybrief.ai/e/2026-06-29 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: news-analysis · Level: 2 · Length: ~00:33:00
 Host: Nathaniel Whittemore
-Categories: models, policy, safety-security, open-weights
+Categories: models, policy, open-weights, safety-security
 Featured: Claude Mythos, OpenAI, Anthropic, GLM, GPT-5.6, Claude Fable, open-weight models
 Also mentioned: Claude Opus, GPT-5.5, Kimi, OpenRouter
 <!-- /metadata -->

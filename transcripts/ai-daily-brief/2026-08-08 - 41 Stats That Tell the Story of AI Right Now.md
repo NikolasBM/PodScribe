@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-08-08 · Listen: https://pod.link/1680633614
 Format: commentary · Level: 1 · Length: ~00:22:00
 Host: Nathaniel Whittemore
 Categories: work, enterprise, agents
-Featured: OpenAI
+Featured: none
 Also mentioned: OpenAI Codex, ChatGPT
 <!-- /metadata -->
 

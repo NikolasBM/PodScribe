@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-07-10 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 2 · Length: ~00:25:00
 Host: Nathaniel Whittemore
 Categories: models, agents, coding, infrastructure
-Featured: Meta, OpenAI, ChatGPT, GPT-5.6, agent harness, OpenAI Codex, Anthropic, Muse Spark, Claude Fable, Meta Muse
+Featured: Meta, OpenAI, ChatGPT, GPT-5.6, agent harness, OpenAI Codex, Muse Spark, Claude Fable, Meta Muse
 Also mentioned: GPT-5.5, Claude Opus, Cursor, Artificial Analysis, Claude Cowork, Grok, open-weight models, MCP
 <!-- /metadata -->
 

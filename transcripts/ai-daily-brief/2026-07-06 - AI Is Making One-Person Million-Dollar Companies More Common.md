@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-07-06 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:24:00
 Host: Nathaniel Whittemore
 Categories: work, open-weights, infrastructure, enterprise
-Featured: Stripe, Nvidia, Anthropic, OpenAI, open-weight models, Claude
+Featured: open-weight models, Claude
 Also mentioned: Claude Code, Nvidia Nemotron, distillation
 <!-- /metadata -->
 

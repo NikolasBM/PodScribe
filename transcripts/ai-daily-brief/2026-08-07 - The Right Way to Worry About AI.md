@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-08-07 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:28:00
 Host: Nathaniel Whittemore
 Categories: safety-security, funding-markets, agents, infrastructure
-Featured: OpenAI, Nvidia, Hugging Face incident, ChatGPT
+Featured: OpenAI, Hugging Face incident, ChatGPT
 Also mentioned: OpenRouter
 <!-- /metadata -->
 

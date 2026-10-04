@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-09-17 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:29:00
 Host: Nathaniel Whittemore
 Categories: agents, consumer, models, safety-security
-Featured: Meta Muse, OpenAI, Instinct, Grok Bot, computer use, Meta
+Featured: Meta Muse, Instinct, Grok Bot, computer use, Meta
 Also mentioned: Claude, Claude Cowork, OpenClaw, OpenRouter, GPT-5.6, Claude Code, ChatGPT
 <!-- /metadata -->
 

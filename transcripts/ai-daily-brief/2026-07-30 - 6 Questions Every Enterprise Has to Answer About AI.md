@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-07-30 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:28:00
 Host: Nathaniel Whittemore
 Categories: agents, work, enterprise, model-strategy
-Featured: OpenAI, Anthropic, agent harness, Microsoft, Microsoft Copilot, Meta
+Featured: OpenAI, agent harness, Microsoft Copilot
 Also mentioned: OpenClaw, Hugging Face incident, open-weight models, Claude Code
 <!-- /metadata -->
 

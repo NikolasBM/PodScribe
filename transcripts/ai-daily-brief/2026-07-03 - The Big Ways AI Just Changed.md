@@ -6,8 +6,8 @@ https://aidailybrief.ai/e/2026-07-03 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:21:00
 Host: Nathaniel Whittemore
 Categories: models, open-weights, agents, policy
-Featured: Anthropic, Claude Fable, GLM, OpenAI, open-weight models, Claude Mythos, model routing, agent harness, Claude
-Also mentioned: Claude Code, GPT-5.5, GPT-5.6, Slack, Claude Opus, DeepSeek, Cursor, Claude Tag
+Featured: Anthropic, Claude Fable, GLM, open-weight models, Claude Mythos, model routing, agent harness, Claude Tag, Claude
+Also mentioned: Claude Code, GPT-5.5, GPT-5.6, Slack, Claude Opus, DeepSeek, Cursor
 <!-- /metadata -->
 
 ---

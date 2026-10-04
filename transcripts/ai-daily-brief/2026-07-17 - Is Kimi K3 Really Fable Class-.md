@@ -3,10 +3,10 @@
 https://aidailybrief.ai/e/2026-07-17 · Listen: https://pod.link/1680633614
 
 <!-- metadata -->
-Format: news-analysis · Level: 2 · Length: ~00:28:00
+Format: review · Level: 2 · Length: ~00:28:00
 Host: Nathaniel Whittemore
 Categories: models, open-weights, coding, design
-Featured: Kimi, Claude Fable, open-weight models, GPT-5.6, OpenAI
+Featured: Kimi, Claude Fable, open-weight models, GPT-5.6
 Also mentioned: DeepSeek, GLM, Claude Opus, distillation, Cursor, GPT-5.5, Claude Mythos
 <!-- /metadata -->
 

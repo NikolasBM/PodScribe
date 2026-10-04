@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-06-12 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:33:00
 Host: Nathaniel Whittemore
 Categories: model-strategy, funding-markets, enterprise, infrastructure
-Featured: Manus, Meta, model routing
+Featured: Manus, model routing
 Also mentioned: agent harness, OpenClaw
 <!-- /metadata -->
 

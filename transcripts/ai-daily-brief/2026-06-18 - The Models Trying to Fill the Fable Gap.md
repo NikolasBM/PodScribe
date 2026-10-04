@@ -5,8 +5,8 @@ https://aidailybrief.ai/e/2026-06-18 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: news-analysis · Level: 2 · Length: ~00:29:00
 Host: Nathaniel Whittemore
-Categories: models, open-weights, policy, model-strategy
-Featured: GLM, Anthropic, OpenAI, Claude Fable, Claude Mythos, Kimi, Cursor, DeepSeek, open-weight models, OpenRouter
+Categories: models, open-weights, model-strategy, policy
+Featured: GLM, Anthropic, Claude Fable, Claude Mythos, Kimi, Cursor, DeepSeek, open-weight models, OpenRouter
 Also mentioned: Gemini, Claude Opus, ChatGPT, GPT-5.5, distillation
 <!-- /metadata -->
 

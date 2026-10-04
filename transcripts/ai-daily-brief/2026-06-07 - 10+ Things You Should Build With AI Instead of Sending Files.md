@@ -5,7 +5,7 @@ https://aidailybrief.ai/e/2026-06-07 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: commentary · Level: 1 · Length: ~00:22:15
 Host: Nathaniel Whittemore
-Categories: coding, marketing
+Categories: coding, marketing, work
 Featured: OpenAI Codex
 Also mentioned: OpenClaw, vibe coding
 <!-- /metadata -->

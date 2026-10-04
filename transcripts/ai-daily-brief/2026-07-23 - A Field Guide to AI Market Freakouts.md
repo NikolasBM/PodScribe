@@ -5,8 +5,8 @@ https://aidailybrief.ai/e/2026-07-23 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: commentary · Level: 1 · Length: ~00:25:00
 Host: Nathaniel Whittemore
-Categories: open-weights, infrastructure, policy, funding-markets
-Featured: OpenAI, Anthropic, distillation, DeepSeek, Google, Kimi
+Categories: open-weights, infrastructure, funding-markets, policy
+Featured: OpenAI, Anthropic, distillation, DeepSeek, Kimi
 Also mentioned: ChatGPT
 <!-- /metadata -->
 

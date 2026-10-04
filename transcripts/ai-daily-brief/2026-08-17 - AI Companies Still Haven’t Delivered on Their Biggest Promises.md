@@ -5,7 +5,7 @@ https://aidailybrief.ai/e/2026-08-17 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: news-analysis · Level: 2 · Length: ~00:32:00
 Host: Nathaniel Whittemore
-Categories: models, funding-markets, safety-security, open-weights
+Categories: models, safety-security, funding-markets, open-weights
 Featured: Anthropic, GLM, open-weight models
 Also mentioned: Claude Mythos, Kimi, Claude Fable, GPT-5.6, Grok
 <!-- /metadata -->

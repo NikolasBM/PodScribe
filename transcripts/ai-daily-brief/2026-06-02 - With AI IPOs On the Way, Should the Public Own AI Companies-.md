@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-06-02 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:22:45
 Host: Nathaniel Whittemore
 Categories: funding-markets, infrastructure, enterprise, policy
-Featured: Meta, OpenAI, Anthropic, Nvidia, Google
+Featured: OpenAI, Anthropic, Nvidia
 Also mentioned: none
 <!-- /metadata -->
 

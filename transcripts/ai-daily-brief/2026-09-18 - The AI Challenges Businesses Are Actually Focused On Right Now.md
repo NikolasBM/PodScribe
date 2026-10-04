@@ -5,8 +5,8 @@ https://aidailybrief.ai/e/2026-09-18 · Listen: https://pod.link/1680633614
 <!-- metadata -->
 Format: news-analysis · Level: 1 · Length: ~00:30:00
 Host: Nathaniel Whittemore
-Categories: safety-security, enterprise, open-weights, policy
-Featured: Anthropic, OpenAI, open-weight models, recursive self-improvement, Claude, Pacing the Frontier
+Categories: safety-security, enterprise, open-weights, agents
+Featured: Anthropic, open-weight models, recursive self-improvement, Claude, Pacing the Frontier
 Also mentioned: GLM, Hugging Face incident, Claude Mythos, GPT-6, Gemini
 <!-- /metadata -->
 

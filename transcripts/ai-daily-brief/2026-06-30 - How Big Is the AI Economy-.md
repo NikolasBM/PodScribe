@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-06-30 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:27:00
 Host: Nathaniel Whittemore
 Categories: infrastructure, enterprise, policy, model-strategy
-Featured: Anthropic, Amazon, Meta, Claude, Claude Code, Claude Mythos
+Featured: Anthropic, Claude, Claude Code, Claude Mythos
 Also mentioned: distillation, OpenAI Codex, Gemini
 <!-- /metadata -->
 

@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-08-24 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:29:00
 Host: Nathaniel Whittemore
 Categories: funding-markets, model-strategy, models, infrastructure
-Featured: Nvidia, Claude Fable, Anthropic, OpenAI, Hugging Face, open-weight models, Nvidia Nemotron, GPT-5.6, Claude Opus, Vercel AI Gateway
+Featured: Nvidia, Claude Fable, open-weight models, Nvidia Nemotron, GPT-5.6, Claude Opus, Vercel AI Gateway
 Also mentioned: DeepSeek, OpenRouter, Perplexity, Kimi, Grok, Muse Spark, Claude Sonnet, Cursor, Gemini
 <!-- /metadata -->
 

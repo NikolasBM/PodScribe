@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-10-01 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 2 · Length: ~00:29:00
 Host: Nathaniel Whittemore
 Categories: models, agents, coding, policy
-Featured: Gemini, Google, Claude Sonnet, Meta Muse, Anthropic, OpenAI, Google DeepMind, agent harness
+Featured: Gemini, Google, Claude Sonnet, Meta Muse, Google DeepMind, agent harness
 Also mentioned: Claude Opus, GPT-6, Claude Fable, OpenAI Codex, vibe coding, Artificial Analysis, ChatGPT
 <!-- /metadata -->
 

@@ -6,7 +6,7 @@ https://aidailybrief.ai/e/2026-08-05 · Listen: https://pod.link/1680633614
 Format: news-analysis · Level: 1 · Length: ~00:35:00
 Host: Nathaniel Whittemore
 Categories: policy, infrastructure, funding-markets, safety-security
-Featured: SpaceX AI
+Featured: none
 Also mentioned: Claude Mythos, open-weight models, Cursor
 <!-- /metadata -->
 
