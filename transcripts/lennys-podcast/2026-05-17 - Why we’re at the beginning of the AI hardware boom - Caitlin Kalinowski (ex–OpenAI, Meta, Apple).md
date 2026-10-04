@@ -6,6 +6,13 @@ date: 2026-05-17
 url: "https://www.lennysnewsletter.com/p/why-were-at-the-beginning-of-the"
 guid: "substack:post:196483701"
 host: "Lenny Rachitsky"
+guests: ["Caitlin Kalinowski"]
+format: "interview"
+level: 1
+length: "01:38:47"
+categories: ["work", "safety-security", "infrastructure"]
+featured: []
+mentioned: ["OpenClaw", "Claude", "OpenAI Codex"]
 transcript_source: "shared-folder"
 ---
 

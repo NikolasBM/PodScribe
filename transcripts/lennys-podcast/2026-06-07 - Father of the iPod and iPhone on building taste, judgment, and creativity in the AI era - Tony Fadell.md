@@ -6,6 +6,13 @@ date: 2026-06-07
 url: "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on"
 guid: "substack:post:198591956"
 host: "Lenny Rachitsky"
+guests: ["Tony Fadell"]
+format: "interview"
+level: 1
+length: "01:34:42"
+categories: ["coding", "consumer", "work"]
+featured: ["Apple"]
+mentioned: ["Claude", "Claude Code", "Grok"]
 transcript_source: "shared-folder"
 ---
 

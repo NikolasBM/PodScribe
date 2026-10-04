@@ -6,6 +6,13 @@ date: 2026-04-02
 url: "https://www.lennysnewsletter.com/p/an-ai-state-of-the-union"
 guid: "substack:post:192024618"
 host: "Lenny Rachitsky"
+guests: ["Simon Willison"]
+format: "interview"
+level: 2
+length: "01:39:28"
+categories: ["coding", "agents", "work", "safety-security"]
+featured: ["OpenClaw", "vibe coding", "ChatGPT", "Claude Code", "Claude", "Claude Opus"]
+mentioned: ["Slack", "Gemini", "OpenAI Codex"]
 transcript_source: "shared-folder"
 ---
 

@@ -296,13 +296,23 @@
   "podcast": "lennys-podcast",
   "date": "2026-09-27",
   "title": "The grief, loneliness, and burnout sweeping through the tech industry right now | Molly Graham",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Molly Graham"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:33:51",
+  "categories": [
+   "work",
+   "agents",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude Code",
+   "Grok Bot",
+   "OpenAI Codex"
+  ],
   "url": "https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
   "path": "transcripts/lennys-podcast/2026-09-27 - The grief, loneliness, and burnout sweeping through the tech industry right now - Molly Graham.md"
  },
@@ -664,13 +674,19 @@
   "podcast": "lennys-podcast",
   "date": "2026-09-20",
   "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Peter Sellis"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:36:28",
+  "categories": [
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT"
+  ],
   "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
   "path": "transcripts/lennys-podcast/2026-09-20 - 90 minutes of unfiltered product advice from Snap and Discord’s product chief - Peter Sellis.md"
  },
@@ -1088,13 +1104,28 @@
   "podcast": "lennys-podcast",
   "date": "2026-09-08",
   "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Roman Ugarte"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:22:20",
+  "categories": [
+   "agents",
+   "work"
+  ],
+  "featured": [
+   "Grok Bot",
+   "Cursor",
+   "computer use"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Slack",
+   "OpenAI Codex",
+   "Claude Cowork",
+   "ChatGPT"
+  ],
   "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
   "path": "transcripts/lennys-podcast/2026-09-08 - How we built Grok Bot in a month - Roman Ugarte (SpaceXAI).md"
  },
@@ -1186,13 +1217,40 @@
   "podcast": "lennys-podcast",
   "date": "2026-09-06",
   "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Anish Acharya"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:18:59",
+  "categories": [
+   "agents",
+   "work",
+   "consumer",
+   "coding"
+  ],
+  "featured": [
+   "Grok Bot",
+   "Grok",
+   "open-weight models",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "Cursor",
+   "recursive self-improvement",
+   "Granola",
+   "Claude Code",
+   "Claude",
+   "distillation",
+   "Qwen",
+   "Instinct",
+   "OpenClaw",
+   "Claude Mythos",
+   "GPT-6",
+   "Claude Cowork",
+   "Gemini"
+  ],
   "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
   "path": "transcripts/lennys-podcast/2026-09-06 - Why companies are becoming a series of loops - Anish Acharya (a16z).md"
  },
@@ -1445,13 +1503,28 @@
   "podcast": "lennys-podcast",
   "date": "2026-08-30",
   "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (Product Lead ChatGPT Work)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Tara Seshan"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:21:20",
+  "categories": [
+   "agents",
+   "work",
+   "coding"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "OpenAI",
+   "ChatGPT",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Slack",
+   "Claude Code",
+   "computer use"
+  ],
   "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
   "path": "transcripts/lennys-podcast/2026-08-30 - AI’s third era- the rise of persistent AI coworkers - Tara Seshan (Product Lead ChatGPT Work).md"
  },
@@ -1629,13 +1702,15 @@
   "podcast": "lennys-podcast",
   "date": "2026-08-23",
   "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jen Abel"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:24:31",
+  "categories": [],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
   "path": "transcripts/lennys-podcast/2026-08-23 - How to close $100K+ enterprise deals, step by step - Jen Abel.md"
  },
@@ -1820,13 +1895,26 @@
   "podcast": "lennys-podcast",
   "date": "2026-08-16",
   "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Ian Silber"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:11:41",
+  "categories": [
+   "work",
+   "design",
+   "coding",
+   "consumer"
+  ],
+  "featured": [
+   "ChatGPT",
+   "OpenAI",
+   "OpenAI Codex"
+  ],
+  "mentioned": [
+   "Slack"
+  ],
   "url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
   "path": "transcripts/lennys-podcast/2026-08-16 - OpenAI’s Head of Design- This is the best time in history to be a designer - Ian Silber.md"
  },
@@ -2019,13 +2107,23 @@
   "podcast": "lennys-podcast",
   "date": "2026-08-09",
   "title": "The playbook for building high-talent-density teams | Adam Ward, Head of Talent at Cursor",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Adam Ward"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:30:23",
+  "categories": [
+   "work"
+  ],
+  "featured": [
+   "Cursor"
+  ],
+  "mentioned": [
+   "Granola",
+   "Slack",
+   "Whisperflow"
+  ],
   "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
   "path": "transcripts/lennys-podcast/2026-08-09 - The playbook for building high-talent-density teams - Adam Ward, Head of Talent at Cursor.md"
  },
@@ -2229,13 +2327,20 @@
   "podcast": "lennys-podcast",
   "date": "2026-08-02",
   "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Tom Verrilli"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:24:33",
+  "categories": [
+   "work",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude"
+  ],
   "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
   "path": "transcripts/lennys-podcast/2026-08-02 - This CPO regrets that product management exists - Tom Verrilli (CPO of Whatnot).md"
  },
@@ -2439,13 +2544,32 @@
   "podcast": "lennys-podcast",
   "date": "2026-07-26",
   "title": "Anthropic’s first technical PM on token maxing, the jagged edge, and living in the future | Dianne Penn",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Diane Penn"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:33:21",
+  "categories": [
+   "work",
+   "agents",
+   "coding",
+   "models"
+  ],
+  "featured": [
+   "Claude",
+   "Anthropic",
+   "Claude Code"
+  ],
+  "mentioned": [
+   "computer use",
+   "MCP",
+   "Claude Design",
+   "Slack",
+   "Claude Mythos",
+   "agent harness",
+   "OpenAI Codex"
+  ],
   "url": "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on",
   "path": "transcripts/lennys-podcast/2026-07-26 - Anthropic’s first technical PM on token maxing, the jagged edge, and living in the future - Dianne Penn.md"
  },
@@ -2668,13 +2792,22 @@
   "podcast": "lennys-podcast",
   "date": "2026-07-19",
   "title": "Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Elizabeth Stone"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:11:43",
+  "categories": [
+   "work",
+   "design",
+   "coding",
+   "marketing"
+  ],
+  "featured": [
+   "distillation"
+  ],
+  "mentioned": [],
   "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
   "path": "transcripts/lennys-podcast/2026-07-19 - Why Netflix is betting on systems thinkers—not specialists—in the AI era - Elizabeth Stone (CPTO).md"
  },
@@ -2832,13 +2965,21 @@
   "podcast": "lennys-podcast",
   "date": "2026-07-12",
   "title": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Noam Segal"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:36:06",
+  "categories": [
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Slack",
+   "Cognition Devin",
+   "Claude"
+  ],
   "url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
   "path": "transcripts/lennys-podcast/2026-07-12 - How tech workers actually feel about AI in 2026 - Annual AI sentiment survey (Noam Segal).md"
  },
@@ -2906,13 +3047,26 @@
   "podcast": "lennys-podcast",
   "date": "2026-07-09",
   "title": "Adam Mosseri: AI is a tailwind for authenticity",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Adam Mosseri"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:08:06",
+  "categories": [
+   "work",
+   "coding",
+   "design",
+   "model-strategy"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude Code",
+   "Claude",
+   "vibe coding",
+   "OpenAI Codex",
+   "Claude Mythos"
+  ],
   "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
   "path": "transcripts/lennys-podcast/2026-07-09 - Adam Mosseri- AI is a tailwind for authenticity.md"
  },
@@ -3255,13 +3409,32 @@
   "podcast": "lennys-podcast",
   "date": "2026-06-28",
   "title": "OpenAI Codex lead on the new shape of product work | Andrew Ambrosino",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Andrew Ambrosino",
+   "Speaker 3",
+   "Speaker 4"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:09:55",
+  "categories": [
+   "work",
+   "coding",
+   "agents",
+   "design"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "OpenAI",
+   "ChatGPT",
+   "computer use"
+  ],
+  "mentioned": [
+   "Slack",
+   "Claude Code",
+   "Figma",
+   "OpenClaw"
+  ],
   "url": "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape",
   "path": "transcripts/lennys-podcast/2026-06-28 - OpenAI Codex lead on the new shape of product work - Andrew Ambrosino.md"
  },
@@ -3499,13 +3672,26 @@
   "podcast": "lennys-podcast",
   "date": "2026-06-21",
   "title": "What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Fiona Fung"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:38:22",
+  "categories": [
+   "work",
+   "coding",
+   "agents"
+  ],
+  "featured": [
+   "Claude",
+   "Claude Code",
+   "Claude Cowork",
+   "Anthropic"
+  ],
+  "mentioned": [
+   "Slack"
+  ],
   "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
   "path": "transcripts/lennys-podcast/2026-06-21 - What happens after coding is solved- - Fiona Fung (Manager of the Claude Code and Cowork Teams).md"
  },
@@ -3686,13 +3872,21 @@
   "podcast": "lennys-podcast",
   "date": "2026-06-14",
   "title": "The hidden pattern behind successful products | Mark Pincus (founder of Zynga)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Mark Pincus"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:38:57",
+  "categories": [
+   "agents",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude",
+   "Slack"
+  ],
   "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
   "path": "transcripts/lennys-podcast/2026-06-14 - The hidden pattern behind successful products - Mark Pincus (founder of Zynga).md"
  },
@@ -3865,13 +4059,25 @@
   "podcast": "lennys-podcast",
   "date": "2026-06-07",
   "title": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Tony Fadell"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:34:42",
+  "categories": [
+   "coding",
+   "consumer",
+   "work"
+  ],
+  "featured": [
+   "Apple"
+  ],
+  "mentioned": [
+   "Claude",
+   "Claude Code",
+   "Grok"
+  ],
   "url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
   "path": "transcripts/lennys-podcast/2026-06-07 - Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era - Tony Fadell.md"
  },
@@ -4147,13 +4353,26 @@
   "podcast": "lennys-podcast",
   "date": "2026-05-31",
   "title": "A rational conversation on where AI is actually going | Benedict Evans",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Benedict Evans"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:19:27",
+  "categories": [
+   "work",
+   "enterprise",
+   "infrastructure",
+   "coding"
+  ],
+  "featured": [
+   "ChatGPT",
+   "Claude"
+  ],
+  "mentioned": [
+   "Gemini",
+   "Claude Code"
+  ],
   "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
   "path": "transcripts/lennys-podcast/2026-05-31 - A rational conversation on where AI is actually going - Benedict Evans.md"
  },
@@ -4161,13 +4380,30 @@
   "podcast": "lennys-podcast",
   "date": "2026-05-24",
   "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Dan Shipper"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:34:30",
+  "categories": [
+   "work",
+   "agents",
+   "coding",
+   "models"
+  ],
+  "featured": [
+   "ChatGPT",
+   "Claude Code",
+   "Claude",
+   "Claude Opus"
+  ],
+  "mentioned": [
+   "Granola",
+   "Cursor",
+   "Gemini",
+   "Microsoft Copilot"
+  ],
   "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
   "path": "transcripts/lennys-podcast/2026-05-24 - The AI paradox- More automation, more humans, more work - Dan Shipper.md"
  },
@@ -4175,13 +4411,23 @@
   "podcast": "lennys-podcast",
   "date": "2026-05-17",
   "title": "Why we’re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex–OpenAI, Meta, Apple)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Caitlin Kalinowski"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:38:47",
+  "categories": [
+   "work",
+   "safety-security",
+   "infrastructure"
+  ],
+  "featured": [],
+  "mentioned": [
+   "OpenClaw",
+   "Claude",
+   "OpenAI Codex"
+  ],
   "url": "https://www.lennysnewsletter.com/p/why-were-at-the-beginning-of-the",
   "path": "transcripts/lennys-podcast/2026-05-17 - Why we’re at the beginning of the AI hardware boom - Caitlin Kalinowski (ex–OpenAI, Meta, Apple).md"
  },
@@ -4189,13 +4435,23 @@
   "podcast": "lennys-podcast",
   "date": "2026-05-10",
   "title": "How to build a company that withstands any era | Eric Ries, Lean Startup author",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Eric Ries"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:38:57",
+  "categories": [
+   "funding-markets",
+   "safety-security"
+  ],
+  "featured": [
+   "Anthropic"
+  ],
+  "mentioned": [
+   "ChatGPT",
+   "Claude Code"
+  ],
   "url": "https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands",
   "path": "transcripts/lennys-podcast/2026-05-10 - How to build a company that withstands any era - Eric Ries, Lean Startup author.md"
  },
@@ -4203,13 +4459,32 @@
   "podcast": "lennys-podcast",
   "date": "2026-05-03",
   "title": "Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Max Schoening"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:26:59",
+  "categories": [
+   "coding",
+   "work",
+   "agents",
+   "enterprise"
+  ],
+  "featured": [
+   "agent loops",
+   "vibe coding",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Figma",
+   "Slack",
+   "OpenAI Codex",
+   "Claude Code",
+   "Cursor",
+   "Claude",
+   "ChatGPT"
+  ],
   "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
   "path": "transcripts/lennys-podcast/2026-05-03 - Why cultivating agency matters more than cultivating skills in the AI era - Max Schoening (Head of Product, Notion).md"
  },
@@ -4217,13 +4492,21 @@
   "podcast": "lennys-podcast",
   "date": "2026-04-26",
   "title": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Evan Spiegel"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:10:00",
+  "categories": [
+   "work",
+   "agents",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude"
+  ],
   "url": "https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is",
   "path": "transcripts/lennys-podcast/2026-04-26 - Snapchat CEO- Why distribution has become the most important moat - Evan Spiegel.md"
  },
@@ -4231,13 +4514,29 @@
   "podcast": "lennys-podcast",
   "date": "2026-04-23",
   "title": "How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Cat Wu"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:25:11",
+  "categories": [
+   "work",
+   "coding",
+   "agents"
+  ],
+  "featured": [
+   "Claude Code",
+   "Claude",
+   "Claude Cowork",
+   "Anthropic",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Slack",
+   "Claude Mythos",
+   "OpenClaw"
+  ],
   "url": "https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves",
   "path": "transcripts/lennys-podcast/2026-04-23 - How Anthropic’s product team moves faster than anyone else - Cat Wu (Head of Product, Claude Code).md"
  },
@@ -4245,13 +4544,25 @@
   "podcast": "lennys-podcast",
   "date": "2026-04-19",
   "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Nikhyl Singhal"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:34:48",
+  "categories": [
+   "work",
+   "coding",
+   "agents"
+  ],
+  "featured": [
+   "Claude",
+   "Claude Code",
+   "vibe coding"
+  ],
+  "mentioned": [
+   "OpenAI Codex"
+  ],
   "url": "https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble",
   "path": "transcripts/lennys-podcast/2026-04-19 - Why half of product managers are in trouble - Nikhyl Singhal (Meta, Google).md"
  },
@@ -4259,13 +4570,19 @@
   "podcast": "lennys-podcast",
   "date": "2026-04-12",
   "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Keith Rabois"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:22:13",
+  "categories": [
+   "work",
+   "marketing",
+   "design"
+  ],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era",
   "path": "transcripts/lennys-podcast/2026-04-12 - Hard truths about building in the AI era - Keith Rabois (Khosla Ventures).md"
  },
@@ -4273,13 +4590,30 @@
   "podcast": "lennys-podcast",
   "date": "2026-04-05",
   "title": "Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Amol Avasare"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:52:26",
+  "categories": [
+   "work",
+   "agents",
+   "coding",
+   "safety-security"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude",
+   "Claude Cowork",
+   "Claude Code"
+  ],
+  "mentioned": [
+   "Slack",
+   "ChatGPT",
+   "MCP",
+   "vibe coding"
+  ],
   "url": "https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run",
   "path": "transcripts/lennys-podcast/2026-04-05 - Head of Growth (Anthropic)- “Claude is growing itself at this point” - Amol Avasare.md"
  },
@@ -4287,13 +4621,31 @@
   "podcast": "lennys-podcast",
   "date": "2026-04-02",
   "title": "An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Simon Willison"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:39:28",
+  "categories": [
+   "coding",
+   "agents",
+   "work",
+   "safety-security"
+  ],
+  "featured": [
+   "OpenClaw",
+   "vibe coding",
+   "ChatGPT",
+   "Claude Code",
+   "Claude",
+   "Claude Opus"
+  ],
+  "mentioned": [
+   "Slack",
+   "Gemini",
+   "OpenAI Codex"
+  ],
   "url": "https://www.lennysnewsletter.com/p/an-ai-state-of-the-union",
   "path": "transcripts/lennys-podcast/2026-04-02 - An AI state of the union- We’ve passed the inflection point, dark factories are coming, and automation timelines - Simon Willison.md"
  },
@@ -4301,13 +4653,33 @@
   "podcast": "lennys-podcast",
   "date": "2026-03-29",
   "title": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Claire Vo"
+  ],
+  "format": "interview",
+  "level": 3,
+  "length": "01:46:10",
+  "categories": [
+   "agents",
+   "consumer",
+   "coding",
+   "work"
+  ],
+  "featured": [
+   "OpenClaw",
+   "computer use",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Claude",
+   "ChatGPT",
+   "ChatPRD",
+   "Slack",
+   "Perplexity",
+   "Claude Code",
+   "vibe coding",
+   "OpenAI Codex"
+  ],
   "url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
   "path": "transcripts/lennys-podcast/2026-03-29 - From skeptic to true believer- How OpenClaw changed my life - Claire Vo.md"
  },
@@ -4315,13 +4687,22 @@
   "podcast": "lennys-podcast",
   "date": "2026-03-22",
   "title": "The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jessica Fain"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:33:10",
+  "categories": [
+   "work",
+   "agents"
+  ],
+  "featured": [
+   "Slack"
+  ],
+  "mentioned": [
+   "Claude"
+  ],
   "url": "https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain",
   "path": "transcripts/lennys-podcast/2026-03-22 - The art of influence- The single most important skill that AI can’t replace - Jessica Fain (Webflow, ex-Slack).md"
  },
@@ -4329,13 +4710,17 @@
   "podcast": "lennys-podcast",
   "date": "2026-03-15",
   "title": "The tactical playbook for getting 20-40% more comp (without sounding greedy) | Jacob Warwick (Executive Negotiator)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jacob Warwick"
+  ],
+  "format": "interview",
+  "level": 0,
+  "length": "01:54:32",
+  "categories": [],
+  "featured": [],
+  "mentioned": [
+   "Claude Cowork"
+  ],
   "url": "https://www.lennysnewsletter.com/p/the-tactical-playbook-for-getting-more-comp",
   "path": "transcripts/lennys-podcast/2026-03-15 - The tactical playbook for getting 20-40% more comp (without sounding greedy) - Jacob Warwick (Executive Negotiator).md"
  },
@@ -4343,13 +4728,22 @@
   "podcast": "lennys-podcast",
   "date": "2026-03-08",
   "title": "The most successful AI company you’ve never heard of | Qasar Younis",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Qasar Younis"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:24:00",
+  "categories": [
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "OpenClaw",
+   "Figma",
+   "ChatGPT",
+   "vibe coding"
+  ],
   "url": "https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of",
   "path": "transcripts/lennys-podcast/2026-03-08 - The most successful AI company you’ve never heard of - Qasar Younis.md"
  },
@@ -4357,13 +4751,30 @@
   "podcast": "lennys-podcast",
   "date": "2026-03-01",
   "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jenny Wen"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:17:02",
+  "categories": [
+   "work",
+   "agents",
+   "coding",
+   "design"
+  ],
+  "featured": [
+   "Claude",
+   "Claude Cowork",
+   "Anthropic",
+   "Claude Code"
+  ],
+  "mentioned": [
+   "Figma",
+   "Slack",
+   "OpenClaw",
+   "agent harness"
+  ],
   "url": "https://www.lennysnewsletter.com/p/the-design-process-is-dead",
   "path": "transcripts/lennys-podcast/2026-03-01 - The design process is dead. Here’s what’s replacing it. - Jenny Wen (head of design at Claude).md"
  },
@@ -4371,13 +4782,22 @@
   "podcast": "lennys-podcast",
   "date": "2026-02-26",
   "title": "AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jeetu Patel"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:26:58",
+  "categories": [
+   "work",
+   "infrastructure"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT",
+   "Claude",
+   "Grok"
+  ],
   "url": "https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival",
   "path": "transcripts/lennys-podcast/2026-02-26 - AI is critical for humanity’s survival- Cisco president on the AI revolution - Jeetu Patel.md"
  },
@@ -4385,13 +4805,29 @@
   "podcast": "lennys-podcast",
   "date": "2026-02-19",
   "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Boris Cherny"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:27:21",
+  "categories": [
+   "coding",
+   "work",
+   "agents",
+   "safety-security"
+  ],
+  "featured": [
+   "Claude Code",
+   "Anthropic",
+   "Claude",
+   "Claude Cowork",
+   "computer use"
+  ],
+  "mentioned": [
+   "Slack",
+   "Cursor"
+  ],
   "url": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
   "path": "transcripts/lennys-podcast/2026-02-19 - Head of Claude Code- What happens after coding is solved - Boris Cherny.md"
  },
@@ -4399,13 +4835,26 @@
   "podcast": "lennys-podcast",
   "date": "2026-02-15",
   "title": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Brian Halligan"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:14:14",
+  "categories": [
+   "work",
+   "agents",
+   "marketing",
+   "consumer"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT",
+   "Slack",
+   "Gemini",
+   "Granola",
+   "OpenClaw"
+  ],
   "url": "https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been",
   "path": "transcripts/lennys-podcast/2026-02-15 - Sequoia CEO coach- Why it’s never been easier to start a company, and never been harder to scale one - Brian Halligan (co-founder, HubSpot).md"
  },
@@ -4413,13 +4862,30 @@
   "podcast": "lennys-podcast",
   "date": "2026-02-12",
   "title": "“Engineers are becoming sorcerers” | The future of software development with OpenAI’s Sherwin Wu",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Sherwin Wu"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:19:16",
+  "categories": [
+   "coding",
+   "work",
+   "agents",
+   "enterprise"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "OpenAI",
+   "ChatGPT",
+   "vibe coding"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Slack",
+   "Cursor",
+   "model routing"
+  ],
   "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers",
   "path": "transcripts/lennys-podcast/2026-02-12 - “Engineers are becoming sorcerers” - The future of software development with OpenAI’s Sherwin Wu.md"
  },
@@ -4427,13 +4893,32 @@
   "podcast": "lennys-podcast",
   "date": "2026-02-08",
   "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Lazar Jovanovic",
+   "Narrator"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:42:06",
+  "categories": [
+   "coding",
+   "work",
+   "design",
+   "agents"
+  ],
+  "featured": [
+   "Lovable",
+   "vibe coding"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "Cursor",
+   "ChatGPT",
+   "Claude Code",
+   "Claude",
+   "Whisperflow",
+   "Perplexity"
+  ],
   "url": "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code",
   "path": "transcripts/lennys-podcast/2026-02-08 - The rise of the professional vibe coder (a new AI-era job) - Lazar Jovanovic (Professional Vibe Coder).md"
  },
@@ -4441,13 +4926,22 @@
   "podcast": "lennys-podcast",
   "date": "2026-02-01",
   "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Dr. Becky Kennedy"
+  ],
+  "format": "interview",
+  "level": 0,
+  "length": "01:31:30",
+  "categories": [],
+  "featured": [],
+  "mentioned": [
+   "Figma",
+   "Replit",
+   "Lovable",
+   "Perplexity",
+   "ElevenLabs",
+   "ChatGPT"
+  ],
   "url": "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap",
   "path": "transcripts/lennys-podcast/2026-02-01 - A child psychologist’s guide to working with difficult adults - Dr. Becky Kennedy.md"
  },
@@ -4455,13 +4949,33 @@
   "podcast": "lennys-podcast",
   "date": "2026-01-29",
   "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Marc Andreessen"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:44:25",
+  "categories": [
+   "work",
+   "coding",
+   "agents",
+   "models"
+  ],
+  "featured": [
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "Claude Cowork",
+   "Replit",
+   "agent harness",
+   "Claude Code",
+   "Claude",
+   "vibe coding",
+   "Nano Banana",
+   "DeepSeek",
+   "Grok",
+   "Whisperflow"
+  ],
   "url": "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom",
   "path": "transcripts/lennys-podcast/2026-01-29 - Marc Andreessen- The real AI boom hasn’t even started yet.md"
  },
@@ -4469,13 +4983,18 @@
   "podcast": "lennys-podcast",
   "date": "2026-01-25",
   "title": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Jason Cohen"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:45:36",
+  "categories": [],
+  "featured": [],
+  "mentioned": [
+   "Whisperflow",
+   "Gemini"
+  ],
   "url": "https://www.lennysnewsletter.com/p/why-your-product-stopped-growing",
   "path": "transcripts/lennys-podcast/2026-01-25 - 5 questions to ask when your product stops growing - Jason Cohen (2x unicorn founder).md"
  },
@@ -4483,13 +5002,33 @@
   "podcast": "lennys-podcast",
   "date": "2026-01-18",
   "title": "The non-technical PM’s guide to building with Cursor | Zevi Arnovitz (Meta)",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Zevi Arnovitz"
+  ],
+  "format": "interview",
+  "level": 3,
+  "length": "01:14:46",
+  "categories": [
+   "coding",
+   "work",
+   "agents"
+  ],
+  "featured": [
+   "Claude",
+   "Cursor",
+   "Claude Code",
+   "ChatGPT",
+   "vibe coding"
+  ],
+  "mentioned": [
+   "Lovable",
+   "Gemini",
+   "OpenAI Codex",
+   "Replit",
+   "Perplexity",
+   "Whisperflow",
+   "Microsoft Copilot"
+  ],
   "url": "https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor",
   "path": "transcripts/lennys-podcast/2026-01-18 - The non-technical PM’s guide to building with Cursor - Zevi Arnovitz (Meta).md"
  },
@@ -4497,13 +5036,19 @@
   "podcast": "lennys-podcast",
   "date": "2026-01-15",
   "title": "How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook | Sam Lessin",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Sam Lessin"
+  ],
+  "format": "interview",
+  "level": 0,
+  "length": "01:26:09",
+  "categories": [],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT",
+   "vibe coding",
+   "Perplexity"
+  ],
   "url": "https://www.lennysnewsletter.com/p/silicon-valleys-missing-etiquette-playbook",
   "path": "transcripts/lennys-podcast/2026-01-15 - How to show up in any room with a low heart rate- Silicon Valley’s missing etiquette playbook - Sam Lessin.md"
  },
@@ -4511,13 +5056,26 @@
   "podcast": "lennys-podcast",
   "date": "2026-01-11",
   "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google, and Amazon",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Aishwarya Naresh Reganti",
+   "Kiriti Badam"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:25:58",
+  "categories": [
+   "agents",
+   "work",
+   "coding",
+   "enterprise"
+  ],
+  "featured": [
+   "OpenAI Codex"
+  ],
+  "mentioned": [
+   "Whisperflow",
+   "ChatGPT"
+  ],
   "url": "https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned",
   "path": "transcripts/lennys-podcast/2026-01-11 - Why most AI products fail- Lessons from 50+ AI deployments at OpenAI, Google, and Amazon.md"
  },
@@ -4525,13 +5083,15 @@
   "podcast": "lennys-podcast",
   "date": "2026-01-04",
   "title": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
-  "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "guests": [
+   "Molly Graham"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:31:29",
+  "categories": [],
+  "featured": [],
+  "mentioned": [],
   "url": "https://www.lennysnewsletter.com/p/the-high-growth-handbook-molly-graham",
   "path": "transcripts/lennys-podcast/2026-01-04 - The high-growth handbook- Molly Graham’s frameworks for leading through chaos, change, and scale.md"
  }

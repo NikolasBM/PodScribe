@@ -6,6 +6,13 @@ date: 2026-02-01
 url: "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap"
 guid: "substack:post:184714824"
 host: "Lenny Rachitsky"
+guests: ["Dr. Becky Kennedy"]
+format: "interview"
+level: 0
+length: "01:31:30"
+categories: []
+featured: []
+mentioned: ["Figma", "Replit", "Lovable", "Perplexity", "ElevenLabs", "ChatGPT"]
 transcript_source: "shared-folder"
 ---
 

@@ -6,6 +6,13 @@ date: 2026-05-10
 url: "https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands"
 guid: "substack:post:196468137"
 host: "Lenny Rachitsky"
+guests: ["Eric Ries"]
+format: "interview"
+level: 1
+length: "01:38:57"
+categories: ["funding-markets", "safety-security"]
+featured: ["Anthropic"]
+mentioned: ["ChatGPT", "Claude Code"]
 transcript_source: "shared-folder"
 ---
 

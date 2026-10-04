@@ -6,6 +6,13 @@ date: 2026-08-16
 url: "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the"
 guid: "substack:post:209801560"
 host: "Lenny Rachitsky"
+guests: ["Ian Silber"]
+format: "interview"
+level: 1
+length: "01:11:41"
+categories: ["work", "design", "coding", "consumer"]
+featured: ["ChatGPT", "OpenAI", "OpenAI Codex"]
+mentioned: ["Slack"]
 transcript_source: "shared-folder"
 ---
 

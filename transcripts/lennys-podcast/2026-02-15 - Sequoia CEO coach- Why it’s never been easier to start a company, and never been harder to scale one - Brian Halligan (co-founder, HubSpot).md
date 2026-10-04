@@ -6,6 +6,13 @@ date: 2026-02-15
 url: "https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been"
 guid: "substack:post:187154837"
 host: "Lenny Rachitsky"
+guests: ["Brian Halligan"]
+format: "interview"
+level: 1
+length: "01:14:14"
+categories: ["work", "agents", "marketing", "consumer"]
+featured: []
+mentioned: ["ChatGPT", "Slack", "Gemini", "Granola", "OpenClaw"]
 transcript_source: "shared-folder"
 ---
 

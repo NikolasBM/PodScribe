@@ -6,6 +6,13 @@ date: 2026-01-11
 url: "https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned"
 guid: "substack:post:183007822"
 host: "Lenny Rachitsky"
+guests: ["Aishwarya Naresh Reganti", "Kiriti Badam"]
+format: "interview"
+level: 1
+length: "01:25:58"
+categories: ["agents", "work", "coding", "enterprise"]
+featured: ["OpenAI Codex"]
+mentioned: ["Whisperflow", "ChatGPT"]
 transcript_source: "shared-folder"
 ---
 

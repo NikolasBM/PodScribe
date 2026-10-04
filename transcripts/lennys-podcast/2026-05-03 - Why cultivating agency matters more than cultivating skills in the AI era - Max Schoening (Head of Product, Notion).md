@@ -6,6 +6,13 @@ date: 2026-05-03
 url: "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more"
 guid: "substack:post:194566669"
 host: "Lenny Rachitsky"
+guests: ["Max Schoening"]
+format: "interview"
+level: 1
+length: "01:26:59"
+categories: ["coding", "work", "agents", "enterprise"]
+featured: ["agent loops", "vibe coding", "agent harness"]
+mentioned: ["Figma", "Slack", "OpenAI Codex", "Claude Code", "Cursor", "Claude", "ChatGPT"]
 transcript_source: "shared-folder"
 ---
 

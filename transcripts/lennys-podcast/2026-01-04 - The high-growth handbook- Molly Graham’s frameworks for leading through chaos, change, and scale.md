@@ -6,6 +6,13 @@ date: 2026-01-04
 url: "https://www.lennysnewsletter.com/p/the-high-growth-handbook-molly-graham"
 guid: "substack:post:182877855"
 host: "Lenny Rachitsky"
+guests: ["Molly Graham"]
+format: "interview"
+level: 1
+length: "01:31:29"
+categories: []
+featured: []
+mentioned: []
 transcript_source: "shared-folder"
 ---
 

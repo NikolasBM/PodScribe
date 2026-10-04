@@ -6,6 +6,13 @@ date: 2026-08-09
 url: "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent"
 guid: "substack:post:209025209"
 host: "Lenny Rachitsky"
+guests: ["Adam Ward"]
+format: "interview"
+level: 1
+length: "01:30:23"
+categories: ["work"]
+featured: ["Cursor"]
+mentioned: ["Granola", "Slack", "Whisperflow"]
 transcript_source: "shared-folder"
 ---
 

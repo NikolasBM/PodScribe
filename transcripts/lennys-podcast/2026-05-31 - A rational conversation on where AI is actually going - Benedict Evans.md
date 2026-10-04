@@ -6,6 +6,13 @@ date: 2026-05-31
 url: "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where"
 guid: "substack:post:198591907"
 host: "Lenny Rachitsky"
+guests: ["Benedict Evans"]
+format: "interview"
+level: 1
+length: "01:19:27"
+categories: ["work", "enterprise", "infrastructure", "coding"]
+featured: ["ChatGPT", "Claude"]
+mentioned: ["Gemini", "Claude Code"]
 transcript_source: "shared-folder"
 ---
 

@@ -6,6 +6,13 @@ date: 2026-02-12
 url: "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers"
 guid: "substack:post:186818429"
 host: "Lenny Rachitsky"
+guests: ["Sherwin Wu"]
+format: "interview"
+level: 2
+length: "01:19:16"
+categories: ["coding", "work", "agents", "enterprise"]
+featured: ["OpenAI Codex", "OpenAI", "ChatGPT", "vibe coding"]
+mentioned: ["OpenClaw", "Slack", "Cursor", "model routing"]
 transcript_source: "shared-folder"
 ---
 

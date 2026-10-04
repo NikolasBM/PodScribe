@@ -6,6 +6,13 @@ date: 2026-05-24
 url: "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper"
 guid: "substack:post:197415169"
 host: "Lenny Rachitsky"
+guests: ["Dan Shipper"]
+format: "interview"
+level: 2
+length: "01:34:30"
+categories: ["work", "agents", "coding", "models"]
+featured: ["ChatGPT", "Claude Code", "Claude", "Claude Opus"]
+mentioned: ["Granola", "Cursor", "Gemini", "Microsoft Copilot"]
 transcript_source: "shared-folder"
 ---
 

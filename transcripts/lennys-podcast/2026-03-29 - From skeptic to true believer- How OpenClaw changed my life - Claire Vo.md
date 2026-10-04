@@ -6,6 +6,13 @@ date: 2026-03-29
 url: "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo"
 guid: "substack:post:192012054"
 host: "Lenny Rachitsky"
+guests: ["Claire Vo"]
+format: "interview"
+level: 3
+length: "01:46:10"
+categories: ["agents", "consumer", "coding", "work"]
+featured: ["OpenClaw", "computer use", "agent harness"]
+mentioned: ["Claude", "ChatGPT", "ChatPRD", "Slack", "Perplexity", "Claude Code", "vibe coding", "OpenAI Codex"]
 transcript_source: "shared-folder"
 ---
 

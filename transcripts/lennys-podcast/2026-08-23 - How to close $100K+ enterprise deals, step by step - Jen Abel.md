@@ -6,6 +6,13 @@ date: 2026-08-23
 url: "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by"
 guid: "substack:post:211488420"
 host: "Lenny Rachitsky"
+guests: ["Jen Abel"]
+format: "interview"
+level: 1
+length: "01:24:31"
+categories: []
+featured: []
+mentioned: []
 transcript_source: "shared-folder"
 ---
 

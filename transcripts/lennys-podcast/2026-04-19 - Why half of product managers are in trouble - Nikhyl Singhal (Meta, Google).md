@@ -6,6 +6,13 @@ date: 2026-04-19
 url: "https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble"
 guid: "substack:post:193130101"
 host: "Lenny Rachitsky"
+guests: ["Nikhyl Singhal"]
+format: "interview"
+level: 1
+length: "01:34:48"
+categories: ["work", "coding", "agents"]
+featured: ["Claude", "Claude Code", "vibe coding"]
+mentioned: ["OpenAI Codex"]
 transcript_source: "shared-folder"
 ---
 

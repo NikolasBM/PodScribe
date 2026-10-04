@@ -6,6 +6,13 @@ date: 2026-04-12
 url: "https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era"
 guid: "substack:post:193008881"
 host: "Lenny Rachitsky"
+guests: ["Keith Rabois"]
+format: "interview"
+level: 1
+length: "01:22:13"
+categories: ["work", "marketing", "design"]
+featured: []
+mentioned: []
 transcript_source: "shared-folder"
 ---
 

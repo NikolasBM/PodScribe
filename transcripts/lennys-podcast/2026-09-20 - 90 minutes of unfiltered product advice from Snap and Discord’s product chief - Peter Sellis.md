@@ -6,6 +6,13 @@ date: 2026-09-20
 url: "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product"
 guid: "substack:post:213758597"
 host: "Lenny Rachitsky"
+guests: ["Peter Sellis"]
+format: "interview"
+level: 1
+length: "01:36:28"
+categories: ["work"]
+featured: []
+mentioned: ["ChatGPT"]
 transcript_source: "shared-folder"
 ---
 

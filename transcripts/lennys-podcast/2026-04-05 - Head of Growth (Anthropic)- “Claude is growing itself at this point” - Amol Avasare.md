@@ -6,6 +6,13 @@ date: 2026-04-05
 url: "https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run"
 guid: "substack:post:192660974"
 host: "Lenny Rachitsky"
+guests: ["Amol Avasare"]
+format: "interview"
+level: 1
+length: "01:52:26"
+categories: ["work", "agents", "coding", "safety-security"]
+featured: ["Anthropic", "Claude", "Claude Cowork", "Claude Code"]
+mentioned: ["Slack", "ChatGPT", "MCP", "vibe coding"]
 transcript_source: "shared-folder"
 ---
 

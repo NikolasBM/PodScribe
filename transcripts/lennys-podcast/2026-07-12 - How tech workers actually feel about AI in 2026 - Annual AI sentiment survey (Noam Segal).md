@@ -6,6 +6,13 @@ date: 2026-07-12
 url: "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about"
 guid: "substack:post:205673536"
 host: "Lenny Rachitsky"
+guests: ["Noam Segal"]
+format: "interview"
+level: 1
+length: "01:36:06"
+categories: ["work"]
+featured: []
+mentioned: ["Slack", "Cognition Devin", "Claude"]
 transcript_source: "shared-folder"
 ---
 

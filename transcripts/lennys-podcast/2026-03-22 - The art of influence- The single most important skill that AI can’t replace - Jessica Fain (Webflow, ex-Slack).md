@@ -6,6 +6,13 @@ date: 2026-03-22
 url: "https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain"
 guid: "substack:post:189787031"
 host: "Lenny Rachitsky"
+guests: ["Jessica Fain"]
+format: "interview"
+level: 1
+length: "01:33:10"
+categories: ["work", "agents"]
+featured: ["Slack"]
+mentioned: ["Claude"]
 transcript_source: "shared-folder"
 ---
 

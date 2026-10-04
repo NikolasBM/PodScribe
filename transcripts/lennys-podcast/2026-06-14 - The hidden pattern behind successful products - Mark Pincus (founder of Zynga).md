@@ -6,6 +6,13 @@ date: 2026-06-14
 url: "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful"
 guid: "substack:post:198591984"
 host: "Lenny Rachitsky"
+guests: ["Mark Pincus"]
+format: "interview"
+level: 1
+length: "01:38:57"
+categories: ["agents", "work"]
+featured: []
+mentioned: ["Claude", "Slack"]
 transcript_source: "shared-folder"
 ---
 

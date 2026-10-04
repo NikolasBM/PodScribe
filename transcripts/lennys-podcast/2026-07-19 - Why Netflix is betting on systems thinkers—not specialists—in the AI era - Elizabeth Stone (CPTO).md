@@ -6,6 +6,13 @@ date: 2026-07-19
 url: "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future"
 guid: "substack:post:205675851"
 host: "Lenny Rachitsky"
+guests: ["Elizabeth Stone"]
+format: "interview"
+level: 1
+length: "01:11:43"
+categories: ["work", "design", "coding", "marketing"]
+featured: ["distillation"]
+mentioned: []
 transcript_source: "shared-folder"
 ---
 

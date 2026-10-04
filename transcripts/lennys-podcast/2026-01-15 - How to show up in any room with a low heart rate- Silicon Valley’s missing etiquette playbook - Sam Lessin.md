@@ -6,6 +6,13 @@ date: 2026-01-15
 url: "https://www.lennysnewsletter.com/p/silicon-valleys-missing-etiquette-playbook"
 guid: "substack:post:183005286"
 host: "Lenny Rachitsky"
+guests: ["Sam Lessin"]
+format: "interview"
+level: 0
+length: "01:26:09"
+categories: []
+featured: []
+mentioned: ["ChatGPT", "vibe coding", "Perplexity"]
 transcript_source: "shared-folder"
 ---
 

@@ -6,6 +6,13 @@ date: 2026-02-26
 url: "https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival"
 guid: "substack:post:187580003"
 host: "Lenny Rachitsky"
+guests: ["Jeetu Patel"]
+format: "interview"
+level: 1
+length: "01:26:58"
+categories: ["work", "infrastructure"]
+featured: []
+mentioned: ["ChatGPT", "Claude", "Grok"]
 transcript_source: "shared-folder"
 ---
 

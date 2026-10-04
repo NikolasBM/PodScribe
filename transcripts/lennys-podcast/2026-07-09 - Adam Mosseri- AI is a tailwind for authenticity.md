@@ -6,6 +6,13 @@ date: 2026-07-09
 url: "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for"
 guid: "substack:post:203476809"
 host: "Lenny Rachitsky"
+guests: ["Adam Mosseri"]
+format: "interview"
+level: 1
+length: "01:08:06"
+categories: ["work", "coding", "design", "model-strategy"]
+featured: []
+mentioned: ["Claude Code", "Claude", "vibe coding", "OpenAI Codex", "Claude Mythos"]
 transcript_source: "shared-folder"
 ---
 

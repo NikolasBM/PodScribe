@@ -6,6 +6,13 @@ date: 2026-09-08
 url: "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month"
 guid: "substack:post:214070217"
 host: "Lenny Rachitsky"
+guests: ["Roman Ugarte"]
+format: "interview"
+level: 1
+length: "01:22:20"
+categories: ["agents", "work"]
+featured: ["Grok Bot", "Cursor", "computer use"]
+mentioned: ["OpenClaw", "Slack", "OpenAI Codex", "Claude Cowork", "ChatGPT"]
 transcript_source: "shared-folder"
 ---
 

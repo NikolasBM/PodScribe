@@ -6,6 +6,13 @@ date: 2026-06-21
 url: "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering"
 guid: "substack:post:201226747"
 host: "Lenny Rachitsky"
+guests: ["Fiona Fung"]
+format: "interview"
+level: 1
+length: "01:38:22"
+categories: ["work", "coding", "agents"]
+featured: ["Claude", "Claude Code", "Claude Cowork", "Anthropic"]
+mentioned: ["Slack"]
 transcript_source: "shared-folder"
 ---
 

@@ -6,6 +6,13 @@ date: 2026-03-01
 url: "https://www.lennysnewsletter.com/p/the-design-process-is-dead"
 guid: "substack:post:188846384"
 host: "Lenny Rachitsky"
+guests: ["Jenny Wen"]
+format: "interview"
+level: 1
+length: "01:17:02"
+categories: ["work", "agents", "coding", "design"]
+featured: ["Claude", "Claude Cowork", "Anthropic", "Claude Code"]
+mentioned: ["Figma", "Slack", "OpenClaw", "agent harness"]
 transcript_source: "shared-folder"
 ---
 

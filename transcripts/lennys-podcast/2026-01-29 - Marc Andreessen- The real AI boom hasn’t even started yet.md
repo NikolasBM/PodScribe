@@ -6,6 +6,13 @@ date: 2026-01-29
 url: "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom"
 guid: "substack:post:185338497"
 host: "Lenny Rachitsky"
+guests: ["Marc Andreessen"]
+format: "interview"
+level: 1
+length: "01:44:25"
+categories: ["work", "coding", "agents", "models"]
+featured: ["ChatGPT"]
+mentioned: ["Claude Cowork", "Replit", "agent harness", "Claude Code", "Claude", "vibe coding", "Nano Banana", "DeepSeek", "Grok", "Whisperflow"]
 transcript_source: "shared-folder"
 ---
 

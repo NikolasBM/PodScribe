@@ -6,6 +6,13 @@ date: 2026-01-25
 url: "https://www.lennysnewsletter.com/p/why-your-product-stopped-growing"
 guid: "substack:post:184576103"
 host: "Lenny Rachitsky"
+guests: ["Jason Cohen"]
+format: "interview"
+level: 1
+length: "01:45:36"
+categories: []
+featured: []
+mentioned: ["Whisperflow", "Gemini"]
 transcript_source: "shared-folder"
 ---
 

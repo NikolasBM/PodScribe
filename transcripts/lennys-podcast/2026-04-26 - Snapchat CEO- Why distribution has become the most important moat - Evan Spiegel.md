@@ -6,6 +6,13 @@ date: 2026-04-26
 url: "https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is"
 guid: "substack:post:194544019"
 host: "Lenny Rachitsky"
+guests: ["Evan Spiegel"]
+format: "interview"
+level: 1
+length: "01:10:00"
+categories: ["work", "agents", "coding"]
+featured: []
+mentioned: ["Claude"]
 transcript_source: "shared-folder"
 ---
 

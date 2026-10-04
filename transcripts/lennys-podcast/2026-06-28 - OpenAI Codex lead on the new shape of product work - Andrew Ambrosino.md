@@ -6,6 +6,13 @@ date: 2026-06-28
 url: "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape"
 guid: "substack:post:202769820"
 host: "Lenny Rachitsky"
+guests: ["Andrew Ambrosino", "Speaker 3", "Speaker 4"]
+format: "interview"
+level: 1
+length: "01:09:55"
+categories: ["work", "coding", "agents", "design"]
+featured: ["OpenAI Codex", "OpenAI", "ChatGPT", "computer use"]
+mentioned: ["Slack", "Claude Code", "Figma", "OpenClaw"]
 transcript_source: "shared-folder"
 ---
 

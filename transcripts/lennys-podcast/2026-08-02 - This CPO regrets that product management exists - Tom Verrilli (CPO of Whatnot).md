@@ -6,6 +6,13 @@ date: 2026-08-02
 url: "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management"
 guid: "substack:post:209025231"
 host: "Lenny Rachitsky"
+guests: ["Tom Verrilli"]
+format: "interview"
+level: 1
+length: "01:24:33"
+categories: ["work", "coding"]
+featured: []
+mentioned: ["Claude"]
 transcript_source: "shared-folder"
 ---
 

@@ -6,6 +6,13 @@ date: 2026-03-08
 url: "https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of"
 guid: "substack:post:189615019"
 host: "Lenny Rachitsky"
+guests: ["Qasar Younis"]
+format: "interview"
+level: 1
+length: "01:24:00"
+categories: ["work"]
+featured: []
+mentioned: ["OpenClaw", "Figma", "ChatGPT", "vibe coding"]
 transcript_source: "shared-folder"
 ---
 

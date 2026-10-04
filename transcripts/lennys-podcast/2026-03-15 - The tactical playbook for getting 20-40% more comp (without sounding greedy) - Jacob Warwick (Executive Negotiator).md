@@ -6,6 +6,13 @@ date: 2026-03-15
 url: "https://www.lennysnewsletter.com/p/the-tactical-playbook-for-getting-more-comp"
 guid: "substack:post:189787695"
 host: "Lenny Rachitsky"
+guests: ["Jacob Warwick"]
+format: "interview"
+level: 0
+length: "01:54:32"
+categories: []
+featured: []
+mentioned: ["Claude Cowork"]
 transcript_source: "shared-folder"
 ---
 

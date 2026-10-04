@@ -6,6 +6,13 @@ date: 2026-09-06
 url: "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series"
 guid: "substack:post:213044770"
 host: "Lenny Rachitsky"
+guests: ["Anish Acharya"]
+format: "interview"
+level: 1
+length: "01:18:59"
+categories: ["agents", "work", "consumer", "coding"]
+featured: ["Grok Bot", "Grok", "open-weight models", "ChatGPT"]
+mentioned: ["OpenAI Codex", "Cursor", "recursive self-improvement", "Granola", "Claude Code", "Claude", "distillation", "Qwen", "Instinct", "OpenClaw", "Claude Mythos", "GPT-6", "Claude Cowork", "Gemini"]
 transcript_source: "shared-folder"
 ---
 

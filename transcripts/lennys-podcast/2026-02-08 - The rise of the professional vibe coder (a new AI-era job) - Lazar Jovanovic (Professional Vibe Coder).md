@@ -6,6 +6,13 @@ date: 2026-02-08
 url: "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code"
 guid: "substack:post:186928764"
 host: "Lenny Rachitsky"
+guests: ["Lazar Jovanovic", "Narrator"]
+format: "interview"
+level: 2
+length: "01:42:06"
+categories: ["coding", "work", "design", "agents"]
+featured: ["Lovable", "vibe coding"]
+mentioned: ["OpenAI Codex", "Cursor", "ChatGPT", "Claude Code", "Claude", "Whisperflow", "Perplexity"]
 transcript_source: "shared-folder"
 ---
 

@@ -6,6 +6,13 @@ date: 2026-04-23
 url: "https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves"
 guid: "substack:post:194236002"
 host: "Lenny Rachitsky"
+guests: ["Cat Wu"]
+format: "interview"
+level: 2
+length: "01:25:11"
+categories: ["work", "coding", "agents"]
+featured: ["Claude Code", "Claude", "Claude Cowork", "Anthropic", "agent harness"]
+mentioned: ["Slack", "Claude Mythos", "OpenClaw"]
 transcript_source: "shared-folder"
 ---
 

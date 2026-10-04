@@ -6,6 +6,13 @@ date: 2026-01-18
 url: "https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor"
 guid: "substack:post:184167026"
 host: "Lenny Rachitsky"
+guests: ["Zevi Arnovitz"]
+format: "interview"
+level: 3
+length: "01:14:46"
+categories: ["coding", "work", "agents"]
+featured: ["Claude", "Cursor", "Claude Code", "ChatGPT", "vibe coding"]
+mentioned: ["Lovable", "Gemini", "OpenAI Codex", "Replit", "Perplexity", "Whisperflow", "Microsoft Copilot"]
 transcript_source: "shared-folder"
 ---
 

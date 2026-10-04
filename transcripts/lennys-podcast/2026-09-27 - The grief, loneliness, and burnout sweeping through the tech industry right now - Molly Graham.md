@@ -6,6 +6,13 @@ date: 2026-09-27
 url: "https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout"
 guid: "substack:post:214070196"
 host: "Lenny Rachitsky"
+guests: ["Molly Graham"]
+format: "interview"
+level: 1
+length: "01:33:51"
+categories: ["work", "agents", "coding"]
+featured: []
+mentioned: ["Claude Code", "Grok Bot", "OpenAI Codex"]
 transcript_source: "shared-folder"
 ---
 

@@ -6,6 +6,13 @@ date: 2026-07-26
 url: "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on"
 guid: "substack:post:207214207"
 host: "Lenny Rachitsky"
+guests: ["Diane Penn"]
+format: "interview"
+level: 1
+length: "01:33:21"
+categories: ["work", "agents", "coding", "models"]
+featured: ["Claude", "Anthropic", "Claude Code"]
+mentioned: ["computer use", "MCP", "Claude Design", "Slack", "Claude Mythos", "agent harness", "OpenAI Codex"]
 transcript_source: "shared-folder"
 ---
 

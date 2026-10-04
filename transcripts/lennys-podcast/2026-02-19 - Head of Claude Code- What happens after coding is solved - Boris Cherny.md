@@ -6,6 +6,13 @@ date: 2026-02-19
 url: "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens"
 guid: "substack:post:188147394"
 host: "Lenny Rachitsky"
+guests: ["Boris Cherny"]
+format: "interview"
+level: 2
+length: "01:27:21"
+categories: ["coding", "work", "agents", "safety-security"]
+featured: ["Claude Code", "Anthropic", "Claude", "Claude Cowork", "computer use"]
+mentioned: ["Slack", "Cursor"]
 transcript_source: "shared-folder"
 ---
 

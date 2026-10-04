@@ -6,6 +6,13 @@ date: 2026-08-30
 url: "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent"
 guid: "substack:post:211586245"
 host: "Lenny Rachitsky"
+guests: ["Tara Seshan"]
+format: "interview"
+level: 1
+length: "01:21:20"
+categories: ["agents", "work", "coding"]
+featured: ["OpenAI Codex", "OpenAI", "ChatGPT", "agent harness"]
+mentioned: ["Slack", "Claude Code", "computer use"]
 transcript_source: "shared-folder"
 ---
 
