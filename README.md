@@ -7,6 +7,7 @@ An archive of transcripts from AI podcasts. New episodes are fetched or transcri
 | Podcast | Folder | Source | Since |
 |---|---|---|---|
 | [The AI Daily Brief](https://aidailybrief.ai/) (NLW) | `transcripts/ai-daily-brief/` | Transcripts published by the show | 2026-06-01 |
+| [Lenny's Podcast](https://www.lennysnewsletter.com/podcast) (Lenny Rachitsky) | `transcripts/lennys-podcast/` | Transcripts from a shared folder, matched to episodes via the podcast feed | 2026-01-01 |
 | [How I AI](https://podcasts.apple.com/us/podcast/how-i-ai/id1809663079) (Claire Vo) | `transcripts/how-i-ai/` | Transcribed from the audio with Azure MAI-Transcribe | 2026-09-01 |
 | [Latent Space](https://www.latent.space/) (Swyx & Alessio) | `transcripts/latent-space/` | Transcripts published in the show's Substack posts | 2026-06-01 |
 
@@ -60,7 +61,7 @@ mentioned: ["Cursor", "Claude Code", "Kimi"]
 | `length` | Approximate: the last timestamp in the transcript |
 | `categories` | Up to 4 topics, strongest first (see [`vocabulary.toml`](vocabulary.toml) for the list) |
 | `featured`, `mentioned` | Technologies the episode is about / only mentions |
-| `transcript_source`, `transcribed_by` | `publisher` (the show's own transcript) or `azure-asr` (transcribed here) |
+| `transcript_source`, `transcribed_by` | `publisher` (the show's own transcript), `shared-folder` (provided as a file) or `azure-asr` (transcribed here) |
 
 `format`, `level`, `categories`, `featured` and `mentioned` are judged by a small classification model ([Jev](https://typesafe.ai)) against the vocabulary, so treat them as good filters, not as facts. Sponsor reads have been removed from the text.
 
@@ -89,6 +90,7 @@ A GitHub Actions workflow (`.github/workflows/fetch.yml`) runs `fetch_transcript
 
 - **`published`** — the show publishes its own transcripts at one URL per date. The script checks the last 30 days and downloads any that aren't in the archive yet. Not every date has an episode.
 - **`substack`** — the show's posts on a Substack publication include the transcript. The script lists the publication's podcast posts, and saves those that have a transcript and aren't in the archive yet (some posts only have show notes).
+- **`folder`** — the transcripts are plain-text files in a shared Dropbox folder, named after the guest. The script matches each file to an episode in the podcast's RSS feed (by guest name and episode length) and takes title, date and link from the feed. The folder link is a repository secret.
 - **`rss`** — the script reads the podcast's RSS feed, downloads the audio of new episodes and transcribes it with [MAI-Transcribe](https://learn.microsoft.com/azure/ai-services/speech-service/mai-transcribe) through Azure Speech's fast transcription API, with speaker diarization.
 
 New transcripts are committed and pushed to this repo, and `catalog.csv`/`catalog.json` are rebuilt.
