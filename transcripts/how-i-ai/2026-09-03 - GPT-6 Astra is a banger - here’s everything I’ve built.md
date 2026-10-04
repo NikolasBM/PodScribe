@@ -8,7 +8,7 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/GPT-6-Astra-is-a-bange
 Format: review · Level: 3 · Length: ~00:31:51
 Host: Claire Vo
 Categories: coding, models, design, agents
-Featured: GPT-6, computer use, ChatPRD, Blender, OpenAI
+Featured: GPT-6, computer use, ChatPRD, Blender
 Also mentioned: OpenAI Codex, GPT-5.6, Slack, Grok Bot, OpenClaw, Figma, ChatGPT Images, Granola
 <!-- /metadata -->
 

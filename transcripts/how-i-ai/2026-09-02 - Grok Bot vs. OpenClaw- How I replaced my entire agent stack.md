@@ -8,7 +8,7 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/Grok-Bot-vs--OpenClaw-
 Format: demo · Level: 2 · Length: ~00:35:49
 Host: Claire Vo
 Categories: agents, consumer, coding
-Featured: Grok Bot, OpenClaw, Grok, SpaceX AI, agent harness
+Featured: Grok Bot, OpenClaw, Grok, agent harness
 Also mentioned: ChatPRD, Slack, Cursor
 <!-- /metadata -->
 

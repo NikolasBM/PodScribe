@@ -7,7 +7,7 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/Jev-for-beginners-how-
 <!-- metadata -->
 Format: tutorial · Level: 2 · Length: ~00:25:56
 Host: Claire Vo
-Categories: model-strategy, coding, models
+Categories: model-strategy, models, coding
 Featured: Jev, ChatPRD
 Also mentioned: GPT-6, OpenAI Codex, Claude Code, Grok, Meta Muse, Grok Bot, Gemini
 <!-- /metadata -->
