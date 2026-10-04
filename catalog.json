@@ -5132,7 +5132,9 @@
   "podcast": "lean-ai-podcast",
   "date": "2025-06-12",
   "title": "From Data to Dollars: Building Practical AI in Large Organizations",
-  "guests": null,
+  "guests": [
+   "Siddarth Anand"
+  ],
   "format": "interview",
   "level": 1,
   "length": "00:36:35",
@@ -5416,7 +5418,9 @@
   "podcast": "lean-ai-podcast",
   "date": "2024-08-22",
   "title": "Driving AI Adoption Through Business Transformation",
-  "guests": null,
+  "guests": [
+   "Bjoern Lasse Herrmann"
+  ],
   "format": "interview",
   "level": 1,
   "length": "00:34:10",
