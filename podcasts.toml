@@ -16,6 +16,7 @@ slug = "ai-daily-brief"
 name = "The AI Daily Brief"
 source = "published"
 transcript_url = "https://aidailybrief.ai/e/{date}/transcript.md"
+ad_start_cues = ["brought to you by"]
 since = 2026-06-01
 
 [[podcast]]

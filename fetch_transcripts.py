@@ -10,6 +10,7 @@ import json
 import os
 import re
 import sys
+import threading
 import time
 import tomllib
 import urllib.error
@@ -33,7 +34,14 @@ SENTENCE_SPLIT_RE = re.compile(r"(?<=[.?!])\s+")
 DOMAIN_RE = re.compile(r"\b[\w-]+\.(?:com|ai|io|dev|org)\b", re.IGNORECASE)
 SPELLED_DOMAIN_RE = re.compile(r"^That's\b.*(?:\.(?:com|ai|io|dev|org)\b|\b[A-Z](?:-[A-Z])+\b)", re.IGNORECASE)
 PARAGRAPH_RE = re.compile(r"^(?:\*\*(?P<speaker>[^*]+)\*\* )?\[(?P<ts>\d\d:\d\d:\d\d)\] (?P<text>.*)$", re.DOTALL)
+TS_RE = re.compile(r"\[(\d\d):(\d\d):(\d\d)\]")
+EDIT_MARKER_RE = re.compile(r"^[\w .]{1,40}_EDIT:\s*")
+# A marker like "blitzy July_EDIT:" names a sponsor edit; the usual ones start with a date ("260813 hed_EDIT:")
+SPONSOR_MARKER_RE = re.compile(r"^(?!\d{6})[\w .]{1,40}_EDIT:")
+SPEAKER_LABEL_RE = re.compile(r"^(?:Nathaniel Whittemore(?:'s audio recording)?|Speaker):\s*")
 MAX_AD_SECONDS = 240
+MAX_AD_SENTENCES = 24
+JEV_MIN_INTERVAL = 0.06  # seconds between requests, to stay under the 1,200 requests/minute limit
 JEV_URL = "https://api.typesafe.ai/v1/systemone"
 JEV_MODEL = "jev-1.13.0"
 JEV_AD_THRESHOLD = 0.5
@@ -126,6 +134,9 @@ def fetch_published(podcast, out_dir, since, until, limit):
 
         if content is not None:
             title = sanitize_filename(extract_title(content, date_str))
+            head, sep, body = content.partition("\n---\n\n")
+            if sep:
+                content = head + sep + strip_ads(body.rstrip("\n"), podcast) + "\n"
             (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8", newline="\n")
             print(f"saved {date_str}: {title}")
             count += 1
@@ -291,20 +302,43 @@ def render_transcript(result, names):
     return "\n\n".join(paragraphs)
 
 
-def parse_paragraphs(body):
-    """Split rendered paragraphs into speaker, timestamp and sentences. None if the body isn't in that format."""
+def parse_rendered(body):
+    """Paragraphs of our own rendering: optional `**Speaker**`, then `[HH:MM:SS]`, then text. None if the body isn't in that format."""
     paragraphs = []
     for raw in body.split("\n\n"):
         m = PARAGRAPH_RE.match(raw)
         if not m:
             return None
         h, mi, sec = m["ts"].split(":")
-        paragraphs.append({"speaker": m["speaker"], "ts": m["ts"], "secs": int(h) * 3600 + int(mi) * 60 + int(sec),
-                           "sentences": SENTENCE_SPLIT_RE.split(m["text"].strip())})
-    return paragraphs
+        sentences = SENTENCE_SPLIT_RE.split(m["text"].strip())
+        paragraphs.append({"raw": raw, "speaker": m["speaker"], "ts": m["ts"], "marker": "", "sponsor_marker": False,
+                           "sentences": sentences, "secs": [int(h) * 3600 + int(mi) * 60 + int(sec)] * len(sentences)})
+    return paragraphs, ["\n\n"] * (len(paragraphs) - 1)
 
 
-def rule_ads(sentences, text, secs, podcast):
+def parse_published(body):
+    """Paragraphs of a show's own transcript: blank-line separated, [HH:MM:SS] inline, optional edit marker and speaker label."""
+    parts = re.split(r"(\n{2,})", body)
+    paragraphs, now = [], 0
+    for raw in parts[::2]:
+        text = raw
+        marker = EDIT_MARKER_RE.match(text)
+        text = text[marker.end():] if marker else text
+        speaker = SPEAKER_LABEL_RE.match(text)
+        text = text[speaker.end():] if speaker else text
+        sentences, secs = SENTENCE_SPLIT_RE.split(text.strip()), []
+        for sentence in sentences:
+            stamps = TS_RE.findall(sentence)
+            if stamps:
+                now = int(stamps[-1][0]) * 3600 + int(stamps[-1][1]) * 60 + int(stamps[-1][2])
+            secs.append(now)
+        paragraphs.append({"raw": raw, "speaker": speaker[0] if speaker else None, "ts": None,
+                           "marker": marker[0] if marker else "", "sponsor_marker": bool(SPONSOR_MARKER_RE.match(raw)),
+                           "sentences": sentences, "secs": secs})
+    return paragraphs, parts[1::2]
+
+
+def rule_ads(sentences, text, secs, podcast, forced_starts=()):
     """Sentence indexes of sponsor reads found by the podcast's ad_*_cues.
 
     An ad starts at the first sentence with one of the ad_start_cues and ends at
@@ -321,10 +355,10 @@ def rule_ads(sentences, text, secs, podcast):
     tail_cues = podcast.get("ad_tail_cues", [])
     removed, k = set(), 0
     while k < len(sentences):
-        if not has(text(k), start_cues):
+        if k not in forced_starts and not has(text(k), start_cues):
             k += 1
             continue
-        end = next((e for e in range(k, len(sentences))
+        end = next((e for e in range(k, min(len(sentences), k + MAX_AD_SENTENCES))
                     if secs(e) - secs(k) <= MAX_AD_SECONDS
                     and (DOMAIN_RE.search(text(e)) or has(text(e), end_cues))), None)
         if end is None:
@@ -338,24 +372,35 @@ def rule_ads(sentences, text, secs, podcast):
     return removed
 
 
+_jev_lock = threading.Lock()
+_jev_next = [0.0]
+
+
 def jev_call(state, questions):
-    """One System One request to TypeSafe (Jev). Retries rate limits and server errors."""
+    """One System One request to TypeSafe (Jev), paced and with retries on rate limits and server errors."""
     request = urllib.request.Request(
         JEV_URL,
         data=json.dumps({"state": state, "model": JEV_MODEL, "questions": questions}).encode(),
         headers={"Authorization": f"Bearer {os.environ['TYPESAFE_API_KEY']}", "Content-Type": "application/json"},
     )
-    for attempt in range(4):
+    for attempt in range(6):
+        with _jev_lock:
+            now = time.monotonic()
+            wait = max(0.0, _jev_next[0] - now)
+            _jev_next[0] = max(now, _jev_next[0]) + JEV_MIN_INTERVAL
+        time.sleep(wait)
+        delay = min(2 ** attempt, 30)
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 return json.load(response)["answers"]
         except urllib.error.HTTPError as e:
-            if e.code not in (429, 500, 502, 503, 529) or attempt == 3:
+            if e.code not in (429, 500, 502, 503, 529) or attempt == 5:
                 raise
+            delay = max(delay, int(e.headers.get("retry-after", 0) or 0))
         except (urllib.error.URLError, TimeoutError):
-            if attempt == 3:
+            if attempt == 5:
                 raise
-        time.sleep(2 ** attempt)
+        time.sleep(delay)
 
 
 def jev_scores(sentences, text, skip=()):
@@ -401,62 +446,130 @@ def jev_ads(sentences, secs, scores, near=()):
     return removed
 
 
-def strip_ads(body, podcast):
-    """Remove sponsor reads from rendered paragraphs: first by the podcast's cues, then, if TYPESAFE_API_KEY is set, by Jev."""
-    paragraphs = parse_paragraphs(body)
-    if paragraphs is None:
-        return body
-    sentences = [(i, j) for i, p in enumerate(paragraphs) for j in range(len(p["sentences"]))]
-    text = lambda k: paragraphs[sentences[k][0]]["sentences"][sentences[k][1]]
-    secs = lambda k: paragraphs[sentences[k][0]]["secs"]
+class Sentences:
+    """Flat view of a parsed body: sentence k is paragraphs[i]['sentences'][j]. text() is clean text for cues and Jev."""
 
-    removed = rule_ads(sentences, text, secs, podcast)
-    if os.environ.get("TYPESAFE_API_KEY"):
-        try:
-            scores = jev_scores(sentences, text, skip=removed)
-            removed |= jev_ads(sentences, secs, scores, near=removed)
-        except Exception as e:
-            warn(f"Jev sponsor detection failed, using cues only: {type(e).__name__}: {e}")
-    removed = {sentences[k] for k in removed}
+    def __init__(self, paragraphs):
+        self.paragraphs = paragraphs
+        self.index = [(i, j) for i, p in enumerate(paragraphs) for j in range(len(p["sentences"]))]
+
+    def __len__(self):
+        return len(self.index)
+
+    def text(self, k):
+        i, j = self.index[k]
+        return TS_RE.sub("", self.paragraphs[i]["sentences"][j]).strip()
+
+    def secs(self, k):
+        i, j = self.index[k]
+        return self.paragraphs[i]["secs"][j]
+
+    def forced_starts(self):
+        return {k for k, (i, j) in enumerate(self.index) if j == 0 and self.paragraphs[i]["sponsor_marker"]}
+
+
+def detect_ads(flat, podcast, use_jev=True):
+    """Returns (cue-found, Jev-found, scores) as sets of sentence indexes."""
+    cues = rule_ads(flat.index, flat.text, flat.secs, podcast, flat.forced_starts())
+    jev, scores = set(), {}
+    if use_jev and os.environ.get("TYPESAFE_API_KEY"):
+        scores = jev_scores(flat.index, flat.text, skip=cues)
+        jev = jev_ads(flat.index, flat.secs, scores, near=cues)
+    return cues, jev, scores
+
+
+def parse_body(body, source):
+    return (parse_published if source == "published" else parse_rendered)(body)
+
+
+def strip_ads(body, podcast, strict=False):
+    """Remove sponsor reads from a transcript body: first by the podcast's cues, then, if TYPESAFE_API_KEY is set, by Jev.
+
+    Untouched paragraphs are kept byte for byte. With strict=True a Jev failure raises instead of falling back to cues.
+    """
+    source = podcast["source"]
+    parsed = parse_body(body, source)
+    if parsed is None:
+        return body
+    paragraphs, separators = parsed
+    flat = Sentences(paragraphs)
+    try:
+        cues, jev, _ = detect_ads(flat, podcast)
+    except Exception as e:
+        if strict:
+            raise
+        warn(f"Jev sponsor detection failed, using cues only: {type(e).__name__}: {e}")
+        cues, jev, _ = detect_ads(flat, podcast, use_jev=False)
+    removed = {flat.index[k] for k in cues | jev}
 
     out, pending_speaker = [], None
     for i, p in enumerate(paragraphs):
-        kept = [s for j, s in enumerate(p["sentences"]) if (i, j) not in removed]
+        kept = [(j, s) for j, s in enumerate(p["sentences"]) if (i, j) not in removed]
         if not kept:
             pending_speaker = p["speaker"] or pending_speaker
+            out.append(None)
             continue
-        speaker = p["speaker"] or pending_speaker
+        if len(kept) == len(p["sentences"]) and not (pending_speaker and not p["speaker"]):
+            out.append(p["raw"])
+        else:
+            speaker = p["speaker"] or pending_speaker
+            text = " ".join(s for _, s in kept)
+            if source == "published":
+                out.append((p["marker"] if kept[0][0] == 0 else "") + (speaker or "") + text)
+            else:
+                out.append(f"{f'**{speaker}** ' if speaker else ''}[{p['ts']}] {text}")
         pending_speaker = None
-        label = f"**{speaker}** " if speaker else ""
-        out.append(f"{label}[{p['ts']}] {' '.join(kept)}")
-    return "\n\n".join(out)
+
+    result = []
+    for i, paragraph in enumerate(out):
+        if paragraph is not None:
+            result.append(paragraph)
+            if i < len(separators) and any(q is not None for q in out[i + 1:]):
+                result.append(separators[i])
+    return "".join(result)
 
 
 def check_ads(path, podcast):
     """Print the sponsor reads that the cues and Jev find in a transcript file. Writes nothing."""
     body = Path(path).read_text(encoding="utf-8").partition("\n---\n\n")[2].strip()
-    paragraphs = parse_paragraphs(body)
-    sentences = [(i, j) for i, p in enumerate(paragraphs) for j in range(len(p["sentences"]))]
-    text = lambda k: paragraphs[sentences[k][0]]["sentences"][sentences[k][1]]
-    secs = lambda k: paragraphs[sentences[k][0]]["secs"]
-    found = {"cues": rule_ads(sentences, text, secs, podcast)}
-    if os.environ.get("TYPESAFE_API_KEY"):
-        scores = jev_scores(sentences, text)
-        found["jev"] = jev_ads(sentences, secs, scores, near=found["cues"])
-        for k in range(len(sentences)):
-            if 0.1 <= scores[k] < JEV_AD_THRESHOLD:
-                print(f"  borderline {format_timestamp(secs(k) * 1000)} p={scores[k]:.2f} {text(k)[:80]}")
-    for name, removed in found.items():
+    flat = Sentences(parse_body(body, podcast["source"])[0])
+    cues, jev, scores = detect_ads(flat, podcast)
+    for name, removed in {"cues": cues, "jev": jev}.items():
+        if name == "jev" and not scores:
+            continue
         runs = []
         for k in sorted(removed):
             if runs and runs[-1][-1] == k - 1:
                 runs[-1].append(k)
             else:
                 runs.append([k])
-        print(f"{Path(path).name} [{name}]: {len(runs)} sponsor reads")
+        print(f"{Path(path).name} [{name}]: {len(runs)} sponsor reads, {len(removed)} sentences")
         for run in runs:
-            print(f"  {format_timestamp(secs(run[0]) * 1000)} {len(run)} sentences: "
-                  f"{text(run[0])[:70]} … {text(run[-1])[-70:]}")
+            print(f"  {format_timestamp(flat.secs(run[0]) * 1000)} {len(run)} sentences: "
+                  f"{flat.text(run[0])[:70]} … {flat.text(run[-1])[-70:]}")
+    for k in range(len(flat)):
+        if 0.1 <= scores.get(k, 0) < JEV_AD_THRESHOLD:
+            print(f"  borderline {format_timestamp(flat.secs(k) * 1000)} p={scores[k]:.2f} {flat.text(k)[:80]}")
+
+
+def clean_ads(out_dir, podcast):
+    """Re-run sponsor removal over a podcast's saved transcripts. Needs Jev to succeed: a file where it fails is left alone."""
+    changed = 0
+    for path in sorted(out_dir.glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        head, sep, body = text.partition("\n---\n\n")
+        if not sep:
+            continue
+        try:
+            new = strip_ads(body.rstrip("\n"), podcast, strict=True) + "\n"
+        except Exception as e:
+            warn(f"{path.name}: skipped, {type(e).__name__}: {e}")
+            continue
+        if new != body:
+            path.write_text(head + sep + new, encoding="utf-8", newline="\n")
+            print(f"cleaned {path.name}: {len(body) - len(new)} characters removed")
+            changed += 1
+    return changed
 
 
 def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
@@ -517,6 +630,8 @@ def main():
                         help="List RSS episodes that would be transcribed, without downloading or transcribing")
     parser.add_argument("--check-ads", nargs="+", metavar="FILE",
                         help="Print the sponsor reads found in these transcript files (needs --podcast), then exit")
+    parser.add_argument("--clean-ads", action="store_true",
+                        help="Re-run sponsor removal over the saved transcripts of --podcast (needs TYPESAFE_API_KEY), then exit")
     args = parser.parse_args()
 
     # Episode titles can contain characters a Windows console can't encode
@@ -543,6 +658,13 @@ def main():
             sys.exit(1)
         for path in args.check_ads:
             check_ads(path, podcasts[0])
+        sys.exit(0)
+
+    if args.clean_ads:
+        if len(podcasts) != 1 or not os.environ.get("TYPESAFE_API_KEY"):
+            print("--clean-ads needs --podcast and TYPESAFE_API_KEY", file=sys.stderr)
+            sys.exit(1)
+        print(f"{clean_ads(ROOT / 'transcripts' / podcasts[0]['slug'], podcasts[0])} transcripts cleaned")
         sys.exit(0)
 
     total = 0
