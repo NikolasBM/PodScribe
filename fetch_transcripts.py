@@ -37,7 +37,9 @@ MAX_AD_SECONDS = 240
 JEV_URL = "https://api.typesafe.ai/v1/systemone"
 JEV_MODEL = "jev-1.13.0"
 JEV_AD_THRESHOLD = 0.5
-JEV_MIN_RUN = 3
+JEV_EDGE_THRESHOLD = 0.3
+JEV_MAX_GAP = 6
+JEV_MIN_FLAGGED = 5
 JEV_AD_QUESTION = (
     "Is `sentence` part of a paid sponsor message, where the host reads out an advertisement for a company, "
     "product or service? `before` and `after` are the neighbouring sentences, for context only."
@@ -356,12 +358,8 @@ def jev_call(state, questions):
         time.sleep(2 ** attempt)
 
 
-def jev_ads(sentences, text, secs, skip=()):
-    """Sentence indexes of sponsor reads according to Jev: runs of >= 3 sentences it calls an ad.
-
-    Jev judges each sentence with two sentences of context on each side; code
-    joins the judgments into runs, so a lone misjudged sentence cannot cut text.
-    """
+def jev_scores(sentences, text, skip=()):
+    """P(sentence is part of a sponsor read) per sentence index, from Jev, with two sentences of context on each side."""
     def judge(k):
         state = {"before": [text(i) for i in range(max(0, k - 2), k)], "sentence": text(k),
                  "after": [text(i) for i in range(k + 1, min(len(sentences), k + 3))]}
@@ -370,22 +368,36 @@ def jev_ads(sentences, text, secs, skip=()):
 
     todo = [k for k in range(len(sentences)) if k not in skip]
     with ThreadPoolExecutor(max_workers=8) as pool:
-        p_ad = dict(zip(todo, pool.map(judge, todo)))
-    flagged = [p_ad.get(k, 0) >= JEV_AD_THRESHOLD for k in range(len(sentences))]
-    for k in range(1, len(flagged) - 1):  # bridge a single sentence between two flagged ones
-        if not flagged[k] and flagged[k - 1] and flagged[k + 1] and k not in skip:
-            flagged[k] = True
-    removed, k = set(), 0
-    while k < len(flagged):
-        if not flagged[k]:
-            k += 1
+        return dict(zip(todo, pool.map(judge, todo)))
+
+
+def jev_ads(sentences, secs, scores, near=()):
+    """Sentence indexes of sponsor reads according to Jev's scores.
+
+    Code, not Jev, decides what gets cut: sentences scoring >= JEV_AD_THRESHOLD seed a read, runs
+    separated by at most JEV_MAX_GAP sentences are joined, a read needs >= JEV_MIN_FLAGGED flagged
+    sentences (or to touch a cue-detected ad in `near`) and must fit in MAX_AD_SECONDS. A read then
+    grows outwards over sentences scoring >= JEV_EDGE_THRESHOLD, since Jev is least sure at the edges.
+    """
+    n = len(sentences)
+    flagged = [k for k in range(n) if scores.get(k, 0) >= JEV_AD_THRESHOLD]
+    groups = []
+    for k in flagged:
+        if groups and k - groups[-1][-1] <= JEV_MAX_GAP + 1 and secs(k) - secs(groups[-1][0]) <= MAX_AD_SECONDS:
+            groups[-1].append(k)
+        else:
+            groups.append([k])
+    removed = set()
+    for group in groups:
+        touches_cue = any(abs(k - c) <= 2 for k in (group[0], group[-1]) for c in near)
+        if len(group) < JEV_MIN_FLAGGED and not touches_cue:
             continue
-        end = k
-        while end + 1 < len(flagged) and flagged[end + 1]:
+        start, end = group[0], group[-1]
+        while start > 0 and scores.get(start - 1, 0) >= JEV_EDGE_THRESHOLD and secs(end) - secs(start - 1) <= MAX_AD_SECONDS:
+            start -= 1
+        while end + 1 < n and scores.get(end + 1, 0) >= JEV_EDGE_THRESHOLD and secs(end + 1) - secs(start) <= MAX_AD_SECONDS:
             end += 1
-        if end - k + 1 >= JEV_MIN_RUN and secs(end) - secs(k) <= MAX_AD_SECONDS:
-            removed.update(range(k, end + 1))
-        k = end + 1
+        removed.update(range(start, end + 1))
     return removed
 
 
@@ -401,7 +413,8 @@ def strip_ads(body, podcast):
     removed = rule_ads(sentences, text, secs, podcast)
     if os.environ.get("TYPESAFE_API_KEY"):
         try:
-            removed |= jev_ads(sentences, text, secs, skip=removed)
+            scores = jev_scores(sentences, text, skip=removed)
+            removed |= jev_ads(sentences, secs, scores, near=removed)
         except Exception as e:
             warn(f"Jev sponsor detection failed, using cues only: {type(e).__name__}: {e}")
     removed = {sentences[k] for k in removed}
@@ -428,7 +441,11 @@ def check_ads(path, podcast):
     secs = lambda k: paragraphs[sentences[k][0]]["secs"]
     found = {"cues": rule_ads(sentences, text, secs, podcast)}
     if os.environ.get("TYPESAFE_API_KEY"):
-        found["jev"] = jev_ads(sentences, text, secs)
+        scores = jev_scores(sentences, text)
+        found["jev"] = jev_ads(sentences, secs, scores, near=found["cues"])
+        for k in range(len(sentences)):
+            if 0.1 <= scores[k] < JEV_AD_THRESHOLD:
+                print(f"  borderline {format_timestamp(secs(k) * 1000)} p={scores[k]:.2f} {text(k)[:80]}")
     for name, removed in found.items():
         runs = []
         for k in sorted(removed):
