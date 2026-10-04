@@ -27,6 +27,10 @@ since = 2026-09-01
 host = "Claire Vo"
 host_cues = ["welcome to How I AI", "welcome back to How I AI", "thanks for joining How I AI", "How I AI listeners",
              "thanks so much for watching", "this episode is brought to you by"]
+ad_start_cues = ["this episode is brought to you by", "Optimizely agent platform",
+                 "As AI adoption grows, so do your company's security risks"]
+ad_end_cues = ["See the rankings at Open Art Arena"]
+ad_tail_cues = ["Start building today"]
 phrases = [
     "Claire Vo", "How I AI", "ChatPRD", "Lenny's Podcast",
     "Claude", "Claude Code", "Anthropic", "OpenAI", "ChatGPT", "Codex",

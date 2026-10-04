@@ -28,6 +28,11 @@ TRANSCRIBE_MODEL = "MAI-Transcribe-2"
 TRANSCRIBE_API_VERSION = "2025-10-15"
 PARAGRAPH_MS = 60_000
 GUID_RE = re.compile(r"<!-- guid: (.+?) -->")
+SENTENCE_SPLIT_RE = re.compile(r"(?<=[.?!])\s+")
+DOMAIN_RE = re.compile(r"\b[\w-]+\.(?:com|ai|io|dev|org)\b", re.IGNORECASE)
+SPELLED_DOMAIN_RE = re.compile(r"^That's\b.*(?:\.(?:com|ai|io|dev|org)\b|\b[A-Z](?:-[A-Z])+\b)", re.IGNORECASE)
+PARAGRAPH_RE = re.compile(r"^(?:\*\*(?P<speaker>[^*]+)\*\* )?\[(?P<ts>\d\d:\d\d:\d\d)\] (?P<text>.*)$", re.DOTALL)
+MAX_AD_SECONDS = 240
 
 
 def warn(message):
@@ -205,12 +210,22 @@ def format_timestamp(ms):
     return f"[{s // 3600:02d}:{s % 3600 // 60:02d}:{s % 60:02d}]"
 
 
-def speaker_names(phrases, podcast):
+def guest_names(title):
+    """Guests named after a " | " in the title, e.g. "Topic | Jane Doe & John Roe (CEO, Acme)"."""
+    if " | " not in title:
+        return []
+    tail = re.sub(r"\s*\(.*?\)", "", title.rsplit(" | ", 1)[1])
+    names = [n.strip() for n in re.split(r"\s*(?:&|,|\band\b)\s*", tail) if n.strip()]
+    name_re = r"[A-Z][\w.'’-]+(?: [A-Z][\w.'’-]+){1,2}"
+    return names if names and all(re.fullmatch(name_re, n) for n in names) else []
+
+
+def speaker_names(phrases, podcast, guests=()):
     """Map diarization speaker ids to labels.
 
     Every speaker id that says one of the host's cues is labelled as the host,
     since the host recorded in two setups (studio intro vs. screen share) can
-    get two ids.
+    get two ids. With exactly one guest, every other id is the guest.
     """
     order = list(dict.fromkeys(p["speaker"] for p in phrases if "speaker" in p))
     host = podcast.get("host")
@@ -224,8 +239,11 @@ def speaker_names(phrases, podcast):
             text = p.get("text", "").lower().replace("’", "'")
             if "speaker" in p and any(cue in text for cue in cues):
                 host_ids.add(p["speaker"])
-    others = (sid for sid in order if sid not in host_ids)
-    names = {sid: f"Speaker {n}" for n, sid in enumerate(others, start=1)}
+    others = [sid for sid in order if sid not in host_ids]
+    if len(guests) == 1:
+        names = {sid: guests[0] for sid in others}
+    else:
+        names = {sid: f"Speaker {n}" for n, sid in enumerate(others, start=1)}
     names.update((sid, host) for sid in host_ids)
     return names
 
@@ -254,6 +272,63 @@ def render_transcript(result, names):
     if current:
         paragraphs.append(" ".join(current))
     return "\n\n".join(paragraphs)
+
+
+def strip_ads(body, podcast):
+    """Remove sponsor reads from rendered paragraphs.
+
+    An ad starts at the first sentence with one of the podcast's ad_start_cues
+    and ends at the first sentence that has a web address or one of its
+    ad_end_cues, plus trailing "That's <spelled address>" and ad_tail_cues
+    sentences. Ads without a recognised end are kept, with a warning.
+    """
+    def has(sentence, cues):
+        sentence = sentence.lower().replace("’", "'")
+        return any(cue.lower().replace("’", "'") in sentence for cue in cues)
+
+    start_cues = podcast.get("ad_start_cues", [])
+    end_cues = podcast.get("ad_end_cues", [])
+    tail_cues = podcast.get("ad_tail_cues", [])
+    paragraphs = []
+    for raw in body.split("\n\n"):
+        m = PARAGRAPH_RE.match(raw)
+        if not m:
+            return body
+        h, mi, sec = m["ts"].split(":")
+        paragraphs.append({"speaker": m["speaker"], "ts": m["ts"], "secs": int(h) * 3600 + int(mi) * 60 + int(sec),
+                           "sentences": SENTENCE_SPLIT_RE.split(m["text"].strip())})
+
+    sentences = [(i, j) for i, p in enumerate(paragraphs) for j in range(len(p["sentences"]))]
+    text = lambda k: paragraphs[sentences[k][0]]["sentences"][sentences[k][1]]
+    secs = lambda k: paragraphs[sentences[k][0]]["secs"]
+    removed, k = set(), 0
+    while k < len(sentences):
+        if not has(text(k), start_cues):
+            k += 1
+            continue
+        end = next((e for e in range(k, len(sentences))
+                    if secs(e) - secs(k) <= MAX_AD_SECONDS
+                    and (DOMAIN_RE.search(text(e)) or has(text(e), end_cues))), None)
+        if end is None:
+            warn(f"sponsor read at {paragraphs[sentences[k][0]]['ts']}: no end found, kept")
+            k += 1
+            continue
+        while end + 1 < len(sentences) and (SPELLED_DOMAIN_RE.match(text(end + 1)) or has(text(end + 1), tail_cues)):
+            end += 1
+        removed.update(sentences[x] for x in range(k, end + 1))
+        k = end + 1
+
+    out, pending_speaker = [], None
+    for i, p in enumerate(paragraphs):
+        kept = [s for j, s in enumerate(p["sentences"]) if (i, j) not in removed]
+        if not kept:
+            pending_speaker = p["speaker"] or pending_speaker
+            continue
+        speaker = p["speaker"] or pending_speaker
+        pending_speaker = None
+        label = f"**{speaker}** " if speaker else ""
+        out.append(f"{label}[{p['ts']}] {' '.join(kept)}")
+    return "\n\n".join(out)
 
 
 def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
@@ -286,14 +361,14 @@ def fetch_rss(podcast, out_dir, since, until, limit, dry_run):
             warn(f"{date_str} {episode['title']}: {type(e).__name__}: {e}")
             continue
 
-        names = speaker_names(result.get("phrases", []), podcast)
+        names = speaker_names(result.get("phrases", []), podcast, guest_names(episode["title"]))
         source = " · ".join(filter(None, [episode["link"], podcast["name"], f"Transcribed with {TRANSCRIBE_MODEL}"]))
         content = (
             f"# {episode['title']} — Transcript ({date_str})\n\n"
             f"{source}\n\n"
             f"<!-- guid: {episode['guid']} -->\n\n"
             f"---\n\n"
-            f"{render_transcript(result, names)}\n"
+            f"{strip_ads(render_transcript(result, names), podcast)}\n"
         )
         title = sanitize_filename(episode["title"]) or date_str
         (out_dir / f"{date_str} - {title}.md").write_text(content, encoding="utf-8", newline="\n")
