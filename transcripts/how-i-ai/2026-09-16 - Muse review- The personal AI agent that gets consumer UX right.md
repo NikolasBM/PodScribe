@@ -4,6 +4,14 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/Muse-review-The-person
 
 <!-- guid: 0f25ae70-26ec-4915-a938-6a862e246e78 -->
 
+<!-- metadata -->
+Format: review · Level: 1 · Length: ~00:36:43
+Host: Claire Vo
+Categories: consumer, agents, design
+Featured: Meta Muse, Meta, computer use
+Also mentioned: OpenClaw, Grok Bot, OpenAI Codex, Instinct
+<!-- /metadata -->
+
 ---
 
 **Claire Vo** [00:00:00] It's the weekend, the kids are out of the house, and that means one thing, it's time to test a new AI agent. Today I'm going to give you my first pass opinion about Muse, Meta's new personal agent. We're going to talk about what Muse is, what I had it do for me, and what it didn't do quite well, and why I think it might be my favorite designed agent I played with in a long time. Let's get to it.

@@ -4,6 +4,14 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/OpenAI-Dev-Day-2026-Th
 
 <!-- guid: 7c2bfa0b-1ca7-4ff7-8ef2-3415cbd654c5 -->
 
+<!-- metadata -->
+Format: review · Level: 2 · Length: ~00:23:53
+Host: Claire Vo
+Categories: agents, coding, models, consumer
+Featured: OpenAI, OpenAI Codex, ChatGPT, Jev, OpenAI Decisions API, computer use
+Also mentioned: GPT-6, Meta Muse, Slack, Grok Bot
+<!-- /metadata -->
+
 ---
 
 **Claire Vo** [00:00:00] Today I spent the day in San Francisco at OpenAI's Dev Day, and it was a fun one, not just because Thibault let me smash the Codex reset button for you all. I was there from the keynote throughout the day, and I have good news for you and bad news for you. The good news is OpenAI released a lot of stuff. The bad news is OpenAI released a lot of stuff. There was a lot jam-packed into the Dev Day keynote, everything from OpenAI's answer to Grokbot and Muse to platform components that developers are really going to use. It felt like every 2 or 3 minutes the team was announcing something new. I was able to test some of it early. I want to share for you the highlights from the releases so you know what to pay attention to depending on what's important to you, and also maybe 3 or 4 things that I've spent a little bit more time with and I've come to an early opinion on so you can see what I think about all these new releases.

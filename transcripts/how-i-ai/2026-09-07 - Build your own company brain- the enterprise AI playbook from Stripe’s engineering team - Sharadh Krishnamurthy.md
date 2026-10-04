@@ -4,6 +4,14 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/Build-your-own-company
 
 <!-- guid: 70cc0567-b80c-4e51-a591-718cd6ede6ca -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~00:49:54
+Host: Claire Vo · Guests: Sharadh Krishnamurthy
+Categories: agents, safety-security, enterprise
+Featured: Stripe Kai, Stripe, agent harness
+Also mentioned: multiplayer agents
+<!-- /metadata -->
+
 ---
 
 **Sharadh Krishnamurthy** [00:00:00] Agents are very creative at bringing your infra down. It turns out that agents just like dial up all your failure modes. It just multiplies the amplitude of problems you can get. There were agents that went rogue. There were agents that may have almost taken down core systems. One of the cool things about projects that can be very concrete for people is the idea of tool policies. Let's say you're a person on the HR team who's dealing with a bunch of sensitive information. You really don't want the agent to sort of go rogue and put that sensitive data into some public Google document that all stripes can access, but you also don't want to tell them, oh, you can't use any tools because your workloads are too sensitive.

@@ -4,6 +4,14 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/I-left-Claude-for-mont
 
 <!-- guid: 716dfc55-b541-4b7a-acee-f76ffab56f7f -->
 
+<!-- metadata -->
+Format: review · Level: 2 · Length: ~00:24:20
+Host: Claire Vo
+Categories: models, coding, design, agents
+Featured: Claude, Claude Opus, Anthropic, agent harness
+Also mentioned: Jev, computer use, ChatPRD, OpenAI Codex, GPT-6, Pacing the Frontier
+<!-- /metadata -->
+
 ---
 
 **Claire Vo** [00:00:00] I haven't said this out loud much, but I will tell you all this. I have been off Claude for months. Yes, I loved Fable when it came out. It was a real step change in intelligence. Then they took it away. Then we got Opus 5, and I'm going to be honest, I stopped using Claude not because of its intelligence or its models. I stopped using Claude because it was annoying, annoying. As I said in another episode, Claude slop was slopping. I found using Claude, whether I was using Fable or Opus or even Sonnet, so frustrating. My blood would boil because Claude was so annoying. It rambled on, it made no sense. I was constantly asking it, can you talk to me like a human? And I found it so frustrating to work with that I just abandoned the Claude harness entirely. I found it so annoying. I would keep it around for a couple background tasks, but if I had to talk to something, I was choosing not to talk to Claude.

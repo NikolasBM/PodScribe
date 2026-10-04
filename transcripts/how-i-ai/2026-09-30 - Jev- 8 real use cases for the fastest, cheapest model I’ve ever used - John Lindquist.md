@@ -4,6 +4,14 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/Jev-8-real-use-cases-f
 
 <!-- guid: 0871a705-f488-49f6-9654-3df1b900a22d -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~00:45:35
+Host: Claire Vo · Guests: John Lindquist
+Categories: agents, model-strategy, coding, models
+Featured: Jev, computer use
+Also mentioned: Grok Bot, OpenAI Codex
+<!-- /metadata -->
+
 ---
 
 **Claire Vo** [00:00:00] In some ways, managers are really at risk. This concept of like org design and role design, you can put those skills to use when crafting your agents, which is why I am currently running, no joke, 40 Grok bots right now.

@@ -4,6 +4,14 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Warp-ships-2-000-P
 
 <!-- guid: c41174cf-cb70-49cc-80cc-73942e7dbb44 -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~00:46:20
+Host: Claire Vo · Guests: Zach Lloyd
+Categories: coding, agents, work, model-strategy
+Featured: Warp, Slack, computer use, MCP
+Also mentioned: Figma, Instinct, Claude Code, Granola, OpenAI Codex, Grok
+<!-- /metadata -->
+
 ---
 
 **Claire Vo** [00:00:00] Can I give you a hard time that humans really are the bottleneck? Because if you look at kickoff to PR time, it's 35 minutes, but if you look at PR to first human review, it's 3 and a half hours. And when you're doing, I think it was like over 2,000 PRs in the last month. Like, how do you keep things in the team from going, as I say, like chaos reigns?

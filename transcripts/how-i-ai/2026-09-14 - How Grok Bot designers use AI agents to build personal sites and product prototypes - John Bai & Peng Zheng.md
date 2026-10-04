@@ -4,6 +4,14 @@ https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Grok-Bot-designers
 
 <!-- guid: eca69c63-43d3-4972-aa6b-8015edf871df -->
 
+<!-- metadata -->
+Format: interview · Level: 2 · Length: ~00:41:06
+Host: Claire Vo · Guests: John Bai, Peng Zheng
+Categories: agents, design, work, consumer
+Featured: Grok Bot, Figma
+Also mentioned: Slack
+<!-- /metadata -->
+
 ---
 
 **Claire Vo** [00:00:00] I use AI to get me off my computer, not on my computer. And so the fact that you were at the gym, got asked to do something, and your disability be like, yep, go for it, get it done, and finish your workout, it's like a much nicer way to work.
