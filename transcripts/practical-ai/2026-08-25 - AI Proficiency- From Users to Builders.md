@@ -7,6 +7,12 @@ url: "https://share.transistor.fm/s/0f57c0bc"
 guid: "5fb15f12-94b9-4fee-a8da-326eab85362e"
 host: "Daniel Whitenack"
 guests: ["Mike Lewis"]
+format: "interview"
+level: 1
+length: "00:55:36"
+categories: ["work", "agents", "enterprise"]
+featured: []
+mentioned: ["Claude", "agent harness"]
 transcript_source: "publisher"
 ---
 

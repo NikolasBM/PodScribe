@@ -6,6 +6,12 @@ date: 2026-08-06
 url: "https://share.transistor.fm/s/063cfaad"
 guid: "b3360d48-183d-45f8-a014-8bb44ce160b4"
 host: "Daniel Whitenack"
+format: "interview"
+level: 1
+length: "00:49:21"
+categories: ["agents", "open-weights", "work"]
+featured: ["agent harness", "open-weight models"]
+mentioned: ["Gemini", "Gemma", "Claude"]
 transcript_source: "publisher"
 ---
 

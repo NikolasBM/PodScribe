@@ -7,6 +7,12 @@ url: "https://share.transistor.fm/s/72586f97"
 guid: "8a1c70d7-502d-40f8-b16e-341761a7f41b"
 host: "Daniel Whitenack"
 guests: ["Demetrios Brinkmann"]
+format: "interview"
+level: 1
+length: "00:55:25"
+categories: ["agents", "consumer"]
+featured: ["agent harness", "MCP", "computer use", "Claude Code"]
+mentioned: ["Hermes Agent", "Slack", "ChatGPT"]
 transcript_source: "publisher"
 ---
 

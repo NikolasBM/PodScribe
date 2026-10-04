@@ -7,6 +7,12 @@ url: "https://share.transistor.fm/s/217445d3"
 guid: "b836fa1b-9246-43d5-8cbb-cf1446760a6d"
 host: "Daniel Whitenack"
 guests: ["Ming-Yu Liu"]
+format: "interview"
+level: 1
+length: "00:46:42"
+categories: ["agents"]
+featured: ["Nvidia"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

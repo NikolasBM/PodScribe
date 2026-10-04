@@ -7,6 +7,12 @@ url: "https://share.transistor.fm/s/66185604"
 guid: "feacf9a3-586b-4106-8da3-aab51f1c2765"
 host: "Daniel Whitenack"
 guests: ["Liam Dunne", "Ben Moore"]
+format: "interview"
+level: 1
+length: "00:54:38"
+categories: ["marketing"]
+featured: []
+mentioned: ["distillation", "Gemini"]
 transcript_source: "publisher"
 ---
 

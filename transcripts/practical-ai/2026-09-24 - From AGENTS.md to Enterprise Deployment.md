@@ -7,6 +7,12 @@ url: "https://share.transistor.fm/s/74934e48"
 guid: "2dbddf03-71ae-48d0-b902-a03f383621ac"
 host: "Daniel Whitenack"
 guests: ["Nick Kuhn"]
+format: "interview"
+level: 2
+length: "00:48:15"
+categories: ["agents", "work", "coding", "safety-security"]
+featured: ["MCP", "agent harness"]
+mentioned: []
 transcript_source: "publisher"
 ---
 

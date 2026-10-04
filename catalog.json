@@ -77,12 +77,16 @@
   "guests": [
    "Ming-Yu Liu"
   ],
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:46:42",
+  "categories": [
+   "agents"
+  ],
+  "featured": [
+   "Nvidia"
+  ],
+  "mentioned": [],
   "url": "https://share.transistor.fm/s/217445d3",
   "path": "transcripts/practical-ai/2026-10-01 - Open models and the future of Physical AI with NVIDIA.md"
  },
@@ -480,12 +484,20 @@
   "guests": [
    "Nick Kuhn"
   ],
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "format": "interview",
+  "level": 2,
+  "length": "00:48:15",
+  "categories": [
+   "agents",
+   "work",
+   "coding",
+   "safety-security"
+  ],
+  "featured": [
+   "MCP",
+   "agent harness"
+  ],
+  "mentioned": [],
   "url": "https://share.transistor.fm/s/74934e48",
   "path": "transcripts/practical-ai/2026-09-24 - From AGENTS.md to Enterprise Deployment.md"
  },
@@ -829,12 +841,17 @@
    "Liam Dunne",
    "Ben Moore"
   ],
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:54:38",
+  "categories": [
+   "marketing"
+  ],
+  "featured": [],
+  "mentioned": [
+   "distillation",
+   "Gemini"
+  ],
   "url": "https://share.transistor.fm/s/66185604",
   "path": "transcripts/practical-ai/2026-09-17 - How to get discovered in AI search.md"
  },
@@ -1126,12 +1143,24 @@
   "guests": [
    "Demetrios Brinkmann"
   ],
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:55:25",
+  "categories": [
+   "agents",
+   "consumer"
+  ],
+  "featured": [
+   "agent harness",
+   "MCP",
+   "computer use",
+   "Claude Code"
+  ],
+  "mentioned": [
+   "Hermes Agent",
+   "Slack",
+   "ChatGPT"
+  ],
   "url": "https://share.transistor.fm/s/72586f97",
   "path": "transcripts/practical-ai/2026-09-10 - Computer-Use Agents and the Future of the Agentic Internet.md"
  },
@@ -1421,12 +1450,22 @@
   "guests": [
    "Chetan Gupta"
   ],
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "format": "interview",
+  "level": 2,
+  "length": "00:45:19",
+  "categories": [
+   "open-weights",
+   "enterprise",
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "agent harness"
+  ],
+  "mentioned": [
+   "open-weight models",
+   "MCP"
+  ],
   "url": "https://share.transistor.fm/s/ec79b4ac",
   "path": "transcripts/practical-ai/2026-09-03 - Less about Models; More about Architecture.md"
  },
@@ -1674,12 +1713,18 @@
   "guests": [
    "Angie Jones"
   ],
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:44:35",
+  "categories": [
+   "work",
+   "agents",
+   "coding"
+  ],
+  "featured": [
+   "MCP"
+  ],
+  "mentioned": [],
   "url": "https://share.transistor.fm/s/123da941",
   "path": "transcripts/practical-ai/2026-08-28 - Building the Foundation for the Agentic AI Era.md"
  },
@@ -1771,12 +1816,19 @@
   "guests": [
    "Mike Lewis"
   ],
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:55:36",
+  "categories": [
+   "work",
+   "agents",
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude",
+   "agent harness"
+  ],
   "url": "https://share.transistor.fm/s/0f57c0bc",
   "path": "transcripts/practical-ai/2026-08-25 - AI Proficiency- From Users to Builders.md"
  },
@@ -2324,12 +2376,23 @@
   "date": "2026-08-06",
   "title": "Models, Harnesses, and Multi-Agent Systems",
   "guests": null,
-  "format": null,
-  "level": null,
-  "length": null,
-  "categories": null,
-  "featured": null,
-  "mentioned": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:49:21",
+  "categories": [
+   "agents",
+   "open-weights",
+   "work"
+  ],
+  "featured": [
+   "agent harness",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "Gemini",
+   "Gemma",
+   "Claude"
+  ],
   "url": "https://share.transistor.fm/s/063cfaad",
   "path": "transcripts/practical-ai/2026-08-06 - Models, Harnesses, and Multi-Agent Systems.md"
  },

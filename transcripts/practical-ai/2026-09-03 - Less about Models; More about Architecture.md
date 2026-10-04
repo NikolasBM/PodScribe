@@ -7,6 +7,12 @@ url: "https://share.transistor.fm/s/ec79b4ac"
 guid: "7bb54711-ad56-4a39-85ae-290d2a0eaff5"
 host: "Daniel Whitenack"
 guests: ["Chetan Gupta"]
+format: "interview"
+level: 2
+length: "00:45:19"
+categories: ["open-weights", "enterprise", "agents", "model-strategy"]
+featured: ["agent harness"]
+mentioned: ["open-weight models", "MCP"]
 transcript_source: "publisher"
 ---
 

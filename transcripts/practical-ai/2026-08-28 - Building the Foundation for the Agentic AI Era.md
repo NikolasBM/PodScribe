@@ -7,6 +7,12 @@ url: "https://share.transistor.fm/s/123da941"
 guid: "c00bb124-af61-414f-8956-8c9a9e49c8e1"
 host: "Daniel Whitenack"
 guests: ["Angie Jones"]
+format: "interview"
+level: 1
+length: "00:44:35"
+categories: ["work", "agents", "coding"]
+featured: ["MCP"]
+mentioned: []
 transcript_source: "publisher"
 ---
 
