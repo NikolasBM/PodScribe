@@ -21,10 +21,12 @@ README.md                    — offentlig beskrivelse af arkivet
 | slug | source | since | Note |
 |---|---|---|---|
 | `ai-daily-brief` | `published` | 2026-06-01 | `https://aidailybrief.ai/e/YYYY-MM-DD/transcript.md`. 404 = ingen episode den dato (ikke en fejl). **Ældste transcript er 2026-06-01** — verificeret ved probing tilbage til 2023. Ujævn udgivelse er forventet. |
+| `latent-space` | `substack` | 2026-06-01 | Swyx & Alessio. Transcript i selve Substack-posten (`https://www.latent.space/p/<slug>`), ingen lyd/Azure. Gæster = alle talere der ikke står i `hosts`. Ingen sponsorfjernelse (`strip_ads = false`). |
 | `how-i-ai` | `rss` | 2026-09-01 | Feed `https://anchor.fm/s/1035b1568/podcast/rss` (fundet via iTunes lookup id 1809663079). Ingen officielle transcripts findes. Bruger valgte bevidst kun fra 2026-09-01. ~2 episoder/uge, 25–50 min. |
 
 ## Kildetyper
 - **`published`**: tjekker sidste 30 dage (eller `--since`), skipper datoer der allerede har en `{dato} - *.md`-fil (også gammel `{dato}.md`). Titel fra første linje `# Titel — Transcript (dato)`, fallback til dato.
+- **`substack`**: lister `site/api/v1/archive` (paginerer, 50 ad gangen), tager `type == "podcast"` og `audience == "everyone"` i datointervallet, henter `site/api/v1/posts/<slug>` og læser transcriptet i `body_html` (efter en `Transcript`-overskrift): `<strong>Navn [HH:MM:SS]:</strong> tekst`, varianter uden tidsstempel i labelen bruger inline `[HH:MM:SS]`; `h2/h3` bliver `## Overskrift`. Poster uden transcript (🔬 science-serien: kun show notes) springes over og prøves igen næste dag (~11 småkald). Guid = `substack:<post-id>`. Betalingsmur (`only_paid`) gives ikke transcript. Feedet (`/feed`) rummer kun de seneste 20 poster, arkiv-API'et rækker længere tilbage.
 - **`rss`**: læser feedet, transskriberer episoder med pubDate ≥ `since` hvis guid ikke allerede findes. Guid gemmes som `<!-- guid: ... -->` i filens header — filerne er staten, ingen state-fil. To episoder samme dag er normalt (derfor guid, ikke dato).
 
 ## Transskribering (rss)

@@ -6,6 +6,7 @@ source = "rss" are transcribed from their RSS audio with Azure MAI-Transcribe.
 """
 import argparse
 import collections
+import html
 import itertools
 import json
 import os
@@ -120,12 +121,13 @@ def title_text(content, fallback):
     return match[1] if match else fallback
 
 
-def try_metadata(content, title, date_str, body, podcast):
+def try_metadata(content, title, date_str, body, podcast, guests=None):
     """Add the metadata block when Jev is available; the transcript is saved without it otherwise."""
     if not os.environ.get("TYPESAFE_API_KEY"):
         return content
     try:
-        return with_metadata(content, metadata_block(title, date_str, body, podcast, guest_names(title)))
+        guests = guest_names(title) if guests is None else guests
+        return with_metadata(content, metadata_block(title, date_str, body, podcast, guests))
     except Exception as e:
         warn(f"{date_str}: no metadata, {type(e).__name__}: {e}")
         return content
@@ -169,6 +171,108 @@ def fetch_published(podcast, out_dir, since, until, limit):
         # Sleep between requests
         time.sleep(0.2)
 
+    return count
+
+
+# --- source = "substack" ---------------------------------------------------
+# A Substack publication whose podcast posts carry the transcript in the post body.
+
+def http_json(url):
+    return json.loads(http_get(url, timeout=30))
+
+
+def substack_episodes(podcast, since, until):
+    """Podcast posts (id, slug, title, date) of the publication's archive within the range, newest first."""
+    episodes, offset = [], 0
+    while True:
+        page = http_json(f"{podcast['site']}/api/v1/archive?sort=new&offset={offset}&limit=50")
+        if not page:
+            break
+        offset += len(page)
+        for post in page:
+            day = date.fromisoformat(post["post_date"][:10])
+            if post["type"] == "podcast" and post["audience"] == "everyone" and since <= day <= until:
+                episodes.append({"id": post["id"], "slug": post["slug"], "title": " ".join(post["title"].split()), "date": day})
+        if date.fromisoformat(page[-1]["post_date"][:10]) < since:
+            break
+        time.sleep(0.2)
+    return episodes
+
+
+def clean_title(title):
+    """Leading emoji and symbols (the science podcast's microscope, say) are noise in a title."""
+    return re.sub(r"^[^\w]+", "", title).strip()
+
+
+def substack_body(body_html):
+    """Render the transcript of a post body as paragraphs with speaker labels. None if the post has no transcript.
+
+    Handles `<strong>Name [HH:MM:SS]:</strong> text`, `Name [HH:MM:SS]</strong>:` and `Name:</strong>` with
+    inline [HH:MM:SS] markers; section headings (h2/h3) are kept as `## Heading` lines.
+    """
+    marker = re.search(r"<h[12][^>]*>(?:<[^>]+>)*\s*Transcript\s*(?:</[^>]+>)*</h[12]>", body_html)
+    if not marker:
+        return None
+    label_re = re.compile(r"^<strong>(?P<name>[^<\[:]+?)\s*(?:\[(?P<ts>\d\d:\d\d:\d\d)\])?\s*:?\s*</strong>\s*:?\s*(?P<rest>.*)$", re.S)
+    now, out, turns = "00:00:00", [], 0
+    for kind, inner in re.findall(r"<(h[23]|p)[^>]*>(.*?)</\1>", body_html[marker.end():], flags=re.S):
+        if kind != "p":
+            out.append(f"## {html.unescape(re.sub(r'<[^>]+>', '', inner)).strip()}")
+            continue
+        label = label_re.match(inner.strip())
+        start, prefix = now, ""
+        if label:
+            inner, prefix = label["rest"], f"**{label['name'].strip()}** "
+            start = label["ts"] or now
+            turns += 1
+        text = html.unescape(re.sub(r"<[^>]+>", "", inner))
+        stamps = TS_RE.findall(text)
+        text = " ".join(TS_RE.sub("", text).split())
+        if text:
+            out.append(f"{prefix}[{start}] {text}")
+        now = ":".join(stamps[-1]) if stamps else start
+    return "\n\n".join(out) if turns else None
+
+
+def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
+    """Save the transcripts of a Substack publication's podcast posts. Returns number saved."""
+    try:
+        episodes = substack_episodes(podcast, since, until)
+    except Exception as e:
+        warn(f"{podcast['slug']}: archive: {type(e).__name__}: {e}")
+        return 0
+    done = existing_guids(out_dir)
+    todo = [e for e in episodes if f"substack:{e['id']}" not in done]
+    if limit is not None:
+        todo = todo[:limit]
+    count = 0
+    for episode in todo:
+        date_str = episode["date"].isoformat()
+        if dry_run:
+            print(f"would fetch {date_str}: {episode['title']}")
+            continue
+        try:
+            post = http_json(f"{podcast['site']}/api/v1/posts/{episode['slug']}")
+            body = substack_body(post.get("body_html") or "")
+        except Exception as e:
+            warn(f"{date_str} {episode['title']}: {type(e).__name__}: {e}")
+            continue
+        if body is None:  # a podcast post without a transcript (show notes only)
+            continue
+        title = clean_title(episode["title"])
+        guests = [n for n in dict.fromkeys(re.findall(r"(?m)^\*\*([^*]+)\*\*", body)) if n not in podcast.get("hosts", [])]
+        content = (
+            f"# {title} — Transcript ({date_str})\n\n"
+            f"{post.get('canonical_url') or podcast['site'] + '/p/' + episode['slug']} · {podcast['name']}\n\n"
+            f"<!-- guid: substack:{episode['id']} -->\n\n"
+            f"---\n\n"
+            f"{body}\n"
+        )
+        content = try_metadata(content, title, date_str, body, podcast, guests)
+        (out_dir / f"{date_str} - {sanitize_filename(title)}.md").write_text(content, encoding="utf-8", newline="\n")
+        print(f"saved {date_str}: {title}")
+        count += 1
+        time.sleep(0.2)
     return count
 
 
@@ -533,6 +637,8 @@ def strip_ads(body, podcast, strict=False):
     Untouched paragraphs are kept byte for byte. With strict=True a Jev failure raises instead of falling back to cues.
     """
     source = podcast["source"]
+    if podcast.get("strip_ads") is False:
+        return body
     parsed = parse_body(body, source)
     if parsed is None:
         return body
@@ -836,6 +942,8 @@ def main():
                 continue
             since = since_arg or max(floor, until - timedelta(days=LOOKBACK_DAYS))
             count = fetch_published(podcast, out_dir, since, until, args.limit)
+        elif podcast["source"] == "substack":
+            count = fetch_substack(podcast, out_dir, since_arg or floor, until, args.limit, args.dry_run)
         elif podcast["source"] == "rss":
             since = since_arg or floor
             count = fetch_rss(podcast, out_dir, since, until, args.limit, args.dry_run)

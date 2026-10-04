@@ -8,6 +8,7 @@ An archive of transcripts from AI podcasts. New episodes are fetched or transcri
 |---|---|---|---|
 | [The AI Daily Brief](https://aidailybrief.ai/) (NLW) | `transcripts/ai-daily-brief/` | Transcripts published by the show | 2026-06-01 |
 | [How I AI](https://podcasts.apple.com/us/podcast/how-i-ai/id1809663079) (Claire Vo) | `transcripts/how-i-ai/` | Transcribed from the audio with Azure MAI-Transcribe | 2026-09-01 |
+| [Latent Space](https://www.latent.space/) (Swyx & Alessio) | `transcripts/latent-space/` | Transcripts published in the show's Substack posts | 2026-06-01 |
 
 Use this archive to search, summarize, or ask questions across episodes — great for feeding into Claude, NotebookLM, or any search/RAG setup.
 
@@ -21,6 +22,9 @@ transcripts/
   how-i-ai/
     2026-09-02 - Grok Bot vs. OpenClaw- How I replaced my entire agent stack.md
     ...
+  latent-space/
+    2026-09-21 - Jev- System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI.md
+    ...
 ```
 
 Each file is named `YYYY-MM-DD - Episode Title.md`. Characters unsafe in filenames (`/ \ : * ? " < > |`) are replaced with `-`.
@@ -32,6 +36,7 @@ Each file starts with the episode title, followed by the full transcript with `[
 A GitHub Actions workflow (`.github/workflows/fetch.yml`) runs `fetch_transcripts.py` daily. The script reads [`podcasts.toml`](podcasts.toml) and handles each podcast according to its `source`:
 
 - **`published`** — the show publishes its own transcripts at one URL per date. The script checks the last 30 days and downloads any that aren't in the archive yet. Not every date has an episode.
+- **`substack`** — the show's posts on a Substack publication include the transcript. The script lists the publication's podcast posts, and saves those that have a transcript and aren't in the archive yet (some posts only have show notes).
 - **`rss`** — the script reads the podcast's RSS feed, downloads the audio of new episodes and transcribes it with [MAI-Transcribe](https://learn.microsoft.com/azure/ai-services/speech-service/mai-transcribe) through Azure Speech's fast transcription API, with speaker diarization.
 
 New transcripts are committed and pushed to this repo.
