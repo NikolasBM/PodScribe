@@ -269,10 +269,6 @@ transcript_source: "shared-folder"
 
 **Zevi Arnovitz** [00:37:21] 100%.
 
-**Lenny Rachitsky** [00:37:23] Your marketing website sets the tone for your brand and is the one touchpoint that every single one of your customers sees. In today's age, if you're still having a hard time making small changes and simple updates to it, you are doing something wrong. That is why so many companies from early stage startups to Fortune 500s, including companies like DoorDash, Zapier, Perplexity, and ElevenLabs turn to Framer, the website builder that turns your .com from a formality into a tool for growth. Framer works like your team's favorite design tool and comes with real-time collaboration, a robust CMS with everything you need for great SEO and advanced analytics that includes integrated AB testing.
-
-[00:38:01] Changes to your Framer site go live to the web in seconds with a single click and without any help from engineering. Whether you want to launch a new site, test a few landing pages or migrate your full.com, Framer has programs for startups, scale-ups, and large enterprises to make going from idea to live site as easy and fast as possible. Learn how to turn your website into a growth engine from a framer expert or get started building for free today at framer.com/lenny, that's framer.com/lenny. Rules and restrictions may apply.
-
 **Zevi Arnovitz** [00:38:33] So now we have this feature, which basically we built and I can ask it to make some changes because it's running locally and once it's ready, I'll be able to ship it to users. So now the next phase after I've QA'd it and basically tested it manually, I'll have Claude review its own work. So what I'll do is I'll reopen Claude Code.
 
 **Lenny Rachitsky** [00:38:56] I love this because this is one of the things that comes up a lot in this podcast is writing code is now so easy. The main challenge people have is reviewing the code that AI has written.

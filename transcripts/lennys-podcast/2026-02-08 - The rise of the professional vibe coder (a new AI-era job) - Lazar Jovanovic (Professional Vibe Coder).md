@@ -275,13 +275,7 @@ transcript_source: "shared-folder"
 
 [00:49:44] So everybody listening to this should literally go and build something today. One, two, three, four, five projects, test all of these tools because that's how you get to clarity, not just by reading, but also by doing as well.
 
-**Lenny Rachitsky** [00:49:57] Here's a puzzle for you. What do OpenAI, Cursor, Perplexity, Vercel, Plaid, and hundreds of other winning companies have in common? The answer is they're all powered by today's sponsor, WorkOS. If you're building software for enterprises, you've probably felt the pain of integrating single sign-on, SCIM, RBAC, audit logs, and other features required by big customers.
-
-[00:50:19] WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS. Whether you're a seed-stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise-ready and unlocking growth.
-
-[00:50:36] They're essentially Stripe for enterprise features. Visit workos.com to get started or just hit up their Slack support where they have real engineers in there who answer your questions super fast. WorkOS allows you to build like the best with delightful APIs, comprehensive docs and a smooth developer experience. Go to workos.com to make your app enterprise-ready today.
-
-[00:50:58] I'm imagining people hearing this may start to feel like this is so much work. "I just have to sit here and create all these rules and figure out all these little details." In one sense, it is. In another sense, this is like you spend a few hours, maybe a day planning and then you have AI build this thing that would've taken somebody weeks, months, right? The amount of investment to achieve this thing is absurd, the ROI.
+**Lenny Rachitsky** [00:50:58] I'm imagining people hearing this may start to feel like this is so much work. "I just have to sit here and create all these rules and figure out all these little details." In one sense, it is. In another sense, this is like you spend a few hours, maybe a day planning and then you have AI build this thing that would've taken somebody weeks, months, right? The amount of investment to achieve this thing is absurd, the ROI.
 
 [00:51:24] Also, this shows you just what professional vibe coding looks like. Everyone imagines vibe coding, "I'm just sitting here typing stuff, and go and do this." If you want to actually build something really great that moves the needle, as you said, that solves people's real problems, that lasts, that scales, this is how you do it if you really want to do this as a job, and also if you want to build things that are really great.
 

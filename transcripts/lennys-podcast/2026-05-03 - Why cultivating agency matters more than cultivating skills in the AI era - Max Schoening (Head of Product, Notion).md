@@ -275,15 +275,7 @@ transcript_source: "shared-folder"
 
 **Max Schoening** [00:40:25] And then, I don't know, a conductor is another one. They're basically just mostly using developer tools. It's not that different from what developers use.
 
-**Lenny Rachitsky** [00:40:34] I am so excited to tell you about this season's supporting sponsor, Vanta. Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers. Teams are building and shipping products faster than ever thanks to AI. But as a result, the amount of risk being introduced into your product and your business is higher than it's ever been.
-
-[00:40:59] Every security leader that I talk to is feeling the increasing weight of protecting their organization, their business, and not to mention, their customer data. Because things are moving so fast, they are constantly reacting, having to guess at priorities, and having to make do with outdated solutions.
-
-[00:41:15] Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA. This helps companies get compliant fast and stay compliant. More than ever before, trust has the power to make or break your business.
-
-[00:41:33] Learn more at vanta.com/lenny. And as a listener of this podcast, you get $1,000 off Vanta. That's vanta.com/lenny.
-
-[00:41:43] AI has completely transformed the work of a software engineer. Two years ago versus today is completely different. Almost all your code is now AI. And we've been talking about when will 50% of engineers in the world be writing 100% AI code? It's probably in a year, which is insane how much that job has changed.
+**Lenny Rachitsky** [00:41:43] AI has completely transformed the work of a software engineer. Two years ago versus today is completely different. Almost all your code is now AI. And we've been talking about when will 50% of engineers in the world be writing 100% AI code? It's probably in a year, which is insane how much that job has changed.
 
 [00:42:04] Which role do you think AI transforms next? Is it marketing? Is it growth? Is it sales? Is it design? Do you have a sense of where things are starting to really change other than engineering?
 

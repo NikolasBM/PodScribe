@@ -397,11 +397,7 @@ transcript_source: "shared-folder"
 
 **Sam Lessin** [00:45:25] It's just like you can make fun of yourself as much as you want. Again, making fun of other people shows an incredible level of familiarity. And if you're there with your business partner and you're really feeling the vibe, and again, it can be quite effective, but the second it feels disparaging or people aren't on the same wavelength, it's a very high risk maneuver, making fun of yourself is always fun.
 
-**Lenny Rachitsky** [00:45:50] Here's a puzzle for you. What do OpenAI, Cursor, Perplexity, Vercel, Plaid, and hundreds of other winning companies have in common? The answer is they're all powered by today's sponsor, WorkOS. If you're building software for enterprises, you've probably felt the pain of integrating single sign-on, Skim, RBAC, audit logs, and other features required by big customers. WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.
-
-[00:46:19] Whether you're a seed stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise-ready and unlocking growth. They're essentially Stripe for enterprise features. Visit workos.com to get started or just hit up their Slack support where they have real engineers in there who answer your questions superfast.
-
-[00:46:39] WorkOS allows you to build like the best with delightful APIs, comprehensive docs, and a smooth developer experience. Go to workows.com to make your app enterprise ready today. Also, so you said you had this kind of list of jokes that you ... Because I can't remember. I have zero jokes in my head that I'm like, "Okay, here I'm going to get one, so I should make a list."
+**Lenny Rachitsky** [00:46:39] Also, so you said you had this kind of list of jokes that you ... Because I can't remember. I have zero jokes in my head that I'm like, "Okay, here I'm going to get one, so I should make a list."
 
 **Sam Lessin** [00:46:57] Make a list. I got some good ones for you.
 

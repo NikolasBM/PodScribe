@@ -291,13 +291,7 @@ transcript_source: "shared-folder"
 
 **Keith Rabois** [00:41:08] Well, it's interesting. Design and code are merging. And it's not clear to me who triumphs of is it code becomes design? And design just translate automatically into code. I've made some investments that bet on both in some ways, but I think they're merging in a way where they're not separate fiefdoms anymore.
 
-**Lenny Rachitsky** [00:41:33] I am so excited to tell you about this season's supporting sponsor Vanta. Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers. Teams are building and shipping products faster than ever thanks to AI. But as a result, the amount of risk being introduced into your product and your business is higher than it's ever been.
-
-[00:41:58] Every security leader that I talk to is feeling the increasing weight of protecting their organization, their business, and not to mention their customer data. Because things are moving so fast, they are constantly reacting, having to guess at priorities, and having to make do with outdated solutions.
-
-[00:42:15] Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA. This helps companies get compliant, fast, and stay compliant. More than ever before, trust has the power to make or break your business. Learn more at vanta.com/lenny. And as a listener of this podcast, you get $1,000 off Vanta. That's vanta.com/lenny.
-
-[00:42:42] What I'm seeing is something really interesting happening with design. On the one hand, I just did some analysis on the job market for design. And it's basically plateaued in terms of the number of open design roles over the past three years, just hasn't gone anywhere. It's flat.
+**Lenny Rachitsky** [00:42:42] What I'm seeing is something really interesting happening with design. On the one hand, I just did some analysis on the job market for design. And it's basically plateaued in terms of the number of open design roles over the past three years, just hasn't gone anywhere. It's flat.
 
 [00:42:55] We had the head of Claude design, Jenny Wen, on the podcast, and she had this insight that the design process ... There's no time for the traditional design process. There's like engineers are shipping 17 things a day. There's no time to sit there and help mock and prototype and all these things.
 

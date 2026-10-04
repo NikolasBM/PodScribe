@@ -31,9 +31,7 @@ transcript_source: "shared-folder"
 
 **Lenny Rachitsky** [00:00:56] Today, my guest is Brian Halligan, co-founder and longtime CEO of HubSpot. I asked Brian to come on this podcast because he is, more than anyone I've met, a student of the job of a CEO. After leaving HubSpot last year, he became the in-house CEO coach at Sequoia, where he brings together dozens of top CEOs to learn from each other, he does one-on-one coaching with some of the world's top CEOs, he also hosts a popular podcast, called Long Strange Trip, where he interviews some of the world's most successful CEOs. In this conversation, we unpack what it takes to be a successful CEO in today's era.
 
-[00:01:32] Let's get into it, after a short word from our wonderful sponsors. Applications break in all kinds of ways, crashes, slowdowns, regressions, and the stuff that you only see once real users show up. Sentry catches it all. See what happened where and why. Down to the commit that introduced the error, the developer who shipped it, and the exact line of code, all in one connected view. I've definitely tried the five tabs and Slack thread approach to debugging, this is better. Sentry shows you how the request moved, what ran, what slowed down, and what users saw.
-
-[00:02:07] Seer, Sentry's AI debugging agent, takes it from there. It uses all of that Sentry context to tell you the root cause, to adjust a fix, and even opens a PR for you. It also reviews your PRs, and flags any breaking changes with fixes ready to go. Try Sentry and Seer for free at sentry.io/lenny, and use code Lenny for $100 in Sentry credits. That's S-E-N-T-R-Y dot I-O/lenny.
+[00:01:32] Let's get into it, after a short word from our wonderful sponsors.
 
 [00:03:42] Brian, thank you so much for being here, and welcome to the podcast.
 
@@ -240,10 +238,6 @@ transcript_source: "shared-folder"
 **Brian Halligan** [00:36:59] I know. Yeah, it's hard to keep up.
 
 **Lenny Rachitsky** [00:37:03] [inaudible 00:37:04]. Luckily we got some sweet podcasts to check out, to keep up to date with what's happening. We'll link to yours, of course.
-
-[00:37:10] Here's a puzzle for you. What do OpenAI, Cursor, Perplexity, Vercel, Plat, and hundreds of other winning companies have in common? The answer is they're all powered by today's sponsor, WorkOS. If you're building software for enterprises, you've probably felt the pain of integrating single sign-on, SCIM, RBAC, audited logs, and other features required by big customers. WorkOS turns those deal blockers into drop-in APIs, with a modern developer platform built specifically for B2B SaaS. Whether you're a seed-stage startup trying to land your first enterprise customer, or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise-ready and unlocking growth.
-
-[00:37:49] They're essentially Stripe for enterprise features. Visit WorkOS.com to get started, or just hit up their Slack support, where they have real engineers in there who answer your questions super fast. Workos allows you to build like the best, with delightful APIs, comprehensive docs, and a smooth developer experience. Go to WorkOS.com to make your app enterprise-ready today.
 
 [00:38:10] Let's talk Halliganisms. Essentially these are nuggets of wisdom and advice that you find yourself sharing often, you've written about a bunch of these online, and so let me just go through them and then just share the synopsis of the advice and the lesson around this Halliganism. The first is, "When you have to eat a shit sandwich, don't nibble."
 

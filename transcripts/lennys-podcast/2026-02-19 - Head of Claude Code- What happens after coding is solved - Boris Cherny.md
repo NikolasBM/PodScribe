@@ -37,13 +37,7 @@ transcript_source: "shared-folder"
 
 [00:01:19] Claude Code itself is also a massive driver of Anthropic's overall growth over the past year. They just raised a round at over $350 billion. And as Boris mentions, the growth of Claude Code itself is still accelerating. Just in the past month, their daily active users has doubled. Boris is also just a really interesting, thoughtful, deep-thinking human, and during this conversation we discover we were born in the same city in Ukraine. That is so funny. I had no idea.
 
-[00:01:47] A huge thank you to Ben Mann, Jenny Wen, and Mike Krieger for suggesting topics for this conversation. Don't forget to check out LennysProductPass.com for an incredible set of deals available exclusively to Lenny's newsletter subscribers. Let's get into it after a short word from our wonderful sponsors.
-
-[00:02:04] To learn more, visit DX's website at GetDX.com/Lenny. That's GetDX.com/Lenny.
-
-[00:02:48] Applications break in all kinds of ways: crashes, slowdowns, regressions, and the stuff that you only see once real users show up. Scntry catches it all. See what happened where and why down to the commit that introduced the error, the developer who shipped it, and the exact line of code all in one connected view.
-
-[00:03:07] I have definitely tried the five tabs and Slack thread approach to debugging. This is better. Scntry shows you how the request moved, what ran, what slowed down, and what users saw. Seer, Scntry's AI debugging agent takes it from there. It uses all of that Scntry context to tell you the root cause, suggest a fix, and even opens a PR for you. It also reviews your PRs and flags any breaking changes with fixes ready to go. Try Scntry and Seer for free at Scntry.AO/Lenny, and use code LENNY for $100 in Scntry credits. That's S-C-N-T-R-Y dot A-O slash Lenny.
+[00:01:47] A huge thank you to Ben Mann, Jenny Wen, and Mike Krieger for suggesting topics for this conversation.
 
 [00:03:49] Boris, thank you so much for being here, and welcome to the podcast.
 
@@ -341,11 +335,7 @@ transcript_source: "shared-folder"
 
 **Boris Cherny** [00:43:06] Stakeholder alignment. Exactly. I do think that there is a future where I think by the end of the year what we're going to start to see is these start to get even murkier where I think in some places the title software engineer is going to start to go away, and it's just going to be replaced by builder or maybe it's just everyone is going to be a product manager and everyone codes, or something like this.
 
-**Lenny Rachitsky** [00:43:26] Who says hiring has to be fair? Every founder and hiring manager I've been speaking with these days is feeling the same pressure. Hire the best people as fast as possible, but recruiting is time-consuming, alignment is hard, and competition for great talent keeps getting tighter.
-
-[00:43:43] That's why teams like ElevenLabs, Brex, Replit, Deal, and 5000 other organizations use Metaview, the AI company giving high-performance teams a real, unfair advantage in hiring. They give you a suite of AI agents that behave like recruiting coworkers. They find candidates for you based on your exact criteria, take interview notes automatically, gather insights across your hiring process, and help you identify the best candidates in your pipeline.
-
-[00:44:11] AI handles the recruiting toil and gives you a real source or truth. That means our [inaudible 00:44:17] and a team focused on what matters most, winning the right candidates. Don't let your competitors out-hire you. Metaview customers close roles 30% faster. Try Metaview today for free and get an extra month of sourcing at Metaview.AI/Lenny. That's M-E-T-A View dot AI slash Lenny.
+**Lenny Rachitsky** [00:43:26] Who says hiring has to be fair?
 
 [00:44:38] You talked about how you're enjoying coding more. I actually did this little informal survey on Twitter. I don't know if you saw this where I just asked ... I did three different polls. I asked engineers, "Are you enjoying your job more or less since adopting AI tools?" And then I did a separate one for PMs, and one for designers. And both engineers and PMs, 70% of people said they are enjoying their job more. And about 10% said they're enjoying their job less.
 

@@ -225,10 +225,6 @@ transcript_source: "shared-folder"
 
 **Lenny Rachitsky** [00:44:28] Oh, man.
 
-[00:44:29] I am so excited to tell you about this season's supporting sponsor, Vanta. Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers. Teams are building and shipping products faster than ever thanks to AI. But as a result, the amount of risk being introduced into your product and your business is higher than it's ever been. Every security leader that I talk to is feeling the increasing weight of protecting their organization, their business, and not to mention, their customer data. Because things are moving so fast, they are constantly reacting, having to guess at priorities, and having to make do with outdated solutions.
-
-[00:45:10] Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA. This helps companies get compliant fast and stay compliant. More than ever before, trust has the power to make or break your business. Learn more at vanta.com/lenny. And as a listener of this podcast, you get $1,000 off Vanta. That's vanta.com/lenny.
-
 [00:45:37] I want to talk through just like, what do you do? So there's write a mission statement. Values, is that a part of this? Just define your values. Talk about the bullet points.
 
 **Eric Ries** [00:45:45] Well, yeah. So again, no. Writing this statement is not valuable. Okay? The statement is not what it is. The reason I use the old-fashioned word ethos. I tried to write this whole book without using any trendy consulting language at all. So I try not to use the word stakeholder. I try not to use the word culture. I tried to really go old-fashioned.

@@ -35,10 +35,6 @@ transcript_source: "shared-folder"
 
 **Lenny Rachitsky** [00:01:11] Today, my guest is Sherwin Wu, Head of Engineering for OpenAI's API and Developer Platform. Considering that essentially every AI startup integrates with OpenAI's APIs, Sherwin has an incredibly unique and broad view into what is going on and where things are heading. Let's get into it after a short word from our wonderful sponsors.
 
-[00:01:30] To learn more, visit DX's website at getdx.com/lenny. That's getdx.com/lenny.
-
-[00:02:14] Applications break in all kinds of ways, crashes, slowdowns, regressions, and the stuff that you only see once real users show up. Sentry catches it all. See what happened, where and why. Down to the commit that introduced the error, the developer who shipped it, and the exact line of code, all in one connected view. I've definitely tried the five tabs and Slack thread approach to debugging. This is better. Sentry shows you how the request moved, what ran, what slowed down, and what users saw. Seer, Sentry's AI debugging agent takes it from there. It uses all of that Sentry context to tell you the root cause, suggest a fix, and even opens a PR for you. It also reviews your PRs and flags any breaking changes with fixes ready to go. Try Sentry and Seer for free at sentry.io/lenny and use code LENNY for $100 in Sentry credits. That's S-E-N-T-R-Y.io/lenny.
-
 [00:03:15] Sherwin, thank you so much for being here and welcome to the podcast.
 
 **Sherwin Wu** [00:03:20] Thank you. Thank you for having me.

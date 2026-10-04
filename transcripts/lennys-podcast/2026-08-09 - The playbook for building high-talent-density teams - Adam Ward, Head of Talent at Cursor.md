@@ -477,25 +477,9 @@ transcript_source: "shared-folder"
 
 **Adam Ward** [01:24:07] Yeah, I think there's two. I think one is semi-recent and one is... I'm a huge Granola fan. I think I was super early on Granola, and I love that they continue to innovate and really just great product decisions, easy to use. They're great on feedback too. If you've ever given them feedback, they're phenomenal. The second I've been using a lot is Wispr Flow, and just trying to get out quick notes to my team. I am better this than this on terms of my thoughts. And so Wispr has been amazing on the go to drop notes to my team.
 
-**Lenny Rachitsky** [01:24:44] Listen to this, Adam. You may not know this.
+**Lenny Rachitsky** [01:24:44] Listen to this, Adam.
 
-**Adam Ward** [01:24:47] I don't.
-
-**Lenny Rachitsky** [01:24:47] Subscribers to my newsletter get a year free of not only Cursor, but also Granola and Wispr Flow.
-
-**Adam Ward** [01:24:48] I did not know that.
-
-**Lenny Rachitsky** [01:24:57] And 30 other incredible products, Replit and Google and Lovable, and it's out of control.
-
-**Adam Ward** [01:25:04] I love that.
-
-**Lenny Rachitsky** [01:25:04] So if you like any of these products, ladiesproductbest.com.
-
-**Adam Ward** [01:25:08] That was not a place at all. Yeah, I did not know that.
-
-**Lenny Rachitsky** [01:25:10] It's just we have all the best products for free for a freaking year, including Cursor. So there you go, ladiesproductbest.com.
-
-[01:25:17] Okay, two more questions. Do you have a favorite motto that you often come back to in work or in life?
+**Lenny Rachitsky** [01:25:17] Okay, two more questions. Do you have a favorite motto that you often come back to in work or in life?
 
 **Adam Ward** [01:25:22] Yeah, I think there's three things that I come back to and I try to instill in my kids too. One is, work hard. I think the value of hard work is hard to understate and something I grew up in. Second is, do great work. So let's not confuse the two. And third is, be helpful. And I think one thing I've really tried to do, and maybe part of the reason I was able to help build this team is I've really just tried to be helpful. And if you talk to founders out there, anyone, I will answer their emails. I will jump on a 10-minute call with them. And I want to think that people come to me for help and advice, and it's the right ones. I'm now getting to reap some of that of people who want to come to the work on the team. So those three things I really try to live by.
 

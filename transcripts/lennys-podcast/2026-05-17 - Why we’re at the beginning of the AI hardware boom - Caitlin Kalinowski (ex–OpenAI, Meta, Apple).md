@@ -247,13 +247,7 @@ transcript_source: "shared-folder"
 
 [00:43:05] And I think this is actually what Steve was talking about, which is, you can't get intuition if you're changing something fundamentally. Your customers won't know what they want because they haven't seen it. But if you show it to them, they will absolutely know that it's awesome and that is what they want. But if you get stuck in an iterative feedback cycle with your customers, it's very hard to go zero to one with something new. And so in my view, and I don't know for sure, I didn't talk to him about this, but that's my view of what that means.
 
-**Lenny Rachitsky** [00:43:38] I am so excited to tell you about this season's supporting sponsor, Vanta. Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.
-
-[00:43:52] Teams are building and shipping products faster than ever thanks to AI. But as a result, the amount of risk being introduced into your product and your business is higher than it's ever been. Every security leader that I talk to is feeling the increasing weight of protecting their organization, their business, and not to mention, their customer data. Because things are moving so fast, they are constantly reacting, having to guess at priorities, and having to make do with outdated solutions.
-
-[00:44:19] Vanta automates compliance and risk management, with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA. This helps companies get compliant, fast, and stay compliant. More than ever before, trust has the power to make or break your business. Learn more at vanta.com/lenny. And as a listener of this podcast, you get $1,000 off Vanta. That's vanta.com/lenny.
-
-[00:44:46] I'm going to go in a completely different direction. Coming back to components of hardware, I asked a bunch of people what to I talk to you about. One of the people is the founder of Matic, the CEO of Matic, Mehul Nariyawala. I've never said his last name out loud, so I hope I didn't butcher it. By the way, I love my Matic. I don't know if you have a Matic, but it's like-
+**Lenny Rachitsky** [00:44:46] I'm going to go in a completely different direction. Coming back to components of hardware, I asked a bunch of people what to I talk to you about. One of the people is the founder of Matic, the CEO of Matic, Mehul Nariyawala. I've never said his last name out loud, so I hope I didn't butcher it. By the way, I love my Matic. I don't know if you have a Matic, but it's like-
 
 **Caitlin Kalinowski** [00:45:06] I have two, and I've purchased two more for friends.
 
