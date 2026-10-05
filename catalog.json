@@ -1,5 +1,31 @@
 [
  {
+  "podcast": "how-i-ai",
+  "date": "2026-10-05",
+  "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
+  "guests": [
+   "Kath Korevec"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:35:12",
+  "categories": [
+   "coding",
+   "design"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "Slack",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "computer use"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-OpenAI-uses-ChatGPT-Sites-live-at-DevDay---Kath-Korevec-Product-Lead-e3pnm1q",
+  "path": "transcripts/how-i-ai/2026-10-05 - How OpenAI uses ChatGPT Sites (live at DevDay!) - Kath Korevec (Product Lead).md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-10-04",
   "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
@@ -31,6 +57,38 @@
   ],
   "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
   "path": "transcripts/lennys-podcast/2026-10-04 - OpenAI’s Head of ChatGPT- We’re entering a new era of AI (again) - Tibo Sottiaux.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-04",
+  "title": "How to Choose Your Personal AI Agent",
+  "guests": null,
+  "format": "tutorial",
+  "level": 1,
+  "length": "00:24:00",
+  "categories": [
+   "agents",
+   "consumer",
+   "work",
+   "models"
+  ],
+  "featured": [
+   "Meta Muse",
+   "Grok Bot",
+   "OpenClaw",
+   "Hermes Agent",
+   "Gemini",
+   "Grok"
+  ],
+  "mentioned": [
+   "Slack",
+   "Instinct",
+   "GPT-6",
+   "Hugging Face incident",
+   "OpenAI Codex"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-04",
+  "path": "transcripts/ai-daily-brief/2026-10-04 - How to Choose Your Personal AI Agent.md"
  },
  {
   "podcast": "latent-space",
@@ -69,6 +127,33 @@
   ],
   "url": "https://www.latent.space/p/rlm",
   "path": "transcripts/latent-space/2026-10-02 - Academia is for Ambition — Alex Zhang, MIT.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-02",
+  "title": "What the Best Business AI Users Are Doing Different",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:19:00",
+  "categories": [
+   "enterprise",
+   "funding-markets",
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "Anthropic",
+   "Meta Muse",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Grok",
+   "Claude Fable",
+   "model routing"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-02",
+  "path": "transcripts/ai-daily-brief/2026-10-02 - What the Best Business AI Users Are Doing Different.md"
  },
  {
   "podcast": "practical-ai",
