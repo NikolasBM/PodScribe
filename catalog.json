@@ -26,6 +26,32 @@
   "path": "transcripts/how-i-ai/2026-10-05 - How OpenAI uses ChatGPT Sites (live at DevDay!) - Kath Korevec (Product Lead).md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-05",
+  "title": "Why Companies Want AI They Can Own",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "open-weights",
+   "policy",
+   "infrastructure",
+   "funding-markets"
+  ],
+  "featured": [
+   "Meta Muse",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "Nvidia Nemotron",
+   "Claude Mythos",
+   "DeepSeek"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-05",
+  "path": "transcripts/ai-daily-brief/2026-10-05 - Why Companies Want AI They Can Own.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-10-04",
   "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
