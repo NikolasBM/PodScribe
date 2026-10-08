@@ -1,5 +1,23 @@
 [
  {
+  "podcast": "practical-ai",
+  "date": "2026-10-08",
+  "title": "Narrative intelligence and the human advantage",
+  "guests": [
+   "Reed Frerichs"
+  ],
+  "format": "interview",
+  "level": 0,
+  "length": "00:43:48",
+  "categories": [
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://share.transistor.fm/s/f2fcb677",
+  "path": "transcripts/practical-ai/2026-10-08 - Narrative intelligence and the human advantage.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-05",
   "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
