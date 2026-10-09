@@ -18,6 +18,56 @@
   "path": "transcripts/practical-ai/2026-10-08 - Narrative intelligence and the human advantage.md"
  },
  {
+  "podcast": "latent-space",
+  "date": "2026-10-08",
+  "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+  "guests": [
+   "Liam Fedus",
+   "Ekin Doğuş Çubuk",
+   "Brandon"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:23:47",
+  "categories": [
+   "agents",
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "ChatGPT",
+   "recursive self-improvement"
+  ],
+  "url": "https://www.latent.space/p/periodic",
+  "path": "transcripts/latent-space/2026-10-08 - Synthesis Superintelligence- from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-07",
+  "title": "The Best Way to Test New AI Models",
+  "guests": null,
+  "format": "tutorial",
+  "level": 3,
+  "length": "00:49:00",
+  "categories": [
+   "models",
+   "model-strategy"
+  ],
+  "featured": [
+   "Claude",
+   "GPT-6",
+   "Claude Opus"
+  ],
+  "mentioned": [
+   "Gemini",
+   "OpenRouter",
+   "Kimi",
+   "agent harness"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-07",
+  "path": "transcripts/ai-daily-brief/2026-10-07 - The Best Way to Test New AI Models.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-05",
   "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
