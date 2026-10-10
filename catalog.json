@@ -1856,6 +1856,34 @@
   "path": "transcripts/ai-daily-brief/2026-09-01 - OpenClaw 2.0 Shows Where AI Agents Are Going Next.md"
  },
  {
+  "podcast": "how-i-ai",
+  "date": "2026-08-31",
+  "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
+  "guests": [
+   "Daniel Blum"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:45:40",
+  "categories": [
+   "agents",
+   "work"
+  ],
+  "featured": [
+   "Claude",
+   "Claude Cowork",
+   "Slack",
+   "agent harness"
+  ],
+  "mentioned": [
+   "Claude Code",
+   "Gemini",
+   "OpenAI Codex"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-I-turned-Claude-into-a-self-improving-PM-assistant--Daniel-Blum-PM--Melio-e3nunqh",
+  "path": "transcripts/how-i-ai/2026-08-31 - How I turned Claude into a self-improving PM assistant - Daniel Blum (PM, Melio).md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-08-31",
   "title": "How to Navigate the Next Wave of AI Competition",
@@ -2095,6 +2123,38 @@
   "path": "transcripts/ai-daily-brief/2026-08-25 - What the Top AI Users Are Doing Differently.md"
  },
  {
+  "podcast": "how-i-ai",
+  "date": "2026-08-24",
+  "title": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
+  "guests": [
+   "Ryan Carson"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:43:45",
+  "categories": [
+   "agents",
+   "coding",
+   "work"
+  ],
+  "featured": [
+   "Cognition Devin",
+   "Slack",
+   "OpenAI Codex",
+   "Claude"
+  ],
+  "mentioned": [
+   "Cursor",
+   "Claude Design",
+   "OpenClaw",
+   "Figma",
+   "Claude Opus",
+   "Claude Code"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/I-spent-20-000-on-Devin-in-a-month--Heres-what-I-learned--Ryan-Carson-solo-founder-e3nheq6",
+  "path": "transcripts/how-i-ai/2026-08-24 - I spent $20,000 on Devin in a month. Here’s what I learned - Ryan Carson (solo founder).md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-08-24",
   "title": "The AI Model Tier List",
@@ -2271,6 +2331,40 @@
   "path": "transcripts/ai-daily-brief/2026-08-19 - The AI Backlash Is Getting Stupider. But Also Smarter..md"
  },
  {
+  "podcast": "how-i-ai",
+  "date": "2026-08-18",
+  "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:27:11",
+  "categories": [
+   "coding",
+   "models",
+   "agents",
+   "design"
+  ],
+  "featured": [
+   "Grok Bot",
+   "Cursor",
+   "Grok",
+   "GPT-5.6",
+   "MCP",
+   "agent harness"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Claude",
+   "ChatPRD",
+   "Claude Sonnet",
+   "Claude Opus",
+   "Slack",
+   "OpenAI Codex"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/I-tested-Grok-Bot--Grok-4-6--and-Cursor-Origin---heres-my-honest-take-e3niq9m",
+  "path": "transcripts/how-i-ai/2026-08-18 - I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-08-18",
   "title": "The AI Engineering Skills Map for Knowledge Workers",
@@ -2294,6 +2388,32 @@
   ],
   "url": "https://aidailybrief.ai/e/2026-08-18",
   "path": "transcripts/ai-daily-brief/2026-08-18 - The AI Engineering Skills Map for Knowledge Workers.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-08-17",
+  "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+  "guests": [
+   "Yana Welinder"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:32:24",
+  "categories": [
+   "design",
+   "coding",
+   "agents"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "computer use",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "Nano Banana"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-a-solo-founder-used-Codex-and-ChatGPT-to-launch-a-fashion-brand-without-engineers--Yana-Welinder-e3nc7u2",
+  "path": "transcripts/how-i-ai/2026-08-17 - How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers - Yana Welinder.md"
  },
  {
   "podcast": "ai-daily-brief",
@@ -2506,6 +2626,34 @@
   "path": "transcripts/ai-daily-brief/2026-08-11 - AI Optimism Has a Trust Problem.md"
  },
  {
+  "podcast": "how-i-ai",
+  "date": "2026-08-10",
+  "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+  "guests": null,
+  "format": "interview",
+  "level": 2,
+  "length": "00:42:40",
+  "categories": [
+   "agents",
+   "work",
+   "marketing",
+   "coding"
+  ],
+  "featured": [
+   "Claude",
+   "Claude Cowork",
+   "Claude Code"
+  ],
+  "mentioned": [
+   "Slack",
+   "ChatGPT",
+   "OpenClaw",
+   "Claude Opus"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Claude-Code-for-normal-people-skills--voice-mode--and-how-to-collaborate-with-AI-e3n48ci",
+  "path": "transcripts/how-i-ai/2026-08-10 - Claude Code for normal people- skills, voice mode, and how to collaborate with AI.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-08-10",
   "title": "What the Heck is Graph Engineering?",
@@ -2668,6 +2816,30 @@
   "path": "transcripts/ai-daily-brief/2026-08-06 - Google’s AI Leadership Shakeup- Disaster or Exactly What It Needs-.md"
  },
  {
+  "podcast": "how-i-ai",
+  "date": "2026-08-05",
+  "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
+  "guests": null,
+  "format": "tutorial",
+  "level": 3,
+  "length": "00:24:04",
+  "categories": [
+   "agents",
+   "coding"
+  ],
+  "featured": [
+   "Slack",
+   "OpenAI Codex"
+  ],
+  "mentioned": [
+   "ChatPRD",
+   "computer use",
+   "OpenClaw"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Build-an-AI-code-review-bot-in-30-minutes-with-Vercel-Eve-e3muer1",
+  "path": "transcripts/how-i-ai/2026-08-05 - Build an AI code review bot in 30 minutes with Vercel Eve.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-08-05",
   "title": "Why the Data Center Fight Has Little to Do With AI",
@@ -2754,6 +2926,34 @@
   ],
   "url": "https://www.latent.space/p/inference-eng",
   "path": "transcripts/latent-space/2026-08-03 - The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-08-03",
+  "title": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+  "guests": [
+   "Nick Baumann"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:41:20",
+  "categories": [
+   "agents",
+   "consumer",
+   "design",
+   "marketing"
+  ],
+  "featured": [
+   "ChatGPT",
+   "OpenAI Codex",
+   "agent harness",
+   "computer use"
+  ],
+  "mentioned": [
+   "Slack"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/ChatGPT-Codex-Voice--browser--Sites-an-experts-AI-workflow--Nick-Baumann-OpenAI-e3mq3n0",
+  "path": "transcripts/how-i-ai/2026-08-03 - ChatGPT Codex Voice + browser + Sites- an expert’s AI workflow - Nick Baumann (OpenAI).md"
  },
  {
   "podcast": "ai-daily-brief",
