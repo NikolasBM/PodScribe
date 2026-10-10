@@ -18,6 +18,33 @@
   "path": "transcripts/latent-space/2026-10-10 - Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-09",
+  "title": "What Happens When AI Solves Your Life’s Work",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:25:00",
+  "categories": [
+   "models",
+   "funding-markets",
+   "safety-security",
+   "work"
+  ],
+  "featured": [
+   "OpenAI",
+   "Claude"
+  ],
+  "mentioned": [
+   "open-weight models",
+   "ChatGPT",
+   "Gemini",
+   "OpenClaw"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-09",
+  "path": "transcripts/ai-daily-brief/2026-10-09 - What Happens When AI Solves Your Life’s Work.md"
+ },
+ {
   "podcast": "practical-ai",
   "date": "2026-10-08",
   "title": "Narrative intelligence and the human advantage",
