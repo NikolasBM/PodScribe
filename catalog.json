@@ -1,5 +1,23 @@
 [
  {
+  "podcast": "latent-space",
+  "date": "2026-10-10",
+  "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+  "guests": [
+   "Brandon Anderson",
+   "Sal Candido",
+   "Pushmeet Kohli"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:31:46",
+  "categories": [],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://www.latent.space/p/biohub-deepmind",
+  "path": "transcripts/latent-space/2026-10-10 - Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub.md"
+ },
+ {
   "podcast": "practical-ai",
   "date": "2026-10-08",
   "title": "Narrative intelligence and the human advantage",
@@ -40,6 +58,44 @@
   ],
   "url": "https://www.latent.space/p/periodic",
   "path": "transcripts/latent-space/2026-10-08 - Synthesis Superintelligence- from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-08",
+  "title": "The Most Important Trends Showing Up in New AI Products",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:27:00",
+  "categories": [
+   "models",
+   "model-strategy",
+   "funding-markets",
+   "agents"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "Jev",
+   "Hermes Agent",
+   "Claude Mythos",
+   "Grok Bot",
+   "GPT-6",
+   "Grok",
+   "ChatGPT",
+   "agent harness",
+   "Claude Haiku"
+  ],
+  "mentioned": [
+   "OpenClaw",
+   "Project Glasswing",
+   "Meta Muse",
+   "DeepSeek",
+   "Artificial Analysis",
+   "GLM"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-08",
+  "path": "transcripts/ai-daily-brief/2026-10-08 - The Most Important Trends Showing Up in New AI Products.md"
  },
  {
   "podcast": "ai-daily-brief",
