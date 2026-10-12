@@ -1,5 +1,26 @@
 [
  {
+  "podcast": "how-i-ai",
+  "date": "2026-10-12",
+  "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
+  "guests": [
+   "Alex Cornell"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:37:19",
+  "categories": [
+   "consumer",
+   "agents"
+  ],
+  "featured": [
+   "Meta Muse"
+  ],
+  "mentioned": [],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Meta-designed-Muse-an-AI-agent-people-actually-want-to-talk-to--Alex-Cornell-Design-Director-e3q4g9k",
+  "path": "transcripts/how-i-ai/2026-10-12 - How Meta designed Muse- an AI agent people actually want to talk to - Alex Cornell (Design Director).md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-10-11",
   "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
