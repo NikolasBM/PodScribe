@@ -1,5 +1,62 @@
 [
  {
+  "podcast": "lennys-podcast",
+  "date": "2026-10-11",
+  "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+  "guests": [
+   "Josh Woodward"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:01:48",
+  "categories": [
+   "work",
+   "consumer",
+   "coding"
+  ],
+  "featured": [
+   "Google",
+   "Gemini"
+  ],
+  "mentioned": [
+   "NotebookLM",
+   "vibe coding"
+  ],
+  "url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+  "path": "transcripts/lennys-podcast/2026-10-11 - Why every company now needs to think and operate like a lab team - Josh Woodward (Google Labs, Gemini, AI Studio).md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-11",
+  "title": "The 5 Debates Shaping AI",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:25:00",
+  "categories": [
+   "funding-markets",
+   "policy",
+   "infrastructure",
+   "agents"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "Meta Muse",
+   "Claude",
+   "open-weight models"
+  ],
+  "mentioned": [
+   "vibe coding",
+   "OpenClaw",
+   "Grok Bot",
+   "ChatGPT",
+   "GPT-6"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-11",
+  "path": "transcripts/ai-daily-brief/2026-10-11 - The 5 Debates Shaping AI.md"
+ },
+ {
   "podcast": "latent-space",
   "date": "2026-10-10",
   "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
