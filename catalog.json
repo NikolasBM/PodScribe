@@ -21,6 +21,23 @@
   "path": "transcripts/how-i-ai/2026-10-12 - How Meta designed Muse- an AI agent people actually want to talk to - Alex Cornell (Design Director).md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-12",
+  "title": "How to Go from AI Power User to AI Leader",
+  "guests": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:39:00",
+  "categories": [
+   "work",
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-10-12",
+  "path": "transcripts/ai-daily-brief/2026-10-12 - How to Go from AI Power User to AI Leader.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-10-11",
   "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
