@@ -1,5 +1,36 @@
 [
  {
+  "podcast": "how-i-ai",
+  "date": "2026-10-14",
+  "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:23:50",
+  "categories": [
+   "models",
+   "agents",
+   "design",
+   "coding"
+  ],
+  "featured": [
+   "Meta Muse",
+   "ChatPRD",
+   "computer use",
+   "Meta"
+  ],
+  "mentioned": [
+   "Claude Opus",
+   "Muse Spark",
+   "GPT-6",
+   "Claude Code",
+   "Claude",
+   "vibe coding"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Metas-new-Muse-Wonder-model-good-for-AI-agents--bad-for-design-e3qf2b2",
+  "path": "transcripts/how-i-ai/2026-10-14 - Meta’s new ‘Muse Wonder’ model- good for AI agents, bad for design.md"
+ },
+ {
   "podcast": "latent-space",
   "date": "2026-10-13",
   "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
