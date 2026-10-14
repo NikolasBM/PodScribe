@@ -1,5 +1,33 @@
 [
  {
+  "podcast": "latent-space",
+  "date": "2026-10-13",
+  "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+  "guests": [
+   "Jason Ma"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "01:11:51",
+  "categories": [
+   "agents",
+   "models"
+  ],
+  "featured": [
+   "agent harness"
+  ],
+  "mentioned": [
+   "distillation",
+   "Claude Code",
+   "GPT-6",
+   "ChatGPT",
+   "OpenAI Codex",
+   "Gemini"
+  ],
+  "url": "https://www.latent.space/p/dyna",
+  "path": "transcripts/latent-space/2026-10-13 - Dyna-2- General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-12",
   "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
