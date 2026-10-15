@@ -59,6 +59,39 @@
   "path": "transcripts/latent-space/2026-10-13 - Dyna-2- General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-13",
+  "title": "Why Muse Wonder Is Dividing AI Users",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:27:00",
+  "categories": [
+   "models",
+   "model-strategy",
+   "agents",
+   "coding"
+  ],
+  "featured": [
+   "Meta Muse",
+   "Meta",
+   "Claude Opus",
+   "Pacing the Frontier"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Claude Fable",
+   "Muse Spark",
+   "Nvidia Nemotron",
+   "Artificial Analysis",
+   "Gemini",
+   "Claude Code",
+   "Instinct"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-13",
+  "path": "transcripts/ai-daily-brief/2026-10-13 - Why Muse Wonder Is Dividing AI Users.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-12",
   "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
