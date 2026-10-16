@@ -1,5 +1,21 @@
 [
  {
+  "podcast": "practical-ai",
+  "date": "2026-10-15",
+  "title": "Education is Failing our Students in this AI-Driven World",
+  "guests": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:43:15",
+  "categories": [
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://share.transistor.fm/s/4f81adfa",
+  "path": "transcripts/practical-ai/2026-10-15 - Education is Failing our Students in this AI-Driven World.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-14",
   "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
@@ -29,6 +45,42 @@
   ],
   "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Metas-new-Muse-Wonder-model-good-for-AI-agents--bad-for-design-e3qf2b2",
   "path": "transcripts/how-i-ai/2026-10-14 - Meta’s new ‘Muse Wonder’ model- good for AI agents, bad for design.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-14",
+  "title": "What Gemini 4 Argon Is Actually Good For",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:30:00",
+  "categories": [
+   "models",
+   "coding",
+   "agents",
+   "design"
+  ],
+  "featured": [
+   "Gemini",
+   "Google",
+   "agent harness",
+   "Google Antigravity",
+   "computer use"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Meta Muse",
+   "Claude Opus",
+   "vibe coding",
+   "Claude Code",
+   "Instinct",
+   "ChatGPT",
+   "Claude Fable",
+   "OpenAI Codex",
+   "Claude"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-14",
+  "path": "transcripts/ai-daily-brief/2026-10-14 - What Gemini 4 Argon Is Actually Good For.md"
  },
  {
   "podcast": "latent-space",
