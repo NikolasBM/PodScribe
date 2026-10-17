@@ -16,6 +16,33 @@
   "path": "transcripts/practical-ai/2026-10-15 - Education is Failing our Students in this AI-Driven World.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-15",
+  "title": "How the Latest AI Leap Is Disrupting Business Models",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:30:00",
+  "categories": [
+   "funding-markets",
+   "coding",
+   "infrastructure",
+   "agents"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude Opus"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Claude Fable",
+   "Claude Mythos",
+   "vibe coding"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-15",
+  "path": "transcripts/ai-daily-brief/2026-10-15 - How the Latest AI Leap Is Disrupting Business Models.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-14",
   "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
