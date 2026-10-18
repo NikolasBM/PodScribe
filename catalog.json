@@ -1,5 +1,40 @@
 [
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-16",
+  "title": "The Most Important AI News This Week Is Getting Overlooked",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:29:00",
+  "categories": [
+   "models",
+   "open-weights",
+   "coding",
+   "enterprise"
+  ],
+  "featured": [
+   "Microsoft",
+   "Anthropic",
+   "Meta",
+   "Meta Muse",
+   "Microsoft MAI",
+   "Muse Spark",
+   "open-weight models",
+   "Cognition Devin"
+  ],
+  "mentioned": [
+   "Kimi",
+   "vibe coding",
+   "Claude",
+   "Artificial Analysis",
+   "DeepSeek",
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-16",
+  "path": "transcripts/ai-daily-brief/2026-10-16 - The Most Important AI News This Week Is Getting Overlooked.md"
+ },
+ {
   "podcast": "practical-ai",
   "date": "2026-10-15",
   "title": "Education is Failing our Students in this AI-Driven World",
