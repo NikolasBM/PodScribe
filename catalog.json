@@ -1,5 +1,28 @@
 [
  {
+  "podcast": "how-i-ai",
+  "date": "2026-10-19",
+  "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
+  "guests": [
+   "Brooke Lacey"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:36:05",
+  "categories": [
+   "design",
+   "marketing",
+   "agents"
+  ],
+  "featured": [
+   "Claude",
+   "Claude Code"
+  ],
+  "mentioned": [],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Claude-cuts-my-TikTok-How-this-creator-is-scaling-video-with-AI--Brooke-Lacey-e3qgmsh",
+  "path": "transcripts/how-i-ai/2026-10-19 - “Claude cuts my TikTok”- How this creator is scaling video with AI - Brooke Lacey.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-10-18",
   "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
@@ -21,6 +44,24 @@
   ],
   "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
   "path": "transcripts/lennys-podcast/2026-10-18 - Inside the black box of AI- How AI models actually think - Emmanuel Ameisen (Anthropic).md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-18",
+  "title": "A Potentially Historic AI Breakthrough",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:23:00",
+  "categories": [
+   "safety-security"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Hugging Face incident"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-18",
+  "path": "transcripts/ai-daily-brief/2026-10-18 - A Potentially Historic AI Breakthrough.md"
  },
  {
   "podcast": "ai-daily-brief",
