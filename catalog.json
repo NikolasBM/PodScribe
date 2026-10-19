@@ -1,5 +1,28 @@
 [
  {
+  "podcast": "lennys-podcast",
+  "date": "2026-10-18",
+  "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+  "guests": [
+   "Emmanuel Ameisen"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:11:49",
+  "categories": [
+   "safety-security"
+  ],
+  "featured": [
+   "Claude",
+   "Anthropic"
+  ],
+  "mentioned": [
+   "Jev"
+  ],
+  "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+  "path": "transcripts/lennys-podcast/2026-10-18 - Inside the black box of AI- How AI models actually think - Emmanuel Ameisen (Anthropic).md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-10-16",
   "title": "The Most Important AI News This Week Is Getting Overlooked",
