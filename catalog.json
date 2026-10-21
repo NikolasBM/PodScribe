@@ -23,6 +23,31 @@
   "path": "transcripts/how-i-ai/2026-10-19 - “Claude cuts my TikTok”- How this creator is scaling video with AI - Brooke Lacey.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-19",
+  "title": "The AI Wealth Problem",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:32:00",
+  "categories": [
+   "safety-security",
+   "funding-markets",
+   "policy",
+   "infrastructure"
+  ],
+  "featured": [
+   "Anthropic",
+   "agent harness"
+  ],
+  "mentioned": [
+   "distillation",
+   "Claude"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-19",
+  "path": "transcripts/ai-daily-brief/2026-10-19 - The AI Wealth Problem.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-10-18",
   "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
