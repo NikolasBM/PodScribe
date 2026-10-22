@@ -1,6 +1,63 @@
 [
  {
   "podcast": "how-i-ai",
+  "date": "2026-10-21",
+  "title": "Claude Duet is beautiful. I still forgot to use it",
+  "guests": null,
+  "format": "review",
+  "level": 1,
+  "length": "00:16:19",
+  "categories": [
+   "agents",
+   "consumer"
+  ],
+  "featured": [
+   "Claude",
+   "Anthropic"
+  ],
+  "mentioned": [
+   "Meta Muse",
+   "Slack",
+   "OpenAI Codex",
+   "Grok Bot",
+   "Claude Cowork",
+   "Figma"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Claude-Duet-is-beautiful--I-still-forgot-to-use-it-e3qsavo",
+  "path": "transcripts/how-i-ai/2026-10-21 - Claude Duet is beautiful. I still forgot to use it.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-20",
+  "title": "Why AI Companies Are Betting Personality Beats Intelligence",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "models",
+   "policy",
+   "consumer",
+   "agents"
+  ],
+  "featured": [
+   "DeepSeek",
+   "OpenAI",
+   "Meta Muse",
+   "Claude Opus",
+   "ChatGPT",
+   "Artificial Analysis"
+  ],
+  "mentioned": [
+   "Gemini",
+   "GPT-6",
+   "vibe coding"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-20",
+  "path": "transcripts/ai-daily-brief/2026-10-20 - Why AI Companies Are Betting Personality Beats Intelligence.md"
+ },
+ {
+  "podcast": "how-i-ai",
   "date": "2026-10-19",
   "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
   "guests": [
