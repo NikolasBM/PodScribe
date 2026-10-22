@@ -1,5 +1,31 @@
 [
  {
+  "podcast": "practical-ai",
+  "date": "2026-10-22",
+  "title": "Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs",
+  "guests": [
+   "Spencer McIntyre"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:44:36",
+  "categories": [
+   "safety-security",
+   "agents",
+   "open-weights",
+   "models"
+  ],
+  "featured": [
+   "GLM"
+  ],
+  "mentioned": [
+   "agent harness",
+   "Claude"
+  ],
+  "url": "https://share.transistor.fm/s/9a42098b",
+  "path": "transcripts/practical-ai/2026-10-22 - Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-21",
   "title": "Claude Duet is beautiful. I still forgot to use it",
