@@ -54,6 +54,32 @@
  },
  {
   "podcast": "ai-daily-brief",
+  "date": "2026-10-21",
+  "title": "How AI Is Changing What Work Means",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "funding-markets",
+   "agents",
+   "consumer",
+   "work"
+  ],
+  "featured": [
+   "Anthropic",
+   "Meta Muse",
+   "Claude"
+  ],
+  "mentioned": [
+   "Gemini",
+   "ChatGPT"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-21",
+  "path": "transcripts/ai-daily-brief/2026-10-21 - How AI Is Changing What Work Means.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
   "date": "2026-10-20",
   "title": "Why AI Companies Are Betting Personality Beats Intelligence",
   "guests": null,
