@@ -26,6 +26,34 @@
   "path": "transcripts/practical-ai/2026-10-22 - Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-22",
+  "title": "The AI vs AI Battle for the Internet",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "safety-security",
+   "agents",
+   "consumer",
+   "funding-markets"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude",
+   "Project Glasswing"
+  ],
+  "mentioned": [
+   "Meta Muse",
+   "Claude Mythos",
+   "Grok Bot",
+   "Hugging Face incident"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-22",
+  "path": "transcripts/ai-daily-brief/2026-10-22 - The AI vs AI Battle for the Internet.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-21",
   "title": "Claude Duet is beautiful. I still forgot to use it",
