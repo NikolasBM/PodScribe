@@ -46,6 +46,52 @@
   "path": "transcripts/practical-ai/2026-10-22 - Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs.md"
  },
  {
+  "podcast": "latent-space",
+  "date": "2026-10-22",
+  "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+  "guests": [
+   "Erik Bernhardsson"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:24:00",
+  "categories": [
+   "infrastructure",
+   "agents",
+   "coding",
+   "enterprise"
+  ],
+  "featured": [
+   "agent harness"
+  ],
+  "mentioned": [
+   "GLM",
+   "Claude"
+  ],
+  "url": "https://latent.space/p/modal-d",
+  "path": "transcripts/latent-space/2026-10-22 - Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-10-22",
+  "title": "You are the Team — Anekha Sokhal, Moshi",
+  "guests": [
+   "Anekha Sokhal"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:25:41",
+  "categories": [
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Claude"
+  ],
+  "url": "https://latent.space/p/moshi",
+  "path": "transcripts/latent-space/2026-10-22 - You are the Team — Anekha Sokhal, Moshi.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-10-22",
   "title": "The AI vs AI Battle for the Internet",
@@ -72,6 +118,34 @@
   ],
   "url": "https://aidailybrief.ai/e/2026-10-22",
   "path": "transcripts/ai-daily-brief/2026-10-22 - The AI vs AI Battle for the Internet.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-10-21",
+  "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+  "guests": [
+   "Alex Lieberman",
+   "CJ Hess"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:43:20",
+  "categories": [
+   "work",
+   "agents",
+   "coding",
+   "enterprise"
+  ],
+  "featured": [
+   "Claude Opus",
+   "agent harness"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "GPT-6"
+  ],
+  "url": "https://latent.space/p/tenex",
+  "path": "transcripts/latent-space/2026-10-21 - AI for the Fortune 2000- How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess.md"
  },
  {
   "podcast": "how-i-ai",
@@ -125,6 +199,24 @@
   ],
   "url": "https://aidailybrief.ai/e/2026-10-21",
   "path": "transcripts/ai-daily-brief/2026-10-21 - How AI Is Changing What Work Means.md"
+ },
+ {
+  "podcast": "latent-space",
+  "date": "2026-10-20",
+  "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+  "guests": [
+   "Evan Conrad"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:36:18",
+  "categories": [
+   "infrastructure"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://latent.space/p/sfcompute2",
+  "path": "transcripts/latent-space/2026-10-20 - The Programmable Data Center — Evan Conrad, SF Compute.md"
  },
  {
   "podcast": "ai-daily-brief",
