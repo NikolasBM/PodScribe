@@ -1,5 +1,25 @@
 [
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-23",
+  "title": "The Most Concerning AI Bubble Signals",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "funding-markets",
+   "infrastructure",
+   "enterprise"
+  ],
+  "featured": [
+   "Anthropic"
+  ],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-10-23",
+  "path": "transcripts/ai-daily-brief/2026-10-23 - The Most Concerning AI Bubble Signals.md"
+ },
+ {
   "podcast": "practical-ai",
   "date": "2026-10-22",
   "title": "Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs",
