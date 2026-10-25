@@ -46,7 +46,11 @@ phrases = [
 slug = "latent-space"
 name = "Latent Space"
 source = "substack"
-site = "https://www.latent.space"
+site = "https://latent.space"
+# Left Substack in October 2026 (the archive API answers 404); the podcast feed carries the post bodies
+feed = "https://latent.space/feeds/podcasts.xml"
+# Since the move the transcripts have no speaker labels: "Topic — Jane Doe, Company" names the guest(s)
+guest_title_pattern = '— (?:with )?(?P<guest>[A-Z][^,—]*?)(?:,| of |\s*$)'
 since = 2026-06-01
 host = "Swyx"
 hosts = ["Swyx", "Alessio", "Vibhu", "Voiceover", "Sarah Guo", "Elad Gil"]

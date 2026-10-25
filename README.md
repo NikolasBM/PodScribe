@@ -10,7 +10,7 @@ An archive of transcripts from AI podcasts. New episodes are fetched or transcri
 | [Lenny's Podcast](https://www.lennysnewsletter.com/podcast) (Lenny Rachitsky) | `transcripts/lennys-podcast/` | Transcripts from a shared folder, matched to episodes via the podcast feed | 2026-01-01 |
 | [The Lean AI Podcast](https://podcasts.apple.com/dk/podcast/the-lean-ai-podcast-presented-by-eric-ries/id1761344341) (Lean Startup Co) | `transcripts/lean-ai-podcast/` | Transcribed from the audio with Azure MAI-Transcribe | 2024-08-06 |
 | [How I AI](https://podcasts.apple.com/us/podcast/how-i-ai/id1809663079) (Claire Vo) | `transcripts/how-i-ai/` | Transcribed from the audio with Azure MAI-Transcribe | 2026-09-01 |
-| [Latent Space](https://www.latent.space/) (Swyx & Alessio) | `transcripts/latent-space/` | Transcripts published in the show's Substack posts | 2026-06-01 |
+| [Latent Space](https://latent.space/) (Swyx & Alessio) | `transcripts/latent-space/` | Transcripts published in the show's posts | 2026-06-01 |
 | [Practical AI](https://podcasts.apple.com/dk/podcast/practical-ai/id1406537385) (Daniel Whitenack & Chris Benson) | `transcripts/practical-ai/` | Transcripts published in the show's podcast feed; sponsor reads are left out | 2026-08-01 |
 
 ## Credits and Rights
@@ -103,7 +103,7 @@ Search is deliberately left out of this repo, so everyone can decide how they wa
 A GitHub Actions workflow (`.github/workflows/fetch.yml`) runs `fetch_transcripts.py` daily. The script reads [`podcasts.toml`](podcasts.toml) and handles each podcast according to its `source`:
 
 - **`published`** — the show publishes its own transcripts at one URL per date. The script checks the last 30 days and downloads any that aren't in the archive yet. Not every date has an episode.
-- **`substack`** — the show's posts on a Substack publication include the transcript. The script lists the publication's podcast posts, and saves those that have a transcript and aren't in the archive yet (some posts only have show notes).
+- **`substack`** — the show's posts on a Substack publication include the transcript. The script lists the publication's podcast posts (or, for a show that has left Substack, reads them from its own RSS feed), and saves those that have a transcript and aren't in the archive yet (some posts only have show notes).
 - **`folder`** — the transcripts are plain-text files in a shared Dropbox folder, named after the guest. The script matches each file to an episode in the podcast's RSS feed (by guest name and episode length) and takes title, date and link from the feed. The folder link is a repository secret.
 - **`rss`** — the script reads the podcast's RSS feed, downloads the audio of new episodes and transcribes it with [MAI-Transcribe](https://learn.microsoft.com/azure/ai-services/speech-service/mai-transcribe) through Azure Speech's fast transcription API, with speaker diarization.
 

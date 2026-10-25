@@ -227,7 +227,8 @@ def fetch_published(podcast, out_dir, since, until, limit):
 
 
 # --- source = "substack" ---------------------------------------------------
-# A Substack publication whose podcast posts carry the transcript in the post body.
+# A Substack publication whose podcast posts carry the transcript in the post body. A publication that has left Substack
+# (Latent Space, October 2026) sets `feed`: its podcast RSS feed carries the same post bodies.
 
 def http_json(url):
     return json.loads(http_get(url, timeout=30))
@@ -249,6 +250,24 @@ def substack_episodes(podcast, since, until):
             break
         time.sleep(0.2)
     return episodes
+
+
+def feed_posts(podcast, since, until):
+    """Podcast posts (guid, slug, title, date, url, body_html) of the publication's own RSS feed within the range."""
+    episodes = []
+    for item in ET.fromstring(http_get(podcast["feed"], timeout=60)).find("channel").findall("item"):
+        day = parsedate_to_datetime(item.findtext("pubDate")).date()
+        url = (item.findtext("link") or "").strip()
+        if since <= day <= until and "/p/" in url:
+            episodes.append({"guid": (item.findtext("guid") or url).strip(), "slug": post_slug(url), "url": url.rstrip("/"),
+                             "title": " ".join((item.findtext("title") or "").split()), "date": day,
+                             "body_html": item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or ""})
+    return episodes
+
+
+def post_slug(url):
+    """'https://www.latent.space/p/dyna' and 'https://latent.space/p/dyna/' are the same post: 'dyna'."""
+    return url.rstrip("/").rsplit("/p/", 1)[-1]
 
 
 def speaker_guests(body, podcast):
@@ -280,7 +299,8 @@ def substack_body(body_html):
     stamp_re = re.compile(r"\[(\d{1,2}:\d\d(?::\d\d)?)\]")
     label_re = re.compile(r"^<strong>(?P<name>[^<\[:]+?)\s*(?:\[(?P<ts>\d{1,2}:\d\d(?::\d\d)?)\])?\s*:?\s*</strong>\s*:?\s*(?P<rest>.*)$", re.S)
     chapter_re = re.compile(r"^<strong>\s*\[(?P<ts>\d{1,2}:\d\d(?::\d\d)?)\]\s*(?P<title>[^<]+)</strong>$")
-    now, out, turns = "00:00:00", [], 0
+    stamped_re = re.compile(r"^<strong>\s*(?P<ts>\d{1,2}:\d\d(?::\d\d)?)\s*</strong>\s*(?P<rest>.*)$", re.S)
+    now, out, turns, stamped = "00:00:00", [], 0, 0
 
     def clean(fragment):
         return html.unescape(re.sub(r"<[^>]+>", "", fragment))
@@ -298,6 +318,9 @@ def substack_body(body_html):
 
     for kind, inner in re.findall(r"<(h[23]|p)[^>]*>(.*?)</\1>", body_html[marker.end():], flags=re.S):
         inner = inner.strip()
+        if kind == "p" and (m := stamped_re.match(inner)):  # `<strong>1:30</strong> text`: no speaker labels
+            now, inner = stamp(m["ts"]), m["rest"]
+            stamped += 1
         chapter = chapter_re.match(inner)
         label = label_re.match(inner)
         if chapter:
@@ -324,18 +347,19 @@ def substack_body(body_html):
             if text:
                 out.append(f"{'**' + turn + '** ' if turn else ''}[{start}] {text}")
             now = stamp(stamps[-1]) if stamps else start
-    return "\n\n".join(out) if turns else None
+    return "\n\n".join(out) if turns or stamped else None
 
 
 def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
     """Save the transcripts of a Substack publication's podcast posts. Returns number saved."""
     try:
-        episodes = substack_episodes(podcast, since, until)
+        episodes = feed_posts(podcast, since, until) if podcast.get("feed") else substack_episodes(podcast, since, until)
     except Exception as e:
-        warn(f"{podcast['slug']}: archive: {type(e).__name__}: {e}")
+        warn(f"{podcast['slug']}: {'feed' if podcast.get('feed') else 'archive'}: {type(e).__name__}: {e}")
         return 0
     done = existing_guids(out_dir)
-    todo = [e for e in episodes if f"substack:{e['id']}" not in done]
+    done_slugs = {post_slug(read_doc(path)[0].get("url", "")) for path in out_dir.glob("*.md")}  # guids changed with the move
+    todo = [e for e in episodes if e.get("guid", f"substack:{e.get('id')}") not in done and e["slug"] not in done_slugs]
     if dry_run:
         for episode in todo[:limit]:
             print(f"would fetch {episode['date']}: {episode['title']}")
@@ -346,7 +370,7 @@ def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
             break
         date_str = episode["date"].isoformat()
         try:
-            post = http_json(f"{podcast['site']}/api/v1/posts/{episode['slug']}")
+            post = episode if "body_html" in episode else http_json(f"{podcast['site']}/api/v1/posts/{episode['slug']}")
             body = substack_body(post.get("body_html") or "")
         except Exception as e:
             warn(f"{date_str} {episode['title']}: {type(e).__name__}: {e}")
@@ -354,9 +378,11 @@ def fetch_substack(podcast, out_dir, since, until, limit, dry_run):
         if body is None:  # a podcast post without a transcript (show notes only)
             continue
         title = clean_title(episode["title"])
-        url = post.get("canonical_url") or podcast["site"] + "/p/" + episode["slug"]
-        meta = try_metadata(episode_meta(podcast, title, date_str, url, f"substack:{episode['id']}", transcript_source="publisher"),
-                            body, podcast, speaker_guests(body, podcast))
+        url = post.get("canonical_url") or post.get("url") or podcast["site"] + "/p/" + episode["slug"]
+        guid = episode.get("guid") or f"substack:{episode['id']}"
+        # Without speaker labels (the transcripts since the move), the guests come from the title
+        guests = speaker_guests(body, podcast) or [g for n in guest_names(title, podcast) for g in re.split(r"\s*&\s*|\s+and\s+", n)]
+        meta = try_metadata(episode_meta(podcast, title, date_str, url, guid, transcript_source="publisher"), body, podcast, guests)
         (out_dir / f"{date_str} - {sanitize_filename(title)}.md").write_text(render_doc(meta, body), encoding="utf-8", newline="\n")
         print(f"saved {date_str}: {title}")
         count += 1
