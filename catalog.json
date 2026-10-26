@@ -1,5 +1,33 @@
 [
  {
+  "podcast": "how-i-ai",
+  "date": "2026-10-26",
+  "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+  "guests": [
+   "Blair Metcalf"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:29:14",
+  "categories": [
+   "coding",
+   "design",
+   "agents"
+  ],
+  "featured": [
+   "Figma",
+   "MCP",
+   "agent harness",
+   "Cursor"
+  ],
+  "mentioned": [
+   "Slack",
+   "Gemini"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Why-Reddit-built-its-own-AI-prototyping-tool--Blair-Metcalf-e3qtst2",
+  "path": "transcripts/how-i-ai/2026-10-26 - Why Reddit built its own AI prototyping tool - Blair Metcalf.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-10-25",
   "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
