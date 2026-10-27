@@ -47,6 +47,38 @@
  },
  {
   "podcast": "ai-daily-brief",
+  "date": "2026-10-25",
+  "title": "How I'm Actually Using AI Right Now (Including Claude Duet)",
+  "guests": null,
+  "format": "commentary",
+  "level": 2,
+  "length": "00:32:00",
+  "categories": [
+   "agents",
+   "marketing",
+   "coding",
+   "consumer"
+  ],
+  "featured": [
+   "Claude",
+   "OpenAI Codex",
+   "Claude Code",
+   "Claude Opus",
+   "ChatGPT",
+   "Anthropic"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Meta Muse",
+   "Grok Bot",
+   "OpenClaw",
+   "Slack"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-25",
+  "path": "transcripts/ai-daily-brief/2026-10-25 - How I'm Actually Using AI Right Now (Including Claude Duet).md"
+ },
+ {
+  "podcast": "ai-daily-brief",
   "date": "2026-10-23",
   "title": "The Most Concerning AI Bubble Signals",
   "guests": null,
