@@ -28,6 +28,39 @@
   "path": "transcripts/how-i-ai/2026-10-26 - Why Reddit built its own AI prototyping tool - Blair Metcalf.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-26",
+  "title": "4 Questions for AI This Week",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:27:00",
+  "categories": [
+   "models",
+   "funding-markets",
+   "safety-security",
+   "open-weights"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "Claude Opus",
+   "Claude Fable",
+   "open-weight models",
+   "Kimi",
+   "Terminal Bench"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "DeepSeek",
+   "Artificial Analysis",
+   "GLM",
+   "Claude Sonnet"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-26",
+  "path": "transcripts/ai-daily-brief/2026-10-26 - 4 Questions for AI This Week.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-10-25",
   "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
