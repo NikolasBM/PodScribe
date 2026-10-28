@@ -1,6 +1,67 @@
 [
  {
   "podcast": "how-i-ai",
+  "date": "2026-10-28",
+  "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:34:19",
+  "categories": [
+   "agents",
+   "models",
+   "design",
+   "consumer"
+  ],
+  "featured": [
+   "Meta Muse",
+   "Claude",
+   "Grok",
+   "Grok Bot",
+   "computer use"
+  ],
+  "mentioned": [
+   "OpenAI Codex",
+   "Slack",
+   "Figma",
+   "Cognition Devin",
+   "Lovable",
+   "ChatPRD",
+   "ChatGPT",
+   "ElevenLabs"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Grok-vs--Dot-vs--Muse-vs--Claude-Duet-which-one-crushes-the-competition-e3r6ksv",
+  "path": "transcripts/how-i-ai/2026-10-28 - Grok vs. Dot vs. Muse vs. Claude Duet- which one crushes the competition-.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-27",
+  "title": "What Anthropic’s IPO Filing Reveals",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "funding-markets",
+   "models",
+   "infrastructure",
+   "safety-security"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "computer use",
+   "Claude"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Qwen"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-27",
+  "path": "transcripts/ai-daily-brief/2026-10-27 - What Anthropic’s IPO Filing Reveals.md"
+ },
+ {
+  "podcast": "how-i-ai",
   "date": "2026-10-26",
   "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
   "guests": [
