@@ -1,5 +1,28 @@
 [
  {
+  "podcast": "practical-ai",
+  "date": "2026-10-29",
+  "title": "Abundant Intelligence at the Midwest AI Summit",
+  "guests": [
+   "Heidi Porter",
+   "Kevin Solorio",
+   "Andrew Dunlap"
+  ],
+  "format": "tutorial",
+  "level": 2,
+  "length": "00:53:38",
+  "categories": [
+   "agents",
+   "coding",
+   "work",
+   "enterprise"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://share.transistor.fm/s/37a0c3e9",
+  "path": "transcripts/practical-ai/2026-10-29 - Abundant Intelligence at the Midwest AI Summit.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-28",
   "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
@@ -32,6 +55,32 @@
   ],
   "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Grok-vs--Dot-vs--Muse-vs--Claude-Duet-which-one-crushes-the-competition-e3r6ksv",
   "path": "transcripts/how-i-ai/2026-10-28 - Grok vs. Dot vs. Muse vs. Claude Duet- which one crushes the competition-.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-28",
+  "title": "AI Can Now Create Worlds You Can Change in Real Time",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "models",
+   "funding-markets",
+   "design"
+  ],
+  "featured": [
+   "Google",
+   "Anthropic",
+   "Gemini",
+   "Claude",
+   "Google DeepMind"
+  ],
+  "mentioned": [
+   "vibe coding"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-28",
+  "path": "transcripts/ai-daily-brief/2026-10-28 - AI Can Now Create Worlds You Can Change in Real Time.md"
  },
  {
   "podcast": "ai-daily-brief",
