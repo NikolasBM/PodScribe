@@ -23,6 +23,41 @@
   "path": "transcripts/practical-ai/2026-10-29 - Abundant Intelligence at the Midwest AI Summit.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-29",
+  "title": "The AI Rankings Just Got Reshuffled",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:27:00",
+  "categories": [
+   "models",
+   "coding",
+   "funding-markets",
+   "infrastructure"
+  ],
+  "featured": [
+   "Google",
+   "Artificial Analysis",
+   "Gemini",
+   "Claude Opus",
+   "open-weight models",
+   "computer use",
+   "Kimi"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Claude Fable",
+   "Terminal Bench",
+   "Claude Sonnet",
+   "Grok",
+   "vibe coding",
+   "Claude Haiku"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-29",
+  "path": "transcripts/ai-daily-brief/2026-10-29 - The AI Rankings Just Got Reshuffled.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-10-28",
   "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
