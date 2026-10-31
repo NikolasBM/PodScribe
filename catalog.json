@@ -1,5 +1,29 @@
 [
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-10-30",
+  "title": "How the Most AI-Pilled Company in the World Works",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:31:00",
+  "categories": [
+   "agents",
+   "coding",
+   "work",
+   "funding-markets"
+  ],
+  "featured": [
+   "Claude"
+  ],
+  "mentioned": [
+   "Grok",
+   "Granola"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-10-30",
+  "path": "transcripts/ai-daily-brief/2026-10-30 - How the Most AI-Pilled Company in the World Works.md"
+ },
+ {
   "podcast": "practical-ai",
   "date": "2026-10-29",
   "title": "Abundant Intelligence at the Midwest AI Summit",
