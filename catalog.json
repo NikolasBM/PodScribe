@@ -1,5 +1,29 @@
 [
  {
+  "podcast": "lennys-podcast",
+  "date": "2026-11-01",
+  "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+  "guests": [
+   "Hector Serrano"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:27:22",
+  "categories": [
+   "marketing",
+   "work",
+   "design"
+  ],
+  "featured": [
+   "Whisperflow"
+  ],
+  "mentioned": [
+   "Claude"
+  ],
+  "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+  "path": "transcripts/lennys-podcast/2026-11-01 - How a 19-year-old intern built the growth engine behind this $2B AI company - Hector Serrano.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-10-30",
   "title": "How the Most AI-Pilled Company in the World Works",
