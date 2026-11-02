@@ -1,5 +1,40 @@
 [
  {
+  "podcast": "how-i-ai",
+  "date": "2026-11-02",
+  "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+  "guests": [
+   "Ezra Mechaber"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:41:54",
+  "categories": [
+   "agents",
+   "coding",
+   "work"
+  ],
+  "featured": [
+   "Jev",
+   "Figma",
+   "OpenAI Codex",
+   "Slack",
+   "Claude Code",
+   "computer use",
+   "Cursor"
+  ],
+  "mentioned": [
+   "Instinct",
+   "Claude",
+   "MCP",
+   "GPT-6",
+   "Grok",
+   "Meta Muse"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Figmas-PMs-actually-use-AI-every-day--Ezra-Mechaber-PM--Figma-e3raoc4",
+  "path": "transcripts/how-i-ai/2026-11-02 - How Figma’s PMs actually use AI every day - Ezra Mechaber (PM, Figma).md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-11-01",
   "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
@@ -22,6 +57,22 @@
   ],
   "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
   "path": "transcripts/lennys-podcast/2026-11-01 - How a 19-year-old intern built the growth engine behind this $2B AI company - Hector Serrano.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-01",
+  "title": "AI Won’t Make Our Minds Useless According to 400 Years of History",
+  "guests": null,
+  "format": "commentary",
+  "level": 0,
+  "length": "00:26:00",
+  "categories": [
+   "work"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-11-01",
+  "path": "transcripts/ai-daily-brief/2026-11-01 - AI Won’t Make Our Minds Useless According to 400 Years of History.md"
  },
  {
   "podcast": "ai-daily-brief",
