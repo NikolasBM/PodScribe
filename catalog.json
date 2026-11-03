@@ -35,6 +35,23 @@
   "path": "transcripts/how-i-ai/2026-11-02 - How Figma’s PMs actually use AI every day - Ezra Mechaber (PM, Figma).md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-02",
+  "title": "How to Deslopify Your AI",
+  "guests": null,
+  "format": "interview",
+  "level": 1,
+  "length": "00:42:00",
+  "categories": [
+   "work",
+   "marketing"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-11-02",
+  "path": "transcripts/ai-daily-brief/2026-11-02 - How to Deslopify Your AI.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-11-01",
   "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
