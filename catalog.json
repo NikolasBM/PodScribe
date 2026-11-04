@@ -1,5 +1,36 @@
 [
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-03",
+  "title": "AI Lurches Toward Recursive Self-Improvement",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:26:00",
+  "categories": [
+   "models",
+   "consumer",
+   "agents",
+   "funding-markets"
+  ],
+  "featured": [
+   "recursive self-improvement",
+   "Meta Muse",
+   "GPT-6",
+   "Grok Bot",
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "Qwen",
+   "Gemini",
+   "Claude",
+   "Hermes Agent",
+   "Claude Opus"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-03",
+  "path": "transcripts/ai-daily-brief/2026-11-03 - AI Lurches Toward Recursive Self-Improvement.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-11-02",
   "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
