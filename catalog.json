@@ -28,6 +28,30 @@
  },
  {
   "podcast": "ai-daily-brief",
+  "date": "2026-11-05",
+  "title": "Why a Data Center Slowdown Benefits Big Tech",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:25:00",
+  "categories": [
+   "infrastructure",
+   "funding-markets",
+   "policy",
+   "enterprise"
+  ],
+  "featured": [
+   "ChatGPT"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "OpenAI Codex"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-05",
+  "path": "transcripts/ai-daily-brief/2026-11-05 - Why a Data Center Slowdown Benefits Big Tech.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
   "date": "2026-11-04",
   "title": "How the Midterm Results Change AI",
   "guests": null,
