@@ -1,5 +1,36 @@
 [
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-06",
+  "title": "Companies Are Spending 5x More on AI Now",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:30:00",
+  "categories": [
+   "enterprise",
+   "funding-markets",
+   "agents",
+   "coding"
+  ],
+  "featured": [
+   "Anthropic",
+   "Claude",
+   "recursive self-improvement",
+   "Claude Opus",
+   "OpenAI Codex",
+   "Claude Code"
+  ],
+  "mentioned": [
+   "vibe coding",
+   "Meta Muse",
+   "GPT-6",
+   "Gemini"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-06",
+  "path": "transcripts/ai-daily-brief/2026-11-06 - Companies Are Spending 5x More on AI Now.md"
+ },
+ {
   "podcast": "practical-ai",
   "date": "2026-11-05",
   "title": "Abundant Intelligence at the Midwest AI Summit Part 2",
