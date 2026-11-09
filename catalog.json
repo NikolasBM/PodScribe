@@ -1,5 +1,93 @@
 [
  {
+  "podcast": "how-i-ai",
+  "date": "2026-11-09",
+  "title": "How this founder built a better Duolingo with Codex | William Imoh",
+  "guests": [
+   "William Imoh"
+  ],
+  "format": "interview",
+  "level": 2,
+  "length": "00:38:05",
+  "categories": [
+   "agents",
+   "coding",
+   "work",
+   "marketing"
+  ],
+  "featured": [
+   "OpenAI Codex",
+   "Grok Bot",
+   "GPT Live",
+   "ChatGPT",
+   "computer use"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Cursor"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-this-founder-built-a-better-Duolingo-with-Codex--William-Imoh-e3rokon",
+  "path": "transcripts/how-i-ai/2026-11-09 - How this founder built a better Duolingo with Codex - William Imoh.md"
+ },
+ {
+  "podcast": "lennys-podcast",
+  "date": "2026-11-08",
+  "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+  "guests": [
+   "Tulsee Doshi"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:58:09",
+  "categories": [
+   "work",
+   "safety-security",
+   "agents",
+   "consumer"
+  ],
+  "featured": [
+   "Google",
+   "Gemini"
+  ],
+  "mentioned": [
+   "agent harness",
+   "Whisperflow",
+   "OpenAI Codex",
+   "Claude Cowork",
+   "Grok Bot"
+  ],
+  "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+  "path": "transcripts/lennys-podcast/2026-11-08 - Why PMs are suddenly valuable again - Tulsee Doshi (Head of Product, Gemini).md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-08",
+  "title": "Agentic Video Is Real and Here’s What You Should Try",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:30:00",
+  "categories": [
+   "design",
+   "agents",
+   "marketing",
+   "models"
+  ],
+  "featured": [
+   "Claude Code",
+   "Claude Opus",
+   "Claude",
+   "agent harness",
+   "OpenAI Codex"
+  ],
+  "mentioned": [
+   "vibe coding",
+   "computer use"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-08",
+  "path": "transcripts/ai-daily-brief/2026-11-08 - Agentic Video Is Real and Here’s What You Should Try.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-11-06",
   "title": "Companies Are Spending 5x More on AI Now",
