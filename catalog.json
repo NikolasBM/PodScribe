@@ -2,6 +2,34 @@
  {
   "podcast": "how-i-ai",
   "date": "2026-11-09",
+  "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:24:20",
+  "categories": [
+   "coding",
+   "models",
+   "design"
+  ],
+  "featured": [
+   "Claude Fable",
+   "Claude Code",
+   "Claude",
+   "Anthropic"
+  ],
+  "mentioned": [
+   "Claude Opus",
+   "OpenAI Codex",
+   "computer use",
+   "Claude Mythos"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Claude-Fable-5-2-review-fast--creative--and-finally-not-annoying-e3s3os9",
+  "path": "transcripts/how-i-ai/2026-11-09 - Claude Fable 5.2 review- fast, creative, and finally not annoying.md"
+ },
+ {
+  "podcast": "how-i-ai",
+  "date": "2026-11-09",
   "title": "How this founder built a better Duolingo with Codex | William Imoh",
   "guests": [
    "William Imoh"
