@@ -58,6 +58,26 @@
   "path": "transcripts/how-i-ai/2026-11-09 - How this founder built a better Duolingo with Codex - William Imoh.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-09",
+  "title": "Nvidia CEO Admits Affair With Suspected Chinese Spy",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "funding-markets",
+   "policy",
+   "infrastructure"
+  ],
+  "featured": [
+   "Nvidia"
+  ],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-11-09",
+  "path": "transcripts/ai-daily-brief/2026-11-09 - Nvidia CEO Admits Affair With Suspected Chinese Spy.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-11-08",
   "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
