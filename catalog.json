@@ -1,6 +1,34 @@
 [
  {
   "podcast": "how-i-ai",
+  "date": "2026-11-11",
+  "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+  "guests": [
+   "Scott Farrar"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:33:46",
+  "categories": [
+   "agents",
+   "consumer"
+  ],
+  "featured": [
+   "Claude",
+   "Claude Code"
+  ],
+  "mentioned": [
+   "Meta Muse",
+   "ChatGPT",
+   "OpenAI Codex",
+   "Grok Bot",
+   "Instinct"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/Claude-Code--Obsidian-My-familys-AI-brain--Scott-Farrar-e3s3sgr",
+  "path": "transcripts/how-i-ai/2026-11-11 - Claude Code + Obsidian- My family’s AI brain - Scott Farrar.md"
+ },
+ {
+  "podcast": "how-i-ai",
   "date": "2026-11-09",
   "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
   "guests": null,
