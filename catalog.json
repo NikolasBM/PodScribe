@@ -28,6 +28,36 @@
   "path": "transcripts/how-i-ai/2026-11-11 - Claude Code + Obsidian- My family’s AI brain - Scott Farrar.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-10",
+  "title": "Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet?",
+  "guests": null,
+  "format": "review",
+  "level": 2,
+  "length": "00:30:00",
+  "categories": [
+   "models",
+   "coding",
+   "model-strategy",
+   "agents"
+  ],
+  "featured": [
+   "Claude Fable",
+   "Claude Opus",
+   "Anthropic",
+   "Claude Mythos",
+   "Claude",
+   "Artificial Analysis"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Gemini",
+   "Claude Code"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-10",
+  "path": "transcripts/ai-daily-brief/2026-11-10 - Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet-.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-11-09",
   "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
