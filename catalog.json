@@ -29,6 +29,34 @@
  },
  {
   "podcast": "ai-daily-brief",
+  "date": "2026-11-11",
+  "title": "Wall Street Has No Idea What Anthropic Is Worth",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:24:00",
+  "categories": [
+   "funding-markets",
+   "models",
+   "policy",
+   "infrastructure"
+  ],
+  "featured": [
+   "Anthropic",
+   "Nvidia",
+   "Claude",
+   "Gemini"
+  ],
+  "mentioned": [
+   "Claude Fable",
+   "ChatGPT",
+   "GPT-6"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-11",
+  "path": "transcripts/ai-daily-brief/2026-11-11 - Wall Street Has No Idea What Anthropic Is Worth.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
   "date": "2026-11-10",
   "title": "Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet?",
   "guests": null,
