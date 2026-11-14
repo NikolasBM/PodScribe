@@ -1,5 +1,48 @@
 [
  {
+  "podcast": "practical-ai",
+  "date": "2026-11-13",
+  "title": "Implementing Federated Learning to enhance Agentic AI",
+  "guests": [
+   "Lorenzo Sani"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:42:56",
+  "categories": [
+   "agents",
+   "open-weights"
+  ],
+  "featured": [],
+  "mentioned": [
+   "open-weight models"
+  ],
+  "url": "https://share.transistor.fm/s/58a69653",
+  "path": "transcripts/practical-ai/2026-11-13 - Implementing Federated Learning to enhance Agentic AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-12",
+  "title": "Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:29:00",
+  "categories": [
+   "policy",
+   "infrastructure",
+   "funding-markets"
+  ],
+  "featured": [
+   "Nvidia"
+  ],
+  "mentioned": [
+   "Nvidia Nemotron"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-12",
+  "path": "transcripts/ai-daily-brief/2026-11-12 - Jensen Huang Is Out. Everything in AI Is Now Up for Grabs..md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-11-11",
   "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
