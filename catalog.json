@@ -22,6 +22,29 @@
  },
  {
   "podcast": "ai-daily-brief",
+  "date": "2026-11-13",
+  "title": "Washington Is Taking Control of AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "policy",
+   "infrastructure",
+   "funding-markets",
+   "open-weights"
+  ],
+  "featured": [
+   "Nvidia"
+  ],
+  "mentioned": [
+   "DeepSeek"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-13",
+  "path": "transcripts/ai-daily-brief/2026-11-13 - Washington Is Taking Control of AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
   "date": "2026-11-12",
   "title": "Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.",
   "guests": null,
