@@ -1,5 +1,30 @@
 [
  {
+  "podcast": "how-i-ai",
+  "date": "2026-11-16",
+  "title": "How I fight token fraud as a solo founder",
+  "guests": null,
+  "format": "tutorial",
+  "level": 2,
+  "length": "00:38:49",
+  "categories": [
+   "agents",
+   "model-strategy"
+  ],
+  "featured": [
+   "ChatPRD",
+   "MCP"
+  ],
+  "mentioned": [
+   "Jev",
+   "Vercel AI Gateway",
+   "Claude Opus",
+   "OpenAI Codex"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-I-fight-token-fraud-as-a-solo-founder-e3s9euc",
+  "path": "transcripts/how-i-ai/2026-11-16 - How I fight token fraud as a solo founder.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-11-15",
   "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
@@ -24,6 +49,30 @@
   ],
   "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
   "path": "transcripts/lennys-podcast/2026-11-15 - Meta’s Muse- How we launched the most successful consumer product this year - Mona Sarantakos.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-15",
+  "title": "7 Things AI-Native Companies Do Differently",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:22:00",
+  "categories": [
+   "agents",
+   "work",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Slack",
+   "OpenClaw",
+   "Warp",
+   "Claude Code",
+   "OpenAI Codex"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-15",
+  "path": "transcripts/ai-daily-brief/2026-11-15 - 7 Things AI-Native Companies Do Differently.md"
  },
  {
   "podcast": "practical-ai",
