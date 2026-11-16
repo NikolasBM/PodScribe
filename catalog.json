@@ -1,5 +1,31 @@
 [
  {
+  "podcast": "lennys-podcast",
+  "date": "2026-11-15",
+  "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+  "guests": [
+   "Mona Sarantakos"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:26:52",
+  "categories": [
+   "consumer",
+   "agents",
+   "safety-security"
+  ],
+  "featured": [
+   "Meta Muse",
+   "Meta",
+   "OpenClaw"
+  ],
+  "mentioned": [
+   "Muse Spark"
+  ],
+  "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+  "path": "transcripts/lennys-podcast/2026-11-15 - Meta’s Muse- How we launched the most successful consumer product this year - Mona Sarantakos.md"
+ },
+ {
   "podcast": "practical-ai",
   "date": "2026-11-13",
   "title": "Implementing Federated Learning to enhance Agentic AI",
