@@ -25,6 +25,35 @@
   "path": "transcripts/how-i-ai/2026-11-16 - How I fight token fraud as a solo founder.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-16",
+  "title": "5 Questions That Could Reshape AI",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:28:00",
+  "categories": [
+   "funding-markets",
+   "policy",
+   "infrastructure",
+   "models"
+  ],
+  "featured": [
+   "Anthropic",
+   "Nvidia"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Qwen",
+   "Claude Opus",
+   "Kimi",
+   "Claude Fable",
+   "Gemini"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-16",
+  "path": "transcripts/ai-daily-brief/2026-11-16 - 5 Questions That Could Reshape AI.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-11-15",
   "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
