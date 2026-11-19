@@ -1,5 +1,54 @@
 [
  {
+  "podcast": "practical-ai",
+  "date": "2026-11-19",
+  "title": "Building Human-Centered AI",
+  "guests": [
+   "Dr. Gautham Pallapa"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "00:44:19",
+  "categories": [
+   "work",
+   "agents",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [
+   "vibe coding"
+  ],
+  "url": "https://share.transistor.fm/s/bb4dad17",
+  "path": "transcripts/practical-ai/2026-11-19 - Building Human-Centered AI.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-18",
+  "title": "Why the AI Kids Hate Astra 6.2",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:25:00",
+  "categories": [
+   "models",
+   "coding",
+   "funding-markets",
+   "agents"
+  ],
+  "featured": [
+   "OpenAI",
+   "Nvidia",
+   "agent harness"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "Claude Fable",
+   "Claude Opus"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-18",
+  "path": "transcripts/ai-daily-brief/2026-11-18 - Why the AI Kids Hate Astra 6.2.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-11-17",
   "title": "How Business AI Use is Changing",
