@@ -1,5 +1,28 @@
 [
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-17",
+  "title": "How Business AI Use is Changing",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:24:00",
+  "categories": [
+   "enterprise",
+   "model-strategy",
+   "policy",
+   "infrastructure"
+  ],
+  "featured": [
+   "Nvidia"
+  ],
+  "mentioned": [
+   "Claude Opus"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-17",
+  "path": "transcripts/ai-daily-brief/2026-11-17 - How Business AI Use is Changing.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-11-16",
   "title": "How I fight token fraud as a solo founder",
