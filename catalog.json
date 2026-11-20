@@ -23,6 +23,36 @@
  },
  {
   "podcast": "ai-daily-brief",
+  "date": "2026-11-19",
+  "title": "The 10 Biggest Days in AI History",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:26:00",
+  "categories": [
+   "agents",
+   "policy",
+   "funding-markets",
+   "models"
+  ],
+  "featured": [
+   "Anthropic",
+   "OpenAI",
+   "Claude",
+   "ChatGPT",
+   "OpenClaw"
+  ],
+  "mentioned": [
+   "Claude Mythos",
+   "DeepSeek",
+   "Claude Code",
+   "Claude Fable"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-19",
+  "path": "transcripts/ai-daily-brief/2026-11-19 - The 10 Biggest Days in AI History.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
   "date": "2026-11-18",
   "title": "Why the AI Kids Hate Astra 6.2",
   "guests": null,
