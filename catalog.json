@@ -1,5 +1,37 @@
 [
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-20",
+  "title": "Why You Should Try Gemini Neon (Even if You Love Fable)",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 2,
+  "length": "00:26:00",
+  "categories": [
+   "models",
+   "funding-markets",
+   "coding",
+   "policy"
+  ],
+  "featured": [
+   "Anthropic",
+   "Google",
+   "Gemini"
+  ],
+  "mentioned": [
+   "GPT-6",
+   "ChatGPT",
+   "Claude",
+   "Claude Opus",
+   "agent harness",
+   "Claude Fable",
+   "Google Antigravity",
+   "computer use"
+  ],
+  "url": "https://aidailybrief.ai/e/2026-11-20",
+  "path": "transcripts/ai-daily-brief/2026-11-20 - Why You Should Try Gemini Neon (Even if You Love Fable).md"
+ },
+ {
   "podcast": "practical-ai",
   "date": "2026-11-19",
   "title": "Building Human-Centered AI",
