@@ -1,5 +1,32 @@
 [
  {
+  "podcast": "how-i-ai",
+  "date": "2026-11-23",
+  "title": "OpenClaw for executives: Automate every 1% annoyance",
+  "guests": null,
+  "format": "interview",
+  "level": 2,
+  "length": "00:30:56",
+  "categories": [
+   "agents",
+   "consumer",
+   "coding"
+  ],
+  "featured": [
+   "OpenClaw"
+  ],
+  "mentioned": [
+   "Slack",
+   "OpenAI Codex",
+   "Claude Code",
+   "GLM",
+   "Claude",
+   "Claude Opus"
+  ],
+  "url": "https://podcasters.spotify.com/pod/show/pen-name/episodes/OpenClaw-for-executives-Automate-every-1-annoyance-e3sl7sp",
+  "path": "transcripts/how-i-ai/2026-11-23 - OpenClaw for executives- Automate every 1% annoyance.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-11-22",
   "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
@@ -22,6 +49,27 @@
   ],
   "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
   "path": "transcripts/lennys-podcast/2026-11-22 - First principles- What it takes to be a great product manager in the AI era - Sherif Mansour.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-22",
+  "title": "When AI Labs Rival Nations",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:24:00",
+  "categories": [
+   "work",
+   "agents",
+   "safety-security",
+   "coding"
+  ],
+  "featured": [
+   "Anthropic"
+  ],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-11-22",
+  "path": "transcripts/ai-daily-brief/2026-11-22 - When AI Labs Rival Nations.md"
  },
  {
   "podcast": "ai-daily-brief",
