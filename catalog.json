@@ -1,5 +1,29 @@
 [
  {
+  "podcast": "lennys-podcast",
+  "date": "2026-11-22",
+  "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+  "guests": [
+   "Sherif Mansour"
+  ],
+  "format": "interview",
+  "level": 1,
+  "length": "01:21:12",
+  "categories": [
+   "work",
+   "agents",
+   "coding"
+  ],
+  "featured": [],
+  "mentioned": [
+   "Gemini",
+   "MCP",
+   "vibe coding"
+  ],
+  "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+  "path": "transcripts/lennys-podcast/2026-11-22 - First principles- What it takes to be a great product manager in the AI era - Sherif Mansour.md"
+ },
+ {
   "podcast": "ai-daily-brief",
   "date": "2026-11-20",
   "title": "Why You Should Try Gemini Neon (Even if You Love Fable)",
