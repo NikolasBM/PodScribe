@@ -27,6 +27,26 @@
   "path": "transcripts/how-i-ai/2026-11-23 - OpenClaw for executives- Automate every 1% annoyance.md"
  },
  {
+  "podcast": "ai-daily-brief",
+  "date": "2026-11-23",
+  "title": "Too Big to Fire: Jensen Huang Is Back as Nvidia CEO",
+  "guests": null,
+  "format": "news-analysis",
+  "level": 1,
+  "length": "00:24:00",
+  "categories": [
+   "policy",
+   "funding-markets",
+   "infrastructure"
+  ],
+  "featured": [
+   "Nvidia"
+  ],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-11-23",
+  "path": "transcripts/ai-daily-brief/2026-11-23 - Too Big to Fire- Jensen Huang Is Back as Nvidia CEO.md"
+ },
+ {
   "podcast": "lennys-podcast",
   "date": "2026-11-22",
   "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
