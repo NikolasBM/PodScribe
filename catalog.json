@@ -1,5 +1,22 @@
 [
  {
+  "podcast": "practical-ai",
+  "date": "2026-11-26",
+  "title": "Humans in a Post-Human World",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:55:50",
+  "categories": [
+   "work",
+   "agents"
+  ],
+  "featured": [],
+  "mentioned": [],
+  "url": "https://share.transistor.fm/s/45701c1a",
+  "path": "transcripts/practical-ai/2026-11-26 - Humans in a Post-Human World.md"
+ },
+ {
   "podcast": "how-i-ai",
   "date": "2026-11-25",
   "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
