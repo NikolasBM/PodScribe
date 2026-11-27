@@ -51,6 +51,27 @@
  },
  {
   "podcast": "ai-daily-brief",
+  "date": "2026-11-25",
+  "title": "How to Talk About AI at Thanksgiving",
+  "guests": null,
+  "format": "commentary",
+  "level": 1,
+  "length": "00:27:00",
+  "categories": [
+   "work",
+   "policy",
+   "safety-security",
+   "infrastructure"
+  ],
+  "featured": [
+   "ChatGPT"
+  ],
+  "mentioned": [],
+  "url": "https://aidailybrief.ai/e/2026-11-25",
+  "path": "transcripts/ai-daily-brief/2026-11-25 - How to Talk About AI at Thanksgiving.md"
+ },
+ {
+  "podcast": "ai-daily-brief",
   "date": "2026-11-24",
   "title": "AI Just Made History in the Middle of a Meltdown",
   "guests": null,
